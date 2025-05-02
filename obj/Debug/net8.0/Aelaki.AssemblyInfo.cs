@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Aelaki")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6affea579cbe3ce661097bb2e94a0aecc5cae369")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ec39f8e899a9562383fa33c1031a4c0c5d836fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("Aelaki")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aelaki")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
