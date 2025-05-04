@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Immanuelle\\source\\repos\\Aelaki\\Aelaki\\Aelaki.csproj": {}
+    "C:\\Users\\Immanuelle\\source\\repos\\Aelaki\\Aelaki\\Aelaki\\Aelaki.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Immanuelle\\source\\repos\\Aelaki\\Aelaki\\Aelaki.csproj": {
+    "C:\\Users\\Immanuelle\\source\\repos\\Aelaki\\Aelaki\\Aelaki\\Aelaki.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Immanuelle\\source\\repos\\Aelaki\\Aelaki\\Aelaki.csproj",
+        "projectUniqueName": "C:\\Users\\Immanuelle\\source\\repos\\Aelaki\\Aelaki\\Aelaki\\Aelaki.csproj",
         "projectName": "Aelaki",
-        "projectPath": "C:\\Users\\Immanuelle\\source\\repos\\Aelaki\\Aelaki\\Aelaki.csproj",
+        "projectPath": "C:\\Users\\Immanuelle\\source\\repos\\Aelaki\\Aelaki\\Aelaki\\Aelaki.csproj",
         "packagesPath": "C:\\Users\\Immanuelle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Immanuelle\\source\\repos\\Aelaki\\Aelaki\\obj\\",
+        "outputPath": "C:\\Users\\Immanuelle\\source\\repos\\Aelaki\\Aelaki\\Aelaki\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
