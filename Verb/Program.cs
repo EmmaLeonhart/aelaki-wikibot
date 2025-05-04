@@ -15,12 +15,12 @@ class Program
             ("Telic Imperfect"    , "1-a-2-3-o-r"),
             ("Atelic Perfect"     , "1-a-2-e-3-e-r"),
             ("Atelic Imperfect"   , "1-a-2-o-3-o-r"),
-            ("Telic Perfect (n)"  , "kandeder"),             // literal
+            ("Telic Perfect (n)"  , "1-a-2-3-e-3-e-4"),             // literal  
             ("Habitual Imperfect" , "1-a-2-3-o-3-o-4"),
-            ("Telic Perfect**"    , "kandender"),            // literal
-            ("Gnomic Imperfect"   , "1-a-2-3-a-2-3-o-4"),
-            ("Atelic Perfect**"   , "kamedemeder"),          // literal
-            ("Atelic Imperfect**" , "kamodomodor"),          // literal
+            ("Telic Perfect**"    , "1-a-2-3-e-2-3-e-4"),            // literal 
+            ("Gnomic Imperfect"   , "1-a-2-3-o-2-3-o-4"),
+            ("Atelic Perfect**"   , "1-a-2-e-3-e-2-e-3-e-4"),          // literal 
+            ("Atelic Imperfect**" , "1-a-2-o-3-o-2-o-3-o-4"),          // literal  
             ("Imperative"         , "alakamadro"),           // literal
         };
 
