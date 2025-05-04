@@ -6,32 +6,35 @@ class Program
 {
     static void Main()
     {
-        // 1) Your 4-consonant root:
-        string root = "kmdr";
+        string root = "kmdr";   // your 4-consonant root
 
-        // 2) List your templates here:
-        var templates = new Dictionary<string, string>
+        // name → patternOrLiteral
+        var forms = new List<(string name, string pat)>()
         {
-            // key = a name/comment, value = the dash-pattern
-            {"Telic Perfect",       "1-a-2-3-e-r"},
-            {"Telic Imperfect",     "1-a-2-3-o-r"},
-            {"Atelic Perfect",      "1-a-2-e-3-e-r"},
-            {"Atelic Imperfect",    "1-a-2-o-3-o-r"},
-            // add more here as needed...
+            ("Telic Perfect"      , "1-a-2-3-e-r"),
+            ("Telic Imperfect"    , "1-a-2-3-o-r"),
+            ("Atelic Perfect"     , "1-a-2-e-3-e-r"),
+            ("Atelic Imperfect"   , "1-a-2-o-3-o-r"),
+            ("Telic Perfect (n)"  , "kandeder"),             // literal
+            ("Habitual Imperfect" , "1-a-2-3-o-3-o-4"),
+            ("Telic Perfect**"    , "kandender"),            // literal
+            ("Gnomic Imperfect"   , "1-a-2-3-a-2-3-o-4"),
+            ("Atelic Perfect**"   , "kamedemeder"),          // literal
+            ("Atelic Imperfect**" , "kamodomodor"),          // literal
+            ("Imperative"         , "alakamadro"),           // literal
         };
 
-        // 3) Generate and print
-        Console.WriteLine($"Root = {root}\n");
-        foreach (var kv in templates)
+        foreach (var (name, pat) in forms)
         {
-            string name = kv.Key;
-            string pattern = kv.Value;
-            string form = GenerateFromPattern(root, pattern);
-            Console.WriteLine($"{name.PadRight(15)} => {form}");
+            string output = pat.Contains("-")
+                ? GenerateFromPattern(root, pat)
+                : pat;
+
+            Console.WriteLine($"{name.PadRight(20)} → {output}");
         }
     }
 
-    // Maps "1"→root[0], "2"→root[1], etc.; anything else is emitted literally.
+    // Reuses the same dash-parser: 1→k, 2→m, etc.
     static string GenerateFromPattern(string root, string pattern)
     {
         var sb = new StringBuilder();
@@ -39,13 +42,9 @@ class Program
         foreach (var t in tokens)
         {
             if (int.TryParse(t, out int idx) && idx >= 1 && idx <= root.Length)
-            {
                 sb.Append(root[idx - 1]);
-            }
             else
-            {
                 sb.Append(t);
-            }
         }
         return sb.ToString();
     }
