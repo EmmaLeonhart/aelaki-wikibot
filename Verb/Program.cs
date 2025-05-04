@@ -21,7 +21,7 @@ class Program
             ("Gnomic Imperfect"   , "1-a-2-3-o-2-3-o-4"),
             ("Atelic Perfect**"   , "1-a-2-e-3-e-2-e-3-e-4"),          // literal 
             ("Atelic Imperfect**" , "1-a-2-o-3-o-2-o-3-o-4"),          // literal  
-            ("Imperative"         , "alakamadro"),           // literal
+            ("Imperative"         , "ala-1-a-2-a-3-4-o"),           // literal 
         };
 
         foreach (var (name, pat) in forms)
