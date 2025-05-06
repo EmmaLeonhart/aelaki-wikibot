@@ -91,7 +91,7 @@ namespace AelakiNounGen
             if (inalienable)
                 return $"{C1}{GV}{PC}{rest}";
             else
-                return $"{GV}{PC}{rest}";
+                return $"{GV}{PC}{C1}{rest}";
         }
 
         // Small IPA helper
