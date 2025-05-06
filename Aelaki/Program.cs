@@ -73,8 +73,8 @@ namespace AelakiNounGen
             // get the default (4th person) noun form
             string baseNoun = BuildForm(root, g, n, Person.Fourth);
             char GV = VowelSlots(g).end;
-            string suff = inalienable ? $"{GV}ng" : $"{GV}n";
-            return $"kae-{baseNoun}-{suff}";
+            string suff = inalienable ? $"ng" : $"n";
+            return $"{baseNoun}{suff}";
         }
 
         // Build the **possessed** (head) NP
