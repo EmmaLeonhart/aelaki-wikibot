@@ -31,3 +31,8 @@ Aelaki/obj/Noun.csproj.nuget.dgspec.json
 Aelaki/obj/Noun.csproj.nuget.g.props
 Aelaki/obj/Noun.csproj.nuget.g.targets
 *.json
+/General console/obj
+Aelaki2 no chatGPT/obj/Debug/net8.0/Aelaki2 no chatGPT.AssemblyInfo.cs
+Aelaki2 no chatGPT/obj/Debug/net8.0/Aelaki2 no chatGPT.AssemblyInfoInputs.cache
+Verb/obj/Debug/net8.0/Verb.AssemblyInfo.cs
+Verb/obj/Debug/net8.0/Verb.AssemblyInfoInputs.cache
