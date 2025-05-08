@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aelaki2 no chatGPT", "Aelak
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verb", "Verb\Verb.csproj", "{8617B237-6D0C-46D3-820A-834C96D8FC6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "General console", "General console\General console.csproj", "{A5CFFECB-85D8-4210-A3DA-85A24B896BDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8617B237-6D0C-46D3-820A-834C96D8FC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8617B237-6D0C-46D3-820A-834C96D8FC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8617B237-6D0C-46D3-820A-834C96D8FC6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5CFFECB-85D8-4210-A3DA-85A24B896BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5CFFECB-85D8-4210-A3DA-85A24B896BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5CFFECB-85D8-4210-A3DA-85A24B896BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5CFFECB-85D8-4210-A3DA-85A24B896BDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
