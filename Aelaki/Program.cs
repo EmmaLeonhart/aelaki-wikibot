@@ -114,7 +114,7 @@ namespace AelakiNounGen
             string[] root = new[] { "k", "m", "d", "r" };
 
             var genders = new[] { Gender.Child, Gender.Feminine, Gender.Masculine };
-            var numbers = new[] { Number.Singular, Number.Plural, Number.Collective };
+            var numbers = new[] { Number.Singular, Number.Plural, Number.Collective, Number.Zero };
             var persons = new[] { Person.First, Person.Second, Person.Third, Person.Fourth };
 
             // 1) Non-genitive paradigms
