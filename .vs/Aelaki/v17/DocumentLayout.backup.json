@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Immanuelle\\source\\repos\\Aelaki\\Aelaki\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8617B237-6D0C-46D3-820A-834C96D8FC6A}|Verb\\Verb.csproj|c:\\users\\immanuelle\\source\\repos\\aelaki\\aelaki\\verb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8617B237-6D0C-46D3-820A-834C96D8FC6A}|Verb\\Verb.csproj|solutionrelative:verb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BFAC922C-9D6C-47C3-B235-9F29780873BC}|Aelaki\\Noun.csproj|c:\\users\\immanuelle\\source\\repos\\aelaki\\aelaki\\aelaki\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFAC922C-9D6C-47C3-B235-9F29780873BC}|Aelaki\\Noun.csproj|solutionrelative:aelaki\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFAC922C-9D6C-47C3-B235-9F29780873BC}|Aelaki\\Noun.csproj|c:\\users\\immanuelle\\source\\repos\\aelaki\\aelaki\\aelaki\\noun.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BFAC922C-9D6C-47C3-B235-9F29780873BC}|Aelaki\\Noun.csproj|solutionrelative:aelaki\\noun.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8617B237-6D0C-46D3-820A-834C96D8FC6A}|Verb\\Verb.csproj|c:\\users\\immanuelle\\source\\repos\\aelaki\\aelaki\\verb\\verb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{8617B237-6D0C-46D3-820A-834C96D8FC6A}|Verb\\Verb.csproj|solutionrelative:verb\\verb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Noun.csproj",
-              "DocumentMoniker": "C:\\Users\\Immanuelle\\source\\repos\\Aelaki\\Aelaki\\Aelaki\\Noun.csproj",
-              "RelativeDocumentMoniker": "Aelaki\\Noun.csproj",
-              "ToolTip": "C:\\Users\\Immanuelle\\source\\repos\\Aelaki\\Aelaki\\Aelaki\\Noun.csproj",
-              "RelativeToolTip": "Aelaki\\Noun.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-06T06:39:23.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Immanuelle\\source\\repos\\Aelaki\\Aelaki\\Aelaki\\Program.cs",
               "RelativeDocumentMoniker": "Aelaki\\Program.cs",
               "ToolTip": "C:\\Users\\Immanuelle\\source\\repos\\Aelaki\\Aelaki\\Aelaki\\Program.cs",
               "RelativeToolTip": "Aelaki\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAAGoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-04T03:27:13.67Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Immanuelle\\source\\repos\\Aelaki\\Aelaki\\Verb\\Program.cs",
-              "RelativeDocumentMoniker": "Verb\\Program.cs",
-              "ToolTip": "C:\\Users\\Immanuelle\\source\\repos\\Aelaki\\Aelaki\\Verb\\Program.cs",
-              "RelativeToolTip": "Verb\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T03:02:36.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Verb.csproj",
-              "DocumentMoniker": "C:\\Users\\Immanuelle\\source\\repos\\Aelaki\\Aelaki\\Verb\\Verb.csproj",
-              "RelativeDocumentMoniker": "Verb\\Verb.csproj",
-              "ToolTip": "C:\\Users\\Immanuelle\\source\\repos\\Aelaki\\Aelaki\\Verb\\Verb.csproj",
-              "RelativeToolTip": "Verb\\Verb.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-04T03:02:32.838Z"
             }
           ]
         }
