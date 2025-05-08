@@ -5,7 +5,7 @@ using static System.Console;
 namespace AelakiNounGen
 {
     enum Gender { Child, Feminine, Masculine }
-    enum Number { Singular, Plural, Collective }
+    enum Number { Singular, Plural, Collective, Zero }
     enum Person { First, Second, Third, Fourth }
 
     class Program
@@ -54,6 +54,11 @@ namespace AelakiNounGen
             string plural = $"{C1}a{C2}u{C2}u{C3}{vm}{C4}{ve}";
             if (n == Number.Plural)
                 return plural;
+            else if (n == Number.Zero)
+                return singular
+                    .Replace("u", "uf")
+                    .Replace("o", "of")
+                    .Replace("ə", "əf");
 
             // Collective: from plural, shift u→i, o→e, ə→æ
             return singular
