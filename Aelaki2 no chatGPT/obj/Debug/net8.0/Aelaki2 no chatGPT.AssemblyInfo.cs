@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Aelaki2 no chatGPT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11bfa0c3128648111ab6333f3de78c73b94bcd96")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4664106ca9be5b993d90a60b6b6ea95c063cf5b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Aelaki2 no chatGPT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aelaki2 no chatGPT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
