@@ -48,6 +48,10 @@ namespace General_console
                 int dozens = Value / 12;
                 int rem = Value % 12;
                 string part = Units12[dozens] + Units12[12]; // e.g. BalNger
+                if (dozens == 1)
+                {
+                    part = Units12[12];
+                }
                 return rem == 0
                     ? part
                     : part + Units12[rem];
@@ -115,6 +119,9 @@ namespace General_console
                 int dozens = Value / 12;
                 int rem = Value % 12;
                 string head = Units12[dozens] + Units12[12]; // e.g. BalNger
+                if (dozens == 1) { 
+                head = Units12[12];
+                }
                 return head + Ordinals12[rem];
             }
 
