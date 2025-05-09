@@ -259,7 +259,7 @@ namespace General_console
             Gender og = @object.Gender;
             Plurality op = @object.Plurality;
             Person oper = @object.Person;
-            Verb.Conjugate(Root, sg, sp, sper, op, oper);
+            Verb.AllConjugations(Root, sg, sp, sper, op, oper);
             throw new NotImplementedException();
         }
 
@@ -367,14 +367,14 @@ namespace General_console
 
                 var Verb = new VerbPhrase("k", "m", "d", "r");
 
-                Verb.AddAdverb(new Adverb("k", "m", "d", "r"));
+                //Verb.AddAdverb(new Adverb("k", "m", "d", "r"));
 
 
                 var clause = new Clause { Subject = subj, Object = obj, Verb = Verb };
 
                 Console.WriteLine("Aelaki sentence:");
                 Console.WriteLine(subj.ToString());
-                //Console.WriteLine(clause);           // prints fully inflected form
+                Console.WriteLine(clause);           // prints fully inflected form
             }
         }
 
