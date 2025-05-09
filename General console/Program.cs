@@ -114,6 +114,13 @@ namespace General_console
 
         public string Surface => Dropped ? "" :
              NounGenerator.Build(Root, Gender, Number, Person);
+
+        public List<Adjective> Adjectives { get; private set; }
+
+        internal void AddAdjective(Adjective adjective)
+        {
+            this.Adjectives.Add(adjective);
+        }
     }
 
     class VerbPhrase
@@ -164,6 +171,9 @@ namespace General_console
             var obj = new NounPhrase(Gender.Child, Number.Singular, Person.First, "b", "s", "l");
 
             var ind = new NounPhrase(Gender.Child, Number.Singular, Person.First, "k", "m", "d", "r");
+
+
+            subj.AddAdjective(new Adjective("bsl"));
 
             // object NP  “tree”  (root b-s-l, fem sg 4th person)
             //var obj = new NounPhrase
