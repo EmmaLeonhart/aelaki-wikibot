@@ -27,7 +27,7 @@ namespace General_console
     public enum Person { First = 1, Second, Third, Fourth }
     public enum Gender { Child, Feminine, Masculine }
     public enum Plurality { Singular, Plural, Collective, Zero }
-    public enum Evid { None, Present, Past, Hearsay, Inferential }
+    //public enum Evid { None, Present, Past, Hearsay, Inferential }
     public enum VerbType { Transitive, Active, Stative }
 
     /* -----------------------------------------------------------
@@ -51,7 +51,7 @@ namespace General_console
     }
 
     /* -----------------------------------------------------------
-     *  3.  Verb generator (single template for demo)
+     *  3.  TransitiveVerb generator (single template for demo)
      *      – Telic Imperfect stem = 1-a-2-3-o-4
      * ----------------------------------------------------------- */
     public static class VerbGenerator
@@ -285,7 +285,7 @@ namespace General_console
             Gender og = @object.Gender;
             Plurality op = @object.Plurality;
             Person oper = @object.Person;
-            return Verb.Conjugate(Root, sg, sp, sper, og, op, oper);
+            return TransitiveVerb.Conjugate(Root, sg, sp, sper, og, op, oper);
             //throw new NotImplementedException();
         }
 
@@ -371,7 +371,9 @@ namespace General_console
                 subj.AddPosessor("y", "z", "g", "t", Gender.Feminine, Person.Fourth, Plurality.Singular, alienable);
 
 
-                //subj.AddAdjective(new StativeAdjective("b", "s", "l"));
+
+
+                subj.AddAdjective(new StativeAdjective("b", "s", "l"));
 
                 // object NP  “tree”  (root b-s-l, fem sg 4th person)
                 //var obj = new NounPhrase
@@ -398,7 +400,7 @@ namespace General_console
 
                 var Verb = new VerbPhrase("k", "m", "d", "r");
 
-                //Verb.AddAdverb(new Adverb("k", "m", "d", "r"));
+                //TransitiveVerb.AddAdverb(new Adverb("k", "m", "d", "r"));
 
 
                 var clause = new Clause { Subject = subj, Object = obj, Verb = Verb };
