@@ -162,4 +162,65 @@ class Verb
         }
         return sb.ToString();
     }
+
+
+    //-----------------------------------------------------------------
+    //  IterateAllVariants
+    //  ------------------
+    //  Loops over:
+    //    • every base‐template in  forms
+    //    • every evidential in     evidMap   (skips Imperative combinations)
+    //    • every subject person (1-4), gender, number
+    //    • every object  person (1-4), gender, number
+    //  and prints the fully-inflected verb.
+    //
+    //  Warning: 4 persons × 3 genders × 4 numbers  ⇒ 48 possibilities
+    //            for subject  × 48 for object      ⇒ 2 304
+    //            × ~40 stems/evidentials … ≈ 90 000 lines.
+    //
+    //  Adjust the loops (or add filters) if that’s too large.
+    //-----------------------------------------------------------------
+    static void IterateAllVariants(
+            string root,
+            List<(string name, string pat)> forms,
+            Dictionary<Evid, (string hv, string suff, string lbl)> evidMap)
+    {
+        foreach (var (stemName, pat) in forms)
+        {
+            foreach (var ev in evidMap)
+            {
+                // skip evidential stacking on Imperative
+                if (stemName == "Imperative" && ev.Key != Evid.None) continue;
+
+                // 1) build bare stem (replace v with helper vowel, add suffix)
+                string stem = GenerateFromPattern(root, pat.Replace("v", ev.Value.hv))
+                              + ev.Value.suff;
+                string stemLabel = ev.Key == Evid.None
+                     ? stemName
+                     : $"{stemName} ({ev.Value.lbl})";
+
+                // 2) loop over subject & object feature sets
+                foreach (int sPers in new[] { 1, 2, 3, 4 })
+                    foreach (Gen sGen in Enum.GetValues(typeof(Gen)))
+                        foreach (Num sNum in Enum.GetValues(typeof(Num)))
+                            foreach (int oPers in new[] { 1, 2, 3, 4 })
+                                foreach (Gen oGen in Enum.GetValues(typeof(Gen)))
+                                    foreach (Num oNum in Enum.GetValues(typeof(Num)))
+                                    {
+                                        // subjects probably never use Zero; skip if you wish
+                                        if (sNum == Num.Zero) continue;
+
+                                        string full = AddPersonMarkers(stem,
+                                                          sPers, sGen, sNum,
+                                                          oPers, oGen, oNum);
+
+                                        Console.WriteLine(
+                                            $"{stemLabel,-35} | S:{sPers}-{sGen}-{sNum}  O:{oPers}-{oGen}-{oNum}  →  {full}");
+                                    }
+            }
+        }
+    }
+
+
+
 }
