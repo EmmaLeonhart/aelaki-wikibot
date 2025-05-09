@@ -11,7 +11,7 @@ enum Evid { None, Present, Past, Hearsay, Inferential,
 
 class Verb
 {
-    static void Main()
+    static void OldMain()
     {
         string root = "kmdr";
         Console.OutputEncoding = System.Text.Encoding.UTF8;
