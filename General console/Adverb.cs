@@ -3,6 +3,7 @@ namespace General_console
 {
     internal class Adverb
     {
+        internal VerbPhrase verb;
         private string v1;
         private string v2;
         private string v3;

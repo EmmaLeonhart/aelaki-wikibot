@@ -12,11 +12,17 @@
             {
                 Console.WriteLine("=====" + i + "=====");
                 Console.WriteLine($"Cardinal: {i} → {n.text()} → {n.Cardinal()}");
+                //unmarked
                 Console.WriteLine($"Ordinal:  {AelakiNumber.ToEnglishOrdinal(i)} → {n.textOrdinal()} → {n.Ordinal()}");
+                //ordinal marker singular
                 Console.WriteLine($"Partitive:  {AelakiNumber.EnglishPartitive(i)} → {n.text()} → {n.Partitive()}");
+                //unmarked plural (plural is partitive anyways in Aelaki)
                 Console.WriteLine($"Fractional:  {AelakiNumber.EnglishFractionalUnit(i)} → {n.text()} → {n.AelakiFractionalUnit()}");
+                //unmarked fractional marker
                 Console.WriteLine($"Collective:  {AelakiNumber.EnglishCollective(i)} → {n.text()} → {n.Collective()}");
+                //unmarked collective umlaut
                 Console.WriteLine($"Adverbial:  {AelakiNumber.EnglishAdverbial(i)} → {n.text()} → {n.Adverbial()}");
+                //adverbial marker singular
             }
 
             return n;
