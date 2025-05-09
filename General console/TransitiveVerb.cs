@@ -9,7 +9,7 @@ enum Evid { None, Present, Past, Hearsay, Inferential,
     InferentialPresent, InferentialPast, InferentialHearsay
     }
 
-class Verb
+class TransitiveVerb
 {
     static void OldMain()
     {

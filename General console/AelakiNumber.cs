@@ -15,6 +15,7 @@
                 Console.WriteLine($"Ordinal:  {AelakiNumber.ToEnglishOrdinal(i)} → {n.textOrdinal()} → {n.Ordinal()}");
                 Console.WriteLine($"Partitive:  {AelakiNumber.EnglishPartitive(i)} → {n.text()} → {n.Partitive()}");
                 Console.WriteLine($"Collective:  {AelakiNumber.EnglishCollective(i)} → {n.text()} → {n.Collective()}");
+                Console.WriteLine($"Adverbial:  {AelakiNumber.EnglishAdverbial(i)} → {n.text()} → {n.Adverbial()}");
             }
 
             return n;
@@ -473,5 +474,32 @@
             return GenerateCardinal(nounPhrase.Gender, number);
             throw new NotImplementedException();
         }
+
+        /*───────────────────────────────────────────────────────────────*/
+        /*  EnglishAdverbial                                            */
+        /*  ----------------                                            */
+        /*  1 → “once”, 2 → “twice”, 3 → “thrice”, else “N times”       */
+        /*───────────────────────────────────────────────────────────────*/
+        public static string EnglishAdverbial(int n) => n switch
+        {
+            1 => "once",
+            2 => "twice",
+            3 => "thrice",
+            _ => $"{n} times"
+        };
+
+
+        /*───────────────────────────────────────────────────────────────*/
+        /*  Adverbial  (instance)                                       */
+        /*  -----------------------                                     */
+        /*  Aelaki rule:  Cardinal-form + the frequency suffix “-te”.   */
+        /*  e.g.  Bal  → Balte   (twice)                                */
+        /*        Nger → Ngerte (twelve times)                          */
+        /*───────────────────────────────────────────────────────────────*/
+        internal string Adverbial()
+        {
+            return Cardinal() + "te";
+        }
+
     }
 }
