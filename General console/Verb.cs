@@ -234,6 +234,8 @@ class Verb
         }
     }
 
-
-
+    internal static void Conjugate(string[] root, General_console.Gender sg, General_console.Plurality sp, General_console.Person sper, General_console.Plurality op, General_console.Person oper)
+    {
+        throw new NotImplementedException();
+    }
 }

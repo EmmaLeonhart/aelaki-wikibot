@@ -257,8 +257,9 @@ namespace General_console
             Plurality sp = subject.Plurality;
             Person sper = subject.Person;
             Gender og = @object.Gender;
-            Plurality plurality = @object.Plurality;
+            Plurality op = @object.Plurality;
             Person oper = @object.Person;
+            Verb.Conjugate(Root, sg, sp, sper, op, oper);
             throw new NotImplementedException();
         }
 
