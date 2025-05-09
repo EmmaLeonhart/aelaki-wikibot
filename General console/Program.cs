@@ -97,11 +97,16 @@ namespace General_console
 
         public override string ToString()
         {
+            string s = "";
             foreach (StativeAdjective a in FrontAdjectives)
             {
                 Console.WriteLine("Testing adjective");
                 Console.WriteLine(a.realize(this));
+                s += a.realize(this);
+                s += " ";
             }
+            Console.WriteLine("What we have so far: ");
+            Console.WriteLine(s);
             throw new NotImplementedException();
             return base.ToString();
         }
