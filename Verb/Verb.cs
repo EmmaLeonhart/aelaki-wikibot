@@ -96,6 +96,59 @@ class Verb
         }
     }
 
+    public enum Gen { Child, Feminine, Masculine }
+    public enum Num { Sing, Plur, Coll, Zero }
+
+    //--------------------------------------------------------------
+    //  AddPersonMarkers
+    //  -----------------
+    //  • core         : the verb stem already built (kamdor, kamdor-ro …)
+    //  • subjPers     : 1,2,3,4   (int or enum → th, j, sh, k)
+    //  • subjGen      : Child / Fem / Masc
+    //  • subjPlur     : false = singular, true = plural → double the prefix
+    //  • objPers      : 1,2,3,4
+    //  • objGen       : Child / Fem / Masc
+    //  • objPlur      : false / true  (zero/collective treated by GenNumber)
+    //
+    //  Returns: <prefix>(x2?) + core + <suffix>
+    //--------------------------------------------------------------
+    public static string AddPersonMarkers(string core,
+                                          int subjPers, Gen subjGen, Num subjPlur,
+                                          int objPers, Gen objGen, Num objPlur)
+    {
+        // 1. person consonants
+        string PersCons(int p) => p switch { 1 => "th", 2 => "j", 3 => "sh", 4 => "k", _ => "" };
+
+        // 2. gender-number vowels: singular / collective / zero
+        string GenVowel(Gen g, Num n) => (g, n) switch
+        {
+            (Gen.Child, Num.Sing) => "u",
+            (Gen.Child, Num.Coll) => "i",
+            (Gen.Child, Num.Zero) => "uf",   // child zero
+            (Gen.Feminine, Num.Sing) => "o",
+            (Gen.Feminine, Num.Coll) => "e",
+            (Gen.Feminine, Num.Zero) => "of",   // fem zero
+            (Gen.Masculine, Num.Sing) => "a",
+            (Gen.Masculine, Num.Coll) => "æ",
+            (Gen.Masculine, Num.Zero) => "af",
+            _ => ""
+        };
+
+        // 3. build subject prefix string  (C + V)
+        string sPref = PersCons(subjPers) + GenVowel(subjGen, subjPlur);
+        if (subjPlur == Num.Plur) sPref += sPref;       // double for plural subject
+
+        // 4. build object suffix C+V+V  ( “first instance GV without f if zero” )
+        string rawV = GenVowel(objGen, objPlur);
+        string firstV = rawV.EndsWith("f") ? rawV.TrimEnd('f') : rawV;
+        string suffix = firstV + PersCons(objPers) + rawV;
+
+        // 5. return combined word
+        return sPref + core + suffix;
+    }
+
+
+
     // dash-parser: "1"→root[0], "2"→root[1], etc.
     static string GenerateFromPattern(string root, string pattern)
     {
