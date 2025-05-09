@@ -112,14 +112,24 @@ class Verb
     //
     //  Returns: <prefix>(x2?) + core + <suffix>
     //--------------------------------------------------------------
+    //-----------------------------------------------------------------
+    //  AddPersonMarkers  (Zero now allowed)
+    //-----------------------------------------------------------------
     public static string AddPersonMarkers(string core,
-                                          int subjPers, Gen subjGen, Num subjPlur,
-                                          int objPers, Gen objGen, Num objPlur)
+                                          int subjPers, Gen subjGen, Num subjNum,
+                                          int objPers, Gen objGen, Num objNum)
     {
-        // 1. person consonants
-        string PersCons(int p) => p switch { 1 => "th", 2 => "j", 3 => "sh", 4 => "k", _ => "" };
+        // (1) person consonants
+        string PersCons(int p) => p switch
+        {
+            1 => "th",
+            2 => "j",
+            3 => "sh",
+            4 => "k",
+            _ => ""
+        };
 
-        // 2. gender-number vowels: singular / collective / zero
+        // (2) gender-number vowels
         string GenVowel(Gen g, Num n) => (g, n) switch
         {
             (Gen.Child, Num.Sing) => "u",
@@ -127,25 +137,28 @@ class Verb
             (Gen.Child, Num.Zero) => "uf",   // child zero
             (Gen.Feminine, Num.Sing) => "o",
             (Gen.Feminine, Num.Coll) => "e",
-            (Gen.Feminine, Num.Zero) => "of",   // fem zero
+            (Gen.Feminine, Num.Zero) => "of",
             (Gen.Masculine, Num.Sing) => "a",
             (Gen.Masculine, Num.Coll) => "æ",
             (Gen.Masculine, Num.Zero) => "af",
             _ => ""
         };
 
-        // 3. build subject prefix string  (C + V)
-        string sPref = PersCons(subjPers) + GenVowel(subjGen, subjPlur);
-        if (subjPlur == Num.Plur) sPref += sPref;       // double for plural subject
+        // (3) -------- subject prefix --------
+        string sRawV = GenVowel(subjGen, subjNum);
+        string sFirstV = sRawV.EndsWith("f") ? sRawV.TrimEnd('f') : sRawV; // remove “f” for zero
+        string sPref = PersCons(subjPers) + sFirstV;
+        if (subjNum == Num.Plur) sPref += sPref;           // double if plural subject
 
-        // 4. build object suffix C+V+V  ( “first instance GV without f if zero” )
-        string rawV = GenVowel(objGen, objPlur);
-        string firstV = rawV.EndsWith("f") ? rawV.TrimEnd('f') : rawV;
-        string suffix = firstV + PersCons(objPers) + rawV;
+        // (4) -------- object suffix --------
+        string oRawV = GenVowel(objGen, objNum);
+        string oFirstV = oRawV.EndsWith("f") ? oRawV.TrimEnd('f') : oRawV;
+        string suffix = oFirstV + PersCons(objPers) + oRawV;
 
-        // 5. return combined word
+        // (5) return full verb
         return sPref + core + suffix;
     }
+
 
 
 
