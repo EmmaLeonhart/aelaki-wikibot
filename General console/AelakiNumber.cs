@@ -328,12 +328,12 @@
                     "Partitives defined only for 1-15 (extend the table for higher numbers).");
         }
 
-        public enum Gender
-        {
-            Child,   // “u / ü” colour
-            Female,  // “o”  colour
-            Male     // baseline “a” colour
-        }
+        //public enum Gender
+        //{
+        //    Child,   // “u / ü” colour
+        //    Female,  // “o”  colour
+        //    Male     // baseline “a” colour
+        //}
 
         public static string GenerateCardinal(Gender g, int n)
         {
@@ -346,10 +346,10 @@
 
             switch (g)
             {
-                case Gender.Male:   // keep baseline
+                case Gender.Masculine:   // keep baseline
                     return baseForm;
 
-                case Gender.Female:
+                case Gender.Feminine:
                     targetA = 'o';
                     targetE = 'o';
                     break;
@@ -379,7 +379,7 @@
 
         public static string GenerateCollective(int n)
         {
-            return GenerateCardinal(Gender.Male, n)
+            return GenerateCardinal(Gender.Masculine, n)
                 .Replace("u", "i")
                 .Replace("ü", "ï")
                 .Replace("o", "e")
@@ -466,6 +466,12 @@
         internal void PrintAllNumbersUpTo60()
         {
             PrintAllNumbersUpTo60(this);
+        }
+
+        internal static string realizeAsAdjective(NounPhrase nounPhrase, AelakiNumber number)
+        {
+            return GenerateCardinal(nounPhrase.Gender, number);
+            throw new NotImplementedException();
         }
     }
 }
