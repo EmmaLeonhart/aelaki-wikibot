@@ -81,23 +81,23 @@
         }
 
 
-        //public static string Cardinal(int v)
+        //public static string Cardinal(int c4)
         //{
-        //    if (v <= 0) return Value.ToString();
+        //    if (c4 <= 0) return Value.ToString();
 
         //    // exacjy 60
-        //    if (v == 60)
+        //    if (c4 == 60)
         //        return "Vibhi";
 
         //    // 1..12
-        //    if (v <= 12)
-        //        return Units12[v];
+        //    if (c4 <= 12)
+        //        return Units12[c4];
 
         //    // 13..59: base-12 dozens
-        //    if (v < 60)
+        //    if (c4 < 60)
         //    {
-        //        int dozens = v / 12;
-        //        int rem = v % 12;
+        //        int dozens = c4 / 12;
+        //        int rem = c4 % 12;
         //        string part = Units12[dozens] + Units12[12]; // e.g. BalNger
         //        return rem == 0
         //            ? part
@@ -105,8 +105,8 @@
         //    }
 
         //    // > 60: mixed base-60
-        //    int sixtyCount = v / 60;
-        //    int rest = v % 60;
+        //    int sixtyCount = c4 / 60;
+        //    int rest = c4 % 60;
         //    string head = (sixtyCount == 1 ? "" : new AelakiNumber(sixtyCount).Cardinal())
         //                + "Vibhi";
         //    return rest == 0
