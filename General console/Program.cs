@@ -24,7 +24,7 @@ namespace General_console
      * ----------------------------------------------------------- */
     public enum Person { First = 1, Second, Third, Fourth }
     public enum Gender { Child, Feminine, Masculine }
-    public enum Number { Singular, Plural, Collective, Zero }
+    public enum Plurality { Singular, Plural, Collective, Zero }
     public enum Evid { None, Present, Past, Hearsay, Inferential }
 
     /* -----------------------------------------------------------
@@ -33,7 +33,7 @@ namespace General_console
     public static class NounGenerator
     {
         // C1-a-C2-(Gv1)-C3-(Gv2)  (only singular shown)
-        public static string Build(string root, Gender g, Number n, Person p)
+        public static string Build(string root, Gender g, Plurality n, Person p)
         {
             var C = root.ToCharArray();
             string v1 = g switch { Gender.Child => "u", Gender.Feminine => "o", _ => "a" };
@@ -54,8 +54,8 @@ namespace General_console
     public static class VerbGenerator
     {
         public static string Build(string root, Evid evid,
-                                   Person sPers, Gender sGen, Number sNum,
-                                   Person oPers, Gender oGen, Number oNum)
+                                   Person sPers, Gender sGen, Plurality sNum,
+                                   Person oPers, Gender oGen, Plurality oNum)
         {
             var C = root.ToCharArray();
             string stem = $"{C[0]}a{C[1]}{C[2]}o{C[3]}";   // kamdor for k-m-d-r
@@ -83,22 +83,27 @@ namespace General_console
         public string Root;
         public Person Person;
         public Gender Gender;
-        public Number Number;
+        public Plurality Plurality;
         public bool Dropped;
         private string c1;
         private string c2;
         private string c3;
         private string c4;
+        public List<StativeAdjective> FrontAdjectives { get; private set; }
 
-        public NounPhrase(Gender child, Number singular, Person first) //dropped constructor
+        public List<StativeAdjective> BackAdjectives { get; private set; }
+
+        public AelakiNumber Number { get; private set; }
+
+        public NounPhrase(Gender child, Plurality singular, Person first) //dropped constructor
         {
             this.Person = first;
             this.Gender = child;
-            this.Number = singular; 
+            this.Plurality = singular; 
             this.Dropped = true;
         }
 
-        public NounPhrase(Gender child, Number singular, Person first, string v1, string v2, string v3) : this(child, singular, first) //triconsonantal constructor
+        public NounPhrase(Gender child, Plurality singular, Person first, string v1, string v2, string v3) : this(child, singular, first) //triconsonantal constructor
         {
             this.c1 = v1;
             this.c2 = v2;
@@ -106,20 +111,54 @@ namespace General_console
             this.Dropped = false;
         }
 
-        public NounPhrase(Gender child, Number singular, Person first, string v1, string v2, string v3, string v) : this(child, singular, first, v1, v2, v3) //tetraconsonantal constructor
+        public NounPhrase(Gender child, Plurality singular, Person first, string v1, string v2, string v3, string v) : this(child, singular, first, v1, v2, v3) //tetraconsonantal constructor
         {
             this.c4 = v;
             this.Dropped = false;
         }
 
         public string Surface => Dropped ? "" :
-             NounGenerator.Build(Root, Gender, Number, Person);
+             NounGenerator.Build(Root, Gender, Plurality, Person);
 
-        public List<Adjective> Adjectives { get; private set; }
 
-        internal void AddAdjective(Adjective adjective)
+        internal void AddAdjective(StativeAdjective adjective)
         {
-            this.Adjectives.Add(adjective);
+            bool front = true;
+            this.AddAdjective(adjective, front);
+        }
+
+        private void AddAdjective(StativeAdjective adjective, bool front)
+        {
+            adjective.noun = this;
+            if (front) {
+                if (this.FrontAdjectives == null)
+                {
+                    this.FrontAdjectives = new List<StativeAdjective>();
+                }
+                this.FrontAdjectives.Add(adjective);
+            }
+            else
+            {
+                if (this.BackAdjectives == null)
+                {
+                    this.BackAdjectives = new List<StativeAdjective>();
+                }
+                this.BackAdjectives.Add(adjective);
+            }
+        }
+
+        internal void AddNumber(AelakiNumber number) { 
+
+            this.Number = number;
+            number.Noun = this;
+            if (this.Plurality == Plurality.Singular)
+            {
+                if (this.Number > 1)
+                {
+                    this.Plurality = Plurality.Plural;
+                }
+            }
+            this.FrontAdjectives.Add(StativeAdjective.AdaptNumber(number));
         }
     }
 
@@ -129,10 +168,10 @@ namespace General_console
         public Evid Evid;
         public Person SubjPerson;
         public Gender SubjGender;
-        public Number SubjNumber;
+        public Plurality SubjNumber;
         public Person ObjPerson;
         public Gender ObjGender;
-        public Number ObjNumber;
+        public Plurality ObjNumber;
 
         public string Surface => VerbGenerator.Build(
                 Root, Evid,
@@ -166,14 +205,14 @@ namespace General_console
             // subject NP (dropped – info lives on verb)
             //var subj = new NounPhrase { Dropped = true };
 
-            var subj = new NounPhrase(Gender.Child, Number.Singular, Person.First);
+            var subj = new NounPhrase(Gender.Child, Plurality.Singular, Person.First);
 
-            var obj = new NounPhrase(Gender.Child, Number.Singular, Person.First, "b", "s", "l");
+            var obj = new NounPhrase(Gender.Child, Plurality.Singular, Person.First, "b", "s", "l");
 
-            var ind = new NounPhrase(Gender.Child, Number.Singular, Person.First, "k", "m", "d", "r");
+            var ind = new NounPhrase(Gender.Child, Plurality.Singular, Person.First, "k", "m", "d", "r");
 
 
-            subj.AddAdjective(new Adjective("bsl"));
+            subj.AddAdjective(new StativeAdjective("b", "s", "l"));
 
             // object NP  “tree”  (root b-s-l, fem sg 4th person)
             //var obj = new NounPhrase
@@ -192,16 +231,16 @@ namespace General_console
                 Evid = Evid.Past,
                 SubjPerson = Person.Third,
                 SubjGender = Gender.Masculine,
-                SubjNumber = Number.Singular,
+                SubjNumber = Plurality.Singular,
                 ObjPerson = Person.Fourth,
                 ObjGender = Gender.Feminine,
-                ObjNumber = Number.Singular
+                ObjNumber = Plurality.Singular
             };
 
             var clause = new Clause { Subject = subj, Object = obj, Verb = vp };
 
             Console.WriteLine("Aelaki sentence:");
-            Console.WriteLine(clause);           // prints fully inflected form
+            //Console.WriteLine(clause);           // prints fully inflected form
         }
     }
 }

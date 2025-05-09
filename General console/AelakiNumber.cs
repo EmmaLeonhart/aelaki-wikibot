@@ -1,6 +1,6 @@
 ﻿namespace General_console
 {
-    class AelakiNumber
+    class AelakiNumber : Adjective
     {
 
 
@@ -20,6 +20,15 @@
             return n;
         }
 
+        // implicit cast from AelakiNumber → int
+        public static implicit operator int(AelakiNumber number)
+            => number.Value;
+
+        // (optional) implicit cast from int → AelakiNumber
+        public static implicit operator AelakiNumber(int value)
+            => new AelakiNumber(value);
+
+
         private static readonly string[] Units12 = {
             "", "Pan","Bal","Bhan","Mal","Tan",
             "Dal","Dhan","Nal","Kan","Gal","Ghan","Nger"
@@ -32,6 +41,11 @@
         };
 
         public int Value { get; private set; }
+
+        public string Type => "Number adjective";
+
+        public NounPhrase Noun { get; internal set; }
+
         public AelakiNumber(int v) => Value = v;
 
         // prefix ++
