@@ -234,12 +234,37 @@ namespace General_console
         private string c3;
         private string c4;
 
-        public override string ToString()
+        public string ToString(NounPhrase subject, NounPhrase @object)
         {
             string s = "";
+            if (this.AdverbList != null)
+            {
+                foreach (Adverb a in this.AdverbList)
+                {
+                    s += a.realize(this);
+                    s += " ";
+                }
+            }
+            s += this.realize(subject, @object);
             throw new NotImplementedException();
             return s;
             return base.ToString();
+        }
+
+        private string realize(NounPhrase subject, NounPhrase @object)
+        {
+            Gender sg = subject.Gender;
+            Plurality sp = subject.Plurality;
+            Person sper = subject.Person;
+            Gender og = @object.Gender;
+            Plurality plurality = @object.Plurality;
+            Person oper = @object.Person;
+            throw new NotImplementedException();
+        }
+
+        private string realize()
+        {
+            throw new NotImplementedException();
         }
 
         public VerbPhrase(string v1, string v2, string v3, string v4)
@@ -279,7 +304,7 @@ namespace General_console
             public override string ToString(){
                 string s = "";
                 s += Subject.ToString();
-                s += Verb.ToString();
+                s += Verb.ToString(Subject, Object);
                 s += Object.ToString();
                 return s;
             }
