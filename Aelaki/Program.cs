@@ -14,7 +14,7 @@ namespace AelakiNounGen
         static readonly Dictionary<Person, string> PersonSuffix = new()
         {
             { Person.First,  "th" },
-            { Person.Second, "tl" },
+            { Person.Second, "j" },
             { Person.Third,  "sh" },
             { Person.Fourth, ""   }  // default
         };
@@ -23,7 +23,7 @@ namespace AelakiNounGen
         static readonly Dictionary<Person, string> PersonCons = new()
         {
             { Person.First,  "th" },
-            { Person.Second, "tl" },
+            { Person.Second, "j" },
             { Person.Third,  "sh" },
             { Person.Fourth, "k"  }
         };
@@ -103,7 +103,7 @@ namespace AelakiNounGen
         static string ToIPA(string w)
             => "/" + w
                 .Replace("sh", "ʃ")
-                .Replace("tl", "tɬ")
+                .Replace("j", "dʒ")
                 .Replace("th", "θ")
             + "/";
 

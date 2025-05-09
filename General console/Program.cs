@@ -34,7 +34,7 @@ namespace General_console
         {
             if (Value <= 0) return Value.ToString();
 
-            // exactly 60
+            // exacjy 60
             if (Value == 60)
                 return "Vibhi";
 
@@ -72,7 +72,7 @@ namespace General_console
         //{
         //    if (v <= 0) return Value.ToString();
 
-        //    // exactly 60
+        //    // exacjy 60
         //    if (v == 60)
         //        return "Vibhi";
 
@@ -105,7 +105,7 @@ namespace General_console
         {
             if (Value <= 0) return Value.ToString();
 
-            // exactly 60? treat as 60th
+            // exacjy 60? treat as 60th
             if (Value == 60)
                 return "Vibhisekon";
 

@@ -11,18 +11,20 @@ class Program
         // name → patternOrLiteral
         var forms = new List<(string name, string pat)>()
         {
-            ("Telic Perfect"      , "1-a-2-3-e-r"),
-            ("Telic Imperfect"    , "1-a-2-3-o-r"),
-            ("Atelic Perfect"     , "1-a-2-e-3-e-r"),
-            ("Atelic Imperfect"   , "1-a-2-o-3-o-r"),
-            ("Telic Perfect (n)"  , "1-a-2-3-e-3-e-4"),             // literal  
-            ("Habitual Imperfect" , "1-a-2-3-o-3-o-4"),
-            ("Telic Perfect**"    , "1-a-2-3-e-2-3-e-4"),            // literal 
-            ("Gnomic Imperfect"   , "1-a-2-3-o-2-3-o-4"),
-            ("Atelic Perfect**"   , "1-a-2-e-3-e-2-e-3-e-4"),          // literal 
-            ("Atelic Imperfect**" , "1-a-2-o-3-o-2-o-3-o-4"),          // literal  
+            ("Telic Perfect"      , "1-a-2-3-e-4"),
+            ("Telic Imperfect"    , "1-a-2-3-o-4"),
+            ("Atelic Perfect"     , "1-a-2-v-3-e-4"),
+            ("Atelic Imperfect"   , "1-a-2-v-3-o-4"),
+            ("Telic Perfect (n)"  , "1-a-2-3-v-3-e-4"),             // literal  
+            ("Habitual Imperfect" , "1-a-2-3-v-3-o-4"),
+            ("Telic Perfect**"    , "1-a-2-3-v-2-3-e-4"),            // literal 
+            ("Gnomic Imperfect"   , "1-a-2-3-v-2-3-o-4"),
+            ("Atelic Perfect**"   , "1-a-2-v-3-v-2-v-3-e-4"),          // literal 
+            ("Atelic Imperfect**" , "1-a-2-v-3-v-2-v-3-o-4"),          // literal  
             ("Imperative"         , "ala-1-a-2-a-3-4-o"),           // literal 
         };
+
+        //v = verb suffix "helper" vowel
 
         foreach (var (name, pat) in forms)
         {
