@@ -8,7 +8,7 @@ namespace AelakiNounGen
     enum Number { Singular, Plural, Collective, Zero }
     enum Person { First, Second, Third, Fourth }
 
-    class Program
+    class Noun
     {
         // Person → noun-suffix map
         static readonly Dictionary<Person, string> PersonSuffix = new()
