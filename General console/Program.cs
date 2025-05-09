@@ -107,8 +107,16 @@ namespace General_console
             }
             Console.WriteLine("What we have so far: ");
             Console.WriteLine(s);
+            s += NounPronounciation();
+            Console.WriteLine("What we have so far: ");
+            Console.WriteLine(s);
             throw new NotImplementedException();
             return base.ToString();
+        }
+
+        private string NounPronounciation()
+        {
+            throw new NotImplementedException();
         }
 
         public NounPhrase(Gender child, Plurality singular, Person first) //dropped constructor
