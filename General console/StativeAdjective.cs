@@ -27,6 +27,11 @@ namespace General_console
         {
             return new NumberAdjective(number);
         }
+
+        internal virtual string realize(NounPhrase nounPhrase)
+        {
+            throw new NotImplementedException();
+        }
     }
 
     internal class NumberAdjective : StativeAdjective
@@ -40,6 +45,12 @@ namespace General_console
             : base(c1, c2, c3)
         {
             this.number = number;
+        }
+
+        internal override string realize(NounPhrase nounPhrase)
+        {
+            return AelakiNumber.realizeAsAdjective(nounPhrase, this.number);
+            throw new NotImplementedException();
         }
     }
 

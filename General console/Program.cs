@@ -95,6 +95,17 @@ namespace General_console
 
         public AelakiNumber Number { get; private set; }
 
+        public override string ToString()
+        {
+            foreach (StativeAdjective a in FrontAdjectives)
+            {
+                Console.WriteLine("Testing adjective");
+                Console.WriteLine(a.realize(this));
+            }
+            throw new NotImplementedException();
+            return base.ToString();
+        }
+
         public NounPhrase(Gender child, Plurality singular, Person first) //dropped constructor
         {
             this.Person = first;
@@ -147,6 +158,12 @@ namespace General_console
             }
         }
 
+        internal void AddNumber(int number)
+        {
+            AelakiNumber aelakiNumber = new AelakiNumber(number);
+            AddNumber(aelakiNumber);
+        }
+
         internal void AddNumber(AelakiNumber number) { 
 
             this.Number = number;
@@ -157,6 +174,10 @@ namespace General_console
                 {
                     this.Plurality = Plurality.Plural;
                 }
+            }
+            if (this.FrontAdjectives == null)
+            {
+                this.FrontAdjectives = new List<StativeAdjective>();
             }
             this.FrontAdjectives.Add(StativeAdjective.AdaptNumber(number));
         }
@@ -211,8 +232,10 @@ namespace General_console
 
             var ind = new NounPhrase(Gender.Child, Plurality.Singular, Person.First, "k", "m", "d", "r");
 
+            subj.AddNumber(10);
 
-            subj.AddAdjective(new StativeAdjective("b", "s", "l"));
+
+            //subj.AddAdjective(new StativeAdjective("b", "s", "l"));
 
             // object NP  “tree”  (root b-s-l, fem sg 4th person)
             //var obj = new NounPhrase
@@ -240,6 +263,7 @@ namespace General_console
             var clause = new Clause { Subject = subj, Object = obj, Verb = vp };
 
             Console.WriteLine("Aelaki sentence:");
+            Console.WriteLine(subj.ToString());
             //Console.WriteLine(clause);           // prints fully inflected form
         }
     }
