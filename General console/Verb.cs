@@ -234,77 +234,34 @@ class Verb
         }
     }
 
-    //internal static void Conjugate(string[] root, General_console.Gender sg, General_console.Plurality sp, General_console.Person sper, General_console.Plurality op, General_console.Person oper)
-    //{
-    //    throw new NotImplementedException();
-    //}
-
-    //-----------------------------------------------------------------
-    // Conjugate
-    // ---------
-    // • rootSegs = new[] { "k", "m", "d", "r" }  (handles multi-char C’s)
-    // • sg / sp / sper  = subject features
-    // • op / oper       = object plurality + person
-    //   (object gender defaults to Child; change as you like)
-    //
-    // It prints every conjugation (all base templates × all evidentials)
-    // with the requested subject/object agreement baked in.
-    //-----------------------------------------------------------------
-    internal static void AllConjugations(
+    /*---------------------------------------------------------------
+  Conjugate
+  ---------
+  Build ONE complete verb:
+    • rootSegs     = {"k","m","d","r"}  (multi-char C’s OK)
+    • pattern      = "1-a-2-3-e-4"      (one of your base templates)
+    • hv / suffix  = helper vowel + evidential suffix
+    • subject      = person / gender / plurality
+    • object       = person / gender / plurality
+----------------------------------------------------------------*/
+    static string Conjugate(
             string[] rootSegs,
-            General_console.Gender sg, General_console.Plurality sp, General_console.Person sper,
-            General_console.Plurality op, General_console.Person oper)
+            string pattern,
+            string helperVowel,
+            string evidSuffix,
+            int subjPers, General_console.Gender subjGen, General_console.Plurality subjNum,
+            int objPers, General_console.Gender objGen, General_console.Plurality objNum)
     {
-        /* 1) ---------------- base patterns ---------------- */
-        var forms = new List<(string name, string pat)>
-    {
-        ("Telic Perfect"     , "1-a-2-3-e-4"),
-        ("Telic Imperfect"   , "1-a-2-3-o-4"),
-        ("Atelic Perfect"    , "1-a-2-v-3-e-4"),
-        ("Atelic Imperfect"  , "1-a-2-v-3-o-4"),
-        ("Telic Perfect (n)" , "1-a-2-3-v-3-e-4"),
-        ("Habitual Imperf."  , "1-a-2-3-v-3-o-4"),
-        ("Telic Perfect **"  , "1-a-2-3-v-2-3-e-4"),
-        ("Gnomic Imperfect"  , "1-a-2-3-v-2-3-o-4"),
-        ("Atelic Perfect **" , "1-a-2-v-3-v-2-v-3-e-4"),
-        ("Atelic Imperf. **" , "1-a-2-v-3-v-2-v-3-o-4"),
-        ("Imperative"        , "ala-1-a-2-a-3-4-o")
-    };
+        // 1) root → templatic stem (v → helper-vowel)
+        string stem = GenerateFromPattern(rootSegs, pattern.Replace("v", helperVowel));
 
-        /* 2) --------------- evidential map ---------------- */
-        var evidMap = BuildEvidMap();   // factorised into a helper below
+        // 2) add evidential suffix (may be "")
+        stem += evidSuffix;
 
-        Console.WriteLine($"\n=== Conjugations for root {string.Join("", rootSegs)} ===");
-        Console.WriteLine($"   Subject = {sper}-{sg}-{sp}");
-        Console.WriteLine($"   Object  = {oper}-Child-{op}\n");
-
-        foreach (var (stemName, pat) in forms)
-        {
-            foreach (var ev in evidMap)
-            {
-                // skip evidential stacking on imperative
-                if (stemName == "Imperative" && ev.Key != Evid.None) continue;
-
-                /* 2a) build bare stem */
-                string stem =
-                    GenerateFromPattern(rootSegs, pat.Replace("v", ev.Value.hv))
-                    + ev.Value.suffix;
-
-                /* 2b) add agreement */
-                string full = AddPersonMarkers(
-                    core: stem,
-                    subjPers: (int)sper, subjGen: sg, subjNum: sp,
-                    objPers: (int)oper, objGen: General_console.Gender.Child, objNum: op
-                );
-
-                /* 2c) label */
-                string label = ev.Key == Evid.None
-                    ? stemName
-                    : $"{stemName} ({ev.Value.label})";
-
-                Console.WriteLine($"{label.PadRight(35)} → {full}");
-            }
-        }
+        // 3) add subject / object agreement
+        return AddPersonMarkers(stem,
+                subjPers, subjGen, subjNum,
+                objPers, objGen, objNum);
     }
 
     /* ----- overload for segmented root ----- */
@@ -321,6 +278,60 @@ class Verb
         }
         return sb.ToString();
     }
+
+    /*---------------------------------------------------------------
+      AllConjugations
+      ---------------
+      List every conjugation for the given subject/object settings
+    ----------------------------------------------------------------*/
+    internal static void AllConjugations(
+            string[] rootSegs,
+            General_console.Gender sg, General_console.Plurality sp, General_console.Person sper,
+            General_console.Plurality op, General_console.Person oper)
+    {
+        var forms = BuildForms();      // base templates (helper below)
+        var evidMap = BuildEvidMap();    // evidential bundles (already in file)
+
+        Console.WriteLine($"\n=== Conjugations for root {string.Join("", rootSegs)} ===");
+        Console.WriteLine($"   Subject = {sper}-{sg}-{sp}");
+        Console.WriteLine($"   Object  = {oper}-Child-{op}\n");
+
+        foreach (var (stemName, pat) in forms)
+        {
+            foreach (var ev in evidMap)
+            {
+                if (stemName == "Imperative" && ev.Key != Evid.None) continue; // no stack
+
+                string full = Conjugate(
+                    rootSegs, pat, ev.Value.hv, ev.Value.suffix,
+                    (int)sper, sg, sp,
+                    (int)oper, General_console.Gender.Child, op   // object gender child (change if needed)
+                );
+
+                string label = ev.Key == Evid.None
+                    ? stemName
+                    : $"{stemName} ({ev.Value.label})";
+
+                Console.WriteLine($"{label.PadRight(35)} → {full}");
+            }
+        }
+    }
+
+    /*---------------- helper: base-template list ------------------*/
+    static List<(string name, string pat)> BuildForms() => new()
+{
+    ("Telic Perfect"     , "1-a-2-3-e-4"),
+    ("Telic Imperfect"   , "1-a-2-3-o-4"),
+    ("Atelic Perfect"    , "1-a-2-v-3-e-4"),
+    ("Atelic Imperfect"  , "1-a-2-v-3-o-4"),
+    ("Telic Perfect (n)" , "1-a-2-3-v-3-e-4"),
+    ("Habitual Imperf."  , "1-a-2-3-v-3-o-4"),
+    ("Telic Perfect **"  , "1-a-2-3-v-2-3-e-4"),
+    ("Gnomic Imperfect"  , "1-a-2-3-v-2-3-o-4"),
+    ("Atelic Perfect **" , "1-a-2-v-3-v-2-v-3-e-4"),
+    ("Atelic Imperf. **" , "1-a-2-v-3-v-2-v-3-o-4"),
+    ("Imperative"        , "ala-1-a-2-a-3-4-o")
+};
 
     /* ----- tiny helper to keep the evidential map out of the way ----- */
     static Dictionary<Evid, (string hv, string suffix, string label)> BuildEvidMap()
@@ -345,5 +356,6 @@ class Verb
         { Evid.InferentialPast,    ("u","-mu-shə","Past inferential") },
         { Evid.InferentialHearsay, ("u","-mu-ro", "Promised future") },
     };
+
     }
 }
