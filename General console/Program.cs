@@ -5,6 +5,27 @@ using System.Reflection.Metadata.Ecma335;
 
 namespace General_console
 {
+
+
+
+    class Program
+    {
+        static void Main()
+        {
+            var n = new AelakiNumber(1);
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.WriteLine("1–60:");
+            for (int i = 1; i <= 63; i++, n++)
+            {
+                Console.WriteLine("=====" + i + "=====");
+                Console.WriteLine($"Cardinal: {i} → {n.text()} → {n.Cardinal()}");
+                Console.WriteLine($"Ordinal:  {AelakiNumber.ToEnglishOrdinal(i)} → {n.textOrdinal()} → {n.Ordinal()}");
+                Console.WriteLine($"Partitive:  {AelakiNumber.EnglishPartitive(i)} → {n.text()} → {n.Partitive()}");
+                Console.WriteLine($"Collective:  {AelakiNumber.EnglishCollective(i)} → {n.text()} → {n.Collective()}");
+            }
+        }
+    }
+
     class AelakiNumber
     {
         private static readonly string[] Units12 = {
@@ -434,24 +455,6 @@ namespace General_console
         {
             return "all " + i;
             throw new NotImplementedException();
-        }
-    }
-
-    class Program
-    {
-        static void Main()
-        {
-            var n = new AelakiNumber(1);
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            Console.WriteLine("1–60:");
-            for (int i = 1; i <= 63; i++, n++)
-            {
-                Console.WriteLine("=====" + i + "=====");
-                Console.WriteLine($"Cardinal: {i} → {n.text()} → {n.Cardinal()}");
-                Console.WriteLine($"Ordinal:  {AelakiNumber.ToEnglishOrdinal(i)} → {n.textOrdinal()} → {n.Ordinal()}");
-                Console.WriteLine($"Partitive:  {AelakiNumber.EnglishPartitive(i)} → {n.text()} → {n.Partitive()}");
-                Console.WriteLine($"Collective:  {AelakiNumber.EnglishCollective(i)} → {n.text()} → {n.Collective()}");
-            }
         }
     }
 }
