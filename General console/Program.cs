@@ -257,7 +257,7 @@ namespace General_console
             // subject NP (dropped – info lives on verb)
             //var subj = new NounPhrase { Dropped = true };
 
-            var subj = new NounPhrase(Gender.Child, Plurality.Singular, Person.First);
+            var subj = new NounPhrase(Gender.Child, Plurality.Collective, Person.First);
 
             var obj = new NounPhrase(Gender.Child, Plurality.Singular, Person.First, "b", "s", "l");
 
