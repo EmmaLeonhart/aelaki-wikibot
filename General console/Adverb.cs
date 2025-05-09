@@ -1,4 +1,5 @@
-﻿namespace General_console
+﻿
+namespace General_console
 {
     internal class Adverb
     {
@@ -13,6 +14,11 @@
             this.v2 = v2;
             this.v3 = v3;
             this.v4 = v4;
+        }
+
+        internal string realize(VerbPhrase verbPhrase)
+        {
+            throw new NotImplementedException();
         }
     }
 }
