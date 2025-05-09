@@ -42,10 +42,10 @@ namespace General_console
             this.plurality = singular;
         }
 
-        public string ToString(Gender gender) {
+        public string ToString(Gender posessorGender, Gender posessedGender) {
             if (v4 != null && v4.Length > 0) {
-
-                return Noun.BuildPossessor4(this.GetRoot4(), gender, plurality, inalienable);
+                Console.WriteLine("operating on " + posessorGender.ToString() + " and " + posessedGender.ToString());
+                return Noun.BuildPossessor4(this.GetRoot4(), posessorGender, plurality, posessedGender, inalienable);
             }
             else
             {
@@ -68,7 +68,7 @@ namespace General_console
 
         internal override string realize(NounPhrase nounPhrase)
         {
-            return ToString(nounPhrase.Gender);
+            return ToString(this.feminine, nounPhrase.Gender);
             throw new NotImplementedException();
         }
 
@@ -82,6 +82,11 @@ namespace General_console
         {
             return inalienable;
             throw new NotImplementedException();
+        }
+
+        internal Gender getGender()
+        {
+            return this.feminine;
         }
     }
 }
