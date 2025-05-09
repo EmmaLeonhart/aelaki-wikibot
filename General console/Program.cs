@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using System.Text;
 
 namespace General_console
@@ -26,6 +27,7 @@ namespace General_console
     public enum Gender { Child, Feminine, Masculine }
     public enum Plurality { Singular, Plural, Collective, Zero }
     public enum Evid { None, Present, Past, Hearsay, Inferential }
+    public enum VerbType { Transitive, Active, Stative }
 
     /* -----------------------------------------------------------
      *  2.  Very small noun generator (just enough for demo)
@@ -125,14 +127,14 @@ namespace General_console
             {
                 return AelakiNounGen.Noun.BuildStem(this.Gender, this.Plurality, this.Person, c1, c2, c3, c4);
             }
-                throw new NotImplementedException();
+            throw new NotImplementedException();
         }
 
         public NounPhrase(Gender child, Plurality singular, Person first) //dropped constructor
         {
             this.Person = first;
             this.Gender = child;
-            this.Plurality = singular; 
+            this.Plurality = singular;
             this.Dropped = true;
         }
 
@@ -163,7 +165,8 @@ namespace General_console
         private void AddAdjective(StativeAdjective adjective, bool front)
         {
             adjective.noun = this;
-            if (front) {
+            if (front)
+            {
                 if (this.FrontAdjectives == null)
                 {
                     this.FrontAdjectives = new List<StativeAdjective>();
@@ -186,7 +189,8 @@ namespace General_console
             AddNumber(aelakiNumber);
         }
 
-        internal void AddNumber(AelakiNumber number) { 
+        internal void AddNumber(AelakiNumber number)
+        {
 
             this.Number = number;
             number.Noun = this;
@@ -216,7 +220,8 @@ namespace General_console
 
     class VerbPhrase
     {
-        public string Root;
+        public string[] Root;
+        private bool active;
         public Evid Evid;
         public Person SubjPerson;
         public Gender SubjGender;
@@ -224,80 +229,136 @@ namespace General_console
         public Person ObjPerson;
         public Gender ObjGender;
         public Plurality ObjNumber;
-
-        public string Surface => VerbGenerator.Build(
-                Root, Evid,
-                SubjPerson, SubjGender, SubjNumber,
-                ObjPerson, ObjGender, ObjNumber);
-    }
-
-    class Clause
-    {
-        public NounPhrase Subject;
-        public NounPhrase Object;
-        public VerbPhrase Verb;
+        private string c1;
+        private string c2;
+        private string c3;
+        private string c4;
 
         public override string ToString()
-            => $"{Subject.Surface}{Object.Surface}{Verb.Surface}";
-    }
-
-    /* -----------------------------------------------------------
-     *  5.  Demonstration
-     * ----------------------------------------------------------- */
-    class Program
-    {
-        static void Main()
         {
-            var n = new AelakiNumber(1);
-            n.PrintAllNumbersUpTo60();
-            Console.WriteLine("\nNow we are trying to make sentences\n");
+            string s = "";
+            throw new NotImplementedException();
+            return s;
+            return base.ToString();
+        }
 
-            /* “The exalted (masc sg) ate the tree (fem sg) yesterday.” */
+        public VerbPhrase(string v1, string v2, string v3, string v4)
+        {
+            this.Root = new string[] { v1, v2, v3, v4 };
+            this.VerbType = VerbType.Transitive;
+        }
 
-            // subject NP (dropped – info lives on verb)
-            //var subj = new NounPhrase { Dropped = true };
-
-            var subj = new NounPhrase(Gender.Child, Plurality.Collective, Person.First);
-
-            var obj = new NounPhrase(Gender.Child, Plurality.Singular, Person.First, "b", "s", "l");
-
-            var ind = new NounPhrase(Gender.Child, Plurality.Singular, Person.First, "k", "m", "d", "r");
-
-            subj.AddNumber(60);
-
-            subj.AddRoot("k", "m", "d", "r");
-
-
-            //subj.AddAdjective(new StativeAdjective("b", "s", "l"));
-
-            // object NP  “tree”  (root b-s-l, fem sg 4th person)
-            //var obj = new NounPhrase
-            //{
-            //    Root = "bsl",
-            //    Gender = Gender.Feminine,
-            //    Number = Number.Singular,
-            //    Person = Person.Fourth,
-            //    Dropped = false
-            //};
-
-            // verb  kamdor-shə + person markers
-            var vp = new VerbPhrase
+        public VerbPhrase(bool active, string v1, string v2, string v3)
+        {
+            this.Root = new string[] { v1, v2, v3 };
+            if (active) {
+                this.VerbType = VerbType.Active;
+            }
+            else
             {
-                Root = "kmdr",
-                Evid = Evid.Past,
-                SubjPerson = Person.Third,
-                SubjGender = Gender.Masculine,
-                SubjNumber = Plurality.Singular,
-                ObjPerson = Person.Fourth,
-                ObjGender = Gender.Feminine,
-                ObjNumber = Plurality.Singular
-            };
+                this.VerbType = VerbType.Stative;
+            }
+        }
 
-            var clause = new Clause { Subject = subj, Object = obj, Verb = vp };
+        public object Surface { get; private set; }
+        public VerbType VerbType { get; private set; }
+        public List<Adverb> AdverbList { get; private set; }
 
-            Console.WriteLine("Aelaki sentence:");
-            Console.WriteLine(subj.ToString());
-            //Console.WriteLine(clause);           // prints fully inflected form
+        //    public string Surface => VerbGenerator.Build(
+        //            Root, Evid,
+        //            SubjPerson, SubjGender, SubjNumber,
+        //            ObjPerson, ObjGender, ObjNumber);
+        //}
+
+        class Clause
+        {
+            public NounPhrase Subject;
+            public NounPhrase Object;
+            public VerbPhrase Verb;
+
+            public override string ToString(){
+                string s = "";
+                s += Subject.ToString();
+                s += Verb.ToString();
+                s += Object.ToString();
+                return s;
+            }
+        }
+
+        /* -----------------------------------------------------------
+         *  5.  Demonstration
+         * ----------------------------------------------------------- */
+        class Program
+        {
+            static void Main()
+            {
+                var n = new AelakiNumber(1);
+                n.PrintAllNumbersUpTo60();
+                Console.WriteLine("\nNow we are trying to make sentences\n");
+
+                /* “The group of 60 children worshippers worshipped a singular goddess.” */
+
+                // subject NP (dropped – info lives on verb)
+                //var subj = new NounPhrase { Dropped = true };
+
+                var subj = new NounPhrase(Gender.Child, Plurality.Collective, Person.Fourth);
+
+                var obj = new NounPhrase(Gender.Feminine, Plurality.Singular, Person.Fourth);
+
+                var ind = new NounPhrase(Gender.Child, Plurality.Singular, Person.First, "k", "m", "d", "r");
+
+                
+
+                subj.AddNumber(60);
+
+                subj.AddRoot("k", "m", "d", "r");
+
+
+                //subj.AddAdjective(new StativeAdjective("b", "s", "l"));
+
+                // object NP  “tree”  (root b-s-l, fem sg 4th person)
+                //var obj = new NounPhrase
+                //{
+                //    Root = "bsl",
+                //    Gender = Gender.Feminine,
+                //    Number = Number.Singular,
+                //    Person = Person.Fourth,
+                //    Dropped = false
+                //};
+
+                // verb  kamdor-shə + person markers
+                //var vp = new VerbPhrase
+                //{
+                //    Root = "kmdr",
+                //    Evid = Evid.Past,
+                //    SubjPerson = Person.Third,
+                //    SubjGender = Gender.Masculine,
+                //    SubjNumber = Plurality.Singular,
+                //    ObjPerson = Person.Fourth,
+                //    ObjGender = Gender.Feminine,
+                //    ObjNumber = Plurality.Singular
+                //};
+
+                var Verb = new VerbPhrase("k", "m", "d", "r");
+
+                Verb.AddAdverb(new Adverb("k", "m", "d", "r"));
+
+
+                var clause = new Clause { Subject = subj, Object = obj, Verb = Verb };
+
+                Console.WriteLine("Aelaki sentence:");
+                Console.WriteLine(subj.ToString());
+                //Console.WriteLine(clause);           // prints fully inflected form
+            }
+        }
+
+        private void AddAdverb(Adverb adverb)
+        {
+            if (this.AdverbList == null)
+            {
+                this.AdverbList = new List<Adverb>();
+            }
+            this.AdverbList.Add(adverb);
         }
     }
 }
