@@ -22,7 +22,22 @@
             return n;
         }
 
-        private string fraction(int numerator, int denominator)
+        public static void allfractions()
+        {
+            for (int numerator = 1; numerator <= 12; numerator++)
+            {
+                for (int denominator = 2; denominator <= 12; denominator++)
+                {
+                    if (numerator <= denominator)
+                    {
+                        Console.WriteLine(fraction(numerator, denominator));
+                        Console.WriteLine($"{numerator}/{denominator}");
+                    }
+                }
+            }
+        }
+
+        private static string fraction(int numerator, int denominator)
         {
             return AelakiPartitive(numerator) + " " + AelakiFractionalUnit(denominator);
         }

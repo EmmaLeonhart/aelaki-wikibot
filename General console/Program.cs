@@ -347,6 +347,7 @@ namespace General_console
             {
                 var n = new AelakiNumber(1);
                 n.PrintAllNumbersUpTo60();
+                AelakiNumber.allfractions();
                 Console.WriteLine("\nNow we are trying to make sentences\n");
 
                 /* “The group of 60 children worshippers worshipped a singular goddess.” */
