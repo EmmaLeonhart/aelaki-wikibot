@@ -261,7 +261,7 @@ namespace General_console
             Gender og = @object.Gender;
             Plurality op = @object.Plurality;
             Person oper = @object.Person;
-            return Verb.Conjugate(Root, sg, sp, sper, op, oper);
+            return Verb.Conjugate(Root, sg, sp, sper, og, op, oper);
             //throw new NotImplementedException();
         }
 
@@ -307,6 +307,7 @@ namespace General_console
             public override string ToString(){
                 string s = "";
                 s += Subject.ToString();
+                s += " ";
                 s += Verb.ToString(Subject, Object);
                 s += Object.ToString();
                 return s;

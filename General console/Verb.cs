@@ -320,7 +320,7 @@ class Verb
     internal static string Conjugate(
             string[] rootSegs,
             General_console.Gender sg, General_console.Plurality sp, General_console.Person sper,
-            General_console.Plurality op, General_console.Person oper)
+General_console.Gender og, General_console.Plurality op, General_console.Person oper)
     {
         /* Telic-Imperfect base pattern   1-a-2-3-o-4  */
         const string pattern = "1-a-2-3-o-4";
@@ -333,7 +333,7 @@ class Verb
         string full = AddPersonMarkers(
             core: stem,
             subjPers: (int)sper, subjGen: sg, subjNum: sp,
-            objPers: (int)oper, objGen: General_console.Gender.Child, objNum: op
+            objPers: (int)oper, objGen: og, objNum: op
         );
 
         return full;
