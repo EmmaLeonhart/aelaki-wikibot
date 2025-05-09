@@ -126,7 +126,7 @@ static class AelakiVerbBuilder
    ---------------------------------------------------*/
 class Demo
 {
-    static void Main()
+    static void Demonstration()
     {
         string root = "kmdr";
 
