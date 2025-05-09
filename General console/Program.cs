@@ -104,17 +104,17 @@ namespace General_console
             if (FrontAdjectives != null) {
                 foreach (StativeAdjective a in FrontAdjectives)
                 {
-                    Console.WriteLine("Testing adjective");
-                    Console.WriteLine(a.realize(this));
+                    //Console.WriteLine("Testing adjective");
+                    //Console.WriteLine(a.realize(this));
                     s += a.realize(this);
                     s += " ";
                 }
             }
-            Console.WriteLine("What we have so far: ");
-            Console.WriteLine(s);
+            //Console.WriteLine("What we have so far: ");
+            //Console.WriteLine(s);
             s += NounPronounciation();
-            Console.WriteLine("What we have so far: ");
-            Console.WriteLine(s);
+            //Console.WriteLine("What we have so far: ");
+            //Console.WriteLine(s);
             return s;
             throw new NotImplementedException();
             return base.ToString();
