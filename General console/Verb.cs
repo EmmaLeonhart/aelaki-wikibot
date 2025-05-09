@@ -96,8 +96,8 @@ class Verb
         }
     }
 
-    public enum Gen { Child, Feminine, Masculine }
-    public enum Num { Sing, Plur, Coll, Zero }
+    //public enum Gender { Child, Feminine, Masculine }
+    //public enum Plurality { Sing, Plur, Coll, Zero }
 
     //--------------------------------------------------------------
     //  AddPersonMarkers
@@ -116,8 +116,8 @@ class Verb
     //  AddPersonMarkers  (Zero now allowed)
     //-----------------------------------------------------------------
     public static string AddPersonMarkers(string core,
-                                          int subjPers, Gen subjGen, Num subjNum,
-                                          int objPers, Gen objGen, Num objNum)
+                                          int subjPers, General_console.Gender subjGen, General_console.Plurality subjNum,
+                                          int objPers, General_console.Gender objGen, General_console.Plurality objNum)
     {
         // (1) person consonants
         string PersCons(int p) => p switch
@@ -130,17 +130,17 @@ class Verb
         };
 
         // (2) gender-number vowels
-        string GenVowel(Gen g, Num n) => (g, n) switch
+        string GenVowel(General_console.Gender g, General_console.Plurality n) => (g, n) switch
         {
-            (Gen.Child, Num.Sing) => "u",
-            (Gen.Child, Num.Coll) => "i",
-            (Gen.Child, Num.Zero) => "uf",   // child zero
-            (Gen.Feminine, Num.Sing) => "o",
-            (Gen.Feminine, Num.Coll) => "e",
-            (Gen.Feminine, Num.Zero) => "of",
-            (Gen.Masculine, Num.Sing) => "a",
-            (Gen.Masculine, Num.Coll) => "æ",
-            (Gen.Masculine, Num.Zero) => "af",
+            (General_console.Gender.Child, General_console.Plurality.Singular) => "u",
+            (General_console.Gender.Child, General_console.Plurality.Collective) => "i",
+            (General_console.Gender.Child, General_console.Plurality.Zero) => "uf",   // child zero
+            (General_console.Gender.Feminine, General_console.Plurality.Singular) => "o",
+            (General_console.Gender.Feminine, General_console.Plurality.Collective) => "e",
+            (General_console.Gender.Feminine, General_console.Plurality.Zero) => "of",
+            (General_console.Gender.Masculine, General_console.Plurality.Singular) => "a",
+            (General_console.Gender.Masculine, General_console.Plurality.Collective) => "æ",
+            (General_console.Gender.Masculine, General_console.Plurality.Zero) => "af",
             _ => ""
         };
 
@@ -148,7 +148,7 @@ class Verb
         string sRawV = GenVowel(subjGen, subjNum);
         string sFirstV = sRawV.EndsWith("f") ? sRawV.TrimEnd('f') : sRawV; // remove “f” for zero
         string sPref = PersCons(subjPers) + sFirstV;
-        if (subjNum == Num.Plur) sPref += sPref;           // double if plural subject
+        if (subjNum == General_console.Plurality.Plural) sPref += sPref;           // double if plural subject
 
         // (4) -------- object suffix --------
         string oRawV = GenVowel(objGen, objNum);
@@ -214,14 +214,14 @@ class Verb
 
                 // 2) loop over subject & object feature sets
                 foreach (int sPers in new[] { 1, 2, 3, 4 })
-                    foreach (Gen sGen in Enum.GetValues(typeof(Gen)))
-                        foreach (Num sNum in Enum.GetValues(typeof(Num)))
+                    foreach (General_console.Gender sGen in Enum.GetValues(typeof(General_console.Gender)))
+                        foreach (General_console.Plurality sNum in Enum.GetValues(typeof(General_console.Plurality)))
                             foreach (int oPers in new[] { 1, 2, 3, 4 })
-                                foreach (Gen oGen in Enum.GetValues(typeof(Gen)))
-                                    foreach (Num oNum in Enum.GetValues(typeof(Num)))
+                                foreach (General_console.Gender oGen in Enum.GetValues(typeof(General_console.Gender)))
+                                    foreach (General_console.Plurality oNum in Enum.GetValues(typeof(General_console.Plurality)))
                                     {
                                         // subjects probably never use Zero; skip if you wish
-                                        if (sNum == Num.Zero) continue;
+                                        if (sNum == General_console.Plurality.Zero) continue;
 
                                         string full = AddPersonMarkers(stem,
                                                           sPers, sGen, sNum,
