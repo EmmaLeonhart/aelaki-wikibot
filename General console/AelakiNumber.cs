@@ -14,11 +14,23 @@
                 Console.WriteLine($"Cardinal: {i} → {n.text()} → {n.Cardinal()}");
                 Console.WriteLine($"Ordinal:  {AelakiNumber.ToEnglishOrdinal(i)} → {n.textOrdinal()} → {n.Ordinal()}");
                 Console.WriteLine($"Partitive:  {AelakiNumber.EnglishPartitive(i)} → {n.text()} → {n.Partitive()}");
+                Console.WriteLine($"Fractional:  {AelakiNumber.EnglishFractionalUnit(i)} → {n.text()} → {n.AelakiFractionalUnit()}");
                 Console.WriteLine($"Collective:  {AelakiNumber.EnglishCollective(i)} → {n.text()} → {n.Collective()}");
                 Console.WriteLine($"Adverbial:  {AelakiNumber.EnglishAdverbial(i)} → {n.text()} → {n.Adverbial()}");
             }
 
             return n;
+        }
+
+        private string fraction(int numerator, int denominator)
+        {
+            return AelakiPartitive(numerator) + " " + AelakiFractionalUnit(denominator);
+        }
+
+        private string AelakiFractionalUnit()
+        {
+            return AelakiFractionalUnit(Value);
+            throw new NotImplementedException();
         }
 
         // implicit cast from AelakiNumber → int
@@ -500,6 +512,51 @@
         {
             return Cardinal() + "te";
         }
+
+        /*───────────────────────────────────────────────────────────────*/
+        /*  EnglishFractionalUnit                                        */
+        /*  ----------------------                                       */
+        /*  2 → “half”, 3 → “third”, 4 → “quarter”, … 12 → “twelfth”     */
+        /*  (Returns null if n < 2 or > 12 so you can decide what to do) */
+        /*───────────────────────────────────────────────────────────────*/
+        public static string EnglishFractionalUnit(int n) => n switch
+        {
+            2 => "half",
+            3 => "third",
+            4 => "quarter",
+            5 => "fifth",
+            6 => "sixth",
+            7 => "seventh",
+            8 => "eighth",
+            9 => "ninth",
+            10 => "tenth",
+            11 => "eleventh",
+            12 => "twelfth",
+            _ => null                    // outside the 2‒12 range
+        };
+
+
+        /*───────────────────────────────────────────────────────────────*/
+        /*  AelakiFractionalUnit                                         */
+        /*  -----------------------                                      */
+        /*  rule:  <Cardinal(n)> + “fel”      e.g.  Bal-fel “a half”      */
+        /*───────────────────────────────────────────────────────────────*/
+        public static string AelakiFractionalUnit(int n)
+        {
+            switch (n)
+            {
+                case 1:
+                    return "Golo";
+                case 2:
+                    return "Kalakel";
+                case 3:
+                    return "Bhavel";
+                default:
+                    break;
+            }
+            return new AelakiNumber(n).Cardinal() + "fel";
+        }
+
 
     }
 }
