@@ -10,6 +10,12 @@ namespace General_console
             "Dal","Dhan","Nal","Kan","Gal","Ghan","Nger"
         };
 
+        // Ordinal forms for 1..12
+        private static readonly string[] Ordinals12 = {
+            "", "Sekon","Kezon","Bhalon","Malon","Talon",
+            "Dalon","Dhanon","Nalon","Kanon","Galon","Ghanon","Ngeron"
+        };
+
         public int Value { get; private set; }
         public AelakiNumber(int v) => Value = v;
 
@@ -20,10 +26,7 @@ namespace General_console
             return n;
         }
 
-        public override string ToString()
-        {
-            return this.Cardinal();
-        }
+        public override string ToString() => Cardinal();
 
         public string Cardinal()
         {
@@ -45,50 +48,84 @@ namespace General_console
                 string part = Units12[dozens] + Units12[12]; // e.g. BalNger
                 return rem == 0
                     ? part
-                    : part + Units12[rem];  // e.g. NgerPan or BalNgerPan
+                    : part + Units12[rem];
             }
 
             // > 60: mixed base-60
             int sixtyCount = Value / 60;
             int rest = Value % 60;
-            string head = (sixtyCount == 1 ? "" : new AelakiNumber(sixtyCount).ToString())
+            string head = (sixtyCount == 1 ? "" : new AelakiNumber(sixtyCount).Cardinal())
                         + "Vibhi";
             return rest == 0
                 ? head
-                : head + new AelakiNumber(rest).ToString();
+                : head + new AelakiNumber(rest).Cardinal();
         }
 
-        internal string text()
+        public string Ordinal()
         {
+            if (Value <= 0) return Value.ToString();
+
+            // exactly 60? treat as 60th
             if (Value == 60)
+                return "Vibhisekon";
+
+            // 1..12
+            if (Value <= 12)
+                return Ordinals12[Value];
+
+            // 13..59: dozens + unit ordinal
+            if (Value < 60)
+            {
+                int dozens = Value / 12;
+                int rem = Value % 12;
+                string head = Units12[dozens] + Units12[12]; // e.g. BalNger
+                return head + Ordinals12[rem];
+            }
+
+            // > 60: mixed base-60
+            int sixtyCount2 = Value / 60;
+            int rest2 = Value % 60;
+            string head2 = (sixtyCount2 == 1 ? "" : new AelakiNumber(sixtyCount2).Ordinal())
+                         + "Vibhi";
+            return head2 + new AelakiNumber(rest2).Ordinal();
+        }
+
+        public string text()
+        {
+            return text(this.Value);
+        }
+
+        internal static string text(int v)
+        {
+            if (v == 60)
             {
                 return "支金0";
             }
-            if (Value >= 60)
+            if (v >= 60)
             {
-
+                int second60 = v / 60;
+                int first60 = v % 60;
+                return text(second60) + "支" + text(first60);
                 throw new NotImplementedException();
             }
-            if (Value <= 0)
+            if (v <= 0)
             {
                 throw (new NotImplementedException());
             }
             else
             {
-                int twelves = Value / 12;
-                int ones = Value % 12;
+                int twelves = v / 12;
+                int ones = v % 12;
                 string season = GetSeason(twelves);
                 string dozenal = GetDozenal(ones);
                 return season + dozenal;
             }
-            throw new NotImplementedException();
         }
 
-        private string GetDozenal(int ones)
+        private static string GetDozenal(int ones)
         {
             if (ones >= 0 && ones <= 9)
             {
-                // ones is in range 0–9
                 return ones.ToString();
             }
             else if (ones == 10)
@@ -107,20 +144,15 @@ namespace General_console
 
         }
 
-        private string GetSeason(int twelves)
+        private static string GetSeason(int twelves)
         {
             switch (twelves)
             {
-                case 0:  // Metal
-                    return "金";
-                case 1:  // Water
-                    return "水";
-                case 2:  // Wood
-                    return "木";
-                case 3:  // Fire
-                    return "火";
-                case 4:  // Earth
-                    return "土";
+                case 0:  return "金";  // Metal
+                case 1:  return "水";  // Water
+                case 2:  return "木";  // Wood
+                case 3:  return "火";  // Fire
+                case 4:  return "土";  // Earth
                 default:
                     Console.WriteLine(twelves);
                     throw new ArgumentOutOfRangeException(
@@ -129,32 +161,73 @@ namespace General_console
             }
         }
 
-        internal object Ordinal()
+        public static string ToEnglishOrdinal(int n)
         {
-            throw new NotImplementedException();
+            if (n <= 0)
+                return n.ToString();
+
+            int rem100 = n % 100;
+            // 11th, 12th, 13th are special
+            if (rem100 >= 11 && rem100 <= 13)
+                return $"{n}th";
+
+            switch (n % 10)
+            {
+                case 1: return $"{n}st";
+                case 2: return $"{n}nd";
+                case 3: return $"{n}rd";
+                default: return $"{n}th";
+            }
         }
+
+        internal string textOrdinal()
+        {
+            return AppendOrdinalSuffix(text(Value));
+        }
+
+        public static string AppendOrdinalSuffix(string input)
+        {
+
+            return input + "th";
+
+
+            if (string.IsNullOrEmpty(input) || !char.IsDigit(input[^1]))
+                return input;
+
+            // Check last two digits if possible (for special cases: 11th, 12th, 13th)
+            if (input.Length >= 2 && char.IsDigit(input[^2]))
+            {
+                string lastTwo = input[^2..];
+                if (lastTwo == "11" || lastTwo == "12" || lastTwo == "13")
+                    return input + "th";
+            }
+
+            // Check last digit
+            char last = input[^1];
+            return last switch
+            {
+                '1' => input + "st",
+                '2' => input + "nd",
+                '3' => input + "rd",
+                _ => input + "th"
+            };
+        }
+
+
     }
 
     class Program
     {
         static void Main()
         {
-            // Demonstration
             var n = new AelakiNumber(1);
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.WriteLine("1–60:");
-            for (int i = 1; i <= 60; i++, n++)
+            for (int i = 1; i <= 63; i++, n++)
             {
-                Console.WriteLine($"Cardinal: {i} → {n.text()} → {n}");
-                Console.WriteLine($"Ordinal: {i} → {n.text()} → {n.Ordinal()}");
+                Console.WriteLine($"Cardinal: {i} → {n.text()} → {n.Cardinal()}");
+                Console.WriteLine($"Ordinal:  {AelakiNumber.ToEnglishOrdinal(i)} → {n.textOrdinal()} → {n.Ordinal()}");
             }
-
-            // your specific examples
-            //Console.WriteLine();
-            //foreach (var v in new[] { 24, 36, 48, 60, 61 })
-            //{
-            //    Console.WriteLine($"{v} → {new AelakiNumber(v)}");
-            //}
         }
     }
 }
