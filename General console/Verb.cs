@@ -317,14 +317,26 @@ class Verb
         }
     }
 
-    internal static void Conjugate(
+    internal static string Conjugate(
             string[] rootSegs,
             General_console.Gender sg, General_console.Plurality sp, General_console.Person sper,
             General_console.Plurality op, General_console.Person oper)
     {
+        /* Telic-Imperfect base pattern   1-a-2-3-o-4  */
+        const string pattern = "1-a-2-3-o-4";
 
-        //do one that conjugates Telic Imperfect with no evidentiality
+        /* 1) build stem (no helper-vowel because pattern has no “v”) */
+        string stem = GenerateFromPattern(rootSegs, pattern);
+        /* 2) no evidential suffix => nothing to append */
 
+        /* 3) add agreement (object gender defaults to Child) */
+        string full = AddPersonMarkers(
+            core: stem,
+            subjPers: (int)sper, subjGen: sg, subjNum: sp,
+            objPers: (int)oper, objGen: General_console.Gender.Child, objNum: op
+        );
+
+        return full;
     }
 
     /*---------------- helper: base-template list ------------------*/
