@@ -317,6 +317,16 @@ class Verb
         }
     }
 
+    internal static void Conjugate(
+            string[] rootSegs,
+            General_console.Gender sg, General_console.Plurality sp, General_console.Person sper,
+            General_console.Plurality op, General_console.Person oper)
+    {
+
+        //do one that conjugates Telic Imperfect with no evidentiality
+
+    }
+
     /*---------------- helper: base-template list ------------------*/
     static List<(string name, string pat)> BuildForms() => new()
 {
