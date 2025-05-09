@@ -100,12 +100,14 @@ namespace General_console
         public override string ToString()
         {
             string s = "";
-            foreach (StativeAdjective a in FrontAdjectives)
-            {
-                Console.WriteLine("Testing adjective");
-                Console.WriteLine(a.realize(this));
-                s += a.realize(this);
-                s += " ";
+            if (FrontAdjectives != null) {
+                foreach (StativeAdjective a in FrontAdjectives)
+                {
+                    Console.WriteLine("Testing adjective");
+                    Console.WriteLine(a.realize(this));
+                    s += a.realize(this);
+                    s += " ";
+                }
             }
             Console.WriteLine("What we have so far: ");
             Console.WriteLine(s);
@@ -246,7 +248,7 @@ namespace General_console
                 }
             }
             s += this.realize(subject, @object);
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
             return s;
             return base.ToString();
         }
@@ -259,8 +261,8 @@ namespace General_console
             Gender og = @object.Gender;
             Plurality op = @object.Plurality;
             Person oper = @object.Person;
-            Verb.AllConjugations(Root, sg, sp, sper, op, oper);
-            throw new NotImplementedException();
+            return Verb.Conjugate(Root, sg, sp, sper, op, oper);
+            //throw new NotImplementedException();
         }
 
         private string realize()
