@@ -17,6 +17,11 @@ namespace General_console
             this.v4 = v4;
         }
 
+        internal static Adverb FromNumber(int v)
+        {
+            throw new NotImplementedException();
+        }
+
         internal string realize(VerbPhrase verbPhrase)
         {
             throw new NotImplementedException();
