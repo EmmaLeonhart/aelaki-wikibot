@@ -44,7 +44,7 @@ namespace General_console
 
         public string ToString(Gender posessorGender, Gender posessedGender) {
             if (v4 != null && v4.Length > 0) {
-                Console.WriteLine("operating on " + posessorGender.ToString() + " and " + posessedGender.ToString());
+                //Console.WriteLine("operating on " + posessorGender.ToString() + " and " + posessedGender.ToString());
                 return Noun.BuildPossessor4(this.GetRoot4(), posessorGender, plurality, posessedGender, inalienable);
             }
             else

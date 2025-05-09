@@ -77,7 +77,7 @@ namespace AelakiNounGen
         public static string BuildPossessor4(string[] root, General_console.Gender posessorGender, General_console.Plurality n, General_console.Gender posessedGender, bool inalienable)
         {
             // get the default (4th person) noun form
-            Console.WriteLine("operating on " + posessorGender + " and " + posessedGender);
+            //Console.WriteLine("operating on " + posessorGender + " and " + posessedGender);
             string baseNoun = BuildFormTetra(root, posessorGender, n, General_console.Person.Fourth);
             char GV = VowelSlots(posessedGender).end;
             string suff = inalienable ? $"ng" : $"n";
