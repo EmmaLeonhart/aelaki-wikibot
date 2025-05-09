@@ -22,6 +22,11 @@ namespace General_console
 
         public override string ToString()
         {
+            return this.Cardinal();
+        }
+
+        public string Cardinal()
+        {
             if (Value <= 0) return Value.ToString();
 
             // exactly 60
@@ -123,6 +128,11 @@ namespace General_console
                         "Valid codes are 0(金), 1(水), 2(木), 3(火), or 4(土).");
             }
         }
+
+        internal object Ordinal()
+        {
+            throw new NotImplementedException();
+        }
     }
 
     class Program
@@ -135,7 +145,8 @@ namespace General_console
             Console.WriteLine("1–60:");
             for (int i = 1; i <= 60; i++, n++)
             {
-                Console.WriteLine($"{i} → {n.text()} → {n}");
+                Console.WriteLine($"Cardinal: {i} → {n.text()} → {n}");
+                Console.WriteLine($"Ordinal: {i} → {n.text()} → {n.Ordinal()}");
             }
 
             // your specific examples
