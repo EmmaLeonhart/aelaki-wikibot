@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Text;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace General_console
 {
@@ -125,6 +126,10 @@ namespace General_console
             {
                 return "";
             }
+            else if (Posessor != null)
+            {
+                return AelakiNounGen.Noun.BuildStemPossesed(this.Posessor, this.Gender, this.Plurality, this.Person, c1, c2, c3, c4);
+            }
             else
             {
                 return AelakiNounGen.Noun.BuildStem(this.Gender, this.Plurality, this.Person, c1, c2, c3, c4);
@@ -157,6 +162,7 @@ namespace General_console
         public string Surface => Dropped ? "" :
              NounGenerator.Build(Root, Gender, Plurality, Person);
 
+        public Posessor Posessor { get; private set; }
 
         internal void AddAdjective(StativeAdjective adjective)
         {
@@ -217,6 +223,24 @@ namespace General_console
             c3 = v3;
             c4 = v4;
             this.Dropped = false;
+        }
+
+        internal void AddPosessor(string v1, string v2, string v3, Gender feminine, Person fourth, Plurality singular, bool alienable)
+        {
+            this.Posessor = new Posessor(v1, v2, v3, feminine, fourth, singular, alienable);
+            throw new NotImplementedException();
+        }
+
+        internal void AddPosessor(string v1, string v2, string v3, string v4, Gender feminine, Person fourth, Plurality singular, bool inalienable)
+        {
+            this.Posessor = new Posessor(v1, v2, v3, v4, feminine, fourth, singular, inalienable);
+            //throw new NotImplementedException();
+
+            if (this.FrontAdjectives == null)
+            {
+                this.FrontAdjectives = new List<StativeAdjective>();
+            }
+            this.FrontAdjectives.Add(this.Posessor);
         }
     }
 
@@ -342,6 +366,10 @@ namespace General_console
 
                 subj.AddRoot("k", "m", "d", "r");
 
+                bool alienable = true;
+
+                subj.AddPosessor("y", "z", "g", "t", Gender.Feminine, Person.Fourth, Plurality.Singular, alienable);
+
 
                 //subj.AddAdjective(new StativeAdjective("b", "s", "l"));
 
@@ -377,6 +405,7 @@ namespace General_console
 
                 Console.WriteLine("Aelaki sentence:");
                 Console.WriteLine(subj.ToString());
+                //subj.Dropped = true;
                 Console.WriteLine(clause);           // prints fully inflected form
             }
         }

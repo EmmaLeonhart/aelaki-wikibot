@@ -317,26 +317,34 @@ class Verb
         }
     }
 
+    /// <summary>
+    /// Single-form conjugator: Telic-Imperfect pattern + “Yesterday” evidential
+    /// (Evid.PastPresent  =  helper vowel ə ,  suffix –shə-nü)
+    /// </summary>
     internal static string Conjugate(
             string[] rootSegs,
             General_console.Gender sg, General_console.Plurality sp, General_console.Person sper,
-General_console.Gender og, General_console.Plurality op, General_console.Person oper)
+            General_console.Gender og, General_console.Plurality op, General_console.Person oper)
     {
-        /* Telic-Imperfect base pattern   1-a-2-3-o-4  */
+        /* Telic-Imperfect base pattern  1-a-2-3-o-4  */
         const string pattern = "1-a-2-3-o-4";
 
-        /* 1) build stem (no helper-vowel because pattern has no “v”) */
-        string stem = GenerateFromPattern(rootSegs, pattern);
-        /* 2) no evidential suffix => nothing to append */
+        /* ----- Evidential bundle for Yesterday ----- */
+        const string helperVowel = "ə";          // replaces every ‘v’ if present
+        const string evidSuffix = "-shə-nü";    // appended at the end
 
-        /* 3) add agreement (object gender defaults to Child) */
-        string full = AddPersonMarkers(
+        /* 1) Stem (pattern has no ‘v’, so just build) */
+        string stem = GenerateFromPattern(rootSegs, pattern);
+
+        /* 2) Add evidential suffix */
+        stem += evidSuffix;
+
+        /* 3) Add subject / object agreement */
+        return AddPersonMarkers(
             core: stem,
             subjPers: (int)sper, subjGen: sg, subjNum: sp,
             objPers: (int)oper, objGen: og, objNum: op
         );
-
-        return full;
     }
 
     /*---------------- helper: base-template list ------------------*/

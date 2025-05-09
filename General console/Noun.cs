@@ -1,4 +1,5 @@
-﻿using System;
+﻿using General_console;
+using System;
 using System.Collections.Generic;
 using static System.Console;
 
@@ -73,7 +74,7 @@ namespace AelakiNounGen
 
         // Build the **possessor** (dependent) NP
         // prefix "kae-", then the 4th-person noun form, then GV+"ng"/"n"
-        static string BuildPossessor(string[] root, General_console.Gender g, General_console.Plurality n, bool inalienable)
+        public static string BuildPossessor4(string[] root, General_console.Gender g, General_console.Plurality n, bool inalienable)
         {
             // get the default (4th person) noun form
             string baseNoun = BuildFormTetra(root, g, n, General_console.Person.Fourth);
@@ -143,15 +144,15 @@ namespace AelakiNounGen
                     WriteLine($"\n * {n} *");
                     foreach (var p in persons)
                     {
-                        var possIn = BuildPossessor(root, g, n, inalienable: true);
-                        var possAl = BuildPossessor(root, g, n, inalienable: false);
+                        var possIn = BuildPossessor4(root, g, n, inalienable: true);
+                        var possAl = BuildPossessor4(root, g, n, inalienable: false);
                         var headIn = BuildPossessed(root, g, n, p, inalienable: true);
                         var headAl = BuildPossessed(root, g, n, p, inalienable: false);
 
                         WriteLine($" Possessor (inalien.): {possIn,-20} {ToIPA(possIn)}");
-                        WriteLine($" Possessor (alienable):{possAl,-20} {ToIPA(possAl)}");
+                        WriteLine($" Possessor (inalienable):{possAl,-20} {ToIPA(possAl)}");
                         WriteLine($" Head     (inalien.): {headIn,-20} {ToIPA(headIn)}");
-                        WriteLine($" Head     (alienable):{headAl,-20} {ToIPA(headAl)}");
+                        WriteLine($" Head     (inalienable):{headAl,-20} {ToIPA(headAl)}");
                         WriteLine();
                     }
                 }
@@ -182,6 +183,24 @@ namespace AelakiNounGen
 
         private static string BuildStemTri(string[] ints, General_console.Gender gender, General_console.Plurality plurality)
         {
+            throw new NotImplementedException();
+        }
+
+        internal static string BuildStemPossesed(Posessor posessor, General_console.Gender gender, Plurality plurality, General_console.Person person, string c1, string c2, string c3, string c4)
+        {
+            string[] ints;
+            if (c4 == "")
+            {
+                ints = new string[] { c1, c2, c3 };
+                return BuildStemTri(ints, gender, plurality);
+            }
+            else
+            {
+                ints = new string[] { c1, c2, c3, c4 };
+                return BuildPossessed(ints, gender, plurality, posessor.getPerson(), posessor.GetAlienable());
+                throw new NotImplementedException();
+                return BuildFormTetra(ints, gender, plurality, person);
+            }
             throw new NotImplementedException();
         }
     }
