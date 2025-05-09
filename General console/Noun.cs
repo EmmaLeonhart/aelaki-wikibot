@@ -74,11 +74,12 @@ namespace AelakiNounGen
 
         // Build the **possessor** (dependent) NP
         // prefix "kae-", then the 4th-person noun form, then GV+"ng"/"n"
-        public static string BuildPossessor4(string[] root, General_console.Gender g, General_console.Plurality n, bool inalienable)
+        public static string BuildPossessor4(string[] root, General_console.Gender posessorGender, General_console.Plurality n, General_console.Gender posessedGender, bool inalienable)
         {
             // get the default (4th person) noun form
-            string baseNoun = BuildFormTetra(root, g, n, General_console.Person.Fourth);
-            char GV = VowelSlots(g).end;
+            Console.WriteLine("operating on " + posessorGender + " and " + posessedGender);
+            string baseNoun = BuildFormTetra(root, posessorGender, n, General_console.Person.Fourth);
+            char GV = VowelSlots(posessedGender).end;
             string suff = inalienable ? $"ng" : $"n";
             return $"{baseNoun}{suff}";
         }
@@ -86,11 +87,11 @@ namespace AelakiNounGen
         // Build the **possessed** (head) NP
         // inalienable: C1 + GV + PC + restOfStem
         // alienable:    GV + PC + restOfStem
-        static string BuildPossessed(string[] root, General_console.Gender g, General_console.Plurality n, General_console.Person possessor, bool inalienable)
+        static string BuildPossessed(string[] root, General_console.Gender g, General_console.Plurality n, General_console.Person possessor, bool inalienable, General_console.Gender gender)
         {
             string stem = BuildStemTetra(root, g, n);
             string C1 = stem.Substring(0, root[0].Length);      // first consonant chunk
-            char GV = VowelSlots(g).end;
+            char GV = VowelSlots(gender).end;
             string PC = PersonCons[possessor];
             string rest = stem.Substring(root[0].Length);       // drop the first consonant chunk
 
@@ -144,8 +145,8 @@ namespace AelakiNounGen
                     WriteLine($"\n * {n} *");
                     foreach (var p in persons)
                     {
-                        var possIn = BuildPossessor4(root, g, n, inalienable: true);
-                        var possAl = BuildPossessor4(root, g, n, inalienable: false);
+                        var possIn = BuildPossessor4(root, g, n, g, inalienable: true);
+                        var possAl = BuildPossessor4(root, g, n, g, inalienable: false);
                         var headIn = BuildPossessed(root, g, n, p, inalienable: true);
                         var headAl = BuildPossessed(root, g, n, p, inalienable: false);
 
@@ -158,6 +159,11 @@ namespace AelakiNounGen
                 }
                 WriteLine();
             }
+        }
+
+        private static string BuildPossessed(string[] root, General_console.Gender g, Plurality n, General_console.Person p, bool inalienable)
+        {
+            throw new NotImplementedException();
         }
 
         internal static string BuildStem(General_console.Gender gender, General_console.Plurality plurality, string root)
@@ -192,15 +198,22 @@ namespace AelakiNounGen
             if (c4 == "")
             {
                 ints = new string[] { c1, c2, c3 };
+
+                return BuildPossessedTri(ints, gender, plurality, posessor.getPerson(), posessor.GetAlienable());
                 return BuildStemTri(ints, gender, plurality);
             }
             else
             {
                 ints = new string[] { c1, c2, c3, c4 };
-                return BuildPossessed(ints, gender, plurality, posessor.getPerson(), posessor.GetAlienable());
+                return BuildPossessed(ints, gender, plurality, posessor.getPerson(), posessor.GetAlienable(), posessor.getGender());
                 throw new NotImplementedException();
                 return BuildFormTetra(ints, gender, plurality, person);
             }
+            throw new NotImplementedException();
+        }
+
+        private static string BuildPossessedTri(string[] ints, General_console.Gender gender, Plurality plurality, General_console.Person person, bool v)
+        {
             throw new NotImplementedException();
         }
     }
