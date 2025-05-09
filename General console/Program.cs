@@ -110,13 +110,22 @@ namespace General_console
             s += NounPronounciation();
             Console.WriteLine("What we have so far: ");
             Console.WriteLine(s);
+            return s;
             throw new NotImplementedException();
             return base.ToString();
         }
 
         private string NounPronounciation()
         {
-            throw new NotImplementedException();
+            if (Dropped == true)
+            {
+                return "";
+            }
+            else
+            {
+                return AelakiNounGen.Noun.BuildStem(this.Gender, this.Plurality, this.Person, c1, c2, c3, c4);
+            }
+                throw new NotImplementedException();
         }
 
         public NounPhrase(Gender child, Plurality singular, Person first) //dropped constructor
@@ -194,6 +203,15 @@ namespace General_console
             }
             this.FrontAdjectives.Add(StativeAdjective.AdaptNumber(number));
         }
+
+        internal void AddRoot(string v1, string v2, string v3, string v4)
+        {
+            c1 = v1;
+            c2 = v2;
+            c3 = v3;
+            c4 = v4;
+            this.Dropped = false;
+        }
     }
 
     class VerbPhrase
@@ -245,7 +263,9 @@ namespace General_console
 
             var ind = new NounPhrase(Gender.Child, Plurality.Singular, Person.First, "k", "m", "d", "r");
 
-            subj.AddNumber(10);
+            subj.AddNumber(60);
+
+            subj.AddRoot("k", "m", "d", "r");
 
 
             //subj.AddAdjective(new StativeAdjective("b", "s", "l"));
