@@ -51,7 +51,7 @@ static class AelakiVerbBuilder
             { (Person.First , Number.Collective, Gender.Child), "thi"      },
 
             { (Person.Second, Number.Singular  , Gender.Child), "ju"      },
-            { (Person.Second, Number.Plural    , Gender.Child), "jtuju"  },
+            { (Person.Second, Number.Plural    , Gender.Child), "juju"  },
             { (Person.Second, Number.Collective, Gender.Child), "ji"      },
 
             { (Person.Third , Number.Singular  , Gender.Child), "shu"      },
