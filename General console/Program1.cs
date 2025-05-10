@@ -1,11 +1,15 @@
 ﻿
+
 namespace General_console
 {
     partial class VerbPhrase
     {
+        public List<Adverb> FrontAdjectives { get; private set; }
+        public List<Adverb> BackAdjectives { get; private set; }
+
         /* -----------------------------------------------------------
-         *  5.  Demonstration
-         * ----------------------------------------------------------- */
+*  5.  Demonstration
+* ----------------------------------------------------------- */
         class Program
         {
             static void Main()
@@ -67,6 +71,7 @@ namespace General_console
                 var Verb = new VerbPhrase("k", "m", "d", "r");
 
                 Verb.AddAdverb(30);
+                Verb.AddConverb("p", "m", "l", "s");
 
                 //TransitiveVerb.AddAdverb(new Adverb("k", "m", "d", "r"));
 
@@ -80,9 +85,40 @@ namespace General_console
             }
         }
 
+        private void AddConverb(string v1, string v2, string v3, string v4)
+        {
+            Converb c = new Converb(v1, v2, v3, v4);
+            throw new NotImplementedException();
+        }
+
         private void AddAdverb(int v)
         {
-            throw new NotImplementedException();
+            Adverb a = Adverb.FromNumber(v);
+            AddAdverb(a);
+            //throw new NotImplementedException();
+        }
+
+
+
+        private void AddAdverb(Adverb adjective, bool front)
+        {
+            adjective.verb = this;
+            if (front)
+            {
+                if (this.FrontAdjectives == null)
+                {
+                    this.FrontAdjectives = new List<Adverb>();
+                }
+                this.FrontAdjectives.Add(adjective);
+            }
+            else
+            {
+                if (this.BackAdjectives == null)
+                {
+                    this.BackAdjectives = new List<Adverb>();
+                }
+                this.BackAdjectives.Add(adjective);
+            }
         }
     }
 }
