@@ -32,6 +32,11 @@
             Function = function;
         }
 
+        public Converb(string v1, string v2, string v3, string v4)
+        {
+            throw new NotImplementedException();
+        }
+
         private static readonly Dictionary<ConverbFunction, (string prefix, string? suffix, string gloss)> FunctionMap = new()
         {
             { ConverbFunction.Simultaneous,   ("ta", null,         "while doing") },
