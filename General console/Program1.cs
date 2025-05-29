@@ -71,7 +71,7 @@ namespace General_console
                 var Verb = new VerbPhrase("k", "m", "d", "r");
 
                 Verb.AddAdverb(30);
-                Verb.AddConverb("p", "m", "l", "s");
+                
 
                 //TransitiveVerb.AddAdverb(new Adverb("k", "m", "d", "r"));
 
@@ -82,6 +82,8 @@ namespace General_console
                 Console.WriteLine(subj.ToString());
                 //subj.Dropped = true;
                 Console.WriteLine(clause);           // prints fully inflected form
+
+                Verb.AddConverb("p", "m", "l", "s");
             }
         }
 
