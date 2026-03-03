@@ -10,7 +10,9 @@
       "Bash(find C:\\\\Users\\\\Immanuelle\\\\Documents\\\\Github\\\\aelaki-merged:*)",
       "Bash(find C:\\\\Users\\\\Immanuelle\\\\Documents\\\\Github\\\\aelaki-merged\\\\discord:*)",
       "Bash(\"C:\\\\Users\\\\Immanuelle\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe\":*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(cd C:\\\\Users\\\\Immanuelle\\\\Documents\\\\Github\\\\aelaki-merged:*)",
+      "Bash(cd \"C:\\\\Users\\\\Immanuelle\\\\Documents\\\\Github\\\\aelaki-merged\" && git push origin master 2>&1)"
     ]
   }
 }
