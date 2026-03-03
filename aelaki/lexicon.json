@@ -1,0 +1,244 @@
+{
+  "verbs": {
+    "kmdr": {
+      "root": ["k", "m", "d", "r"],
+      "class": "verb_transitive",
+      "gloss": "worship, ritual"
+    },
+    "bva": {
+      "root": ["b", "v", "?"],
+      "class": "verb_active",
+      "gloss": "drink"
+    },
+    "upf": {
+      "root": ["?", "p", "f"],
+      "class": "verb_active",
+      "gloss": "eat"
+    },
+    "bha": {
+      "root": ["b", "h", "?"],
+      "class": "verb_active",
+      "gloss": "see"
+    },
+    "xaen": {
+      "root": ["x", "?", "n"],
+      "class": "verb_active",
+      "gloss": "hunt"
+    },
+    "sae": {
+      "root": ["s", "?", "?"],
+      "class": "verb_active",
+      "gloss": "walk"
+    },
+    "gho": {
+      "root": ["g", "h", "?"],
+      "class": "verb_active",
+      "gloss": "live"
+    },
+    "aech": {
+      "root": ["?", "ch", "?"],
+      "class": "verb_active",
+      "gloss": "swim"
+    },
+    "zoduk": {
+      "root": ["z", "d", "k"],
+      "class": "verb_stative",
+      "gloss": "know"
+    },
+    "aed": {
+      "root": ["?", "?", "d"],
+      "class": "verb_stative",
+      "gloss": "fear"
+    },
+    "dpz": {
+      "root": ["d", "p", "z"],
+      "class": "verb_active",
+      "gloss": "shoot at"
+    },
+    "zhrn": {
+      "root": ["zh", "r", "n"],
+      "class": "verb_active",
+      "gloss": "live"
+    },
+    "apafath": {
+      "root": ["?", "p", "f"],
+      "class": "verb_active",
+      "gloss": "fall",
+      "citation_form": "apafath"
+    },
+    "slodon": {
+      "root": ["sl", "d", "n"],
+      "class": "verb_active",
+      "gloss": "shout",
+      "citation_form": "slodon"
+    },
+    "kamamas": {
+      "root": ["k", "m", "s"],
+      "class": "verb_active",
+      "gloss": "rise",
+      "citation_form": "kamas"
+    },
+    "dedik": {
+      "root": ["d", "d", "k"],
+      "class": "verb_stative",
+      "gloss": "learn",
+      "citation_form": "dedik"
+    },
+    "hedek": {
+      "root": ["h", "d", "k"],
+      "class": "verb_stative",
+      "gloss": "become female",
+      "citation_form": "hedek"
+    },
+    "dhum": {
+      "root": ["dh", "?", "m"],
+      "class": "verb_stative",
+      "gloss": "shine, burn",
+      "citation_form": "dh\u00fcm"
+    },
+    "bahag": {
+      "root": ["b", "h", "g"],
+      "class": "verb_stative",
+      "gloss": "break",
+      "citation_form": "bahag"
+    }
+  },
+  "nouns": {
+    "ae": {
+      "root": ["?", "?", "?"],
+      "class": "noun",
+      "gloss": "head"
+    },
+    "euf": {
+      "root": ["?", "?", "f"],
+      "class": "noun",
+      "gloss": "eye"
+    },
+    "on": {
+      "root": ["?", "?", "n"],
+      "class": "noun",
+      "gloss": "mouth"
+    },
+    "ich": {
+      "root": ["?", "ch", "?"],
+      "class": "noun",
+      "gloss": "heart"
+    },
+    "uch": {
+      "root": ["?", "ch", "?"],
+      "class": "noun",
+      "gloss": "liver"
+    },
+    "debh": {
+      "root": ["d", "b", "h"],
+      "class": "noun",
+      "gloss": "tree",
+      "gender": "female"
+    },
+    "sugh": {
+      "root": ["s", "g", "h"],
+      "class": "noun",
+      "gloss": "water",
+      "gender": "inanimate"
+    },
+    "t'ub'": {
+      "root": ["t'", "b'", "?"],
+      "class": "noun",
+      "gloss": "sun",
+      "gender": "inanimate"
+    },
+    "pu": {
+      "root": ["p", "?", "?"],
+      "class": "noun",
+      "gloss": "moon"
+    },
+    "lu": {
+      "root": ["l", "?", "?"],
+      "class": "noun",
+      "gloss": "river",
+      "gender": "inanimate"
+    },
+    "nek": {
+      "root": ["n", "?", "k"],
+      "class": "noun",
+      "gloss": "sea",
+      "gender": "inanimate"
+    },
+    "maomao": {
+      "root": ["m", "?", "m"],
+      "class": "noun",
+      "gloss": "maomao (bear-sized companion)"
+    },
+    "dzhabho": {
+      "root": ["dzh", "bh", "?"],
+      "class": "noun",
+      "gloss": "bird"
+    },
+    "bsl": {
+      "root": ["b", "s", "l"],
+      "class": "noun",
+      "gloss": "tree/goddess (feminine)"
+    },
+    "zahal": {
+      "root": ["z", "h", "l"],
+      "class": "noun",
+      "gloss": "edible plant",
+      "citation_form": "zahal"
+    },
+    "saromo": {
+      "root": ["s", "r", "m"],
+      "class": "noun",
+      "gloss": "sky",
+      "citation_form": "saromo"
+    },
+    "gnk": {
+      "root": ["g'", "n", "k"],
+      "class": "noun",
+      "gloss": "sky fungus",
+      "citation_form": "g'nk"
+    },
+    "gar": {
+      "root": ["g", "?", "r"],
+      "class": "noun",
+      "gloss": "body",
+      "citation_form": "gar"
+    }
+  },
+  "adjectives": {
+    "grn": {
+      "root": ["g", "r", "n"],
+      "class": "adjective",
+      "gloss": "bright"
+    },
+    "bsl_adj": {
+      "root": ["b", "s", "l"],
+      "class": "adjective",
+      "gloss": "stative adjective root"
+    },
+    "bagadha": {
+      "root": ["b", "g", "dh"],
+      "class": "adjective",
+      "gloss": "bright",
+      "citation_form": "bagadha"
+    }
+  },
+  "adverbs": {
+    "zada": {
+      "root": ["z", "d", "?"],
+      "class": "adverb",
+      "gloss": "long/lengthy"
+    }
+  },
+  "colors": {
+    "red": "te",
+    "green": "ihm",
+    "yellow": "ihf",
+    "white": "a",
+    "black": "\u014bix"
+  },
+  "pseudopronouns": {
+    "you_and_me": "Thijith",
+    "us_few": "Thishith",
+    "us_many": "Thikith"
+  }
+}
