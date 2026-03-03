@@ -101,6 +101,24 @@
       "class": "verb_stative",
       "gloss": "break",
       "citation_form": "bahag"
+    },
+    "honung": {
+      "root": ["h", "n", "ng"],
+      "class": "verb_active",
+      "gloss": "hit",
+      "citation_form": "honung"
+    },
+    "sharokasoro": {
+      "root": ["r", "k", "s"],
+      "class": "verb_active",
+      "gloss": "rain",
+      "citation_form": "Sharokasoro"
+    },
+    "zapapaya": {
+      "root": ["z", "p", "y"],
+      "class": "verb_active",
+      "gloss": "drive",
+      "citation_form": "zapapaya"
     }
   },
   "nouns": {
@@ -202,6 +220,79 @@
       "class": "noun",
       "gloss": "body",
       "citation_form": "gar"
+    },
+    "hayab": {
+      "root": ["h", "y", "b"],
+      "class": "noun",
+      "gloss": "brothers (uterine siblings)",
+      "citation_form": "Hayab"
+    },
+    "hanak": {
+      "root": ["h", "n", "k"],
+      "class": "noun",
+      "gloss": "older siblings",
+      "citation_form": "Hanak"
+    },
+    "yamat": {
+      "root": ["y", "m", "t"],
+      "class": "noun",
+      "gloss": "younger siblings",
+      "citation_form": "Yamat"
+    },
+    "ozamba": {
+      "root": ["z", "m", "b"],
+      "class": "noun",
+      "gloss": "mother and child",
+      "citation_form": "Ozamba"
+    },
+    "odapab": {
+      "root": ["d", "p", "b"],
+      "class": "noun",
+      "gloss": "father and child",
+      "citation_form": "Odapab"
+    },
+    "dzahab": {
+      "root": ["dzh", "h", "b"],
+      "class": "noun",
+      "gloss": "cross siblings",
+      "citation_form": "Dzahab"
+    },
+    "dahab": {
+      "root": ["d", "h", "b"],
+      "class": "noun",
+      "gloss": "half siblings (father's female phase)",
+      "citation_form": "Dahab"
+    },
+    "zajal": {
+      "root": ["z", "j", "l"],
+      "class": "noun",
+      "gloss": "half siblings (mother's male phase)",
+      "citation_form": "Zajal"
+    },
+    "dhihevash": {
+      "root": ["dh", "h", "v"],
+      "class": "noun",
+      "gloss": "sun",
+      "gender": "male",
+      "citation_form": "Dhihev\u00e6sh"
+    },
+    "tidanash": {
+      "root": ["t", "d", "n"],
+      "class": "noun",
+      "gloss": "person",
+      "citation_form": "T\u00efd\u00e6n\u00e6sh"
+    },
+    "sanash": {
+      "root": ["s", "?", "n"],
+      "class": "noun",
+      "gloss": "king",
+      "citation_form": "Sanash"
+    },
+    "forsash": {
+      "root": ["f", "r", "s"],
+      "class": "noun",
+      "gloss": "force",
+      "citation_form": "Forsash"
     }
   },
   "adjectives": {
@@ -227,6 +318,12 @@
       "root": ["z", "d", "?"],
       "class": "adverb",
       "gloss": "long/lengthy"
+    },
+    "vadante": {
+      "root": ["v", "d", "n"],
+      "class": "adverb",
+      "gloss": "now",
+      "citation_form": "Vadante"
     }
   },
   "colors": {
@@ -239,6 +336,42 @@
   "pseudopronouns": {
     "you_and_me": "Thijith",
     "us_few": "Thishith",
-    "us_many": "Thikith"
+    "us_many": "Thikith",
+    "you_and_me_masc": "babath",
+    "you_and_me_masc_2p": "babatl",
+    "me_and_you_masc": "Thajaba"
+  },
+  "numerals": {
+    "1": {"cardinal": "Pan", "ordinal": "Sekon", "partitive": "Papan", "collective": "Pini", "fractional": "Golo"},
+    "2": {"cardinal": "Bal", "ordinal": "Kezon", "partitive": "Babal", "fractional": "Kalakel"},
+    "3": {"cardinal": "Bhan", "ordinal": "Bhalon", "partitive": "Bhabhan", "fractional": "Bhavel"},
+    "4": {"cardinal": "Mal", "ordinal": "Malon", "partitive": "Mamal"},
+    "5": {"cardinal": "Tan", "ordinal": "Talon", "partitive": "Tatan"},
+    "6": {"cardinal": "Dal", "ordinal": "Dalon", "partitive": "Dadal"},
+    "7": {"cardinal": "Dhan", "ordinal": "Dhanon", "partitive": "Dhadhan"},
+    "8": {"cardinal": "Nal", "ordinal": "Nalon", "partitive": "Nanal"},
+    "9": {"cardinal": "Kan", "ordinal": "Kanon", "partitive": "Kakan"},
+    "10": {"cardinal": "Gal", "ordinal": "Galon", "partitive": "Gagal"},
+    "11": {"cardinal": "Ghan", "ordinal": "Ghanon", "partitive": "Ghaghan"},
+    "12": {"cardinal": "Nger", "ordinal": "Ngeron", "partitive": "Ngenger"},
+    "60": {"cardinal": "Vibhi", "ordinal": "Vibhisekon", "partitive": "Vibhibhi"}
+  },
+  "particles": {
+    "nono": {"form": "Nono", "alt": "No", "gloss": "topic-switch marker"},
+    "shushu": {"form": "Shushu", "gloss": "discourse/question particle"},
+    "zeni": {"form": "Zeni", "gloss": "copula of identity"},
+    "zi": {"form": "Zi", "gloss": "and (exhaustive conjunction)"},
+    "ne": {"form": "Ne", "gloss": "topic unifier"},
+    "snu": {"form": "Sn\u00fc", "gloss": "at (a location)"},
+    "snusnu": {"form": "Sn\u00fcsn\u00fc", "gloss": "through (a location)"},
+    "sni": {"form": "Sn\u00ef", "gloss": "destination"},
+    "snuf": {"form": "Sn\u00fcf", "gloss": "at (inanimate/abstract)"},
+    "snif": {"form": "Sn\u00eff", "gloss": "destination (inanimate)"},
+    "snufsnuf": {"form": "Sn\u00fcfsn\u00fcf", "gloss": "through (inanimate)"},
+    "sle": {"form": "Sl\u00eb", "gloss": "at a time"},
+    "slesle": {"form": "Sl\u00ebsl\u00eb", "gloss": "throughout a duration"},
+    "slae": {"form": "Sl\u00e6", "gloss": "completion time"},
+    "slef": {"form": "Sl\u00ebf", "gloss": "at a time (inanimate)"},
+    "slaef": {"form": "Sl\u00e6f", "gloss": "completion time (inanimate)"}
   }
 }

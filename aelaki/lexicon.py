@@ -81,11 +81,13 @@ def _load_lexicon():
     adverbs = _load_entries(raw["adverbs"])
     colors = dict(raw["colors"])
     pseudopronouns = dict(raw["pseudopronouns"])
+    numerals = dict(raw["numerals"])
+    particles = dict(raw["particles"])
 
-    return verbs, nouns, adjectives, adverbs, colors, pseudopronouns
+    return verbs, nouns, adjectives, adverbs, colors, pseudopronouns, numerals, particles
 
 
-VERBS, NOUNS, ADJECTIVES, ADVERBS, COLORS, PSEUDOPRONOUNS = _load_lexicon()
+VERBS, NOUNS, ADJECTIVES, ADVERBS, COLORS, PSEUDOPRONOUNS, NUMERALS, PARTICLES = _load_lexicon()
 
 
 # ===========================================================================
