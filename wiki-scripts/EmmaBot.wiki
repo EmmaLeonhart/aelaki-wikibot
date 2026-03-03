@@ -1,0 +1,23 @@
+This is the operational bot account used for automated maintenance on aelaki.miraheze.org.
+
+Its purpose is to create and maintain word pages with transparent logging, persistent state files, and auditable edit summaries tied to GitHub Actions workflow runs.
+
+Repository: https://github.com/Emma-Leonhart/aelaki-merged
+
+== Operations policy ==
+
+Routine automated edits are implemented by changing the GitHub repository and executed through GitHub Actions. Local manual script runs are reserved for testing and emergency intervention only.
+
+== Current tasks ==
+
+* Create <code>word:LEMMA</code> pages for all vocabulary entries
+* Maintain inflection tables from generated forms data
+
+== Future tasks ==
+
+* Update old word page formats when <code>{{wordpage}}</code> version changes
+* Integrate Discord dictionary extracts for automatic new word creation
+* Expand inflection tables as morphology engine grows
+
+<!-- BOT-RUN-STATUS:START -->
+<!-- BOT-RUN-STATUS:END -->
