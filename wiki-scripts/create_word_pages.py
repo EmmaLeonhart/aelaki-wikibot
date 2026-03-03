@@ -3,28 +3,20 @@
 create_word_pages.py
 ====================
 Creates word:LEMMA pages on aelaki.miraheze.org from the Aelaki lexicon.
-
-Each page contains:
-- Lead paragraph with word class and gloss
-- Root consonant information
-- Inflection table (from aelaki_forms.csv)
-- See also links and categories
-- {{wordpage|v1}} version footer
+Generates ALL forms directly from the morphology engine.
 
 Usage:
-    python create_word_pages.py --dry-run              # preview only
+    python create_word_pages.py                        # preview only
     python create_word_pages.py --apply --limit 10     # create 10 pages
-    python create_word_pages.py --apply --run-tag "..." # with CI run tag
+    python create_word_pages.py --apply --run-tag "..."
 """
 import argparse
-import csv
 import os
 import sys
 
-# Add parent directory to path so we can import the aelaki package
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
-from utils import connect, create_page, load_state, append_state, append_log, Progress
+from utils import connect, safe_save, load_state, append_state, append_log, Progress
 from config import THROTTLE
 
 # ---------------------------------------------------------------------------
@@ -34,194 +26,281 @@ from config import THROTTLE
 SCRIPT_DIR = os.path.dirname(__file__)
 DEFAULT_STATE_FILE = os.path.join(SCRIPT_DIR, "create_word_pages.state")
 DEFAULT_LOG_FILE = os.path.join(SCRIPT_DIR, "create_word_pages.log")
-FORMS_CSV = os.path.join(SCRIPT_DIR, "..", "aelaki_forms.csv")
 
-PAGE_VERSION = "v1"
+PAGE_VERSION = "v2"
 
-# Map word class labels to wiki info
 WORD_CLASS_INFO = {
-    "noun": {
-        "label": "Noun",
-        "link": "[[Nouns|noun]]",
-        "category": "Aelaki nouns",
-    },
-    "verb_transitive": {
-        "label": "Transitive verb",
-        "link": "[[Verbs|transitive verb]]",
-        "category": "Aelaki verbs",
-    },
-    "verb_active": {
-        "label": "Active verb",
-        "link": "[[Verbs|active verb]]",
-        "category": "Aelaki verbs",
-    },
-    "verb_stative": {
-        "label": "Stative verb",
-        "link": "[[Verbs|stative verb]]",
-        "category": "Aelaki verbs",
-    },
-    "adjective": {
-        "label": "Adjective",
-        "link": "[[Adjectives|adjective]]",
-        "category": "Aelaki adjectives",
-    },
-    "adverb": {
-        "label": "Adverb",
-        "link": "[[Adverbs|adverb]]",
-        "category": "Aelaki adverbs",
-    },
+    "noun": {"label": "Noun", "link": "[[Nouns|noun]]", "category": "Aelaki nouns"},
+    "verb_transitive": {"label": "Transitive verb", "link": "[[Verbs|transitive verb]]", "category": "Aelaki verbs"},
+    "verb_active": {"label": "Active verb", "link": "[[Verbs|active verb]]", "category": "Aelaki verbs"},
+    "verb_stative": {"label": "Stative verb", "link": "[[Verbs|stative verb]]", "category": "Aelaki verbs"},
+    "adjective": {"label": "Adjective", "link": "[[Adjectives|adjective]]", "category": "Aelaki adjectives"},
+    "adverb": {"label": "Adverb", "link": "[[Adverbs|adverb]]", "category": "Aelaki adverbs"},
 }
 
 
 # ---------------------------------------------------------------------------
-# Load forms from CSV
+# Morphology imports
 # ---------------------------------------------------------------------------
 
-def load_forms(csv_path: str) -> dict[str, list[dict]]:
-    """Load aelaki_forms.csv and group rows by lexicon key."""
-    forms_by_key: dict[str, list[dict]] = {}
-    with open(csv_path, "r", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            key = row["key"]
-            if key not in forms_by_key:
-                forms_by_key[key] = []
-            forms_by_key[key].append({
-                "form_label": row["form_label"],
-                "surface_form": row["surface_form"],
-            })
-    return forms_by_key
+from aelaki.lexicon import VERBS, NOUNS, ADJECTIVES, ADVERBS, COLORS, WordClass
+from aelaki.gender import Gender, Number, Person
+from aelaki.roots import TriRoot, TetraRoot
+from aelaki.nouns import build_noun
+from aelaki.verbs import (
+    conjugate_transitive, conjugate_intransitive_active,
+    conjugate_intransitive_stative,
+    StemTemplate, Evidential, DayPrefix,
+)
+from aelaki.stative_verbs import stative_paradigm
+from aelaki.adjectives import realize_adjective, AdjDegree, AdjEvidential
+from aelaki.adverbs import realize_adverb, AdverbDegree, AdverbTense
+
+# Canonical agreement for verb/adj tables (3rd male singular subject, 4th female singular object)
+SUBJ = (Person.THIRD, Gender.MALE, Number.SINGULAR)
+OBJ = (Person.FOURTH, Gender.FEMALE, Number.SINGULAR)
 
 
 # ---------------------------------------------------------------------------
-# Load lexicon entries
+# Load lexicon
 # ---------------------------------------------------------------------------
 
 def load_lexicon() -> dict[str, dict]:
-    """Load all lexicon entries from the aelaki package."""
-    from aelaki.lexicon import VERBS, NOUNS, ADJECTIVES, ADVERBS, COLORS
-
     entries = {}
     for store in (VERBS, NOUNS, ADJECTIVES, ADVERBS):
         for key, entry in store.items():
-            root = entry.root
-            root_str = "-".join(root.consonants)
             entries[key] = {
                 "word_class": entry.word_class.value,
                 "gloss": entry.gloss,
-                "root": root_str,
-                "gender": entry.inherent_gender.value if entry.inherent_gender else None,
+                "root": entry.root,
+                "root_str": "-".join(entry.root.consonants),
+                "gender": entry.inherent_gender,
                 "citation_form": entry.citation_form or key,
+                "entry": entry,
             }
 
     for color_en, color_ae in COLORS.items():
         entries[f"color_{color_en}"] = {
             "word_class": "noun",
             "gloss": f"{color_en} (color)",
-            "root": color_ae,
+            "root": TriRoot("?", "?", "?"),
+            "root_str": color_ae,
             "gender": None,
             "citation_form": color_ae,
+            "entry": None,
         }
 
     return entries
 
 
 # ---------------------------------------------------------------------------
+# Form generation — directly from morphology engine
+# ---------------------------------------------------------------------------
+
+def generate_noun_forms(entry) -> list[tuple[str, str]]:
+    """All gender x number x person forms for a noun."""
+    root = entry["root"]
+    genders = [entry["gender"]] if entry["gender"] else list(Gender)
+    forms = []
+    for g in genders:
+        for n in Number:
+            for p in Person:
+                label = f"{g.value}.{n.value}.{p.name.lower()}"
+                try:
+                    form = build_noun(root, g, n, p)
+                except Exception as e:
+                    form = f"ERROR: {e}"
+                forms.append((label, form))
+    return forms
+
+
+def generate_transitive_forms(entry) -> list[tuple[str, str]]:
+    """All template x evidential x day prefix forms (canonical agreement)."""
+    root = entry["root"]
+    forms = []
+    for tmpl in StemTemplate:
+        for evid in Evidential:
+            for day in DayPrefix:
+                day_lbl = f"{day.name.lower()}." if day != DayPrefix.NONE else ""
+                label = f"{tmpl.name.lower()}.{day_lbl}{evid.name.lower()}"
+                try:
+                    form = conjugate_transitive(root, tmpl, evid, day, *SUBJ, *OBJ)
+                except Exception as e:
+                    form = f"ERROR: {e}"
+                forms.append((label, form))
+    return forms
+
+
+def generate_active_forms(entry) -> list[tuple[str, str]]:
+    """All evidential x day prefix forms (canonical agreement)."""
+    root = entry["root"]
+    forms = []
+    for evid in Evidential:
+        for day in DayPrefix:
+            day_lbl = f"{day.name.lower()}." if day != DayPrefix.NONE else ""
+            label = f"active.{day_lbl}{evid.name.lower()}"
+            try:
+                form = conjugate_intransitive_active(root, "a", "a", evid, day, *SUBJ)
+            except Exception as e:
+                form = f"ERROR: {e}"
+            forms.append((label, form))
+    return forms
+
+
+def generate_stative_forms(entry) -> list[tuple[str, str]]:
+    """All evidential x day prefix forms + full stative prefix paradigm."""
+    root = entry["root"]
+    forms = []
+    # Conjugated forms
+    for evid in Evidential:
+        for day in DayPrefix:
+            day_lbl = f"{day.name.lower()}." if day != DayPrefix.NONE else ""
+            label = f"stative.{day_lbl}{evid.name.lower()}"
+            try:
+                form = conjugate_intransitive_stative(root, "a", "a", evid, day, *SUBJ)
+            except Exception as e:
+                form = f"ERROR: {e}"
+            forms.append((label, form))
+    # Prefix paradigm (32 forms)
+    base_stem = f"{root.c1}a{root.c2}a{root.c3}"
+    try:
+        paradigm = stative_paradigm(base_stem)
+        for form_name, form in paradigm.items():
+            forms.append((f"stative_prefix.{form_name}", form))
+    except Exception as e:
+        forms.append(("stative_prefix.ERROR", f"ERROR: {e}"))
+    return forms
+
+
+def generate_adjective_forms(entry) -> list[tuple[str, str]]:
+    """All degree x evidential forms (canonical agreement)."""
+    root = entry["root"]
+    forms = []
+    for deg in AdjDegree:
+        for evid in AdjEvidential:
+            label = f"{deg.name.lower()}.{evid.name.lower()}"
+            try:
+                form = realize_adjective(root, *SUBJ, deg, evid)
+            except Exception as e:
+                form = f"ERROR: {e}"
+            forms.append((label, form))
+    return forms
+
+
+def generate_adverb_forms(entry) -> list[tuple[str, str]]:
+    """All degree x tense forms."""
+    root = entry["root"]
+    forms = []
+    for deg in AdverbDegree:
+        for tense in AdverbTense:
+            label = f"{deg.name.lower()}.{tense.name.lower()}"
+            try:
+                form = realize_adverb(root, "a", "a", deg, tense)
+            except Exception as e:
+                form = f"ERROR: {e}"
+            forms.append((label, form))
+    return forms
+
+
+FORM_GENERATORS = {
+    "noun": generate_noun_forms,
+    "verb_transitive": generate_transitive_forms,
+    "verb_active": generate_active_forms,
+    "verb_stative": generate_stative_forms,
+    "adjective": generate_adjective_forms,
+    "adverb": generate_adverb_forms,
+}
+
+
+# ---------------------------------------------------------------------------
 # Generate page wikitext
 # ---------------------------------------------------------------------------
 
-def generate_noun_table(forms: list[dict]) -> str:
-    """Generate a wikitable for noun declension forms."""
-    by_gender_number: dict[str, dict[str, str]] = {}
-    for form in forms:
-        parts = form["form_label"].split(".")
+def generate_noun_table(forms: list[tuple[str, str]]) -> str:
+    """Grouped noun table: rows = gender.number, cols = person."""
+    by_gn: dict[str, dict[str, str]] = {}
+    for label, surface in forms:
+        parts = label.split(".")
         if len(parts) == 3:
             gender, number, person = parts
-            gn_key = f"{gender}.{number}"
-            if gn_key not in by_gender_number:
-                by_gender_number[gn_key] = {}
-            by_gender_number[gn_key][person] = form["surface_form"]
-
-    if not by_gender_number:
+            gn = f"{gender}.{number}"
+            if gn not in by_gn:
+                by_gn[gn] = {}
+            by_gn[gn][person] = surface
+    if not by_gn:
         return ""
-
     lines = [
         '{| class="wikitable sortable"',
         "! Gender.Number !! 1st !! 2nd !! 3rd !! 4th",
     ]
-    for gn_key in sorted(by_gender_number.keys()):
-        persons = by_gender_number[gn_key]
-        first = persons.get("first", "\u2014")
-        second = persons.get("second", "\u2014")
-        third = persons.get("third", "\u2014")
-        fourth = persons.get("fourth", "\u2014")
-        lines.append(f"|-\n| {gn_key} || {first} || {second} || {third} || {fourth}")
+    for gn in sorted(by_gn.keys()):
+        p = by_gn[gn]
+        lines.append(
+            f"|-\n| {gn} || {p.get('first', '\u2014')} || "
+            f"{p.get('second', '\u2014')} || {p.get('third', '\u2014')} || "
+            f"{p.get('fourth', '\u2014')}"
+        )
     lines.append("|}")
     return "\n".join(lines)
 
 
-def generate_verb_table(forms: list[dict]) -> str:
-    """Generate a wikitable for verb/adj/adv forms."""
+def generate_forms_table(forms: list[tuple[str, str]]) -> str:
+    """Simple two-column form table."""
     if not forms:
         return ""
-
-    lines = [
-        '{| class="wikitable sortable"',
-        "! Form !! Surface form",
-    ]
-    for form in forms:
-        lines.append(f"|-\n| {form['form_label']} || {form['surface_form']}")
+    lines = ['{| class="wikitable sortable"', "! Form !! Surface form"]
+    for label, surface in forms:
+        lines.append(f"|-\n| {label} || {surface}")
     lines.append("|}")
     return "\n".join(lines)
 
 
-def generate_word_page(key: str, entry: dict, forms: list[dict] | None) -> str:
-    """Generate full wikitext for a word:LEMMA page."""
+def generate_word_page(key: str, entry: dict) -> str:
+    """Generate full wikitext for a word:LEMMA page (v2)."""
     wc = entry["word_class"]
     wc_info = WORD_CLASS_INFO.get(wc, {})
     wc_link = wc_info.get("link", wc)
     category = wc_info.get("category", "Aelaki vocabulary")
 
     lemma = entry["citation_form"]
-    root = entry["root"]
+    root_str = entry["root_str"]
     gloss = entry["gloss"]
 
     sections = []
 
-    # Lead paragraph
+    # Lead
     lead = f"'''{lemma}''' is an [[Aelaki]] {wc_link} meaning \"{gloss}\"."
     if entry.get("gender"):
-        lead += f" It has inherent '''{entry['gender']}''' gender."
+        lead += f" It has inherent '''{entry['gender'].value}''' gender."
     sections.append(lead)
 
     # Overview table
-    sections.append("")
-    sections.append("== Overview ==")
+    sections.append("\n== Overview ==")
     overview = ['{| class="wikitable"']
-    overview.append("|-\n! Root consonants\n| " + root)
-    overview.append("|-\n! Word class\n| " + wc_info.get("label", wc))
-    overview.append("|-\n! Gloss\n| " + gloss)
+    overview.append(f"|-\n! Root consonants\n| {root_str}")
+    overview.append(f"|-\n! Word class\n| {wc_info.get('label', wc)}")
+    overview.append(f"|-\n! Gloss\n| {gloss}")
     if entry.get("gender"):
-        overview.append("|-\n! Inherent gender\n| " + entry["gender"])
+        overview.append(f"|-\n! Inherent gender\n| {entry['gender'].value}")
     if lemma != key:
-        overview.append("|-\n! Citation form\n| " + lemma)
+        overview.append(f"|-\n! Citation form\n| {lemma}")
     overview.append("|}")
     sections.append("\n".join(overview))
 
-    # Inflection table
-    if forms:
-        sections.append("")
-        sections.append("== Inflected forms ==")
-        if wc == "noun":
-            table = generate_noun_table(forms)
-        else:
-            table = generate_verb_table(forms)
-        if table:
-            sections.append(table)
+    # Generate ALL forms from morphology engine
+    generator = FORM_GENERATORS.get(wc)
+    if generator and entry.get("entry"):
+        forms = generator(entry)
+        if forms:
+            sections.append("\n== Inflected forms ==")
+            if wc == "noun":
+                sections.append(generate_noun_table(forms))
+            else:
+                sections.append(generate_forms_table(forms))
+            sections.append(f"\n''{len(forms)} forms generated.''")
 
     # See also
-    sections.append("")
-    sections.append("== See also ==")
+    sections.append("\n== See also ==")
     sections.append("* [[Aelaki Lexicon]]")
 
     # Categories
@@ -230,10 +309,71 @@ def generate_word_page(key: str, entry: dict, forms: list[dict] | None) -> str:
     sections.append("[[Category:Aelaki vocabulary]]")
     sections.append("[[Category:Word pages]]")
 
-    # Version footer - MUST be last
+    # Version footer
     sections.append("{{wordpage|" + PAGE_VERSION + "}}")
 
     return "\n".join(sections)
+
+
+# ---------------------------------------------------------------------------
+# Upgrade old versions
+# ---------------------------------------------------------------------------
+
+def upgrade_old_versions(site, lexicon, limit, run_tag_suffix, log_file):
+    """Upgrade pages from older versions (v1, v2, ...) to current PAGE_VERSION.
+
+    Iterates through Category:Words v1, v2, etc. up to (but not including)
+    the current version. Upgrades up to `limit` pages total across all old versions.
+    Creates the current version category if it doesn't exist.
+    """
+    current_num = int(PAGE_VERSION[1:])  # "v2" -> 2
+    upgraded = 0
+
+    for v in range(1, current_num):
+        cat_name = f"Words v{v}"
+        print(f"Checking [[Category:{cat_name}]]...", flush=True)
+        cat = site.categories[cat_name]
+
+        for page in cat:
+            if upgraded >= limit:
+                print(f"  Reached upgrade limit of {limit}.", flush=True)
+                return upgraded
+            if not page.name.startswith("word:"):
+                continue
+
+            # Find the lexicon key for this page
+            lemma = page.name[5:]  # strip "word:"
+            entry = None
+            for k, e in lexicon.items():
+                if e["citation_form"] == lemma:
+                    entry = e
+                    key = k
+                    break
+            if not entry:
+                print(f"  SKIP upgrade (no lexicon match): [[{page.name}]]", flush=True)
+                continue
+
+            new_text = generate_word_page(key, entry)
+            try:
+                saved = safe_save(page, new_text,
+                                  summary=f"Bot: upgrade word page to {PAGE_VERSION}{run_tag_suffix}")
+                if saved:
+                    print(f"  UPGRADED: [[{page.name}]] v{v} -> {PAGE_VERSION}", flush=True)
+                    upgraded += 1
+                    append_log(log_file, {
+                        "key": key, "lemma": lemma, "title": page.name,
+                        "status": "upgraded", "from": f"v{v}", "to": PAGE_VERSION,
+                    })
+                else:
+                    print(f"  SKIP (no change): [[{page.name}]]", flush=True)
+            except Exception as e:
+                print(f"  ERROR upgrading [[{page.name}]]: {e}", flush=True)
+                append_log(log_file, {
+                    "key": key, "lemma": lemma, "title": page.name,
+                    "status": "upgrade_error", "error": str(e),
+                })
+
+    return upgraded
 
 
 # ---------------------------------------------------------------------------
@@ -245,7 +385,7 @@ def main():
         description="Create word:LEMMA pages on aelaki.miraheze.org."
     )
     parser.add_argument("--apply", action="store_true",
-                        help="Actually create pages (default is dry-run).")
+                        help="Actually create/update pages (default is dry-run).")
     parser.add_argument("--limit", type=int, default=10,
                         help="Max pages to create per run (default: 10).")
     parser.add_argument("--overwrite", action="store_true",
@@ -258,39 +398,41 @@ def main():
                         help="Comma-separated lexicon keys to process (default: all).")
     args = parser.parse_args()
 
-    # Load data
     print("Loading lexicon...", flush=True)
     lexicon = load_lexicon()
     print(f"  {len(lexicon)} entries loaded.", flush=True)
 
-    print("Loading forms CSV...", flush=True)
-    if os.path.exists(FORMS_CSV):
-        forms_by_key = load_forms(FORMS_CSV)
-        print(f"  {sum(len(v) for v in forms_by_key.values())} forms loaded.", flush=True)
-    else:
-        print(f"  WARNING: {FORMS_CSV} not found. Pages will have no inflection tables.", flush=True)
-        forms_by_key = {}
-
-    # Filter keys
-    if args.keys:
-        keys = [k.strip() for k in args.keys.split(",")]
-    else:
-        keys = sorted(lexicon.keys())
-
-    # Load state for resumption
-    completed = load_state(args.state_file) if args.apply else set()
+    run_tag_suffix = f" {args.run_tag}" if args.run_tag else ""
 
     # Connect
     site = None
     if args.apply:
         site = connect()
 
+    # --- Phase 1: Upgrade old version pages ---
+    if args.apply:
+        print(f"\n--- Phase 1: Upgrade old pages to {PAGE_VERSION} ---", flush=True)
+        upgraded = upgrade_old_versions(site, lexicon, args.limit, run_tag_suffix, args.log_file)
+        print(f"  Upgraded {upgraded} pages.", flush=True)
+        remaining = args.limit - upgraded
+    else:
+        print(f"\n--- Phase 1: Would upgrade old pages to {PAGE_VERSION} (dry-run) ---", flush=True)
+        remaining = args.limit
+
+    # --- Phase 2: Create new pages ---
+    print(f"\n--- Phase 2: Create new pages ({remaining} remaining) ---", flush=True)
+
+    if args.keys:
+        keys = [k.strip() for k in args.keys.split(",")]
+    else:
+        keys = sorted(lexicon.keys())
+
+    completed = load_state(args.state_file) if args.apply else set()
     progress = Progress()
-    run_tag_suffix = f" {args.run_tag}" if args.run_tag else ""
 
     for key in keys:
-        if args.limit and progress.created >= args.limit:
-            print(f"\nReached limit of {args.limit} pages.", flush=True)
+        if remaining and progress.created >= remaining:
+            print(f"\nReached limit of {remaining} new pages.", flush=True)
             break
 
         if key in completed:
@@ -299,32 +441,33 @@ def main():
 
         entry = lexicon.get(key)
         if not entry:
-            print(f"  SKIP (not in lexicon): {key}", flush=True)
             progress.skipped += 1
             continue
 
         progress.processed += 1
         lemma = entry["citation_form"]
         title = f"word:{lemma}"
-        forms = forms_by_key.get(key)
-        wikitext = generate_word_page(key, entry, forms)
+        wikitext = generate_word_page(key, entry)
 
         if not args.apply:
             print(f"\n{'=' * 60}")
             print(f"WOULD CREATE: [[{title}]]")
             print(f"{'=' * 60}")
-            print(wikitext[:600])
-            if len(wikitext) > 600:
+            print(wikitext[:800])
+            if len(wikitext) > 800:
                 print(f"  ... ({len(wikitext)} chars total)")
             progress.created += 1
         else:
             try:
-                created = create_page(
-                    site, title, wikitext,
-                    summary=f"Bot: create word page for \"{lemma}\"{run_tag_suffix}",
-                    overwrite=args.overwrite,
-                )
-                if created:
+                page = site.pages[title]
+                if page.exists and not args.overwrite:
+                    print(f"  EXISTS: [[{title}]]", flush=True)
+                    progress.skipped += 1
+                    append_state(args.state_file, key)
+                    continue
+                saved = safe_save(page, wikitext,
+                                  summary=f"Bot: create word page for \"{lemma}\"{run_tag_suffix}")
+                if saved:
                     print(f"  CREATED: [[{title}]]", flush=True)
                     progress.created += 1
                     append_state(args.state_file, key)
@@ -332,11 +475,8 @@ def main():
                         "key": key, "lemma": lemma, "title": title, "status": "created",
                     })
                 else:
-                    print(f"  EXISTS: [[{title}]] (use --overwrite to replace)", flush=True)
                     progress.skipped += 1
-                    append_log(args.log_file, {
-                        "key": key, "lemma": lemma, "title": title, "status": "exists",
-                    })
+                    append_state(args.state_file, key)
             except Exception as e:
                 print(f"  ERROR on [[{title}]]: {e}", flush=True)
                 progress.errors += 1
