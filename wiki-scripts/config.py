@@ -16,8 +16,9 @@ WIKI_URL = "aelaki.miraheze.org"
 WIKI_PATH = "/w/"
 
 # Credentials from environment (set via Special:BotPasswords on the wiki)
-USERNAME = os.getenv("AELAKI_WIKI_USERNAME", "")
-PASSWORD = os.getenv("AELAKI_WIKI_PASSWORD", "")
+# GitHub Actions uses WIKI_USERNAME / WIKI_PASSWORD; local uses AELAKI_WIKI_*
+USERNAME = os.getenv("WIKI_USERNAME", "") or os.getenv("AELAKI_WIKI_USERNAME", "")
+PASSWORD = os.getenv("WIKI_PASSWORD", "") or os.getenv("AELAKI_WIKI_PASSWORD", "")
 
 # Bot behaviour
 THROTTLE = 1.5          # seconds between edits (standard for Miraheze)

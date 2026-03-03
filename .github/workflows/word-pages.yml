@@ -1,0 +1,53 @@
+name: word-page-bot
+
+on:
+  workflow_dispatch:
+  push:
+    paths-ignore:
+      - "**/*.state"
+  schedule:
+    - cron: "0 0 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: word-page-bot
+  cancel-in-progress: false
+
+jobs:
+  create-word-pages:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      WIKI_USERNAME: ${{ vars.WIKI_USERNAME }}
+      WIKI_PASSWORD: ${{ secrets.WIKI_PASSWORD }}
+      WIKI_EDIT_LIMIT: "10"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install mwclient requests
+
+      - name: Run word page bot
+        run: |
+          chmod +x wiki-scripts/word_page_loop.sh
+          wiki-scripts/word_page_loop.sh
+
+      - name: Commit updated state files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- "*.state"
+          if git diff --cached --quiet; then
+            echo "No state changes to commit."
+            exit 0
+          fi
+          git commit -m "chore(state): update word page bot state [skip ci]"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
