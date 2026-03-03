@@ -3,7 +3,6 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Wiki bot state and logs
-wiki-scripts/*.state
+# Wiki bot logs (state files are tracked for CI persistence)
 wiki-scripts/*.log
 .env

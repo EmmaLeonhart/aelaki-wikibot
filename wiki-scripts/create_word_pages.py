@@ -319,25 +319,25 @@ def generate_word_page(key: str, entry: dict) -> str:
 # Upgrade old versions
 # ---------------------------------------------------------------------------
 
-def upgrade_old_versions(site, lexicon, limit, run_tag_suffix, log_file):
-    """Upgrade pages from older versions (v1, v2, ...) to current PAGE_VERSION.
+def upgrade_old_versions(site, lexicon, limit_per_version, run_tag_suffix, log_file):
+    """Upgrade pages from older versions to current PAGE_VERSION.
 
-    Iterates through Category:Words v1, v2, etc. up to (but not including)
-    the current version. Upgrades up to `limit` pages total across all old versions.
-    Creates the current version category if it doesn't exist.
+    Iterates through Category:Words v1, v2, etc. sequentially.
+    Upgrades up to `limit_per_version` pages from EACH old version category.
     """
     current_num = int(PAGE_VERSION[1:])  # "v2" -> 2
-    upgraded = 0
+    total_upgraded = 0
 
     for v in range(1, current_num):
         cat_name = f"Words v{v}"
-        print(f"Checking [[Category:{cat_name}]]...", flush=True)
+        print(f"\nChecking [[Category:{cat_name}]]...", flush=True)
         cat = site.categories[cat_name]
+        upgraded_this_version = 0
 
         for page in cat:
-            if upgraded >= limit:
-                print(f"  Reached upgrade limit of {limit}.", flush=True)
-                return upgraded
+            if upgraded_this_version >= limit_per_version:
+                print(f"  Reached limit of {limit_per_version} for v{v}.", flush=True)
+                break
             if not page.name.startswith("word:"):
                 continue
 
@@ -359,7 +359,8 @@ def upgrade_old_versions(site, lexicon, limit, run_tag_suffix, log_file):
                                   summary=f"Bot: upgrade word page to {PAGE_VERSION}{run_tag_suffix}")
                 if saved:
                     print(f"  UPGRADED: [[{page.name}]] v{v} -> {PAGE_VERSION}", flush=True)
-                    upgraded += 1
+                    upgraded_this_version += 1
+                    total_upgraded += 1
                     append_log(log_file, {
                         "key": key, "lemma": lemma, "title": page.name,
                         "status": "upgraded", "from": f"v{v}", "to": PAGE_VERSION,
@@ -373,7 +374,9 @@ def upgrade_old_versions(site, lexicon, limit, run_tag_suffix, log_file):
                     "status": "upgrade_error", "error": str(e),
                 })
 
-    return upgraded
+        print(f"  v{v}: upgraded {upgraded_this_version} pages.", flush=True)
+
+    return total_upgraded
 
 
 # ---------------------------------------------------------------------------
@@ -409,18 +412,16 @@ def main():
     if args.apply:
         site = connect()
 
-    # --- Phase 1: Upgrade old version pages ---
+    # --- Phase 1: Upgrade old version pages (10 per old version) ---
     if args.apply:
-        print(f"\n--- Phase 1: Upgrade old pages to {PAGE_VERSION} ---", flush=True)
+        print(f"\n--- Phase 1: Upgrade old pages to {PAGE_VERSION} (up to {args.limit} per version) ---", flush=True)
         upgraded = upgrade_old_versions(site, lexicon, args.limit, run_tag_suffix, args.log_file)
-        print(f"  Upgraded {upgraded} pages.", flush=True)
-        remaining = args.limit - upgraded
+        print(f"\n  Total upgraded: {upgraded} pages.", flush=True)
     else:
         print(f"\n--- Phase 1: Would upgrade old pages to {PAGE_VERSION} (dry-run) ---", flush=True)
-        remaining = args.limit
 
-    # --- Phase 2: Create new pages ---
-    print(f"\n--- Phase 2: Create new pages ({remaining} remaining) ---", flush=True)
+    # --- Phase 2: Create new pages (independent limit) ---
+    print(f"\n--- Phase 2: Create up to {args.limit} new pages ---", flush=True)
 
     if args.keys:
         keys = [k.strip() for k in args.keys.split(",")]
@@ -431,8 +432,8 @@ def main():
     progress = Progress()
 
     for key in keys:
-        if remaining and progress.created >= remaining:
-            print(f"\nReached limit of {remaining} new pages.", flush=True)
+        if args.limit and progress.created >= args.limit:
+            print(f"\nReached limit of {args.limit} new pages.", flush=True)
             break
 
         if key in completed:
