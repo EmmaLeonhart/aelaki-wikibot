@@ -15,7 +15,12 @@
       "Bash(cd \"C:\\\\Users\\\\Immanuelle\\\\Documents\\\\Github\\\\aelaki-merged\" && git push origin master 2>&1)",
       "Bash(git:*)",
       "WebFetch(domain:github.com)",
-      "WebFetch(domain:raw.githubusercontent.com)"
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(cd /c/Users/Immanuelle/Documents/Github/aelaki-merged && /c/Users/Immanuelle/AppData/Local/Programs/Python/Python313/python.exe wiki-scripts/create_word_pages.py --dry-run --limit 3 2>&1)",
+      "Bash(cd /c/Users/Immanuelle/Documents/Github/aelaki-merged && /c/Users/Immanuelle/AppData/Local/Programs/Python/Python313/python.exe wiki-scripts/create_word_pages.py --limit 3 2>&1)",
+      "Bash(cd /c/Users/Immanuelle/Documents/Github/aelaki-merged && /c/Users/Immanuelle/AppData/Local/Programs/Python/Python313/python.exe wiki-scripts/create_word_pages.py --limit 1 --keys \"debh\" 2>&1)",
+      "Bash(cd /c/Users/Immanuelle/Documents/Github/aelaki-merged && /c/Users/Immanuelle/AppData/Local/Programs/Python/Python313/python.exe -c \"\nimport sys\nsys.path.insert\\(0, '.'\\)\nfrom wiki_scripts_helper import *\n\" 2>&1 || /c/Users/Immanuelle/AppData/Local/Programs/Python/Python313/python.exe -c \"\nimport sys, os\nsys.path.insert\\(0, os.path.join\\('wiki-scripts'\\)\\)\nsys.path.insert\\(0, '.'\\)\nfrom aelaki.lexicon import VERBS, NOUNS, ADJECTIVES, ADVERBS, COLORS\nall_keys = sorted\\(list\\(VERBS.keys\\(\\)\\) + list\\(NOUNS.keys\\(\\)\\) + list\\(ADJECTIVES.keys\\(\\)\\) + list\\(ADVERBS.keys\\(\\)\\) + [f'color_{c}' for c in COLORS]\\)\nprint\\(f'Total words: {len\\(all_keys\\)}'\\)\nfor i, k in enumerate\\(all_keys\\):\n    batch = 'batch 1' if i < 10 else \\('batch 2' if i < 20 else \\('batch 3' if i < 30 else 'batch 4'\\)\\)\n    print\\(f'  {i+1:2d}. {k:20s} \\({batch}\\)'\\)\n\" 2>&1)",
+      "Bash(cd /c/Users/Immanuelle/Documents/Github/aelaki-merged && /c/Users/Immanuelle/AppData/Local/Programs/Python/Python313/python.exe wiki-scripts/create_word_pages.py --limit 1 2>&1)"
     ]
   }
 }
