@@ -170,18 +170,18 @@ def build_noun_citation(root: TriRoot, gender: Gender) -> str:
 
 
 def build_verb_citation(root: TriRoot, verb_class: str) -> str:
-    """Build verb citation: 3p masculine singular, present unmarked."""
+    """Build verb citation: 4th person (unmarked), present."""
     if verb_class == "verb_stative":
         return conjugate_intransitive_stative(
             root, v1="a", v2="a",
-            subj_person=Person.THIRD,
+            subj_person=Person.FOURTH,
             subj_gender=Gender.MALE,
             subj_number=Number.SINGULAR,
         )
     # verb_active (default)
     return conjugate_intransitive_active(
         root, v1="a", v2="a",
-        subj_person=Person.THIRD,
+        subj_person=Person.FOURTH,
         subj_gender=Gender.MALE,
         subj_number=Number.SINGULAR,
     )
@@ -191,7 +191,7 @@ def build_transitive_citation(root: TetraRoot) -> str:
     return conjugate_transitive(
         root,
         template=StemTemplate.TELIC_PERFECT,
-        subj_person=Person.THIRD,
+        subj_person=Person.FOURTH,
         subj_gender=Gender.MALE,
         subj_number=Number.SINGULAR,
     )
