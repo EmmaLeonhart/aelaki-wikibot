@@ -1,36 +1,46 @@
 """Phonological inventory and sound rules for Aelaki.
 
-Contains vowel/consonant inventories, umlaut mappings, collective vowel
+Contains vowel/consonant inventories, vowel shift mappings, collective vowel
 shifts, zero-infix rules, and sandhi processes.
 """
 
 # ---------------------------------------------------------------------------
 # Vowel inventory
 # ---------------------------------------------------------------------------
+#
+# Aelaki vowels are organized in a back/front grid. The collective form
+# shifts back (left column) vowels to their front (right column) counterparts.
+#
+#   Back  Front
+#    u      i      high:      /u/  /i/
+#    ü      ï      near-high: /ʊ/  /ɪ/
+#    o      e      mid:       /o/  /e/
+#    a      æ      low:       /ɑ/  /æ/
+#
+# ə (schwa) appears in grammatical affixes (verb TAM prefixes, converbs)
+# but does not participate in the vowel grid.
 
-VOWELS = {"a", "e", "i", "o", "u", "ae", "oe", "ue",
-          "ə", "æ", "ü", "ï", "ïf"}
+VOWELS = {"a", "e", "i", "o", "u", "æ", "ü", "ï", "ə", "ïf"}
 
-# Phonological umlaut (fronting) — used on verbs, adjectives, adverbs
-UMLAUT_MAP: dict[str, str] = {
-    "a": "æ",
-    "o": "œ",
-    "u": "ü",
-    "e": "e",   # already front
-    "i": "i",   # already front
-    "æ": "æ",
-    "œ": "œ",
-    "ü": "ü",
-}
-
-# Grammatical collective shift — used on nouns and numbers
-COLLECTIVE_MAP: dict[str, str] = {
+# Back-to-front vowel shift — used on verbs, adjectives, adverbs (umlaut),
+# and on nouns and numbers (collective). Same phonological process applied
+# in different grammatical contexts.
+VOWEL_SHIFT_MAP: dict[str, str] = {
     "u": "i",
+    "ü": "ï",
     "o": "e",
     "a": "æ",
     "ə": "æ",
-    "ü": "ï",
+    # Front vowels are unchanged
+    "i": "i",
+    "ï": "ï",
+    "e": "e",
+    "æ": "æ",
 }
+
+# Legacy aliases — both use the same back-to-front shift
+UMLAUT_MAP = VOWEL_SHIFT_MAP
+COLLECTIVE_MAP = VOWEL_SHIFT_MAP
 
 # ---------------------------------------------------------------------------
 # Gender vowel slots
@@ -70,20 +80,14 @@ PERSON_SUFFIXES: dict[int, str] = {
 CONSONANTS = {
     # Stops
     "p", "b", "t", "d", "k", "g",
-    # Implosives
-    "b'", "d'", "g'",
     # Affricates
-    "pf", "bv", "ch", "dzh", "ggx",
+    "ch", "j",
     # Fricatives
-    "f", "v", "s", "z", "sh", "zh", "x", "gx", "gh", "h",
+    "f", "v", "s", "z", "sh", "zh", "th", "dh", "h",
     # Nasals
-    "m", "n", "ng", "m'", "n'", "ngl'",
-    # Clicks
-    "p!", "t!", "k!",
+    "m", "n", "ng",
     # Liquids & glides
     "l", "r", "w", "y",
-    # Digraph consonants used in grammar
-    "th", "dh", "nl'", "mb'", "nd'",
 }
 
 # ---------------------------------------------------------------------------
@@ -100,7 +104,7 @@ def hodiernal_sandhi(stem: str) -> str:
 
 
 def apply_umlaut(text: str) -> str:
-    """Apply phonological umlaut (fronting) to all vowels in text."""
+    """Apply back-to-front vowel shift to all vowels in text."""
     result: list[str] = []
     i = 0
     while i < len(text):
