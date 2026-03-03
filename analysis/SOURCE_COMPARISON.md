@@ -49,17 +49,18 @@ All sources agree on four operations:
 
 **Resolution**: The markdown grammar's rule (`C1V1fC2V2C3`) appears to be the documented standard for verbs/adjectives. The C# noun system uses a different surface realization (vowel+f) which may be a noun-specific pattern.
 
-### Discrepancy: Umlaut vowel mappings
-- **Python script**: a->ae, o->oe, u->u (with umlaut diacritic)
-- **Markdown grammar**: a->ae, o->oe, u->u (front)
-- **C# code (nouns)**: u->i, o->e, schwa->ae (different set!)
-- **C# code (numbers)**: u->i, u(umlaut)->i(umlaut), o->e, schwa->ae, a->ae
+### Resolved: Umlaut vowel mappings (UNIFIED)
+Earlier sources showed different mappings for "phonological umlaut" vs "collective shift". These have been **unified into a single back-to-front vowel shift** used across all grammatical contexts (verbs, adjectives, nouns, numbers):
 
-**Resolution**: There appear to be TWO umlaut systems:
-1. **Phonological umlaut** (verbs/adjectives): a->ae, o->oe, u->u (front)
-2. **Grammatical collective** (nouns/numbers): u->i, o->e, a->ae
+| Back | Front |
+|------|-------|
+| u | i |
+| ü | ï |
+| o | e |
+| a | æ |
+| ə | æ |
 
-This is consistent with the Discord discussion that umlaut on verbs = perfect aspect while umlaut on nouns = collective form, and these are historically related but distinct.
+Front vowels (i, ï, e, æ) are unchanged. The same shift applies whether the context is verbal umlaut (perfective-completed), noun collective, numeral collective, adjective superlative, or adverb superlative.
 
 ---
 
