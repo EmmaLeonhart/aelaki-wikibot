@@ -233,13 +233,14 @@ def generate_noun_table(forms: list[tuple[str, str]]) -> str:
         '{| class="wikitable sortable"',
         "! Gender.Number !! 1st !! 2nd !! 3rd !! 4th",
     ]
+    dash = "\u2014"
     for gn in sorted(by_gn.keys()):
         p = by_gn[gn]
-        lines.append(
-            f"|-\n| {gn} || {p.get('first', '\u2014')} || "
-            f"{p.get('second', '\u2014')} || {p.get('third', '\u2014')} || "
-            f"{p.get('fourth', '\u2014')}"
-        )
+        first = p.get("first", dash)
+        second = p.get("second", dash)
+        third = p.get("third", dash)
+        fourth = p.get("fourth", dash)
+        lines.append(f"|-\n| {gn} || {first} || {second} || {third} || {fourth}")
     lines.append("|}")
     return "\n".join(lines)
 
