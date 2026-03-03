@@ -27,7 +27,7 @@ SCRIPT_DIR = os.path.dirname(__file__)
 DEFAULT_STATE_FILE = os.path.join(SCRIPT_DIR, "create_word_pages.state")
 DEFAULT_LOG_FILE = os.path.join(SCRIPT_DIR, "create_word_pages.log")
 
-PAGE_VERSION = "v2"
+PAGE_VERSION = "v3"
 
 WORD_CLASS_INFO = {
     "noun": {"label": "Noun", "link": "[[Nouns|noun]]", "category": "Aelaki nouns"},
@@ -213,6 +213,104 @@ FORM_GENERATORS = {
 
 
 # ---------------------------------------------------------------------------
+# Agreement paradigm generators (person x gender x number)
+# ---------------------------------------------------------------------------
+
+def generate_active_agreement(entry) -> list[tuple[str, str]]:
+    """All person x gender x number forms for active verb (base present)."""
+    root = entry["root"]
+    forms = []
+    for g in Gender:
+        for n in Number:
+            for p in Person:
+                label = f"{g.value}.{n.value}.{p.name.lower()}"
+                try:
+                    form = conjugate_intransitive_active(
+                        root, "a", "a",
+                        subj_person=p, subj_gender=g, subj_number=n,
+                    )
+                except Exception as e:
+                    form = f"ERROR: {e}"
+                forms.append((label, form))
+    return forms
+
+
+def generate_stative_agreement(entry) -> list[tuple[str, str]]:
+    """All person x gender x number forms for stative verb (base present)."""
+    root = entry["root"]
+    forms = []
+    for g in Gender:
+        for n in Number:
+            for p in Person:
+                label = f"{g.value}.{n.value}.{p.name.lower()}"
+                try:
+                    form = conjugate_intransitive_stative(
+                        root, "a", "a",
+                        subj_person=p, subj_gender=g, subj_number=n,
+                    )
+                except Exception as e:
+                    form = f"ERROR: {e}"
+                forms.append((label, form))
+    return forms
+
+
+def generate_transitive_subject_agreement(entry) -> list[tuple[str, str]]:
+    """Vary subject p x g x n with fixed canonical object, telic perfect."""
+    root = entry["root"]
+    forms = []
+    for g in Gender:
+        for n in Number:
+            for p in Person:
+                label = f"{g.value}.{n.value}.{p.name.lower()}"
+                try:
+                    form = conjugate_transitive(
+                        root, StemTemplate.TELIC_PERFECT,
+                        subj_person=p, subj_gender=g, subj_number=n,
+                        obj_person=OBJ[0], obj_gender=OBJ[1], obj_number=OBJ[2],
+                    )
+                except Exception as e:
+                    form = f"ERROR: {e}"
+                forms.append((label, form))
+    return forms
+
+
+def generate_transitive_object_agreement(entry) -> list[tuple[str, str]]:
+    """Vary object p x g x n with fixed canonical subject, telic perfect."""
+    root = entry["root"]
+    forms = []
+    for g in Gender:
+        for n in Number:
+            for p in Person:
+                label = f"{g.value}.{n.value}.{p.name.lower()}"
+                try:
+                    form = conjugate_transitive(
+                        root, StemTemplate.TELIC_PERFECT,
+                        subj_person=SUBJ[0], subj_gender=SUBJ[1], subj_number=SUBJ[2],
+                        obj_person=p, obj_gender=g, obj_number=n,
+                    )
+                except Exception as e:
+                    form = f"ERROR: {e}"
+                forms.append((label, form))
+    return forms
+
+
+def generate_adjective_agreement(entry) -> list[tuple[str, str]]:
+    """All person x gender x number forms for adjective (positive, no evidential)."""
+    root = entry["root"]
+    forms = []
+    for g in Gender:
+        for n in Number:
+            for p in Person:
+                label = f"{g.value}.{n.value}.{p.name.lower()}"
+                try:
+                    form = realize_adjective(root, p, g, n)
+                except Exception as e:
+                    form = f"ERROR: {e}"
+                forms.append((label, form))
+    return forms
+
+
+# ---------------------------------------------------------------------------
 # Generate page wikitext
 # ---------------------------------------------------------------------------
 
@@ -257,7 +355,7 @@ def generate_forms_table(forms: list[tuple[str, str]]) -> str:
 
 
 def generate_word_page(key: str, entry: dict) -> str:
-    """Generate full wikitext for a word:LEMMA page (v2)."""
+    """Generate full wikitext for a word:LEMMA page (v3)."""
     wc = entry["word_class"]
     wc_info = WORD_CLASS_INFO.get(wc, {})
     wc_link = wc_info.get("link", wc)
@@ -288,15 +386,48 @@ def generate_word_page(key: str, entry: dict) -> str:
     overview.append("|}")
     sections.append("\n".join(overview))
 
-    # Generate ALL forms from morphology engine
+    # Generate forms from morphology engine
     generator = FORM_GENERATORS.get(wc)
     if generator and entry.get("entry"):
         forms = generator(entry)
+
+        # Agreement paradigm section (verbs and adjectives)
+        if wc == "verb_transitive":
+            subj_forms = generate_transitive_subject_agreement(entry)
+            obj_forms = generate_transitive_object_agreement(entry)
+            sections.append("\n== Agreement paradigm ==")
+            sections.append("=== Subject agreement ===")
+            sections.append(f"''Object fixed at {OBJ[0].name.lower()} {OBJ[1].value} {OBJ[2].value}, telic perfect template.''")
+            sections.append(generate_noun_table(subj_forms))
+            sections.append("=== Object agreement ===")
+            sections.append(f"''Subject fixed at {SUBJ[0].name.lower()} {SUBJ[1].value} {SUBJ[2].value}, telic perfect template.''")
+            sections.append(generate_noun_table(obj_forms))
+        elif wc == "verb_active":
+            agreement_forms = generate_active_agreement(entry)
+            sections.append("\n== Agreement paradigm ==")
+            sections.append("''Base present, no evidential.''")
+            sections.append(generate_noun_table(agreement_forms))
+        elif wc == "verb_stative":
+            agreement_forms = generate_stative_agreement(entry)
+            sections.append("\n== Agreement paradigm ==")
+            sections.append("''Base present, no evidential.''")
+            sections.append(generate_noun_table(agreement_forms))
+        elif wc == "adjective":
+            agreement_forms = generate_adjective_agreement(entry)
+            sections.append("\n== Agreement paradigm ==")
+            sections.append("''Positive degree, no evidential.''")
+            sections.append(generate_noun_table(agreement_forms))
+
+        # Main forms table
         if forms:
-            sections.append("\n== Inflected forms ==")
             if wc == "noun":
+                sections.append("\n== Inflected forms ==")
                 sections.append(generate_noun_table(forms))
+            elif wc in ("verb_transitive", "verb_active", "verb_stative", "adjective"):
+                sections.append("\n== Evidential and TAM forms ==")
+                sections.append(generate_forms_table(forms))
             else:
+                sections.append("\n== Inflected forms ==")
                 sections.append(generate_forms_table(forms))
             sections.append(f"\n''{len(forms)} forms generated.''")
 
