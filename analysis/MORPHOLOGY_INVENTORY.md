@@ -18,28 +18,25 @@ A consolidated inventory of every morphological rule, affix, and paradigm extrac
 | o | /o/ | Female (singular) | e |
 | a | /a/ | Male (singular) | ae |
 
-### Umlaut (Fronting) Mappings
-| Base | Fronted |
-|------|---------|
-| a | ae |
-| o | oe |
-| u | u (with umlaut) |
+### Vowel Shift Mappings (Unified)
+A single back-to-front vowel shift is used for all grammatical contexts:
+umlaut (verbs/adjectives), collective (nouns/numbers), and superlative (adjectives/adverbs).
 
-### Collective Vowel Shifts (Nouns/Numbers)
-| Base | Collective |
-|------|-----------|
+| Back | Front |
+|------|-------|
 | u | i |
+| ü | ï |
 | o | e |
-| a | ae |
-| schwa | ae |
+| a | æ |
+| ə | æ |
 
-### Consonants (34+)
-Clicks: p!, t!, k!
-Implosives: b', d', g'
-Affricates: pf, bv, ch, dzh, kx, ggx
-Fricatives: f, v, s, z, sh, zh, x, gx, gh, h
-Nasals: m, n, ng, m', n', ngl'
+Front vowels (i, ï, e, æ) are unchanged.
+
+### Consonants (22)
 Stops: p, b, t, d, k, g
+Affricates: ch, j
+Fricatives: f, v, s, z, sh, zh, th, dh, h
+Nasals: m, n, ng
 Liquids: l, r
 Glides: w, y
 
@@ -69,8 +66,8 @@ Example: k-m-d-r (worship/ritual)
 - Tetra: C1-a-C2-u-**C2-u**-C3-Vm-C4-Ve (duplicate C2-u)
 
 ### Umlaut (Fronting)
-- Tri: front all vowels per umlaut map
-- Tetra nouns: u->i, o->e, a->ae (collective shift)
+- Tri: front all vowels per unified vowel shift (u→i, o→e, a→æ)
+- Tetra: same vowel shift applied to all vowels in the form
 
 ### Zero-Infix
 - Tri: C1V1**f**C2V2C3 (insert /f/ before C2)
@@ -387,6 +384,12 @@ Template: ROOT + -te
 ---
 
 ## 18. Vocabulary Roots (From All Sources)
+
+> **Note**: Many of these roots come from older worldbuilding documents and use
+> consonants (clicks p!, implosives b', kx, ggx, etc.) that are no longer in the
+> current phonological inventory. They are preserved here for reference but would
+> need updating to the current 22-consonant system. See `aelaki/lexicon.py` for
+> the current curated root list.
 
 ### Core verb roots documented with glosses
 bva (drink), upf (eat), p'ar (bite), euvel (suck), bha (see), dibv (hear), zo (know), agh (think), eux (smell), aed (fear), gho (live), of (die), bvaedh (kill), xaen (hunt), dhe (hit), nd'i (cut), gi (stab), bhi (scratch), gihch (dig), aech (swim), iht' (fly), sae (walk), ae (come), vog (sit), ihggx (stand), dzhe (turn), apf (fall), och (give), kxeugh (hold), ig (squeeze), euw (rub), udh (wash), u (pull), i (push), geb (throw), ghih (tie), ma'el (give birth), aexel (age)
