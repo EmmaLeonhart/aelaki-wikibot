@@ -14,20 +14,7 @@ All entries are sourced from Discord messages by kamidere in the Conlangs Discor
 
 ### Transitive Verbs (Tetraconsonantal)
 
-#### **kamdr** — root: k-m-d-r — "worship, do ritual"
-The primary example verb for transitive conjugation throughout Discord.
-
-| Form | Gloss | Source |
-|------|-------|--------|
-| kamder | "just finished a ritual" (telic perfect) | 2025-05-03 |
-| kamdor | "doing a ritual" (atelic imperfect) | 2025-05-03 |
-| kamader | "just finished worshipping" (atelic perfect) | 2025-05-03 |
-| kamador | "worshipping" (atelic imperfect) | 2025-05-03 |
-| kandador | "habitual worship" (habitual imperfect) | 2025-05-03 |
-| kandandor | "gnomic of worship" (gnomic imperfect) | 2025-05-03 |
-| kaemdar | "we (masc. inclusive) worshipped (something male)" | 2025-05-01 |
-
-**Notes:** Reduplicating just C2 = habitual; reduplicating C2+C3 = gnomic (2025-05-03). Imperative has radically different morphology due to historical SOV→SVO shift (2025-05-02).
+<!-- kamdr (k-m-d-r, "worship, do ritual") moved to aelaki/lexicon.py -->
 
 ---
 
@@ -49,18 +36,7 @@ The primary example verb for transitive conjugation throughout Discord.
 
 ### Active Intransitive Verbs (Triconsonantal)
 
-#### **zhrn** — root: zh-r-n — "live (bodily functions)"
-Used for basic bodily functions: breathing, eating, sleeping, etc. Euphemistic connotation similar to English "bio break" (2025-05-20).
-
-| Form | Gloss | Source |
-|------|-------|--------|
-| Zhoron | "present atelic perfect" | 2025-05-25 |
-| Zhororon | "present continuative" | 2025-05-25 |
-| Zheren | "present telic completed" | 2025-05-25 |
-| Zhofron | "negative" | 2025-05-25 |
-| Shazhærænya | "he lives (continuative, optative future)" — 3p.MASC.SING-live.CONT-OPT.FUT | 2025-05-29 |
-
-**Notes:** Active verb = conjugation at beginning. Negative does not differentiate aspect (2025-05-25). "Live" as active verb implies bodily functions, not residence (2025-05-20).
+<!-- zhrn (zh-r-n, "live") moved to aelaki/lexicon.py -->
 
 ---
 
@@ -93,55 +69,13 @@ Stative/active verb used as key example for stative prefix system.
 
 ---
 
-#### **sae** — "walk"
-| Form | Gloss | Source |
-|------|-------|--------|
-| Jæsangangazya | "you (fem.coll) walk (continuative, optative future)" — 2p.MASC.COLL-walk.CONT-OPT.FUTURE | 2025-05-29 |
+<!-- sae ("walk") moved to aelaki/lexicon.py -->
 
 ---
 
 ### Stative Intransitive Verbs
 
-#### **zoduk** — root: z-d-k — "know"
-The most extensively documented verb in the entire corpus.
-
-| Form | Gloss | Source |
-|------|-------|--------|
-| Zoduk | "know" (standard base) | 2025-05-30 |
-| Zedik | "know" (gnomic — universal truth) | 2025-06-04 |
-| Zodukoth | "I know" (1p.FEM.SING) | 2025-06-04 |
-| Zodukothro | "I knew" (1p.FEM.SING-PAST.AUD) | 2025-06-04 |
-| Zodukothmu | "I will know" (1p.FEM.SING-FUT.INFER) | 2025-06-04 |
-| Zodukothya | "I would like to know" (1p.FEM.SING-OPT.FUT) | 2025-06-04 |
-| Hozoduk | "curious / probably know" (probable prefix) | 2025-05-30 |
-| Hozodukoth | "I am curious" | 2025-06-04 |
-| HoZodukothro | "I was curious" | 2025-06-04 |
-| HoZodukothmu | "I will be curious" | 2025-06-04 |
-| Nüzoduk | "learn" (inchoative — begin to know) | 2025-05-30 |
-| Nüzodukoth | "I am habitually learning" | 2025-06-04 |
-| Nüzodukothya | "I would like to learn" — INCH-know-1p.FEM.SING-OPT.FUT | 2025-06-04 |
-| Nünüzoduk | "learning" (inchoative continuous) | 2025-06-04 |
-| Nünüzodukoth | "I am learning" (continuous) | 2025-06-04 |
-| Nïzedik | "forget" (cessative + gnomic umlaut = cease knowing) | 2025-05-30 |
-| Nïzedikothya | "I would like to forget" | 2025-06-04 |
-| Nïnïzedik | "forgetting" (cessative continuous) | 2025-06-04 |
-| Luzedik | "remember" (resumptive = resume knowing) | 2025-05-30 |
-| Luzodukothya | "I would like to remember" — RES-know-1p.FEM.SING-OPT.FUT | 2025-06-04 |
-| Luluzedik | "remembering" (resumptive continuous) | 2025-06-04 |
-| Luluzodukoth | "I am remembering" | 2025-06-04 |
-| Kozoduk | "almost know / almost learn" | 2025-05-30 |
-| Kozodukothro | "I almost learned" | 2025-06-04 |
-| Kokozoduk | "almost learning" (almost continuous) | 2025-06-04 |
-| Kokozodukothro | "I was almost learning" | 2025-06-04 |
-
-**Stative prefix system:**
-- Ho- = probable / about to (doubled: Hoho- = keeps being about to)
-- Nü- = inchoative / begin (doubled: Nünü- = in process of beginning)
-- Nï- + umlaut = cessative / stop (doubled: Nïnï- = in process of stopping)
-- Lu- = resumptive / resume/remember (doubled: Lulu- = in process of resuming)
-- Ko- = almost / nearly (doubled: Koko- = keeps almost doing)
-
-**Stative conjugation:** Agreement suffix at end (not prefix like active verbs). -oth = 1p.FEM.SING. Evidentials: -ro (past auditory), -mu (future inferential), -ya (optative future), -shë (past visual) (2025-06-04).
+<!-- zoduk (z-d-k, "know") moved to aelaki/lexicon.py -->
 
 ---
 
@@ -220,25 +154,7 @@ The most extensively documented verb in the entire corpus.
 
 ## Nouns
 
-### **bsl** — root: b-s-l — "tree / goddess"
-The most extensively declined noun in Discord. Gender determines meaning: female tree = living tree, male tree = old/permanent tree, child tree = sapling, inanimate = wood (dead material).
-
-| Form | Gloss | Source |
-|------|-------|--------|
-| Basala | "male tree" (MASC.SING) | 2025-05-14 |
-| Basolo | "female tree" (FEM.SING) | 2025-05-14 |
-| Basulu | "child tree / sapling" (CHILD.SING) | 2025-05-14 |
-| Basïlïf | "wood" (INAN) | 2025-05-14 |
-| Bæsælæ | "male tree" (MASC.COLL) | 2025-05-14 |
-| Bæsele | "female tree" (FEM.COLL) | 2025-05-14 |
-| Bæsili | "child tree" (CHILD.COLL) | 2025-05-14 |
-| Bokasolo | "my tree" (FEM.SING, 1p inalienable possessive) | 2025-05-04 |
-| Basoltho | "tree (used as 1p pronoun, unusual)" | 2025-06-09 |
-
-**Morphological patterns (2025-05-14):**
-- Singular: base vowels (a/o/u for masc/fem/child)
-- Collective: umlaut (æ/e/i)
-- Inanimate: ïf marker (from proto-Aelaki counter word)
+<!-- bsl (b-s-l, "tree/goddess") moved to aelaki/lexicon.py -->
 
 ---
 
@@ -349,39 +265,7 @@ Used to show noun number morphology.
 
 ## Adverbs
 
-#### **zadate** — root: z-d-? — "lengthily / for a long time"
-The sole fully-documented adverb paradigm in Discord.
-
-| Form | Gloss | Source |
-|------|-------|--------|
-| Zadate | "lengthily" (positive, present) | 2025-05-30 |
-| Zadadate | "lengthier" (comparative — C2 reduplication) | 2025-05-30 |
-| Zædæte | "lengthliest" (superlative — umlaut) | 2025-05-30 |
-| Zafdafte | "not lengthily / subjunctive" (negative — f-infix) | 2025-05-30 |
-| Zadatesher | "lengthily (mythical past)" | 2025-05-30 |
-| Zadatesherëm | "lengthily (mythical past, inferred)" | 2025-05-30 |
-| Zadatero | "lengthily (past auditory)" | 2025-05-30 |
-| Zadateshë | "lengthily (past visual)" | 2025-05-30 |
-| Zadateshëm | "lengthily (past inferential)" | 2025-05-30 |
-| Gokizadatero | "lengthily (hesternal auditory)" | 2025-05-30 |
-| Gokizadateshë | "lengthily (hesternal visual)" | 2025-05-30 |
-| Gokizadateshëm | "lengthily (hesternal inferential)" | 2025-05-30 |
-| Gozadankeshë | "lengthily (hodiernal visual)" | 2025-05-30 |
-| Gozadankeshëm | "lengthily (hodiernal inferential)" | 2025-05-30 |
-| Gozadankerom | "lengthily (hodiernal auditory)" | 2025-05-30 |
-| Gozadankeyam | "intended to be lengthily (only 1p)" | 2025-05-30 |
-| Zadaterom | "lengthily (future auditory)" | 2025-05-30 |
-| Zadatemu | "lengthily (future inferential)" | 2025-05-30 |
-| Zadateya | "lengthily (future intentional / optative)" | 2025-05-30 |
-| Gokizadaterom | "lengthily (crastinal auditory)" | 2025-05-30 |
-| Gokizadatemu | "lengthily (crastinal inferential)" | 2025-05-30 |
-| Gokizadateya | "lengthily (crastinal intentional)" | 2025-05-30 |
-
-**Adverb stem degrees (any tense):**
-- Positive: Zadate
-- Comparative: Zadadate (C2 reduplication)
-- Superlative: Zædæte (whole-word umlaut)
-- Negative/Subjunctive: Zafdafte (f-infix)
+<!-- zadate (z-d-?, "lengthily") moved to aelaki/lexicon.py as zada -->
 
 ---
 
