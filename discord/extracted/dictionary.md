@@ -18,19 +18,9 @@ All entries are sourced from Discord messages by kamidere in the Conlangs Discor
 
 ---
 
-#### **honung** — "hit"
-| Form | Gloss | Source |
-|------|-------|--------|
-| honung | "hit" (base/citation) | 2025-06-04 |
+<!-- honung (h-n-ng, "hit") moved to aelaki/lexicon.py -->
 
----
-
-#### Unnamed rain verb — root unclear — "rain"
-| Form | Gloss | Source |
-|------|-------|--------|
-| Sharokasoro | "it's raining" | 2025-06-05 |
-
-**Notes:** Weather verbs have masculine subject and feminine object. Subject = part of sky, object = part of ground (2025-06-05).
+<!-- sharokasoro (r-k-s, "rain") moved to aelaki/lexicon.py -->
 
 ---
 
@@ -68,10 +58,7 @@ All entries are sourced from Discord messages by kamidere in the Conlangs Discor
 
 ---
 
-#### **zapapaya** — "drive" (imperative form?)
-| Form | Gloss | Source |
-|------|-------|--------|
-| Gothozapapayashë | HOD-1p.FEM.SING-drive.IMP-PAST.VIS | 2025-06-04 |
+<!-- zapapaya (z-p-y, "drive") moved to aelaki/lexicon.py -->
 
 ---
 
@@ -106,20 +93,9 @@ All entries are sourced from Discord messages by kamidere in the Conlangs Discor
 
 <!-- bsl (b-s-l, "tree/goddess") moved to aelaki/lexicon.py -->
 
----
-
 <!-- gar (g-?-r, "body") moved to aelaki/lexicon.py -->
 
----
-
-### **Dhihevæsh** — "sun"
-| Form | Gloss | Source |
-|------|-------|--------|
-| Dhihevæsh | "sun" — sun.COLL-MASC.COLL.3p | 2025-06-05 |
-
-**Notes:** The sun is collective masculine. Uses numeral Pæn (one, collective) as determiner (2025-06-05).
-
----
+<!-- dhihevash (dh-h-v, "sun") moved to aelaki/lexicon.py -->
 
 <!-- zahal (z-h-l, "edible plant") moved to aelaki/lexicon.py -->
 
@@ -127,28 +103,17 @@ All entries are sourced from Discord messages by kamidere in the Conlangs Discor
 
 <!-- g'nk (g'-n-k, "sky fungus") moved to aelaki/lexicon.py -->
 
----
+<!-- tidanash (t-d-n, "person") moved to aelaki/lexicon.py -->
 
-### **Tïdænæsh** / **Tüdënënësh** — "person/people"
-| Form | Gloss | Source |
-|------|-------|--------|
-| Tïdænæsh | "person" — person.COLL-MASC.COLL.3p | 2025-06-05 |
-| Tüdënënësh | "people (plural)" — person.PL-MASC.3p | 2025-06-05 |
+<!-- sanash (s-?-n, "king") moved to aelaki/lexicon.py -->
+
+<!-- forsash (f-r-s, "force") moved to aelaki/lexicon.py -->
 
 ---
 
 ### Kinship Terms
 
-| Term | Meaning | Source |
-|------|---------|--------|
-| Hayab | "brothers" (uterine siblings) | 2025-05-09 |
-| Hanak | "older siblings" | 2025-05-07 |
-| Yamat | "younger siblings" | 2025-05-07 |
-| Ozamba | "mother and child" (dyadic pronoun) | 2025-05-09 |
-| Odapab | "father and child" (dyadic pronoun) | 2025-05-09 |
-| Dzahab | "cross siblings" | 2025-05-09 |
-| Dahab | "half siblings your father gave birth to when he was female" | 2025-05-07 |
-| Zajal | "half siblings from mother's male phase" (always much younger) | 2025-05-07 |
+<!-- All kinship terms moved to aelaki/lexicon.py: hayab, hanak, yamat, ozamba, odapab, dzahab, dahab, zajal -->
 
 **Notes:** All kinship terms can function as 1p pronouns (2025-05-09). The species is sequentially hermaphroditic: child → female → male (2025-04-15).
 
@@ -156,11 +121,7 @@ All entries are sourced from Discord messages by kamidere in the Conlangs Discor
 
 ### Pseudopronouns / Dyadic Pronouns
 
-| Form | Meaning | Source |
-|------|---------|--------|
-| babath | "you and me" — male inclusive we (just speaker + addressee) | 2025-05-01 |
-| babatl | alternate 2p conjugation of babath | 2025-05-01 |
-| Thajaba | "me and you" — masculine dyadic | 2025-05-09 |
+<!-- babath, babatl, Thajaba moved to aelaki/lexicon.py pseudopronouns -->
 
 **Notes:** Language has no true pronouns. "My body" used for physical first person; "my name" for non-physical. Dyadic kinship terms are the most common first-person references (2025-05-09). "Aelaki has depending on your definition, either dozens of pronouns or none" (2025-05-20).
 
@@ -171,7 +132,6 @@ All entries are sourced from Discord messages by kamidere in the Conlangs Discor
 | Form | Meaning | Source |
 |------|---------|--------|
 | Honrug / Honrushag | "Henry" (Aelakized) | attested in forms |
-| Sanash | "king" — king-3p.MASC.SING | 2025-05-29 |
 
 ---
 
@@ -185,30 +145,14 @@ All entries are sourced from Discord messages by kamidere in the Conlangs Discor
 
 <!-- zadate (z-d-?, "lengthily") moved to aelaki/lexicon.py as zada -->
 
----
-
-#### **Vadante** — "now"
-| Form | Gloss | Source |
-|------|-------|--------|
-| Vadante | "now" — now-ADV.PRES | 2025-06-05 |
-
----
-
-#### **Baltero** — "twice" (adverbial number)
-| Form | Gloss | Source |
-|------|-------|--------|
-| Baltero | "twice (past auditory)" — two-ADV-PAST.AUD | 2025-06-05 |
+<!-- vadante (v-d-n, "now") moved to aelaki/lexicon.py -->
 
 ---
 
 ## Numerals
 
-### Cardinal Numbers (Base-12/60)
-| Number | Form | Source |
-|--------|------|--------|
-| 1 | Pan | 2025-05-08 |
-| 12 | Nger (dozen marker) | docs |
-| 60 | Vibhi | docs |
+<!-- Base numerals 1-12 and 60 moved to aelaki/lexicon.py numerals section -->
+<!-- Full number generation system implemented in aelaki-sharp/General console/AelakiNumber.cs -->
 
 ### Number Roles (2025-05-08, 2025-05-09)
 | Role | Example (1) | Formation |
@@ -224,47 +168,21 @@ All entries are sourced from Discord messages by kamidere in the Conlangs Discor
 
 ---
 
-### **Pæn** — "one (collective)"
-| Form | Gloss | Source |
-|------|-------|--------|
-| Pæn | one.COLL.ENUM.MASC — collective singular determiner for sun | 2025-06-05 |
-
----
-
 ## Particles and Function Words
+
+<!-- nono, shushu, zeni, zi, ne moved to aelaki/lexicon.py particles section -->
+
+<!-- forsash moved to aelaki/lexicon.py nouns section -->
 
 | Form | Meaning | Source |
 |------|---------|--------|
-| Nono / No | topic-switch marker (switches subject before subordinate clause) | 2025-05-30 |
-| Shushu | discourse particle (question particle, used with deliberative mood) | 2025-05-26, 2025-05-29 |
-| Zeni | copula of identity (conjunction-like, groups things by common identity) | 2025-05-31 |
-| Zi | "and" (exhaustive conjunction) | 2025-05-29 |
-| Ne | topic unifier | 2025-05-29 |
-| Forsash | "force" — force-MASC.SING.3p | 2025-05-29 |
 | Goyakak | "early in day" — early-in-day MASC.SING.4p | 2025-05-26 |
 
 ---
 
 ## Spatial/Temporal Converb Particles
 
-### **Snü / Snï** — locative system (2025-05-29)
-| Form | Meaning | Source |
-|------|---------|--------|
-| Snü | "at (a location)" | 2025-05-29 |
-| Snüsnü | "through (a location)" | 2025-05-29 |
-| Snï | "final location / destination" | 2025-05-29 |
-| Snüf | "at (inanimate/abstract)" | 2025-05-29 |
-| Snïf | "final location (inanimate)" | 2025-05-29 |
-| Snüfsnüf | "through (inanimate)" | 2025-05-29 |
-
-### **Slë / Slæ** — temporal system (2025-05-29)
-| Form | Meaning | Source |
-|------|---------|--------|
-| Slë | "at a time" | 2025-05-29 |
-| Slëslë | "throughout a duration of time" | 2025-05-29 |
-| Slæ | "completion time" | 2025-05-29 |
-| Slëf | "at a time (inanimate)" | 2025-05-29 |
-| Slæf | "completion time (inanimate)" | 2025-05-29 |
+<!-- All spatial (Snü/Snï) and temporal (Slë/Slæ) particles moved to aelaki/lexicon.py particles section -->
 
 ---
 

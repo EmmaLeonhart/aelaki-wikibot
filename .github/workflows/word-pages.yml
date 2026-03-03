@@ -22,7 +22,7 @@ jobs:
     env:
       WIKI_USERNAME: EmmaBot@EmmaBot
       WIKI_PASSWORD: ${{ secrets.WIKI_PASSWORD }}
-      WIKI_EDIT_LIMIT: "10"
+      WIKI_EDIT_LIMIT: "100"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
