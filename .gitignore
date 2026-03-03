@@ -2,3 +2,8 @@
 __pycache__/
 *.pyc
 *.pyo
+
+# Wiki bot state and logs
+wiki-scripts/*.state
+wiki-scripts/*.log
+.env

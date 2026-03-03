@@ -99,6 +99,12 @@ aelaki-merged/
 │   ├── Aelaki proto language.docx
 │   └── *.xlsx                      # Converbs, TAM, Proto-verbs tables
 │
+├── wiki-scripts/                   # Wikibot for aelaki.miraheze.org
+│   ├── config.py                   #   Connection settings
+│   ├── utils.py                    #   Shared bot utilities
+│   ├── create_word_articles.py     #   Generate word articles from lexicon
+│   └── sync_lexicon_page.py        #   Sync roots table to wiki
+│
 ├── aelaki-sharp/                   # C# implementation (64 commits history)
 ├── aelaki-split/                   # Markdown docs & worldbuilding (4 commits)
 ├── wiki/                           # MediaWiki XML export
