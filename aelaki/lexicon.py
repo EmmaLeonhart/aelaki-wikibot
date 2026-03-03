@@ -57,6 +57,17 @@ VERBS: dict[str, LexEntry] = {
     # Well-documented triconsonantal verbs with full root
     "dpz": LexEntry(TriRoot("d", "p", "z"), WordClass.VERB_ACTIVE, "shoot at"),
     "zhrn": LexEntry(TriRoot("zh", "r", "n"), WordClass.VERB_ACTIVE, "live"),
+
+    # From Discord dictionary (2025-05-30 to 2025-06-05)
+    "apafath": LexEntry(TriRoot("?", "p", "f"), WordClass.VERB_ACTIVE, "fall", citation_form="apafath"),
+    "slodon": LexEntry(TriRoot("sl", "d", "n"), WordClass.VERB_ACTIVE, "shout", citation_form="slodon"),
+    "kamamas": LexEntry(TriRoot("k", "m", "s"), WordClass.VERB_ACTIVE, "rise", citation_form="kamas"),
+
+    # Stative verbs from Discord
+    "dedik": LexEntry(TriRoot("d", "d", "k"), WordClass.VERB_STATIVE, "learn", citation_form="dedik"),
+    "hedek": LexEntry(TriRoot("h", "d", "k"), WordClass.VERB_STATIVE, "become female", citation_form="hedek"),
+    "dhum": LexEntry(TriRoot("dh", "?", "m"), WordClass.VERB_STATIVE, "shine, burn", citation_form="dhüm"),
+    "bahag": LexEntry(TriRoot("b", "h", "g"), WordClass.VERB_STATIVE, "break", citation_form="bahag"),
 }
 
 # ===========================================================================
@@ -85,6 +96,12 @@ NOUNS: dict[str, LexEntry] = {
 
     # Tetraconsonantal nouns
     "bsl": LexEntry(TriRoot("b", "s", "l"), WordClass.NOUN, "tree/goddess (feminine)"),
+
+    # From Discord dictionary
+    "zahal": LexEntry(TriRoot("z", "h", "l"), WordClass.NOUN, "edible plant", citation_form="zahal"),
+    "saromo": LexEntry(TriRoot("s", "r", "m"), WordClass.NOUN, "sky", citation_form="saromo"),
+    "gnk": LexEntry(TriRoot("g'", "n", "k"), WordClass.NOUN, "sky fungus", citation_form="g'nk"),
+    "gar": LexEntry(TriRoot("g", "?", "r"), WordClass.NOUN, "body", citation_form="gar"),
 }
 
 
@@ -95,6 +112,9 @@ NOUNS: dict[str, LexEntry] = {
 ADJECTIVES: dict[str, LexEntry] = {
     "grn": LexEntry(TriRoot("g", "r", "n"), WordClass.ADJECTIVE, "bright"),
     "bsl_adj": LexEntry(TriRoot("b", "s", "l"), WordClass.ADJECTIVE, "stative adjective root"),
+
+    # From Discord dictionary
+    "bagadha": LexEntry(TriRoot("b", "g", "dh"), WordClass.ADJECTIVE, "bright", citation_form="bagadha"),
 }
 
 
