@@ -40,32 +40,11 @@ All entries are sourced from Discord messages by kamidere in the Conlangs Discor
 
 ---
 
-#### **apafath** — "fall"
-Stative/active verb used as key example for stative prefix system.
+<!-- apafath (?-p-f, "fall") moved to aelaki/lexicon.py -->
 
-| Form | Gloss | Source |
-|------|-------|--------|
-| apafath | "fall" (base) | 2025-05-30 |
-| Ho'apafath | "about to fall" (probable) | 2025-05-30 |
-| Nü'apafath | "started falling" (inchoative) | 2025-05-30 |
-| Nï'æpæfath | "stopped falling / landed" (cessative, umlauted) | 2025-05-30 |
-| Ru'apafath | "resumed falling" (resumptive) | 2025-05-30 |
-| Ke'apafath | "almost fell" (almost) | 2025-05-30 |
+<!-- slodon (sl-d-n, "shout") moved to aelaki/lexicon.py -->
 
----
-
-#### **slodon** — "shout"
-| Form | Gloss | Source |
-|------|-------|--------|
-| Shæslodonro | "all people shouted" — MASC.COLL.3p-shout.TERM-PAST.AUD | 2025-06-05 |
-| Shashaslodonro | "some people shouted" — MASC.PL.3p-shout.TERM-PAST.AUD | 2025-06-05 |
-
----
-
-#### **kamamas** — "rise"
-| Form | Gloss | Source |
-|------|-------|--------|
-| Shækamamas | "is rising" — 3p.MASC.COLL-rise.CONT | 2025-06-05 |
+<!-- kamamas (k-m-s, "rise") moved to aelaki/lexicon.py -->
 
 ---
 
@@ -79,42 +58,13 @@ Stative/active verb used as key example for stative prefix system.
 
 ---
 
-#### **dedik** — "learn" (distinct from Nüzoduk derivation?)
-| Form | Gloss | Source |
-|------|-------|--------|
-| Nïnïdedikoth | "I learn" (cessative continuous, 1p) | 2025-06-04 |
-| Nütlixlikoth | unclear — possibly related | 2025-06-04 |
+<!-- dedik (d-d-k, "learn") moved to aelaki/lexicon.py -->
 
----
+<!-- hedek (h-d-k, "become female") moved to aelaki/lexicon.py -->
 
-#### **hedek** — "become female / be female"
-| Form | Gloss | Source |
-|------|-------|--------|
-| Nühedekoth | "I am becoming a woman (gradually, puberty)" (inchoative, 1p) | 2025-06-04 |
-| Nühedekothro | "I became a woman" | 2025-06-04 |
-| Nünühedekoth | "I am becoming a woman (suddenly, magic)" (inchoative continuous) | 2025-06-04 |
-| Nünühedekothro | "I was becoming a woman" | 2025-06-04 |
+<!-- dhüm (dh-?-m, "shine, burn") moved to aelaki/lexicon.py -->
 
-**Notes:** Continuous (Nünü-) implies sudden/magical transformation; bare (Nü-) implies gradual change (2025-06-04).
-
----
-
-#### **dhüm** — "shine, burn"
-| Form | Gloss | Source |
-|------|-------|--------|
-| Shædhïm | "shines" — 3p.COLL.MASC-shine.COLL.GNOMIC | 2025-06-05 |
-| Shædhümüm | "is shining" — 3p.COLL.MASC-shine.CONT | 2025-06-05 |
-| Shædhümshë | "shone" — 3p.COLL.MASC-shine-PAST.VIS | 2025-06-05 |
-| Goshædhümümüro | "has been shining" — HOD-3p.MALE.COLL-burn.CONT-AUD.PAST | 2025-06-05 |
-| Gokishædhümümürom | "will shine tomorrow" — CRAST-3p.MALE.COLL-burn.CONT-AUD.FUT | 2025-06-05 |
-| Gokishædhümümürum | "will shine tomorrow" (alternate spelling) | 2025-06-05 |
-
----
-
-#### **bahag** — "break"
-| Form | Gloss | Source |
-|------|-------|--------|
-| Nübahagïfro | "it broke" — INCH-break.INAN-PAST.AUD | 2025-05-31 |
+<!-- bahag (b-h-g, "break") moved to aelaki/lexicon.py -->
 
 ---
 
@@ -158,13 +108,7 @@ Stative/active verb used as key example for stative prefix system.
 
 ---
 
-### **gar** — "body"
-| Form | Gloss | Source |
-|------|-------|--------|
-| Gotharoth | "my body" — typical 1p pronoun (1p.FEM.SING, inalienable poss.) | 2025-05-30 |
-| Gotharosh | "my body as 3p" — body as separate entity from self | 2025-05-30 |
-
-**Notes:** -oth- is inalienable feminine singular 1p possessed marker. -osh is 3p singular feminine suffix for verb agreement (2025-05-30).
+<!-- gar (g-?-r, "body") moved to aelaki/lexicon.py -->
 
 ---
 
@@ -177,31 +121,11 @@ Stative/active verb used as key example for stative prefix system.
 
 ---
 
-### **zahal** — root: z-h-l — "edible plant"
-| Form | Gloss | Source |
-|------|-------|--------|
-| Zahal | "edible plant" (base) | 2025-05-30 |
-| Zahalïf | "inanimate quantity of dead edible plants" | 2025-05-30 |
-| Zahahalï | "a large quantity of dead edible plants" (reduplicated) | 2025-05-30 |
+<!-- zahal (z-h-l, "edible plant") moved to aelaki/lexicon.py -->
 
----
+<!-- saromo (s-r-m, "sky") moved to aelaki/lexicon.py -->
 
-### **saromo** — root: s-r-m — "sky(?)"
-Used to show noun number morphology.
-| Form | Gloss | Source |
-|------|-------|--------|
-| Saromo | "singular" | 2025-05-02 |
-| Saroromo | "plural" (reduplication of C2-V deep in stem) | 2025-05-02 |
-| Sarereme | "collective" (umlaut on entire word) | 2025-05-02 |
-| Saromofo | "zero" (simple suffix -fo) | 2025-05-02 |
-
----
-
-### **g'nk** — root: g'-n-k — "sky fungus(?)"
-| Form | Gloss | Source |
-|------|-------|--------|
-| G'anoko | "singular child (of sky fungus)" | 2025-05-02 |
-| Kaesaromon G'okanoko | "sky fungus" (full phrase) | 2025-05-02 |
+<!-- g'nk (g'-n-k, "sky fungus") moved to aelaki/lexicon.py -->
 
 ---
 
@@ -253,13 +177,7 @@ Used to show noun number morphology.
 
 ## Adjectives
 
-#### **bagadha** — "bright"
-| Form | Gloss | Source |
-|------|-------|--------|
-| Bagadhate | "brightly" (adverb form) — bright-ADV.PRESENT | 2025-06-05 |
-| Bagadhashë | "bright" (adj, past visual) | 2025-06-05 |
-
-**Notes:** Adjectives derive from stative verbs and agree in person, gender, number. They have limited TAM: 4 evidentials × 2 tenses (2025-04-29, 2025-05-29).
+<!-- bagadha (b-g-dh, "bright") moved to aelaki/lexicon.py -->
 
 ---
 
@@ -407,13 +325,7 @@ Person consonants: 1p = th, 2p = j, 3p = sh, 4p = unmarked
 
 ## Color Terms
 
-| Form | Color | Source |
-|------|-------|--------|
-| te | red | lexicon |
-| ihm | green | lexicon |
-| ihf | yellow | lexicon |
-| a | white | lexicon |
-| ŋix | black | lexicon |
+<!-- Color terms (te, ihm, ihf, a, ŋix) already in aelaki/lexicon.py COLORS dict -->
 
 ---
 
