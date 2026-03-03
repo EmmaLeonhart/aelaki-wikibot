@@ -1,21 +1,21 @@
 # aelaki-merged
 
-IMPORTANT
-Do not enter planning-only modes. All thinking must produce files and commits.
-if the scope is not immediately clear make the directory /planning and create many .md files there explaining the planning process instead of using your own planning mode
-please replace the PLACEHOLDER DESCRIPTION section of readme.md with a proper project summary as soon as the purpose of the repo is known. 
-## Project Context
-This is a new, empty repository created on -2026-03-02 - at 11:22 PM using the `new-repo.bat` bootstrapping tool.
-The intent is to use Claude Code to build and populate this project from scratch.
+## Project Description
+Consolidated archive of all Aelaki constructed language materials. Aelaki is a conlang with non-concatenative templatic morphology, set in a ringworld science fiction universe.
+
+## Repository Structure
+- `docs/` -- Authoritative documents: grammar guide (.docx, **primary reference**), proto-language, converb/TAM/verb spreadsheets
+- `aelaki-sharp/` -- C# .NET 8.0 implementation of Aelaki morphology (noun, verb, adjective, converb, number generation)
+- `aelaki-split/` -- Markdown grammar guide (~31k lines), Python morphology script, worldbuilding docs (17 files)
+- `wiki/` -- MediaWiki XML export of Aelaki wiki
+- `discord/` -- Personal message exports from a conlangs Discord server (author's messages only)
+
+## Key Facts
+- The `.docx` grammar guide in `docs/` is the **most authoritative** reference for the language
+- The markdown grammar guide in `aelaki-split/` is extensive but may diverge from the docx
+- `aelaki-sharp/` and `aelaki-split/` were imported via `git subtree` with full history preserved
 
 ## Workflow Guidelines
-- **Commit early and often.** Every meaningful change should be committed with a clear, descriptive summary that explains *why* the change was made, not just what changed.
-- **Keep this claude.md up to date.** As the project takes shape, update this file with architectural decisions, conventions, dependencies, and anything Claude needs to know to work effectively in this repo. It is not useful to keep the boostrapping project context info in claude.md once a project is up and running.
-- **Do not enter planning mode, please clearly edit the repo with every single architectural decision and even just thoughts you have. Commit them frequently, because commits can be easily undone**
-- **Please regularly update the human aimed readme.md to provide more context for a human user**
-
-## Project Description
-_TODO: Describe what this project is about._
-
-## Architecture and Conventions
-_TODO: Document key decisions, file structure, and patterns as they emerge._
+- **Commit early and often.** Every meaningful change should be committed with a clear, descriptive summary.
+- **Keep this claude.md up to date** with architectural decisions and conventions.
+- **Update README.md** when structure or content changes significantly.
