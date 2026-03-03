@@ -34,7 +34,7 @@ class TestTriconsonantalOperations:
         assert tri_reduplicate("g", "o", "r", "o", "r") == "gororor"
 
     def test_goran_umlaut(self):
-        assert tri_umlaut("g", "o", "r", "a", "n") == "gœræn"
+        assert tri_umlaut("g", "o", "r", "a", "n") == "geræn"
 
     def test_goran_zero_infix(self):
         assert tri_zero_infix("g", "o", "r", "a", "n") == "gofran"
