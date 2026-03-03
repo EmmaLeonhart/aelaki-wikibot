@@ -35,4 +35,5 @@ RUN_TAG="[[git:${RUN_PATH}|${CAUSE_TEXT}]]"
 echo "Run tag: ${RUN_TAG}"
 
 python wiki-scripts/update_bot_status.py --run-tag "${RUN_TAG}"
+python wiki-scripts/create_wanted_categories.py --apply --run-tag "${RUN_TAG}"
 python wiki-scripts/create_word_pages.py --apply --limit "$EDIT_LIMIT" --run-tag "${RUN_TAG}"
