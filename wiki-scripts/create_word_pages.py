@@ -27,7 +27,7 @@ SCRIPT_DIR = os.path.dirname(__file__)
 DEFAULT_STATE_FILE = os.path.join(SCRIPT_DIR, "create_word_pages.state")
 DEFAULT_LOG_FILE = os.path.join(SCRIPT_DIR, "create_word_pages.log")
 
-PAGE_VERSION = "v3"
+PAGE_VERSION = "v4"
 
 WORD_CLASS_INFO = {
     "noun": {"label": "Noun", "link": "[[Nouns|noun]]", "category": "Aelaki nouns"},
@@ -46,7 +46,11 @@ WORD_CLASS_INFO = {
 from aelaki.lexicon import VERBS, NOUNS, ADJECTIVES, ADVERBS, COLORS, WordClass
 from aelaki.gender import Gender, Number, Person
 from aelaki.roots import TriRoot, TetraRoot
-from aelaki.nouns import build_noun
+from aelaki.nouns import build_noun, build_tri_stem, build_tetra_stem
+from aelaki.person import (
+    agent_case, patient_case, possessive_case,
+    instrumental_case, dative_case, speaker_case,
+)
 from aelaki.verbs import (
     conjugate_transitive, conjugate_intransitive_active,
     conjugate_intransitive_stative,
@@ -200,6 +204,77 @@ def generate_adverb_forms(entry) -> list[tuple[str, str]]:
                 form = f"ERROR: {e}"
             forms.append((label, form))
     return forms
+
+
+CASE_FUNCTIONS = [
+    ("agent", agent_case),
+    ("patient", None),  # patient uses build_noun (unmarked form)
+    ("possessive", possessive_case),
+    ("instrumental", instrumental_case),
+    ("dative", dative_case),
+    ("speaker", speaker_case),
+]
+
+
+def generate_noun_case_forms(entry) -> list[tuple[str, str]]:
+    """6 cases x 4 persons for a noun (inherent gender, singular)."""
+    root = entry["root"]
+    gender = entry["gender"] or Gender.MALE
+    number = Number.SINGULAR
+
+    # Build bare stem for case functions
+    if isinstance(root, TetraRoot):
+        stem = build_tetra_stem(root, gender, number)
+    else:
+        stem = build_tri_stem(root, gender, number)
+
+    forms = []
+    for case_name, case_func in CASE_FUNCTIONS:
+        for p in Person:
+            label = f"{case_name}.{p.name.lower()}"
+            try:
+                if case_func is None:
+                    # Patient = unmarked form from build_noun
+                    form = build_noun(root, gender, number, p)
+                else:
+                    form = case_func(stem, p, gender, number)
+            except Exception as e:
+                form = f"ERROR: {e}"
+            forms.append((label, form))
+    return forms
+
+
+def generate_case_table(forms: list[tuple[str, str]]) -> str:
+    """Wikitable with rows = 6 cases, cols = 4 persons."""
+    by_case: dict[str, dict[str, str]] = {}
+    for label, surface in forms:
+        case_name, person = label.split(".")
+        if case_name not in by_case:
+            by_case[case_name] = {}
+        by_case[case_name][person] = surface
+
+    if not by_case:
+        return ""
+
+    row_order = ["agent", "patient", "possessive", "instrumental", "dative", "speaker"]
+    display = {
+        "agent": "Agent", "patient": "Patient", "possessive": "Possessive",
+        "instrumental": "Instrumental", "dative": "Dative", "speaker": "Speaker",
+    }
+    dash = "\u2014"
+    lines = [
+        '{| class="wikitable"',
+        "! Case !! 1st !! 2nd !! 3rd !! 4th",
+    ]
+    for case_name in row_order:
+        p = by_case.get(case_name, {})
+        lines.append(
+            f"|-\n| {display[case_name]} "
+            f"|| {p.get('first', dash)} || {p.get('second', dash)} "
+            f"|| {p.get('third', dash)} || {p.get('fourth', dash)}"
+        )
+    lines.append("|}")
+    return "\n".join(lines)
 
 
 FORM_GENERATORS = {
@@ -430,6 +505,15 @@ def generate_word_page(key: str, entry: dict) -> str:
                 sections.append("\n== Inflected forms ==")
                 sections.append(generate_forms_table(forms))
             sections.append(f"\n''{len(forms)} forms generated.''")
+
+        # Case paradigm for nouns
+        if wc == "noun":
+            case_forms = generate_noun_case_forms(entry)
+            if case_forms:
+                gender = entry["gender"] or Gender.MALE
+                sections.append("\n== Case paradigm ==")
+                sections.append(f"''Shown for {gender.value} singular.''")
+                sections.append(generate_case_table(case_forms))
 
     # See also
     sections.append("\n== See also ==")
