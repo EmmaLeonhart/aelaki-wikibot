@@ -15,7 +15,7 @@ Routine automated edits are implemented by changing the GitHub repository and ex
 
 == Future tasks ==
 
-* Update old word page formats when <code>{{wordpage}}</code> version changes
+* Update old word page formats when <code><nowiki>{{wordpage}}</nowiki></code> version changes
 * Integrate Discord dictionary extracts for automatic new word creation
 * Expand inflection tables as morphology engine grows
 
