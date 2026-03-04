@@ -1023,6 +1023,413 @@
       "class": "verb_active",
       "gloss": "linearise (auto-generated)",
       "citation_form": "kathavang"
+    },
+    "jzhf": {
+      "root": [
+        "j",
+        "zh",
+        "f"
+      ],
+      "class": "verb_stative",
+      "gloss": "umbecast (auto-generated)",
+      "citation_form": "jazhafa"
+    },
+    "ychzh": {
+      "root": [
+        "y",
+        "ch",
+        "zh"
+      ],
+      "class": "verb_stative",
+      "gloss": "ulcerate (auto-generated)",
+      "citation_form": "yachazha"
+    },
+    "dthch": {
+      "root": [
+        "d",
+        "th",
+        "ch"
+      ],
+      "class": "verb_stative",
+      "gloss": "unbatten (auto-generated)",
+      "citation_form": "dathacha"
+    },
+    "rthv": {
+      "root": [
+        "r",
+        "th",
+        "v"
+      ],
+      "class": "verb_stative",
+      "gloss": "unanonymise (auto-generated)",
+      "citation_form": "rathava"
+    },
+    "dhjg": {
+      "root": [
+        "dh",
+        "j",
+        "g"
+      ],
+      "class": "verb_stative",
+      "gloss": "umbedraw (auto-generated)",
+      "citation_form": "dhajaga"
+    },
+    "ngvz": {
+      "root": [
+        "ng",
+        "v",
+        "z"
+      ],
+      "class": "verb_stative",
+      "gloss": "unappoint (auto-generated)",
+      "citation_form": "ngavaza"
+    },
+    "mhm": {
+      "root": [
+        "m",
+        "h",
+        "m"
+      ],
+      "class": "verb_active",
+      "gloss": "unask (auto-generated)",
+      "citation_form": "kamaham"
+    },
+    "yngm": {
+      "root": [
+        "y",
+        "ng",
+        "m"
+      ],
+      "class": "verb_stative",
+      "gloss": "umber (auto-generated)",
+      "citation_form": "yangama"
+    },
+    "yvr": {
+      "root": [
+        "y",
+        "v",
+        "r"
+      ],
+      "class": "verb_stative",
+      "gloss": "unadhere (auto-generated)",
+      "citation_form": "yavara"
+    },
+    "mlth": {
+      "root": [
+        "m",
+        "l",
+        "th"
+      ],
+      "class": "verb_stative",
+      "gloss": "umbelappe (auto-generated)",
+      "citation_form": "malatha"
+    },
+    "ngzhh": {
+      "root": [
+        "ng",
+        "zh",
+        "h"
+      ],
+      "class": "verb_active",
+      "gloss": "unbeseem (auto-generated)",
+      "citation_form": "kangazhah"
+    },
+    "twg": {
+      "root": [
+        "t",
+        "w",
+        "g"
+      ],
+      "class": "verb_active",
+      "gloss": "unbespeak (auto-generated)",
+      "citation_form": "katawag"
+    },
+    "dhdp": {
+      "root": [
+        "dh",
+        "d",
+        "p"
+      ],
+      "class": "verb_active",
+      "gloss": "unbarrel (auto-generated)",
+      "citation_form": "kadhadap"
+    },
+    "gyg": {
+      "root": [
+        "g",
+        "y",
+        "g"
+      ],
+      "class": "verb_active",
+      "gloss": "unbarb (auto-generated)",
+      "citation_form": "kagayag"
+    },
+    "chngd": {
+      "root": [
+        "ch",
+        "ng",
+        "d"
+      ],
+      "class": "verb_active",
+      "gloss": "unbeach (auto-generated)",
+      "citation_form": "kachangad"
+    },
+    "dydh": {
+      "root": [
+        "d",
+        "y",
+        "dh"
+      ],
+      "class": "verb_stative",
+      "gloss": "unbit (auto-generated)",
+      "citation_form": "dayadha"
+    },
+    "kzhk": {
+      "root": [
+        "k",
+        "zh",
+        "k"
+      ],
+      "class": "verb_active",
+      "gloss": "unabort (auto-generated)",
+      "citation_form": "kakazhak"
+    },
+    "dgvk": {
+      "root": [
+        "d",
+        "g",
+        "v",
+        "k"
+      ],
+      "class": "verb_transitive",
+      "gloss": "unabolish (auto-generated)",
+      "citation_form": "kadagvekoko"
+    },
+    "ltb": {
+      "root": [
+        "l",
+        "t",
+        "b"
+      ],
+      "class": "verb_active",
+      "gloss": "unball (auto-generated)",
+      "citation_form": "kalatab"
+    },
+    "wrth": {
+      "root": [
+        "w",
+        "r",
+        "th"
+      ],
+      "class": "verb_active",
+      "gloss": "ubiquitylate (auto-generated)",
+      "citation_form": "kawarath"
+    },
+    "nshshng": {
+      "root": [
+        "n",
+        "sh",
+        "sh",
+        "ng"
+      ],
+      "class": "verb_transitive",
+      "gloss": "ultradiscretize (auto-generated)",
+      "citation_form": "kanashshengoko"
+    },
+    "vths": {
+      "root": [
+        "v",
+        "th",
+        "s"
+      ],
+      "class": "verb_stative",
+      "gloss": "ubicate (auto-generated)",
+      "citation_form": "vathasa"
+    },
+    "fdn": {
+      "root": [
+        "f",
+        "d",
+        "n"
+      ],
+      "class": "verb_active",
+      "gloss": "umcast (auto-generated)",
+      "citation_form": "kafadan"
+    },
+    "ndhd": {
+      "root": [
+        "n",
+        "dh",
+        "d"
+      ],
+      "class": "verb_stative",
+      "gloss": "unbewitch (auto-generated)",
+      "citation_form": "nadhada"
+    },
+    "nyy": {
+      "root": [
+        "n",
+        "y",
+        "y"
+      ],
+      "class": "verb_active",
+      "gloss": "unalter (auto-generated)",
+      "citation_form": "kanayay"
+    },
+    "ngtyh": {
+      "root": [
+        "ng",
+        "t",
+        "y",
+        "h"
+      ],
+      "class": "verb_transitive",
+      "gloss": "unbishop (auto-generated)",
+      "citation_form": "kangatyehoko"
+    },
+    "bchk": {
+      "root": [
+        "b",
+        "ch",
+        "k"
+      ],
+      "class": "verb_stative",
+      "gloss": "unbend (auto-generated)",
+      "citation_form": "bachaka"
+    },
+    "dbz": {
+      "root": [
+        "d",
+        "b",
+        "z"
+      ],
+      "class": "verb_active",
+      "gloss": "ultrasonificate (auto-generated)",
+      "citation_form": "kadabaz"
+    },
+    "wpv": {
+      "root": [
+        "w",
+        "p",
+        "v"
+      ],
+      "class": "verb_active",
+      "gloss": "unapparel (auto-generated)",
+      "citation_form": "kawapav"
+    },
+    "zpg": {
+      "root": [
+        "z",
+        "p",
+        "g"
+      ],
+      "class": "verb_active",
+      "gloss": "unalive (auto-generated)",
+      "citation_form": "kazapag"
+    },
+    "shzb": {
+      "root": [
+        "sh",
+        "z",
+        "b"
+      ],
+      "class": "verb_active",
+      "gloss": "unbefool (auto-generated)",
+      "citation_form": "kashazab"
+    },
+    "thrs": {
+      "root": [
+        "th",
+        "r",
+        "s"
+      ],
+      "class": "verb_active",
+      "gloss": "umbrate (auto-generated)",
+      "citation_form": "katharas"
+    },
+    "spyng": {
+      "root": [
+        "s",
+        "p",
+        "y",
+        "ng"
+      ],
+      "class": "verb_transitive",
+      "gloss": "uglify (auto-generated)",
+      "citation_form": "kasapyengoko"
+    },
+    "hbhw": {
+      "root": [
+        "h",
+        "b",
+        "h",
+        "w"
+      ],
+      "class": "verb_transitive",
+      "gloss": "unbear (auto-generated)",
+      "citation_form": "kahabhewoko"
+    },
+    "hjg": {
+      "root": [
+        "h",
+        "j",
+        "g"
+      ],
+      "class": "verb_active",
+      "gloss": "unadvise (auto-generated)",
+      "citation_form": "kahajag"
+    },
+    "mpdh": {
+      "root": [
+        "m",
+        "p",
+        "dh"
+      ],
+      "class": "verb_stative",
+      "gloss": "unbeauty (auto-generated)",
+      "citation_form": "mapadha"
+    },
+    "hzhj": {
+      "root": [
+        "h",
+        "zh",
+        "j"
+      ],
+      "class": "verb_active",
+      "gloss": "unabandon (auto-generated)",
+      "citation_form": "kahazhaj"
+    },
+    "jchfl": {
+      "root": [
+        "j",
+        "ch",
+        "f",
+        "l"
+      ],
+      "class": "verb_transitive",
+      "gloss": "umpire (auto-generated)",
+      "citation_form": "kajachfeloko"
+    },
+    "dhng": {
+      "root": [
+        "d",
+        "h",
+        "ng"
+      ],
+      "class": "verb_active",
+      "gloss": "unbank (auto-generated)",
+      "citation_form": "kadahang"
+    },
+    "rjdw": {
+      "root": [
+        "r",
+        "j",
+        "d",
+        "w"
+      ],
+      "class": "verb_transitive",
+      "gloss": "unattach (auto-generated)",
+      "citation_form": "karajdewoko"
     }
   },
   "nouns": {
@@ -2197,6 +2604,446 @@
       "gloss": "yohimbin (auto-generated)",
       "gender": "inanimate",
       "citation_form": "yabïfdhïf"
+    },
+    "dpb": {
+      "root": [
+        "d",
+        "p",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "squaretoes (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "dapïfbïf"
+    },
+    "jln": {
+      "root": [
+        "j",
+        "l",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "squalor (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "jalïfnïf"
+    },
+    "jdf": {
+      "root": [
+        "j",
+        "d",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "squaddy (auto-generated)",
+      "gender": "child",
+      "citation_form": "jadufu"
+    },
+    "gshch": {
+      "root": [
+        "g",
+        "sh",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "squanderation (auto-generated)",
+      "gender": "female",
+      "citation_form": "gashocho"
+    },
+    "gwy": {
+      "root": [
+        "g",
+        "w",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "squamosamide (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "gawïfyïf"
+    },
+    "dzhb": {
+      "root": [
+        "d",
+        "zh",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "squandamania (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "dazhïfbïf"
+    },
+    "tjp": {
+      "root": [
+        "t",
+        "j",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "squalorajid (auto-generated)",
+      "gender": "child",
+      "citation_form": "tajupu"
+    },
+    "ypk": {
+      "root": [
+        "y",
+        "p",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "squad (auto-generated)",
+      "gender": "female",
+      "citation_form": "yapoko"
+    },
+    "shzhh": {
+      "root": [
+        "sh",
+        "zh",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "sqn (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "shazhïfhïf"
+    },
+    "ngrj": {
+      "root": [
+        "ng",
+        "r",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "squamation (auto-generated)",
+      "gender": "child",
+      "citation_form": "ngaruju"
+    },
+    "tthd": {
+      "root": [
+        "t",
+        "th",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "sqr (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "tathïfdïf"
+    },
+    "bdth": {
+      "root": [
+        "b",
+        "d",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "squamate (auto-generated)",
+      "gender": "female",
+      "citation_form": "badotho"
+    },
+    "ngd": {
+      "root": [
+        "n",
+        "g",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "squadder (auto-generated)",
+      "gender": "female",
+      "citation_form": "nagodo"
+    },
+    "chjj": {
+      "root": [
+        "ch",
+        "j",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "squandermaniac (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "chajïfjïf"
+    },
+    "tthz": {
+      "root": [
+        "t",
+        "th",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "squadrism (auto-generated)",
+      "gender": "male",
+      "citation_form": "tathaza"
+    },
+    "gdk": {
+      "root": [
+        "g",
+        "d",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "squamosity (auto-generated)",
+      "gender": "female",
+      "citation_form": "gadoko"
+    },
+    "vgk": {
+      "root": [
+        "v",
+        "g",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "squarer (auto-generated)",
+      "gender": "child",
+      "citation_form": "vaguku"
+    },
+    "zns": {
+      "root": [
+        "z",
+        "n",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "squadronmate (auto-generated)",
+      "gender": "female",
+      "citation_form": "zanoso"
+    },
+    "pth": {
+      "root": [
+        "p",
+        "t",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "squadrista (auto-generated)",
+      "gender": "female",
+      "citation_form": "patoho"
+    },
+    "pkd": {
+      "root": [
+        "p",
+        "k",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "squalenoyl (auto-generated)",
+      "gender": "child",
+      "citation_form": "pakudu"
+    },
+    "schh": {
+      "root": [
+        "s",
+        "ch",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "squaller (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "sachïfhïf"
+    },
+    "jwh": {
+      "root": [
+        "j",
+        "w",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "squandermania (auto-generated)",
+      "gender": "child",
+      "citation_form": "jawuhu"
+    },
+    "trf": {
+      "root": [
+        "t",
+        "r",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "squarehead (auto-generated)",
+      "gender": "female",
+      "citation_form": "tarofo"
+    },
+    "szhz": {
+      "root": [
+        "s",
+        "zh",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "squadra (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "sazhïfzïf"
+    },
+    "blch": {
+      "root": [
+        "b",
+        "l",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "squab (auto-generated)",
+      "gender": "male",
+      "citation_form": "balacha"
+    },
+    "lngl": {
+      "root": [
+        "l",
+        "ng",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "squaresail (auto-generated)",
+      "gender": "child",
+      "citation_form": "langulu"
+    },
+    "hfj": {
+      "root": [
+        "h",
+        "f",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "squamella (auto-generated)",
+      "gender": "child",
+      "citation_form": "hafuju"
+    },
+    "thtk": {
+      "root": [
+        "th",
+        "t",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "squame (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "thatïfkïf"
+    },
+    "jchy": {
+      "root": [
+        "j",
+        "ch",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "squalling (auto-generated)",
+      "gender": "female",
+      "citation_form": "jachoyo"
+    },
+    "frv": {
+      "root": [
+        "f",
+        "r",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "squamosin (auto-generated)",
+      "gender": "female",
+      "citation_form": "farovo"
+    },
+    "rchf": {
+      "root": [
+        "r",
+        "ch",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "squamousness (auto-generated)",
+      "gender": "female",
+      "citation_form": "rachofo"
+    },
+    "yjl": {
+      "root": [
+        "y",
+        "j",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "squamatization (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "yajïflïf"
+    },
+    "ksch": {
+      "root": [
+        "k",
+        "s",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "squalenoylation (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "kasïfchïf"
+    },
+    "hrt": {
+      "root": [
+        "h",
+        "r",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "squareness (auto-generated)",
+      "gender": "child",
+      "citation_form": "harutu"
+    },
+    "zhchzh": {
+      "root": [
+        "zh",
+        "ch",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "squalliness (auto-generated)",
+      "gender": "female",
+      "citation_form": "zhachozho"
+    },
+    "dzhy": {
+      "root": [
+        "d",
+        "zh",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "squallery (auto-generated)",
+      "gender": "female",
+      "citation_form": "dazhoyo"
+    },
+    "shtv": {
+      "root": [
+        "sh",
+        "t",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "squalodont (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "shatïfvïf"
+    },
+    "jzf": {
+      "root": [
+        "j",
+        "z",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "squamosal (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "jazïffïf"
+    },
+    "zhnzh": {
+      "root": [
+        "zh",
+        "n",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "squalamine (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zhanïfzhïf"
+    },
+    "gsl": {
+      "root": [
+        "g",
+        "s",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "sqround (auto-generated)",
+      "gender": "child",
+      "citation_form": "gasulu"
     }
   },
   "adjectives": {
@@ -2427,6 +3274,106 @@
       "class": "adjective",
       "gloss": "rhamphothecal (auto-generated)",
       "citation_form": "notashaka"
+    },
+    "mhth": {
+      "root": [
+        "m",
+        "h",
+        "th"
+      ],
+      "class": "adjective",
+      "gloss": "hideling (auto-generated)",
+      "citation_form": "mohathaka"
+    },
+    "mpv": {
+      "root": [
+        "m",
+        "p",
+        "v"
+      ],
+      "class": "adjective",
+      "gloss": "hiccuplike (auto-generated)",
+      "citation_form": "mopavaka"
+    },
+    "dnr": {
+      "root": [
+        "d",
+        "n",
+        "r"
+      ],
+      "class": "adjective",
+      "gloss": "hicklike (auto-generated)",
+      "citation_form": "donaraka"
+    },
+    "fbl": {
+      "root": [
+        "f",
+        "b",
+        "l"
+      ],
+      "class": "adjective",
+      "gloss": "hiatused (auto-generated)",
+      "citation_form": "fobalaka"
+    },
+    "lnng": {
+      "root": [
+        "l",
+        "n",
+        "ng"
+      ],
+      "class": "adjective",
+      "gloss": "hibernal (auto-generated)",
+      "citation_form": "lonangaka"
+    },
+    "ztr": {
+      "root": [
+        "z",
+        "t",
+        "r"
+      ],
+      "class": "adjective",
+      "gloss": "hideable (auto-generated)",
+      "citation_form": "zotaraka"
+    },
+    "gps": {
+      "root": [
+        "g",
+        "p",
+        "s"
+      ],
+      "class": "adjective",
+      "gloss": "hiatic (auto-generated)",
+      "citation_form": "gopasaka"
+    },
+    "vfk": {
+      "root": [
+        "v",
+        "f",
+        "k"
+      ],
+      "class": "adjective",
+      "gloss": "hidable (auto-generated)",
+      "citation_form": "vofakaka"
+    },
+    "zhdhsh": {
+      "root": [
+        "zh",
+        "dh",
+        "sh"
+      ],
+      "class": "adjective",
+      "gloss": "hiddenmost (auto-generated)",
+      "citation_form": "zhodhashaka"
+    },
+    "ydhv": {
+      "root": [
+        "y",
+        "dh",
+        "v"
+      ],
+      "class": "adjective",
+      "gloss": "hidelings (auto-generated)",
+      "citation_form": "yodhavaka"
     }
   },
   "adverbs": {
@@ -2648,6 +3595,106 @@
       "class": "adverb",
       "gloss": "cabalistically (auto-generated)",
       "citation_form": "yangate"
+    },
+    "pshv": {
+      "root": [
+        "p",
+        "sh",
+        "v"
+      ],
+      "class": "adverb",
+      "gloss": "outback (auto-generated)",
+      "citation_form": "pashate"
+    },
+    "zhmz": {
+      "root": [
+        "zh",
+        "m",
+        "z"
+      ],
+      "class": "adverb",
+      "gloss": "otherways (auto-generated)",
+      "citation_form": "zhamate"
+    },
+    "rzs": {
+      "root": [
+        "r",
+        "z",
+        "s"
+      ],
+      "class": "adverb",
+      "gloss": "otherwhither (auto-generated)",
+      "citation_form": "razate"
+    },
+    "jhz": {
+      "root": [
+        "j",
+        "h",
+        "z"
+      ],
+      "class": "adverb",
+      "gloss": "otherguess (auto-generated)",
+      "citation_form": "jahate"
+    },
+    "gzhz": {
+      "root": [
+        "g",
+        "zh",
+        "z"
+      ],
+      "class": "adverb",
+      "gloss": "otherweise (auto-generated)",
+      "citation_form": "gazhate"
+    },
+    "kbn": {
+      "root": [
+        "k",
+        "b",
+        "n"
+      ],
+      "class": "adverb",
+      "gloss": "outerly (auto-generated)",
+      "citation_form": "kabate"
+    },
+    "zhpch": {
+      "root": [
+        "zh",
+        "p",
+        "ch"
+      ],
+      "class": "adverb",
+      "gloss": "ottava (auto-generated)",
+      "citation_form": "zhapate"
+    },
+    "rtd": {
+      "root": [
+        "r",
+        "t",
+        "d"
+      ],
+      "class": "adverb",
+      "gloss": "otoacoustically (auto-generated)",
+      "citation_form": "ratate"
+    },
+    "kgt": {
+      "root": [
+        "k",
+        "g",
+        "t"
+      ],
+      "class": "adverb",
+      "gloss": "outbye (auto-generated)",
+      "citation_form": "kagate"
+    },
+    "ymj": {
+      "root": [
+        "y",
+        "m",
+        "j"
+      ],
+      "class": "adverb",
+      "gloss": "otherly (auto-generated)",
+      "citation_form": "yamate"
     }
   },
   "colors": {
