@@ -24,7 +24,9 @@
       "Bash(cd /c/Users/Immanuelle/Documents/Github/aelaki-merged && /c/Users/Immanuelle/AppData/Local/Programs/Python/Python313/python.exe wiki-scripts/create_word_pages.py --limit 2 --keys \"debh,zoduk\" 2>&1)",
       "Bash(cd /c/Users/Immanuelle/Documents/Github/aelaki-merged && /c/Users/Immanuelle/AppData/Local/Programs/Python/Python313/python.exe -c \"\nimport sys\nsys.path.insert\\(0, '.'\\)\nsys.path.insert\\(0, 'wiki-scripts'\\)\n# Count forms per type\nfrom aelaki.lexicon import VERBS, NOUNS, ADJECTIVES, ADVERBS\nfrom aelaki.verbs import StemTemplate, Evidential, DayPrefix\nfrom aelaki.adjectives import AdjDegree, AdjEvidential\nfrom aelaki.adverbs import AdverbDegree, AdverbTense\nprint\\(f'Noun \\(inherent gender\\): 4 number x 4 person = 16 forms'\\)\nprint\\(f'Noun \\(no gender\\): 4 gender x 4 number x 4 person = 64 forms'\\)\nprint\\(f'Transitive: {len\\(list\\(StemTemplate\\)\\)} templates x {len\\(list\\(Evidential\\)\\)} evid x {len\\(list\\(DayPrefix\\)\\)} day = {len\\(list\\(StemTemplate\\)\\)*len\\(list\\(Evidential\\)\\)*len\\(list\\(DayPrefix\\)\\)} forms'\\)\nprint\\(f'Active: {len\\(list\\(Evidential\\)\\)} evid x {len\\(list\\(DayPrefix\\)\\)} day = {len\\(list\\(Evidential\\)\\)*len\\(list\\(DayPrefix\\)\\)} forms'\\)\nprint\\(f'Stative: {len\\(list\\(Evidential\\)\\)*len\\(list\\(DayPrefix\\)\\)} conj + 32 prefix = {len\\(list\\(Evidential\\)\\)*len\\(list\\(DayPrefix\\)\\)+32} forms'\\)\nprint\\(f'Adjective: {len\\(list\\(AdjDegree\\)\\)} deg x {len\\(list\\(AdjEvidential\\)\\)} evid = {len\\(list\\(AdjDegree\\)\\)*len\\(list\\(AdjEvidential\\)\\)} forms'\\)\nprint\\(f'Adverb: {len\\(list\\(AdverbDegree\\)\\)} deg x {len\\(list\\(AdverbTense\\)\\)} tense = {len\\(list\\(AdverbDegree\\)\\)*len\\(list\\(AdverbTense\\)\\)} forms'\\)\n\" 2>&1)",
       "Bash(cd /c/Users/Immanuelle/Documents/Github/aelaki-merged && /c/Users/Immanuelle/AppData/Local/Programs/Python/Python313/python.exe tmp_diff.py 2>&1)",
-      "WebFetch(domain:aelaki.miraheze.org)"
+      "WebFetch(domain:aelaki.miraheze.org)",
+      "Bash(xargs wc:*)",
+      "Bash(wc:*)"
     ]
   }
 }
