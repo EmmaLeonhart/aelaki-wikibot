@@ -27,6 +27,8 @@ Based on patterns from [shintowiki-scripts](https://github.com/Emma-Leonhart/shi
 | `create_word_pages.py` | **CI** | Creates `word:LEMMA` pages (runs via GitHub Actions) |
 | `update_bot_status.py` | **CI** | Updates `User:EmmaBot` with pipeline run metadata |
 | `word_page_loop.sh` | **CI** | Orchestrates the word page bot pipeline |
+| `generate_random_words.py` | **CI** | Generates new lexicon entries from Wiktionary lemmas |
+| `create_wanted_categories.py` | **CI** | Creates missing categories from Special:WantedCategories |
 | `create_word_articles.py` | Ready | Creates wiki articles for each root word in the lexicon |
 | `sync_lexicon_page.py` | Ready | Syncs the roots summary table to a wiki page |
 
@@ -61,13 +63,29 @@ Updates `User:EmmaBot` on the wiki with:
 
 Template file: `EmmaBot.wiki`
 
+### generate_random_words.py (CI — GitHub Actions)
+
+Grows the lexicon automatically. Each run:
+1. Fetches English lemmas from Wiktionary categories (nouns 40%, verbs 40%, adjectives 10%, adverbs 10%)
+2. Generates unique triconsonantal (or tetraconsonantal for transitive verbs) roots
+3. Computes citation forms using the Aelaki morphology engine
+4. Appends new entries to `aelaki/lexicon.json` (skips duplicate glosses)
+
+**State modified:** `aelaki/lexicon.json`
+
+### create_wanted_categories.py (CI — GitHub Actions)
+
+Creates missing category pages listed on `Special:WantedCategories`. Each page contains only `[[Category:Bot created categories]]`. No local state file; writes directly to the wiki.
+
 ### word_page_loop.sh (CI — GitHub Actions)
 
-Shell orchestrator that runs the full pipeline:
-1. `update_bot_status.py` — declare the run on the wiki
-2. `create_word_pages.py` — create word pages
+Shell orchestrator that runs the full pipeline in order:
+1. `generate_random_words.py` — grow the lexicon with ~100 new entries
+2. `update_bot_status.py` — declare the run on the wiki
+3. `create_wanted_categories.py` — create any missing category pages
+4. `create_word_pages.py` — upgrade old pages and create new word pages
 
-Builds a run tag from GitHub Actions environment variables (commit SHA, event type, run ID).
+Builds a run tag from GitHub Actions environment variables (run ID, event type) for wiki edit summaries.
 
 ### create_word_articles.py
 
@@ -136,12 +154,18 @@ wiki-scripts/
 ├── config.py                   # Connection settings and constants
 ├── utils.py                    # Shared bot utilities
 ├── word_page_loop.sh           # CI orchestrator (GitHub Actions)
+├── generate_random_words.py    # Lexicon growth from Wiktionary (CI)
 ├── create_word_pages.py        # word:LEMMA page creation (CI)
 ├── update_bot_status.py        # Bot status page updater (CI)
+├── create_wanted_categories.py # Missing category creation (CI)
 ├── create_word_articles.py     # Article generation script
 ├── sync_lexicon_page.py        # Lexicon page sync script
-├── *.state                     # Resume state (gitignored)
+├── create_word_pages.state     # Tracks completed word page keys (committed by CI)
+├── version_history.txt         # Ordered version categories (committed by CI)
 └── *.log                       # Run logs (gitignored)
+
+aelaki/
+└── lexicon.json                # Master lexicon (grown by CI each run)
 
 .github/workflows/
 └── word-pages.yml              # GitHub Actions workflow for word page bot
@@ -152,12 +176,45 @@ wiki-scripts/
 The word page bot runs via `.github/workflows/word-pages.yml`.
 
 **Triggers:**
-- Every push (except `*.state` file changes)
-- Daily at 00:00 UTC
-- Manual dispatch
+- Every push to `master` (except `*.state` file changes)
+- Daily at 00:00 UTC (cron schedule)
+- Manual dispatch (`workflow_dispatch`)
 
 **Required repository configuration:**
 1. **Variable** `WIKI_USERNAME` — bot-password username (e.g. `EmmaBot@EmmaBot`)
 2. **Secret** `WIKI_PASSWORD` — bot password from `Special:BotPasswords`
 
 Set these at: `Settings > Secrets and variables > Actions`
+
+## CI Pipeline State Management
+
+The GitHub Actions workflow modifies three files that are committed back to the repository after each run. The commit message uses `[skip ci]` to prevent infinite trigger loops.
+
+### State files committed by CI
+
+| File | Modified by | Purpose |
+|------|------------|---------|
+| `wiki-scripts/create_word_pages.state` | `create_word_pages.py` | Tracks which lexicon keys have already had wiki pages created, one key per line. Prevents duplicate page creation across runs. |
+| `aelaki/lexicon.json` | `generate_random_words.py` | The master lexicon. Each CI run fetches ~100 random English words from Wiktionary and generates new Aelaki entries (roots, citation forms, glosses). New entries are appended to the appropriate section (nouns, verbs, adjectives, adverbs). |
+| `wiki-scripts/version_history.txt` | `create_word_pages.py` | Ordered list of version category names (e.g. `Words fb8fd09`). Each entry corresponds to a git commit hash. Used to track which word pages need upgrading when the page template changes. |
+
+### How the state cycle works
+
+1. **`generate_random_words.py`** runs first — fetches English lemmas from Wiktionary categories, generates Aelaki roots with citation forms, and appends new entries to `aelaki/lexicon.json`. This grows the lexicon by ~100 entries per run.
+
+2. **`update_bot_status.py`** updates `User:EmmaBot` on the wiki with the current run's timestamp, trigger type, and a link to the GitHub Actions run. (No local state file — writes directly to the wiki.)
+
+3. **`create_wanted_categories.py`** queries `Special:WantedCategories` on the wiki and creates any missing category pages. (No local state file — writes directly to the wiki.)
+
+4. **`create_word_pages.py`** runs in two phases:
+   - **Phase 1 (Upgrade):** Reads `version_history.txt` to find word pages tagged with older commit hashes. Regenerates those pages with the current template and re-tags them with the current commit's version category. Up to `WIKI_EDIT_LIMIT` pages are upgraded per run.
+   - **Phase 2 (Create):** Iterates the lexicon alphabetically, skipping keys already listed in `create_word_pages.state`. Creates new `word:LEMMA` pages on the wiki and appends each completed key to the state file. Up to `WIKI_EDIT_LIMIT` new pages are created per run.
+
+5. **Commit step:** After all scripts finish, the workflow stages `*.state`, `aelaki/lexicon.json`, and `wiki-scripts/version_history.txt`, then commits and pushes with the message `chore(state): update word page bot state [skip ci]`.
+
+### Concurrency and safety
+
+- The workflow uses `concurrency: { group: word-page-bot, cancel-in-progress: false }` to ensure only one instance runs at a time without cancelling in-progress runs.
+- The `paths-ignore: ["**/*.state"]` filter prevents the state commit from re-triggering the workflow.
+- `WIKI_EDIT_LIMIT` (default 100) caps the total wiki edits per run to stay within Miraheze rate limits.
+- All wiki edits use a 1.5-second throttle between API calls.
