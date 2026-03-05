@@ -13,6 +13,7 @@ Usage:
 import argparse
 import os
 import re
+import subprocess
 import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
@@ -27,8 +28,18 @@ from config import THROTTLE
 SCRIPT_DIR = os.path.dirname(__file__)
 DEFAULT_STATE_FILE = os.path.join(SCRIPT_DIR, "create_word_pages.state")
 DEFAULT_LOG_FILE = os.path.join(SCRIPT_DIR, "create_word_pages.log")
+DEFAULT_VERSION_HISTORY = os.path.join(SCRIPT_DIR, "version_history.txt")
 
-PAGE_VERSION = "v5"
+def _git_commit_id() -> str:
+    """Return the short commit hash of HEAD in this repo."""
+    return subprocess.check_output(
+        ["git", "rev-parse", "--short", "HEAD"],
+        cwd=os.path.dirname(__file__) or ".",
+        text=True,
+    ).strip()
+
+
+PAGE_VERSION = _git_commit_id()
 
 WORD_CLASS_INFO = {
     "noun": {"label": "Noun", "link": "[[Nouns|noun]]", "category": "Aelaki nouns"},
@@ -391,22 +402,34 @@ def generate_adjective_agreement(entry) -> list[tuple[str, str]]:
 # ---------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------
-# Wikitext linking helpers (v5)
+# Wikitext linking helpers (v6)
 # ---------------------------------------------------------------------------
 
 LINKABLE_TERMS = {
     # Degrees
     "positive", "comparative", "superlative", "negative",
-    # Evidentials
+    # Evidentials & moods
     "visual", "hearsay", "inferential", "optative", "hodiernal",
-    # Aspects/templates
+    "mythical", "mythic", "auditory", "deliberative",
+    "intention", "intentional",
+    # Tense / day prefixes
+    "present", "past", "future", "hesternal", "crastinal",
+    # Aspects / templates
     "telic", "atelic", "perfect", "imperfect",
-    # Voice/type
+    "habitual", "gnomic", "imperative",
+    # Voice / type
     "active", "stative",
+    # Stative prefixes
+    "probable", "inchoative", "cessative", "resumptive",
+    "repetitive", "cess", "almost", "continuous",
     # Gender
     "child", "female", "male", "inanimate",
     # Number
     "singular", "plural", "collective", "zero",
+    # Person
+    "first", "second", "third", "fourth",
+    # Cases
+    "agent", "patient", "possessive", "instrumental", "dative", "speaker",
 }
 
 
@@ -419,8 +442,7 @@ def wikt_gloss(gloss: str) -> str:
     else:
         core = gloss
         suffix = ""
-    wikt_title = core[0].upper() + core[1:] if core else core
-    return f"[[Wikt:{wikt_title}|{core}]]{suffix}"
+    return f"[[Wikt:{core}|{core}]]{suffix}"
 
 
 def link_form_label(label: str) -> str:
@@ -480,7 +502,7 @@ def generate_forms_table(forms: list[tuple[str, str]]) -> str:
 
 
 def generate_word_page(key: str, entry: dict) -> str:
-    """Generate full wikitext for a word:LEMMA page (v5)."""
+    """Generate full wikitext for a word:LEMMA page."""
     wc = entry["word_class"]
     wc_info = WORD_CLASS_INFO.get(wc, {})
     wc_link = wc_info.get("link", wc)
@@ -585,29 +607,58 @@ def generate_word_page(key: str, entry: dict) -> str:
 # Upgrade old versions
 # ---------------------------------------------------------------------------
 
-def upgrade_old_versions(site, lexicon, limit_per_version, run_tag_suffix, log_file):
-    """Upgrade pages from older versions to current PAGE_VERSION.
+def load_version_history(path: str) -> list[str]:
+    """Load the ordered list of version category names."""
+    if not os.path.exists(path):
+        return []
+    with open(path) as f:
+        return [line.strip() for line in f if line.strip()]
 
-    Iterates through Category:Words v1, v2, etc. sequentially.
-    Upgrades up to `limit_per_version` pages from EACH old version category.
+
+def ensure_current_version(path: str) -> list[str]:
+    """Append PAGE_VERSION to version_history.txt if not already present.
+
+    Returns the full ordered list of category names.
     """
-    current_num = int(PAGE_VERSION[1:])  # "v2" -> 2
+    versions = load_version_history(path)
+    cat_name = f"Words {PAGE_VERSION}"
+    if cat_name not in versions:
+        versions.append(cat_name)
+        with open(path, "a") as f:
+            f.write(cat_name + "\n")
+        print(f"  Registered new version category: [[Category:{cat_name}]]", flush=True)
+    return versions
+
+
+def upgrade_old_versions(site, lexicon, limit, run_tag_suffix, log_file,
+                         version_history_file):
+    """Upgrade word pages from older version categories in order.
+
+    Reads version_history.txt for the ordered list of categories, then
+    walks each one (oldest first) except the current commit's category,
+    upgrading pages until the limit is reached.
+    """
+    versions = ensure_current_version(version_history_file)
+    current_cat_name = f"Words {PAGE_VERSION}"
     total_upgraded = 0
 
-    for v in range(1, current_num):
-        cat_name = f"Words v{v}"
+    for cat_name in versions:
+        if cat_name == current_cat_name:
+            continue
+        if total_upgraded >= limit:
+            break
+
         print(f"\nChecking [[Category:{cat_name}]]...", flush=True)
         cat = site.categories[cat_name]
-        upgraded_this_version = 0
+        upgraded_this_cat = 0
 
         for page in cat:
-            if upgraded_this_version >= limit_per_version:
-                print(f"  Reached limit of {limit_per_version} for v{v}.", flush=True)
+            if total_upgraded >= limit:
+                print(f"  Reached upgrade limit of {limit}.", flush=True)
                 break
             if not page.name.startswith("word:"):
                 continue
 
-            # Find the lexicon key for this page
             lemma = page.name[5:]  # strip "word:"
             entry = None
             for k, e in lexicon.items():
@@ -624,12 +675,12 @@ def upgrade_old_versions(site, lexicon, limit_per_version, run_tag_suffix, log_f
                 saved = safe_save(page, new_text,
                                   summary=f"Bot: upgrade word page to {PAGE_VERSION}{run_tag_suffix}")
                 if saved:
-                    print(f"  UPGRADED: [[{page.name}]] v{v} -> {PAGE_VERSION}", flush=True)
-                    upgraded_this_version += 1
+                    print(f"  UPGRADED: [[{page.name}]] {cat_name} -> {current_cat_name}", flush=True)
+                    upgraded_this_cat += 1
                     total_upgraded += 1
                     append_log(log_file, {
                         "key": key, "lemma": lemma, "title": page.name,
-                        "status": "upgraded", "from": f"v{v}", "to": PAGE_VERSION,
+                        "status": "upgraded", "from": cat_name, "to": PAGE_VERSION,
                     })
                 else:
                     print(f"  SKIP (no change): [[{page.name}]]", flush=True)
@@ -640,7 +691,7 @@ def upgrade_old_versions(site, lexicon, limit_per_version, run_tag_suffix, log_f
                     "status": "upgrade_error", "error": str(e),
                 })
 
-        print(f"  v{v}: upgraded {upgraded_this_version} pages.", flush=True)
+        print(f"  {cat_name}: upgraded {upgraded_this_cat} pages.", flush=True)
 
     return total_upgraded
 
@@ -661,6 +712,8 @@ def main():
                         help="Overwrite existing pages.")
     parser.add_argument("--state-file", default=DEFAULT_STATE_FILE)
     parser.add_argument("--log-file", default=DEFAULT_LOG_FILE)
+    parser.add_argument("--version-history", default=DEFAULT_VERSION_HISTORY,
+                        help="Ordered list of version category names.")
     parser.add_argument("--run-tag", default="",
                         help="Wiki-formatted run tag for edit summaries.")
     parser.add_argument("--keys", default="",
@@ -678,10 +731,14 @@ def main():
     if args.apply:
         site = connect()
 
-    # --- Phase 1: Upgrade old version pages (10 per old version) ---
+    # Register current commit in version history (even in dry-run)
+    ensure_current_version(args.version_history)
+
+    # --- Phase 1: Upgrade old pages to current commit ---
     if args.apply:
-        print(f"\n--- Phase 1: Upgrade old pages to {PAGE_VERSION} (up to {args.limit} per version) ---", flush=True)
-        upgraded = upgrade_old_versions(site, lexicon, args.limit, run_tag_suffix, args.log_file)
+        print(f"\n--- Phase 1: Upgrade old pages to {PAGE_VERSION} (up to {args.limit}) ---", flush=True)
+        upgraded = upgrade_old_versions(site, lexicon, args.limit, run_tag_suffix,
+                                       args.log_file, args.version_history)
         print(f"\n  Total upgraded: {upgraded} pages.", flush=True)
     else:
         print(f"\n--- Phase 1: Would upgrade old pages to {PAGE_VERSION} (dry-run) ---", flush=True)
