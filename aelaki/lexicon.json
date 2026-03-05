@@ -3858,6 +3858,411 @@
       "class": "verb_active",
       "gloss": "polder (auto-generated)",
       "citation_form": "kafalas"
+    },
+    "khn": {
+      "root": [
+        "k",
+        "h",
+        "n"
+      ],
+      "class": "verb_active",
+      "gloss": "starrify (auto-generated)",
+      "citation_form": "kakahan"
+    },
+    "bnt": {
+      "root": [
+        "b",
+        "n",
+        "t"
+      ],
+      "class": "verb_active",
+      "gloss": "stage (auto-generated)",
+      "citation_form": "kabanat"
+    },
+    "nthp": {
+      "root": [
+        "n",
+        "th",
+        "p"
+      ],
+      "class": "verb_active",
+      "gloss": "standardize (auto-generated)",
+      "citation_form": "kanathap"
+    },
+    "dhshs": {
+      "root": [
+        "dh",
+        "sh",
+        "s"
+      ],
+      "class": "verb_stative",
+      "gloss": "starch (auto-generated)",
+      "citation_form": "dhashasa"
+    },
+    "fbg": {
+      "root": [
+        "f",
+        "b",
+        "g"
+      ],
+      "class": "verb_active",
+      "gloss": "stagger (auto-generated)",
+      "citation_form": "kafabag"
+    },
+    "gshl": {
+      "root": [
+        "g",
+        "sh",
+        "l"
+      ],
+      "class": "verb_active",
+      "gloss": "starken (auto-generated)",
+      "citation_form": "kagashal"
+    },
+    "gfzdh": {
+      "root": [
+        "g",
+        "f",
+        "z",
+        "dh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "stank (auto-generated)",
+      "citation_form": "kagafzedhoko"
+    },
+    "fhs": {
+      "root": [
+        "f",
+        "h",
+        "s"
+      ],
+      "class": "verb_active",
+      "gloss": "stalemate (auto-generated)",
+      "citation_form": "kafahas"
+    },
+    "chksd": {
+      "root": [
+        "ch",
+        "k",
+        "s",
+        "d"
+      ],
+      "class": "verb_transitive",
+      "gloss": "stanch (auto-generated)",
+      "citation_form": "kachaksedoko"
+    },
+    "dths": {
+      "root": [
+        "d",
+        "th",
+        "s"
+      ],
+      "class": "verb_active",
+      "gloss": "ssk (auto-generated)",
+      "citation_form": "kadathas"
+    },
+    "mdhzzh": {
+      "root": [
+        "m",
+        "dh",
+        "z",
+        "zh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "staine (auto-generated)",
+      "citation_form": "kamadhzezhoko"
+    },
+    "hchsh": {
+      "root": [
+        "h",
+        "ch",
+        "sh"
+      ],
+      "class": "verb_active",
+      "gloss": "stap (auto-generated)",
+      "citation_form": "kahachash"
+    },
+    "znj": {
+      "root": [
+        "z",
+        "n",
+        "j"
+      ],
+      "class": "verb_stative",
+      "gloss": "stance (auto-generated)",
+      "citation_form": "zanaja"
+    },
+    "hds": {
+      "root": [
+        "h",
+        "d",
+        "s"
+      ],
+      "class": "verb_stative",
+      "gloss": "starfuck (auto-generated)",
+      "citation_form": "hadasa"
+    },
+    "tzhng": {
+      "root": [
+        "t",
+        "zh",
+        "ng"
+      ],
+      "class": "verb_active",
+      "gloss": "staircase (auto-generated)",
+      "citation_form": "katazhang"
+    },
+    "kfl": {
+      "root": [
+        "k",
+        "f",
+        "l"
+      ],
+      "class": "verb_active",
+      "gloss": "starboard (auto-generated)",
+      "citation_form": "kakafal"
+    },
+    "rdhng": {
+      "root": [
+        "r",
+        "dh",
+        "ng"
+      ],
+      "class": "verb_stative",
+      "gloss": "stark (auto-generated)",
+      "citation_form": "radhanga"
+    },
+    "thdsh": {
+      "root": [
+        "th",
+        "d",
+        "sh"
+      ],
+      "class": "verb_active",
+      "gloss": "staddle (auto-generated)",
+      "citation_form": "kathadash"
+    },
+    "vrh": {
+      "root": [
+        "v",
+        "r",
+        "h"
+      ],
+      "class": "verb_stative",
+      "gloss": "stagnate (auto-generated)",
+      "citation_form": "varaha"
+    },
+    "ffzh": {
+      "root": [
+        "f",
+        "f",
+        "zh"
+      ],
+      "class": "verb_active",
+      "gloss": "star (auto-generated)",
+      "citation_form": "kafafazh"
+    },
+    "jmf": {
+      "root": [
+        "j",
+        "m",
+        "f"
+      ],
+      "class": "verb_active",
+      "gloss": "stalk (auto-generated)",
+      "citation_form": "kajamaf"
+    },
+    "mshbg": {
+      "root": [
+        "m",
+        "sh",
+        "b",
+        "g"
+      ],
+      "class": "verb_transitive",
+      "gloss": "stampedo (auto-generated)",
+      "citation_form": "kamashbegoko"
+    },
+    "fwrn": {
+      "root": [
+        "f",
+        "w",
+        "r",
+        "n"
+      ],
+      "class": "verb_transitive",
+      "gloss": "stablish (auto-generated)",
+      "citation_form": "kafawrenoko"
+    },
+    "bfs": {
+      "root": [
+        "b",
+        "f",
+        "s"
+      ],
+      "class": "verb_active",
+      "gloss": "stainproof (auto-generated)",
+      "citation_form": "kabafas"
+    },
+    "thzhth": {
+      "root": [
+        "th",
+        "zh",
+        "th"
+      ],
+      "class": "verb_active",
+      "gloss": "stahp (auto-generated)",
+      "citation_form": "kathazhath"
+    },
+    "nnz": {
+      "root": [
+        "n",
+        "n",
+        "z"
+      ],
+      "class": "verb_active",
+      "gloss": "stallfeed (auto-generated)",
+      "citation_form": "kananaz"
+    },
+    "bls": {
+      "root": [
+        "b",
+        "l",
+        "s"
+      ],
+      "class": "verb_active",
+      "gloss": "staff (auto-generated)",
+      "citation_form": "kabalas"
+    },
+    "zmy": {
+      "root": [
+        "z",
+        "m",
+        "y"
+      ],
+      "class": "verb_active",
+      "gloss": "standardise (auto-generated)",
+      "citation_form": "kazamay"
+    },
+    "rzhh": {
+      "root": [
+        "r",
+        "zh",
+        "h"
+      ],
+      "class": "verb_active",
+      "gloss": "stargaze (auto-generated)",
+      "citation_form": "karazhah"
+    },
+    "mvp": {
+      "root": [
+        "m",
+        "v",
+        "p"
+      ],
+      "class": "verb_active",
+      "gloss": "starburst (auto-generated)",
+      "citation_form": "kamavap"
+    },
+    "shrv": {
+      "root": [
+        "sh",
+        "r",
+        "v"
+      ],
+      "class": "verb_active",
+      "gloss": "stalinize (auto-generated)",
+      "citation_form": "kasharav"
+    },
+    "dhzhj": {
+      "root": [
+        "dh",
+        "zh",
+        "j"
+      ],
+      "class": "verb_active",
+      "gloss": "stale (auto-generated)",
+      "citation_form": "kadhazhaj"
+    },
+    "dhhz": {
+      "root": [
+        "dh",
+        "h",
+        "z"
+      ],
+      "class": "verb_active",
+      "gloss": "stalwartize (auto-generated)",
+      "citation_form": "kadhahaz"
+    },
+    "dhpy": {
+      "root": [
+        "dh",
+        "p",
+        "y"
+      ],
+      "class": "verb_active",
+      "gloss": "stain (auto-generated)",
+      "citation_form": "kadhapay"
+    },
+    "sngp": {
+      "root": [
+        "s",
+        "ng",
+        "p"
+      ],
+      "class": "verb_active",
+      "gloss": "stagecoach (auto-generated)",
+      "citation_form": "kasangap"
+    },
+    "ngtr": {
+      "root": [
+        "ng",
+        "t",
+        "r"
+      ],
+      "class": "verb_stative",
+      "gloss": "stang (auto-generated)",
+      "citation_form": "ngatara"
+    },
+    "jsch": {
+      "root": [
+        "j",
+        "s",
+        "ch"
+      ],
+      "class": "verb_active",
+      "gloss": "stagwatch (auto-generated)",
+      "citation_form": "kajasach"
+    },
+    "brt": {
+      "root": [
+        "b",
+        "r",
+        "t"
+      ],
+      "class": "verb_stative",
+      "gloss": "stamp (auto-generated)",
+      "citation_form": "barata"
+    },
+    "gsf": {
+      "root": [
+        "g",
+        "s",
+        "f"
+      ],
+      "class": "verb_stative",
+      "gloss": "stammer (auto-generated)",
+      "citation_form": "gasafa"
+    },
+    "thzr": {
+      "root": [
+        "th",
+        "z",
+        "r"
+      ],
+      "class": "verb_active",
+      "gloss": "stake (auto-generated)",
+      "citation_form": "kathazar"
     }
   },
   "nouns": {
@@ -8101,6 +8506,446 @@
       "gloss": "oilcoat (auto-generated)",
       "gender": "male",
       "citation_form": "hawaba"
+    },
+    "thsth": {
+      "root": [
+        "th",
+        "s",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "roads (auto-generated)",
+      "gender": "male",
+      "citation_form": "thasatha"
+    },
+    "dhdhzh": {
+      "root": [
+        "dh",
+        "dh",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "roadholding (auto-generated)",
+      "gender": "female",
+      "citation_form": "dhadhozho"
+    },
+    "wngh": {
+      "root": [
+        "w",
+        "ng",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "roadmap (auto-generated)",
+      "gender": "female",
+      "citation_form": "wangoho"
+    },
+    "gchl": {
+      "root": [
+        "g",
+        "ch",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "roadometer (auto-generated)",
+      "gender": "male",
+      "citation_form": "gachala"
+    },
+    "nngv": {
+      "root": [
+        "n",
+        "ng",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "roadmetal (auto-generated)",
+      "gender": "female",
+      "citation_form": "nangovo"
+    },
+    "tfk": {
+      "root": [
+        "t",
+        "f",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "roachicide (auto-generated)",
+      "gender": "child",
+      "citation_form": "tafuku"
+    },
+    "zhhr": {
+      "root": [
+        "zh",
+        "h",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "rnd (auto-generated)",
+      "gender": "child",
+      "citation_form": "zhahuru"
+    },
+    "ktr": {
+      "root": [
+        "k",
+        "t",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "roadcrew (auto-generated)",
+      "gender": "male",
+      "citation_form": "katara"
+    },
+    "wchch": {
+      "root": [
+        "w",
+        "ch",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "roadbuilding (auto-generated)",
+      "gender": "child",
+      "citation_form": "wachuchu"
+    },
+    "hmv": {
+      "root": [
+        "h",
+        "m",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "roadgeek (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "hamïfvïf"
+    },
+    "jfch": {
+      "root": [
+        "j",
+        "f",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "roadgeeking (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "jafïfchïf"
+    },
+    "ywj": {
+      "root": [
+        "y",
+        "w",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "roadhead (auto-generated)",
+      "gender": "male",
+      "citation_form": "yawaja"
+    },
+    "vrm": {
+      "root": [
+        "v",
+        "r",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "roadline (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "varïfmïf"
+    },
+    "pzhch": {
+      "root": [
+        "p",
+        "zh",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "roadmaker (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "pazhïfchïf"
+    },
+    "wgb": {
+      "root": [
+        "w",
+        "g",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "roadhouse (auto-generated)",
+      "gender": "female",
+      "citation_form": "wagobo"
+    },
+    "wzb": {
+      "root": [
+        "w",
+        "z",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "roadbase (auto-generated)",
+      "gender": "female",
+      "citation_form": "wazobo"
+    },
+    "pws": {
+      "root": [
+        "p",
+        "w",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "roadblock (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "pawïfsïf"
+    },
+    "zhtw": {
+      "root": [
+        "zh",
+        "t",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "roadroller (auto-generated)",
+      "gender": "female",
+      "citation_form": "zhatowo"
+    },
+    "hjv": {
+      "root": [
+        "h",
+        "j",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "roadie (auto-generated)",
+      "gender": "female",
+      "citation_form": "hajovo"
+    },
+    "gdhh": {
+      "root": [
+        "g",
+        "dh",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "roadcut (auto-generated)",
+      "gender": "female",
+      "citation_form": "gadhoho"
+    },
+    "tnw": {
+      "root": [
+        "t",
+        "n",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "roadbed (auto-generated)",
+      "gender": "child",
+      "citation_form": "tanuwu"
+    },
+    "mzhdh": {
+      "root": [
+        "m",
+        "zh",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "roadfan (auto-generated)",
+      "gender": "female",
+      "citation_form": "mazhodho"
+    },
+    "thdch": {
+      "root": [
+        "th",
+        "d",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "roadrunner (auto-generated)",
+      "gender": "male",
+      "citation_form": "thadacha"
+    },
+    "hns": {
+      "root": [
+        "h",
+        "n",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "roachback (auto-generated)",
+      "gender": "female",
+      "citation_form": "hanoso"
+    },
+    "jwsh": {
+      "root": [
+        "j",
+        "w",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "roadbank (auto-generated)",
+      "gender": "child",
+      "citation_form": "jawushu"
+    },
+    "sbw": {
+      "root": [
+        "s",
+        "b",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "roadburner (auto-generated)",
+      "gender": "female",
+      "citation_form": "sabowo"
+    },
+    "zhjf": {
+      "root": [
+        "zh",
+        "j",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "roadmending (auto-generated)",
+      "gender": "female",
+      "citation_form": "zhajofo"
+    },
+    "spng": {
+      "root": [
+        "s",
+        "p",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "roadfellow (auto-generated)",
+      "gender": "child",
+      "citation_form": "sapungu"
+    },
+    "wsth": {
+      "root": [
+        "w",
+        "s",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "rmhher (auto-generated)",
+      "gender": "male",
+      "citation_form": "wasatha"
+    },
+    "zhns": {
+      "root": [
+        "zh",
+        "n",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "roadmender (auto-generated)",
+      "gender": "male",
+      "citation_form": "zhanasa"
+    },
+    "zdy": {
+      "root": [
+        "z",
+        "d",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "roadscape (auto-generated)",
+      "gender": "male",
+      "citation_form": "zadaya"
+    },
+    "chtht": {
+      "root": [
+        "ch",
+        "th",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "roadful (auto-generated)",
+      "gender": "male",
+      "citation_form": "chathata"
+    },
+    "ynk": {
+      "root": [
+        "y",
+        "n",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "roadeo (auto-generated)",
+      "gender": "child",
+      "citation_form": "yanuku"
+    },
+    "ldhr": {
+      "root": [
+        "l",
+        "dh",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "roach (auto-generated)",
+      "gender": "female",
+      "citation_form": "ladhoro"
+    },
+    "djj": {
+      "root": [
+        "d",
+        "j",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "rmgroup (auto-generated)",
+      "gender": "child",
+      "citation_form": "dajuju"
+    },
+    "shgn": {
+      "root": [
+        "sh",
+        "g",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "roader (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "shagïfnïf"
+    },
+    "fnt": {
+      "root": [
+        "f",
+        "n",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "roadlessness (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "fanïftïf"
+    },
+    "bsy": {
+      "root": [
+        "b",
+        "s",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "rnwy (auto-generated)",
+      "gender": "female",
+      "citation_form": "basoyo"
+    },
+    "tshw": {
+      "root": [
+        "t",
+        "sh",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "roadbridge (auto-generated)",
+      "gender": "child",
+      "citation_form": "tashuwu"
+    },
+    "djd": {
+      "root": [
+        "d",
+        "j",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "roadmaster (auto-generated)",
+      "gender": "male",
+      "citation_form": "dajada"
     }
   },
   "adjectives": {
@@ -9031,6 +9876,106 @@
       "class": "adjective",
       "gloss": "glabellar (auto-generated)",
       "citation_form": "hozataka"
+    },
+    "shvw": {
+      "root": [
+        "sh",
+        "v",
+        "w"
+      ],
+      "class": "adjective",
+      "gloss": "jeanlike (auto-generated)",
+      "citation_form": "shovawaka"
+    },
+    "ydhz": {
+      "root": [
+        "y",
+        "dh",
+        "z"
+      ],
+      "class": "adjective",
+      "gloss": "jejunogastric (auto-generated)",
+      "citation_form": "yodhazaka"
+    },
+    "mwz": {
+      "root": [
+        "m",
+        "w",
+        "z"
+      ],
+      "class": "adjective",
+      "gloss": "jejunocecal (auto-generated)",
+      "citation_form": "mowazaka"
+    },
+    "dvb": {
+      "root": [
+        "d",
+        "v",
+        "b"
+      ],
+      "class": "adjective",
+      "gloss": "jeep (auto-generated)",
+      "citation_form": "dovabaka"
+    },
+    "wpf": {
+      "root": [
+        "w",
+        "p",
+        "f"
+      ],
+      "class": "adjective",
+      "gloss": "jeasley (auto-generated)",
+      "citation_form": "wopafaka"
+    },
+    "ltz": {
+      "root": [
+        "l",
+        "t",
+        "z"
+      ],
+      "class": "adjective",
+      "gloss": "jel (auto-generated)",
+      "citation_form": "lotazaka"
+    },
+    "ngchf": {
+      "root": [
+        "ng",
+        "ch",
+        "f"
+      ],
+      "class": "adjective",
+      "gloss": "jellied (auto-generated)",
+      "citation_form": "ngochafaka"
+    },
+    "rky": {
+      "root": [
+        "r",
+        "k",
+        "y"
+      ],
+      "class": "adjective",
+      "gloss": "jejunojejunal (auto-generated)",
+      "citation_form": "rokayaka"
+    },
+    "glw": {
+      "root": [
+        "g",
+        "l",
+        "w"
+      ],
+      "class": "adjective",
+      "gloss": "jejunocaecal (auto-generated)",
+      "citation_form": "golawaka"
+    },
+    "ndhj": {
+      "root": [
+        "n",
+        "dh",
+        "j"
+      ],
+      "class": "adjective",
+      "gloss": "jeesly (auto-generated)",
+      "citation_form": "nodhajaka"
     }
   },
   "adverbs": {
@@ -9952,6 +10897,106 @@
       "class": "adverb",
       "gloss": "omnidimensionally (auto-generated)",
       "citation_form": "vazate"
+    },
+    "gnt": {
+      "root": [
+        "g",
+        "n",
+        "t"
+      ],
+      "class": "adverb",
+      "gloss": "kerwallop (auto-generated)",
+      "citation_form": "ganate"
+    },
+    "rjl": {
+      "root": [
+        "r",
+        "j",
+        "l"
+      ],
+      "class": "adverb",
+      "gloss": "kinda (auto-generated)",
+      "citation_form": "rajate"
+    },
+    "jgth": {
+      "root": [
+        "j",
+        "g",
+        "th"
+      ],
+      "class": "adverb",
+      "gloss": "kinesically (auto-generated)",
+      "citation_form": "jagate"
+    },
+    "dhnf": {
+      "root": [
+        "dh",
+        "n",
+        "f"
+      ],
+      "class": "adverb",
+      "gloss": "kingward (auto-generated)",
+      "citation_form": "dhanate"
+    },
+    "chrl": {
+      "root": [
+        "ch",
+        "r",
+        "l"
+      ],
+      "class": "adverb",
+      "gloss": "kickingly (auto-generated)",
+      "citation_form": "charate"
+    },
+    "wdhj": {
+      "root": [
+        "w",
+        "dh",
+        "j"
+      ],
+      "class": "adverb",
+      "gloss": "kiddingly (auto-generated)",
+      "citation_form": "wadhate"
+    },
+    "yld": {
+      "root": [
+        "y",
+        "l",
+        "d"
+      ],
+      "class": "adverb",
+      "gloss": "kinetically (auto-generated)",
+      "citation_form": "yalate"
+    },
+    "jmb": {
+      "root": [
+        "j",
+        "m",
+        "b"
+      ],
+      "class": "adverb",
+      "gloss": "kinematographically (auto-generated)",
+      "citation_form": "jamate"
+    },
+    "fchs": {
+      "root": [
+        "f",
+        "ch",
+        "s"
+      ],
+      "class": "adverb",
+      "gloss": "kindo (auto-generated)",
+      "citation_form": "fachate"
+    },
+    "fnf": {
+      "root": [
+        "f",
+        "n",
+        "f"
+      ],
+      "class": "adverb",
+      "gloss": "keratometrically (auto-generated)",
+      "citation_form": "fanate"
     }
   },
   "colors": {
