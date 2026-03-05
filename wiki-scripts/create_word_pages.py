@@ -12,6 +12,7 @@ Usage:
 """
 import argparse
 import os
+import re
 import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
@@ -27,7 +28,7 @@ SCRIPT_DIR = os.path.dirname(__file__)
 DEFAULT_STATE_FILE = os.path.join(SCRIPT_DIR, "create_word_pages.state")
 DEFAULT_LOG_FILE = os.path.join(SCRIPT_DIR, "create_word_pages.log")
 
-PAGE_VERSION = "v4"
+PAGE_VERSION = "v5"
 
 WORD_CLASS_INFO = {
     "noun": {"label": "Noun", "link": "[[Nouns|noun]]", "category": "Aelaki nouns"},
@@ -258,8 +259,8 @@ def generate_case_table(forms: list[tuple[str, str]]) -> str:
 
     row_order = ["agent", "patient", "possessive", "instrumental", "dative", "speaker"]
     display = {
-        "agent": "Agent", "patient": "Patient", "possessive": "Possessive",
-        "instrumental": "Instrumental", "dative": "Dative", "speaker": "Speaker",
+        "agent": "[[Agent]]", "patient": "[[Patient]]", "possessive": "[[Possessive]]",
+        "instrumental": "[[Instrumental]]", "dative": "[[Dative]]", "speaker": "[[Speaker]]",
     }
     dash = "\u2014"
     lines = [
@@ -389,6 +390,55 @@ def generate_adjective_agreement(entry) -> list[tuple[str, str]]:
 # Generate page wikitext
 # ---------------------------------------------------------------------------
 
+# ---------------------------------------------------------------------------
+# Wikitext linking helpers (v5)
+# ---------------------------------------------------------------------------
+
+LINKABLE_TERMS = {
+    # Degrees
+    "positive", "comparative", "superlative", "negative",
+    # Evidentials
+    "visual", "hearsay", "inferential", "optative", "hodiernal",
+    # Aspects/templates
+    "telic", "atelic", "perfect", "imperfect",
+    # Voice/type
+    "active", "stative",
+    # Gender
+    "child", "female", "male", "inanimate",
+    # Number
+    "singular", "plural", "collective", "zero",
+}
+
+
+def wikt_gloss(gloss: str) -> str:
+    """Wrap the core word of a gloss in a [[Wikt:...]] interwiki link."""
+    match = re.match(r'^(.+?)\s*(\([^)]+\))$', gloss)
+    if match:
+        core = match.group(1).strip()
+        suffix = " " + match.group(2)
+    else:
+        core = gloss
+        suffix = ""
+    wikt_title = core[0].upper() + core[1:] if core else core
+    return f"[[Wikt:{wikt_title}|{core}]]{suffix}"
+
+
+def link_form_label(label: str) -> str:
+    """Link known grammatical terms in dot/underscore-separated form labels."""
+    parts = label.split(".")
+    linked = []
+    for part in parts:
+        subparts = part.split("_")
+        linked_sub = []
+        for sp in subparts:
+            if sp in LINKABLE_TERMS:
+                linked_sub.append(f"[[{sp}]]")
+            else:
+                linked_sub.append(sp)
+        linked.append("_".join(linked_sub))
+    return ".".join(linked)
+
+
 def generate_noun_table(forms: list[tuple[str, str]]) -> str:
     """Grouped noun table: rows = gender.number, cols = person."""
     by_gn: dict[str, dict[str, str]] = {}
@@ -413,7 +463,7 @@ def generate_noun_table(forms: list[tuple[str, str]]) -> str:
         second = p.get("second", dash)
         third = p.get("third", dash)
         fourth = p.get("fourth", dash)
-        lines.append(f"|-\n| {gn} || {first} || {second} || {third} || {fourth}")
+        lines.append(f"|-\n| {link_form_label(gn)} || {first} || {second} || {third} || {fourth}")
     lines.append("|}")
     return "\n".join(lines)
 
@@ -424,13 +474,13 @@ def generate_forms_table(forms: list[tuple[str, str]]) -> str:
         return ""
     lines = ['{| class="wikitable sortable"', "! Form !! Surface form"]
     for label, surface in forms:
-        lines.append(f"|-\n| {label} || {surface}")
+        lines.append(f"|-\n| {link_form_label(label)} || {surface}")
     lines.append("|}")
     return "\n".join(lines)
 
 
 def generate_word_page(key: str, entry: dict) -> str:
-    """Generate full wikitext for a word:LEMMA page (v3)."""
+    """Generate full wikitext for a word:LEMMA page (v5)."""
     wc = entry["word_class"]
     wc_info = WORD_CLASS_INFO.get(wc, {})
     wc_link = wc_info.get("link", wc)
@@ -443,7 +493,7 @@ def generate_word_page(key: str, entry: dict) -> str:
     sections = []
 
     # Lead
-    lead = f"'''{lemma}''' is an [[Aelaki]] {wc_link} meaning \"{gloss}\"."
+    lead = f"'''{lemma}''' is an [[Aelaki]] {wc_link} meaning \"{wikt_gloss(gloss)}\"."
     if entry.get("gender"):
         lead += f" It has inherent '''{entry['gender'].value}''' gender."
     sections.append(lead)
@@ -452,8 +502,8 @@ def generate_word_page(key: str, entry: dict) -> str:
     sections.append("\n== Overview ==")
     overview = ['{| class="wikitable"']
     overview.append(f"|-\n! Root consonants\n| {root_str}")
-    overview.append(f"|-\n! Word class\n| {wc_info.get('label', wc)}")
-    overview.append(f"|-\n! Gloss\n| {gloss}")
+    overview.append(f"|-\n! Word class\n| [[{wc_info.get('label', wc)}]]")
+    overview.append(f"|-\n! Gloss\n| {wikt_gloss(gloss)}")
     if entry.get("gender"):
         overview.append(f"|-\n! Inherent gender\n| {entry['gender'].value}")
     if lemma != key:
