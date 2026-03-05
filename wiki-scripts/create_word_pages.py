@@ -596,6 +596,9 @@ def generate_word_page(key: str, entry: dict) -> str:
     sections.append(f"[[Category:{category}]]")
     if wc == "noun" and entry.get("gender"):
         sections.append(f"[[Category:Aelaki {entry['gender'].value} nouns]]")
+    if wc.startswith("verb_"):
+        verb_type = wc.split("_", 1)[1]
+        sections.append(f"[[Category:Aelaki {verb_type} verbs]]")
     sections.append("[[Category:Aelaki vocabulary]]")
     sections.append("[[Category:Word pages]]")
 
