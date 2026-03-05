@@ -16,6 +16,10 @@ Based on: https://github.com/Emma-Leonhart/shintowiki-scripts/
 - [x] Pages tagged with `{{wordpage|v1}}` for version tracking
 - [x] 10 words per run, state file tracks progress across runs
 
+### Known Issues (wiki under maintenance)
+- [ ] Correct declensions on inanimate nouns — declension forms for inanimate nouns need to be fixed, but the wiki is currently undergoing maintenance so this should wait until the wiki is back up
+- [ ] Clean up commit `edceed7` — this commit only upgraded existing word pages but did not add new ones, so the impact is limited; however the upgrade may have produced inconsistent page content. Review and fix affected pages once the wiki is working again
+
 ### Planned: Page Format Updates (v2+)
 - [ ] Write `update_word_pages.py` — finds all pages with `{{wordpage|v1}}` and regenerates them with the v2 format
 - [ ] Add pronunciation / phonetic transcription section
