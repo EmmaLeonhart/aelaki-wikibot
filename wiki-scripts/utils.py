@@ -77,6 +77,22 @@ def safe_save(page, text: str, summary: str) -> bool:
     return False
 
 
+def move_page(site, old_title: str, new_title: str, reason: str, *, leave_redirect: bool = True) -> bool:
+    """Move (rename) a wiki page from old_title to new_title.
+
+    Returns True if the move succeeded.
+    """
+    old_page = site.pages[old_title]
+    if not old_page.exists:
+        return False
+    new_page = site.pages[new_title]
+    if new_page.exists:
+        return False  # target already exists
+    old_page.move(new_title, reason=reason, no_redirect=not leave_redirect)
+    time.sleep(THROTTLE)
+    return True
+
+
 def create_page(site, title: str, text: str, summary: str, overwrite: bool = False) -> bool:
     """Create a page if it doesn't already exist.
 
