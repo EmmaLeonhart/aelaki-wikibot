@@ -7513,6 +7513,36 @@
       "class": "verb_active",
       "gloss": "rhesusize (auto-generated)",
       "citation_form": "kavashaf"
+    },
+    "dpp": {
+      "root": [
+        "d",
+        "p",
+        "p"
+      ],
+      "class": "verb_active",
+      "gloss": "zump (auto-generated)",
+      "citation_form": "kadapap"
+    },
+    "lnb": {
+      "root": [
+        "l",
+        "n",
+        "b"
+      ],
+      "class": "verb_active",
+      "gloss": "zzz (auto-generated)",
+      "citation_form": "kalanab"
+    },
+    "thpth": {
+      "root": [
+        "th",
+        "p",
+        "th"
+      ],
+      "class": "verb_active",
+      "gloss": "zugzwang (auto-generated)",
+      "citation_form": "kathapath"
     }
   },
   "nouns": {
@@ -15298,6 +15328,446 @@
       "gloss": "headbin (auto-generated)",
       "gender": "inanimate",
       "citation_form": "zhayïfshïf"
+    },
+    "sdhk": {
+      "root": [
+        "s",
+        "dh",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "nibble (auto-generated)",
+      "gender": "female",
+      "citation_form": "sadhoko"
+    },
+    "chbng": {
+      "root": [
+        "ch",
+        "b",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "nibbles (auto-generated)",
+      "gender": "child",
+      "citation_form": "chabungu"
+    },
+    "chnk": {
+      "root": [
+        "ch",
+        "n",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "nicknacket (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "chanïfkïf"
+    },
+    "thyn": {
+      "root": [
+        "th",
+        "y",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "niacinamide (auto-generated)",
+      "gender": "male",
+      "citation_form": "thayana"
+    },
+    "dhsh": {
+      "root": [
+        "dh",
+        "s",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "nickpoint (auto-generated)",
+      "gender": "child",
+      "citation_form": "dhasuhu"
+    },
+    "zngth": {
+      "root": [
+        "z",
+        "ng",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "niccolite (auto-generated)",
+      "gender": "child",
+      "citation_form": "zanguthu"
+    },
+    "fsy": {
+      "root": [
+        "f",
+        "s",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "nicking (auto-generated)",
+      "gender": "female",
+      "citation_form": "fasoyo"
+    },
+    "vtg": {
+      "root": [
+        "v",
+        "t",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "nickname (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "vatïfgïf"
+    },
+    "swdh": {
+      "root": [
+        "s",
+        "w",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "nickelide (auto-generated)",
+      "gender": "male",
+      "citation_form": "sawadha"
+    },
+    "smp": {
+      "root": [
+        "s",
+        "m",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "nibmeister (auto-generated)",
+      "gender": "child",
+      "citation_form": "samupu"
+    },
+    "dhshg": {
+      "root": [
+        "dh",
+        "sh",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "nibung (auto-generated)",
+      "gender": "child",
+      "citation_form": "dhashugu"
+    },
+    "tdhp": {
+      "root": [
+        "t",
+        "dh",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "nickerpecker (auto-generated)",
+      "gender": "child",
+      "citation_form": "tadhupu"
+    },
+    "ngthv": {
+      "root": [
+        "ng",
+        "th",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "nickings (auto-generated)",
+      "gender": "female",
+      "citation_form": "ngathovo"
+    },
+    "bbr": {
+      "root": [
+        "b",
+        "b",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "niblet (auto-generated)",
+      "gender": "female",
+      "citation_form": "baboro"
+    },
+    "yzhth": {
+      "root": [
+        "y",
+        "zh",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "nicheslop (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "yazhïfthïf"
+    },
+    "nvv": {
+      "root": [
+        "n",
+        "v",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "nickelaustinite (auto-generated)",
+      "gender": "female",
+      "citation_form": "navovo"
+    },
+    "ytm": {
+      "root": [
+        "y",
+        "t",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "niche (auto-generated)",
+      "gender": "child",
+      "citation_form": "yatumu"
+    },
+    "ddm": {
+      "root": [
+        "d",
+        "d",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "nickelbischofite (auto-generated)",
+      "gender": "female",
+      "citation_form": "dadomo"
+    },
+    "ngbw": {
+      "root": [
+        "ng",
+        "b",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "nicker (auto-generated)",
+      "gender": "child",
+      "citation_form": "ngabuwu"
+    },
+    "yjn": {
+      "root": [
+        "y",
+        "j",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "nic (auto-generated)",
+      "gender": "child",
+      "citation_form": "yajunu"
+    },
+    "nbdh": {
+      "root": [
+        "n",
+        "b",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "nibs (auto-generated)",
+      "gender": "female",
+      "citation_form": "nabodho"
+    },
+    "lgf": {
+      "root": [
+        "l",
+        "g",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "niblick (auto-generated)",
+      "gender": "male",
+      "citation_form": "lagafa"
+    },
+    "dhjdh": {
+      "root": [
+        "dh",
+        "j",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "nichrome (auto-generated)",
+      "gender": "female",
+      "citation_form": "dhajodho"
+    },
+    "ngkb": {
+      "root": [
+        "ng",
+        "k",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "nicknamer (auto-generated)",
+      "gender": "child",
+      "citation_form": "ngakubu"
+    },
+    "swm": {
+      "root": [
+        "s",
+        "w",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "niceritrol (auto-generated)",
+      "gender": "male",
+      "citation_form": "sawama"
+    },
+    "nht": {
+      "root": [
+        "n",
+        "h",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "nicandrenone (auto-generated)",
+      "gender": "male",
+      "citation_form": "nahata"
+    },
+    "ychy": {
+      "root": [
+        "y",
+        "ch",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "nicety (auto-generated)",
+      "gender": "male",
+      "citation_form": "yachaya"
+    },
+    "jthr": {
+      "root": [
+        "j",
+        "th",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "nickstick (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "jathïfrïf"
+    },
+    "ddk": {
+      "root": [
+        "d",
+        "d",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "nibong (auto-generated)",
+      "gender": "female",
+      "citation_form": "dadoko"
+    },
+    "dbs": {
+      "root": [
+        "d",
+        "b",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "nicholsonite (auto-generated)",
+      "gender": "child",
+      "citation_form": "dabusu"
+    },
+    "zgd": {
+      "root": [
+        "z",
+        "g",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "nicafenine (auto-generated)",
+      "gender": "child",
+      "citation_form": "zagudu"
+    },
+    "zhrr": {
+      "root": [
+        "zh",
+        "r",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "nice (auto-generated)",
+      "gender": "male",
+      "citation_form": "zharara"
+    },
+    "fshk": {
+      "root": [
+        "f",
+        "sh",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "nickel (auto-generated)",
+      "gender": "male",
+      "citation_form": "fashaka"
+    },
+    "gthm": {
+      "root": [
+        "g",
+        "th",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "nibby (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "gathïfmïf"
+    },
+    "mkv": {
+      "root": [
+        "m",
+        "k",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "nibba (auto-generated)",
+      "gender": "child",
+      "citation_form": "makuvu"
+    },
+    "brv": {
+      "root": [
+        "b",
+        "r",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "nickle (auto-generated)",
+      "gender": "male",
+      "citation_form": "barava"
+    },
+    "rysh": {
+      "root": [
+        "r",
+        "y",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "nicefem (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "rayïfshïf"
+    },
+    "tngl": {
+      "root": [
+        "t",
+        "ng",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "nickelalumite (auto-generated)",
+      "gender": "child",
+      "citation_form": "tangulu"
+    },
+    "pdzh": {
+      "root": [
+        "p",
+        "d",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "niaprazine (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "padïfzhïf"
+    },
+    "svh": {
+      "root": [
+        "s",
+        "v",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "nialamide (auto-generated)",
+      "gender": "male",
+      "citation_form": "savaha"
     }
   },
   "adjectives": {
@@ -17128,6 +17598,106 @@
       "class": "adjective",
       "gloss": "pubelike (auto-generated)",
       "citation_form": "dhovazhaka"
+    },
+    "sysh": {
+      "root": [
+        "s",
+        "y",
+        "sh"
+      ],
+      "class": "adjective",
+      "gloss": "klezmerlike (auto-generated)",
+      "citation_form": "soyashaka"
+    },
+    "zlp": {
+      "root": [
+        "z",
+        "l",
+        "p"
+      ],
+      "class": "adjective",
+      "gloss": "knackery (auto-generated)",
+      "citation_form": "zolapaka"
+    },
+    "lfd": {
+      "root": [
+        "l",
+        "f",
+        "d"
+      ],
+      "class": "adjective",
+      "gloss": "kleptoplastidic (auto-generated)",
+      "citation_form": "lofadaka"
+    },
+    "yvd": {
+      "root": [
+        "y",
+        "v",
+        "d"
+      ],
+      "class": "adjective",
+      "gloss": "klinotactic (auto-generated)",
+      "citation_form": "yovadaka"
+    },
+    "wnk": {
+      "root": [
+        "w",
+        "n",
+        "k"
+      ],
+      "class": "adjective",
+      "gloss": "klugy (auto-generated)",
+      "citation_form": "wonakaka"
+    },
+    "ngthk": {
+      "root": [
+        "ng",
+        "th",
+        "k"
+      ],
+      "class": "adjective",
+      "gloss": "kleptoplastic (auto-generated)",
+      "citation_form": "ngothakaka"
+    },
+    "hshh": {
+      "root": [
+        "h",
+        "sh",
+        "h"
+      ],
+      "class": "adjective",
+      "gloss": "klutzy (auto-generated)",
+      "citation_form": "hoshahaka"
+    },
+    "fshh": {
+      "root": [
+        "f",
+        "sh",
+        "h"
+      ],
+      "class": "adjective",
+      "gloss": "klutzish (auto-generated)",
+      "citation_form": "foshahaka"
+    },
+    "thfk": {
+      "root": [
+        "th",
+        "f",
+        "k"
+      ],
+      "class": "adjective",
+      "gloss": "kludgy (auto-generated)",
+      "citation_form": "thofakaka"
+    },
+    "hvdh": {
+      "root": [
+        "h",
+        "v",
+        "dh"
+      ],
+      "class": "adjective",
+      "gloss": "klephtic (auto-generated)",
+      "citation_form": "hovadhaka"
     }
   },
   "adverbs": {
