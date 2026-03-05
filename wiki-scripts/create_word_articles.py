@@ -119,12 +119,18 @@ def load_lexicon() -> dict[str, dict]:
         for key, entry in store.items():
             root = entry.root
             root_str = "-".join(root.consonants)
+            wc = entry.word_class.value
+            # Verbs use √C1-C2-C3 root citation form
+            if wc in ("verb_transitive", "verb_active", "verb_stative"):
+                citation = f"√{root_str}"
+            else:
+                citation = entry.citation_form or ""
             entries[key] = {
-                "word_class": entry.word_class.value,
+                "word_class": wc,
                 "gloss": entry.gloss,
                 "root": root_str,
                 "gender": entry.inherent_gender.value if entry.inherent_gender else None,
-                "citation_form": entry.citation_form or "",
+                "citation_form": citation,
             }
 
     # Also add color terms as special entries
@@ -204,7 +210,9 @@ def generate_article(key: str, entry: dict, forms: list[dict] | None) -> str:
     # Lead paragraph
     gloss = entry["gloss"]
     root = entry["root"]
-    lead = f"'''{key}''' (root: {root}) is an Aelaki {wc_link.lower()} meaning \"{gloss}\"."
+    is_verb = wc in ("verb_transitive", "verb_active", "verb_stative")
+    display_name = f"√{root}" if is_verb else key
+    lead = f"'''{display_name}''' (root: {root}) is an Aelaki {wc_link.lower()} meaning \"{gloss}\"."
     if entry.get("gender"):
         lead += f" It has inherent {entry['gender']} gender."
     sections.append(lead)
@@ -236,6 +244,7 @@ def generate_article(key: str, entry: dict, forms: list[dict] | None) -> str:
     sections.append("")
     sections.append(f"[[Category:{category}]]")
     sections.append("[[Category:Aelaki vocabulary]]")
+    sections.append("[[Category:Aelaki lemmas]]")
 
     return "\n".join(sections)
 
@@ -309,7 +318,12 @@ def main():
             continue
 
         progress.processed += 1
-        title = key  # Use the lexicon key as the page title
+        wc = entry["word_class"]
+        # Verbs use √C1-C2-C3 root form as page title
+        if wc in ("verb_transitive", "verb_active", "verb_stative"):
+            title = entry["citation_form"]  # already √root form
+        else:
+            title = key
         forms = forms_by_key.get(key)
         wikitext = generate_article(key, entry, forms)
 

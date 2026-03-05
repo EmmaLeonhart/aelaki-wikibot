@@ -18,7 +18,7 @@ import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
-from utils import connect, safe_save, load_state, append_state, append_log, Progress
+from utils import connect, safe_save, move_page, load_state, append_state, append_log, Progress
 from config import THROTTLE
 
 # ---------------------------------------------------------------------------
@@ -289,6 +289,24 @@ def generate_case_table(forms: list[tuple[str, str]]) -> str:
     return "\n".join(lines)
 
 
+VERB_CLASSES = {"verb_transitive", "verb_active", "verb_stative"}
+
+
+def verb_root_title(root_str: str) -> str:
+    """Return the √C1-C2-C3 citation form for a verb root string."""
+    return f"√{root_str}"
+
+
+def page_title_for(entry: dict) -> str:
+    """Return the word:... page title for a lexicon entry.
+
+    Verbs use √C1-C2-C3 form; all other word classes use the citation form.
+    """
+    if entry["word_class"] in VERB_CLASSES:
+        return f"word:{verb_root_title(entry['root_str'])}"
+    return f"word:{entry['citation_form']}"
+
+
 FORM_GENERATORS = {
     "noun": generate_noun_forms,
     "verb_transitive": generate_transitive_forms,
@@ -512,10 +530,17 @@ def generate_word_page(key: str, entry: dict) -> str:
     root_str = entry["root_str"]
     gloss = entry["gloss"]
 
+    # Verbs use √C1-C2-C3 as their page heading
+    is_verb = wc in VERB_CLASSES
+    display_name = verb_root_title(root_str) if is_verb else lemma
+
     sections = []
 
     # Lead
-    lead = f"'''{lemma}''' is an [[Aelaki]] {wc_link} meaning \"{wikt_gloss(gloss)}\"."
+    if is_verb:
+        lead = f"'''{display_name}''' ('''{lemma}''') is an [[Aelaki]] {wc_link} meaning \"{wikt_gloss(gloss)}\"."
+    else:
+        lead = f"'''{display_name}''' is an [[Aelaki]] {wc_link} meaning \"{wikt_gloss(gloss)}\"."
     if entry.get("gender"):
         lead += f" It has inherent '''{entry['gender'].value}''' gender."
     sections.append(lead)
@@ -528,7 +553,10 @@ def generate_word_page(key: str, entry: dict) -> str:
     overview.append(f"|-\n! Gloss\n| {wikt_gloss(gloss)}")
     if entry.get("gender"):
         overview.append(f"|-\n! Inherent gender\n| {entry['gender'].value}")
-    if lemma != key:
+    if is_verb:
+        overview.append(f"|-\n! Citation form\n| {display_name}")
+        overview.append(f"|-\n! Lemma\n| {lemma}")
+    elif lemma != key:
         overview.append(f"|-\n! Citation form\n| {lemma}")
     overview.append("|}")
     sections.append("\n".join(overview))
@@ -600,6 +628,7 @@ def generate_word_page(key: str, entry: dict) -> str:
         verb_type = wc.split("_", 1)[1]
         sections.append(f"[[Category:Aelaki {verb_type} verbs]]")
     sections.append("[[Category:Aelaki vocabulary]]")
+    sections.append("[[Category:Aelaki lemmas]]")
     sections.append("[[Category:Word pages]]")
 
     # Version footer
@@ -671,11 +700,37 @@ def upgrade_old_versions(site, lexicon, limit, run_tag_suffix, log_file,
                     entry = e
                     key = k
                     break
+                # Also match by √root form (already-migrated verb pages)
+                if e["word_class"] in VERB_CLASSES and verb_root_title(e["root_str"]) == lemma:
+                    entry = e
+                    key = k
+                    break
             if not entry:
                 print(f"  SKIP upgrade (no lexicon match): [[{page.name}]]", flush=True)
                 continue
 
+            new_title = page_title_for(entry)
             new_text = generate_word_page(key, entry)
+
+            # If this is a verb page at the old citation-form title, move it
+            if entry["word_class"] in VERB_CLASSES and page.name != new_title:
+                try:
+                    moved = move_page(site, page.name, new_title,
+                                      reason=f"Bot: rename verb to root citation form {PAGE_VERSION}{run_tag_suffix}")
+                    if moved:
+                        print(f"  MOVED: [[{page.name}]] -> [[{new_title}]]", flush=True)
+                    else:
+                        print(f"  SKIP move (target exists or source missing): [[{page.name}]] -> [[{new_title}]]", flush=True)
+                except Exception as e:
+                    print(f"  ERROR moving [[{page.name}]]: {e}", flush=True)
+                    append_log(log_file, {
+                        "key": key, "lemma": lemma, "title": page.name,
+                        "status": "move_error", "error": str(e),
+                    })
+                    continue
+                # Update the moved page with new content
+                page = site.pages[new_title]
+
             try:
                 saved = safe_save(page, new_text,
                                   summary=f"Bot: upgrade word page to {PAGE_VERSION}{run_tag_suffix}")
@@ -775,7 +830,7 @@ def main():
 
         progress.processed += 1
         lemma = entry["citation_form"]
-        title = f"word:{lemma}"
+        title = page_title_for(entry)
         wikitext = generate_word_page(key, entry)
 
         if not args.apply:
