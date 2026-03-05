@@ -13,6 +13,7 @@ Usage:
 import argparse
 import os
 import re
+import subprocess
 import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
@@ -28,7 +29,16 @@ SCRIPT_DIR = os.path.dirname(__file__)
 DEFAULT_STATE_FILE = os.path.join(SCRIPT_DIR, "create_word_pages.state")
 DEFAULT_LOG_FILE = os.path.join(SCRIPT_DIR, "create_word_pages.log")
 
-PAGE_VERSION = "v7"
+def _git_commit_id() -> str:
+    """Return the short commit hash of HEAD in this repo."""
+    return subprocess.check_output(
+        ["git", "rev-parse", "--short", "HEAD"],
+        cwd=os.path.dirname(__file__) or ".",
+        text=True,
+    ).strip()
+
+
+PAGE_VERSION = _git_commit_id()
 
 WORD_CLASS_INFO = {
     "noun": {"label": "Noun", "link": "[[Nouns|noun]]", "category": "Aelaki nouns"},
@@ -491,7 +501,7 @@ def generate_forms_table(forms: list[tuple[str, str]]) -> str:
 
 
 def generate_word_page(key: str, entry: dict) -> str:
-    """Generate full wikitext for a word:LEMMA page (v6)."""
+    """Generate full wikitext for a word:LEMMA page."""
     wc = entry["word_class"]
     wc_info = WORD_CLASS_INFO.get(wc, {})
     wc_link = wc_info.get("link", wc)
@@ -596,62 +606,57 @@ def generate_word_page(key: str, entry: dict) -> str:
 # Upgrade old versions
 # ---------------------------------------------------------------------------
 
-def upgrade_old_versions(site, lexicon, limit_per_version, run_tag_suffix, log_file):
-    """Upgrade pages from older versions to current PAGE_VERSION.
+def upgrade_old_versions(site, lexicon, limit, run_tag_suffix, log_file):
+    """Upgrade word pages not matching the current commit to PAGE_VERSION.
 
-    Iterates through Category:Words v1, v2, etc. sequentially.
-    Upgrades up to `limit_per_version` pages from EACH old version category.
+    Walks Category:Word pages and skips any already in
+    Category:Words {PAGE_VERSION}.  Upgrades up to `limit` pages total.
     """
-    current_num = int(PAGE_VERSION[1:])  # "v2" -> 2
+    current_cat = set()
+    for page in site.categories[f"Words {PAGE_VERSION}"]:
+        current_cat.add(page.name)
+
     total_upgraded = 0
 
-    for v in range(1, current_num):
-        cat_name = f"Words v{v}"
-        print(f"\nChecking [[Category:{cat_name}]]...", flush=True)
-        cat = site.categories[cat_name]
-        upgraded_this_version = 0
+    for page in site.categories["Word pages"]:
+        if total_upgraded >= limit:
+            print(f"  Reached upgrade limit of {limit}.", flush=True)
+            break
+        if not page.name.startswith("word:"):
+            continue
+        if page.name in current_cat:
+            continue
 
-        for page in cat:
-            if upgraded_this_version >= limit_per_version:
-                print(f"  Reached limit of {limit_per_version} for v{v}.", flush=True)
+        lemma = page.name[5:]  # strip "word:"
+        entry = None
+        for k, e in lexicon.items():
+            if e["citation_form"] == lemma:
+                entry = e
+                key = k
                 break
-            if not page.name.startswith("word:"):
-                continue
+        if not entry:
+            print(f"  SKIP upgrade (no lexicon match): [[{page.name}]]", flush=True)
+            continue
 
-            # Find the lexicon key for this page
-            lemma = page.name[5:]  # strip "word:"
-            entry = None
-            for k, e in lexicon.items():
-                if e["citation_form"] == lemma:
-                    entry = e
-                    key = k
-                    break
-            if not entry:
-                print(f"  SKIP upgrade (no lexicon match): [[{page.name}]]", flush=True)
-                continue
-
-            new_text = generate_word_page(key, entry)
-            try:
-                saved = safe_save(page, new_text,
-                                  summary=f"Bot: upgrade word page to {PAGE_VERSION}{run_tag_suffix}")
-                if saved:
-                    print(f"  UPGRADED: [[{page.name}]] v{v} -> {PAGE_VERSION}", flush=True)
-                    upgraded_this_version += 1
-                    total_upgraded += 1
-                    append_log(log_file, {
-                        "key": key, "lemma": lemma, "title": page.name,
-                        "status": "upgraded", "from": f"v{v}", "to": PAGE_VERSION,
-                    })
-                else:
-                    print(f"  SKIP (no change): [[{page.name}]]", flush=True)
-            except Exception as e:
-                print(f"  ERROR upgrading [[{page.name}]]: {e}", flush=True)
+        new_text = generate_word_page(key, entry)
+        try:
+            saved = safe_save(page, new_text,
+                              summary=f"Bot: upgrade word page to {PAGE_VERSION}{run_tag_suffix}")
+            if saved:
+                print(f"  UPGRADED: [[{page.name}]] -> {PAGE_VERSION}", flush=True)
+                total_upgraded += 1
                 append_log(log_file, {
                     "key": key, "lemma": lemma, "title": page.name,
-                    "status": "upgrade_error", "error": str(e),
+                    "status": "upgraded", "to": PAGE_VERSION,
                 })
-
-        print(f"  v{v}: upgraded {upgraded_this_version} pages.", flush=True)
+            else:
+                print(f"  SKIP (no change): [[{page.name}]]", flush=True)
+        except Exception as e:
+            print(f"  ERROR upgrading [[{page.name}]]: {e}", flush=True)
+            append_log(log_file, {
+                "key": key, "lemma": lemma, "title": page.name,
+                "status": "upgrade_error", "error": str(e),
+            })
 
     return total_upgraded
 
@@ -689,9 +694,9 @@ def main():
     if args.apply:
         site = connect()
 
-    # --- Phase 1: Upgrade old version pages (10 per old version) ---
+    # --- Phase 1: Upgrade old pages to current commit ---
     if args.apply:
-        print(f"\n--- Phase 1: Upgrade old pages to {PAGE_VERSION} (up to {args.limit} per version) ---", flush=True)
+        print(f"\n--- Phase 1: Upgrade old pages to {PAGE_VERSION} (up to {args.limit}) ---", flush=True)
         upgraded = upgrade_old_versions(site, lexicon, args.limit, run_tag_suffix, args.log_file)
         print(f"\n  Total upgraded: {upgraded} pages.", flush=True)
     else:
