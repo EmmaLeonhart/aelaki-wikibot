@@ -28,7 +28,7 @@ SCRIPT_DIR = os.path.dirname(__file__)
 DEFAULT_STATE_FILE = os.path.join(SCRIPT_DIR, "create_word_pages.state")
 DEFAULT_LOG_FILE = os.path.join(SCRIPT_DIR, "create_word_pages.log")
 
-PAGE_VERSION = "v6"
+PAGE_VERSION = "v7"
 
 WORD_CLASS_INFO = {
     "noun": {"label": "Noun", "link": "[[Nouns|noun]]", "category": "Aelaki nouns"},
@@ -431,8 +431,7 @@ def wikt_gloss(gloss: str) -> str:
     else:
         core = gloss
         suffix = ""
-    wikt_title = core[0].upper() + core[1:] if core else core
-    return f"[[Wikt:{wikt_title}|{core}]]{suffix}"
+    return f"[[Wikt:{core}|{core}]]{suffix}"
 
 
 def link_form_label(label: str) -> str:
