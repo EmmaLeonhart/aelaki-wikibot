@@ -661,10 +661,10 @@ def upgrade_old_versions(site, lexicon, limit, run_tag_suffix, log_file,
             if total_upgraded >= limit:
                 print(f"  Reached upgrade limit of {limit}.", flush=True)
                 break
-            if not page.name.startswith("word:"):
+            if not page.name.lower().startswith("word:"):
                 continue
 
-            lemma = page.name[5:]  # strip "word:"
+            lemma = page.name.split(":", 1)[1]  # strip namespace prefix
             entry = None
             for k, e in lexicon.items():
                 if e["citation_form"] == lemma:
