@@ -26,7 +26,8 @@
       "Bash(cd /c/Users/Immanuelle/Documents/Github/aelaki-merged && /c/Users/Immanuelle/AppData/Local/Programs/Python/Python313/python.exe tmp_diff.py 2>&1)",
       "WebFetch(domain:aelaki.miraheze.org)",
       "Bash(xargs wc:*)",
-      "Bash(wc:*)"
+      "Bash(wc:*)",
+      "Bash(grep:*)"
     ]
   }
 }
