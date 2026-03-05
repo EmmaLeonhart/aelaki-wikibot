@@ -28,7 +28,7 @@ SCRIPT_DIR = os.path.dirname(__file__)
 DEFAULT_STATE_FILE = os.path.join(SCRIPT_DIR, "create_word_pages.state")
 DEFAULT_LOG_FILE = os.path.join(SCRIPT_DIR, "create_word_pages.log")
 
-PAGE_VERSION = "v5"
+PAGE_VERSION = "v6"
 
 WORD_CLASS_INFO = {
     "noun": {"label": "Noun", "link": "[[Nouns|noun]]", "category": "Aelaki nouns"},
@@ -391,22 +391,34 @@ def generate_adjective_agreement(entry) -> list[tuple[str, str]]:
 # ---------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------
-# Wikitext linking helpers (v5)
+# Wikitext linking helpers (v6)
 # ---------------------------------------------------------------------------
 
 LINKABLE_TERMS = {
     # Degrees
     "positive", "comparative", "superlative", "negative",
-    # Evidentials
+    # Evidentials & moods
     "visual", "hearsay", "inferential", "optative", "hodiernal",
-    # Aspects/templates
+    "mythical", "mythic", "auditory", "deliberative",
+    "intention", "intentional",
+    # Tense / day prefixes
+    "present", "past", "future", "hesternal", "crastinal",
+    # Aspects / templates
     "telic", "atelic", "perfect", "imperfect",
-    # Voice/type
+    "habitual", "gnomic", "imperative",
+    # Voice / type
     "active", "stative",
+    # Stative prefixes
+    "probable", "inchoative", "cessative", "resumptive",
+    "repetitive", "cess", "almost", "continuous",
     # Gender
     "child", "female", "male", "inanimate",
     # Number
     "singular", "plural", "collective", "zero",
+    # Person
+    "first", "second", "third", "fourth",
+    # Cases
+    "agent", "patient", "possessive", "instrumental", "dative", "speaker",
 }
 
 
@@ -480,7 +492,7 @@ def generate_forms_table(forms: list[tuple[str, str]]) -> str:
 
 
 def generate_word_page(key: str, entry: dict) -> str:
-    """Generate full wikitext for a word:LEMMA page (v5)."""
+    """Generate full wikitext for a word:LEMMA page (v6)."""
     wc = entry["word_class"]
     wc_info = WORD_CLASS_INFO.get(wc, {})
     wc_link = wc_info.get("link", wc)
