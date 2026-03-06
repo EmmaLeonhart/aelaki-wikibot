@@ -302,6 +302,103 @@ def generate_case_table(forms: list[tuple[str, str]]) -> str:
 VERB_CLASSES = {"verb_transitive", "verb_active", "verb_stative"}
 
 
+# ---------------------------------------------------------------------------
+# Collect all forms for non-lemma page creation
+# ---------------------------------------------------------------------------
+
+PERSON_NAMES = {"first", "second", "third", "fourth"}
+
+
+def collect_all_forms(entry: dict) -> list[tuple[str, str]]:
+    """Gather ALL generated forms for an entry (inflections + agreement + cases).
+
+    Returns a list of (label, surface_form) tuples.
+    """
+    wc = entry["word_class"]
+    if not entry.get("entry"):
+        return []
+
+    forms = []
+    if wc == "noun":
+        forms.extend(generate_noun_forms(entry))
+        forms.extend(generate_noun_case_forms(entry))
+    elif wc == "verb_transitive":
+        forms.extend(generate_transitive_forms(entry))
+        forms.extend(generate_transitive_subject_agreement(entry))
+        forms.extend(generate_transitive_object_agreement(entry))
+    elif wc == "verb_active":
+        forms.extend(generate_active_forms(entry))
+        forms.extend(generate_active_agreement(entry))
+    elif wc == "verb_stative":
+        forms.extend(generate_stative_forms(entry))
+        forms.extend(generate_stative_agreement(entry))
+    elif wc == "adjective":
+        forms.extend(generate_adjective_forms(entry))
+        forms.extend(generate_adjective_agreement(entry))
+    elif wc == "adverb":
+        forms.extend(generate_adverb_forms(entry))
+    return forms
+
+
+def readable_label(label: str) -> str:
+    """Convert dot-separated labels into readable text.
+
+    e.g. 'child.collective.first' -> 'Child collective first person'
+    Appends 'person' when the last segment is a person name.
+    """
+    parts = label.replace("_", " ").split(".")
+    text = " ".join(parts)
+    if parts and parts[-1] in PERSON_NAMES:
+        text += " person"
+    return text.capitalize()
+
+
+def create_form_pages(site, entry: dict, run_tag_suffix: str, log_file: str) -> int:
+    """Create non-lemma wiki pages for each unique surface form of an entry.
+
+    Returns the count of pages created/updated.
+    """
+    all_forms = collect_all_forms(entry)
+    if not all_forms:
+        return 0
+
+    lemma_title = page_title_for(entry)
+    # Extract display name from the title (after "word:")
+    lemma_display = lemma_title.split(":", 1)[1] if ":" in lemma_title else lemma_title
+    citation = entry["citation_form"]
+
+    # Deduplicate: keep first label seen for each surface form
+    seen: dict[str, str] = {}  # surface_form -> label
+    for label, surface in all_forms:
+        if surface.startswith("ERROR"):
+            continue
+        if surface == citation:
+            continue
+        if surface not in seen:
+            seen[surface] = label
+
+    count = 0
+    for surface, label in seen.items():
+        form_title = f"word:{surface}"
+        readable = readable_label(label)
+        content = f"{readable} form of [[{lemma_title}|{lemma_display}]]\n\n[[Category:Non-lemmas]]"
+
+        try:
+            page = site.pages[form_title]
+            saved = safe_save(page, content,
+                              summary=f"Bot: non-lemma form page for \"{lemma_display}\"{run_tag_suffix}")
+            if saved:
+                count += 1
+        except Exception as e:
+            print(f"    FORM ERROR [[{form_title}]]: {e}", flush=True)
+            append_log(log_file, {
+                "key": surface, "lemma": citation, "title": form_title,
+                "status": "form_error", "error": str(e),
+            })
+
+    return count
+
+
 def verb_root_title(root_str: str) -> str:
     """Return the √C1-C2-C3 citation form for a verb root string."""
     return f"√{root_str}"
@@ -458,6 +555,8 @@ LINKABLE_TERMS = {
     "first", "second", "third", "fourth",
     # Cases
     "agent", "patient", "possessive", "instrumental", "dative", "speaker",
+    # Form types
+    "non-lemmas",
 }
 
 
@@ -752,6 +851,10 @@ def upgrade_old_versions(site, lexicon, limit, run_tag_suffix, log_file,
                         "key": key, "lemma": lemma, "title": page.name,
                         "status": "upgraded", "from": cat_name, "to": PAGE_VERSION,
                     })
+                    # Create non-lemma form pages
+                    form_count = create_form_pages(site, entry, run_tag_suffix, log_file)
+                    if form_count:
+                        print(f"    +{form_count} form pages", flush=True)
                 else:
                     print(f"  SKIP (no change): [[{page.name}]]", flush=True)
             except Exception as e:
@@ -850,6 +953,11 @@ def main():
             print(wikitext[:800])
             if len(wikitext) > 800:
                 print(f"  ... ({len(wikitext)} chars total)")
+            # Preview form page count
+            all_forms = collect_all_forms(entry)
+            citation = entry["citation_form"]
+            unique = {s for _, s in all_forms if not s.startswith("ERROR") and s != citation}
+            print(f"  Would create {len(unique)} non-lemma form pages")
             progress.created += 1
         else:
             try:
@@ -868,6 +976,10 @@ def main():
                     append_log(args.log_file, {
                         "key": key, "lemma": lemma, "title": title, "status": "created",
                     })
+                    # Create non-lemma form pages
+                    form_count = create_form_pages(site, entry, run_tag_suffix, args.log_file)
+                    if form_count:
+                        print(f"    +{form_count} form pages", flush=True)
                 else:
                     progress.skipped += 1
                     append_state(args.state_file, key)
