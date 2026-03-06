@@ -365,14 +365,14 @@ def create_form_pages(site, entry: dict, run_tag_suffix: str, log_file: str) -> 
     lemma_title = page_title_for(entry)
     # Extract display name from the title (after "word:")
     lemma_display = lemma_title.split(":", 1)[1] if ":" in lemma_title else lemma_title
-    citation = entry["citation_form"]
 
     # Deduplicate: keep first label seen for each surface form
+    # Skip forms that match the lemma display name (that's the lemma page itself)
     seen: dict[str, str] = {}  # surface_form -> label
     for label, surface in all_forms:
         if surface.startswith("ERROR"):
             continue
-        if surface == citation:
+        if surface == lemma_display:
             continue
         if surface not in seen:
             seen[surface] = label
@@ -392,7 +392,7 @@ def create_form_pages(site, entry: dict, run_tag_suffix: str, log_file: str) -> 
         except Exception as e:
             print(f"    FORM ERROR [[{form_title}]]: {e}", flush=True)
             append_log(log_file, {
-                "key": surface, "lemma": citation, "title": form_title,
+                "key": surface, "lemma": lemma_display, "title": form_title,
                 "status": "form_error", "error": str(e),
             })
 
@@ -955,8 +955,8 @@ def main():
                 print(f"  ... ({len(wikitext)} chars total)")
             # Preview form page count
             all_forms = collect_all_forms(entry)
-            citation = entry["citation_form"]
-            unique = {s for _, s in all_forms if not s.startswith("ERROR") and s != citation}
+            lemma_display = title.split(":", 1)[1] if ":" in title else title
+            unique = {s for _, s in all_forms if not s.startswith("ERROR") and s != lemma_display}
             print(f"  Would create {len(unique)} non-lemma form pages")
             progress.created += 1
         else:
