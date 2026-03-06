@@ -381,7 +381,11 @@ def create_form_pages(site, entry: dict, run_tag_suffix: str, log_file: str) -> 
     for surface, label in seen.items():
         form_title = f"word:{surface}"
         readable = readable_label(label)
-        content = f"{readable} form of [[{lemma_title}|{lemma_display}]]\n\n[[Category:Non-lemmas]]"
+        content = (
+            f"{readable} form of [[{lemma_title}|{lemma_display}]]\n\n"
+            f"[[Category:Non-lemmas]]\n"
+            f"[[Category:Non-lemma forms {PAGE_VERSION}]]"
+        )
 
         try:
             page = site.pages[form_title]
@@ -893,6 +897,9 @@ def main():
                         help="Comma-separated lexicon keys to process (default: all).")
     args = parser.parse_args()
 
+    # Register current commit in version history first (even in dry-run)
+    ensure_current_version(args.version_history)
+
     print("Loading lexicon...", flush=True)
     lexicon = load_lexicon()
     print(f"  {len(lexicon)} entries loaded.", flush=True)
@@ -903,9 +910,6 @@ def main():
     site = None
     if args.apply:
         site = connect()
-
-    # Register current commit in version history (even in dry-run)
-    ensure_current_version(args.version_history)
 
     # --- Phase 1: Upgrade old pages to current commit ---
     if args.apply:
