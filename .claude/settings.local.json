@@ -31,7 +31,9 @@
       "Bash(cd /c/Users/Immanuelle/Documents/Github/aelaki-merged && gh run list --limit 10 2>&1)",
       "Bash(cd /c/Users/Immanuelle/Documents/Github/aelaki-merged && gh run view 22741016000 2>&1)",
       "Bash(cd /c/Users/Immanuelle/Documents/Github/aelaki-merged && gh run view 22735897716 2>&1)",
-      "Bash(cd /c/Users/Immanuelle/Documents/Github/aelaki-merged && gh run view 22741016000 --job 65955151563 --log 2>&1)"
+      "Bash(cd /c/Users/Immanuelle/Documents/Github/aelaki-merged && gh run view 22741016000 --job 65955151563 --log 2>&1)",
+      "Bash(cd /c/Users/Immanuelle/Documents/Github/aelaki-merged && gh run list --limit 5 2>&1)",
+      "Bash(cd /c/Users/Immanuelle/Documents/Github/aelaki-merged && sleep 30 && gh run list --limit 5 2>&1)"
     ]
   }
 }
