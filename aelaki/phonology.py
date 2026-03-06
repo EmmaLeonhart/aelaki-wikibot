@@ -139,5 +139,10 @@ def apply_collective_shift(text: str) -> str:
 
 
 def apply_zero_suffix(vowel: str) -> str:
-    """Add -f after a vowel for zero-number marking on nouns."""
+    """Add -f after a vowel for zero-number marking on nouns.
+
+    If the vowel already ends in 'f' (e.g. inanimate 'ïf'), do not double it.
+    """
+    if vowel.endswith("f"):
+        return vowel
     return vowel + "f"

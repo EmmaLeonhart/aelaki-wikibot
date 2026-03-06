@@ -118,10 +118,20 @@ def generate_noun_forms(entry) -> list[tuple[str, str]]:
     root = entry["root"]
     genders = [entry["gender"]] if entry["gender"] else list(Gender)
     forms = []
+    # Inanimate number label mapping: singular→paucal, plural→plentiful
+    INANIMATE_NUMBER_LABEL = {
+        Number.SINGULAR: "paucal",
+        Number.PLURAL: "plentiful",
+    }
     for g in genders:
-        for n in Number:
+        if g == Gender.INANIMATE:
+            numbers = [Number.SINGULAR, Number.PLURAL]
+        else:
+            numbers = list(Number)
+        for n in numbers:
             for p in Person:
-                label = f"{g.value}.{n.value}.{p.name.lower()}"
+                num_label = INANIMATE_NUMBER_LABEL.get(n, n.value) if g == Gender.INANIMATE else n.value
+                label = f"{g.value}.{num_label}.{p.name.lower()}"
                 try:
                     form = build_noun(root, g, n, p)
                 except Exception as e:
@@ -443,7 +453,7 @@ LINKABLE_TERMS = {
     # Gender
     "child", "female", "male", "inanimate",
     # Number
-    "singular", "plural", "collective", "zero",
+    "singular", "plural", "collective", "zero", "paucal", "plentiful",
     # Person
     "first", "second", "third", "fourth",
     # Cases
