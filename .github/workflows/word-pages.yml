@@ -51,4 +51,5 @@ jobs:
             exit 0
           fi
           git commit -m "chore(state): update word page bot state [skip ci]"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
