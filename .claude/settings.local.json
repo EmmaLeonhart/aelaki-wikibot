@@ -27,7 +27,8 @@
       "WebFetch(domain:aelaki.miraheze.org)",
       "Bash(xargs wc:*)",
       "Bash(wc:*)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(cd /c/Users/Immanuelle/Documents/Github/aelaki-merged && gh run list --limit 10 2>&1)"
     ]
   }
 }
