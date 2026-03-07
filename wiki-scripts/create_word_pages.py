@@ -292,8 +292,8 @@ def generate_case_table(forms: list[tuple[str, str]]) -> str:
         p = by_case.get(case_name, {})
         lines.append(
             f"|-\n| {display[case_name]} "
-            f"|| {p.get('first', dash)} || {p.get('second', dash)} "
-            f"|| {p.get('third', dash)} || {p.get('fourth', dash)}"
+            f"|| {link_surface(p.get('first', dash))} || {link_surface(p.get('second', dash))} "
+            f"|| {link_surface(p.get('third', dash))} || {link_surface(p.get('fourth', dash))}"
         )
     lines.append("|}")
     return "\n".join(lines)
@@ -353,6 +353,28 @@ def readable_label(label: str) -> str:
     return text.capitalize()
 
 
+def linked_readable_label(label: str) -> str:
+    """Convert dot-separated labels into readable text with wiki-linked terms.
+
+    e.g. 'child.collective.first' -> '[[child]] [[collective]] [[first person]]'
+    Links each known grammatical term and combines person name with 'person'.
+    """
+    raw_parts = label.replace("_", " ").split(".")
+    linked = []
+    for i, part in enumerate(raw_parts):
+        # If it's the last part and is a person name, combine with "person"
+        if i == len(raw_parts) - 1 and part in PERSON_NAMES:
+            if part in LINKABLE_TERMS:
+                linked.append(f"[[{part} person]]")
+            else:
+                linked.append(f"{part} person")
+        elif part in LINKABLE_TERMS:
+            linked.append(f"[[{part}]]")
+        else:
+            linked.append(part)
+    return " ".join(linked)
+
+
 def create_form_pages(site, entry: dict, run_tag_suffix: str, log_file: str) -> int:
     """Create non-lemma wiki pages for each unique surface form of an entry.
 
@@ -380,9 +402,9 @@ def create_form_pages(site, entry: dict, run_tag_suffix: str, log_file: str) -> 
     count = 0
     for surface, label in seen.items():
         form_title = f"word:{surface}"
-        readable = readable_label(label)
+        linked_label = linked_readable_label(label)
         content = (
-            f"{readable} form of [[{lemma_title}|{lemma_display}]]\n\n"
+            f"'''{surface}''' is the {linked_label} form of [[{lemma_title}|{lemma_display}]].\n\n"
             f"[[Category:Non-lemmas]]\n"
             f"[[Category:Non-lemma forms {PAGE_VERSION}]]"
         )
@@ -592,6 +614,13 @@ def link_form_label(label: str) -> str:
     return ".".join(linked)
 
 
+def link_surface(surface: str) -> str:
+    """Wrap a surface form in a [[word:...|...]] link."""
+    if surface.startswith("ERROR") or surface == "\u2014":
+        return surface
+    return f"[[word:{surface}|{surface}]]"
+
+
 def generate_noun_table(forms: list[tuple[str, str]]) -> str:
     """Grouped noun table: rows = gender.number, cols = person."""
     by_gn: dict[str, dict[str, str]] = {}
@@ -612,10 +641,10 @@ def generate_noun_table(forms: list[tuple[str, str]]) -> str:
     dash = "\u2014"
     for gn in sorted(by_gn.keys()):
         p = by_gn[gn]
-        first = p.get("first", dash)
-        second = p.get("second", dash)
-        third = p.get("third", dash)
-        fourth = p.get("fourth", dash)
+        first = link_surface(p.get("first", dash))
+        second = link_surface(p.get("second", dash))
+        third = link_surface(p.get("third", dash))
+        fourth = link_surface(p.get("fourth", dash))
         lines.append(f"|-\n| {link_form_label(gn)} || {first} || {second} || {third} || {fourth}")
     lines.append("|}")
     return "\n".join(lines)
@@ -627,7 +656,7 @@ def generate_forms_table(forms: list[tuple[str, str]]) -> str:
         return ""
     lines = ['{| class="wikitable sortable"', "! Form !! Surface form"]
     for label, surface in forms:
-        lines.append(f"|-\n| {link_form_label(label)} || {surface}")
+        lines.append(f"|-\n| {link_form_label(label)} || {link_surface(surface)}")
     lines.append("|}")
     return "\n".join(lines)
 
