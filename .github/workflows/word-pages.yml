@@ -19,6 +19,7 @@ concurrency:
 jobs:
   create-word-pages:
     runs-on: ubuntu-latest
+    timeout-minutes: 330
     env:
       WIKI_USERNAME: EmmaBot@EmmaBot
       WIKI_PASSWORD: ${{ secrets.WIKI_PASSWORD }}

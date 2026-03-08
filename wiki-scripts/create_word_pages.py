@@ -375,11 +375,18 @@ def linked_readable_label(label: str) -> str:
     return " ".join(linked)
 
 
-def create_form_pages(site, entry: dict, run_tag_suffix: str, log_file: str) -> int:
+def create_form_pages(site, entry: dict, run_tag_suffix: str, log_file: str,
+                      budget: int = 0) -> int:
     """Create non-lemma wiki pages for each unique surface form of an entry.
+
+    Args:
+        budget: Maximum number of form pages to create. 0 means skip entirely.
 
     Returns the count of pages created/updated.
     """
+    if budget <= 0:
+        return 0
+
     all_forms = collect_all_forms(entry)
     if not all_forms:
         return 0
@@ -401,6 +408,8 @@ def create_form_pages(site, entry: dict, run_tag_suffix: str, log_file: str) -> 
 
     count = 0
     for surface, label in seen.items():
+        if count >= budget:
+            break
         form_title = f"word:{surface}"
         linked_label = linked_readable_label(label)
         content = (
@@ -818,10 +827,12 @@ def upgrade_old_versions(site, lexicon, limit, run_tag_suffix, log_file,
     current_cat_name = f"Words {PAGE_VERSION}"
     total_upgraded = 0
 
+    total_edits = 0  # counts ALL wiki edits (upgrades + form pages)
+
     for cat_name in versions:
         if cat_name == current_cat_name:
             continue
-        if total_upgraded >= limit:
+        if total_edits >= limit:
             break
 
         print(f"\nChecking [[Category:{cat_name}]]...", flush=True)
@@ -829,8 +840,8 @@ def upgrade_old_versions(site, lexicon, limit, run_tag_suffix, log_file,
         upgraded_this_cat = 0
 
         for page in cat:
-            if total_upgraded >= limit:
-                print(f"  Reached upgrade limit of {limit}.", flush=True)
+            if total_edits >= limit:
+                print(f"  Reached edit budget of {limit}.", flush=True)
                 break
             if not page.name.lower().startswith("word:"):
                 continue
@@ -861,6 +872,7 @@ def upgrade_old_versions(site, lexicon, limit, run_tag_suffix, log_file,
                                       reason=f"Bot: rename verb to root citation form {PAGE_VERSION}{run_tag_suffix}")
                     if moved:
                         print(f"  MOVED: [[{page.name}]] -> [[{new_title}]]", flush=True)
+                        total_edits += 1
                     else:
                         print(f"  SKIP move (target exists or source missing): [[{page.name}]] -> [[{new_title}]]", flush=True)
                 except Exception as e:
@@ -873,21 +885,27 @@ def upgrade_old_versions(site, lexicon, limit, run_tag_suffix, log_file,
                 # Update the moved page with new content
                 page = site.pages[new_title]
 
+            if total_edits >= limit:
+                break
+
             try:
                 saved = safe_save(page, new_text,
                                   summary=f"Bot: upgrade word page to {PAGE_VERSION}{run_tag_suffix}")
                 if saved:
                     print(f"  UPGRADED: [[{page.name}]] {cat_name} -> {current_cat_name}", flush=True)
                     upgraded_this_cat += 1
-                    total_upgraded += 1
+                    total_edits += 1
                     append_log(log_file, {
                         "key": key, "lemma": lemma, "title": page.name,
                         "status": "upgraded", "from": cat_name, "to": PAGE_VERSION,
                     })
-                    # Create non-lemma form pages
-                    form_count = create_form_pages(site, entry, run_tag_suffix, log_file)
+                    # Create non-lemma form pages (budget = remaining edits)
+                    form_budget = limit - total_edits
+                    form_count = create_form_pages(site, entry, run_tag_suffix, log_file,
+                                                   budget=form_budget)
                     if form_count:
                         print(f"    +{form_count} form pages", flush=True)
+                        total_edits += form_count
                 else:
                     print(f"  SKIP (no change): [[{page.name}]]", flush=True)
             except Exception as e:
@@ -899,7 +917,7 @@ def upgrade_old_versions(site, lexicon, limit, run_tag_suffix, log_file,
 
         print(f"  {cat_name}: upgraded {upgraded_this_cat} pages.", flush=True)
 
-    return total_upgraded
+    return total_edits
 
 
 # ---------------------------------------------------------------------------
@@ -940,17 +958,23 @@ def main():
     if args.apply:
         site = connect()
 
+    # Total edit budget shared across both phases
+    edit_budget = args.limit
+    total_edits = 0
+
     # --- Phase 1: Upgrade old pages to current commit ---
     if args.apply:
-        print(f"\n--- Phase 1: Upgrade old pages to {PAGE_VERSION} (up to {args.limit}) ---", flush=True)
-        upgraded = upgrade_old_versions(site, lexicon, args.limit, run_tag_suffix,
-                                       args.log_file, args.version_history)
-        print(f"\n  Total upgraded: {upgraded} pages.", flush=True)
+        print(f"\n--- Phase 1: Upgrade old pages to {PAGE_VERSION} (budget: {edit_budget}) ---", flush=True)
+        phase1_edits = upgrade_old_versions(site, lexicon, edit_budget, run_tag_suffix,
+                                            args.log_file, args.version_history)
+        total_edits += phase1_edits
+        print(f"\n  Phase 1 edits: {phase1_edits} (budget remaining: {edit_budget - total_edits})", flush=True)
     else:
         print(f"\n--- Phase 1: Would upgrade old pages to {PAGE_VERSION} (dry-run) ---", flush=True)
 
-    # --- Phase 2: Create new pages (independent limit) ---
-    print(f"\n--- Phase 2: Create up to {args.limit} new pages ---", flush=True)
+    # --- Phase 2: Create new pages (shares budget with Phase 1) ---
+    remaining = edit_budget - total_edits
+    print(f"\n--- Phase 2: Create new pages (budget remaining: {remaining}) ---", flush=True)
 
     if args.keys:
         keys = [k.strip() for k in args.keys.split(",")]
@@ -961,8 +985,8 @@ def main():
     progress = Progress()
 
     for key in keys:
-        if args.limit and progress.created >= args.limit:
-            print(f"\nReached limit of {args.limit} new pages.", flush=True)
+        if total_edits >= edit_budget:
+            print(f"\nEdit budget exhausted ({edit_budget} edits).", flush=True)
             break
 
         if key in completed:
@@ -1005,14 +1029,18 @@ def main():
                 if saved:
                     print(f"  CREATED: [[{title}]]", flush=True)
                     progress.created += 1
+                    total_edits += 1
                     append_state(args.state_file, key)
                     append_log(args.log_file, {
                         "key": key, "lemma": lemma, "title": title, "status": "created",
                     })
-                    # Create non-lemma form pages
-                    form_count = create_form_pages(site, entry, run_tag_suffix, args.log_file)
+                    # Create non-lemma form pages (budget = remaining edits)
+                    form_budget = edit_budget - total_edits
+                    form_count = create_form_pages(site, entry, run_tag_suffix, args.log_file,
+                                                   budget=form_budget)
                     if form_count:
                         print(f"    +{form_count} form pages", flush=True)
+                        total_edits += form_count
                 else:
                     progress.skipped += 1
                     append_state(args.state_file, key)
@@ -1026,6 +1054,7 @@ def main():
 
     print(f"\n{'=' * 60}")
     print(f"Done. {progress.summary()}")
+    print(f"Total wiki edits: {total_edits} / {edit_budget} budget", flush=True)
 
 
 if __name__ == "__main__":
