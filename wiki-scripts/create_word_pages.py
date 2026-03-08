@@ -376,11 +376,12 @@ def linked_readable_label(label: str) -> str:
 
 
 def create_form_pages(site, entry: dict, run_tag_suffix: str, log_file: str,
-                      budget: int = 0) -> int:
+                      budget: int = 0, skip_existing: bool = False) -> int:
     """Create non-lemma wiki pages for each unique surface form of an entry.
 
     Args:
         budget: Maximum number of form pages to create. 0 means skip entirely.
+        skip_existing: If True, skip pages that already exist (for Phase 3).
 
     Returns the count of pages created/updated.
     """
@@ -411,15 +412,19 @@ def create_form_pages(site, entry: dict, run_tag_suffix: str, log_file: str,
         if count >= budget:
             break
         form_title = f"word:{surface}"
-        linked_label = linked_readable_label(label)
-        content = (
-            f"'''{surface}''' is the {linked_label} form of [[{lemma_title}|{lemma_display}]].\n\n"
-            f"[[Category:Non-lemmas]]\n"
-            f"[[Category:Non-lemma forms {PAGE_VERSION}]]"
-        )
 
         try:
             page = site.pages[form_title]
+            if skip_existing and page.exists:
+                continue
+
+            linked_label = linked_readable_label(label)
+            content = (
+                f"'''{surface}''' is the {linked_label} form of [[{lemma_title}|{lemma_display}]].\n\n"
+                f"[[Category:Non-lemmas]]\n"
+                f"[[Category:Non-lemma forms {PAGE_VERSION}]]"
+            )
+
             saved = safe_save(page, content,
                               summary=f"Bot: non-lemma form page for \"{lemma_display}\"{run_tag_suffix}")
             if saved:
@@ -825,9 +830,7 @@ def upgrade_old_versions(site, lexicon, limit, run_tag_suffix, log_file,
     """
     versions = ensure_current_version(version_history_file)
     current_cat_name = f"Words {PAGE_VERSION}"
-    total_upgraded = 0
-
-    total_edits = 0  # counts ALL wiki edits (upgrades + form pages)
+    total_edits = 0
 
     for cat_name in versions:
         if cat_name == current_cat_name:
@@ -899,13 +902,6 @@ def upgrade_old_versions(site, lexicon, limit, run_tag_suffix, log_file,
                         "key": key, "lemma": lemma, "title": page.name,
                         "status": "upgraded", "from": cat_name, "to": PAGE_VERSION,
                     })
-                    # Create non-lemma form pages (budget = remaining edits)
-                    form_budget = limit - total_edits
-                    form_count = create_form_pages(site, entry, run_tag_suffix, log_file,
-                                                   budget=form_budget)
-                    if form_count:
-                        print(f"    +{form_count} form pages", flush=True)
-                        total_edits += form_count
                 else:
                     print(f"  SKIP (no change): [[{page.name}]]", flush=True)
             except Exception as e:
@@ -921,6 +917,164 @@ def upgrade_old_versions(site, lexicon, limit, run_tag_suffix, log_file,
 
 
 # ---------------------------------------------------------------------------
+# Helpers
+# ---------------------------------------------------------------------------
+
+def find_entry_by_page_title(lexicon, page_name):
+    """Find lexicon entry matching a word: page title.
+
+    Returns (key, entry) tuple, or (None, None) if not found.
+    """
+    if not page_name.lower().startswith("word:"):
+        return None, None
+    lemma = page_name.split(":", 1)[1]
+    for k, e in lexicon.items():
+        if e["citation_form"] == lemma:
+            return k, e
+        if e["word_class"] in VERB_CLASSES and verb_root_title(e["root_str"]) == lemma:
+            return k, e
+    return None, None
+
+
+# ---------------------------------------------------------------------------
+# Phase 3: Create new non-lemma forms for current-version lemmas
+# ---------------------------------------------------------------------------
+
+def create_nonlemma_for_current(site, lexicon, limit, run_tag_suffix, log_file):
+    """Create non-lemma form pages for lemmas at the current version.
+
+    Walks [[Category:Words {PAGE_VERSION}]] and creates NEW form pages
+    (skipping already-existing pages) for each lemma entry found.
+    """
+    current_cat = f"Words {PAGE_VERSION}"
+    print(f"  Walking [[Category:{current_cat}]]...", flush=True)
+
+    cat = site.categories[current_cat]
+    total_created = 0
+
+    for page in cat:
+        if total_created >= limit:
+            print(f"  Non-lemma creation budget exhausted ({limit}).", flush=True)
+            break
+        if not page.name.lower().startswith("word:"):
+            continue
+
+        key, entry = find_entry_by_page_title(lexicon, page.name)
+        if not entry:
+            continue
+
+        budget = limit - total_created
+        form_count = create_form_pages(site, entry, run_tag_suffix, log_file,
+                                        budget=budget, skip_existing=True)
+        if form_count:
+            print(f"  +{form_count} form pages for [[{page.name}]]", flush=True)
+            total_created += form_count
+
+    return total_created
+
+
+# ---------------------------------------------------------------------------
+# Phase 4: Upgrade old non-lemma forms
+# ---------------------------------------------------------------------------
+
+def upgrade_old_nonlemma_forms(site, lexicon, limit, run_tag_suffix, log_file,
+                                version_history_file):
+    """Upgrade non-lemma form pages from older version categories.
+
+    Walks [[Category:Non-lemma forms {OLD_VERSION}]] categories and
+    regenerates each form page with the current version.
+    """
+    versions = load_version_history(version_history_file)
+    current_nonlemma_cat = f"Non-lemma forms {PAGE_VERSION}"
+    total_upgraded = 0
+
+    for cat_name in versions:
+        if not cat_name.startswith("Words "):
+            continue  # skip legacy entries
+        version_hash = cat_name[len("Words "):]
+        nonlemma_cat = f"Non-lemma forms {version_hash}"
+        if nonlemma_cat == current_nonlemma_cat:
+            continue
+        if total_upgraded >= limit:
+            break
+
+        print(f"\n  Checking [[Category:{nonlemma_cat}]]...", flush=True)
+        cat = site.categories[nonlemma_cat]
+        upgraded_this_cat = 0
+
+        for page in cat:
+            if total_upgraded >= limit:
+                print(f"  Non-lemma upgrade budget exhausted ({limit}).", flush=True)
+                break
+            if not page.name.lower().startswith("word:"):
+                continue
+
+            surface = page.name.split(":", 1)[1]
+            try:
+                page_text = page.text()
+            except Exception:
+                continue
+
+            # Parse lemma reference: "form of [[word:LEMMA|DISPLAY]]"
+            match = re.search(r"form of \[\[(word:[^|\]]+)\|([^\]]+)\]\]", page_text)
+            if not match:
+                print(f"    SKIP (can't parse lemma): [[{page.name}]]", flush=True)
+                continue
+
+            lemma_title = match.group(1)
+            lemma_display = match.group(2)
+
+            # Find lexicon entry
+            key, entry = find_entry_by_page_title(lexicon, lemma_title)
+            if not entry:
+                print(f"    SKIP (no lexicon match for {lemma_title}): [[{page.name}]]", flush=True)
+                continue
+
+            # Find the label for this surface form
+            all_forms = collect_all_forms(entry)
+            label = None
+            for form_label, form_surface in all_forms:
+                if form_surface == surface:
+                    label = form_label
+                    break
+
+            if not label:
+                print(f"    SKIP (form no longer generated): [[{page.name}]]", flush=True)
+                continue
+
+            # Rebuild page content with current version
+            linked_label = linked_readable_label(label)
+            new_content = (
+                f"'''{surface}''' is the {linked_label} form of [[{lemma_title}|{lemma_display}]].\n\n"
+                f"[[Category:Non-lemmas]]\n"
+                f"[[Category:Non-lemma forms {PAGE_VERSION}]]"
+            )
+
+            try:
+                saved = safe_save(page, new_content,
+                                  summary=f"Bot: upgrade non-lemma form to {PAGE_VERSION}{run_tag_suffix}")
+                if saved:
+                    print(f"    UPGRADED: [[{page.name}]]", flush=True)
+                    upgraded_this_cat += 1
+                    total_upgraded += 1
+                    append_log(log_file, {
+                        "key": surface, "title": page.name,
+                        "status": "nonlemma_upgraded", "to": PAGE_VERSION,
+                    })
+            except Exception as e:
+                print(f"    ERROR upgrading [[{page.name}]]: {e}", flush=True)
+                append_log(log_file, {
+                    "key": surface, "title": page.name,
+                    "status": "nonlemma_upgrade_error", "error": str(e),
+                })
+
+        if upgraded_this_cat:
+            print(f"  {nonlemma_cat}: upgraded {upgraded_this_cat} pages.", flush=True)
+
+    return total_upgraded
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -930,8 +1084,8 @@ def main():
     )
     parser.add_argument("--apply", action="store_true",
                         help="Actually create/update pages (default is dry-run).")
-    parser.add_argument("--limit", type=int, default=10,
-                        help="Max pages to create per run (default: 10).")
+    parser.add_argument("--limit", type=int, default=100,
+                        help="Max edits per phase (default: 100).")
     parser.add_argument("--overwrite", action="store_true",
                         help="Overwrite existing pages.")
     parser.add_argument("--state-file", default=DEFAULT_STATE_FILE)
@@ -942,6 +1096,10 @@ def main():
                         help="Wiki-formatted run tag for edit summaries.")
     parser.add_argument("--keys", default="",
                         help="Comma-separated lexicon keys to process (default: all).")
+    parser.add_argument("--phase", default="all",
+                        choices=["all", "lemma", "nonlemma"],
+                        help="Which phases to run: lemma (upgrade+create), "
+                             "nonlemma (form pages), or all.")
     args = parser.parse_args()
 
     # Register current commit in version history first (even in dry-run)
@@ -958,103 +1116,123 @@ def main():
     if args.apply:
         site = connect()
 
-    # Total edit budget shared across both phases
-    edit_budget = args.limit
+    run_lemma = args.phase in ("all", "lemma")
+    run_nonlemma = args.phase in ("all", "nonlemma")
     total_edits = 0
 
-    # --- Phase 1: Upgrade old pages to current commit ---
-    if args.apply:
-        print(f"\n--- Phase 1: Upgrade old pages to {PAGE_VERSION} (budget: {edit_budget}) ---", flush=True)
-        phase1_edits = upgrade_old_versions(site, lexicon, edit_budget, run_tag_suffix,
-                                            args.log_file, args.version_history)
-        total_edits += phase1_edits
-        print(f"\n  Phase 1 edits: {phase1_edits} (budget remaining: {edit_budget - total_edits})", flush=True)
-    else:
-        print(f"\n--- Phase 1: Would upgrade old pages to {PAGE_VERSION} (dry-run) ---", flush=True)
-
-    # --- Phase 2: Create new pages (shares budget with Phase 1) ---
-    remaining = edit_budget - total_edits
-    print(f"\n--- Phase 2: Create new pages (budget remaining: {remaining}) ---", flush=True)
-
-    if args.keys:
-        keys = [k.strip() for k in args.keys.split(",")]
-    else:
-        keys = sorted(lexicon.keys())
-
-    completed = load_state(args.state_file) if args.apply else set()
-    progress = Progress()
-
-    for key in keys:
-        if total_edits >= edit_budget:
-            print(f"\nEdit budget exhausted ({edit_budget} edits).", flush=True)
-            break
-
-        if key in completed:
-            progress.skipped += 1
-            continue
-
-        entry = lexicon.get(key)
-        if not entry:
-            progress.skipped += 1
-            continue
-
-        progress.processed += 1
-        lemma = entry["citation_form"]
-        title = page_title_for(entry)
-        wikitext = generate_word_page(key, entry)
-
-        if not args.apply:
-            print(f"\n{'=' * 60}")
-            print(f"WOULD CREATE: [[{title}]]")
-            print(f"{'=' * 60}")
-            print(wikitext[:800])
-            if len(wikitext) > 800:
-                print(f"  ... ({len(wikitext)} chars total)")
-            # Preview form page count
-            all_forms = collect_all_forms(entry)
-            lemma_display = title.split(":", 1)[1] if ":" in title else title
-            unique = {s for _, s in all_forms if not s.startswith("ERROR") and s != lemma_display}
-            print(f"  Would create {len(unique)} non-lemma form pages")
-            progress.created += 1
+    # ===== Phase 1: Upgrade old lemma pages =====
+    if run_lemma:
+        if args.apply:
+            print(f"\n--- Phase 1: Upgrade old lemmas to {PAGE_VERSION} (budget: {args.limit}) ---", flush=True)
+            phase1_edits = upgrade_old_versions(site, lexicon, args.limit, run_tag_suffix,
+                                                args.log_file, args.version_history)
+            total_edits += phase1_edits
+            print(f"\n  Phase 1 edits: {phase1_edits}", flush=True)
         else:
-            try:
-                page = site.pages[title]
-                if page.exists and not args.overwrite:
-                    print(f"  EXISTS: [[{title}]]", flush=True)
-                    progress.skipped += 1
-                    append_state(args.state_file, key)
-                    continue
-                saved = safe_save(page, wikitext,
-                                  summary=f"Bot: create word page for \"{lemma}\"{run_tag_suffix}")
-                if saved:
-                    print(f"  CREATED: [[{title}]]", flush=True)
-                    progress.created += 1
-                    total_edits += 1
-                    append_state(args.state_file, key)
+            print(f"\n--- Phase 1: Would upgrade old lemmas to {PAGE_VERSION} (dry-run) ---", flush=True)
+
+    # ===== Phase 2: Create new lemma pages =====
+    if run_lemma:
+        print(f"\n--- Phase 2: Create new lemmas (budget: {args.limit}) ---", flush=True)
+
+        if args.keys:
+            keys = [k.strip() for k in args.keys.split(",")]
+        else:
+            keys = sorted(lexicon.keys())
+
+        completed = load_state(args.state_file) if args.apply else set()
+        progress = Progress()
+        phase2_edits = 0
+
+        for key in keys:
+            if phase2_edits >= args.limit:
+                print(f"\nPhase 2 budget exhausted ({args.limit} edits).", flush=True)
+                break
+
+            if key in completed:
+                progress.skipped += 1
+                continue
+
+            entry = lexicon.get(key)
+            if not entry:
+                progress.skipped += 1
+                continue
+
+            progress.processed += 1
+            lemma = entry["citation_form"]
+            title = page_title_for(entry)
+            wikitext = generate_word_page(key, entry)
+
+            if not args.apply:
+                print(f"\n{'=' * 60}")
+                print(f"WOULD CREATE: [[{title}]]")
+                print(f"{'=' * 60}")
+                print(wikitext[:800])
+                if len(wikitext) > 800:
+                    print(f"  ... ({len(wikitext)} chars total)")
+                all_forms = collect_all_forms(entry)
+                lemma_display = title.split(":", 1)[1] if ":" in title else title
+                unique = {s for _, s in all_forms if not s.startswith("ERROR") and s != lemma_display}
+                print(f"  Would create {len(unique)} non-lemma form pages")
+                progress.created += 1
+            else:
+                try:
+                    page = site.pages[title]
+                    if page.exists and not args.overwrite:
+                        print(f"  EXISTS: [[{title}]]", flush=True)
+                        progress.skipped += 1
+                        append_state(args.state_file, key)
+                        continue
+                    saved = safe_save(page, wikitext,
+                                      summary=f"Bot: create word page for \"{lemma}\"{run_tag_suffix}")
+                    if saved:
+                        print(f"  CREATED: [[{title}]]", flush=True)
+                        progress.created += 1
+                        phase2_edits += 1
+                        append_state(args.state_file, key)
+                        append_log(args.log_file, {
+                            "key": key, "lemma": lemma, "title": title, "status": "created",
+                        })
+                    else:
+                        progress.skipped += 1
+                        append_state(args.state_file, key)
+                except Exception as e:
+                    print(f"  ERROR on [[{title}]]: {e}", flush=True)
+                    progress.errors += 1
                     append_log(args.log_file, {
-                        "key": key, "lemma": lemma, "title": title, "status": "created",
+                        "key": key, "lemma": lemma, "title": title,
+                        "status": "error", "error": str(e),
                     })
-                    # Create non-lemma form pages (budget = remaining edits)
-                    form_budget = edit_budget - total_edits
-                    form_count = create_form_pages(site, entry, run_tag_suffix, args.log_file,
-                                                   budget=form_budget)
-                    if form_count:
-                        print(f"    +{form_count} form pages", flush=True)
-                        total_edits += form_count
-                else:
-                    progress.skipped += 1
-                    append_state(args.state_file, key)
-            except Exception as e:
-                print(f"  ERROR on [[{title}]]: {e}", flush=True)
-                progress.errors += 1
-                append_log(args.log_file, {
-                    "key": key, "lemma": lemma, "title": title,
-                    "status": "error", "error": str(e),
-                })
+
+        total_edits += phase2_edits
+        print(f"\n  Phase 2: {progress.summary()}")
+        print(f"  Phase 2 edits: {phase2_edits}", flush=True)
+
+    # ===== Phase 3: Create new non-lemma forms for current-version lemmas =====
+    if run_nonlemma:
+        if args.apply:
+            print(f"\n--- Phase 3: Create new non-lemma forms (budget: {args.limit}) ---", flush=True)
+            phase3_edits = create_nonlemma_for_current(site, lexicon, args.limit,
+                                                        run_tag_suffix, args.log_file)
+            total_edits += phase3_edits
+            print(f"\n  Phase 3 edits: {phase3_edits}", flush=True)
+        else:
+            print(f"\n--- Phase 3: Would create non-lemma forms (dry-run) ---", flush=True)
+
+    # ===== Phase 4: Upgrade old non-lemma forms =====
+    if run_nonlemma:
+        if args.apply:
+            print(f"\n--- Phase 4: Upgrade old non-lemma forms (budget: {args.limit}) ---", flush=True)
+            phase4_edits = upgrade_old_nonlemma_forms(site, lexicon, args.limit,
+                                                      run_tag_suffix, args.log_file,
+                                                      args.version_history)
+            total_edits += phase4_edits
+            print(f"\n  Phase 4 edits: {phase4_edits}", flush=True)
+        else:
+            print(f"\n--- Phase 4: Would upgrade old non-lemma forms (dry-run) ---", flush=True)
 
     print(f"\n{'=' * 60}")
-    print(f"Done. {progress.summary()}")
-    print(f"Total wiki edits: {total_edits} / {edit_budget} budget", flush=True)
+    print(f"Done. Total wiki edits: {total_edits}", flush=True)
 
 
 if __name__ == "__main__":
