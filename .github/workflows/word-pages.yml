@@ -40,6 +40,9 @@ jobs:
           chmod +x wiki-scripts/word_page_loop.sh
           wiki-scripts/word_page_loop.sh
 
+      - name: Create wanted pages
+        run: python wiki-scripts/create_wanted_pages.py --apply
+
       - name: Commit updated state files
         run: |
           git config user.name "github-actions[bot]"
