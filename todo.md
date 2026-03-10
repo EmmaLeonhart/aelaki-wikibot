@@ -28,6 +28,13 @@ Based on: https://github.com/Emma-Leonhart/shintowiki-scripts/
 - [ ] Richer inflection tables: group by TAM/evidential for verbs, show possession paradigm for nouns
 - [ ] Cross-link related words (e.g. `bsl` noun ↔ `bsl_adj` adjective)
 
+### Planned: Wiktionary Countability Detection
+- [ ] Use Wiktionary API to detect noun countability (countable vs uncountable)
+- [ ] Countable nouns → animate gender (child/female/male, evenly distributed)
+- [ ] Uncountable nouns → inanimate gender (mass nouns, substances, abstractions)
+- [ ] Replace random gender assignment in `generate_random_words.py` with countability-based logic
+- [ ] Backfill existing auto-generated nouns with countability data
+
 ### Planned: Automatic New Word Creation
 - [ ] Parse `discord/extracted/dictionary.md` to discover words not yet in `aelaki/lexicon.py`
 - [ ] Extract new roots from Discord messages automatically (extend `extract_discord_aelaki.py`)

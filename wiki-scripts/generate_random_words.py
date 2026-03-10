@@ -220,7 +220,7 @@ def _make_entry(word: str, word_type: str, used_keys: set[str]):
     if word_type == "nouns":
         consonants, key = generate_root_key(used_keys)
         root = TriRoot(*consonants)
-        gender = random.choice(GENDERS)
+        gender = random.choices(GENDERS, weights=[30, 30, 30, 10], k=1)[0]
         citation = build_noun_citation(root, gender)
         entry = {
             "root": consonants,

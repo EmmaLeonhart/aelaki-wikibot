@@ -16,9 +16,11 @@ Consolidated archive of all Aelaki constructed language materials. Aelaki is a c
 - `aelaki-sharp/` and `aelaki-split/` were imported via `git subtree` with full history preserved
 
 ## Lexicon Gender Distribution
-- **Inanimate nouns should be rare**: only ~5-10% of nouns should be inanimate gender
-- The auto-generated nouns in `aelaki/lexicon.json` were overgenerated as inanimate (~27% currently); new nouns should default to child/female/male distribution
-- When generating or assigning noun genders, distribute roughly equally among child, female, and male; only use inanimate for genuinely non-living, non-agentive things
+- **Inanimate = uncountable**: In Aelaki, inanimate gender represents uncountable/mass nouns (water, air, sand), not merely lifeless things. Countable nouns use child/female/male genders.
+- **Target ratio**: ~10% inanimate, ~30% each for child/female/male
+- `normalize_lexicon.py` runs every pipeline cycle to enforce this ratio by redistributing excess inanimate nouns
+- `generate_random_words.py` uses weighted random (30/30/30/10) for new noun genders
+- Future: Use Wiktionary countability data instead of random assignment (see todo.md)
 
 ## Workflow Guidelines
 - **Commit early and often.** Every meaningful change should be committed with a clear, descriptive summary.

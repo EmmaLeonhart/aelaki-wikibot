@@ -36,6 +36,7 @@ class LexEntry:
     gloss: str
     inherent_gender: Gender | None = None  # For nouns
     citation_form: str = ""                # Known surface form
+    old_citation_form: str = ""            # Previous citation form (for page move tracking)
 
 
 # ===========================================================================
@@ -67,6 +68,7 @@ def _load_entries(section: dict) -> dict[str, LexEntry]:
             gloss=data["gloss"],
             inherent_gender=_GENDER_MAP.get(data.get("gender", ""), None),
             citation_form=data.get("citation_form", ""),
+            old_citation_form=data.get("old_citation_form", ""),
         )
     return entries
 
