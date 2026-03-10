@@ -38,6 +38,9 @@ echo "Run tag: ${RUN_TAG}"
 python wiki-scripts/update_bot_status.py --run-tag "${RUN_TAG}"
 python wiki-scripts/create_wanted_categories.py --apply --run-tag "${RUN_TAG}"
 
+# 1.5 Normalize lexicon (redistribute inanimate nouns, fix roots)
+python wiki-scripts/normalize_lexicon.py
+
 # 2. Upgrade outdated lemmas + Create new lemmas
 python wiki-scripts/create_word_pages.py --apply --limit "$EDIT_LIMIT" --phase lemma --run-tag "${RUN_TAG}"
 

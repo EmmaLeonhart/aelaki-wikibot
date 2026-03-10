@@ -92,6 +92,7 @@ def load_lexicon() -> dict[str, dict]:
                 "root_str": "-".join(entry.root.consonants),
                 "gender": entry.inherent_gender,
                 "citation_form": entry.citation_form or key,
+                "old_citation_form": entry.old_citation_form,
                 "entry": entry,
             }
 
@@ -861,6 +862,11 @@ def upgrade_old_versions(site, lexicon, limit, run_tag_suffix, log_file,
                     entry = e
                     key = k
                     break
+                # Match by old citation form (noun gender migration)
+                if e.get("old_citation_form") and e["old_citation_form"] == lemma:
+                    entry = e
+                    key = k
+                    break
             if not entry:
                 print(f"  SKIP upgrade (no lexicon match): [[{page.name}]]", flush=True)
                 continue
@@ -868,11 +874,11 @@ def upgrade_old_versions(site, lexicon, limit, run_tag_suffix, log_file,
             new_title = page_title_for(entry)
             new_text = generate_word_page(key, entry)
 
-            # If this is a verb page at the old citation-form title, move it
-            if entry["word_class"] in VERB_CLASSES and page.name != new_title:
+            # If the page title doesn't match the current citation form, move it
+            if page.name != new_title:
                 try:
                     moved = move_page(site, page.name, new_title,
-                                      reason=f"Bot: rename verb to root citation form {PAGE_VERSION}{run_tag_suffix}")
+                                      reason=f"Bot: rename word page to current citation form {PAGE_VERSION}{run_tag_suffix}")
                     if moved:
                         print(f"  MOVED: [[{page.name}]] -> [[{new_title}]]", flush=True)
                         total_edits += 1
@@ -932,6 +938,9 @@ def find_entry_by_page_title(lexicon, page_name):
         if e["citation_form"] == lemma:
             return k, e
         if e["word_class"] in VERB_CLASSES and verb_root_title(e["root_str"]) == lemma:
+            return k, e
+        # Match by old citation form (noun gender migration)
+        if e.get("old_citation_form") and e["old_citation_form"] == lemma:
             return k, e
     return None, None
 
