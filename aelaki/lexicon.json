@@ -12414,6 +12414,46 @@
       "class": "verb_stative",
       "gloss": "public (auto-generated)",
       "citation_form": "kafaga"
+    },
+    "mnn": {
+      "root": [
+        "m",
+        "n",
+        "n"
+      ],
+      "class": "verb_active",
+      "gloss": "zoukify (auto-generated)",
+      "citation_form": "kamanan"
+    },
+    "bwz": {
+      "root": [
+        "b",
+        "w",
+        "z"
+      ],
+      "class": "verb_stative",
+      "gloss": "zoink (auto-generated)",
+      "citation_form": "bawaza"
+    },
+    "nll": {
+      "root": [
+        "n",
+        "l",
+        "l"
+      ],
+      "class": "verb_active",
+      "gloss": "zorch (auto-generated)",
+      "citation_form": "kanalal"
+    },
+    "ktng": {
+      "root": [
+        "k",
+        "t",
+        "ng"
+      ],
+      "class": "verb_active",
+      "gloss": "zoologise (auto-generated)",
+      "citation_form": "kakatang"
     }
   },
   "nouns": {
@@ -25919,6 +25959,446 @@
       "gloss": "qorma (auto-generated)",
       "gender": "child",
       "citation_form": "dhabugu"
+    },
+    "tjz": {
+      "root": [
+        "t",
+        "j",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "miassite (auto-generated)",
+      "gender": "male",
+      "citation_form": "tajaza"
+    },
+    "njy": {
+      "root": [
+        "n",
+        "j",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "mianserin (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "najïfyïf"
+    },
+    "hpd": {
+      "root": [
+        "h",
+        "p",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "miasmology (auto-generated)",
+      "gender": "female",
+      "citation_form": "hapodo"
+    },
+    "yyzh": {
+      "root": [
+        "y",
+        "y",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "micelle (auto-generated)",
+      "gender": "male",
+      "citation_form": "yayazha"
+    },
+    "nzhm": {
+      "root": [
+        "n",
+        "zh",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "mfr (auto-generated)",
+      "gender": "female",
+      "citation_form": "nazhomo"
+    },
+    "rngch": {
+      "root": [
+        "r",
+        "ng",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "miaphysite (auto-generated)",
+      "gender": "female",
+      "citation_form": "rangocho"
+    },
+    "wmh": {
+      "root": [
+        "w",
+        "m",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "mic (auto-generated)",
+      "gender": "male",
+      "citation_form": "wamaha"
+    },
+    "tmj": {
+      "root": [
+        "t",
+        "m",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "miaul (auto-generated)",
+      "gender": "female",
+      "citation_form": "tamojo"
+    },
+    "nghs": {
+      "root": [
+        "ng",
+        "h",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "micheelsenite (auto-generated)",
+      "gender": "male",
+      "citation_form": "ngahasa"
+    },
+    "npv": {
+      "root": [
+        "n",
+        "p",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "miasma (auto-generated)",
+      "gender": "child",
+      "citation_form": "napuvu"
+    },
+    "schr": {
+      "root": [
+        "s",
+        "ch",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "mgqashiyo (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "sachïfrïf"
+    },
+    "nshth": {
+      "root": [
+        "n",
+        "sh",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "mho (auto-generated)",
+      "gender": "female",
+      "citation_form": "nashotho"
+    },
+    "wdhth": {
+      "root": [
+        "w",
+        "dh",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "mfger (auto-generated)",
+      "gender": "female",
+      "citation_form": "wadhotho"
+    },
+    "wdhdh": {
+      "root": [
+        "w",
+        "dh",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "micafungin (auto-generated)",
+      "gender": "child",
+      "citation_form": "wadhudhu"
+    },
+    "sshth": {
+      "root": [
+        "s",
+        "sh",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "miaower (auto-generated)",
+      "gender": "female",
+      "citation_form": "sashotho"
+    },
+    "wlt": {
+      "root": [
+        "w",
+        "l",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "miaou (auto-generated)",
+      "gender": "child",
+      "citation_form": "walutu"
+    },
+    "mshd": {
+      "root": [
+        "m",
+        "sh",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "miang (auto-generated)",
+      "gender": "female",
+      "citation_form": "mashodo"
+    },
+    "mgf": {
+      "root": [
+        "m",
+        "g",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "mica (auto-generated)",
+      "gender": "female",
+      "citation_form": "magofo"
+    },
+    "thdf": {
+      "root": [
+        "th",
+        "d",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "mgt (auto-generated)",
+      "gender": "female",
+      "citation_form": "thadofo"
+    },
+    "hngp": {
+      "root": [
+        "h",
+        "ng",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "mhw (auto-generated)",
+      "gender": "child",
+      "citation_form": "hangupu"
+    },
+    "bld": {
+      "root": [
+        "b",
+        "l",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "miauling (auto-generated)",
+      "gender": "male",
+      "citation_form": "balada"
+    },
+    "nlg": {
+      "root": [
+        "n",
+        "l",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "micell (auto-generated)",
+      "gender": "female",
+      "citation_form": "nalogo"
+    },
+    "ssp": {
+      "root": [
+        "s",
+        "s",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "mianna (auto-generated)",
+      "gender": "male",
+      "citation_form": "sasapa"
+    },
+    "kwt": {
+      "root": [
+        "k",
+        "w",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "miacid (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "kawïftïf"
+    },
+    "mlr": {
+      "root": [
+        "m",
+        "l",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "miaowing (auto-generated)",
+      "gender": "child",
+      "citation_form": "maluru"
+    },
+    "rkv": {
+      "root": [
+        "r",
+        "k",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "miasmatology (auto-generated)",
+      "gender": "male",
+      "citation_form": "rakava"
+    },
+    "ylm": {
+      "root": [
+        "y",
+        "l",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "mgf (auto-generated)",
+      "gender": "child",
+      "citation_form": "yalumu"
+    },
+    "tps": {
+      "root": [
+        "t",
+        "p",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "mhorr (auto-generated)",
+      "gender": "female",
+      "citation_form": "taposo"
+    },
+    "dhhd": {
+      "root": [
+        "dh",
+        "h",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "mianserine (auto-generated)",
+      "gender": "male",
+      "citation_form": "dhahada"
+    },
+    "vdng": {
+      "root": [
+        "v",
+        "d",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "mia (auto-generated)",
+      "gender": "child",
+      "citation_form": "vadungu"
+    },
+    "wdv": {
+      "root": [
+        "w",
+        "d",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "micellarisation (auto-generated)",
+      "gender": "female",
+      "citation_form": "wadovo"
+    },
+    "wzhf": {
+      "root": [
+        "w",
+        "zh",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "mhometer (auto-generated)",
+      "gender": "male",
+      "citation_form": "wazhafa"
+    },
+    "wshz": {
+      "root": [
+        "w",
+        "sh",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "miascite (auto-generated)",
+      "gender": "female",
+      "citation_form": "washozo"
+    },
+    "fzhd": {
+      "root": [
+        "f",
+        "zh",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "mib (auto-generated)",
+      "gender": "female",
+      "citation_form": "fazhodo"
+    },
+    "sdhy": {
+      "root": [
+        "s",
+        "dh",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "mibefradil (auto-generated)",
+      "gender": "child",
+      "citation_form": "sadhuyu"
+    },
+    "hdhz": {
+      "root": [
+        "h",
+        "dh",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "miargyrite (auto-generated)",
+      "gender": "male",
+      "citation_form": "hadhaza"
+    },
+    "zhyd": {
+      "root": [
+        "zh",
+        "y",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "micarta (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zhayïfdïf"
+    },
+    "gzj": {
+      "root": [
+        "g",
+        "z",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "micellarization (auto-generated)",
+      "gender": "child",
+      "citation_form": "gazuju"
+    },
+    "pvdh": {
+      "root": [
+        "p",
+        "v",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "mgmt (auto-generated)",
+      "gender": "male",
+      "citation_form": "pavadha"
+    },
+    "rzng": {
+      "root": [
+        "r",
+        "z",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "miaskite (auto-generated)",
+      "gender": "child",
+      "citation_form": "razungu"
     }
   },
   "adjectives": {
@@ -29049,6 +29529,106 @@
       "class": "adjective",
       "gloss": "rabak (auto-generated)",
       "citation_form": "vodasaka"
+    },
+    "zhmp": {
+      "root": [
+        "zh",
+        "m",
+        "p"
+      ],
+      "class": "adjective",
+      "gloss": "athalline (auto-generated)",
+      "citation_form": "zhomapaka"
+    },
+    "zpd": {
+      "root": [
+        "z",
+        "p",
+        "d"
+      ],
+      "class": "adjective",
+      "gloss": "ataxonomic (auto-generated)",
+      "citation_form": "zopadaka"
+    },
+    "zwp": {
+      "root": [
+        "z",
+        "w",
+        "p"
+      ],
+      "class": "adjective",
+      "gloss": "atavic (auto-generated)",
+      "citation_form": "zowapaka"
+    },
+    "vmch": {
+      "root": [
+        "v",
+        "m",
+        "ch"
+      ],
+      "class": "adjective",
+      "gloss": "atemporal (auto-generated)",
+      "citation_form": "vomachaka"
+    },
+    "gbv": {
+      "root": [
+        "g",
+        "b",
+        "v"
+      ],
+      "class": "adjective",
+      "gloss": "atas (auto-generated)",
+      "citation_form": "gobavaka"
+    },
+    "vlb": {
+      "root": [
+        "v",
+        "l",
+        "b"
+      ],
+      "class": "adjective",
+      "gloss": "ateleological (auto-generated)",
+      "citation_form": "volabaka"
+    },
+    "bzd": {
+      "root": [
+        "b",
+        "z",
+        "d"
+      ],
+      "class": "adjective",
+      "gloss": "ataractic (auto-generated)",
+      "citation_form": "bozadaka"
+    },
+    "zly": {
+      "root": [
+        "z",
+        "l",
+        "y"
+      ],
+      "class": "adjective",
+      "gloss": "ataxanomic (auto-generated)",
+      "citation_form": "zolayaka"
+    },
+    "hdv": {
+      "root": [
+        "h",
+        "d",
+        "v"
+      ],
+      "class": "adjective",
+      "gloss": "atactiform (auto-generated)",
+      "citation_form": "hodavaka"
+    },
+    "wjng": {
+      "root": [
+        "w",
+        "j",
+        "ng"
+      ],
+      "class": "adjective",
+      "gloss": "atactostelic (auto-generated)",
+      "citation_form": "wojangaka"
     }
   },
   "adverbs": {
@@ -32060,6 +32640,106 @@
       "class": "adverb",
       "gloss": "yellowishly (auto-generated)",
       "citation_form": "rangate"
+    },
+    "ngkk": {
+      "root": [
+        "ng",
+        "k",
+        "k"
+      ],
+      "class": "adverb",
+      "gloss": "judderingly (auto-generated)",
+      "citation_form": "ngakate"
+    },
+    "tfp": {
+      "root": [
+        "t",
+        "f",
+        "p"
+      ],
+      "class": "adverb",
+      "gloss": "jurisdictionally (auto-generated)",
+      "citation_form": "tafate"
+    },
+    "lhy": {
+      "root": [
+        "l",
+        "h",
+        "y"
+      ],
+      "class": "adverb",
+      "gloss": "jus (auto-generated)",
+      "citation_form": "lahate"
+    },
+    "zhgng": {
+      "root": [
+        "zh",
+        "g",
+        "ng"
+      ],
+      "class": "adverb",
+      "gloss": "junglewards (auto-generated)",
+      "citation_form": "zhagate"
+    },
+    "ydhsh": {
+      "root": [
+        "y",
+        "dh",
+        "sh"
+      ],
+      "class": "adverb",
+      "gloss": "juramentally (auto-generated)",
+      "citation_form": "yadhate"
+    },
+    "lmth": {
+      "root": [
+        "l",
+        "m",
+        "th"
+      ],
+      "class": "adverb",
+      "gloss": "jumblingly (auto-generated)",
+      "citation_form": "lamate"
+    },
+    "jzhp": {
+      "root": [
+        "j",
+        "zh",
+        "p"
+      ],
+      "class": "adverb",
+      "gloss": "justiceward (auto-generated)",
+      "citation_form": "jazhate"
+    },
+    "vpdh": {
+      "root": [
+        "v",
+        "p",
+        "dh"
+      ],
+      "class": "adverb",
+      "gloss": "jussively (auto-generated)",
+      "citation_form": "vapate"
+    },
+    "nsch": {
+      "root": [
+        "n",
+        "s",
+        "ch"
+      ],
+      "class": "adverb",
+      "gloss": "jumpily (auto-generated)",
+      "citation_form": "nasate"
+    },
+    "nkt": {
+      "root": [
+        "n",
+        "k",
+        "t"
+      ],
+      "class": "adverb",
+      "gloss": "juicily (auto-generated)",
+      "citation_form": "nakate"
     }
   },
   "colors": {
