@@ -38,7 +38,11 @@ echo "Run tag: ${RUN_TAG}"
 python wiki-scripts/update_bot_status.py --run-tag "${RUN_TAG}"
 python wiki-scripts/create_wanted_categories.py --apply --run-tag "${RUN_TAG}"
 
-# 1.5 Normalize lexicon (redistribute inanimate nouns, fix roots)
+# 1.5 Tag word: pages in Created from Wanted Pages with a non-lemma version
+#     category so the upgrade loop picks them up.
+python wiki-scripts/tag_wanted_word_pages.py --apply --run-tag "${RUN_TAG}"
+
+# 1.6 Normalize lexicon (redistribute inanimate nouns, fix roots)
 python wiki-scripts/normalize_lexicon.py
 
 # 2. Upgrade outdated lemmas + Create new lemmas
