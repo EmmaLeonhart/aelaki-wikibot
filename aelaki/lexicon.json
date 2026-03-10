@@ -12457,51 +12457,6 @@
     }
   },
   "nouns": {
-    "ae": {
-      "root": [
-        "?",
-        "?",
-        "?"
-      ],
-      "class": "noun",
-      "gloss": "head"
-    },
-    "euf": {
-      "root": [
-        "?",
-        "?",
-        "f"
-      ],
-      "class": "noun",
-      "gloss": "eye"
-    },
-    "on": {
-      "root": [
-        "?",
-        "?",
-        "n"
-      ],
-      "class": "noun",
-      "gloss": "mouth"
-    },
-    "ich": {
-      "root": [
-        "?",
-        "ch",
-        "?"
-      ],
-      "class": "noun",
-      "gloss": "heart"
-    },
-    "uch": {
-      "root": [
-        "?",
-        "ch",
-        "?"
-      ],
-      "class": "noun",
-      "gloss": "liver"
-    },
     "debh": {
       "root": [
         "d",
@@ -12521,63 +12476,6 @@
       "class": "noun",
       "gloss": "water",
       "gender": "inanimate"
-    },
-    "t'ub'": {
-      "root": [
-        "t'",
-        "b'",
-        "?"
-      ],
-      "class": "noun",
-      "gloss": "sun (archaic/proto)",
-      "gender": "inanimate"
-    },
-    "pu": {
-      "root": [
-        "p",
-        "?",
-        "?"
-      ],
-      "class": "noun",
-      "gloss": "moon"
-    },
-    "lu": {
-      "root": [
-        "l",
-        "?",
-        "?"
-      ],
-      "class": "noun",
-      "gloss": "river",
-      "gender": "inanimate"
-    },
-    "nek": {
-      "root": [
-        "n",
-        "?",
-        "k"
-      ],
-      "class": "noun",
-      "gloss": "sea",
-      "gender": "inanimate"
-    },
-    "maomao": {
-      "root": [
-        "m",
-        "?",
-        "m"
-      ],
-      "class": "noun",
-      "gloss": "maomao (bear-sized companion)"
-    },
-    "dzhabho": {
-      "root": [
-        "dzh",
-        "bh",
-        "?"
-      ],
-      "class": "noun",
-      "gloss": "bird"
     },
     "bsl": {
       "root": [
@@ -12607,26 +12505,6 @@
       "class": "noun",
       "gloss": "sky",
       "citation_form": "saromo"
-    },
-    "gnk": {
-      "root": [
-        "g'",
-        "n",
-        "k"
-      ],
-      "class": "noun",
-      "gloss": "sky fungus",
-      "citation_form": "g'nk"
-    },
-    "gar": {
-      "root": [
-        "g",
-        "?",
-        "r"
-      ],
-      "class": "noun",
-      "gloss": "body",
-      "citation_form": "gar"
     },
     "hayab": {
       "root": [
@@ -12728,16 +12606,6 @@
       "class": "noun",
       "gloss": "person",
       "citation_form": "tïdænæsh"
-    },
-    "sanash": {
-      "root": [
-        "s",
-        "?",
-        "n"
-      ],
-      "class": "noun",
-      "gloss": "king",
-      "citation_form": "sanash"
     },
     "forsash": {
       "root": [
@@ -26399,6 +26267,160 @@
       "gloss": "miaskite (auto-generated)",
       "gender": "child",
       "citation_form": "razungu"
+    },
+    "hwy": {
+      "root": [
+        "h",
+        "w",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "head",
+      "gender": "child",
+      "citation_form": "hawuyu"
+    },
+    "vlf": {
+      "root": [
+        "v",
+        "l",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "eye",
+      "gender": "female",
+      "citation_form": "valofo"
+    },
+    "gwn": {
+      "root": [
+        "g",
+        "w",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "mouth",
+      "gender": "male",
+      "citation_form": "gawana"
+    },
+    "rcht": {
+      "root": [
+        "r",
+        "ch",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "heart",
+      "gender": "child",
+      "citation_form": "rachutu"
+    },
+    "lchd": {
+      "root": [
+        "l",
+        "ch",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "liver",
+      "gender": "female",
+      "citation_form": "lachodo"
+    },
+    "tbr": {
+      "root": [
+        "t",
+        "b",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "sun (archaic/proto)",
+      "gender": "inanimate",
+      "citation_form": "tabïfrïf"
+    },
+    "prv": {
+      "root": [
+        "p",
+        "r",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "moon",
+      "gender": "male",
+      "citation_form": "parava"
+    },
+    "lds": {
+      "root": [
+        "l",
+        "d",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "river",
+      "gender": "inanimate",
+      "citation_form": "ladïfsïf"
+    },
+    "nvk": {
+      "root": [
+        "n",
+        "v",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "sea",
+      "gender": "inanimate",
+      "citation_form": "navïfkïf"
+    },
+    "mlm": {
+      "root": [
+        "m",
+        "l",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "maomao (bear-sized companion)",
+      "gender": "child",
+      "citation_form": "malumu"
+    },
+    "dzhbhr": {
+      "root": [
+        "dzh",
+        "bh",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "bird",
+      "gender": "female",
+      "citation_form": "dzhabhoro"
+    },
+    "snsh": {
+      "root": [
+        "s",
+        "n",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "king",
+      "gender": "male",
+      "citation_form": "sanasha"
+    },
+    "gthr": {
+      "root": [
+        "g",
+        "th",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "body",
+      "gender": "child",
+      "citation_form": "gathuru"
+    },
+    "gnk": {
+      "root": [
+        "g'",
+        "n",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "sky fungus",
+      "gender": "male",
+      "citation_form": "g'anaka"
     }
   },
   "adjectives": {

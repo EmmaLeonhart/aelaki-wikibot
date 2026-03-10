@@ -15,6 +15,11 @@ Consolidated archive of all Aelaki constructed language materials. Aelaki is a c
 - The markdown grammar guide in `aelaki-split/` is extensive but may diverge from the docx
 - `aelaki-sharp/` and `aelaki-split/` were imported via `git subtree` with full history preserved
 
+## Lexicon Gender Distribution
+- **Inanimate nouns should be rare**: only ~5-10% of nouns should be inanimate gender
+- The auto-generated nouns in `aelaki/lexicon.json` were overgenerated as inanimate (~27% currently); new nouns should default to child/female/male distribution
+- When generating or assigning noun genders, distribute roughly equally among child, female, and male; only use inanimate for genuinely non-living, non-agentive things
+
 ## Workflow Guidelines
 - **Commit early and often.** Every meaningful change should be committed with a clear, descriptive summary.
 - **Keep this claude.md up to date** with architectural decisions and conventions.
