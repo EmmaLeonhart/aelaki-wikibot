@@ -36,7 +36,8 @@
       "Bash(cd /c/Users/Immanuelle/Documents/Github/aelaki-merged && sleep 30 && gh run list --limit 5 2>&1)",
       "Bash(cd /c/Users/Immanuelle/Documents/Github/aelaki-merged && gh run view 22746256223 2>&1)",
       "Bash(cd /c/Users/Immanuelle/Documents/Github/aelaki-merged && gh run view 22744226461 2>&1)",
-      "Bash(cd /c/Users/Immanuelle/Documents/Github/aelaki-merged && gh run view 22740949689 2>&1)"
+      "Bash(cd /c/Users/Immanuelle/Documents/Github/aelaki-merged && gh run view 22740949689 2>&1)",
+      "Bash(python3:*)"
     ]
   }
 }
