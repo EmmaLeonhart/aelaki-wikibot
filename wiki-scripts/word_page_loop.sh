@@ -31,7 +31,7 @@ case "${EVENT_NAME}" in
     ;;
 esac
 
-RUN_TAG="[[git:${RUN_PATH}|${CAUSE_TEXT}]]"
+RUN_TAG="[[github:${RUN_PATH}|${CAUSE_TEXT}]]"
 echo "Run tag: ${RUN_TAG}"
 
 # 1. Early operations
