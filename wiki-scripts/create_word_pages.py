@@ -238,6 +238,13 @@ CASE_FUNCTIONS = [
     ("speaker", speaker_case),
 ]
 
+# Inanimate nouns can only be patient, instrumental, or dative
+INANIMATE_CASE_FUNCTIONS = [
+    ("patient", None),
+    ("instrumental", instrumental_case),
+    ("dative", dative_case),
+]
+
 
 def generate_noun_case_forms(entry) -> list[tuple[str, str]]:
     """6 cases x 4 persons for a noun (inherent gender, singular)."""
@@ -251,8 +258,9 @@ def generate_noun_case_forms(entry) -> list[tuple[str, str]]:
     else:
         stem = build_tri_stem(root, gender, number)
 
+    cases = INANIMATE_CASE_FUNCTIONS if gender == Gender.INANIMATE else CASE_FUNCTIONS
     forms = []
-    for case_name, case_func in CASE_FUNCTIONS:
+    for case_name, case_func in cases:
         for p in Person:
             label = f"{case_name}.{p.name.lower()}"
             try:
@@ -279,7 +287,7 @@ def generate_case_table(forms: list[tuple[str, str]]) -> str:
     if not by_case:
         return ""
 
-    row_order = ["agent", "patient", "possessive", "instrumental", "dative", "speaker"]
+    row_order = [c for c in ["agent", "patient", "possessive", "instrumental", "dative", "speaker"] if c in by_case]
     display = {
         "agent": "[[Agent]]", "patient": "[[Patient]]", "possessive": "[[Possessive]]",
         "instrumental": "[[Instrumental]]", "dative": "[[Dative]]", "speaker": "[[Speaker]]",
