@@ -4,6 +4,14 @@
 
 - [ ] Parse **Sægetlæræchïfïshë** into morphemes — appears in the car crash glossed sentence as `SIM.CONV-HOD-be_hit.COMP-INAN.4p-VIS.PAST` but likely has nonstandard romanization. Needs manual analysis to determine correct root and morpheme boundaries. (Source: discord 2025-06-04)
 
+## Phonology / Vowel Grid
+
+- [ ] Clarify the status of **ë** (e-diaeresis) in the vowel system — it appears frequently in evidential suffixes (`-shë`, `-shëm`, `-shëlon`) and the temporal adposition (`Slë`), but is absent from the vowel grid and `VOWEL_SHIFT_MAP` in `phonology.py`. The umlaut pair `Slë → Slæ` suggests ë behaves like **ə** (schwa, shifting to æ), not like plain **e** (which is already front and wouldn't shift). Need to decide: is ë a spelling variant of ə, a distinct vowel that belongs in the grid, or just plain e with the adposition being a special case? Once decided, update `VOWELS`, `VOWEL_SHIFT_MAP`, and `apply_umlaut()` accordingly.
+
+## Morphology Bugs
+
+- [ ] Fix `ki_word_final()` in `aelaki/person.py` — stative verb suffix always outputs the full `VCV` pattern (e.g. `-asha` for male singular 3rd person) regardless of stem-final segment. Should be `-sha` when the stem already ends in a vowel and `-asha` only when the stem ends in a consonant. Currently every stative form gets the consonant-final variant.
+
 ## Word Pages Bot (EmmaBot)
 
 Bot creates `word:LEMMA` pages on aelaki.miraheze.org via GitHub Actions.

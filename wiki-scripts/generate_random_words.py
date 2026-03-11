@@ -56,8 +56,9 @@ CATEGORIES = {
 
 CONSONANT_LIST = sorted(CONSONANTS)
 GENDERS = [Gender.CHILD, Gender.FEMALE, Gender.MALE, Gender.INANIMATE]
-# Mostly active verbs, some stative
-VERB_CLASSES = ["verb_active", "verb_active", "verb_active", "verb_stative"]
+# Verb class distribution: 80% transitive, 10% active, 10% stative
+VERB_CLASSES = ["verb_transitive", "verb_active", "verb_stative"]
+VERB_WEIGHTS = [80, 10, 10]
 
 # ---------------------------------------------------------------------------
 # Wiktionary fetching
@@ -232,28 +233,21 @@ def _make_entry(word: str, word_type: str, used_keys: set[str]):
         return "nouns", key, entry
 
     if word_type == "verbs":
-        # ~15% chance of transitive (tetra root)
-        if random.random() < 0.15:
+        verb_class = random.choices(VERB_CLASSES, weights=VERB_WEIGHTS, k=1)[0]
+        if verb_class == "verb_transitive":
             consonants, key = generate_root_key(used_keys, n_consonants=4)
             root = TetraRoot(*consonants)
             citation = build_transitive_citation(root)
-            entry = {
-                "root": consonants,
-                "class": "verb_transitive",
-                "gloss": gloss,
-                "citation_form": citation,
-            }
         else:
-            verb_class = random.choice(VERB_CLASSES)
             consonants, key = generate_root_key(used_keys)
             root = TriRoot(*consonants)
             citation = build_verb_citation(root, verb_class)
-            entry = {
-                "root": consonants,
-                "class": verb_class,
-                "gloss": gloss,
-                "citation_form": citation,
-            }
+        entry = {
+            "root": consonants,
+            "class": verb_class,
+            "gloss": gloss,
+            "citation_form": citation,
+        }
         return "verbs", key, entry
 
     if word_type == "adjectives":
