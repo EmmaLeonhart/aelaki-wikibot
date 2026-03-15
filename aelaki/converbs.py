@@ -176,6 +176,6 @@ def build_suffix_converb_intransitive(
     else:
         # Stative: stem + subject Ki (word-final) + suffix
         from .person import ki_word_final
-        ki = ki_word_final(subj_person, subj_gender, subj_number)
+        ki = ki_word_final(subj_person, subj_gender, subj_number, stem=stem)
         day_str = day.value
         return day_str + stem + ki + suffix_type.suffix

@@ -38,10 +38,13 @@ def ki_predicate_final(person: Person, gender: Gender, number: Number) -> str:
     return syllable
 
 
-def ki_word_final(person: Person, gender: Gender, number: Number) -> str:
+def ki_word_final(person: Person, gender: Gender, number: Number,
+                   stem: str = "") -> str:
     """Generate word-final Ki suffix (bound morpheme position).
 
     Pattern: GenderVowel + PersonConsonant + GenderVowel
+    When *stem* ends in a vowel the leading GenderVowel is elided,
+    giving: PersonConsonant + GenderVowel (CV instead of VCV).
     Exceptions: 4th person singular/collective have no trailing consonant
     """
     if gender == Gender.INANIMATE:
@@ -63,11 +66,21 @@ def ki_word_final(person: Person, gender: Gender, number: Number) -> str:
         elif number == Number.ZERO:
             return gv  # includes the f
 
+    # Elide the leading vowel when the stem already ends in a vowel
+    from .phonology import VOWELS
+    stem_ends_in_vowel = stem != "" and stem[-1] in VOWELS
+
     if number == Number.PLURAL:
+        if stem_ends_in_vowel:
+            return cons + base_v + cons + base_v
         return base_v + cons + base_v + cons
     if number == Number.ZERO:
+        if stem_ends_in_vowel:
+            return base_v + cons  # drop leading gv
         return gv + base_v + cons  # e.g., "uf" + "u" + "th" = "ufuth"
 
+    if stem_ends_in_vowel:
+        return cons + gv
     return base_v + cons + gv
 
 
