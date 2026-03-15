@@ -265,7 +265,7 @@ def conjugate_intransitive_stative(
 
     # Stative uses word-final Ki for subject (no prefix)
     from .person import ki_word_final
-    suffix = ki_word_final(subj_person, subj_gender, subj_number)
+    suffix = ki_word_final(subj_person, subj_gender, subj_number, stem=stem)
     day_str = day.value
 
     return day_str + stem + suffix

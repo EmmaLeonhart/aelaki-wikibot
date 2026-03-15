@@ -20,7 +20,7 @@ shifts, zero-infix rules, and sandhi processes.
 # ə (schwa) appears in grammatical affixes (verb TAM prefixes, converbs)
 # but does not participate in the vowel grid.
 
-VOWELS = {"a", "e", "i", "o", "u", "æ", "ü", "ï", "ə", "ïf"}
+VOWELS = {"a", "e", "i", "o", "u", "æ", "ü", "ï", "ə", "ë", "ïf"}
 
 # Back-to-front vowel shift — used on verbs, adjectives, adverbs (umlaut),
 # and on nouns and numbers (collective). Same phonological process applied

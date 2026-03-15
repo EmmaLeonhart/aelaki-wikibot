@@ -125,6 +125,31 @@ class TestIntransitiveConjugation:
         # Should end with word-final Ki for 1st-male-singular: "ath"
         assert "ath" in result
 
+    def test_stative_vowel_stem_elision(self):
+        """Stative suffix elides leading vowel when stem ends in vowel."""
+        # With past-visual evidential (-shë), stem ends in vowel ë→ə
+        result = conjugate_intransitive_stative(
+            self.root,
+            evidential=Evidential.PAST_VISUAL,
+            subj_person=Person.THIRD, subj_gender=Gender.MALE,
+            subj_number=Number.SINGULAR,
+        )
+        # Stem: dapazshë (ends in vowel ë)
+        # 3rd-male-singular Ki should be "sha" (CV), not "asha" (VCV)
+        assert result.endswith("sha")
+        assert not result.endswith("asha")
+
+    def test_stative_consonant_stem_full_ki(self):
+        """Stative suffix keeps full VCV when stem ends in consonant."""
+        # No evidential: stem = dapaz (ends in consonant z)
+        result = conjugate_intransitive_stative(
+            self.root,
+            subj_person=Person.THIRD, subj_gender=Gender.MALE,
+            subj_number=Number.SINGULAR,
+        )
+        # 3rd-male-singular Ki should be "asha" (full VCV)
+        assert result.endswith("asha")
+
     def test_active_no_object_suffix(self):
         """Active intransitive should not have object suffix."""
         result = conjugate_intransitive_active(
