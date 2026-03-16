@@ -52,8 +52,9 @@ jobs:
             echo "No state changes to commit."
             exit 0
           fi
-          git commit -m "chore(state): update word page bot state [skip ci]"
-          git stash -q || true
+          git stash -q
           git pull --rebase origin "${GITHUB_REF_NAME}"
-          git stash pop -q 2>/dev/null || true
+          git stash pop -q
+          git add -A -- "*.state" "aelaki/lexicon.json" "wiki-scripts/version_history.txt"
+          git commit -m "chore(state): update word page bot state [skip ci]"
           git push origin "HEAD:${GITHUB_REF_NAME}"
