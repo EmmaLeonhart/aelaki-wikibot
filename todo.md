@@ -10,7 +10,7 @@
 
 ## Morphology Bugs
 
-- [ ] Fix `ki_word_final()` in `aelaki/person.py` — stative verb suffix always outputs the full `VCV` pattern (e.g. `-asha` for male singular 3rd person) regardless of stem-final segment. Should be `-sha` when the stem already ends in a vowel and `-asha` only when the stem ends in a consonant. Currently every stative form gets the consonant-final variant.
+- [x] Fix `ki_word_final()` in `aelaki/person.py` — stative verb suffix now elides leading vowel when stem ends in vowel (CV instead of VCV). Also added `ë` to VOWELS set. (Fixed in b470777)
 
 ## Word Pages Bot (EmmaBot)
 
