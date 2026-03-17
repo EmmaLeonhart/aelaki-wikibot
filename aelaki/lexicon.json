@@ -17478,6 +17478,241 @@
       "class": "verb_active",
       "gloss": "ormolu (auto-generated)",
       "citation_form": "kanganag"
+    },
+    "yjmch": {
+      "root": [
+        "y",
+        "j",
+        "m",
+        "ch"
+      ],
+      "class": "verb_transitive",
+      "gloss": "yawl (auto-generated)",
+      "citation_form": "kayajmechoko"
+    },
+    "ngrch": {
+      "root": [
+        "ng",
+        "r",
+        "ch"
+      ],
+      "class": "verb_active",
+      "gloss": "yassify (auto-generated)",
+      "citation_form": "kangarach"
+    },
+    "jwthk": {
+      "root": [
+        "j",
+        "w",
+        "th",
+        "k"
+      ],
+      "class": "verb_transitive",
+      "gloss": "yumeship (auto-generated)",
+      "citation_form": "kajawthekoko"
+    },
+    "dhspz": {
+      "root": [
+        "dh",
+        "s",
+        "p",
+        "z"
+      ],
+      "class": "verb_transitive",
+      "gloss": "yede (auto-generated)",
+      "citation_form": "kadhaspezoko"
+    },
+    "bkhk": {
+      "root": [
+        "b",
+        "k",
+        "h",
+        "k"
+      ],
+      "class": "verb_transitive",
+      "gloss": "yike (auto-generated)",
+      "citation_form": "kabakhekoko"
+    },
+    "shlzh": {
+      "root": [
+        "sh",
+        "l",
+        "zh"
+      ],
+      "class": "verb_stative",
+      "gloss": "yelp (auto-generated)",
+      "citation_form": "shalazha"
+    },
+    "jtv": {
+      "root": [
+        "j",
+        "t",
+        "v"
+      ],
+      "class": "verb_stative",
+      "gloss": "yume (auto-generated)",
+      "citation_form": "jatava"
+    },
+    "ngjzdh": {
+      "root": [
+        "ng",
+        "j",
+        "z",
+        "dh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "zany (auto-generated)",
+      "citation_form": "kangajzedhoko"
+    },
+    "jdhpdh": {
+      "root": [
+        "j",
+        "dh",
+        "p",
+        "dh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "yeeld (auto-generated)",
+      "citation_form": "kajadhpedhoko"
+    },
+    "bbfw": {
+      "root": [
+        "b",
+        "b",
+        "f",
+        "w"
+      ],
+      "class": "verb_transitive",
+      "gloss": "yeehaw (auto-generated)",
+      "citation_form": "kababfewoko"
+    },
+    "ddhfw": {
+      "root": [
+        "d",
+        "dh",
+        "f",
+        "w"
+      ],
+      "class": "verb_transitive",
+      "gloss": "yellow (auto-generated)",
+      "citation_form": "kadadhfewoko"
+    },
+    "shjp": {
+      "root": [
+        "sh",
+        "j",
+        "p"
+      ],
+      "class": "verb_active",
+      "gloss": "yarnbomb (auto-generated)",
+      "citation_form": "kashajap"
+    },
+    "grfsh": {
+      "root": [
+        "g",
+        "r",
+        "f",
+        "sh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "yurk (auto-generated)",
+      "citation_form": "kagarfeshoko"
+    },
+    "thjhr": {
+      "root": [
+        "th",
+        "j",
+        "h",
+        "r"
+      ],
+      "class": "verb_transitive",
+      "gloss": "yoke (auto-generated)",
+      "citation_form": "kathajheroko"
+    },
+    "rnr": {
+      "root": [
+        "r",
+        "n",
+        "r"
+      ],
+      "class": "verb_stative",
+      "gloss": "yuke (auto-generated)",
+      "citation_form": "ranara"
+    },
+    "zngy": {
+      "root": [
+        "z",
+        "ng",
+        "y"
+      ],
+      "class": "verb_active",
+      "gloss": "yuppify (auto-generated)",
+      "citation_form": "kazangay"
+    },
+    "mbshm": {
+      "root": [
+        "m",
+        "b",
+        "sh",
+        "m"
+      ],
+      "class": "verb_transitive",
+      "gloss": "yarnstorm (auto-generated)",
+      "citation_form": "kamabshemoko"
+    },
+    "vdhdsh": {
+      "root": [
+        "v",
+        "dh",
+        "d",
+        "sh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "youthfulize (auto-generated)",
+      "citation_form": "kavadhdeshoko"
+    },
+    "gsjv": {
+      "root": [
+        "g",
+        "s",
+        "j",
+        "v"
+      ],
+      "class": "verb_transitive",
+      "gloss": "yoyo (auto-generated)",
+      "citation_form": "kagasjevoko"
+    },
+    "shpj": {
+      "root": [
+        "sh",
+        "p",
+        "j"
+      ],
+      "class": "verb_stative",
+      "gloss": "yump (auto-generated)",
+      "citation_form": "shapaja"
+    },
+    "fffb": {
+      "root": [
+        "f",
+        "f",
+        "f",
+        "b"
+      ],
+      "class": "verb_transitive",
+      "gloss": "yuk (auto-generated)",
+      "citation_form": "kafaffeboko"
+    },
+    "lnysh": {
+      "root": [
+        "l",
+        "n",
+        "y",
+        "sh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "yutz (auto-generated)",
+      "citation_form": "kalanyeshoko"
     }
   },
   "nouns": {
@@ -40870,6 +41105,106 @@
       "class": "adjective",
       "gloss": "phacoemulsified (auto-generated)",
       "citation_form": "loshavaka"
+    },
+    "nngj": {
+      "root": [
+        "n",
+        "ng",
+        "j"
+      ],
+      "class": "adjective",
+      "gloss": "mealable (auto-generated)",
+      "citation_form": "nongajaka"
+    },
+    "rfsh": {
+      "root": [
+        "r",
+        "f",
+        "sh"
+      ],
+      "class": "adjective",
+      "gloss": "mealymouthed (auto-generated)",
+      "citation_form": "rofashaka"
+    },
+    "fsp": {
+      "root": [
+        "f",
+        "s",
+        "p"
+      ],
+      "class": "adjective",
+      "gloss": "meadlike (auto-generated)",
+      "citation_form": "fosapaka"
+    },
+    "wshd": {
+      "root": [
+        "w",
+        "sh",
+        "d"
+      ],
+      "class": "adjective",
+      "gloss": "meandriform (auto-generated)",
+      "citation_form": "woshadaka"
+    },
+    "mjl": {
+      "root": [
+        "m",
+        "j",
+        "l"
+      ],
+      "class": "adjective",
+      "gloss": "meager (auto-generated)",
+      "citation_form": "mojalaka"
+    },
+    "zhdn": {
+      "root": [
+        "zh",
+        "d",
+        "n"
+      ],
+      "class": "adjective",
+      "gloss": "meaded (auto-generated)",
+      "citation_form": "zhodanaka"
+    },
+    "tvp": {
+      "root": [
+        "t",
+        "v",
+        "p"
+      ],
+      "class": "adjective",
+      "gloss": "mealy (auto-generated)",
+      "citation_form": "tovapaka"
+    },
+    "ppm": {
+      "root": [
+        "p",
+        "p",
+        "m"
+      ],
+      "class": "adjective",
+      "gloss": "meadowless (auto-generated)",
+      "citation_form": "popamaka"
+    },
+    "pthw": {
+      "root": [
+        "p",
+        "th",
+        "w"
+      ],
+      "class": "adjective",
+      "gloss": "meanable (auto-generated)",
+      "citation_form": "pothawaka"
+    },
+    "thngy": {
+      "root": [
+        "th",
+        "ng",
+        "y"
+      ],
+      "class": "adjective",
+      "gloss": "meandering (auto-generated)",
+      "citation_form": "thongayaka"
     }
   },
   "adverbs": {
@@ -45181,6 +45516,106 @@
       "class": "adverb",
       "gloss": "xenophobically (auto-generated)",
       "citation_form": "chadhate"
+    },
+    "chbm": {
+      "root": [
+        "ch",
+        "b",
+        "m"
+      ],
+      "class": "adverb",
+      "gloss": "quantificationally (auto-generated)",
+      "citation_form": "chabate"
+    },
+    "mpw": {
+      "root": [
+        "m",
+        "p",
+        "w"
+      ],
+      "class": "adverb",
+      "gloss": "qualifiedly (auto-generated)",
+      "citation_form": "mapate"
+    },
+    "zkl": {
+      "root": [
+        "z",
+        "k",
+        "l"
+      ],
+      "class": "adverb",
+      "gloss": "quackingly (auto-generated)",
+      "citation_form": "zakate"
+    },
+    "fwg": {
+      "root": [
+        "f",
+        "w",
+        "g"
+      ],
+      "class": "adverb",
+      "gloss": "quantitively (auto-generated)",
+      "citation_form": "fawate"
+    },
+    "jvzh": {
+      "root": [
+        "j",
+        "v",
+        "zh"
+      ],
+      "class": "adverb",
+      "gloss": "qualifyingly (auto-generated)",
+      "citation_form": "javate"
+    },
+    "ygb": {
+      "root": [
+        "y",
+        "g",
+        "b"
+      ],
+      "class": "adverb",
+      "gloss": "quantumly (auto-generated)",
+      "citation_form": "yagate"
+    },
+    "wvzh": {
+      "root": [
+        "w",
+        "v",
+        "zh"
+      ],
+      "class": "adverb",
+      "gloss": "quadrantly (auto-generated)",
+      "citation_form": "wavate"
+    },
+    "fmh": {
+      "root": [
+        "f",
+        "m",
+        "h"
+      ],
+      "class": "adverb",
+      "gloss": "quadratically (auto-generated)",
+      "citation_form": "famate"
+    },
+    "ptw": {
+      "root": [
+        "p",
+        "t",
+        "w"
+      ],
+      "class": "adverb",
+      "gloss": "quaffably (auto-generated)",
+      "citation_form": "patate"
+    },
+    "ngy": {
+      "root": [
+        "n",
+        "g",
+        "y"
+      ],
+      "class": "adverb",
+      "gloss": "qualitively (auto-generated)",
+      "citation_form": "nagate"
     }
   },
   "colors": {
