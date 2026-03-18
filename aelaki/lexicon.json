@@ -17713,6 +17713,439 @@
       "class": "verb_transitive",
       "gloss": "yutz (auto-generated)",
       "citation_form": "kalanyeshoko"
+    },
+    "pybp": {
+      "root": [
+        "p",
+        "y",
+        "b",
+        "p"
+      ],
+      "class": "verb_transitive",
+      "gloss": "photochop (auto-generated)",
+      "citation_form": "kapaybepoko"
+    },
+    "zdtv": {
+      "root": [
+        "z",
+        "d",
+        "t",
+        "v"
+      ],
+      "class": "verb_transitive",
+      "gloss": "phenocopy (auto-generated)",
+      "citation_form": "kazadtevoko"
+    },
+    "bbrm": {
+      "root": [
+        "b",
+        "b",
+        "r",
+        "m"
+      ],
+      "class": "verb_transitive",
+      "gloss": "photofission (auto-generated)",
+      "citation_form": "kababremoko"
+    },
+    "slshsh": {
+      "root": [
+        "s",
+        "l",
+        "sh",
+        "sh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "photosensitise (auto-generated)",
+      "citation_form": "kasalsheshoko"
+    },
+    "chngpr": {
+      "root": [
+        "ch",
+        "ng",
+        "p",
+        "r"
+      ],
+      "class": "verb_transitive",
+      "gloss": "photocatalyze (auto-generated)",
+      "citation_form": "kachangperoko"
+    },
+    "vtchy": {
+      "root": [
+        "v",
+        "t",
+        "ch",
+        "y"
+      ],
+      "class": "verb_transitive",
+      "gloss": "photoionize (auto-generated)",
+      "citation_form": "kavatcheyoko"
+    },
+    "thszh": {
+      "root": [
+        "th",
+        "s",
+        "zh"
+      ],
+      "class": "verb_stative",
+      "gloss": "photodisrupt (auto-generated)",
+      "citation_form": "thasazha"
+    },
+    "hhdt": {
+      "root": [
+        "h",
+        "h",
+        "d",
+        "t"
+      ],
+      "class": "verb_transitive",
+      "gloss": "phenomenalize (auto-generated)",
+      "citation_form": "kahahdetoko"
+    },
+    "dfthf": {
+      "root": [
+        "d",
+        "f",
+        "th",
+        "f"
+      ],
+      "class": "verb_transitive",
+      "gloss": "photopolymerize (auto-generated)",
+      "citation_form": "kadafthefoko"
+    },
+    "jlg": {
+      "root": [
+        "j",
+        "l",
+        "g"
+      ],
+      "class": "verb_active",
+      "gloss": "phagocytize (auto-generated)",
+      "citation_form": "kajalag"
+    },
+    "thchthng": {
+      "root": [
+        "th",
+        "ch",
+        "th",
+        "ng"
+      ],
+      "class": "verb_transitive",
+      "gloss": "phancy (auto-generated)",
+      "citation_form": "kathachthengoko"
+    },
+    "pngdng": {
+      "root": [
+        "p",
+        "ng",
+        "d",
+        "ng"
+      ],
+      "class": "verb_transitive",
+      "gloss": "photolyse (auto-generated)",
+      "citation_form": "kapangdengoko"
+    },
+    "vpwz": {
+      "root": [
+        "v",
+        "p",
+        "w",
+        "z"
+      ],
+      "class": "verb_transitive",
+      "gloss": "photocrosslink (auto-generated)",
+      "citation_form": "kavapwezoko"
+    },
+    "ppn": {
+      "root": [
+        "p",
+        "p",
+        "n"
+      ],
+      "class": "verb_active",
+      "gloss": "photoevaporate (auto-generated)",
+      "citation_form": "kapapan"
+    },
+    "bhyn": {
+      "root": [
+        "b",
+        "h",
+        "y",
+        "n"
+      ],
+      "class": "verb_transitive",
+      "gloss": "phagocytise (auto-generated)",
+      "citation_form": "kabahyenoko"
+    },
+    "lpt": {
+      "root": [
+        "l",
+        "p",
+        "t"
+      ],
+      "class": "verb_active",
+      "gloss": "photograph (auto-generated)",
+      "citation_form": "kalapat"
+    },
+    "zzchm": {
+      "root": [
+        "z",
+        "z",
+        "ch",
+        "m"
+      ],
+      "class": "verb_transitive",
+      "gloss": "phantasize (auto-generated)",
+      "citation_form": "kazazchemoko"
+    },
+    "lkbj": {
+      "root": [
+        "l",
+        "k",
+        "b",
+        "j"
+      ],
+      "class": "verb_transitive",
+      "gloss": "phonemicize (auto-generated)",
+      "citation_form": "kalakbejoko"
+    },
+    "jjd": {
+      "root": [
+        "j",
+        "j",
+        "d"
+      ],
+      "class": "verb_stative",
+      "gloss": "photolithograph (auto-generated)",
+      "citation_form": "jajada"
+    },
+    "pvd": {
+      "root": [
+        "p",
+        "v",
+        "d"
+      ],
+      "class": "verb_active",
+      "gloss": "photoproduce (auto-generated)",
+      "citation_form": "kapavad"
+    },
+    "hmmch": {
+      "root": [
+        "h",
+        "m",
+        "m",
+        "ch"
+      ],
+      "class": "verb_transitive",
+      "gloss": "phantomize (auto-generated)",
+      "citation_form": "kahammechoko"
+    },
+    "yvvh": {
+      "root": [
+        "y",
+        "v",
+        "v",
+        "h"
+      ],
+      "class": "verb_transitive",
+      "gloss": "phoneticise (auto-generated)",
+      "citation_form": "kayavvehoko"
+    },
+    "mnsj": {
+      "root": [
+        "m",
+        "n",
+        "s",
+        "j"
+      ],
+      "class": "verb_transitive",
+      "gloss": "phosphate (auto-generated)",
+      "citation_form": "kamansejoko"
+    },
+    "ypzhm": {
+      "root": [
+        "y",
+        "p",
+        "zh",
+        "m"
+      ],
+      "class": "verb_transitive",
+      "gloss": "phonemark (auto-generated)",
+      "citation_form": "kayapzhemoko"
+    },
+    "mtfb": {
+      "root": [
+        "m",
+        "t",
+        "f",
+        "b"
+      ],
+      "class": "verb_transitive",
+      "gloss": "pheeze (auto-generated)",
+      "citation_form": "kamatfeboko"
+    },
+    "lkf": {
+      "root": [
+        "l",
+        "k",
+        "f"
+      ],
+      "class": "verb_active",
+      "gloss": "phagocytose (auto-generated)",
+      "citation_form": "kalakaf"
+    },
+    "pngvp": {
+      "root": [
+        "p",
+        "ng",
+        "v",
+        "p"
+      ],
+      "class": "verb_transitive",
+      "gloss": "phlorizinize (auto-generated)",
+      "citation_form": "kapangvepoko"
+    },
+    "vngthn": {
+      "root": [
+        "v",
+        "ng",
+        "th",
+        "n"
+      ],
+      "class": "verb_transitive",
+      "gloss": "photoluminesce (auto-generated)",
+      "citation_form": "kavangthenoko"
+    },
+    "tsjw": {
+      "root": [
+        "t",
+        "s",
+        "j",
+        "w"
+      ],
+      "class": "verb_transitive",
+      "gloss": "photo (auto-generated)",
+      "citation_form": "katasjewoko"
+    },
+    "ygshw": {
+      "root": [
+        "y",
+        "g",
+        "sh",
+        "w"
+      ],
+      "class": "verb_transitive",
+      "gloss": "pharm (auto-generated)",
+      "citation_form": "kayagshewoko"
+    },
+    "shnyg": {
+      "root": [
+        "sh",
+        "n",
+        "y",
+        "g"
+      ],
+      "class": "verb_transitive",
+      "gloss": "photofunctionalize (auto-generated)",
+      "citation_form": "kashanyegoko"
+    },
+    "shwjw": {
+      "root": [
+        "sh",
+        "w",
+        "j",
+        "w"
+      ],
+      "class": "verb_transitive",
+      "gloss": "photoassimilate (auto-generated)",
+      "citation_form": "kashawjewoko"
+    },
+    "ktdhh": {
+      "root": [
+        "k",
+        "t",
+        "dh",
+        "h"
+      ],
+      "class": "verb_transitive",
+      "gloss": "phenotype (auto-generated)",
+      "citation_form": "kakatdhehoko"
+    },
+    "mvwk": {
+      "root": [
+        "m",
+        "v",
+        "w",
+        "k"
+      ],
+      "class": "verb_transitive",
+      "gloss": "photostabilize (auto-generated)",
+      "citation_form": "kamavwekoko"
+    },
+    "vvsm": {
+      "root": [
+        "v",
+        "v",
+        "s",
+        "m"
+      ],
+      "class": "verb_transitive",
+      "gloss": "photocoagulate (auto-generated)",
+      "citation_form": "kavavsemoko"
+    },
+    "fjln": {
+      "root": [
+        "f",
+        "j",
+        "l",
+        "n"
+      ],
+      "class": "verb_transitive",
+      "gloss": "photocapture (auto-generated)",
+      "citation_form": "kafajlenoko"
+    },
+    "fngmw": {
+      "root": [
+        "f",
+        "ng",
+        "m",
+        "w"
+      ],
+      "class": "verb_transitive",
+      "gloss": "photolithoprint (auto-generated)",
+      "citation_form": "kafangmewoko"
+    },
+    "tmmd": {
+      "root": [
+        "t",
+        "m",
+        "m",
+        "d"
+      ],
+      "class": "verb_transitive",
+      "gloss": "phosphoribosylate (auto-generated)",
+      "citation_form": "katammedoko"
+    },
+    "kzmr": {
+      "root": [
+        "k",
+        "z",
+        "m",
+        "r"
+      ],
+      "class": "verb_transitive",
+      "gloss": "phoney (auto-generated)",
+      "citation_form": "kakazmeroko"
+    },
+    "zzchng": {
+      "root": [
+        "z",
+        "z",
+        "ch",
+        "ng"
+      ],
+      "class": "verb_transitive",
+      "gloss": "photoetch (auto-generated)",
+      "citation_form": "kazazchengoko"
     }
   },
   "nouns": {
@@ -36685,6 +37118,28 @@
       "gloss": "hiccups (auto-generated)",
       "gender": "female",
       "citation_form": "dhasomo"
+    },
+    "ychj": {
+      "root": [
+        "y",
+        "ch",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "rly (auto-generated)",
+      "gender": "child",
+      "citation_form": "yachuju"
+    },
+    "lfdh": {
+      "root": [
+        "l",
+        "f",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "rkt (auto-generated)",
+      "gender": "child",
+      "citation_form": "lafudhu"
     }
   },
   "adjectives": {
@@ -41205,6 +41660,106 @@
       "class": "adjective",
       "gloss": "meandering (auto-generated)",
       "citation_form": "thongayaka"
+    },
+    "prdh": {
+      "root": [
+        "p",
+        "r",
+        "dh"
+      ],
+      "class": "adjective",
+      "gloss": "vegetated (auto-generated)",
+      "citation_form": "poradhaka"
+    },
+    "nshh": {
+      "root": [
+        "n",
+        "sh",
+        "h"
+      ],
+      "class": "adjective",
+      "gloss": "vegetal (auto-generated)",
+      "citation_form": "noshahaka"
+    },
+    "zhsng": {
+      "root": [
+        "zh",
+        "s",
+        "ng"
+      ],
+      "class": "adjective",
+      "gloss": "vectographic (auto-generated)",
+      "citation_form": "zhosangaka"
+    },
+    "mdhzh": {
+      "root": [
+        "m",
+        "dh",
+        "zh"
+      ],
+      "class": "adjective",
+      "gloss": "vegetarianist (auto-generated)",
+      "citation_form": "modhazhaka"
+    },
+    "ggl": {
+      "root": [
+        "g",
+        "g",
+        "l"
+      ],
+      "class": "adjective",
+      "gloss": "vegan (auto-generated)",
+      "citation_form": "gogalaka"
+    },
+    "ychs": {
+      "root": [
+        "y",
+        "ch",
+        "s"
+      ],
+      "class": "adjective",
+      "gloss": "veally (auto-generated)",
+      "citation_form": "yochasaka"
+    },
+    "bkr": {
+      "root": [
+        "b",
+        "k",
+        "r"
+      ],
+      "class": "adjective",
+      "gloss": "vectoral (auto-generated)",
+      "citation_form": "bokaraka"
+    },
+    "brh": {
+      "root": [
+        "b",
+        "r",
+        "h"
+      ],
+      "class": "adjective",
+      "gloss": "vegetable (auto-generated)",
+      "citation_form": "borahaka"
+    },
+    "vmh": {
+      "root": [
+        "v",
+        "m",
+        "h"
+      ],
+      "class": "adjective",
+      "gloss": "vectorlike (auto-generated)",
+      "citation_form": "vomahaka"
+    },
+    "nfy": {
+      "root": [
+        "n",
+        "f",
+        "y"
+      ],
+      "class": "adjective",
+      "gloss": "vegecultural (auto-generated)",
+      "citation_form": "nofayaka"
     }
   },
   "adverbs": {
@@ -45616,6 +46171,106 @@
       "class": "adverb",
       "gloss": "qualitively (auto-generated)",
       "citation_form": "nagate"
+    },
+    "ybk": {
+      "root": [
+        "y",
+        "b",
+        "k"
+      ],
+      "class": "adverb",
+      "gloss": "yappingly (auto-generated)",
+      "citation_form": "yabate"
+    },
+    "zshk": {
+      "root": [
+        "z",
+        "sh",
+        "k"
+      ],
+      "class": "adverb",
+      "gloss": "yea (auto-generated)",
+      "citation_form": "zashate"
+    },
+    "zhbs": {
+      "root": [
+        "zh",
+        "b",
+        "s"
+      ],
+      "class": "adverb",
+      "gloss": "yellowly (auto-generated)",
+      "citation_form": "zhabate"
+    },
+    "wzsh": {
+      "root": [
+        "w",
+        "z",
+        "sh"
+      ],
+      "class": "adverb",
+      "gloss": "yeastily (auto-generated)",
+      "citation_form": "wazate"
+    },
+    "dwy": {
+      "root": [
+        "d",
+        "w",
+        "y"
+      ],
+      "class": "adverb",
+      "gloss": "yeomanlike (auto-generated)",
+      "citation_form": "dawate"
+    },
+    "dhdl": {
+      "root": [
+        "dh",
+        "d",
+        "l"
+      ],
+      "class": "adverb",
+      "gloss": "yender (auto-generated)",
+      "citation_form": "dhadate"
+    },
+    "nky": {
+      "root": [
+        "n",
+        "k",
+        "y"
+      ],
+      "class": "adverb",
+      "gloss": "yeap (auto-generated)",
+      "citation_form": "nakate"
+    },
+    "shks": {
+      "root": [
+        "sh",
+        "k",
+        "s"
+      ],
+      "class": "adverb",
+      "gloss": "yer (auto-generated)",
+      "citation_form": "shakate"
+    },
+    "vhw": {
+      "root": [
+        "v",
+        "h",
+        "w"
+      ],
+      "class": "adverb",
+      "gloss": "yeply (auto-generated)",
+      "citation_form": "vahate"
+    },
+    "dhfd": {
+      "root": [
+        "dh",
+        "f",
+        "d"
+      ],
+      "class": "adverb",
+      "gloss": "xylotomically (auto-generated)",
+      "citation_form": "dhafate"
     }
   },
   "colors": {
