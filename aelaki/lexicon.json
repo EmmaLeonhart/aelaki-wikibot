@@ -18146,6 +18146,169 @@
       "class": "verb_transitive",
       "gloss": "photoetch (auto-generated)",
       "citation_form": "kazazchengoko"
+    },
+    "zhtzhj": {
+      "root": [
+        "zh",
+        "t",
+        "zh",
+        "j"
+      ],
+      "class": "verb_transitive",
+      "gloss": "zipwire (auto-generated)",
+      "citation_form": "kazhatzhejoko"
+    },
+    "ngtthv": {
+      "root": [
+        "ng",
+        "t",
+        "th",
+        "v"
+      ],
+      "class": "verb_transitive",
+      "gloss": "zipline (auto-generated)",
+      "citation_form": "kangatthevoko"
+    },
+    "yschv": {
+      "root": [
+        "y",
+        "s",
+        "ch",
+        "v"
+      ],
+      "class": "verb_transitive",
+      "gloss": "zereba (auto-generated)",
+      "citation_form": "kayaschevoko"
+    },
+    "dchdhd": {
+      "root": [
+        "d",
+        "ch",
+        "dh",
+        "d"
+      ],
+      "class": "verb_transitive",
+      "gloss": "zizzle (auto-generated)",
+      "citation_form": "kadachdhedoko"
+    },
+    "skgj": {
+      "root": [
+        "s",
+        "k",
+        "g",
+        "j"
+      ],
+      "class": "verb_transitive",
+      "gloss": "zither (auto-generated)",
+      "citation_form": "kasakgejoko"
+    },
+    "vdhydh": {
+      "root": [
+        "v",
+        "dh",
+        "y",
+        "dh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "zinc (auto-generated)",
+      "citation_form": "kavadhyedhoko"
+    },
+    "ngshshk": {
+      "root": [
+        "ng",
+        "sh",
+        "sh",
+        "k"
+      ],
+      "class": "verb_transitive",
+      "gloss": "zirconiate (auto-generated)",
+      "citation_form": "kangashshekoko"
+    },
+    "tydd": {
+      "root": [
+        "t",
+        "y",
+        "d",
+        "d"
+      ],
+      "class": "verb_transitive",
+      "gloss": "zequals (auto-generated)",
+      "citation_form": "kataydedoko"
+    },
+    "thshjn": {
+      "root": [
+        "th",
+        "sh",
+        "j",
+        "n"
+      ],
+      "class": "verb_transitive",
+      "gloss": "zap (auto-generated)",
+      "citation_form": "kathashjenoko"
+    },
+    "knlg": {
+      "root": [
+        "k",
+        "n",
+        "l",
+        "g"
+      ],
+      "class": "verb_transitive",
+      "gloss": "zest (auto-generated)",
+      "citation_form": "kakanlegoko"
+    },
+    "shk": {
+      "root": [
+        "s",
+        "h",
+        "k"
+      ],
+      "class": "verb_stative",
+      "gloss": "zing (auto-generated)",
+      "citation_form": "sahaka"
+    },
+    "zrdhs": {
+      "root": [
+        "z",
+        "r",
+        "dh",
+        "s"
+      ],
+      "class": "verb_transitive",
+      "gloss": "zeolitise (auto-generated)",
+      "citation_form": "kazardhesoko"
+    },
+    "ynggk": {
+      "root": [
+        "y",
+        "ng",
+        "g",
+        "k"
+      ],
+      "class": "verb_transitive",
+      "gloss": "zareba (auto-generated)",
+      "citation_form": "kayanggekoko"
+    },
+    "ngzdh": {
+      "root": [
+        "ng",
+        "z",
+        "dh"
+      ],
+      "class": "verb_active",
+      "gloss": "zhoozh (auto-generated)",
+      "citation_form": "kangazadh"
+    },
+    "yhmp": {
+      "root": [
+        "y",
+        "h",
+        "m",
+        "p"
+      ],
+      "class": "verb_transitive",
+      "gloss": "zip (auto-generated)",
+      "citation_form": "kayahmepoko"
     }
   },
   "nouns": {
@@ -37140,6 +37303,446 @@
       "gloss": "rkt (auto-generated)",
       "gender": "child",
       "citation_form": "lafudhu"
+    },
+    "thchz": {
+      "root": [
+        "th",
+        "ch",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "cyanobenzoate (auto-generated)",
+      "gender": "female",
+      "citation_form": "thachozo"
+    },
+    "gshz": {
+      "root": [
+        "g",
+        "sh",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "cyanophore (auto-generated)",
+      "gender": "child",
+      "citation_form": "gashuzu"
+    },
+    "zhfb": {
+      "root": [
+        "zh",
+        "f",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "cyanidiophyte (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zhafïfbïf"
+    },
+    "fvsh": {
+      "root": [
+        "f",
+        "v",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "cyberaggression (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "favïfshïf"
+    },
+    "ybz": {
+      "root": [
+        "y",
+        "b",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "cyanomethemoglobin (auto-generated)",
+      "gender": "child",
+      "citation_form": "yabuzu"
+    },
+    "rchk": {
+      "root": [
+        "r",
+        "ch",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "cyathostomin (auto-generated)",
+      "gender": "male",
+      "citation_form": "rachaka"
+    },
+    "tngp": {
+      "root": [
+        "t",
+        "ng",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "cyanoethylation (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "tangïfpïf"
+    },
+    "hchth": {
+      "root": [
+        "h",
+        "ch",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "cyanthropy (auto-generated)",
+      "gender": "child",
+      "citation_form": "hachuthu"
+    },
+    "sshng": {
+      "root": [
+        "s",
+        "sh",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "cyanomethylation (auto-generated)",
+      "gender": "child",
+      "citation_form": "sashungu"
+    },
+    "zjs": {
+      "root": [
+        "z",
+        "j",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "cyanohaemoglobin (auto-generated)",
+      "gender": "child",
+      "citation_form": "zajusu"
+    },
+    "hvj": {
+      "root": [
+        "h",
+        "v",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "cyanography (auto-generated)",
+      "gender": "female",
+      "citation_form": "havojo"
+    },
+    "wsdh": {
+      "root": [
+        "w",
+        "s",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "cyattie (auto-generated)",
+      "gender": "child",
+      "citation_form": "wasudhu"
+    },
+    "djv": {
+      "root": [
+        "d",
+        "j",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "cyanopeptide (auto-generated)",
+      "gender": "male",
+      "citation_form": "dajava"
+    },
+    "pdl": {
+      "root": [
+        "p",
+        "d",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "cyberanarchist (auto-generated)",
+      "gender": "female",
+      "citation_form": "padolo"
+    },
+    "lhj": {
+      "root": [
+        "l",
+        "h",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "cyanol (auto-generated)",
+      "gender": "female",
+      "citation_form": "lahojo"
+    },
+    "fdhd": {
+      "root": [
+        "f",
+        "dh",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "cyanobacterium (auto-generated)",
+      "gender": "child",
+      "citation_form": "fadhudu"
+    },
+    "mpch": {
+      "root": [
+        "m",
+        "p",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "cyanoimine (auto-generated)",
+      "gender": "male",
+      "citation_form": "mapacha"
+    },
+    "lzhf": {
+      "root": [
+        "l",
+        "zh",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "cyanamid (auto-generated)",
+      "gender": "child",
+      "citation_form": "lazhufu"
+    },
+    "wyb": {
+      "root": [
+        "w",
+        "y",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "cyanoacrylate (auto-generated)",
+      "gender": "female",
+      "citation_form": "wayobo"
+    },
+    "vsd": {
+      "root": [
+        "v",
+        "s",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "cyanurate (auto-generated)",
+      "gender": "female",
+      "citation_form": "vasodo"
+    },
+    "ndhdh": {
+      "root": [
+        "n",
+        "dh",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "cyberactivism (auto-generated)",
+      "gender": "male",
+      "citation_form": "nadhadha"
+    },
+    "dhgzh": {
+      "root": [
+        "dh",
+        "g",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "cyanosiphovirus (auto-generated)",
+      "gender": "female",
+      "citation_form": "dhagozho"
+    },
+    "dgr": {
+      "root": [
+        "d",
+        "g",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "cyanoglucoside (auto-generated)",
+      "gender": "child",
+      "citation_form": "daguru"
+    },
+    "tdng": {
+      "root": [
+        "t",
+        "d",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "cyantraniliprole (auto-generated)",
+      "gender": "male",
+      "citation_form": "tadanga"
+    },
+    "fmr": {
+      "root": [
+        "f",
+        "m",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "cyanato (auto-generated)",
+      "gender": "male",
+      "citation_form": "famara"
+    },
+    "ngwzh": {
+      "root": [
+        "ng",
+        "w",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "cyathaspid (auto-generated)",
+      "gender": "male",
+      "citation_form": "ngawazha"
+    },
+    "lyy": {
+      "root": [
+        "l",
+        "y",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "cyanosilylation (auto-generated)",
+      "gender": "child",
+      "citation_form": "layuyu"
+    },
+    "ghn": {
+      "root": [
+        "g",
+        "h",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "cyanometry (auto-generated)",
+      "gender": "female",
+      "citation_form": "gahono"
+    },
+    "yshdh": {
+      "root": [
+        "y",
+        "sh",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "cyberanalyst (auto-generated)",
+      "gender": "male",
+      "citation_form": "yashadha"
+    },
+    "chwch": {
+      "root": [
+        "ch",
+        "w",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "cyanoacetamide (auto-generated)",
+      "gender": "female",
+      "citation_form": "chawocho"
+    },
+    "nchng": {
+      "root": [
+        "n",
+        "ch",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "cyanophyll (auto-generated)",
+      "gender": "female",
+      "citation_form": "nachongo"
+    },
+    "chngp": {
+      "root": [
+        "ch",
+        "ng",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "cyanolichen (auto-generated)",
+      "gender": "child",
+      "citation_form": "changupu"
+    },
+    "rzhd": {
+      "root": [
+        "r",
+        "zh",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "cyanoguanide (auto-generated)",
+      "gender": "male",
+      "citation_form": "razhada"
+    },
+    "mrf": {
+      "root": [
+        "m",
+        "r",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "cyanopsia (auto-generated)",
+      "gender": "male",
+      "citation_form": "marafa"
+    },
+    "bkf": {
+      "root": [
+        "b",
+        "k",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "cyberaggressor (auto-generated)",
+      "gender": "child",
+      "citation_form": "bakufu"
+    },
+    "wthk": {
+      "root": [
+        "w",
+        "th",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "cyanido (auto-generated)",
+      "gender": "child",
+      "citation_form": "wathuku"
+    },
+    "jshdh": {
+      "root": [
+        "j",
+        "sh",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "cyanase (auto-generated)",
+      "gender": "female",
+      "citation_form": "jashodho"
+    },
+    "fbz": {
+      "root": [
+        "f",
+        "b",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "cyanomethyl (auto-generated)",
+      "gender": "child",
+      "citation_form": "fabuzu"
+    },
+    "fks": {
+      "root": [
+        "f",
+        "k",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "cyanolipid (auto-generated)",
+      "gender": "male",
+      "citation_form": "fakasa"
+    },
+    "hjr": {
+      "root": [
+        "h",
+        "j",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "cyberanarchy (auto-generated)",
+      "gender": "female",
+      "citation_form": "hajoro"
     }
   },
   "adjectives": {
@@ -41760,6 +42363,106 @@
       "class": "adjective",
       "gloss": "vegecultural (auto-generated)",
       "citation_form": "nofayaka"
+    },
+    "shtng": {
+      "root": [
+        "sh",
+        "t",
+        "ng"
+      ],
+      "class": "adjective",
+      "gloss": "tubfast (auto-generated)",
+      "citation_form": "shotangaka"
+    },
+    "bsv": {
+      "root": [
+        "b",
+        "s",
+        "v"
+      ],
+      "class": "adjective",
+      "gloss": "tuberiferous (auto-generated)",
+      "citation_form": "bosavaka"
+    },
+    "zhshy": {
+      "root": [
+        "zh",
+        "sh",
+        "y"
+      ],
+      "class": "adjective",
+      "gloss": "tuberculostatic (auto-generated)",
+      "citation_form": "zhoshayaka"
+    },
+    "nggp": {
+      "root": [
+        "ng",
+        "g",
+        "p"
+      ],
+      "class": "adjective",
+      "gloss": "tubbish (auto-generated)",
+      "citation_form": "ngogapaka"
+    },
+    "dzhk": {
+      "root": [
+        "d",
+        "zh",
+        "k"
+      ],
+      "class": "adjective",
+      "gloss": "tuberiform (auto-generated)",
+      "citation_form": "dozhakaka"
+    },
+    "kwn": {
+      "root": [
+        "k",
+        "w",
+        "n"
+      ],
+      "class": "adjective",
+      "gloss": "tuberous (auto-generated)",
+      "citation_form": "kowanaka"
+    },
+    "kdb": {
+      "root": [
+        "k",
+        "d",
+        "b"
+      ],
+      "class": "adjective",
+      "gloss": "tubar (auto-generated)",
+      "citation_form": "kodabaka"
+    },
+    "dhbch": {
+      "root": [
+        "dh",
+        "b",
+        "ch"
+      ],
+      "class": "adjective",
+      "gloss": "tubby (auto-generated)",
+      "citation_form": "dhobachaka"
+    },
+    "dwb": {
+      "root": [
+        "d",
+        "w",
+        "b"
+      ],
+      "class": "adjective",
+      "gloss": "tubeless (auto-generated)",
+      "citation_form": "dowabaka"
+    },
+    "dnn": {
+      "root": [
+        "d",
+        "n",
+        "n"
+      ],
+      "class": "adjective",
+      "gloss": "tuberomammillary (auto-generated)",
+      "citation_form": "donanaka"
     }
   },
   "adverbs": {
@@ -46271,6 +46974,106 @@
       "class": "adverb",
       "gloss": "xylotomically (auto-generated)",
       "citation_form": "dhafate"
+    },
+    "dmn": {
+      "root": [
+        "d",
+        "m",
+        "n"
+      ],
+      "class": "adverb",
+      "gloss": "kittycorner (auto-generated)",
+      "citation_form": "damate"
+    },
+    "lrk": {
+      "root": [
+        "l",
+        "r",
+        "k"
+      ],
+      "class": "adverb",
+      "gloss": "kilometrically (auto-generated)",
+      "citation_form": "larate"
+    },
+    "shzhw": {
+      "root": [
+        "sh",
+        "zh",
+        "w"
+      ],
+      "class": "adverb",
+      "gloss": "kinna (auto-generated)",
+      "citation_form": "shazhate"
+    },
+    "zhnv": {
+      "root": [
+        "zh",
+        "n",
+        "v"
+      ],
+      "class": "adverb",
+      "gloss": "kingly (auto-generated)",
+      "citation_form": "zhanate"
+    },
+    "lbch": {
+      "root": [
+        "l",
+        "b",
+        "ch"
+      ],
+      "class": "adverb",
+      "gloss": "kindheartedly (auto-generated)",
+      "citation_form": "labate"
+    },
+    "dhngs": {
+      "root": [
+        "dh",
+        "ng",
+        "s"
+      ],
+      "class": "adverb",
+      "gloss": "kionedon (auto-generated)",
+      "citation_form": "dhangate"
+    },
+    "rzy": {
+      "root": [
+        "r",
+        "z",
+        "y"
+      ],
+      "class": "adverb",
+      "gloss": "killingly (auto-generated)",
+      "citation_form": "razate"
+    },
+    "ymg": {
+      "root": [
+        "y",
+        "m",
+        "g"
+      ],
+      "class": "adverb",
+      "gloss": "kinaesthetically (auto-generated)",
+      "citation_form": "yamate"
+    },
+    "chkw": {
+      "root": [
+        "ch",
+        "k",
+        "w"
+      ],
+      "class": "adverb",
+      "gloss": "kissably (auto-generated)",
+      "citation_form": "chakate"
+    },
+    "jmz": {
+      "root": [
+        "j",
+        "m",
+        "z"
+      ],
+      "class": "adverb",
+      "gloss": "kinematically (auto-generated)",
+      "citation_form": "jamate"
     }
   },
   "colors": {
