@@ -428,9 +428,11 @@ def create_form_pages(site, entry: dict, run_tag_suffix: str, log_file: str,
                 continue
 
             linked_label = linked_readable_label(label)
+            wc_cat = WORD_CLASS_INFO.get(entry["word_class"], {}).get("category", "Aelaki vocabulary")
             content = (
                 f"'''{surface}''' is the {linked_label} form of [[{lemma_title}|{lemma_display}]].\n\n"
                 f"[[Category:Non-lemmas]]\n"
+                f"[[Category:Non-lemma {wc_cat.lower()}]]\n"
                 f"[[Category:Non-lemma forms {PAGE_VERSION}]]"
             )
 
@@ -1061,9 +1063,11 @@ def upgrade_old_nonlemma_forms(site, lexicon, limit, run_tag_suffix, log_file,
 
             # Rebuild page content with current version
             linked_label = linked_readable_label(label)
+            wc_cat = WORD_CLASS_INFO.get(entry["word_class"], {}).get("category", "Aelaki vocabulary")
             new_content = (
                 f"'''{surface}''' is the {linked_label} form of [[{lemma_title}|{lemma_display}]].\n\n"
                 f"[[Category:Non-lemmas]]\n"
+                f"[[Category:Non-lemma {wc_cat.lower()}]]\n"
                 f"[[Category:Non-lemma forms {PAGE_VERSION}]]"
             )
 
