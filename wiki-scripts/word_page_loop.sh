@@ -34,23 +34,41 @@ esac
 RUN_TAG="[[github:${RUN_PATH}|${CAUSE_TEXT}]]"
 echo "Run tag: ${RUN_TAG}"
 
-# 1. Early operations
+# Helper: update the stage line on the bot's userpage
+stage() {
+  python wiki-scripts/update_bot_status.py --run-tag "${RUN_TAG}" --stage "$1"
+}
+
+# 0. Mark bot as active
 python wiki-scripts/update_bot_status.py --run-tag "${RUN_TAG}"
+
+# 1. Early operations
+stage "Creating wanted categories"
 python wiki-scripts/create_wanted_categories.py --apply --run-tag "${RUN_TAG}"
+
+stage "Deleting unused categories"
 python wiki-scripts/delete_unused_categories.py --apply --run-tag "${RUN_TAG}"
 
 # 1.5 Tag word: pages in Created from Wanted Pages with a non-lemma version
 #     category so the upgrade loop picks them up.
+stage "Tagging wanted word pages"
 python wiki-scripts/tag_wanted_word_pages.py --apply --run-tag "${RUN_TAG}"
 
 # 1.6 Normalize lexicon (redistribute inanimate nouns, fix roots)
+stage "Normalizing lexicon"
 python wiki-scripts/normalize_lexicon.py
 
 # 2. Upgrade outdated lemmas + Create new lemmas
+stage "Upgrading and creating lemma pages"
 python wiki-scripts/create_word_pages.py --apply --limit "$EDIT_LIMIT" --phase lemma --run-tag "${RUN_TAG}"
 
 # 3. Add to dictionary (new words for next run)
+stage "Generating new random words"
 python wiki-scripts/generate_random_words.py --count 100
 
 # 4. Create 100 new non-lemma forms + Upgrade 100 old non-lemma forms
+stage "Creating and upgrading non-lemma form pages"
 python wiki-scripts/create_word_pages.py --apply --limit "$EDIT_LIMIT" --phase nonlemma --run-tag "${RUN_TAG}"
+
+# 5. Mark bot as inactive
+python wiki-scripts/update_bot_status.py --run-tag "${RUN_TAG}" --finish
