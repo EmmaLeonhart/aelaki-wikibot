@@ -37,6 +37,7 @@ echo "Run tag: ${RUN_TAG}"
 # 1. Early operations
 python wiki-scripts/update_bot_status.py --run-tag "${RUN_TAG}"
 python wiki-scripts/create_wanted_categories.py --apply --run-tag "${RUN_TAG}"
+python wiki-scripts/delete_unused_categories.py --apply --run-tag "${RUN_TAG}"
 
 # 1.5 Tag word: pages in Created from Wanted Pages with a non-lemma version
 #     category so the upgrade loop picks them up.
