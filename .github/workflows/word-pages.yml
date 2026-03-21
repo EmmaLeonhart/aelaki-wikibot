@@ -8,8 +8,7 @@ on:
       - "**/*.state"
       - "grammar/**"
   schedule:
-    # Run every hour to keep grammar sync fresh and avoid conflicts
-    - cron: "0 * * * *"
+    - cron: "0 0 * * *"
 
 permissions:
   contents: write
