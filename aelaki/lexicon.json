@@ -18741,6 +18741,436 @@
       "class": "verb_transitive",
       "gloss": "vomit (auto-generated)",
       "citation_form": "kalakbedoko"
+    },
+    "ywv": {
+      "root": [
+        "y",
+        "w",
+        "v"
+      ],
+      "class": "verb_active",
+      "gloss": "foray (auto-generated)",
+      "citation_form": "kayawav"
+    },
+    "dgk": {
+      "root": [
+        "d",
+        "g",
+        "k"
+      ],
+      "class": "verb_active",
+      "gloss": "forbid (auto-generated)",
+      "citation_form": "kadagak"
+    },
+    "dshmp": {
+      "root": [
+        "d",
+        "sh",
+        "m",
+        "p"
+      ],
+      "class": "verb_transitive",
+      "gloss": "foof (auto-generated)",
+      "citation_form": "kadashmepoko"
+    },
+    "wswzh": {
+      "root": [
+        "w",
+        "s",
+        "w",
+        "zh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "foliate (auto-generated)",
+      "citation_form": "kawaswezhoko"
+    },
+    "vkh": {
+      "root": [
+        "v",
+        "k",
+        "h"
+      ],
+      "class": "verb_active",
+      "gloss": "forecondemn (auto-generated)",
+      "citation_form": "kavakah"
+    },
+    "vydth": {
+      "root": [
+        "v",
+        "y",
+        "d",
+        "th"
+      ],
+      "class": "verb_transitive",
+      "gloss": "forbleed (auto-generated)",
+      "citation_form": "kavaydethoko"
+    },
+    "shvtr": {
+      "root": [
+        "sh",
+        "v",
+        "t",
+        "r"
+      ],
+      "class": "verb_transitive",
+      "gloss": "fordrive (auto-generated)",
+      "citation_form": "kashavteroko"
+    },
+    "srddh": {
+      "root": [
+        "s",
+        "r",
+        "d",
+        "dh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "forebar (auto-generated)",
+      "citation_form": "kasardedhoko"
+    },
+    "pvdhy": {
+      "root": [
+        "p",
+        "v",
+        "dh",
+        "y"
+      ],
+      "class": "verb_transitive",
+      "gloss": "footfault (auto-generated)",
+      "citation_form": "kapavdheyoko"
+    },
+    "zlchdh": {
+      "root": [
+        "z",
+        "l",
+        "ch",
+        "dh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "forechoose (auto-generated)",
+      "citation_form": "kazalchedhoko"
+    },
+    "sljb": {
+      "root": [
+        "s",
+        "l",
+        "j",
+        "b"
+      ],
+      "class": "verb_transitive",
+      "gloss": "folly (auto-generated)",
+      "citation_form": "kasaljeboko"
+    },
+    "jpchsh": {
+      "root": [
+        "j",
+        "p",
+        "ch",
+        "sh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "forebring (auto-generated)",
+      "citation_form": "kajapcheshoko"
+    },
+    "ngbchy": {
+      "root": [
+        "ng",
+        "b",
+        "ch",
+        "y"
+      ],
+      "class": "verb_transitive",
+      "gloss": "fordread (auto-generated)",
+      "citation_form": "kangabcheyoko"
+    },
+    "jvhv": {
+      "root": [
+        "j",
+        "v",
+        "h",
+        "v"
+      ],
+      "class": "verb_transitive",
+      "gloss": "forcut (auto-generated)",
+      "citation_form": "kajavhevoko"
+    },
+    "rvp": {
+      "root": [
+        "r",
+        "v",
+        "p"
+      ],
+      "class": "verb_active",
+      "gloss": "forban (auto-generated)",
+      "citation_form": "karavap"
+    },
+    "ngkzy": {
+      "root": [
+        "ng",
+        "k",
+        "z",
+        "y"
+      ],
+      "class": "verb_transitive",
+      "gloss": "forebear (auto-generated)",
+      "citation_form": "kangakzeyoko"
+    },
+    "hchzf": {
+      "root": [
+        "h",
+        "ch",
+        "z",
+        "f"
+      ],
+      "class": "verb_transitive",
+      "gloss": "follow (auto-generated)",
+      "citation_form": "kahachzefoko"
+    },
+    "pspw": {
+      "root": [
+        "p",
+        "s",
+        "p",
+        "w"
+      ],
+      "class": "verb_transitive",
+      "gloss": "fond (auto-generated)",
+      "citation_form": "kapaspewoko"
+    },
+    "lynt": {
+      "root": [
+        "l",
+        "y",
+        "n",
+        "t"
+      ],
+      "class": "verb_transitive",
+      "gloss": "followe (auto-generated)",
+      "citation_form": "kalaynetoko"
+    },
+    "kjy": {
+      "root": [
+        "k",
+        "j",
+        "y"
+      ],
+      "class": "verb_active",
+      "gloss": "forebode (auto-generated)",
+      "citation_form": "kakajay"
+    },
+    "shwdl": {
+      "root": [
+        "sh",
+        "w",
+        "d",
+        "l"
+      ],
+      "class": "verb_transitive",
+      "gloss": "forebusy (auto-generated)",
+      "citation_form": "kashawdeloko"
+    },
+    "zhwzh": {
+      "root": [
+        "zh",
+        "w",
+        "zh"
+      ],
+      "class": "verb_stative",
+      "gloss": "forcurse (auto-generated)",
+      "citation_form": "zhawazha"
+    },
+    "swd": {
+      "root": [
+        "s",
+        "w",
+        "d"
+      ],
+      "class": "verb_stative",
+      "gloss": "foosther (auto-generated)",
+      "citation_form": "sawada"
+    },
+    "kvngsh": {
+      "root": [
+        "k",
+        "v",
+        "ng",
+        "sh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "forecast (auto-generated)",
+      "citation_form": "kakavngeshoko"
+    },
+    "wdvf": {
+      "root": [
+        "w",
+        "d",
+        "v",
+        "f"
+      ],
+      "class": "verb_transitive",
+      "gloss": "fordote (auto-generated)",
+      "citation_form": "kawadvefoko"
+    },
+    "vnsm": {
+      "root": [
+        "v",
+        "n",
+        "s",
+        "m"
+      ],
+      "class": "verb_transitive",
+      "gloss": "forage (auto-generated)",
+      "citation_form": "kavansemoko"
+    },
+    "shtdk": {
+      "root": [
+        "sh",
+        "t",
+        "d",
+        "k"
+      ],
+      "class": "verb_transitive",
+      "gloss": "fodder (auto-generated)",
+      "citation_form": "kashatdekoko"
+    },
+    "tzhg": {
+      "root": [
+        "t",
+        "zh",
+        "g"
+      ],
+      "class": "verb_active",
+      "gloss": "forecall (auto-generated)",
+      "citation_form": "katazhag"
+    },
+    "yzhvh": {
+      "root": [
+        "y",
+        "zh",
+        "v",
+        "h"
+      ],
+      "class": "verb_transitive",
+      "gloss": "foal (auto-generated)",
+      "citation_form": "kayazhvehoko"
+    },
+    "yzzp": {
+      "root": [
+        "y",
+        "z",
+        "z",
+        "p"
+      ],
+      "class": "verb_transitive",
+      "gloss": "foolproof (auto-generated)",
+      "citation_form": "kayazzepoko"
+    },
+    "bvfr": {
+      "root": [
+        "b",
+        "v",
+        "f",
+        "r"
+      ],
+      "class": "verb_transitive",
+      "gloss": "foin (auto-generated)",
+      "citation_form": "kabavferoko"
+    },
+    "dshshf": {
+      "root": [
+        "d",
+        "sh",
+        "sh",
+        "f"
+      ],
+      "class": "verb_transitive",
+      "gloss": "fool (auto-generated)",
+      "citation_form": "kadashshefoko"
+    },
+    "wvfz": {
+      "root": [
+        "w",
+        "v",
+        "f",
+        "z"
+      ],
+      "class": "verb_transitive",
+      "gloss": "foreclaim (auto-generated)",
+      "citation_form": "kawavfezoko"
+    },
+    "wllth": {
+      "root": [
+        "w",
+        "l",
+        "l",
+        "th"
+      ],
+      "class": "verb_transitive",
+      "gloss": "forecaddie (auto-generated)",
+      "citation_form": "kawallethoko"
+    },
+    "zhcht": {
+      "root": [
+        "zh",
+        "ch",
+        "t"
+      ],
+      "class": "verb_active",
+      "gloss": "footplate (auto-generated)",
+      "citation_form": "kazhachat"
+    },
+    "thzdk": {
+      "root": [
+        "th",
+        "z",
+        "d",
+        "k"
+      ],
+      "class": "verb_transitive",
+      "gloss": "fooster (auto-generated)",
+      "citation_form": "kathazdekoko"
+    },
+    "thdhdb": {
+      "root": [
+        "th",
+        "dh",
+        "d",
+        "b"
+      ],
+      "class": "verb_transitive",
+      "gloss": "footnote (auto-generated)",
+      "citation_form": "kathadhdeboko"
+    },
+    "drds": {
+      "root": [
+        "d",
+        "r",
+        "d",
+        "s"
+      ],
+      "class": "verb_transitive",
+      "gloss": "forbode (auto-generated)",
+      "citation_form": "kadardesoko"
+    },
+    "dhhvzh": {
+      "root": [
+        "dh",
+        "h",
+        "v",
+        "zh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "focus (auto-generated)",
+      "citation_form": "kadhahvezhoko"
+    },
+    "tjy": {
+      "root": [
+        "t",
+        "j",
+        "y"
+      ],
+      "class": "verb_stative",
+      "gloss": "foreappoint (auto-generated)",
+      "citation_form": "tajaya"
     }
   },
   "nouns": {
@@ -38615,6 +39045,446 @@
       "gloss": "oakiness (auto-generated)",
       "gender": "child",
       "citation_form": "mamutu"
+    },
+    "ytb": {
+      "root": [
+        "y",
+        "t",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "dock (auto-generated)",
+      "gender": "child",
+      "citation_form": "yatubu"
+    },
+    "shshp": {
+      "root": [
+        "sh",
+        "sh",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "docetism (auto-generated)",
+      "gender": "female",
+      "citation_form": "shashopo"
+    },
+    "ngjb": {
+      "root": [
+        "ng",
+        "j",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "dobber (auto-generated)",
+      "gender": "male",
+      "citation_form": "ngajaba"
+    },
+    "vkt": {
+      "root": [
+        "v",
+        "k",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "doconazole (auto-generated)",
+      "gender": "male",
+      "citation_form": "vakata"
+    },
+    "zhjsh": {
+      "root": [
+        "zh",
+        "j",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "doating (auto-generated)",
+      "gender": "male",
+      "citation_form": "zhajasha"
+    },
+    "thdp": {
+      "root": [
+        "th",
+        "d",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "docibility (auto-generated)",
+      "gender": "male",
+      "citation_form": "thadapa"
+    },
+    "gthdh": {
+      "root": [
+        "g",
+        "th",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "docimasia (auto-generated)",
+      "gender": "child",
+      "citation_form": "gathudhu"
+    },
+    "vkch": {
+      "root": [
+        "v",
+        "k",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "dockboard (auto-generated)",
+      "gender": "female",
+      "citation_form": "vakocho"
+    },
+    "dhpn": {
+      "root": [
+        "dh",
+        "p",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "dockyard (auto-generated)",
+      "gender": "male",
+      "citation_form": "dhapana"
+    },
+    "thkd": {
+      "root": [
+        "th",
+        "k",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "docblock (auto-generated)",
+      "gender": "male",
+      "citation_form": "thakada"
+    },
+    "thwv": {
+      "root": [
+        "th",
+        "w",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "dobbin (auto-generated)",
+      "gender": "male",
+      "citation_form": "thawava"
+    },
+    "pfl": {
+      "root": [
+        "p",
+        "f",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "docket (auto-generated)",
+      "gender": "child",
+      "citation_form": "pafulu"
+    },
+    "kly": {
+      "root": [
+        "k",
+        "l",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "docetaxel (auto-generated)",
+      "gender": "child",
+      "citation_form": "kaluyu"
+    },
+    "ngjdh": {
+      "root": [
+        "ng",
+        "j",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "dockerin (auto-generated)",
+      "gender": "female",
+      "citation_form": "ngajodho"
+    },
+    "shw": {
+      "root": [
+        "s",
+        "h",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "dobsegna (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "sahïfwïf"
+    },
+    "gkdh": {
+      "root": [
+        "g",
+        "k",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "dobule (auto-generated)",
+      "gender": "female",
+      "citation_form": "gakodho"
+    },
+    "tdhn": {
+      "root": [
+        "t",
+        "dh",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "dobesilate (auto-generated)",
+      "gender": "male",
+      "citation_form": "tadhana"
+    },
+    "wfk": {
+      "root": [
+        "w",
+        "f",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "docks (auto-generated)",
+      "gender": "female",
+      "citation_form": "wafoko"
+    },
+    "mbp": {
+      "root": [
+        "m",
+        "b",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "doberge (auto-generated)",
+      "gender": "male",
+      "citation_form": "mabapa"
+    },
+    "fty": {
+      "root": [
+        "f",
+        "t",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "dockmackie (auto-generated)",
+      "gender": "female",
+      "citation_form": "fatoyo"
+    },
+    "ysn": {
+      "root": [
+        "y",
+        "s",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "dobro (auto-generated)",
+      "gender": "child",
+      "citation_form": "yasunu"
+    },
+    "dhdsh": {
+      "root": [
+        "dh",
+        "d",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "doco (auto-generated)",
+      "gender": "male",
+      "citation_form": "dhadasha"
+    },
+    "wmt": {
+      "root": [
+        "w",
+        "m",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "docility (auto-generated)",
+      "gender": "male",
+      "citation_form": "wamata"
+    },
+    "ldl": {
+      "root": [
+        "l",
+        "d",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "dockwalloper (auto-generated)",
+      "gender": "female",
+      "citation_form": "ladolo"
+    },
+    "vnv": {
+      "root": [
+        "v",
+        "n",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "docosadienoate (auto-generated)",
+      "gender": "female",
+      "citation_form": "vanovo"
+    },
+    "svng": {
+      "root": [
+        "s",
+        "v",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "docarpamine (auto-generated)",
+      "gender": "child",
+      "citation_form": "savungu"
+    },
+    "dvg": {
+      "root": [
+        "d",
+        "v",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "dockization (auto-generated)",
+      "gender": "female",
+      "citation_form": "davogo"
+    },
+    "dhdw": {
+      "root": [
+        "dh",
+        "d",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "docketer (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "dhadïfwïf"
+    },
+    "wthj": {
+      "root": [
+        "w",
+        "th",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "dockman (auto-generated)",
+      "gender": "male",
+      "citation_form": "wathaja"
+    },
+    "thsw": {
+      "root": [
+        "th",
+        "s",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "dob (auto-generated)",
+      "gender": "male",
+      "citation_form": "thasawa"
+    },
+    "gchsh": {
+      "root": [
+        "g",
+        "ch",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "doater (auto-generated)",
+      "gender": "female",
+      "citation_form": "gachosho"
+    },
+    "dhdhr": {
+      "root": [
+        "dh",
+        "dh",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "dockling (auto-generated)",
+      "gender": "child",
+      "citation_form": "dhadhuru"
+    },
+    "chft": {
+      "root": [
+        "ch",
+        "f",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "dna (auto-generated)",
+      "gender": "male",
+      "citation_form": "chafata"
+    },
+    "zhny": {
+      "root": [
+        "zh",
+        "n",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "docklands (auto-generated)",
+      "gender": "female",
+      "citation_form": "zhanoyo"
+    },
+    "sgw": {
+      "root": [
+        "s",
+        "g",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "dobsonfly (auto-generated)",
+      "gender": "male",
+      "citation_form": "sagawa"
+    },
+    "yfm": {
+      "root": [
+        "y",
+        "f",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "dockside (auto-generated)",
+      "gender": "female",
+      "citation_form": "yafomo"
+    },
+    "rnsh": {
+      "root": [
+        "r",
+        "n",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "docimology (auto-generated)",
+      "gender": "male",
+      "citation_form": "ranasha"
+    },
+    "nshv": {
+      "root": [
+        "n",
+        "sh",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "dobash (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "nashïfvïf"
+    },
+    "wjr": {
+      "root": [
+        "w",
+        "j",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "doability (auto-generated)",
+      "gender": "female",
+      "citation_form": "wajoro"
+    },
+    "thpj": {
+      "root": [
+        "th",
+        "p",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "dobra (auto-generated)",
+      "gender": "child",
+      "citation_form": "thapuju"
     }
   },
   "adjectives": {
@@ -43435,6 +44305,106 @@
       "class": "adjective",
       "gloss": "spadiciform (auto-generated)",
       "citation_form": "zobabaka"
+    },
+    "thmd": {
+      "root": [
+        "th",
+        "m",
+        "d"
+      ],
+      "class": "adjective",
+      "gloss": "zombieproof (auto-generated)",
+      "citation_form": "thomadaka"
+    },
+    "bby": {
+      "root": [
+        "b",
+        "b",
+        "y"
+      ],
+      "class": "adjective",
+      "gloss": "zombiefied (auto-generated)",
+      "citation_form": "bobayaka"
+    },
+    "bjw": {
+      "root": [
+        "b",
+        "j",
+        "w"
+      ],
+      "class": "adjective",
+      "gloss": "zoaeal (auto-generated)",
+      "citation_form": "bojawaka"
+    },
+    "ngtl": {
+      "root": [
+        "ng",
+        "t",
+        "l"
+      ],
+      "class": "adjective",
+      "gloss": "zoarial (auto-generated)",
+      "citation_form": "ngotalaka"
+    },
+    "fgw": {
+      "root": [
+        "f",
+        "g",
+        "w"
+      ],
+      "class": "adjective",
+      "gloss": "zombied (auto-generated)",
+      "citation_form": "fogawaka"
+    },
+    "kdhd": {
+      "root": [
+        "k",
+        "dh",
+        "d"
+      ],
+      "class": "adjective",
+      "gloss": "zombyish (auto-generated)",
+      "citation_form": "kodhadaka"
+    },
+    "vchdh": {
+      "root": [
+        "v",
+        "ch",
+        "dh"
+      ],
+      "class": "adjective",
+      "gloss": "zoledronic (auto-generated)",
+      "citation_form": "vochadhaka"
+    },
+    "kchg": {
+      "root": [
+        "k",
+        "ch",
+        "g"
+      ],
+      "class": "adjective",
+      "gloss": "zoanthoid (auto-generated)",
+      "citation_form": "kochagaka"
+    },
+    "jlz": {
+      "root": [
+        "j",
+        "l",
+        "z"
+      ],
+      "class": "adjective",
+      "gloss": "zoidogamous (auto-generated)",
+      "citation_form": "jolazaka"
+    },
+    "gnw": {
+      "root": [
+        "g",
+        "n",
+        "w"
+      ],
+      "class": "adjective",
+      "gloss": "zoanthropic (auto-generated)",
+      "citation_form": "gonawaka"
     }
   },
   "adverbs": {
@@ -48146,6 +49116,106 @@
       "class": "adverb",
       "gloss": "rumly (auto-generated)",
       "citation_form": "thasate"
+    },
+    "dtl": {
+      "root": [
+        "d",
+        "t",
+        "l"
+      ],
+      "class": "adverb",
+      "gloss": "logometrically (auto-generated)",
+      "citation_form": "datate"
+    },
+    "thdhh": {
+      "root": [
+        "th",
+        "dh",
+        "h"
+      ],
+      "class": "adverb",
+      "gloss": "loftly (auto-generated)",
+      "citation_form": "thadhate"
+    },
+    "rthy": {
+      "root": [
+        "r",
+        "th",
+        "y"
+      ],
+      "class": "adverb",
+      "gloss": "lonesomely (auto-generated)",
+      "citation_form": "rathate"
+    },
+    "zhdf": {
+      "root": [
+        "zh",
+        "d",
+        "f"
+      ],
+      "class": "adverb",
+      "gloss": "logogrammatically (auto-generated)",
+      "citation_form": "zhadate"
+    },
+    "yzhng": {
+      "root": [
+        "y",
+        "zh",
+        "ng"
+      ],
+      "class": "adverb",
+      "gloss": "logistically (auto-generated)",
+      "citation_form": "yazhate"
+    },
+    "shngg": {
+      "root": [
+        "sh",
+        "ng",
+        "g"
+      ],
+      "class": "adverb",
+      "gloss": "loially (auto-generated)",
+      "citation_form": "shangate"
+    },
+    "zhshl": {
+      "root": [
+        "zh",
+        "sh",
+        "l"
+      ],
+      "class": "adverb",
+      "gloss": "lollingly (auto-generated)",
+      "citation_form": "zhashate"
+    },
+    "wpch": {
+      "root": [
+        "w",
+        "p",
+        "ch"
+      ],
+      "class": "adverb",
+      "gloss": "logographically (auto-generated)",
+      "citation_form": "wapate"
+    },
+    "lbm": {
+      "root": [
+        "l",
+        "b",
+        "m"
+      ],
+      "class": "adverb",
+      "gloss": "loamily (auto-generated)",
+      "citation_form": "labate"
+    },
+    "ngthch": {
+      "root": [
+        "ng",
+        "th",
+        "ch"
+      ],
+      "class": "adverb",
+      "gloss": "lobately (auto-generated)",
+      "citation_form": "ngathate"
     }
   },
   "colors": {
