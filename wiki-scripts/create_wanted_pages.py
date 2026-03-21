@@ -23,6 +23,9 @@ CATEGORY_TEXT = "[[Category:Created from Wanted Pages]]"
 EDIT_SUMMARY = "Bot: create stub from Special:WantedPages"
 STATE_FILE = "wanted_pages_done.txt"
 
+# Namespaces that cannot be directly edited (Wikibase entity namespaces)
+SKIP_PREFIXES = {"Property:", "Item:", "Lexeme:"}
+
 # Oldest version hash from version_history.txt — word: pages tagged with this
 # get picked up by the upgrade loop on the next run.
 _OLDEST_HASH = None
@@ -117,6 +120,11 @@ def main():
 
     stats = Progress()
     for i, title in enumerate(wanted, 1):
+        # Skip Wikibase entity namespaces (cannot be directly edited)
+        if any(title.startswith(p) for p in SKIP_PREFIXES):
+            stats.skipped += 1
+            continue
+
         stats.processed += 1
         try:
             created = create_page(site, title, _content_for(title), EDIT_SUMMARY)
