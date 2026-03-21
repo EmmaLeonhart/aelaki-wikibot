@@ -63,6 +63,9 @@ def build_tetra_form(root: TetraRoot, gender: Gender, number: Number,
     """Build a complete tetraconsonantal noun form with person suffix."""
     stem = build_tetra_stem(root, gender, number)
     suffix = PERSON_SUFFIXES[person.value]
+    # Zero stems end in -Vf; drop the trailing f when a person suffix follows
+    if number == Number.ZERO and suffix and stem.endswith("f"):
+        stem = stem[:-1]
     return (stem + suffix).lower()
 
 
@@ -111,6 +114,9 @@ def build_tri_form(root: TriRoot, gender: Gender, number: Number,
     """Build a complete triconsonantal noun form with person suffix."""
     stem = build_tri_stem(root, gender, number)
     suffix = PERSON_SUFFIXES[person.value]
+    # Zero stems end in -Vf; drop the trailing f when a person suffix follows
+    if number == Number.ZERO and suffix and stem.endswith("f"):
+        stem = stem[:-1]
     return (stem + suffix).lower()
 
 

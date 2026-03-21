@@ -5,7 +5,7 @@ They attach to the right edge of predicates or focused constituents.
 """
 
 from .gender import Gender, Number, Person, gender_vowel
-from .phonology import PERSON_CONSONANTS, PERSON_SUFFIXES
+from .phonology import PERSON_CONSONANTS, PERSON_SUFFIXES, VOWELS
 
 
 # ---------------------------------------------------------------------------
@@ -56,19 +56,18 @@ def ki_word_final(person: Person, gender: Gender, number: Number,
     gv = gender_vowel(gender, number)
     base_v = gv.rstrip("f") if gv.endswith("f") else gv
 
+    # Elide the leading vowel when the stem already ends in a vowel
+    stem_ends_in_vowel = stem != "" and stem[-1] in VOWELS
+
     if person == Person.FOURTH:
         if number == Number.SINGULAR:
-            return base_v
+            return "" if stem_ends_in_vowel else base_v
         elif number == Number.COLLECTIVE:
-            return base_v
+            return "" if stem_ends_in_vowel else base_v
         elif number == Number.PLURAL:
             return ""  # 4th person plural word-final is empty
         elif number == Number.ZERO:
             return gv  # includes the f
-
-    # Elide the leading vowel when the stem already ends in a vowel
-    from .phonology import VOWELS
-    stem_ends_in_vowel = stem != "" and stem[-1] in VOWELS
 
     if number == Number.PLURAL:
         if stem_ends_in_vowel:
@@ -144,7 +143,7 @@ def possessive_case(noun_form: str, person: Person, gender: Gender, number: Numb
 
 def instrumental_case(noun_form: str, person: Person, gender: Gender, number: Number) -> str:
     """Mark noun with instrumental case (complex Ki form)."""
-    wf = ki_word_final(person, gender, number)
+    wf = ki_word_final(person, gender, number, stem=noun_form)
     pf = ki_predicate_final(person, gender, number)
     return noun_form + wf + pf
 
@@ -156,6 +155,12 @@ def dative_case(noun_form: str, person: Person, gender: Gender, number: Number) 
 
 
 def speaker_case(noun_form: str, person: Person, gender: Gender, number: Number) -> str:
-    """Mark noun with speaker case (Ki + -oro suffix)."""
+    """Mark noun with speaker case (Ki + -oro suffix).
+
+    The -oro suffix elides its leading 'o' when the Ki syllable already
+    ends in 'o', preventing an unwanted 'oo' long vowel at the boundary.
+    """
     ki = ki_predicate_final(person, gender, number)
-    return noun_form + ki + "oro"
+    combined = noun_form + ki
+    suffix = "ro" if combined and combined[-1] == "o" else "oro"
+    return combined + suffix
