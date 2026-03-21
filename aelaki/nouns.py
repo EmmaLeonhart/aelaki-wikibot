@@ -2,6 +2,16 @@
 
 Handles noun stem building for both triconsonantal and tetraconsonantal
 roots with full gender, number, and person agreement.
+
+Number system
+-------------
+- **Singular**: base template (C1-a-C2-V-C3-V for tri, C1-a-C2-u-C3-V-C4-V for tetra)
+- **Plural**: reduplicates C2-V syllable
+- **Collective**: applies back→front vowel shift to singular
+- **Zero**: inserts -f after each gender vowel (e.g., o→of), marking absence.
+  When a person suffix follows (1st/2nd/3rd), the final -f is dropped so the
+  suffix attaches directly to the vowel (e.g., babofzof + th → babofzoth).
+  4th person (unmarked) keeps the trailing -f.
 """
 
 from __future__ import annotations

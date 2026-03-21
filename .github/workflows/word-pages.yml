@@ -6,8 +6,10 @@ on:
     branches: [master]
     paths-ignore:
       - "**/*.state"
+      - "grammar/**"
   schedule:
-    - cron: "0 0 * * *"
+    # Run every hour to keep grammar sync fresh and avoid conflicts
+    - cron: "0 * * * *"
 
 permissions:
   contents: write
@@ -43,11 +45,11 @@ jobs:
       - name: Create wanted pages
         run: python wiki-scripts/create_wanted_pages.py --apply
 
-      - name: Commit updated state files
+      - name: Commit updated state and grammar files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A -- "*.state" "aelaki/lexicon.json" "wiki-scripts/version_history.txt"
+          git add -A -- "*.state" "aelaki/lexicon.json" "wiki-scripts/version_history.txt" "grammar/"
           if git diff --cached --quiet; then
             echo "No state changes to commit."
             exit 0
@@ -55,6 +57,6 @@ jobs:
           git stash -q
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git stash pop -q
-          git add -A -- "*.state" "aelaki/lexicon.json" "wiki-scripts/version_history.txt"
+          git add -A -- "*.state" "aelaki/lexicon.json" "wiki-scripts/version_history.txt" "grammar/"
           git commit -m "chore(state): update word page bot state [skip ci]"
           git push origin "HEAD:${GITHUB_REF_NAME}"

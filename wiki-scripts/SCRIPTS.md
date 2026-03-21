@@ -29,6 +29,7 @@ Based on patterns from [shintowiki-scripts](https://github.com/Emma-Leonhart/shi
 | `word_page_loop.sh` | **CI** | Orchestrates the word page bot pipeline |
 | `generate_random_words.py` | **CI** | Generates new lexicon entries from Wiktionary lemmas |
 | `create_wanted_categories.py` | **CI** | Creates missing categories from Special:WantedCategories |
+| `sync_grammar_pages.py` | **CI** | Bidirectional sync of grammar docs between wiki and repo |
 | `create_word_articles.py` | Ready | Creates wiki articles for each root word in the lexicon |
 | `sync_lexicon_page.py` | Ready | Syncs the roots summary table to a wiki page |
 
@@ -86,6 +87,51 @@ Shell orchestrator that runs the full pipeline in order:
 4. `create_word_pages.py` — upgrade old pages and create new word pages
 
 Builds a run tag from GitHub Actions environment variables (run ID, event type) for wiki edit summaries.
+
+### sync_grammar_pages.py (CI — GitHub Actions)
+
+> **Why grammar sync exists:** The grammar documentation pages on the wiki are
+> much easier to write and maintain using Claude Code (or any local editor) than
+> by editing directly on the wiki. This script keeps them synced: wiki edits are
+> pulled into the repo, and local edits are pushed back to the wiki automatically
+> each hour.
+
+Bidirectional sync of grammar documentation pages between the wiki
+(`Category:Aelaki grammar` and all subcategories) and the local `grammar/`
+directory.
+
+The grammar pages are synced into the repo so they can be edited with Claude
+Code and other local tools — much easier than editing directly on the wiki for
+longer prose. Edits made locally are pushed back to the wiki automatically by
+the hourly CI pipeline.
+
+**Sync direction:**
+- `--pull`: wiki → local files (fetches latest wikitext)
+- `--push`: local files → wiki (uploads changed files)
+- `--sync`: pull then push (default, used by CI)
+
+**File layout:**
+```
+grammar/
+  _sync_state.json        # title ↔ filename + revid metadata
+  Aelaki_grammar.wiki     # page wikitext
+  Nouns.wiki
+  Verbs.wiki
+  ...
+```
+
+```bash
+# Pull grammar pages from wiki into repo
+python sync_grammar_pages.py --pull
+
+# Push local edits back to wiki
+python sync_grammar_pages.py --push --apply
+
+# Full bidirectional sync (CI default)
+python sync_grammar_pages.py --sync --apply
+```
+
+**State modified:** `grammar/_sync_state.json`, `grammar/*.wiki`
 
 ### create_word_articles.py
 
@@ -160,15 +206,20 @@ wiki-scripts/
 ├── create_wanted_categories.py # Missing category creation (CI)
 ├── create_word_articles.py     # Article generation script
 ├── sync_lexicon_page.py        # Lexicon page sync script
+├── sync_grammar_pages.py       # Grammar page bidirectional sync (CI)
 ├── create_word_pages.state     # Tracks completed word page keys (committed by CI)
 ├── version_history.txt         # Ordered version categories (committed by CI)
 └── *.log                       # Run logs (gitignored)
+
+grammar/                        # Grammar docs synced from wiki (edited locally)
+├── _sync_state.json            # Sync metadata (title ↔ file ↔ revid)
+└── *.wiki                      # Grammar page wikitext files
 
 aelaki/
 └── lexicon.json                # Master lexicon (grown by CI each run)
 
 .github/workflows/
-└── word-pages.yml              # GitHub Actions workflow for word page bot
+└── word-pages.yml              # GitHub Actions workflow (hourly)
 ```
 
 ## GitHub Actions Setup
@@ -176,8 +227,8 @@ aelaki/
 The word page bot runs via `.github/workflows/word-pages.yml`.
 
 **Triggers:**
-- Every push to `master` (except `*.state` file changes)
-- Daily at 00:00 UTC (cron schedule)
+- Every push to `master` (except `*.state` and `grammar/` changes)
+- Hourly at :00 (cron schedule) — keeps grammar sync fresh and avoids conflicts
 - Manual dispatch (`workflow_dispatch`)
 
 **Required repository configuration:**
@@ -197,6 +248,8 @@ The GitHub Actions workflow modifies three files that are committed back to the 
 | `wiki-scripts/create_word_pages.state` | `create_word_pages.py` | Tracks which lexicon keys have already had wiki pages created, one key per line. Prevents duplicate page creation across runs. |
 | `aelaki/lexicon.json` | `generate_random_words.py` | The master lexicon. Each CI run fetches ~100 random English words from Wiktionary and generates new Aelaki entries (roots, citation forms, glosses). New entries are appended to the appropriate section (nouns, verbs, adjectives, adverbs). |
 | `wiki-scripts/version_history.txt` | `create_word_pages.py` | Ordered list of version category names (e.g. `Words fb8fd09`). Each entry corresponds to a git commit hash. Used to track which word pages need upgrading when the page template changes. |
+| `grammar/*.wiki` | `sync_grammar_pages.py` | Grammar documentation pages pulled from `Category:Aelaki grammar` (recursive). Edited locally with Claude Code and pushed back to the wiki. |
+| `grammar/_sync_state.json` | `sync_grammar_pages.py` | Metadata mapping page titles to filenames and wiki revision IDs, used to detect changes on either side. |
 
 ### How the state cycle works
 
@@ -210,11 +263,13 @@ The GitHub Actions workflow modifies three files that are committed back to the 
    - **Phase 1 (Upgrade):** Reads `version_history.txt` to find word pages tagged with older commit hashes. Regenerates those pages with the current template and re-tags them with the current commit's version category. Up to `WIKI_EDIT_LIMIT` pages are upgraded per run.
    - **Phase 2 (Create):** Iterates the lexicon alphabetically, skipping keys already listed in `create_word_pages.state`. Creates new `word:LEMMA` pages on the wiki and appends each completed key to the state file. Up to `WIKI_EDIT_LIMIT` new pages are created per run.
 
-5. **Commit step:** After all scripts finish, the workflow stages `*.state`, `aelaki/lexicon.json`, and `wiki-scripts/version_history.txt`, then commits and pushes with the message `chore(state): update word page bot state [skip ci]`.
+5. **`sync_grammar_pages.py`** runs bidirectional sync: first pulls any wiki-side edits to `Category:Aelaki grammar` pages into `grammar/*.wiki`, then pushes any locally-edited files back to the wiki.
+
+6. **Commit step:** After all scripts finish, the workflow stages `*.state`, `aelaki/lexicon.json`, `wiki-scripts/version_history.txt`, and `grammar/`, then commits and pushes with the message `chore(state): update word page bot state [skip ci]`.
 
 ### Concurrency and safety
 
 - The workflow uses `concurrency: { group: word-page-bot, cancel-in-progress: false }` to ensure only one instance runs at a time without cancelling in-progress runs.
-- The `paths-ignore: ["**/*.state"]` filter prevents the state commit from re-triggering the workflow.
+- The `paths-ignore: ["**/*.state", "grammar/**"]` filter prevents the state commit from re-triggering the workflow.
 - `WIKI_EDIT_LIMIT` (default 100) caps the total wiki edits per run to stay within Miraheze rate limits.
 - All wiki edits use a 1.5-second throttle between API calls.
