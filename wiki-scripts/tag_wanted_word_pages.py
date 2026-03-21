@@ -23,8 +23,8 @@ VERSION_HISTORY = os.path.join(SCRIPT_DIR, "version_history.txt")
 SOURCE_CATEGORY = "Created from Wanted Pages"
 NONLEMMA_CAT_RE = re.compile(r"\[\[Category:Non-lemma forms [^\]]+\]\]")
 
-# Batch size for API content fetches (MediaWiki max is 50 for bots)
-BATCH_SIZE = 50
+# Batch size for API content fetches
+BATCH_SIZE = 100
 
 
 def _get_oldest_hash() -> str:
