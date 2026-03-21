@@ -38,7 +38,11 @@
       "Bash(cd /c/Users/Immanuelle/Documents/Github/aelaki-merged && gh run view 22744226461 2>&1)",
       "Bash(cd /c/Users/Immanuelle/Documents/Github/aelaki-merged && gh run view 22740949689 2>&1)",
       "Bash(python3:*)",
-      "Bash(gh run:*)"
+      "Bash(gh run:*)",
+      "Bash(gh api:*)",
+      "Read(//c/tmp/**)",
+      "Bash(unzip -o /tmp/run_logs.zip -d /tmp/run_logs)",
+      "Bash(unzip -o /tmp/failed_logs.zip -d /tmp/failed_logs)"
     ]
   }
 }
