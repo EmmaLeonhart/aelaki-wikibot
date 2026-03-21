@@ -4,23 +4,30 @@ delete_unused_categories.py
 ============================
 Deletes empty categories listed on Special:UnusedCategories.
 
+Tries page.delete() first; if the bot lacks delete rights, falls back to
+blanking the page so it can be cleaned up by an admin.
+
 Usage:
     python delete_unused_categories.py --apply --run-tag "..."
 """
 import argparse
 import os
 import sys
+import time
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 sys.path.insert(0, os.path.dirname(__file__))
 
-from utils import connect, append_log, Progress
+from utils import connect, safe_save, append_log, Progress
 from config import THROTTLE
-
-import time
 
 SCRIPT_DIR = os.path.dirname(__file__)
 DEFAULT_LOG_FILE = os.path.join(SCRIPT_DIR, "delete_unused_categories.log")
+
+# Categories that should never be removed even if empty
+PROTECTED = {
+    "Bot created categories",
+}
 
 
 def get_unused_categories(site):
@@ -48,6 +55,13 @@ def get_unused_categories(site):
     return results
 
 
+def category_name(title):
+    """Strip 'Category:' prefix if present."""
+    if title.startswith("Category:"):
+        return title[len("Category:"):]
+    return title
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Delete empty categories from Special:UnusedCategories."
@@ -72,38 +86,59 @@ def main():
     print(f"  {len(unused)} unused categories found.", flush=True)
 
     progress = Progress()
+    deleted_count = 0
 
     for title in unused:
-        if args.limit and progress.created >= args.limit:
+        if args.limit and deleted_count >= args.limit:
             print(f"\nReached limit of {args.limit}.", flush=True)
             break
+
+        name = category_name(title)
+        if name in PROTECTED:
+            print(f"  PROTECTED: [[{title}]]", flush=True)
+            progress.skipped += 1
+            continue
 
         progress.processed += 1
         page = site.pages[title]
 
         if not page.exists:
+            print(f"  SKIP (page gone): [[{title}]]", flush=True)
             progress.skipped += 1
             continue
 
         if not args.apply:
             print(f"  WOULD DELETE: [[{title}]]", flush=True)
-            progress.created += 1
-        else:
+            deleted_count += 1
+            continue
+
+        # Try actual deletion first, fall back to blanking
+        try:
+            page.delete(reason=f"Bot: delete unused category{run_tag_suffix}")
+            time.sleep(THROTTLE)
+            print(f"  DELETED: [[{title}]]", flush=True)
+            deleted_count += 1
+            append_log(args.log_file, {"title": title, "status": "deleted"})
+        except Exception as del_err:
+            # If delete fails (e.g. no permission), blank the page instead
+            print(f"  Delete failed ({del_err}), blanking instead...", flush=True)
             try:
-                page.delete(reason=f"Bot: delete unused category{run_tag_suffix}")
-                time.sleep(THROTTLE)
-                print(f"  DELETED: [[{title}]]", flush=True)
-                progress.created += 1
-                append_log(args.log_file, {
-                    "title": title, "status": "deleted",
-                })
-            except Exception as e:
-                print(f"  ERROR on [[{title}]]: {e}", flush=True)
+                saved = safe_save(page, "",
+                                  summary=f"Bot: blank unused category (no delete permission){run_tag_suffix}")
+                if saved:
+                    print(f"  BLANKED: [[{title}]]", flush=True)
+                    deleted_count += 1
+                    append_log(args.log_file, {"title": title, "status": "blanked"})
+                else:
+                    progress.skipped += 1
+            except Exception as blank_err:
+                print(f"  ERROR on [[{title}]]: {blank_err}", flush=True)
                 progress.errors += 1
                 append_log(args.log_file, {
-                    "title": title, "status": "error", "error": str(e),
+                    "title": title, "status": "error", "error": str(blank_err),
                 })
 
+    progress.created = deleted_count
     print(f"\nDone. {progress.summary()}")
 
 
