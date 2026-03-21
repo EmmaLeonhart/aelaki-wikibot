@@ -70,5 +70,9 @@ python wiki-scripts/generate_random_words.py --count 100
 stage "Creating and upgrading non-lemma form pages"
 python wiki-scripts/create_word_pages.py --apply --limit "$EDIT_LIMIT" --phase nonlemma --run-tag "${RUN_TAG}"
 
-# 5. Mark bot as inactive
+# 5. Sync grammar pages (bidirectional: pull wiki edits, push local edits)
+stage "Syncing grammar pages"
+python wiki-scripts/sync_grammar_pages.py --sync --apply --run-tag "${RUN_TAG}"
+
+# 6. Mark bot as inactive
 python wiki-scripts/update_bot_status.py --run-tag "${RUN_TAG}" --finish

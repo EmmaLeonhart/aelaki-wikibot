@@ -1,7 +1,20 @@
-"""Ki-syllable system and person agreement tables for Aelaki.
+"""Ki-syllable system, person agreement, and case marking for Aelaki.
 
 The Ki system provides ~50 clitics encoding person, gender, and number.
 They attach to the right edge of predicates or focused constituents.
+
+Two Ki positions exist:
+- **Predicate-final** (free clitic): PersonConsonant + GenderVowel (e.g., tho, jo)
+- **Word-final** (bound): GenderVowel + PersonConsonant + GenderVowel, with the
+  leading vowel elided when the stem already ends in a vowel.
+
+Case system (built from Ki syllables):
+- Agent: stem + predicate-final Ki
+- Patient: unmarked (just the bare noun with person suffix)
+- Possessive: stem + predicate-final Ki + -l
+- Instrumental: stem + word-final Ki + predicate-final Ki
+- Dative: stem + predicate-final Ki + -n
+- Speaker: stem + predicate-final Ki + -oro (elides to -ro after -o)
 """
 
 from .gender import Gender, Number, Person, gender_vowel
