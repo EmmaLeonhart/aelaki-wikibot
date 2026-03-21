@@ -90,7 +90,10 @@ def realize_adjective(
     if evid_suffix:
         stem = stem + evid_suffix
 
-    # Agreement: GV + PersonConsonant + GV
+    # Agreement: GV + PersonConsonant + GV (singular)
+    #            GV + PC + GV + PC + GV   (plural — reduplicate PC+GV)
     agreement = gv + pc + gv
+    if noun_number == Number.PLURAL:
+        agreement = agreement + pc + gv
 
     return day_prefix + stem + agreement
