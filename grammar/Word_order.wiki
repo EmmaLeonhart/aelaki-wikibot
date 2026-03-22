@@ -1,0 +1,41 @@
+[[Category:Aelaki grammar]]
+
+== Historical baseline ==
+Classical [[Aelaki]] texts are parsed as '''Subject-Verb-Object''' (SVO). However, modern speech is almost entirely '''pro-drop''', so the finite verb tends to surface first. The default spoken order is therefore '''V(S)(O)''', with arguments recovered from [[Ki_syllables|Ki clitics]] or context.
+
+== Argument marking with Ki placement ==
+{| class="wikitable"
+! Verb type !! Prefix Ki (left of stem) !! Suffix Ki (right of stem)
+|-
+| '''Transitive''' || subject || object
+|-
+| '''Intransitive (active)''' || subject || –
+|-
+| '''Intransitive (stative)''' || – || subject
+|}
+
+== Imperative template ==
+[[Imperative]]s historically employed '''S-O-V''' order. In modern usage they retain a frozen morphology:
+
+: [SUBJ-Ki][OBJ-Ki]-VERB
+
+This pattern is now the default 1st-person futurative:
+
+: '''Thu-bal-zar''' "Let '''me''' catch '''two''' (fish)!"
+
+== Pragmatic notes ==
+* First-person speakers strongly prefer the [[Visual|visual past]] for narration of completed actions
+* Except in humorous or self-deprecating references, one avoids assigning oneself the [[Mythic|mythical past]]
+
+== Case hierarchy ==
+When a verb agrees with multiple arguments, a hierarchy determines which gets the Ki slot:
+
+'''[[Agent]]''' > '''[[Dative]]''' > '''[[Patient]]''' > '''[[Instrumental]]''' > '''[[Possessive]]''' > '''[[Speaker]]'''
+
+The [[Speaker]] case should be indicated with the speaker auxiliary verb if it is overwritten by a higher-ranked case.
+
+== See also ==
+* [[Ki_syllables]]
+* [[Imperative]]
+* [[Agent]]
+* [[Patient]]
