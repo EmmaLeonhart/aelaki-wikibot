@@ -10,7 +10,7 @@ from enum import Enum
 from dataclasses import dataclass
 
 from .roots import TriRoot
-from .phonology import apply_umlaut
+from .phonology import apply_umlaut, degeminate
 
 
 class AdverbDegree(Enum):
@@ -97,4 +97,4 @@ def realize_adverb(
     Template: [day_prefix] + stem + suffix
     """
     stem = build_adverb_stem(root, v1, v2, degree)
-    return tense.day_prefix + stem + tense.adv_suffix
+    return degeminate(tense.day_prefix + stem + tense.adv_suffix)

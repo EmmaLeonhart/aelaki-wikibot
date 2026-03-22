@@ -78,11 +78,15 @@ python wiki-scripts/create_wanted_pages.py --apply --run-tag "${RUN_TAG}"
 stage "Updating list of Aelaki roots"
 python wiki-scripts/sync_roots_list.py --apply --run-tag "${RUN_TAG}"
 
-# 7. Sync grammar pages (bidirectional: pull wiki edits, push local edits)
+# 7. Update git commit log page
+stage "Updating git commit log"
+python wiki-scripts/sync_commit_log.py --apply --run-tag "${RUN_TAG}"
+
+# 8. Sync grammar pages (bidirectional: pull wiki edits, push local edits)
 stage "Syncing grammar pages"
 python wiki-scripts/sync_grammar_pages.py --sync --apply --run-tag "${RUN_TAG}"
 
-# 8. Delete orphaned pages (only runs in 2027+)
+# 9. Delete orphaned pages (only runs in 2027+)
 stage "Cleaning orphaned pages"
 python wiki-scripts/delete_orphaned_pages.py --apply --max-edits "$EDIT_LIMIT" --run-tag "${RUN_TAG}"
 

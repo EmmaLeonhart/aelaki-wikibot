@@ -11,7 +11,7 @@ from __future__ import annotations
 from enum import Enum
 
 from .gender import Gender, Number, Person, gender_vowel
-from .phonology import PERSON_CONSONANTS, VOWELS, apply_umlaut
+from .phonology import PERSON_CONSONANTS, VOWELS, apply_umlaut, degeminate
 from .roots import TriRoot
 
 
@@ -103,4 +103,4 @@ def realize_adjective(
         if noun_number == Number.PLURAL:
             agreement = agreement + pc + gv
 
-    return day_prefix + stem + agreement
+    return degeminate(day_prefix + stem + agreement)
