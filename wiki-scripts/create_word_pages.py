@@ -1035,25 +1035,25 @@ def upgrade_old_nonlemma_forms(site, lexicon, limit, run_tag_suffix, log_file,
                 continue
 
             surface = page.name.split(":", 1)[1]
-            try:
-                page_text = page.text()
-            except Exception:
-                continue
 
-            # Parse lemma reference: "form of [[word:LEMMA|DISPLAY]]"
-            match = re.search(r"form of \[\[(word:[^|\]]+)\|([^\]]+)\]\]", page_text)
-            if not match:
-                print(f"    SKIP (can't parse lemma): [[{page.name}]]", flush=True)
-                continue
+            # Find parent lemma via backlinks (what links here)
+            lemma_title = None
+            key = None
+            entry = None
+            for bl in page.backlinks():
+                if bl.name.lower().startswith("word:"):
+                    k, e = find_entry_by_page_title(lexicon, bl.name)
+                    if e:
+                        lemma_title = bl.name
+                        key = k
+                        entry = e
+                        break
 
-            lemma_title = match.group(1)
-            lemma_display = match.group(2)
-
-            # Find lexicon entry
-            key, entry = find_entry_by_page_title(lexicon, lemma_title)
             if not entry:
-                print(f"    SKIP (no lexicon match for {lemma_title}): [[{page.name}]]", flush=True)
+                print(f"    SKIP (no lemma backlink): [[{page.name}]]", flush=True)
                 continue
+
+            lemma_display = lemma_title.split(":", 1)[1] if ":" in lemma_title else lemma_title
 
             # Find the label for this surface form
             all_forms = collect_all_forms(entry)
