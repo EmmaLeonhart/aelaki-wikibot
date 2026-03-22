@@ -29,7 +29,8 @@ Based on: https://github.com/Emma-Leonhart/shintowiki-scripts/
   - Stale entries accumulate when keys are renamed (e.g. `dzhbhr` → `jbhr`) — old key stays in state forever
   - If state is lost (crash before commit), the only cost is re-checking keys via `page.exists` API calls — slower but not destructive
   - Could potentially be eliminated entirely (go stateless, rely on `page.exists`) or rebuilt from wiki categories each run like `version_history.txt`
-  - Need to decide: is the speed optimization worth the statefulness risk, or should we go fully stateless?
+  - Not a serious issue — the file is a speed optimization, not a correctness requirement
+  - Proposed fix: add an annual (or one-time) reconciliation step that rebuilds the state file from `page.exists` checks, clearing out stale entries and adding missing ones. Similar to how `version_history.txt` is rebuilt from git log each run, but less frequently since it requires API calls for every lexicon key.
 - [ ] General audit of all pipeline state files and their failure modes — `word_page_loop.sh` has documentation of what each step writes, but need to verify this stays accurate as the pipeline evolves
 
 ### Known Issues (wiki under maintenance)
