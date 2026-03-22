@@ -20,7 +20,7 @@ SCRIPT_DIR = os.path.dirname(__file__)
 VERSION_HISTORY = os.path.join(SCRIPT_DIR, "version_history.txt")
 
 CATEGORY_TEXT = "[[Category:Created from Wanted Pages]]"
-EDIT_SUMMARY = "Bot: create stub from Special:WantedPages"
+EDIT_SUMMARY_BASE = "Bot: create stub from Special:WantedPages"
 STATE_FILE = "wanted_pages_done.txt"
 
 # Namespaces that cannot be directly edited (Wikibase entity namespaces)
@@ -100,6 +100,7 @@ def fetch_wanted_pages(site) -> list[str]:
 def main():
     parser = argparse.ArgumentParser(description="Create pages from Special:WantedPages")
     parser.add_argument("--apply", action="store_true", help="Actually create pages (default is dry-run)")
+    parser.add_argument("--run-tag", default="", help="Wiki-formatted run tag for edit summaries.")
     args = parser.parse_args()
 
     site = connect()
@@ -118,6 +119,9 @@ def main():
         print(f"\nTotal: {len(wanted)} pages")
         return
 
+    run_tag_suffix = f" {args.run_tag}" if args.run_tag else ""
+    edit_summary = f"{EDIT_SUMMARY_BASE}{run_tag_suffix}"
+
     stats = Progress()
     for i, title in enumerate(wanted, 1):
         # Skip Wikibase entity namespaces (cannot be directly edited)
@@ -127,7 +131,7 @@ def main():
 
         stats.processed += 1
         try:
-            created = create_page(site, title, _content_for(title), EDIT_SUMMARY)
+            created = create_page(site, title, _content_for(title), edit_summary)
             if created:
                 stats.created += 1
                 print(f"  [{i}/{len(wanted)}] Created: {title}", flush=True)
