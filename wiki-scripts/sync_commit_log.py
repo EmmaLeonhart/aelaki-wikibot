@@ -55,15 +55,18 @@ def generate_page(commits: list[dict]) -> str:
         "categories (e.g. <nowiki>[[Category:Words abc1234]]</nowiki>).",
         "",
         '{| class="wikitable"',
-        "! Date !! Hash !! Message",
+        "! Date !! Hash !! Lemma category !! Non-lemma category !! Message",
     ]
 
     for c in commits:
         url = f"{REPO_URL}/commit/{c['hash']}"
         date = c["date"].split(" ")[0]  # just YYYY-MM-DD
+        short = c["short"]
+        lemma_cat = f"[[:Category:Words {short}|Words {short}]]"
+        nonlemma_cat = f"[[:Category:Non-lemma forms {short}|Non-lemma {short}]]"
         # Escape wiki markup in subject
         subj = c["subject"].replace("|", "{{!}}").replace("[[", "<nowiki>[[</nowiki>")
-        lines.append(f"|-\n| {date} || [{url} {c['short']}] || {subj}")
+        lines.append(f"|-\n| {date} || [{url} {short}] || {lemma_cat} || {nonlemma_cat} || {subj}")
 
     lines.append("|}")
     lines.append("")
