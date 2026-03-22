@@ -1050,7 +1050,21 @@ def upgrade_old_nonlemma_forms(site, lexicon, limit, run_tag_suffix, log_file,
                         break
 
             if not entry:
-                print(f"    SKIP (no lemma backlink): [[{page.name}]]", flush=True)
+                # No lemma links here — tag as orphaned
+                orphan_content = (
+                    f"'''{surface}''' is an orphaned non-lemma form with no parent lemma.\n\n"
+                    f"[[Category:Orphaned non-lemmas]]\n"
+                    f"[[Category:Non-lemma forms {PAGE_VERSION}]]"
+                )
+                try:
+                    saved = safe_save(page, orphan_content,
+                                      summary=f"Bot: tag orphaned non-lemma{run_tag_suffix}")
+                    if saved:
+                        print(f"    ORPHANED: [[{page.name}]]", flush=True)
+                        upgraded_this_cat += 1
+                        total_upgraded += 1
+                except Exception as e:
+                    print(f"    ERROR tagging orphan [[{page.name}]]: {e}", flush=True)
                 continue
 
             lemma_display = lemma_title.split(":", 1)[1] if ":" in lemma_title else lemma_title
