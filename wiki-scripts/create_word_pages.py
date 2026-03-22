@@ -484,6 +484,8 @@ def generate_active_agreement(entry) -> list[tuple[str, str]]:
     root = entry["root"]
     forms = []
     for g in Gender:
+        if g == Gender.INANIMATE:
+            continue  # inanimate nouns cannot be agents of active verbs
         for n in Number:
             for p in Person:
                 label = f"{g.value}.{n.value}.{p.name.lower()}"
@@ -503,6 +505,8 @@ def generate_stative_agreement(entry) -> list[tuple[str, str]]:
     root = entry["root"]
     forms = []
     for g in Gender:
+        if g == Gender.INANIMATE:
+            continue  # inanimate nouns cannot be subjects of stative verbs
         for n in Number:
             for p in Person:
                 label = f"{g.value}.{n.value}.{p.name.lower()}"
@@ -522,6 +526,8 @@ def generate_transitive_subject_agreement(entry) -> list[tuple[str, str]]:
     root = entry["root"]
     forms = []
     for g in Gender:
+        if g == Gender.INANIMATE:
+            continue  # inanimate nouns cannot be agents of transitive verbs
         for n in Number:
             for p in Person:
                 label = f"{g.value}.{n.value}.{p.name.lower()}"
