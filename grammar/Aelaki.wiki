@@ -1,13 +1,50 @@
 [[Category:Ringworld]]
 [[Category:Aelaki grammar]]
 [[File:Cat genders in Old Aelaki.svg|thumb]]
-Aelaki is the language of the Kxakxa people
+== Overview ==
+Aelaki (also written Allochy) is the language of the Kxakxa people. It is famous for its '''non-concatenative morphology''' — grammatical meaning is encoded by reshaping a triconsonantal (occasionally quadri-) root rather than by stringing affixes.
 
-I am building it starting from year zero (2000 our calendar) and developing until year 5000
+Three phonological operations lie at the heart of the system:
+{| class="wikitable"
+! Operation !! Form !! Core meaning
+|-
+| '''Base''' || C₁V₁C₂V₂C₃ || singular / perfective-incomplete / positive degree
+|-
+| '''Reduplication''' || C₁V₁C₂C₂V₂C₃ || partitive plural / imperfective / comparative
+|-
+| '''Umlaut''' || C₁(front-V₁)C₂(front-V₂)C₃ || collective / perfective-completed / superlative
+|-
+| '''Zero-infix''' /f/ || C₁V₁fC₂V₂C₃ || negation / zero quantity
+|}
 
-This will mainly cover linguistic history
+The zero-/f/ infix never appears in the yes/no particles Su/Fu. It is restricted to content words and a handful of linking particles such as '''zuf''' "and … not".
 
+Example with verb root d-p-z "shoot":
+* '''Dapaz''' "shot at (once, success not implied)"
+* '''Dapapaz''' "shooting at (ongoing)"
+* '''Dæpæz''' "shot (single hit achieved)"
+* '''Dapfaz''' "did not shoot / no shots fired"
 
+== Modern grammar ==
+=== Gender system ===
+Aelaki distinguishes four [[Category:Grammatical genders|grammatical genders]]: [[Child]], [[Female]], [[Male]], and [[Inanimate]]. Speakers are sequential hermaphrodites (child → female → male).
+
+=== Case system ===
+Five [[Category:Cases|cases]]: [[Agent]], [[Patient]], [[Instrumental]], [[Dative]], and [[Speaker]], plus [[Possessive]] constructions (inalienable and alienable).
+
+=== Tense-evidential system ===
+Six temporal frames ([[Past]], [[Mythic]], [[Hesternal]], [[Present]], [[Hodiernal]], [[Crastinal]], [[Future]]) cross-cut by evidentials ([[Visual]], [[Auditory]], [[Inferential]]) and moods ([[Imperative]], [[Optative]], [[Deliberative]]).
+
+=== Aspect ===
+Core aspects include [[Habitual]], [[Continuous]], [[Gnomic]], [[Telic]], and [[Atelic]]. Stative verbs use prefix aspects: [[Inchoative]] (nü-), [[Cessative]] (nï-), [[Resumptive]] (lu-), and [[Almost]] (ko-).
+
+=== Number ===
+[[Singular]], [[Plural|Partitive plural]], [[Collective]], and [[Zero]] (negation/questions).
+
+=== Parts of speech ===
+[[Adjective]]s, [[Adverb]]s, [[Numerals]], and [[Converbs]] each have their own morphological systems derived from the core templatic operations.
+
+== Historical development ==
 The prefix uchi- (go) is often appended to words to make them more regular later in the history.
 
 == Shifts in chronological order ==
