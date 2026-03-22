@@ -138,6 +138,22 @@ def apply_collective_shift(text: str) -> str:
     return "".join(result)
 
 
+def degeminate(text: str) -> str:
+    """Collapse identical adjacent consonant sequences.
+
+    Aelaki does not permit geminate consonants.  When morpheme
+    concatenation produces e.g. 'rr' or 'shsh', one copy is dropped.
+    Multi-character consonants (sh, ch, th, dh, zh, ng, bh) are
+    handled before single characters so 'shsh' -> 'sh', not 'ssh'.
+    """
+    # Order: longest digraphs first so they match before single chars
+    for c in sorted(CONSONANTS, key=len, reverse=True):
+        doubled = c + c
+        while doubled in text:
+            text = text.replace(doubled, c)
+    return text
+
+
 def apply_zero_suffix(vowel: str) -> str:
     """Add -f after a vowel for zero-number marking on nouns.
 

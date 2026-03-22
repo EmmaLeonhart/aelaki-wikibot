@@ -12,7 +12,7 @@ from enum import Enum
 from dataclasses import dataclass
 
 from .gender import Gender, Number, Person, gender_vowel
-from .phonology import PERSON_CONSONANTS
+from .phonology import PERSON_CONSONANTS, degeminate
 from .roots import TetraRoot, TriRoot
 
 
@@ -199,7 +199,7 @@ def conjugate_transitive(
     # Day prefix
     day_str = day.value
 
-    return day_str + prefix + stem + suffix
+    return degeminate(day_str + prefix + stem + suffix)
 
 
 # ===========================================================================
@@ -235,7 +235,7 @@ def conjugate_intransitive_active(
     prefix = _subject_prefix(subj_person, subj_gender, subj_number)
     day_str = day.value
 
-    return day_str + prefix + stem
+    return degeminate(day_str + prefix + stem)
 
 
 def conjugate_intransitive_stative(
@@ -268,4 +268,4 @@ def conjugate_intransitive_stative(
     suffix = ki_word_final(subj_person, subj_gender, subj_number, stem=stem)
     day_str = day.value
 
-    return day_str + stem + suffix
+    return degeminate(day_str + stem + suffix)
