@@ -48,6 +48,7 @@ from utils import connect, safe_save
 GRAMMAR_DIR = os.path.join(os.path.dirname(__file__), "..", "grammar")
 STATE_FILE = os.path.join(GRAMMAR_DIR, "_sync_state.json")
 CATEGORY = "Aelaki grammar"
+SYNC_CATEGORY = "git synced pages"
 
 
 # ---------------------------------------------------------------------------
@@ -188,6 +189,61 @@ def pull(site, state: dict, verbose: bool = True) -> int:
 
 
 # ---------------------------------------------------------------------------
+# Discover: find pages in [[Category:git synced pages]] not yet tracked
+# ---------------------------------------------------------------------------
+
+def discover(site, state: dict, verbose: bool = True) -> int:
+    """Find pages in Category:git synced pages that aren't tracked yet.
+
+    Downloads their content and adds them to the sync state so future
+    runs will keep them in sync.
+
+    Returns number of new pages adopted.
+    """
+    os.makedirs(GRAMMAR_DIR, exist_ok=True)
+
+    cat = site.categories[SYNC_CATEGORY]
+    adopted = 0
+
+    for member in cat.members():
+        title = member.name
+        ns = member.namespace
+
+        # Skip category pages themselves
+        if ns == 14:
+            continue
+
+        # Already tracked — nothing to do
+        if title in state:
+            if verbose:
+                print(f"  already tracked: {title}")
+            continue
+
+        page = site.pages[title]
+        if not page.exists:
+            continue
+
+        text = page.text()
+        if not text or not text.strip():
+            continue
+
+        revid = page.revision
+        filename = title_to_filename(title)
+        filepath = os.path.join(GRAMMAR_DIR, filename)
+
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.write(text)
+
+        state[title] = {"file": filename, "revid": revid}
+        adopted += 1
+        print(f"  adopted: {title} -> {filename}")
+        time.sleep(THROTTLE)
+
+    print(f"Discover complete: {adopted} new pages adopted for syncing.")
+    return adopted
+
+
+# ---------------------------------------------------------------------------
 # Push: local -> wiki
 # ---------------------------------------------------------------------------
 
@@ -273,6 +329,10 @@ def main():
     state = load_state()
 
     if do_pull:
+        print("=== DISCOVER: adopt new pages from Category:git synced pages ===")
+        discover(site, state, verbose=not args.quiet)
+        save_state(state)
+
         print("=== PULL: wiki -> local ===")
         pull(site, state, verbose=not args.quiet)
         save_state(state)
