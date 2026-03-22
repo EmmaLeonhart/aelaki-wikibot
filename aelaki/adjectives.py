@@ -11,7 +11,7 @@ from __future__ import annotations
 from enum import Enum
 
 from .gender import Gender, Number, Person, gender_vowel
-from .phonology import PERSON_CONSONANTS, apply_umlaut
+from .phonology import PERSON_CONSONANTS, VOWELS, apply_umlaut
 from .roots import TriRoot
 
 
@@ -92,8 +92,15 @@ def realize_adjective(
 
     # Agreement: GV + PersonConsonant + GV (singular)
     #            GV + PC + GV + PC + GV   (plural — reduplicate PC+GV)
-    agreement = gv + pc + gv
-    if noun_number == Number.PLURAL:
-        agreement = agreement + pc + gv
+    # Elide leading GV when stem already ends in a vowel (same as ki_word_final)
+    stem_ends_in_vowel = stem != "" and stem[-1] in VOWELS
+    if stem_ends_in_vowel:
+        agreement = pc + gv
+        if noun_number == Number.PLURAL:
+            agreement = agreement + pc + gv
+    else:
+        agreement = gv + pc + gv
+        if noun_number == Number.PLURAL:
+            agreement = agreement + pc + gv
 
     return day_prefix + stem + agreement
