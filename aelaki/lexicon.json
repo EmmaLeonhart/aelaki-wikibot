@@ -43408,6 +43408,27 @@
       "gloss": "beachlet (auto-generated)",
       "gender": "inanimate",
       "citation_form": "shayïftïf"
+    },
+    "?ch?": {
+      "root": [
+        "?",
+        "ch",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "heart",
+      "old_citation_form": "ich"
+    },
+    "l??": {
+      "root": [
+        "l",
+        "?",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "river",
+      "gender": "inanimate",
+      "old_citation_form": "lu"
     }
   },
   "adjectives": {
