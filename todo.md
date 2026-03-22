@@ -43,6 +43,11 @@ Based on: https://github.com/Emma-Leonhart/shintowiki-scripts/
 - [ ] Replace random gender assignment in `generate_random_words.py` with countability-based logic
 - [ ] Backfill existing auto-generated nouns with countability data
 
+### Orphaned Pages Cleanup (2027+)
+- [ ] `delete_orphaned_pages.py` is in the pipeline but year-gated to 2027+
+- [ ] Will auto-delete orphaned `word:` pages (non-lemma forms accidentally created with no incoming links)
+- [ ] By then most orphans should be stale non-lemma forms from old page moves/renames
+
 ### Planned: Automatic New Word Creation
 - [ ] Parse `discord/extracted/dictionary.md` to discover words not yet in `aelaki/lexicon.py`
 - [ ] Extract new roots from Discord messages automatically (extend `extract_discord_aelaki.py`)
