@@ -103,7 +103,7 @@ stage() {
 # Files tracked: *.state, aelaki/lexicon.json, version_history.txt, grammar/
 commit_state() {
   local msg="${1:-chore(state): update bot state [skip ci]}"
-  git add -A -- "*.state" "aelaki/lexicon.json" "wiki-scripts/version_history.txt" "grammar/"
+  git add -A -- "*.state" "*.last" "aelaki/lexicon.json" "wiki-scripts/version_history.txt" "grammar/"
   if git diff --cached --quiet; then
     echo "  (no state changes to commit)"
     return 0
@@ -142,6 +142,16 @@ with open(path, 'w', encoding='utf-8') as f:
 print(f'Rebuilt version_history.txt: {len(versions)} entries')
 "
 commit_state "chore(state): rebuild version history from git log [skip ci]"
+
+# ===========================================================================
+# Step 0.1 [local → commit]: Reconcile state file (annual)
+# Writes: create_word_pages.state, reconcile_state.last
+# Runs: first time 2026-03-22, then Jan 1 each year
+# Risk if crash: state file may be partially written — next run rebuilds it
+# ===========================================================================
+stage "Reconciling state file (annual)"
+python wiki-scripts/reconcile_state.py --apply
+commit_state "chore(state): annual state reconciliation [skip ci]"
 
 # ===========================================================================
 # Step 0.5 [wiki]: Mark bot as active
