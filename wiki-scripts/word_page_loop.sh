@@ -58,7 +58,28 @@ commit_state() {
 git config user.name "github-actions[bot]"
 git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-# 0. Mark bot as active
+# 0. Rebuild version_history.txt from git log (canonical, can never lose entries)
+stage "Rebuilding version history"
+python -c "
+import subprocess, os
+path = 'wiki-scripts/version_history.txt'
+hashes = subprocess.check_output(
+    ['git', 'log', '--reverse', '--format=%h'],
+    text=True,
+).strip().split('\n')
+versions = ['legacy categorized words']
+for h in hashes:
+    h = h.strip()
+    if h:
+        versions.append(f'Words {h}')
+with open(path, 'w', encoding='utf-8') as f:
+    for v in versions:
+        f.write(v + '\n')
+print(f'Rebuilt version_history.txt: {len(versions)} entries')
+"
+commit_state "chore(state): rebuild version history from git log [skip ci]"
+
+# 0.5 Mark bot as active
 python wiki-scripts/update_bot_status.py --run-tag "${RUN_TAG}"
 
 # 1. Early operations
