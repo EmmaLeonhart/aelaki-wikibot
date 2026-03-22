@@ -1,1 +1,58 @@
 [[Category:grammatical numbers]]
+The '''zero''' is a grammatical number in [[Aelaki]] used to express negation, the absence of something, or to form questions when combined with the question particle.
+
+== Formation ==
+
+The zero number is formed by inserting the '''infix /f/''' between the first vowel and the second consonant, transforming the base [[Singular|singular]] template C₁V₁C₂V₂C₃ into C₁V₁fC₂V₂C₃. This /f/ infix is one of the four core morphological operations in Aelaki.
+
+{| class="wikitable"
+! Root !! Singular !! Zero !! Gloss
+|-
+| B-S-L || Basol || Bafasol || tree / no tree
+|-
+| SH-B-V || Shabav || Shafbav || man / no man
+|}
+
+== Uses ==
+
+=== Negation ===
+
+The zero number expresses the absence or nonexistence of the noun. It functions as grammatical negation at the noun level.
+
+: '''Shafbavadashro Roger Rabbit''' -- "No man killed Roger Rabbit"
+
+=== Questions ===
+
+When the zero number is combined with the question particle '''Shu''', it forms a question. The zero-marked noun becomes an interrogative.
+
+: '''Shafbavadashro Roger Rabbit Shu''' -- "Who killed Roger Rabbit?"
+
+In this construction, the zero number marks the unknown referent, and the question particle Shu signals that the sentence is a question rather than a negation.
+
+== Relationship to Other Numbers ==
+
+The zero number represents the negation operation among the four core morphological strategies of Aelaki:
+
+{| class="wikitable"
+! Number !! Operation !! Template !! Function
+|-
+| [[Singular]] || Base (unmarked) || C₁V₁C₂V₂C₃ || One instance
+|-
+| [[Aelaki plural|Plural]] || Reduplication of C₂ || C₁V₁C₂C₂V₂C₃ || Some of (partitive)
+|-
+| [[Collective]] || Umlaut (vowel fronting) || C₁frontV₁C₂frontV₂C₃ || All of (totality)
+|-
+| '''Zero''' || Infix /f/ || C₁V₁fC₂V₂C₃ || None / negation
+|}
+
+== Ki Syllables ==
+
+The [[Ki]] syllables encode the zero as one of the four number distinctions (singular/plural/collective/zero) for each person-gender combination. The zero Ki syllable is used in verbal agreement when the subject noun carries zero number marking.
+
+== See Also ==
+
+* [[Singular]]
+* [[Aelaki plural|Plural]]
+* [[Paucal]]
+* [[Plentiful]]
+* [[Collective]]

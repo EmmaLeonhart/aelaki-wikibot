@@ -1,1 +1,53 @@
+The '''continuative aspect''' (also called '''continuous''') in Aelaki expresses an ongoing, imperfective action. It is formed through '''C₂ reduplication''' of the verb stem.
+
+== Formation ==
+
+The continuative is formed by reduplicating the second root consonant (C₂) along with its surrounding vowels.
+
+Using the root ''zh-r-n'' "live" (base form: ''zharan''):
+
+{| class="wikitable"
+! Aspect !! Form !! Pattern !! Meaning
+|-
+| Base || zharan || C₁V₁C₂V₂C₃ || (someone) lives
+|-
+| Continuative || zhororon || C₂ reduplication || living (in progress)
+|}
+
+== Behavior across tenses ==
+
+Unlike the other aspects, the continuative does not change its function between past and present tense. It consistently expresses an ongoing, in-progress action regardless of temporal context.
+
+{| class="wikitable"
+! Past aspect !! Present realization
+|-
+| [[Atelic|Atelic perfect]] || [[Habitual]]
+|-
+| '''Continuative''' || '''Continuative''' (unchanged)
+|-
+| [[Telic|Telic perfect]] || [[Gnomic]]
+|}
+
+== Stative verb continuatives ==
+
+[[Stative verbs]] form their continuative by reduplicating the aspectual prefix rather than C₂. Examples with ''zoduk'' "know":
+
+{| class="wikitable"
+! Stative aspect !! Base !! Continuative !! Meaning
+|-
+| [[Inchoative]] || nüzoduk || nünüzoduk || learning
+|-
+| [[Cessative]] || nïzedik || nïnïzedik || forgetting
+|-
+| [[Resumptive]] || luzedik || luluzedik || remembering
+|-
+| [[Almost]] || kozoduk || kokozoduk || almost learning
+|}
+
+== See also ==
+
+* [[Imperfect]]
+* [[Habitual]]
+* [[Gnomic]]
+
 [[Category:Continuities?]]

@@ -1,1 +1,71 @@
+The '''auditory evidential''' marks events that the speaker learned about through direct hearing -- either by hearing the event itself (e.g. a crash in another room) or by being present when someone described it aloud. It shares the proto-morpheme '''-ro''' with the closely related [[Hearsay|hearsay evidential]], and the two are often grouped together as the '''auditory/hearsay''' evidential system.
+
+== Proto-morpheme ==
+
+{| class="wikitable"
+! Proto-morpheme !! Allomorphs !! Gloss !! Modern reflex
+|-
+| '''o / -ro''' || /o/ (prefix), -ro (suffix) || auditory / hearsay evidential || survives as '''-ro''' ([[Past|past]] reported), and in compounds across tenses
+|}
+
+== Formation ==
+
+The auditory evidential uses forms derived from the '''-ro''' proto-morpheme across the tense system:
+
+{| class="wikitable"
+! Tense !! Suffix !! Notes
+|-
+| [[Past]] || '''-ro''' || Base auditory/hearsay form
+|-
+| [[Hodiernal]] || '''-ngrom''' || Extended form for events heard today
+|-
+| [[Future]] || '''-rum''' || Shifted form for future expectations based on what the speaker has been told
+|}
+
+== Usage ==
+
+The auditory evidential is used when the speaker's knowledge comes from the act of hearing. This includes:
+
+* '''Direct auditory perception''' -- the speaker heard the event happen (e.g. hearing a door slam, hearing singing from another room)
+* '''Oral report while present''' -- the speaker was told about the event in person
+
+For information received through indirect report, rumour, or tradition, the [[Hearsay|hearsay evidential]] is used instead.
+
+== The Speaker case ==
+
+When the auditory evidential is used, the source of information can be marked with the [[Speaker]] case. The [[Speaker]] case indicates '''who''' told the speaker about the event, and is essential for disambiguating chains of reported information.
+
+== Corpus distribution ==
+
+In the fictional 1-million-word corpus model, the auditory evidential shows a distinctive person-based distribution:
+
+{| class="wikitable"
+! Person (past tense) !! [[Visual|Visual]] !! Auditory !! [[Inferential|Inferential]]
+|-
+| [[First person]] || 70% || '''10%''' || 20%
+|-
+| [[Second person]] || 40% || '''45%''' || 15%
+|-
+| [[Third person]] || 65% || '''25%''' || 10%
+|}
+
+The auditory evidential is the '''most common [[Second person|second-person]] evidential''' in the past tense (45%), reflecting that speakers typically learn about the addressee's actions by being told. In future tenses, this rises to '''65%''' for second person, since future plans of the addressee are almost always communicated verbally.
+
+For [[First person|first-person]] past, the auditory evidential is rare (10%), used only in contexts such as "I heard that I had been chosen" where the speaker learns about their own situation through report.
+
+{| class="wikitable"
+! Person (future tense) !! [[Imperative|Imperative]]/Intent !! [[Inferential|Inferential]] !! Auditory
+|-
+| [[First person]] || 72% || 18% || '''10%'''
+|}
+
+== See also ==
+
+* [[Hearsay]] -- related evidential for indirect or secondhand report
+* [[Visual]] -- evidential for directly witnessed events
+* [[Inferential]] -- evidential for deduction from evidence
+* [[Probable]] -- stative prefix for imminent/probable events
+* [[Speaker]] -- case marking the source of reported information
+* [[Past]] -- the unmarked temporal frame
+
 [[Category:evidentialities]]

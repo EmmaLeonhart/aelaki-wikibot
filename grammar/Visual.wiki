@@ -1,1 +1,69 @@
+The '''visual evidential''' is the primary evidential in Aelaki, marking events that the speaker directly witnessed with their own eyes. It is the most frequently used evidential across all persons and tenses.
+
+== Proto-morpheme ==
+
+The visual evidential descends from two proto-morphemes:
+
+{| class="wikitable"
+! Proto-morpheme !! Allomorphs !! Gloss !! Modern reflex
+|-
+| '''ü / -nü''' || /ü/ (prefix), -nü (suffix) || explicit present, witnessed visually || fossilised in rare emphatic declaratives; replaced by zero marking in the [[Present|present tense]]
+|-
+| '''ə / -shë''' || /ə/, -shë || witnessed past (visual) || survives as '''-shë''' in the [[Past|past]] witnessed form
+|}
+
+The modern visual evidential is thus '''-shë''' in past tenses and zero-marked in the [[Present|present]].
+
+== Formation ==
+
+{| class="wikitable"
+! Tense !! Marking !! Notes
+|-
+| [[Past]] || '''-shë''' || Primary past evidential suffix
+|-
+| [[Hesternal]] || '''-shë''' || Same suffix as general past
+|-
+| [[Hodiernal]] || '''-shë''' || Same suffix as general past
+|-
+| [[Present]] || zero (unmarked) || Proto-morpheme ''ü / -nü'' has been replaced by zero marking
+|-
+| [[Future]] || not available || Visual evidential cannot be used for future events, since they have not yet been witnessed
+|}
+
+The visual evidential is '''not available in [[Future|future]] tenses''', since the speaker cannot have directly witnessed an event that has not yet occurred. Future predictions use the [[Inferential|inferential]] or [[Auditory|auditory]]/[[Hearsay|hearsay]] evidentials instead.
+
+== Corpus distribution ==
+
+In a fictional 1-million-word corpus model, the visual evidential is the dominant evidential in most person-tense combinations:
+
+{| class="wikitable"
+! Person (past tense) !! Visual !! [[Auditory|Auditory]] !! [[Inferential|Inferential]]
+|-
+| [[First person]] || '''70%''' || 10% || 20%
+|-
+| [[Second person]] || 40% || '''45%''' || 15%
+|-
+| [[Third person]] || '''65%''' || 25% || 10%
+|}
+
+The visual evidential is most common with [[First person|first-person]] past narration (70%), reflecting the expectation that speakers typically witnessed their own past actions. It is also the leading evidential for [[Third person|third-person]] past (65%), used when the speaker saw the third party perform the action.
+
+For [[Second person|second-person]] past, the visual evidential drops to 40%, behind the [[Auditory|auditory]] evidential (45%). This reflects that speakers more often learn about the addressee's actions through being told rather than through direct observation.
+
+== Diachronic notes ==
+
+The original present-tense visual marker ''ü / -nü'' has been almost entirely replaced by zero marking, surviving only in rare emphatic declaratives. The past-tense form '''-shë''' remains fully productive.
+
+The [[Inferential|inferential]] suffix '''-shëm''' is historically a fusion of '''-shë''' and the [[Future|future]] [[Inferential|inferential]] marker '''-mu''', suggesting that inference was originally conceptualised as "seeing toward" a conclusion.
+
+== See also ==
+
+* [[Auditory]] -- evidential for events heard directly
+* [[Hearsay]] -- evidential for reported information
+* [[Inferential]] -- evidential for deduction from evidence
+* [[Probable]] -- stative prefix for imminent/probable events
+* [[Speaker]] -- case marking the source of non-visual evidential information
+* [[Past]] -- the unmarked temporal frame
+* [[Present]] -- zero-marked tense
+
 [[Category:evidentialities]]

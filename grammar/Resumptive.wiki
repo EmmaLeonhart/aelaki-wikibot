@@ -1,2 +1,54 @@
+The '''resumptive''' aspect in Aelaki expresses the resumption or restarting of a previously ceased action or state. It is one of the [[Stative aspects|stative verb aspects]], formed with the prefix '''lu-'''.
+
+== Formation ==
+
+The resumptive is formed by prefixing '''lu-''' to the '''umlaut''' (gnomic) stem of the stative verb.
+
+{| class="wikitable"
+! Stative verb !! Resumptive !! Meaning
+|-
+| zoduk (know) || luzedik || remember (resume knowing)
+|-
+| apafath (fall) || lu'apafath || resume falling
+|}
+
+Note that the resumptive uses the umlaut stem ''zedik'' rather than the base stem ''zoduk''.
+
+== Continuative form ==
+
+The continuative of the resumptive is formed by reduplicating the prefix:
+
+{| class="wikitable"
+! Base !! Continuative !! Meaning
+|-
+| luzedik || luluzedik || remembering (in the process of resuming knowing)
+|}
+
+== Semantic scope ==
+
+The resumptive indicates that a state which had stopped is now starting again. With ''zoduk'' "know", the resumptive ''luzedik'' means "remember" -- that is, to resume knowing something that had been forgotten ([[Cessative|cessative]] ''nïzedik'').
+
+== Relationship to other stative aspects ==
+
+{| class="wikitable"
+! Prefix !! Aspect !! Example !! Meaning
+|-
+| ho- || [[Probable]] || hozoduk || curious (about to know)
+|-
+| nü- || [[Inchoative]] || nüzoduk || learn (start to know)
+|-
+| nï- (+ umlaut) || [[Cessative]] || nïzedik || forget (stop knowing)
+|-
+| '''lu-''' || '''Resumptive''' || '''luzedik''' || '''remember (resume knowing)'''
+|-
+| ko- || [[Almost]] || kozoduk || almost learn
+|}
+
+== See also ==
+
+* [[Cessative]]
+* [[Inchoative]]
+* [[Repetitive]]
+
 [[Category:grammatical aspects]]
 [[Category:Stative aspects]]

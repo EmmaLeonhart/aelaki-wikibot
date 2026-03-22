@@ -1,1 +1,40 @@
 [[Category:Cases]]
+The '''Agent case''' marks the subject of transitive and active verbs in Aelaki. It is the highest-ranking case in the [[#Case Hierarchy|case hierarchy]] for verb agreement.
+
+== Formation ==
+
+The Agent case is formed by the ''Ki'' suffix, which moves to a position after the noun. This suffix evolved historically via epenthesis over earlier "-oth tho-" constructs.
+
+'''Important:''' The Agent case does '''not''' exist for inanimate nouns. Since inanimate gender represents uncountable/mass nouns, they cannot serve as agents of transitive verbs.
+
+== Declension ==
+
+Demonstrated with the feminine singular noun '''basol''' ("tree"):
+
+{| class="wikitable"
+! Person !! Form
+|-
+| 1st person || Basoltho
+|-
+| 2nd person || Basoljo
+|-
+| 3rd person || Basolsho
+|-
+| 4th person || Basolko
+|}
+
+== Case Hierarchy ==
+
+The Agent case holds the highest position in the case hierarchy for verb agreement:
+
+'''Agent''' > [[Dative]] > [[Patient]] > [[Instrumental]] > [[Possessive]] > [[Speaker]]
+
+This means that when multiple noun phrases are present in a clause, the verb agrees with the Agent before any other case.
+
+== See Also ==
+
+* [[Patient]] - marks the object of transitive verbs
+* [[Instrumental]] - marks the instrument, companion, or location
+* [[Dative]] - marks the recipient or beneficiary
+* [[Speaker]] - marks the source of reported information
+* [[Possessive]] - marks genitive constructions

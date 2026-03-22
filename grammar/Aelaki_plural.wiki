@@ -1,1 +1,52 @@
 [[Category:grammatical numbers]]
+The '''Aelaki plural''' is the grammatical number used in [[Aelaki]] to indicate more than one of a noun, with a '''partitive''' meaning -- "some of" a group, rather than all of it (for which the [[Collective|collective]] is used).
+
+== Formation ==
+
+The plural is formed by '''reduplication''' of the second root consonant (C₂). This transforms the base [[Singular|singular]] template C₁V₁C₂V₂C₃ into the plural template C₁V₁C₂C₂V₂C₃.
+
+{| class="wikitable"
+! Root !! Singular !! Plural !! Gloss
+|-
+| B-S-L || Basol || Basosol || tree / trees (some of them)
+|-
+| SH-B-V || Shabav || Shababav || man / men (some of them)
+|}
+
+== Semantics ==
+
+The Aelaki plural is '''partitive''' in meaning. It does not indicate the totality of a group but rather an indefinite subset. This distinguishes it from the [[Collective|collective]], which indicates all members of a group.
+
+{| class="wikitable"
+! Number !! Meaning !! Example
+|-
+| [[Singular]] || one tree || Basol
+|-
+| '''Plural''' || some trees || Basosol
+|-
+| [[Paucal]] || a few trees || (inanimate plural marker)
+|-
+| [[Plentiful]] || many trees || (abundance marker)
+|-
+| [[Collective]] || all the trees || Basel
+|-
+| [[Zero]] || no trees || Bafasol
+|}
+
+== Historical Development ==
+
+The plural reduplication has its origins in '''frequentative verb reduplication''', a pattern originally used to indicate repeated or habitual action. Over time, this verbal reduplication merged with subject-verb agreement marking and was reanalyzed as a nominal plural marker.
+
+This is not to be confused with the [[Collective|collective]], which also has a historical connection to reduplication but through entirely different pathways. The collective developed from the old dual suffix ''-bel'', while the plural developed from frequentative verbal morphology.
+
+== Ki Syllables ==
+
+The [[Ki]] syllables encode the plural as one of the number distinctions for each person-gender combination. The plural Ki syllable is used for [[Singular|singular]]/plural/[[Collective|collective]]/[[Zero|zero]] marking within the verbal agreement system.
+
+== See Also ==
+
+* [[Singular]]
+* [[Paucal]]
+* [[Plentiful]]
+* [[Collective]]
+* [[Zero]]

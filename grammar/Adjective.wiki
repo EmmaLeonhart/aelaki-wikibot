@@ -1,1 +1,57 @@
+'''Adjectives''' in Aelaki originate from stative verb stems. They retain much of the verbal morphological system, including evidentiality marking, while also obeying noun-like agreement rules.
+
+== Morphology ==
+
+Adjectives undergo the same templatic morphological processes as other parts of speech in Aelaki:
+
+* '''[[Comparative]]''': Formed by reduplication of C₂. Example: ''koran'' "bright" → ''kororan'' "brighter"
+* '''[[Superlative]]''': Formed by umlaut (vowel fronting). Example: ''koran'' "bright" → ''kœrœn'' "brightest"
+* '''[[Negative]]''': Formed by /f/-infix. Example: ''koran'' "bright" → ''korfan'' "not bright"
+
+== Agreement ==
+
+Adjectives must agree with their head noun in both '''gender''' and '''number'''. This agreement is obligatory and applies in all syntactic positions.
+
+== Evidentiality ==
+
+Unlike adjectives in many natural languages, Aelaki adjectives retain a full eight-way TAM (tense-aspect-mood) / evidentiality system inherited from their stative verb origins:
+
+{| class="wikitable"
+|-
+! Suffix !! Evidentiality !! Notes
+|-
+| ''-shë'' || Visual || Speaker saw it directly
+|-
+| ''-ro'' || Testimony || Speaker heard it from someone
+|-
+| ''-mu'' || Inferred || Speaker deduced it
+|-
+| ''-ya'' || Hopeful || Speaker hopes/wishes it
+|-
+| ''go-'' + ''-shë'' || Hodiernal visual || Seen today
+|-
+| ''go-'' + ''-ro'' || Hodiernal testimony || Heard today
+|-
+| ''go-'' + ''-mu'' || Hodiernal inferred || Inferred today
+|-
+| ''go-'' + ''-ya'' || Hodiernal hopeful || Hoped today
+|}
+
+'''Note:''' The prefix ''goki-'' is '''never''' used with adjectives.
+
+== Example Paradigm ==
+
+{| class="wikitable"
+|-
+! Form !! Gloss
+|-
+| ''koran'' || bright ([[Positive]])
+|-
+| ''kororan'' || brighter ([[Comparative]])
+|-
+| ''kœrœn'' || brightest ([[Superlative]])
+|-
+| ''korfan'' || not bright ([[Negative]])
+|}
+
 [[Category:parts of speech]]
