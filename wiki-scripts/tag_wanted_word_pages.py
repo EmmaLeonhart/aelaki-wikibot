@@ -2,8 +2,8 @@
 tag_wanted_word_pages.py
 ========================
 Scans [[Category:Created from Wanted Pages]] for word: pages that are missing
-a [[Category:Non-lemma forms …]] tag, and adds the oldest version hash so the
-upgrade loop in create_word_pages.py picks them up.
+a [[Category:Non-lemma forms …]] tag, and adds the current version hash so they
+are treated as current-version non-lemma forms.
 
 Run early in the pipeline so the upgrade phase can regenerate these stubs.
 
@@ -27,17 +27,18 @@ NONLEMMA_CAT_RE = re.compile(r"\[\[Category:Non-lemma forms [^\]]+\]\]")
 BATCH_SIZE = 100
 
 
-def _get_oldest_hash() -> str:
-    """Read the oldest 'Words HASH' entry from version_history.txt."""
+def _get_current_hash() -> str:
+    """Read the latest (last) 'Words HASH' entry from version_history.txt."""
+    last = None
     try:
         with open(VERSION_HISTORY, encoding="utf-8") as f:
             for line in f:
                 line = line.strip()
                 if line.startswith("Words "):
-                    return line[len("Words "):]
+                    last = line[len("Words "):]
     except FileNotFoundError:
         pass
-    return "unknown"
+    return last or "unknown"
 
 
 def _batch_fetch_content(site, titles):
@@ -75,9 +76,9 @@ def main():
     args = parser.parse_args()
 
     site = connect()
-    oldest_hash = _get_oldest_hash()
-    nonlemma_cat_text = f"[[Category:Non-lemma forms {oldest_hash}]]"
-    print(f"Target non-lemma category: Non-lemma forms {oldest_hash}", flush=True)
+    current_hash = _get_current_hash()
+    nonlemma_cat_text = f"[[Category:Non-lemma forms {current_hash}]]"
+    print(f"Target non-lemma category: Non-lemma forms {current_hash}", flush=True)
 
     # Step 1: Collect all word: page titles from the category (metadata only, fast)
     cat = site.categories[SOURCE_CATEGORY]
