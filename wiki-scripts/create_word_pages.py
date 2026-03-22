@@ -822,19 +822,36 @@ def load_version_history(path: str) -> list[str]:
         return [line.strip() for line in f if line.strip()]
 
 
-def ensure_current_version(path: str) -> list[str]:
-    """Append PAGE_VERSION to version_history.txt if not already present.
+def rebuild_version_history(path: str) -> list[str]:
+    """Rebuild version_history.txt from git log (all commits, oldest first).
 
-    Returns the full ordered list of category names.
+    This is the canonical source of truth — every commit hash becomes a
+    version category.  Regenerating from git log means no entries can
+    ever be lost.
     """
-    versions = load_version_history(path)
-    cat_name = f"Words {PAGE_VERSION}"
-    if cat_name not in versions:
-        versions.append(cat_name)
-        with open(path, "a") as f:
-            f.write(cat_name + "\n")
-        print(f"  Registered new version category: [[Category:{cat_name}]]", flush=True)
+    hashes = subprocess.check_output(
+        ["git", "log", "--reverse", "--format=%h"],
+        cwd=os.path.dirname(__file__) or ".",
+        text=True,
+    ).strip().split("\n")
+
+    versions = ["legacy categorized words"]
+    for h in hashes:
+        h = h.strip()
+        if h:
+            versions.append(f"Words {h}")
+
+    with open(path, "w", encoding="utf-8") as f:
+        for v in versions:
+            f.write(v + "\n")
+
+    print(f"  Rebuilt version_history.txt: {len(versions)} entries (incl. legacy)", flush=True)
     return versions
+
+
+def ensure_current_version(path: str) -> list[str]:
+    """Rebuild version_history.txt from git and return the full list."""
+    return rebuild_version_history(path)
 
 
 def upgrade_old_versions(site, lexicon, limit, run_tag_suffix, log_file,
