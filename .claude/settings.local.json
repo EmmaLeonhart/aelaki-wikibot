@@ -42,7 +42,8 @@
       "Bash(gh api:*)",
       "Read(//c/tmp/**)",
       "Bash(unzip -o /tmp/run_logs.zip -d /tmp/run_logs)",
-      "Bash(unzip -o /tmp/failed_logs.zip -d /tmp/failed_logs)"
+      "Bash(unzip -o /tmp/failed_logs.zip -d /tmp/failed_logs)",
+      "Bash(curl:*)"
     ]
   }
 }
