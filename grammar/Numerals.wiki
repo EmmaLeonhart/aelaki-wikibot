@@ -1,0 +1,75 @@
+'''Numerals''' in [[Aelaki]] are richly derivational. Each integer is built from a triconsonantal root shaped by '''gender vowels''', '''semantic role''', and agreement with counters.
+
+== Gender Vowels ==
+
+Numeral roots take different vowels depending on the [[Aelaki_plural|gender]] of the noun they modify:
+
+{| class="wikitable"
+! Gender !! Vowel pair
+|-
+| [[Child]] || u / i
+|-
+| [[Female]] || o / e
+|-
+| [[Male]] || a / æ
+|}
+
+== Six Semantic Roles ==
+
+Every numeral root can be inflected into six distinct semantic roles:
+
+{| class="wikitable"
+! Role !! Meaning !! Example (root B-L "two")
+|-
+| '''Cardinal''' || counting quantity || ''Bal'' "two"
+|-
+| '''Ordinal''' || position in sequence || ''Kezon'' "second"
+|-
+| '''Partitive''' || subset of a whole || ''Babal'' "two of"
+|-
+| '''Fractional''' || division into parts || ''Kalakel'' "half"
+|-
+| '''Collective''' || all members as a group || ''Bæl'' "both"
+|-
+| '''Adverbial''' || frequency or repetition || ''Balte'' "twice"
+|}
+
+== Negative Series ==
+
+A '''negative series''' is formed by inserting '''/f/''' before C₂ in the root. Each negative role carries a distinct semantic shift:
+
+{| class="wikitable"
+! Negative Role !! Meaning !! Example
+|-
+| Negative cardinal || absent quantity || —
+|-
+| Negative ordinal || counting backwards || ''Maflon'' "second-last"
+|-
+| Negative partitive || removal from a set || —
+|-
+| Negative collective || debt or obligation || —
+|-
+| Negative adverbial || reversal or undoing || —
+|}
+
+== Base System ==
+
+Aelaki numerals are '''originally base 8'''. The first eight numbers have obscure, archaic meanings. Higher numbers are more transparent:
+
+* '''9''' — means "new"
+* '''10''' (''b'el'') — means "two hands"
+* '''12''' (''wiv'') — means "rings"
+
+=== Mnemonic Rhyme ===
+
+The traditional mnemonic for learning the first few numbers:
+
+: ''"Woman Zero bore Child One; Child grew to Woman Two, then Man Three..."''
+
+This rhyme reflects the gender cycle embedded in the numeral system: the genders rotate through the first few integers (female, child, female, male, ...).
+
+== Agreement ==
+
+Numerals agree with counters and take the appropriate gender vowels of the noun they modify. The /f/-infix for negatives combines freely with all six semantic roles and all gender vowel patterns.
+
+[[Category:Aelaki grammar]]

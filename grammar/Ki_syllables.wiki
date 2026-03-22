@@ -1,0 +1,68 @@
+'''Ki syllables''' (also called '''floating Ki syllables''') are approximately 50 clitics in [[Aelaki]] that encode '''person''', '''gender''', and '''number'''. They attach to the right edge of the predicate or focused constituent. The name comes from early grammarians who glossed them as ''ki'' "word".
+
+== Prefix Position (Subject Ki) ==
+
+The following table shows Ki syllables in prefix position, organized by person (1st through 4th) and gender:
+
+{| class="wikitable"
+! !! colspan="4" | 1st person !! colspan="4" | 2nd person !! colspan="4" | 3rd person !! colspan="4" | 4th person
+|-
+! !! sg !! pl !! coll !! zero !! sg !! pl !! coll !! zero !! sg !! pl !! coll !! zero !! sg !! pl !! coll !! zero
+|-
+| '''[[Child]]''' || thu || thuthu || thi || thuf || ju || juju || ji || juf || shu || shushu || shi || shuf || ku || kuku || ki || kuf
+|-
+| '''[[Female]]''' || tho || thotho || the || thof || jo || jojo || je || jof || sho || shosho || she || shof || ko || koko || ke || kof
+|-
+| '''[[Male]]''' || tha || thatha || thæ || thaf || ja || jaja || jæ || jaf || sha || shasha || shæ || shaf || ka || kaka || kæ || kaf
+|-
+| '''Inanimate''' || || || || || || || || || || || || || ïf || ïfïf || ||
+|}
+
+=== Notes on Inanimate ===
+
+Only '''two Ki syllables''' express the inanimate role:
+
+* '''ïf''' — paucal inanimate (a small amount of the substance)
+* '''ïfïf''' — plentiful inanimate (a large amount of the substance)
+
+This reflects the fact that [[Aelaki_plural|inanimate gender]] in Aelaki represents '''uncountable/mass nouns''' (water, air, sand), which do not distinguish person or full number contrasts.
+
+== Suffix Position (Object Ki) ==
+
+Word-final (suffix) Ki syllables have different forms from their prefix counterparts:
+
+{| class="wikitable"
+! !! 1sg !! 2sg !! 3sg !! 4sg
+|-
+| '''[[Child]]''' || -uth || -uj || -ush || -u
+|-
+| '''[[Female]]''' || -oth || -oj || -osh || -o
+|-
+| '''[[Male]]''' || -ath || -aj || -ash || -a
+|}
+
+Plural, collective, and zero number suffix forms follow analogous patterns.
+
+== Verb Agreement ==
+
+Ki syllables mark agreement on verbs according to the verb's transitivity and voice:
+
+{| class="wikitable"
+! Verb Type !! Ki Pattern
+|-
+| '''Transitive''' || prefix Ki (subject) + suffix Ki (object)
+|-
+| '''Intransitive active''' || prefix Ki (subject) only
+|-
+| '''Intransitive stative''' || suffix Ki (subject) only
+|}
+
+This split-intransitive alignment means that subjects of stative verbs pattern with objects of transitive verbs (taking suffix Ki), while subjects of active intransitive verbs pattern with subjects of transitive verbs (taking prefix Ki).
+
+== See Also ==
+
+* [[Pseudopronouns]] — full nouns inflected with Ki suffixes for pragmatic nuance
+* [[Copula]] — uses Ki for gender agreement in identity predications
+* [[Converbs]] — Ki syllables appear in converb syntax as subject and instrument markers
+
+[[Category:Aelaki grammar]]

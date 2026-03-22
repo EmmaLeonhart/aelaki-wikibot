@@ -1,0 +1,55 @@
+'''Converbs''' are non-finite verb forms in [[Aelaki]] that function as adverbial subordinate clauses. They are divided into two classes based on how they interact with [[TAM]] (tense-aspect-mood) marking.
+
+== Class I: Prefix Converbs ==
+
+Class I converbs are formed with a '''prefix''' and retain full TAM inflection. The general syntax is:
+
+<code>[PREFIX- [DAY-] (SUBJ-[[Ki_syllables|Ki]]) (INST-Ki) ROOT.ASPECT-(OBJ-Ki)-TAM]</code>
+
+Because they keep the full TAM slot, Class I converbs can express the same range of evidentiality, mood, and tense distinctions as main verbs.
+
+=== Day Markers ===
+
+Day markers insert between the verbal prefix and the lexical root. They indicate the temporal setting of the converb clause:
+
+* '''go-''' — general day marker
+* '''goki-''' — specific day marker
+* '''go-IMP-''' — imperative day marker
+
+== Class II: Suffix Converbs ==
+
+Class II converbs are formed with a '''suffix''' that replaces ("eats") the TAM slot. The suffix itself is '''day-sensitive''', meaning the choice of suffix form depends on when the event takes place.
+
+Because Class II converbs lack a TAM slot, they cannot independently mark tense, aspect, or mood — these are inferred from context or the main clause.
+
+== Major Subtypes ==
+
+=== Causal Converb ===
+
+The '''causal converb''' expresses reason or cause ("because", "since"). It belongs to one of the two major converb subtypes.
+
+=== Conditional Converb ===
+
+The '''conditional converb''' expresses conditionality ("if", "when"). It places '''heavy limitations''' on the allowed TAM categories.
+
+==== TAM Restrictions ====
+
+The conditional converb '''cannot take visual evidentiality''', which is strictly [[Realis|realis]]. Only the following moods are permitted with the conditional converb:
+
+{| class="wikitable"
+! Mood !! Semantic Force
+|-
+| [[Auditory]] || "someone else said" (reported)
+|-
+| Inferred || "I infer" (inferential)
+|-
+| Intentive || "I will" (prospective intention)
+|-
+| [[Optative]] || "I wish" (desiderative)
+|-
+| Deliberative || "should I?" (deliberative question)
+|}
+
+These restrictions reflect the inherently irrealis nature of conditional clauses — one cannot visually witness a hypothetical event.
+
+[[Category:Aelaki grammar]]
