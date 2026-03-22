@@ -26,27 +26,27 @@ STATE_FILE = "wanted_pages_done.txt"
 # Namespaces that cannot be directly edited (Wikibase entity namespaces)
 SKIP_PREFIXES = {"Property:", "Item:", "Lexeme:"}
 
-# Oldest version hash from version_history.txt — word: pages tagged with this
-# get picked up by the upgrade loop on the next run.
-_OLDEST_HASH = None
+# Current version hash from version_history.txt — word: pages tagged with this
+# so the upgrade loop treats them as current-version non-lemma forms.
+_CURRENT_HASH = None
 
 
-def _get_oldest_hash() -> str:
-    """Read the oldest 'Words HASH' entry from version_history.txt."""
-    global _OLDEST_HASH
-    if _OLDEST_HASH is not None:
-        return _OLDEST_HASH
+def _get_current_hash() -> str:
+    """Read the latest (last) 'Words HASH' entry from version_history.txt."""
+    global _CURRENT_HASH
+    if _CURRENT_HASH is not None:
+        return _CURRENT_HASH
+    last = None
     try:
         with open(VERSION_HISTORY, encoding="utf-8") as f:
             for line in f:
                 line = line.strip()
                 if line.startswith("Words "):
-                    _OLDEST_HASH = line[len("Words "):]
-                    return _OLDEST_HASH
+                    last = line[len("Words "):]
     except FileNotFoundError:
         pass
-    _OLDEST_HASH = "unknown"
-    return _OLDEST_HASH
+    _CURRENT_HASH = last or "unknown"
+    return _CURRENT_HASH
 
 
 def _content_for(title: str) -> str:
@@ -56,10 +56,10 @@ def _content_for(title: str) -> str:
     default wanted-pages category.
     """
     if title.lower().startswith("word:"):
-        oldest = _get_oldest_hash()
+        current = _get_current_hash()
         return (
             f"{CATEGORY_TEXT}\n"
-            f"[[Category:Non-lemma forms {oldest}]]"
+            f"[[Category:Non-lemma forms {current}]]"
         )
     return CATEGORY_TEXT
 
