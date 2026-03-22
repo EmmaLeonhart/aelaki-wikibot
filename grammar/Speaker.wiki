@@ -1,1 +1,86 @@
 [[Category:Cases]]
+The '''Speaker case''' is a unique case in Aelaki that indicates the source of information in non-visual evidential constructions. It marks the person who reported or conveyed the information being relayed.
+
+== Formation ==
+
+The Speaker case is formed by adding a ''-ro'' type suffix to the person-marked stem. Like the [[Agent]] case, the Speaker case has '''no inanimate form''', since uncountable/mass nouns cannot serve as sources of reported speech.
+
+== Declension ==
+
+Demonstrated with the feminine singular noun '''basol''' ("tree"):
+
+{| class="wikitable"
+! Person !! Form
+|-
+| 1st person || Basolthoro
+|-
+| 2nd person || Basoljoro
+|-
+| 3rd person || Basolshoro
+|-
+| 4th person || Basolkoro
+|}
+
+== Speaker Auxiliary Verbs ==
+
+When the Speaker case is overwritten by another case (due to the [[#Case Hierarchy|case hierarchy]]), auxiliary verbs are used to preserve the speaker information. These auxiliaries vary by gender:
+
+=== Child Gender ===
+
+{| class="wikitable"
+! Person !! Auxiliary
+|-
+| 1st person || Uthuro
+|-
+| 2nd person || Ujuro
+|-
+| 3rd person || Ushuro
+|-
+| 4th person || Ukoro
+|}
+
+The child gender forms are '''ironic''' in that they use reduplicated forms.
+
+=== Female Gender ===
+
+{| class="wikitable"
+! Person !! Auxiliary
+|-
+| 1st person || Othoro
+|-
+| 2nd person || Ojoro
+|-
+| 3rd person || Oshoro
+|-
+| 4th person || Okoro
+|}
+
+=== Male Gender ===
+
+{| class="wikitable"
+! Person !! Auxiliary
+|-
+| 1st person || Atharo
+|-
+| 2nd person || Ajaro
+|-
+| 3rd person || Asharo
+|-
+| 4th person || Akaro
+|}
+
+== Case Hierarchy ==
+
+The Speaker case holds the lowest position in the case hierarchy for verb agreement:
+
+[[Agent]] > [[Dative]] > [[Patient]] > [[Instrumental]] > [[Possessive]] > '''Speaker'''
+
+Because of this low ranking, the Speaker case is frequently overwritten by other cases, necessitating the use of the auxiliary verbs described above.
+
+== See Also ==
+
+* [[Agent]] - marks the subject of transitive/active verbs
+* [[Patient]] - marks the object of transitive verbs
+* [[Instrumental]] - marks the instrument, companion, or location
+* [[Dative]] - marks the recipient or beneficiary
+* [[Possessive]] - marks genitive constructions

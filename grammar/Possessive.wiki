@@ -1,1 +1,61 @@
 [[Category:Cases]]
+'''Possessive''' constructions in Aelaki express genitive relationships between nouns. Aelaki distinguishes two types of possession: '''inalienable''' and '''alienable''', each with its own morphological strategy.
+
+== Inalienable Possession ==
+
+Inalienable possession covers relationships that are inherent, permanent, or non-transferable:
+
+* '''Kin relations''' (mother, father, sibling)
+* '''Body parts''' (hand, eye, heart)
+* '''Part-whole relationships''' (branch of a tree, wall of a house)
+
+=== Formation ===
+
+Inalienable possession uses an '''internal infix''' within the noun stem, following the pattern:
+
+: C₁ + V(gender) + C(person) + ...
+
+The possessive suffix ''-ng'' replaces the ''Ki'' suffix used in the [[Agent]] case.
+
+=== Example ===
+
+The noun '''gar''' ("hand"):
+
+: '''gar''' → '''ga-o-r-ung''' ("my hand")
+
+Here the root ''g-r'' is broken apart and the gender vowel ''o'' (feminine) and person consonant are infixed, with ''-ung'' as the possessive ending.
+
+== Alienable Possession ==
+
+Alienable possession covers relationships that are transferable or abstract:
+
+* '''Transferable property''' (books, tools, clothing)
+* '''Abstract relations''' (ideas, responsibilities)
+
+=== Formation ===
+
+Alienable possession uses a '''prefix''' before the noun, following the pattern:
+
+: V(gender) + C(person)- + noun
+
+=== Example ===
+
+The noun '''selo''' ("book"):
+
+: '''selo''' → '''uthselo''' ("my book")
+
+Here the gender vowel and person consonant are prefixed to the noun stem.
+
+== Case Hierarchy ==
+
+Possessive ranks between [[Instrumental]] and [[Speaker]] in the case hierarchy for verb agreement:
+
+[[Agent]] > [[Dative]] > [[Patient]] > [[Instrumental]] > '''Possessive''' > [[Speaker]]
+
+== See Also ==
+
+* [[Agent]] - marks the subject of transitive/active verbs
+* [[Patient]] - marks the object of transitive verbs
+* [[Instrumental]] - marks the instrument, companion, or location
+* [[Dative]] - marks the recipient or beneficiary
+* [[Speaker]] - marks the source of reported information

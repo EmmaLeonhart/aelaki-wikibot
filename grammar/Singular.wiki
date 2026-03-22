@@ -1,1 +1,42 @@
 [[Category:grammatical numbers]]
+The '''singular''' is the base, unmarked grammatical number in [[Aelaki]]. It represents a single instance of a noun and uses the unmodified root template.
+
+== Formation ==
+
+The singular is formed using the base C₁V₁C₂V₂C₃ template with no morphological operations applied. Because it is the default form, singular nouns require no affixation, [[Collective|umlaut]], or [[Aelaki plural|reduplication]].
+
+{| class="wikitable"
+! Root !! Singular Form !! Meaning
+|-
+| B-S-L || Basol || tree
+|-
+| SH-B-V || Shabav || man
+|}
+
+== Relationship to Other Numbers ==
+
+The singular serves as the base from which all other grammatical numbers are derived through the four core morphological operations:
+
+{| class="wikitable"
+! Number !! Operation !! Template
+|-
+| '''Singular''' || Base (unmarked) || C₁V₁C₂V₂C₃
+|-
+| [[Aelaki plural|Plural]] || Reduplication of C₂ || C₁V₁C₂C₂V₂C₃
+|-
+| [[Collective]] || Umlaut (vowel fronting) || C₁frontV₁C₂frontV₂C₃
+|-
+| [[Zero]] || Zero-infix /f/ || C₁V₁fC₂V₂C₃
+|}
+
+== Ki Syllables ==
+
+The [[Ki]] syllables encode number distinctions for each person-gender combination. The singular form of the Ki syllable is the base entry in each person-gender paradigm.
+
+== See Also ==
+
+* [[Aelaki plural|Plural]]
+* [[Paucal]]
+* [[Plentiful]]
+* [[Collective]]
+* [[Zero]]

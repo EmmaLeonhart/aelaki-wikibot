@@ -1,2 +1,52 @@
+The '''almost''' aspect (also called '''proximative''') in Aelaki expresses that an action or state nearly occurred but did not. It is one of the [[Stative aspects|stative verb aspects]], formed with the prefix '''ko-''' (or '''ke-''' with umlaut stems).
+
+== Formation ==
+
+The almost aspect is formed by prefixing '''ko-''' to the stative verb stem.
+
+{| class="wikitable"
+! Stative verb !! Almost !! Meaning
+|-
+| zoduk (know) || kozoduk || almost learn (nearly start to know)
+|-
+| apafath (fall) || ko'apafath || almost fall
+|}
+
+== Continuative form ==
+
+The continuative of the almost aspect is formed by reduplicating the prefix:
+
+{| class="wikitable"
+! Base !! Continuative !! Meaning
+|-
+| kozoduk || kokozoduk || almost learning (in the process of nearly knowing)
+|}
+
+== Semantic scope ==
+
+The almost aspect indicates that a state came close to being realized but ultimately was not. With ''zoduk'' "know", the almost form ''kozoduk'' means "almost learn" -- that is, to come close to knowing something without fully achieving it.
+
+== Relationship to other stative aspects ==
+
+{| class="wikitable"
+! Prefix !! Aspect !! Example !! Meaning
+|-
+| ho- || [[Probable]] || hozoduk || curious (about to know)
+|-
+| nü- || [[Inchoative]] || nüzoduk || learn (start to know)
+|-
+| nï- (+ umlaut) || [[Cessative]] || nïzedik || forget (stop knowing)
+|-
+| lu- || [[Resumptive]] || luzedik || remember (resume knowing)
+|-
+| '''ko-''' || '''Almost''' || '''kozoduk''' || '''almost learn'''
+|}
+
+== See also ==
+
+* [[Inchoative]]
+* [[Cessative]]
+* [[Resumptive]]
+
 [[Category:grammatical aspects]]
 [[Category:Stative aspects]]

@@ -1,2 +1,57 @@
+The '''cessative''' aspect in Aelaki expresses the cessation or stopping of an action or state. It is one of the [[Stative aspects|stative verb aspects]], formed with the prefix '''nï-''' combined with '''umlaut''' of the verb stem.
+
+== Formation ==
+
+The cessative requires two modifications:
+# The prefix '''nï-''' is added to the verb
+# The stem undergoes '''umlaut''' (vowel fronting)
+
+{| class="wikitable"
+! Stative verb !! Cessative !! Meaning
+|-
+| zoduk (know) || nïzedik || forget (stop knowing)
+|-
+| apafath (fall) || nï'æpæfath || stop falling
+|}
+
+Note that the stem ''zoduk'' becomes ''zedik'' through umlaut, and ''apafath'' becomes ''æpæfath''.
+
+== Continuative form ==
+
+The continuative of the cessative is formed by reduplicating the prefix:
+
+{| class="wikitable"
+! Base !! Continuative !! Meaning
+|-
+| nïzedik || nïnïzedik || forgetting (in the process of stopping knowing)
+|}
+
+== Semantic scope ==
+
+The cessative indicates the end or termination of a state. With ''zoduk'' "know", the cessative ''nïzedik'' means "forget" -- that is, to stop knowing something. The umlaut of the stem reinforces the change-of-state meaning.
+
+== Relationship to other stative aspects ==
+
+{| class="wikitable"
+! Prefix !! Aspect !! Example !! Meaning
+|-
+| ho- || [[Probable]] || hozoduk || curious (about to know)
+|-
+| nü- || [[Inchoative]] || nüzoduk || learn (start to know)
+|-
+| '''nï-''' (+ umlaut) || '''Cessative''' || '''nïzedik''' || '''forget (stop knowing)'''
+|-
+| lu- || [[Resumptive]] || luzedik || remember (resume knowing)
+|-
+| ko- || [[Almost]] || kozoduk || almost learn
+|}
+
+== See also ==
+
+* [[Cess]] (redirect)
+* [[Inchoative]]
+* [[Resumptive]]
+* [[Repetitive]]
+
 [[Category:grammatical aspects]]
 [[Category:Stative aspects]]

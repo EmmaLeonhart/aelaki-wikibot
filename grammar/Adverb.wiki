@@ -1,1 +1,62 @@
+'''Adverbs''' in Aelaki evolved from active intransitive converbs. They are built on a root + '''-te''' frame and must strictly agree with verbal tense.
+
+== Formation ==
+
+Adverbs are formed by attaching the suffix '''-te''' to the verbal root:
+
+: ROOT + ''-te'' → adverb
+
+== Stem Alternations ==
+
+Adverbs have four stem alternations:
+
+{| class="wikitable"
+|-
+! Alternation !! Pattern !! Example
+|-
+| [[Positive]] || ROOT-te || ''zadate'' "lengthy"
+|-
+| [[Comparative]] || Root-C₂-te (reduplication) || ''zadadate'' "lengthier"
+|-
+| [[Superlative]] || Umlaut vowels || ''zædæte'' "lengthliest"
+|-
+| [[Negative]] || /F/-infix || ''zafdafte'' "not lengthy"
+|}
+
+== Tense Agreement ==
+
+Adverbs must '''strictly agree''' with the tense of the verb they modify. This is accomplished through a set of tense-marking suffixes appended to the ''-te'' frame:
+
+{| class="wikitable"
+|-
+! Suffix !! Tense/Evidentiality
+|-
+| ''-tesher'' || Mythic
+|-
+| ''-tero'' || Past auditory
+|-
+| ''-teshë'' || Past visual
+|-
+| ''-teshëm'' || Past inferential
+|-
+| ''-nkerom'' || Hodiernal auditory
+|}
+
+Additional tense agreement suffixes exist for the full TAM paradigm.
+
+== Example Paradigm ==
+
+{| class="wikitable"
+|-
+! Form !! Gloss
+|-
+| ''zadate'' || lengthy ([[Positive]])
+|-
+| ''zadadate'' || lengthier ([[Comparative]])
+|-
+| ''zædæte'' || lengthliest ([[Superlative]])
+|-
+| ''zafdafte'' || not lengthy ([[Negative]])
+|}
+
 [[Category:parts of speech]]

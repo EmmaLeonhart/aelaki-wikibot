@@ -1,2 +1,52 @@
+The '''probable''' is a stative aspect prefix in Aelaki that indicates an event is imminent or highly likely. Unlike the suffix-based [[Visual|visual]], [[Auditory|auditory]], and [[Inferential|inferential]] evidentials, the probable uses the prefix '''Ho-''' and applies exclusively to stative verbs.
+
+== Formation ==
+
+The probable is formed by prefixing '''Ho-''' (with a glottal stop before the following root) to a stative verb:
+
+{| class="wikitable"
+! Base verb !! Meaning !! With Ho- !! Meaning
+|-
+| ''apafath'' || "to fall" || '''Ho'apafath''' || "I am about to fall" / "I am probably falling"
+|}
+
+The prefix attaches directly to the stative verb stem. The glottal stop (''') separates the prefix from vowel-initial roots.
+
+== Usage ==
+
+The probable prefix expresses two closely related meanings:
+
+* '''Imminence''' -- the event is about to happen ("I am about to fall")
+* '''Probability''' -- the event is likely or expected ("it is probably raining")
+
+Both readings arise naturally from stative contexts, where the speaker perceives a current state that points strongly toward an outcome.
+
+== Distinction from the inferential ==
+
+The probable and the [[Inferential|inferential]] evidential both convey uncertainty, but they differ in several ways:
+
+{| class="wikitable"
+! Feature !! Probable ('''Ho-''') !! [[Inferential]] ('''-shëm / -mu''')
+|-
+| Morphology || prefix || suffix
+|-
+| Verb type || stative verbs only || all verbs
+|-
+| Temporal focus || present / imminent || past ('''-shëm''') or future ('''-mu''')
+|-
+| Meaning || probability or imminence || deduction from indirect evidence
+|-
+| Speaker's basis || felt/perceived state || reasoned conclusion
+|}
+
+The probable is grounded in the speaker's immediate perception of a state, while the [[Inferential|inferential]] is grounded in reasoning from evidence. A speaker uses '''Ho-''' when they feel themselves about to fall; they use '''-shëm''' when they deduce that someone else must have fallen from seeing a broken railing.
+
+== See also ==
+
+* [[Inferential]] -- evidential for deduction from evidence
+* [[Visual]] -- evidential for directly witnessed events
+* [[Auditory]] -- evidential for events heard directly
+* [[Hearsay]] -- evidential for reported information
+
 [[Category:evidentialities]]
 [[Category:Stative aspects]]

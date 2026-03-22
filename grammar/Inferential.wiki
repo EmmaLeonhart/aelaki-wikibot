@@ -1,1 +1,92 @@
+The '''inferential evidential''' marks events that the speaker deduces from indirect evidence rather than witnessing or hearing about directly. It covers logical deduction, reasoning from physical traces, and uncertain memory.
+
+== Proto-morpheme ==
+
+{| class="wikitable"
+! Proto-morpheme !! Allomorphs !! Gloss !! Modern reflex
+|-
+| '''u / -mu''' || /u/ (prefix), -mu (suffix) || inferential / predictive || retains function in future prediction as '''-mu'''
+|}
+
+The inferential proto-morpheme '''-mu''' survives directly in future tenses. In past tenses, it has fused with the [[Visual|visual]] suffix '''-shë''' to produce the compound form '''-shëm'''.
+
+== Formation ==
+
+{| class="wikitable"
+! Tense !! Suffix !! Etymology !! Notes
+|-
+| [[Past]] || '''-shëm''' || < '''-shë''' + '''-mu''' || Fusion of [[Visual|visual]] and inferential morphemes
+|-
+| [[Hesternal]] || '''-shëm''' || < '''-shë''' + '''-mu''' || Same compound form
+|-
+| [[Hodiernal]] || '''-shëm''' || < '''-shë''' + '''-mu''' || Same compound form
+|-
+| [[Future]] || '''-mu''' || direct reflex of proto-morpheme || Pure inferential, used for predictions based on evidence
+|}
+
+The past inferential '''-shëm''' historically represents "seeing toward" a conclusion -- the speaker has visual evidence ('''-shë''') from which they project ('''-mu''') what must have happened.
+
+== Usage ==
+
+The inferential evidential is used when the speaker's knowledge comes from reasoning rather than direct perception:
+
+* '''Physical traces''' -- seeing footprints and deducing someone walked past
+* '''Logical deduction''' -- concluding that it rained because the ground is wet
+* '''Uncertain memory''' -- recalling an event but not being fully confident in the details
+* '''Future prediction''' -- using present evidence to predict a future outcome (with '''-mu''')
+
+== Corpus distribution ==
+
+In the fictional 1-million-word corpus model, the inferential evidential is the least common primary evidential but plays a key role in specific contexts:
+
+{| class="wikitable"
+! Person (past tense) !! [[Visual|Visual]] !! [[Auditory|Auditory]] !! Inferential
+|-
+| [[First person]] || 70% || 10% || '''20%'''
+|-
+| [[Second person]] || 40% || 45% || '''15%'''
+|-
+| [[Third person]] || 65% || 25% || '''10%'''
+|}
+
+The inferential is most common with [[First person|first-person]] past (20%), used when the speaker deduces or uncertainly remembers their own past actions. It is least common with [[Third person|third-person]] past (10%), where speakers typically either witnessed the event directly ([[Visual|visual]]) or were told about it ([[Auditory|auditory]]).
+
+{| class="wikitable"
+! Person (future tense) !! [[Imperative|Imperative]]/Intent !! Inferential !! [[Auditory|Auditory]]
+|-
+| [[First person]] || 72% || '''18%''' || 10%
+|}
+
+In [[First person|first-person]] [[Future|future]], the inferential accounts for 18% of usage, covering predictions the speaker makes about their own future based on evidence or probability.
+
+== Relationship to the Probable ==
+
+The inferential evidential and the [[Probable|probable]] stative prefix ('''Ho-''') both express uncertainty about events, but differ in scope:
+
+{| class="wikitable"
+! Feature !! Inferential ('''-shëm / -mu''') !! [[Probable]] ('''Ho-''')
+|-
+| Applies to || all verbs || stative verbs only
+|-
+| Temporal range || past and future || present/imminent
+|-
+| Meaning || deduction from evidence || probability/imminence
+|-
+| Morphology || suffix || prefix
+|}
+
+== Diachronic notes ==
+
+The fusion of '''-shë''' and '''-mu''' into '''-shëm''' is a key development in Aelaki historical grammar. It suggests that the language originally conceptualised inference as a form of indirect vision -- the speaker "sees" evidence and "projects" a conclusion. The pure inferential '''-mu''' survives unchanged in future tenses, where prediction from evidence is its core function.
+
+== See also ==
+
+* [[Visual]] -- evidential for directly witnessed events
+* [[Auditory]] -- evidential for events heard directly
+* [[Hearsay]] -- evidential for reported information
+* [[Probable]] -- stative prefix for imminent/probable events
+* [[Speaker]] -- case marking the source of non-visual evidential information
+* [[Past]] -- the unmarked temporal frame
+* [[Future]] -- where the pure '''-mu''' form is used
+
 [[Category:evidentialities]]

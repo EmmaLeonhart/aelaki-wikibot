@@ -1,1 +1,67 @@
+The '''hearsay evidential''' marks information that the speaker received through indirect report, tradition, or rumour rather than through direct perception. It shares the proto-morpheme '''-ro''' with the [[Auditory|auditory evidential]], and the two are often grouped together as the '''auditory/hearsay''' evidential system.
+
+== Proto-morpheme ==
+
+{| class="wikitable"
+! Proto-morpheme !! Allomorphs !! Gloss !! Modern reflex
+|-
+| '''o / -ro''' || /o/ (prefix), -ro (suffix) || auditory / hearsay evidential || survives as '''-ro''' ([[Past|past]] reported), and in compounds across tenses
+|}
+
+The hearsay and [[Auditory|auditory]] evidentials share a single proto-morpheme, reflecting a historical stage when Aelaki did not distinguish between hearing an event and being told about it. The modern language distinguishes them primarily through context and the use of the [[Speaker]] case.
+
+== Distinction from auditory ==
+
+The key difference between hearsay and [[Auditory|auditory]] is the '''directness''' of the information:
+
+{| class="wikitable"
+! Feature !! [[Auditory]] !! Hearsay
+|-
+| Source || Direct hearing or in-person report || Indirect report, rumour, tradition
+|-
+| Speaker present? || Yes, when told || Not necessarily
+|-
+| Reliability || Higher || Lower
+|-
+| Typical use || "I heard him say it" || "They say that...", "It is said that..."
+|}
+
+Both use the same morphological forms ('''-ro''', '''-ngrom''', '''-rum'''), with disambiguation handled through context and the [[Speaker]] case. When the [[Speaker]] case is absent, the hearsay reading is preferred; when it is present, the auditory reading (with a specific named source) is more natural.
+
+== Formation ==
+
+The hearsay evidential uses the same tense forms as the [[Auditory|auditory]]:
+
+{| class="wikitable"
+! Tense !! Suffix !! Notes
+|-
+| [[Past]] || '''-ro''' || Base reported form
+|-
+| [[Hodiernal]] || '''-ngrom''' || Events reported as happening today
+|-
+| [[Future]] || '''-rum''' || Predictions or expectations based on what the speaker has heard
+|}
+
+== Usage ==
+
+The hearsay evidential is used for:
+
+* '''Indirect reports''' -- information passed through one or more intermediaries
+* '''Rumour and gossip''' -- unverified information circulating in a community
+* '''Oral tradition''' -- stories, legends, and cultural knowledge passed down through generations
+* '''General knowledge''' -- facts the speaker learned from others but did not verify personally
+
+== The Speaker case ==
+
+In hearsay constructions, the [[Speaker]] case can optionally mark the ultimate source of the information. When the [[Speaker]] case is omitted, the implication is that the source is diffuse or unknown ("people say", "it is said").
+
+== See also ==
+
+* [[Auditory]] -- related evidential for directly heard events or in-person reports
+* [[Visual]] -- evidential for directly witnessed events
+* [[Inferential]] -- evidential for deduction from evidence
+* [[Probable]] -- stative prefix for imminent/probable events
+* [[Speaker]] -- case marking the source of reported information
+* [[Mythic]] -- tense for deep legendary past, often used with hearsay evidentiality
+
 [[Category:evidentialities]]
