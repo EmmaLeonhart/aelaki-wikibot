@@ -939,6 +939,104 @@ def upgrade_old_versions(site, lexicon, limit, run_tag_suffix, log_file,
 
 
 # ---------------------------------------------------------------------------
+# Phase 0: Move/upgrade pages in Category:Irregular words
+# ---------------------------------------------------------------------------
+
+IRREGULAR_CATEGORY = "Irregular words"
+
+
+def fix_irregular_words(site, lexicon, limit, run_tag_suffix, log_file):
+    """Move and upgrade pages in Category:Irregular words.
+
+    These pages have old/wrong titles and aren't in any version category,
+    so the normal upgrade loop never sees them.  This phase matches them
+    to lexicon entries (by citation_form or old_citation_form), moves them
+    to the correct title, and rewrites their content at the current version.
+    """
+    cat = site.categories[IRREGULAR_CATEGORY]
+    total_edits = 0
+
+    for page in cat:
+        if total_edits >= limit:
+            print(f"  Irregular budget exhausted ({limit}).", flush=True)
+            break
+
+        if not page.name.lower().startswith("word:"):
+            continue
+
+        lemma = page.name.split(":", 1)[1]
+
+        # Find matching lexicon entry
+        entry = None
+        key = None
+        for k, e in lexicon.items():
+            if e["citation_form"] == lemma:
+                entry = e
+                key = k
+                break
+            if e["word_class"] in VERB_CLASSES and verb_root_title(e["root_str"]) == lemma:
+                entry = e
+                key = k
+                break
+            if e.get("old_citation_form") and e["old_citation_form"] == lemma:
+                entry = e
+                key = k
+                break
+
+        if not entry:
+            print(f"  SKIP irregular (no lexicon match): [[{page.name}]]", flush=True)
+            continue
+
+        new_title = page_title_for(entry)
+        new_text = generate_word_page(key, entry)
+
+        # Move if title differs
+        if page.name != new_title:
+            try:
+                moved = move_page(site, page.name, new_title,
+                                  reason=f"Bot: move irregular word to correct title{run_tag_suffix}")
+                if moved:
+                    print(f"  MOVED irregular: [[{page.name}]] -> [[{new_title}]]", flush=True)
+                    total_edits += 1
+                else:
+                    print(f"  SKIP move (target exists): [[{page.name}]] -> [[{new_title}]]", flush=True)
+            except Exception as e:
+                print(f"  ERROR moving irregular [[{page.name}]]: {e}", flush=True)
+                append_log(log_file, {
+                    "key": key, "lemma": lemma, "title": page.name,
+                    "status": "irregular_move_error", "error": str(e),
+                })
+                continue
+            page = site.pages[new_title]
+
+        if total_edits >= limit:
+            break
+
+        # Upgrade content
+        try:
+            saved = safe_save(page, new_text,
+                              summary=f"Bot: upgrade irregular word to {PAGE_VERSION}{run_tag_suffix}")
+            if saved:
+                print(f"  UPGRADED irregular: [[{page.name}]]", flush=True)
+                total_edits += 1
+                append_log(log_file, {
+                    "key": key, "lemma": lemma, "title": page.name,
+                    "status": "irregular_upgraded", "to": PAGE_VERSION,
+                })
+            else:
+                print(f"  SKIP irregular (no change): [[{page.name}]]", flush=True)
+        except Exception as e:
+            print(f"  ERROR upgrading irregular [[{page.name}]]: {e}", flush=True)
+            append_log(log_file, {
+                "key": key, "lemma": lemma, "title": page.name,
+                "status": "irregular_upgrade_error", "error": str(e),
+            })
+
+    print(f"  Irregular words: {total_edits} edits.", flush=True)
+    return total_edits
+
+
+# ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
 
@@ -1146,6 +1244,17 @@ def main():
     run_lemma = args.phase in ("all", "lemma")
     run_nonlemma = args.phase in ("all", "nonlemma")
     total_edits = 0
+
+    # ===== Phase 0: Fix irregular words =====
+    if run_lemma:
+        if args.apply:
+            print(f"\n--- Phase 0: Fix irregular words (budget: {args.limit}) ---", flush=True)
+            phase0_edits = fix_irregular_words(site, lexicon, args.limit,
+                                               run_tag_suffix, args.log_file)
+            total_edits += phase0_edits
+            print(f"\n  Phase 0 edits: {phase0_edits}", flush=True)
+        else:
+            print(f"\n--- Phase 0: Would fix irregular words (dry-run) ---", flush=True)
 
     # ===== Phase 1: Upgrade old lemma pages =====
     if run_lemma:

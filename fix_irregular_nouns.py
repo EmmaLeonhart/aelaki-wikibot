@@ -99,8 +99,8 @@ FIXES = {
         "gloss": "maomao (bear-sized companion)",
     },
     "dzhabho": {
-        "new_key": "dzhbhr",
-        "root": ["dzh", "bh", "r"],
+        "new_key": "jbhr",
+        "root": ["j", "bh", "r"],
         "gender": "female",
         "gloss": "bird",
     },
