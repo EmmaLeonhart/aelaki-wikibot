@@ -24,6 +24,14 @@ Based on: https://github.com/Emma-Leonhart/shintowiki-scripts/
 - [x] Pages tagged with `{{wordpage|v1}}` for version tracking
 - [x] 10 words per run, state file tracks progress across runs
 
+### State File Audit Needed
+- [ ] Audit `create_word_pages.state` — this file tracks which lexicon keys have had pages created/checked. It's used only by Phase 2 (new lemma creation) to skip already-processed keys. Current concerns:
+  - Stale entries accumulate when keys are renamed (e.g. `dzhbhr` → `jbhr`) — old key stays in state forever
+  - If state is lost (crash before commit), the only cost is re-checking keys via `page.exists` API calls — slower but not destructive
+  - Could potentially be eliminated entirely (go stateless, rely on `page.exists`) or rebuilt from wiki categories each run like `version_history.txt`
+  - Need to decide: is the speed optimization worth the statefulness risk, or should we go fully stateless?
+- [ ] General audit of all pipeline state files and their failure modes — `word_page_loop.sh` has documentation of what each step writes, but need to verify this stays accurate as the pipeline evolves
+
 ### Known Issues (wiki under maintenance)
 - [ ] Correct declensions on inanimate nouns — declension forms for inanimate nouns need to be fixed, but the wiki is currently undergoing maintenance so this should wait until the wiki is back up
 - [ ] Clean up commit `edceed7` — this commit only upgraded existing word pages but did not add new ones, so the impact is limited; however the upgrade may have produced inconsistent page content. Review and fix affected pages once the wiki is working again
