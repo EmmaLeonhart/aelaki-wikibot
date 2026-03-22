@@ -21425,16 +21425,6 @@
       "gloss": "father and child",
       "citation_form": "odapab"
     },
-    "dzahab": {
-      "root": [
-        "dzh",
-        "h",
-        "b"
-      ],
-      "class": "noun",
-      "gloss": "cross siblings",
-      "citation_form": "jahab"
-    },
     "dahab": {
       "root": [
         "d",
@@ -35247,17 +35237,6 @@
       "gender": "child",
       "citation_form": "malumu"
     },
-    "dzhbhr": {
-      "root": [
-        "dzh",
-        "bh",
-        "r"
-      ],
-      "class": "noun",
-      "gloss": "bird",
-      "gender": "female",
-      "citation_form": "dzhabhoro"
-    },
     "snsh": {
       "root": [
         "s",
@@ -44241,6 +44220,28 @@
       "gloss": "mbube (auto-generated)",
       "gender": "child",
       "citation_form": "mavudhu"
+    },
+    "jbhr": {
+      "root": [
+        "j",
+        "bh",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "bird",
+      "gender": "female",
+      "citation_form": "jabhoro",
+      "old_citation_form": "dzhabhoro"
+    },
+    "jahab": {
+      "root": [
+        "j",
+        "h",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "cross siblings",
+      "citation_form": "jahab"
     }
   },
   "adjectives": {
