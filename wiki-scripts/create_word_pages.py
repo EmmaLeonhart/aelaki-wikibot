@@ -872,8 +872,11 @@ def upgrade_old_versions(site, lexicon, limit, run_tag_suffix, log_file,
         if total_edits >= limit:
             break
 
-        print(f"\nChecking [[Category:{cat_name}]]...", flush=True)
         cat = site.categories[cat_name]
+        if not cat.exists:
+            continue
+
+        print(f"\nChecking [[Category:{cat_name}]]...", flush=True)
         upgraded_this_cat = 0
 
         for page in cat:
@@ -1040,8 +1043,11 @@ def upgrade_old_nonlemma_forms(site, lexicon, limit, run_tag_suffix, log_file,
         if total_upgraded >= limit:
             break
 
-        print(f"\n  Checking [[Category:{nonlemma_cat}]]...", flush=True)
         cat = site.categories[nonlemma_cat]
+        if not cat.exists:
+            continue
+
+        print(f"\n  Checking [[Category:{nonlemma_cat}]]...", flush=True)
         upgraded_this_cat = 0
 
         for page in cat:
