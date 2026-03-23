@@ -1,290 +1,346 @@
 {
   "Adjective": {
     "file": "Adjective.wiki",
-    "revid": 78580
+    "revid": 111376
   },
   "Adjectives": {
     "file": "Adjectives.wiki",
-    "revid": 102564
+    "revid": 111377
+  },
+  "Adpositions": {
+    "file": "Adpositions.wiki",
+    "revid": 111378
   },
   "Adverb": {
     "file": "Adverb.wiki",
-    "revid": 78581
+    "revid": 111379
   },
   "Aelaki": {
     "file": "Aelaki.wiki",
-    "revid": 102565
+    "revid": 111380
   },
   "Aelaki plural": {
     "file": "Aelaki_plural.wiki",
-    "revid": 78525
+    "revid": 111381
   },
   "Aelaki roots": {
     "file": "Aelaki_roots.wiki",
-    "revid": 102570
+    "revid": 108574
   },
   "Agent": {
     "file": "Agent.wiki",
-    "revid": 78565
+    "revid": 111382
   },
   "Almost": {
     "file": "Almost.wiki",
-    "revid": 78549
+    "revid": 111383
   },
   "Atelic": {
     "file": "Atelic.wiki",
-    "revid": 78570
+    "revid": 111384
   },
   "Auditory": {
     "file": "Auditory.wiki",
-    "revid": 78569
+    "revid": 111385
   },
   "Category:Adjective things": {
     "file": "Category_Adjective_things.wiki",
-    "revid": 102553
+    "revid": 111386
   },
   "Category:Cases": {
     "file": "Category_Cases.wiki",
-    "revid": 102554
+    "revid": 111387
   },
   "Category:Continuities?": {
     "file": "Category_Continuities.wiki",
-    "revid": 102555
+    "revid": 111388
   },
   "Category:Evidentialities": {
     "file": "Category_Evidentialities.wiki",
-    "revid": 102556
+    "revid": 111389
   },
   "Category:Grammatical aspects": {
     "file": "Category_Grammatical_aspects.wiki",
-    "revid": 102557
+    "revid": 111390
   },
   "Category:Grammatical genders": {
     "file": "Category_Grammatical_genders.wiki",
-    "revid": 102558
+    "revid": 111391
   },
   "Category:Grammatical numbers": {
     "file": "Category_Grammatical_numbers.wiki",
-    "revid": 102559
+    "revid": 111392
   },
   "Category:Grammatical persons": {
     "file": "Category_Grammatical_persons.wiki",
-    "revid": 102560
+    "revid": 111393
   },
   "Category:Grammatical tenses": {
     "file": "Category_Grammatical_tenses.wiki",
-    "revid": 102561
+    "revid": 111394
   },
   "Category:Parts of speech": {
     "file": "Category_Parts_of_speech.wiki",
-    "revid": 102562
+    "revid": 111395
   },
   "Category:Stative aspects": {
     "file": "Category_Stative_aspects.wiki",
-    "revid": 102563
+    "revid": 111396
   },
   "Cess": {
     "file": "Cess.wiki",
-    "revid": 78550
+    "revid": 111397
   },
   "Cessative": {
     "file": "Cessative.wiki",
-    "revid": 78551
+    "revid": 111398
   },
   "Child": {
     "file": "Child.wiki",
-    "revid": 78526
+    "revid": 111399
   },
   "Collective": {
     "file": "Collective.wiki",
-    "revid": 78519
+    "revid": 111400
   },
   "Comparative": {
     "file": "Comparative.wiki",
-    "revid": 78540
+    "revid": 111401
+  },
+  "Contact influence": {
+    "file": "Contact_influence.wiki",
+    "revid": 111402
   },
   "Continuous": {
     "file": "Continuous.wiki",
-    "revid": 78573
+    "revid": 111403
+  },
+  "Converbs": {
+    "file": "Converbs.wiki",
+    "revid": 111404
+  },
+  "Copula": {
+    "file": "Copula.wiki",
+    "revid": 111405
   },
   "Crastinal": {
     "file": "Crastinal.wiki",
-    "revid": 78543
+    "revid": 111406
   },
   "Dative": {
     "file": "Dative.wiki",
-    "revid": 78517
+    "revid": 111407
   },
   "Deliberative": {
     "file": "Deliberative.wiki",
-    "revid": 78563
+    "revid": 111408
   },
   "Female": {
     "file": "Female.wiki",
-    "revid": 78527
+    "revid": 111409
   },
   "First person": {
     "file": "First_person.wiki",
-    "revid": 78530
+    "revid": 111410
+  },
+  "First person nouns": {
+    "file": "First_person_nouns.wiki",
+    "revid": 111411
   },
   "Fourth person": {
     "file": "Fourth_person.wiki",
-    "revid": 78531
+    "revid": 111412
   },
   "Future": {
     "file": "Future.wiki",
-    "revid": 78544
+    "revid": 111413
   },
   "Gnomic": {
     "file": "Gnomic.wiki",
-    "revid": 78552
+    "revid": 111414
   },
   "Habitual": {
     "file": "Habitual.wiki",
-    "revid": 78553
+    "revid": 111415
   },
   "Hearsay": {
     "file": "Hearsay.wiki",
-    "revid": 78555
+    "revid": 111416
   },
   "Hesternal": {
     "file": "Hesternal.wiki",
-    "revid": 78545
+    "revid": 111417
   },
   "Hodiernal": {
     "file": "Hodiernal.wiki",
-    "revid": 78546
+    "revid": 111418
   },
   "Imperative": {
     "file": "Imperative.wiki",
-    "revid": 78564
+    "revid": 111419
   },
   "Imperfect": {
     "file": "Imperfect.wiki",
-    "revid": 78571
+    "revid": 111420
   },
   "Inanimate": {
     "file": "Inanimate.wiki",
-    "revid": 78529
+    "revid": 111421
   },
   "Inchoative": {
     "file": "Inchoative.wiki",
-    "revid": 78554
+    "revid": 111422
   },
   "Inferential": {
     "file": "Inferential.wiki",
-    "revid": 78556
+    "revid": 111423
   },
   "Instrumental": {
     "file": "Instrumental.wiki",
-    "revid": 78566
+    "revid": 111424
   },
   "Intention": {
     "file": "Intention.wiki",
-    "revid": 78557
+    "revid": 111425
   },
   "Intentional": {
     "file": "Intentional.wiki",
-    "revid": 78558
+    "revid": 111426
+  },
+  "Ki syllables": {
+    "file": "Ki_syllables.wiki",
+    "revid": 111427
   },
   "Male": {
     "file": "Male.wiki",
-    "revid": 78528
+    "revid": 111428
   },
   "Mythic": {
     "file": "Mythic.wiki",
-    "revid": 78547
+    "revid": 111429
   },
   "Mythical": {
     "file": "Mythical.wiki",
-    "revid": 78548
+    "revid": 111430
   },
   "Negative": {
     "file": "Negative.wiki",
-    "revid": 78542
+    "revid": 111431
+  },
+  "Numerals": {
+    "file": "Numerals.wiki",
+    "revid": 111432
   },
   "Optative": {
     "file": "Optative.wiki",
-    "revid": 78574
+    "revid": 111433
+  },
+  "Particles": {
+    "file": "Particles.wiki",
+    "revid": 111434
   },
   "Past": {
     "file": "Past.wiki",
-    "revid": 78576
+    "revid": 111435
   },
   "Patient": {
     "file": "Patient.wiki",
-    "revid": 78567
+    "revid": 111436
   },
   "Paucal": {
     "file": "Paucal.wiki",
-    "revid": 78520
+    "revid": 111437
   },
   "Perfect": {
     "file": "Perfect.wiki",
-    "revid": 78577
+    "revid": 111438
   },
   "Plentiful": {
     "file": "Plentiful.wiki",
-    "revid": 78521
+    "revid": 111439
   },
   "Plural": {
     "file": "Plural.wiki",
-    "revid": 78522
+    "revid": 111440
   },
   "Positive": {
     "file": "Positive.wiki",
-    "revid": 78583
+    "revid": 111441
   },
   "Possessive": {
     "file": "Possessive.wiki",
-    "revid": 78518
+    "revid": 111442
   },
   "Present": {
     "file": "Present.wiki",
-    "revid": 78582
+    "revid": 111443
   },
   "Probable": {
     "file": "Probable.wiki",
-    "revid": 78562
+    "revid": 111444
+  },
+  "Pseudopronouns": {
+    "file": "Pseudopronouns.wiki",
+    "revid": 111445
+  },
+  "Questions": {
+    "file": "Questions.wiki",
+    "revid": 111446
+  },
+  "Quirky jussive": {
+    "file": "Quirky_jussive.wiki",
+    "revid": 111447
+  },
+  "Quirky optative": {
+    "file": "Quirky_optative.wiki",
+    "revid": 111448
   },
   "Repetitive": {
     "file": "Repetitive.wiki",
-    "revid": 78560
+    "revid": 111449
   },
   "Resumptive": {
     "file": "Resumptive.wiki",
-    "revid": 78561
+    "revid": 111450
   },
   "Second person": {
     "file": "Second_person.wiki",
-    "revid": 78532
+    "revid": 111451
   },
   "Singular": {
     "file": "Singular.wiki",
-    "revid": 78523
+    "revid": 111452
   },
   "Speaker": {
     "file": "Speaker.wiki",
-    "revid": 78568
+    "revid": 111453
+  },
+  "Stative verbs": {
+    "file": "Stative_verbs.wiki",
+    "revid": 111454
   },
   "Superlative": {
     "file": "Superlative.wiki",
-    "revid": 78541
+    "revid": 111455
   },
   "Telic": {
     "file": "Telic.wiki",
-    "revid": 78572
+    "revid": 111456
   },
   "Third person": {
     "file": "Third_person.wiki",
-    "revid": 78533
+    "revid": 111457
   },
   "Visual": {
     "file": "Visual.wiki",
-    "revid": 78559
+    "revid": 111458
+  },
+  "Word order": {
+    "file": "Word_order.wiki",
+    "revid": 111459
   },
   "Zero": {
     "file": "Zero.wiki",
-    "revid": 78524
+    "revid": 111460
   }
 }
