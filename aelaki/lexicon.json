@@ -22619,6 +22619,27 @@
       "class": "verb_transitive",
       "gloss": "hole (auto-generated)",
       "citation_form": "kalatsemoko"
+    },
+    "gdhhdh": {
+      "root": [
+        "g",
+        "dh",
+        "h",
+        "dh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "xlate (auto-generated)",
+      "citation_form": "kagadhedhoko"
+    },
+    "hkl": {
+      "root": [
+        "h",
+        "k",
+        "l"
+      ],
+      "class": "verb_stative",
+      "gloss": "xfade (auto-generated)",
+      "citation_form": "hakala"
     }
   },
   "nouns": {
@@ -47165,6 +47186,446 @@
       "gloss": "nobleman (auto-generated)",
       "gender": "child",
       "citation_form": "wangufu"
+    },
+    "shyb": {
+      "root": [
+        "sh",
+        "y",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "deacetylase (auto-generated)",
+      "gender": "child",
+      "citation_form": "shayubu"
+    },
+    "zjv": {
+      "root": [
+        "z",
+        "j",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "dead (auto-generated)",
+      "gender": "child",
+      "citation_form": "zajuvu"
+    },
+    "zngj": {
+      "root": [
+        "z",
+        "ng",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "deadcake (auto-generated)",
+      "gender": "male",
+      "citation_form": "zangaja"
+    },
+    "thvsh": {
+      "root": [
+        "th",
+        "v",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "deadhesion (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "thavïfshïf"
+    },
+    "nvn": {
+      "root": [
+        "n",
+        "v",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "deadhandedness (auto-generated)",
+      "gender": "child",
+      "citation_form": "navunu"
+    },
+    "nvdh": {
+      "root": [
+        "n",
+        "v",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "deacetylcephalosporin (auto-generated)",
+      "gender": "child",
+      "citation_form": "navudhu"
+    },
+    "zhnj": {
+      "root": [
+        "zh",
+        "n",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "deacetyltransferase (auto-generated)",
+      "gender": "child",
+      "citation_form": "zhanuju"
+    },
+    "pzhv": {
+      "root": [
+        "p",
+        "zh",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "deadheading (auto-generated)",
+      "gender": "male",
+      "citation_form": "pazhava"
+    },
+    "dchy": {
+      "root": [
+        "d",
+        "ch",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "deactivation (auto-generated)",
+      "gender": "child",
+      "citation_form": "dachuyu"
+    },
+    "pzz": {
+      "root": [
+        "p",
+        "z",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "deadhead (auto-generated)",
+      "gender": "female",
+      "citation_form": "pazozo"
+    },
+    "pty": {
+      "root": [
+        "p",
+        "t",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "deadblow (auto-generated)",
+      "gender": "child",
+      "citation_form": "patuyu"
+    },
+    "chlsh": {
+      "root": [
+        "ch",
+        "l",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "deactualization (auto-generated)",
+      "gender": "child",
+      "citation_form": "chalushu"
+    },
+    "ykl": {
+      "root": [
+        "y",
+        "k",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "deadheartedness (auto-generated)",
+      "gender": "female",
+      "citation_form": "yakolo"
+    },
+    "ngthy": {
+      "root": [
+        "ng",
+        "th",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "deadhang (auto-generated)",
+      "gender": "female",
+      "citation_form": "ngathoyo"
+    },
+    "dhfb": {
+      "root": [
+        "dh",
+        "f",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "deacetylmarsformoside (auto-generated)",
+      "gender": "child",
+      "citation_form": "dhafubu"
+    },
+    "thshch": {
+      "root": [
+        "th",
+        "sh",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "deacetyllanatoside (auto-generated)",
+      "gender": "male",
+      "citation_form": "thashacha"
+    },
+    "tsk": {
+      "root": [
+        "t",
+        "s",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "deabstraction (auto-generated)",
+      "gender": "male",
+      "citation_form": "tasaka"
+    },
+    "sjf": {
+      "root": [
+        "s",
+        "j",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "deadbot (auto-generated)",
+      "gender": "male",
+      "citation_form": "sajafa"
+    },
+    "ngshl": {
+      "root": [
+        "ng",
+        "sh",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "deacetyltanghinin (auto-generated)",
+      "gender": "female",
+      "citation_form": "ngasholo"
+    },
+    "kpw": {
+      "root": [
+        "k",
+        "p",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "deadfold (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "kapïfwïf"
+    },
+    "kfv": {
+      "root": [
+        "k",
+        "f",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "deadcenter (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "kafïfvïf"
+    },
+    "hshr": {
+      "root": [
+        "h",
+        "sh",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "deacidifier (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "hashïfrïf"
+    },
+    "pchf": {
+      "root": [
+        "p",
+        "ch",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "deaconate (auto-generated)",
+      "gender": "child",
+      "citation_form": "pachufu"
+    },
+    "mhd": {
+      "root": [
+        "m",
+        "h",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "deaccession (auto-generated)",
+      "gender": "female",
+      "citation_form": "mahodo"
+    },
+    "fwy": {
+      "root": [
+        "f",
+        "w",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "deadgrass (auto-generated)",
+      "gender": "child",
+      "citation_form": "fawuyu"
+    },
+    "bngv": {
+      "root": [
+        "b",
+        "ng",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "deacon (auto-generated)",
+      "gender": "child",
+      "citation_form": "banguvu"
+    },
+    "pbs": {
+      "root": [
+        "p",
+        "b",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "deacylase (auto-generated)",
+      "gender": "male",
+      "citation_form": "pabasa"
+    },
+    "zhkng": {
+      "root": [
+        "zh",
+        "k",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "deaconry (auto-generated)",
+      "gender": "child",
+      "citation_form": "zhakungu"
+    },
+    "shgw": {
+      "root": [
+        "sh",
+        "g",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "deacetylcerbertin (auto-generated)",
+      "gender": "male",
+      "citation_form": "shagawa"
+    },
+    "ndr": {
+      "root": [
+        "n",
+        "d",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "deacylbrownioside (auto-generated)",
+      "gender": "female",
+      "citation_form": "nadoro"
+    },
+    "jst": {
+      "root": [
+        "j",
+        "s",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "deacylation (auto-generated)",
+      "gender": "male",
+      "citation_form": "jasata"
+    },
+    "zdb": {
+      "root": [
+        "z",
+        "d",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "deadbolt (auto-generated)",
+      "gender": "child",
+      "citation_form": "zadubu"
+    },
+    "zhfg": {
+      "root": [
+        "zh",
+        "f",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "deadener (auto-generated)",
+      "gender": "female",
+      "citation_form": "zhafogo"
+    },
+    "ldn": {
+      "root": [
+        "l",
+        "d",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "deaconess (auto-generated)",
+      "gender": "male",
+      "citation_form": "ladana"
+    },
+    "shnv": {
+      "root": [
+        "sh",
+        "n",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "deacquisition (auto-generated)",
+      "gender": "male",
+      "citation_form": "shanava"
+    },
+    "swzh": {
+      "root": [
+        "s",
+        "w",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "deaconship (auto-generated)",
+      "gender": "female",
+      "citation_form": "sawozho"
+    },
+    "slj": {
+      "root": [
+        "s",
+        "l",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "deadishness (auto-generated)",
+      "gender": "child",
+      "citation_form": "saluju"
+    },
+    "blm": {
+      "root": [
+        "b",
+        "l",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "deaddiction (auto-generated)",
+      "gender": "child",
+      "citation_form": "balumu"
+    },
+    "nbz": {
+      "root": [
+        "n",
+        "b",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "deacetoxywortmannin (auto-generated)",
+      "gender": "child",
+      "citation_form": "nabuzu"
+    },
+    "tthv": {
+      "root": [
+        "t",
+        "th",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "deacceleration (auto-generated)",
+      "gender": "child",
+      "citation_form": "tathuvu"
     }
   },
   "adjectives": {
@@ -53085,6 +53546,106 @@
       "class": "adjective",
       "gloss": "labioscrotal (auto-generated)",
       "citation_form": "thotahaka"
+    },
+    "ngsz": {
+      "root": [
+        "ng",
+        "s",
+        "z"
+      ],
+      "class": "adjective",
+      "gloss": "euantennariaceous (auto-generated)",
+      "citation_form": "ngosazaka"
+    },
+    "nts": {
+      "root": [
+        "n",
+        "t",
+        "s"
+      ],
+      "class": "adjective",
+      "gloss": "euchondrichthyan (auto-generated)",
+      "citation_form": "notasaka"
+    },
+    "fshng": {
+      "root": [
+        "f",
+        "sh",
+        "ng"
+      ],
+      "class": "adjective",
+      "gloss": "eucommiaceous (auto-generated)",
+      "citation_form": "foshangaka"
+    },
+    "pvn": {
+      "root": [
+        "p",
+        "v",
+        "n"
+      ],
+      "class": "adjective",
+      "gloss": "eucamptodromous (auto-generated)",
+      "citation_form": "povanaka"
+    },
+    "pdn": {
+      "root": [
+        "p",
+        "d",
+        "n"
+      ],
+      "class": "adjective",
+      "gloss": "euclidian (auto-generated)",
+      "citation_form": "podanaka"
+    },
+    "ngdhdh": {
+      "root": [
+        "ng",
+        "dh",
+        "dh"
+      ],
+      "class": "adjective",
+      "gloss": "eucryphiaceous (auto-generated)",
+      "citation_form": "ngodhadhaka"
+    },
+    "zhlv": {
+      "root": [
+        "zh",
+        "l",
+        "v"
+      ],
+      "class": "adjective",
+      "gloss": "eucapnic (auto-generated)",
+      "citation_form": "zholavaka"
+    },
+    "nghp": {
+      "root": [
+        "ng",
+        "h",
+        "p"
+      ],
+      "class": "adjective",
+      "gloss": "eucharistical (auto-generated)",
+      "citation_form": "ngohapaka"
+    },
+    "dhpch": {
+      "root": [
+        "dh",
+        "p",
+        "ch"
+      ],
+      "class": "adjective",
+      "gloss": "euchred (auto-generated)",
+      "citation_form": "dhopachaka"
+    },
+    "ngzhz": {
+      "root": [
+        "ng",
+        "zh",
+        "z"
+      ],
+      "class": "adjective",
+      "gloss": "eucephalic (auto-generated)",
+      "citation_form": "ngozhazaka"
     }
   },
   "adverbs": {
@@ -58876,6 +59437,106 @@
       "class": "adverb",
       "gloss": "dreamily (auto-generated)",
       "citation_form": "kazhate"
+    },
+    "shmj": {
+      "root": [
+        "sh",
+        "m",
+        "j"
+      ],
+      "class": "adverb",
+      "gloss": "beforehand (auto-generated)",
+      "citation_form": "shamate"
+    },
+    "shhb": {
+      "root": [
+        "sh",
+        "h",
+        "b"
+      ],
+      "class": "adverb",
+      "gloss": "beerishly (auto-generated)",
+      "citation_form": "shahate"
+    },
+    "ddhl": {
+      "root": [
+        "d",
+        "dh",
+        "l"
+      ],
+      "class": "adverb",
+      "gloss": "beauteously (auto-generated)",
+      "citation_form": "dadhate"
+    },
+    "dych": {
+      "root": [
+        "d",
+        "y",
+        "ch"
+      ],
+      "class": "adverb",
+      "gloss": "beaucoup (auto-generated)",
+      "citation_form": "dayate"
+    },
+    "shmg": {
+      "root": [
+        "sh",
+        "m",
+        "g"
+      ],
+      "class": "adverb",
+      "gloss": "beautifully (auto-generated)",
+      "citation_form": "shamate"
+    },
+    "pvs": {
+      "root": [
+        "p",
+        "v",
+        "s"
+      ],
+      "class": "adverb",
+      "gloss": "befuddlingly (auto-generated)",
+      "citation_form": "pavate"
+    },
+    "mys": {
+      "root": [
+        "m",
+        "y",
+        "s"
+      ],
+      "class": "adverb",
+      "gloss": "bedraggledly (auto-generated)",
+      "citation_form": "mayate"
+    },
+    "gthn": {
+      "root": [
+        "g",
+        "th",
+        "n"
+      ],
+      "class": "adverb",
+      "gloss": "bedward (auto-generated)",
+      "citation_form": "gathate"
+    },
+    "zhtz": {
+      "root": [
+        "zh",
+        "t",
+        "z"
+      ],
+      "class": "adverb",
+      "gloss": "beggingly (auto-generated)",
+      "citation_form": "zhatate"
+    },
+    "ysp": {
+      "root": [
+        "y",
+        "s",
+        "p"
+      ],
+      "class": "adverb",
+      "gloss": "beforetimes (auto-generated)",
+      "citation_form": "yasate"
     }
   },
   "colors": {
