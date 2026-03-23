@@ -13,21 +13,22 @@
 #   [local] = writes local files (needs commit_state to persist)
 #   [safe]  = no local state; if run crashes here, nothing is lost
 #
-# Step 0:   Rebuild version_history.txt from git log        [local] → commit
-# Step 0.5: Mark bot active on wiki                         [wiki]
-# Step 1:   Create wanted categories on wiki                [safe]
-# Step 1.1: Delete unused categories on wiki                [safe]
-# Step 1.5: Tag wanted word pages on wiki                   [safe]
-# Step 1.6: Normalize lexicon (gender redistribution)       [local] → commit
-# Step 2:   Upgrade old lemmas + create new lemma pages     [local+wiki] → commit
-# Step 3:   Generate new random words into lexicon          [local] → commit
-# Step 4:   Create + upgrade non-lemma form pages           [local+wiki] → commit
-# Step 5:   Create wanted page stubs                        [safe]
-# Step 6:   Update [[List of Aelaki roots]]                 [safe]
-# Step 7:   Update [[Git commit log]]                       [safe]
-# Step 8:   Sync grammar pages (bidirectional)              [local+wiki] → commit
-# Step 9:   Delete orphaned pages (2027+ only)              [safe]
-# Step 10:  Mark bot inactive on wiki                       [wiki]
+# Step 0:    Rebuild version_history.txt from git log       [local] → commit
+# Step 0.05: Update [[Git commit log]]                      [safe]
+# Step 0.1:  Reconcile state file (annual)                  [local] → commit
+# Step 0.5:  Mark bot active on wiki                        [wiki]
+# Step 1:    Create wanted categories on wiki               [safe]
+# Step 1.1:  Delete unused categories on wiki               [safe]
+# Step 1.5:  Tag wanted word pages on wiki                  [safe]
+# Step 1.6:  Normalize lexicon (gender redistribution)      [local] → commit
+# Step 2:    Upgrade old lemmas + create new lemma pages    [local+wiki] → commit
+# Step 3:    Generate new random words into lexicon         [local] → commit
+# Step 4:    Create + upgrade non-lemma form pages          [local+wiki] → commit
+# Step 5:    Create wanted page stubs                       [safe]
+# Step 6:    Update [[List of Aelaki roots]]                [safe]
+# Step 8:    Sync grammar pages (bidirectional)             [local+wiki] → commit
+# Step 9:    Delete orphaned pages (2027+ only)             [safe]
+# Step 10:   Mark bot inactive on wiki                      [wiki]
 #
 # LOCAL STATE FILES
 # =================
@@ -156,6 +157,14 @@ print(f'Rebuilt version_history.txt: {len(versions)} entries')
 commit_state "chore(state): rebuild version history from git log [skip ci]"
 
 # ===========================================================================
+# Step 0.05 [safe]: Update [[Git commit log]]
+# Writes: wiki only (single page)
+# Runs early so version categories are navigable before word page phases
+# ===========================================================================
+stage "Updating git commit log"
+python wiki-scripts/sync_commit_log.py --apply --run-tag "${RUN_TAG}"
+
+# ===========================================================================
 # Step 0.1 [local → commit]: Reconcile state file (annual)
 # Writes: create_word_pages.state, reconcile_state.last
 # Runs: first time 2026-03-22, then Jan 1 each year
@@ -239,13 +248,6 @@ python wiki-scripts/create_wanted_pages.py --apply --run-tag "${RUN_TAG}"
 # ===========================================================================
 stage "Updating list of Aelaki roots"
 python wiki-scripts/sync_roots_list.py --apply --run-tag "${RUN_TAG}"
-
-# ===========================================================================
-# Step 7 [safe]: Update [[Git commit log]]
-# Writes: wiki only (single page)
-# ===========================================================================
-stage "Updating git commit log"
-python wiki-scripts/sync_commit_log.py --apply --run-tag "${RUN_TAG}"
 
 # ===========================================================================
 # Step 8 [local+wiki → commit]: Sync grammar pages (bidirectional)
