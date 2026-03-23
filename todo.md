@@ -34,8 +34,8 @@ Based on: https://github.com/Emma-Leonhart/shintowiki-scripts/
 - [ ] General audit of all pipeline state files and their failure modes — `word_page_loop.sh` has documentation of what each step writes, but need to verify this stays accurate as the pipeline evolves
 
 ### Known Issues (wiki under maintenance)
-- [ ] Correct declensions on inanimate nouns — declension forms for inanimate nouns need to be fixed, but the wiki is currently undergoing maintenance so this should wait until the wiki is back up
-- [ ] Clean up commit `edceed7` — this commit only upgraded existing word pages but did not add new ones, so the impact is limited; however the upgrade may have produced inconsistent page content. Review and fix affected pages once the wiki is working again
+- [x] Correct declensions on inanimate nouns — inanimate now only generates 4th person forms (person is meaningless for inanimate), and tables show simplified Number/Form layout instead of redundant 4-person columns
+- [x] Clean up commit `edceed7` — was just "Update settings.local.json", no word page impact
 
 ### Planned: Page Format Updates (v2+)
 - [ ] Write `update_word_pages.py` — finds all pages with `{{wordpage|v1}}` and regenerates them with the v2 format
@@ -53,9 +53,10 @@ Based on: https://github.com/Emma-Leonhart/shintowiki-scripts/
 - [ ] Backfill existing auto-generated nouns with countability data
 
 ### Orphaned Pages Cleanup (2027+)
-- [ ] `delete_orphaned_pages.py` is in the pipeline but year-gated to 2027+
-- [ ] Will auto-delete orphaned `word:` pages (non-lemma forms accidentally created with no incoming links)
-- [ ] By then most orphans should be stale non-lemma forms from old page moves/renames
+- [x] `delete_orphaned_pages.py` is in the pipeline, year-gated to 2027+
+- [x] Deletes any orphaned page with no incoming links (not just word: pages)
+- [x] Protected namespaces excluded: User, User talk, Category, Template, MediaWiki, and Main Page
+- [ ] By then most orphans should be stale pages from old moves/renames
 
 ### Planned: Automatic New Word Creation
 - [ ] Parse `discord/extracted/dictionary.md` to discover words not yet in `aelaki/lexicon.py`

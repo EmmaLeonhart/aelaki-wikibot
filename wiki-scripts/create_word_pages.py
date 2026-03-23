@@ -127,10 +127,12 @@ def generate_noun_forms(entry) -> list[tuple[str, str]]:
     for g in genders:
         if g == Gender.INANIMATE:
             numbers = [Number.SINGULAR, Number.PLURAL]
+            persons = [Person.FOURTH]
         else:
             numbers = list(Number)
+            persons = list(Person)
         for n in numbers:
-            for p in Person:
+            for p in persons:
                 num_label = INANIMATE_NUMBER_LABEL.get(n, n.value) if g == Gender.INANIMATE else n.value
                 label = f"{g.value}.{num_label}.{p.name.lower()}"
                 try:
@@ -259,9 +261,10 @@ def generate_noun_case_forms(entry) -> list[tuple[str, str]]:
         stem = build_tri_stem(root, gender, number)
 
     cases = INANIMATE_CASE_FUNCTIONS if gender == Gender.INANIMATE else CASE_FUNCTIONS
+    persons = [Person.FOURTH] if gender == Gender.INANIMATE else list(Person)
     forms = []
     for case_name, case_func in cases:
-        for p in Person:
+        for p in persons:
             label = f"{case_name}.{p.name.lower()}"
             try:
                 if case_func is None:
@@ -293,17 +296,33 @@ def generate_case_table(forms: list[tuple[str, str]]) -> str:
         "instrumental": "[[Instrumental]]", "dative": "[[Dative]]", "speaker": "[[Speaker]]",
     }
     dash = "\u2014"
-    lines = [
-        '{| class="wikitable"',
-        "! Case !! 1st !! 2nd !! 3rd !! 4th",
-    ]
-    for case_name in row_order:
-        p = by_case.get(case_name, {})
-        lines.append(
-            f"|-\n| {display[case_name]} "
-            f"|| {link_surface(p.get('first', dash))} || {link_surface(p.get('second', dash))} "
-            f"|| {link_surface(p.get('third', dash))} || {link_surface(p.get('fourth', dash))}"
-        )
+
+    # Detect if only 4th person (inanimate)
+    all_persons = set()
+    for p_map in by_case.values():
+        all_persons.update(p_map.keys())
+    fourth_only = all_persons == {"fourth"}
+
+    if fourth_only:
+        lines = [
+            '{| class="wikitable"',
+            "! Case !! Form",
+        ]
+        for case_name in row_order:
+            p = by_case.get(case_name, {})
+            lines.append(f"|-\n| {display[case_name]} || {link_surface(p.get('fourth', dash))}")
+    else:
+        lines = [
+            '{| class="wikitable"',
+            "! Case !! 1st !! 2nd !! 3rd !! 4th",
+        ]
+        for case_name in row_order:
+            p = by_case.get(case_name, {})
+            lines.append(
+                f"|-\n| {display[case_name]} "
+                f"|| {link_surface(p.get('first', dash))} || {link_surface(p.get('second', dash))} "
+                f"|| {link_surface(p.get('third', dash))} || {link_surface(p.get('fourth', dash))}"
+            )
     lines.append("|}")
     return "\n".join(lines)
 
@@ -665,18 +684,36 @@ def generate_noun_table(forms: list[tuple[str, str]]) -> str:
             by_gn[gn][person] = surface
     if not by_gn:
         return ""
-    lines = [
-        '{| class="wikitable sortable"',
-        "! Gender.Number !! 1st !! 2nd !! 3rd !! 4th",
-    ]
+
+    # Detect if all rows only have 4th person (inanimate-only table)
+    all_persons = set()
+    for p_map in by_gn.values():
+        all_persons.update(p_map.keys())
+    fourth_only = all_persons == {"fourth"}
+
     dash = "\u2014"
-    for gn in sorted(by_gn.keys()):
-        p = by_gn[gn]
-        first = link_surface(p.get("first", dash))
-        second = link_surface(p.get("second", dash))
-        third = link_surface(p.get("third", dash))
-        fourth = link_surface(p.get("fourth", dash))
-        lines.append(f"|-\n| {link_form_label(gn)} || {first} || {second} || {third} || {fourth}")
+    if fourth_only:
+        lines = [
+            '{| class="wikitable sortable"',
+            "! Number !! Form",
+        ]
+        for gn in sorted(by_gn.keys()):
+            p = by_gn[gn]
+            # Strip gender prefix for display since it's always inanimate
+            display_label = gn.split(".", 1)[1] if "." in gn else gn
+            lines.append(f"|-\n| [[{display_label}]] || {link_surface(p.get('fourth', dash))}")
+    else:
+        lines = [
+            '{| class="wikitable sortable"',
+            "! Gender.Number !! 1st !! 2nd !! 3rd !! 4th",
+        ]
+        for gn in sorted(by_gn.keys()):
+            p = by_gn[gn]
+            first = link_surface(p.get("first", dash))
+            second = link_surface(p.get("second", dash))
+            third = link_surface(p.get("third", dash))
+            fourth = link_surface(p.get("fourth", dash))
+            lines.append(f"|-\n| {link_form_label(gn)} || {first} || {second} || {third} || {fourth}")
     lines.append("|}")
     return "\n".join(lines)
 
