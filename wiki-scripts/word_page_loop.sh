@@ -103,7 +103,10 @@ stage() {
 # Files tracked: *.state, aelaki/lexicon.json, version_history.txt, grammar/
 commit_state() {
   local msg="${1:-chore(state): update bot state [skip ci]}"
-  git add -A -- "*.state" "*.last" "aelaki/lexicon.json" "wiki-scripts/version_history.txt" "grammar/"
+  # Add each pattern separately — some globs (e.g. *.last) may not exist yet
+  git add -A -- "*.state" 2>/dev/null || true
+  git add -A -- "*.last" 2>/dev/null || true
+  git add -A -- "aelaki/lexicon.json" "wiki-scripts/version_history.txt" "grammar/"
   if git diff --cached --quiet; then
     echo "  (no state changes to commit)"
     return 0
