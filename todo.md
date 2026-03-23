@@ -11,6 +11,7 @@
 ## Morphology Bugs
 
 - [x] Fix `ki_word_final()` in `aelaki/person.py` — stative verb suffix now elides leading vowel when stem ends in vowel (CV instead of VCV). Also added `ë` to VOWELS set. (Fixed in b470777)
+- [x] Correct declensions on inanimate nouns — inanimate now only generates 4th person forms (person is meaningless for inanimate), and tables show simplified Number/Form layout instead of redundant 4-person columns
 
 ## Word Pages Bot (EmmaBot)
 
@@ -24,18 +25,17 @@ Based on: https://github.com/Emma-Leonhart/shintowiki-scripts/
 - [x] Pages tagged with `{{wordpage|v1}}` for version tracking
 - [x] 10 words per run, state file tracks progress across runs
 
-### State File Audit Needed
-- [ ] Audit `create_word_pages.state` — this file tracks which lexicon keys have had pages created/checked. It's used only by Phase 2 (new lemma creation) to skip already-processed keys. Current concerns:
-  - Stale entries accumulate when keys are renamed (e.g. `dzhbhr` → `jbhr`) — old key stays in state forever
-  - If state is lost (crash before commit), the only cost is re-checking keys via `page.exists` API calls — slower but not destructive
-  - Could potentially be eliminated entirely (go stateless, rely on `page.exists`) or rebuilt from wiki categories each run like `version_history.txt`
-  - Not a serious issue — the file is a speed optimization, not a correctness requirement
-  - Proposed fix: add an annual (or one-time) reconciliation step that rebuilds the state file from `page.exists` checks, clearing out stale entries and adding missing ones. Similar to how `version_history.txt` is rebuilt from git log each run, but less frequently since it requires API calls for every lexicon key.
-- [ ] General audit of all pipeline state files and their failure modes — `word_page_loop.sh` has documentation of what each step writes, but need to verify this stays accurate as the pipeline evolves
+### Pipeline fixes (2026-03-23)
+- [x] Fix `commit_state()` glob patterns — `*.last` pattern fails when no `.last` files exist, killing pipeline under `set -euo pipefail`
+- [x] Fix `commit_state()` rebase — stash unstaged changes before `git pull --rebase` to prevent "You have unstaged changes" failures
+- [x] Full git history checkout — `fetch-depth: 0` so `sync_commit_log.py` gets all commits, not just shallow clone
+- [x] Move git commit log sync to Step 0.05 — runs early so version categories are navigable before word page phases
+- [x] Skip non-existent version categories — `cat.exists` check before iterating, avoids ~170+ wasted API calls
 
-### Known Issues (wiki under maintenance)
-- [x] Correct declensions on inanimate nouns — inanimate now only generates 4th person forms (person is meaningless for inanimate), and tables show simplified Number/Form layout instead of redundant 4-person columns
-- [x] Clean up commit `edceed7` — was just "Update settings.local.json", no word page impact
+### State File Audit
+- [x] Annual reconciliation step added (`reconcile_state.py`) — rebuilds state from `page.exists` checks, runs first time 2026-03-22 then Jan 1 each year
+- [ ] Audit `create_word_pages.state` for stale entries from renamed keys (e.g. `dzhbhr` → `jbhr`)
+- [ ] General audit of all pipeline state files and their failure modes
 
 ### Planned: Page Format Updates (v2+)
 - [ ] Write `update_word_pages.py` — finds all pages with `{{wordpage|v1}}` and regenerates them with the v2 format
@@ -56,10 +56,30 @@ Based on: https://github.com/Emma-Leonhart/shintowiki-scripts/
 - [x] `delete_orphaned_pages.py` is in the pipeline, year-gated to 2027+
 - [x] Deletes any orphaned page with no incoming links (not just word: pages)
 - [x] Protected namespaces excluded: User, User talk, Category, Template, MediaWiki, and Main Page
-- [ ] By then most orphans should be stale pages from old moves/renames
 
 ### Planned: Automatic New Word Creation
 - [ ] Parse `discord/extracted/dictionary.md` to discover words not yet in `aelaki/lexicon.py`
 - [ ] Extract new roots from Discord messages automatically (extend `extract_discord_aelaki.py`)
 - [ ] Feed new words into lexicon.py programmatically, then let the bot create their pages
 - [ ] Goal: every documented Aelaki word gets a `word:LEMMA` page automatically
+
+## Grammar Wiki Pages
+
+Wiki grammar reference at `grammar/*.wiki`, synced bidirectionally via `sync_grammar_pages.py`.
+
+### Completed pages
+- [x] Noun.wiki — root structure, gender, number, person, case
+- [x] Verb.wiki — verb classes, stem formation, TAM, evidentiality, agreement
+- [x] Phonology.wiki — vowel/consonant inventory, processes, historical changes
+- [x] Adjective.wiki — expanded with agreement, degree, stative verb relationship
+- [x] All evidential pages (Visual, Auditory, Hearsay, Inferential)
+- [x] All stative aspect pages (Inchoative, Cessative, Resumptive, Almost, Repetitive)
+- [x] All case pages (Agent, Patient, Dative, Instrumental, Possessive, Speaker)
+- [x] All gender pages (Child, Female, Male, Inanimate)
+- [x] Ki_syllables, Converbs, Stative_verbs, Numerals, Adverb, Word_order
+
+### Gaps to fill
+- [ ] Expand Adpositions.wiki — currently very minimal
+- [ ] Add complex syntax coverage — subordination, coordination, multi-clause constructions
+- [ ] Add pedagogical "Getting started" page or learning path
+- [ ] Expand Questions.wiki with more examples of complex question formations
