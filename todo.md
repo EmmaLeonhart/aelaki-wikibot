@@ -78,8 +78,34 @@ Wiki grammar reference at `grammar/*.wiki`, synced bidirectionally via `sync_gra
 - [x] All gender pages (Child, Female, Male, Inanimate)
 - [x] Ki_syllables, Converbs, Stative_verbs, Numerals, Adverb, Word_order
 
-### Gaps to fill
-- [ ] Expand Adpositions.wiki — currently very minimal
-- [ ] Add complex syntax coverage — subordination, coordination, multi-clause constructions
+### Missing pages to create
+- [ ] Cohortative.wiki — "let us..." construction, referenced in Optative and Intentional but no page
+- [ ] Realis.wiki — realis mood, referenced in Converbs but no page
+- [ ] TAM.wiki — tense-aspect-mood system overview page, widely referenced
+
+### Thin pages to expand (15-29 lines)
+- [ ] Positive.wiki (21 lines) — needs comprehensive mood paradigms and contrastive examples
+- [ ] Present.wiki (21 lines) — minimal, needs formation details and tense interaction
+- [ ] Quirky_optative.wiki (21 lines) — needs examples and detailed paradigms
+- [ ] Collective.wiki (22 lines) — has evolution section but needs syntax/agreement details
+- [ ] Comparative.wiki (25 lines) — only two examples, needs all word classes covered
+- [ ] Deliberative.wiki (25 lines) — minimal, needs usage contexts and full paradigms
+- [ ] First_person_nouns.wiki (25 lines) — very sparse, barely covers the topic
+- [ ] Mythic.wiki (25 lines) — brief, needs usage patterns with hearsay
+- [ ] Superlative.wiki (25 lines) — parallel expansion needed alongside Comparative
+- [ ] Contact_influence.wiki (28 lines) — needs more language contact examples
+- [ ] Imperative.wiki (28 lines) — needs more examples and mood interactions
+- [ ] Plural.wiki (29 lines) — references Aelaki_plural for details, could be more self-contained
+
+### Moderate pages that could benefit from expansion (30-44 lines)
+- [ ] Adpositions.wiki (34 lines) — needs paradigmatic tables and more examples
+- [ ] Copula.wiki (33 lines) — could expand on irregular forms and historical development
+- [ ] Pseudopronouns.wiki (35 lines) — could expand with more usage context
+- [ ] Word_order.wiki (43 lines) — could add historical development section
+- [ ] Negative.wiki (33 lines) — could add more on /f/ infix interaction with different word classes
+- [ ] Optative.wiki (35 lines) — could add more on mood distinctions
+
+### Structural improvements
 - [ ] Add pedagogical "Getting started" page or learning path
+- [ ] Add complex syntax coverage — subordination, coordination, multi-clause constructions
 - [ ] Expand Questions.wiki with more examples of complex question formations
