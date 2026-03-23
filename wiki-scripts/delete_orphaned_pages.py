@@ -2,8 +2,14 @@
 """
 delete_orphaned_pages.py
 ========================
-Deletes pages from Special:OrphanedPages that are non-lemma forms
-(word: namespace pages not linked from anywhere).
+Deletes pages from Special:OrphanedPages that have no incoming links.
+
+Protected from deletion:
+  - Main Page
+  - User / User talk pages
+  - Category pages
+  - Template pages
+  - MediaWiki namespace pages
 
 Only runs if the current year is 2027 or later.
 
@@ -25,6 +31,29 @@ from utils import connect, Progress
 import time
 
 MIN_YEAR = 2027
+
+# Namespace prefixes that should never be deleted
+PROTECTED_PREFIXES = (
+    "User:",
+    "User talk:",
+    "Category:",
+    "Template:",
+    "MediaWiki:",
+)
+
+PROTECTED_TITLES = {
+    "Main Page",
+}
+
+
+def is_protected(title: str) -> bool:
+    """Return True if this page should never be deleted."""
+    if title in PROTECTED_TITLES:
+        return True
+    for prefix in PROTECTED_PREFIXES:
+        if title.startswith(prefix):
+            return True
+    return False
 
 
 def fetch_orphaned_pages(site) -> list[str]:
@@ -60,7 +89,7 @@ def fetch_orphaned_pages(site) -> list[str]:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Delete orphaned non-lemma word pages")
+    parser = argparse.ArgumentParser(description="Delete orphaned pages")
     parser.add_argument("--apply", action="store_true", help="Actually delete pages")
     parser.add_argument("--max-edits", type=int, default=100, help="Max deletions per run")
     parser.add_argument("--run-tag", default="", help="Run tag for edit summaries")
@@ -74,29 +103,32 @@ def main():
     site = connect()
     print("Fetching orphaned pages...", flush=True)
     orphans = fetch_orphaned_pages(site)
-    print(f"Found {len(orphans)} orphaned pages.", flush=True)
+    print(f"Found {len(orphans)} orphaned pages total.", flush=True)
 
-    # Only delete word: pages (non-lemma forms that were accidentally created)
-    word_orphans = [t for t in orphans if t.lower().startswith("word:")]
-    print(f"{len(word_orphans)} are word: pages.", flush=True)
+    # Filter out protected pages
+    deletable = [t for t in orphans if not is_protected(t)]
+    protected_count = len(orphans) - len(deletable)
+    if protected_count:
+        print(f"Skipping {protected_count} protected pages.", flush=True)
+    print(f"{len(deletable)} pages eligible for deletion.", flush=True)
 
-    if not word_orphans:
+    if not deletable:
         print("Nothing to do.")
         return
 
     if not args.apply:
         print("\n--- DRY RUN ---")
-        for t in word_orphans[:20]:
+        for t in deletable[:20]:
             print(f"  would delete: {t}")
-        if len(word_orphans) > 20:
-            print(f"  ... and {len(word_orphans) - 20} more")
-        print(f"\nTotal: {len(word_orphans)} pages")
+        if len(deletable) > 20:
+            print(f"  ... and {len(deletable) - 20} more")
+        print(f"\nTotal: {len(deletable)} pages")
         return
 
     run_tag_suffix = f" {args.run_tag}" if args.run_tag else ""
     stats = Progress()
 
-    for i, title in enumerate(word_orphans, 1):
+    for i, title in enumerate(deletable, 1):
         if stats.created >= args.max_edits:
             print(f"Reached deletion budget ({args.max_edits}).", flush=True)
             break
@@ -104,13 +136,13 @@ def main():
         stats.processed += 1
         page = site.pages[title]
         try:
-            page.delete(reason=f"Bot: delete orphaned non-lemma form{run_tag_suffix}")
+            page.delete(reason=f"Bot: delete orphaned page{run_tag_suffix}")
             stats.created += 1
-            print(f"  [{i}/{len(word_orphans)}] Deleted: {title}", flush=True)
+            print(f"  [{i}/{len(deletable)}] Deleted: {title}", flush=True)
             time.sleep(THROTTLE)
         except Exception as exc:
             stats.errors += 1
-            print(f"  [{i}/{len(word_orphans)}] ERROR: {title} — {exc}", flush=True)
+            print(f"  [{i}/{len(deletable)}] ERROR: {title} — {exc}", flush=True)
 
     print(f"\nDone. {stats.summary()}")
 

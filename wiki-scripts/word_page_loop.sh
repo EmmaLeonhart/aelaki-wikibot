@@ -112,8 +112,17 @@ commit_state() {
     return 0
   fi
   git commit -m "$msg"
+  # Stash any unstaged changes so git pull --rebase doesn't fail
+  local stashed=false
+  if ! git diff --quiet; then
+    git stash push -q
+    stashed=true
+  fi
   git pull --rebase -X theirs origin "${GITHUB_REF_NAME}"
   git push origin "HEAD:${GITHUB_REF_NAME}"
+  if $stashed; then
+    git stash pop -q
+  fi
   echo "  State committed and pushed."
 }
 
