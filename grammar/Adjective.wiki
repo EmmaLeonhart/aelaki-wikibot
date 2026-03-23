@@ -1,16 +1,42 @@
-'''Adjectives''' in Aelaki originate from stative verb stems. They retain much of the verbal morphological system, including evidentiality marking, while also obeying noun-like agreement rules.
+'''Adjectives''' in [[Aelaki]] originate from [[Stative_verbs|stative verb]] stems. They retain much of the verbal morphological system, including evidentiality marking, while also obeying noun-like agreement rules. This dual nature — verbal morphology with nominal agreement — makes adjectives one of the most morphologically complex parts of speech.
 
-== Morphology ==
+== Root structure ==
+
+Like all Aelaki content words, adjectives are built from triconsonantal roots. The citation form uses the same C₁-V-C₂-V-C₃ template as nouns. The base vowels are determined by the adjective's own inherent pattern, which then shifts to agree with the modified noun.
+
+== Degree ==
 
 Adjectives undergo the same templatic morphological processes as other parts of speech in Aelaki:
 
-* '''[[Comparative]]''': Formed by reduplication of C₂. Example: ''koran'' "bright" → ''kororan'' "brighter"
-* '''[[Superlative]]''': Formed by umlaut (vowel fronting). Example: ''koran'' "bright" → ''kœrœn'' "brightest"
-* '''[[Negative]]''': Formed by /f/-infix. Example: ''koran'' "bright" → ''korfan'' "not bright"
+{| class="wikitable"
+! Degree !! Formation !! Example (k-r-n "bright")
+|-
+| [[Positive]] || Base form || ''koran''
+|-
+| [[Comparative]] || Reduplication of C₂ || ''kororan'' ("brighter")
+|-
+| [[Superlative]] || Umlaut (vowel fronting) || ''kœrœn'' ("brightest")
+|-
+| [[Negative]] || /f/ infix || ''korfan'' ("not bright")
+|}
 
 == Agreement ==
 
-Adjectives must agree with their head noun in both '''gender''' and '''number'''. This agreement is obligatory and applies in all syntactic positions.
+Adjectives must agree with their head [[Noun|noun]] in both '''gender''' and '''number'''. This agreement is obligatory and applies in all syntactic positions. The adjective's vowel pattern shifts to match the gender vowel of the noun it modifies:
+
+{| class="wikitable"
+! Gender !! Vowel !! Example
+|-
+| [[Child]] || u || ''kurun'' (bright, child)
+|-
+| [[Female]] || o || ''koran'' (bright, female)
+|-
+| [[Male]] || a || ''karan'' (bright, male)
+|-
+| [[Inanimate]] || ïf || ''kïfran'' (bright, inanimate)
+|}
+
+Number agreement follows the same pattern as nouns: reduplication for [[Plural|plural]], vowel fronting for [[Collective|collective]].
 
 == Evidentiality ==
 
@@ -20,13 +46,13 @@ Unlike adjectives in many natural languages, Aelaki adjectives retain a full eig
 |-
 ! Suffix !! Evidentiality !! Notes
 |-
-| ''-shë'' || Visual || Speaker saw it directly
+| ''-shë'' || [[Visual]] || Speaker saw it directly
 |-
-| ''-ro'' || Testimony || Speaker heard it from someone
+| ''-ro'' || [[Auditory]] / testimony || Speaker heard it from someone
 |-
-| ''-mu'' || Inferred || Speaker deduced it
+| ''-mu'' || [[Inferential]] || Speaker deduced it
 |-
-| ''-ya'' || Hopeful || Speaker hopes/wishes it
+| ''-ya'' || [[Optative]] || Speaker hopes/wishes it
 |-
 | ''go-'' + ''-shë'' || Hodiernal visual || Seen today
 |-
@@ -39,20 +65,29 @@ Unlike adjectives in many natural languages, Aelaki adjectives retain a full eig
 
 '''Note:''' The prefix ''goki-'' is '''never''' used with adjectives.
 
-== Example Paradigm ==
+== Relationship to stative verbs ==
+
+Adjectives and [[Stative_verbs|stative verbs]] share the same morphological system. The key differences:
 
 {| class="wikitable"
+! Feature !! Stative verb !! Adjective
 |-
-! Form !! Gloss
+| Agreement || Suffix Ki (patient) || Gender/number agreement with head noun
 |-
-| ''koran'' || bright ([[Positive]])
+| Prefix aspects || Full set (inchoative, cessative, etc.) || Not used
 |-
-| ''kororan'' || brighter ([[Comparative]])
+| Syntactic role || Predicate || Modifier or predicate
 |-
-| ''kœrœn'' || brightest ([[Superlative]])
-|-
-| ''korfan'' || not bright ([[Negative]])
+| Evidentiality || Full TAM system || Full TAM system
 |}
+
+== See also ==
+
+* [[Stative_verbs]] — the verbal source of adjective morphology
+* [[Noun]] — nouns that adjectives agree with
+* [[Comparative]] — comparative degree formation
+* [[Superlative]] — superlative degree formation
+* [[Adverb]] — adverbs derived from similar stems
 
 [[Category:parts of speech]]
 [[Category:git synced pages]]

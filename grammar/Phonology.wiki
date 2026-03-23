@@ -1,0 +1,138 @@
+The '''phonology''' of [[Aelaki]] is built around a consonant-heavy root system with a symmetrical back/front vowel grid. Grammatical meaning is encoded primarily through vowel alternations and consonant operations rather than through linear affixation.
+
+== Vowel inventory ==
+
+Aelaki vowels are organized in a back/front grid. The '''collective''' vowel shift and '''umlaut''' both move vowels from back (left) to front (right):
+
+{| class="wikitable"
+! Height !! Back !! Front !! IPA (approx.)
+|-
+| High || '''u''' || '''i''' || /u/ /i/
+|-
+| Near-high || '''ü''' || '''ï''' || /ʊ/ /ɪ/
+|-
+| Mid || '''o''' || '''e''' || /o/ /e/
+|-
+| Low || '''a''' || '''æ''' || /ɑ/ /æ/
+|}
+
+'''ə''' (schwa) appears in grammatical affixes (verb TAM prefixes, [[Converbs|converbs]]) but does not participate in the vowel grid.
+
+'''ë''' appears in evidential suffixes (''-shë'', ''-shëm'', ''-shëlon'') and the temporal adposition ''Slë''. Its exact status (schwa variant or distinct phoneme) is under analysis.
+
+== Consonant inventory ==
+
+{| class="wikitable"
+! Manner !! Consonants
+|-
+| Stops || p, b, t, d, k, g
+|-
+| Affricates || ch, j
+|-
+| Fricatives || f, v, s, z, sh, zh, th, dh, h
+|-
+| Nasals || m, n, ng
+|-
+| Liquids & glides || l, r, w, y
+|}
+
+== Phonological processes ==
+
+=== Vowel shift (umlaut / collective) ===
+
+The same back → front vowel shift is used in multiple grammatical contexts:
+
+{| class="wikitable"
+! Context !! Effect !! Example
+|-
+| [[Noun]] collective number || Back vowels → front || ''basol'' → ''besel'' (tree, collective)
+|-
+| Verb perfective-completed || Back vowels → front || ''Dapaz'' → ''Dæpæz'' (shot, completed)
+|-
+| [[Adjective]] superlative || Back vowels → front || ''koran'' → ''kœrœn'' (brightest)
+|-
+| [[Stative_verbs|Stative verb]] gnomic || Back vowels → front || ''zoduk'' → ''zedik'' (universally known)
+|}
+
+Shift mapping: u→i, ü→ï, o→e, a→æ, ə→æ. Front vowels are unchanged.
+
+=== /f/ infix (negation / zero) ===
+
+The /f/ infix is inserted after a gender vowel to mark negation or zero quantity:
+
+* Verbs: ''Dapaz'' → ''Dapfaz'' ("did not shoot")
+* Nouns: ''basol'' → ''basofzof'' (zero trees)
+* Yes/no: ''Su'' (yes) / ''Fu'' (no) — but this is lexicalized, not the infix
+
+The /f/ infix does '''not''' apply to [[Inanimate|inanimate]] nouns because their gender vowel '''ïf''' already contains /f/.
+
+=== Reduplication ===
+
+C₂-V reduplication serves multiple grammatical functions:
+
+* Nouns: partitive [[Plural|plural]] (''basol'' → ''basobol'')
+* Verbs: imperfective / [[Continuous|continuous]] aspect (''Dapaz'' → ''Dapapaz'')
+* Adjectives: [[Comparative|comparative]] degree (''koran'' → ''kororan'')
+* [[Ki_syllables]]: plural agreement (''thu'' → ''thuthu'')
+* [[Stative_verbs|Stative]] prefixes: continuative (''nü-'' → ''nünü-'')
+
+=== Degemination ===
+
+Aelaki does not permit geminate consonants. When morpheme boundaries produce identical adjacent consonants (e.g. ''rr'', ''shsh''), one copy is dropped. Multi-character consonants (sh, ch, th, dh, zh, ng) are handled as units.
+
+=== Hodiernal sandhi ===
+
+When the hodiernal prefix ''go-'' is used with a following TAM suffix, the consonant cluster ''-nk-'' is inserted between the stem and the suffix.
+
+== Gender vowels ==
+
+Each [[Category:Grammatical genders|gender]] has a characteristic vowel that fills the template slots in nouns:
+
+{| class="wikitable"
+! Gender !! Singular vowel !! Collective vowel
+|-
+| [[Child]] || u || i
+|-
+| [[Female]] || o || e
+|-
+| [[Male]] || a || æ
+|-
+| [[Inanimate]] || ïf || ïf (no change)
+|}
+
+== Person consonants ==
+
+Person marking uses a consistent set of consonants across the system ([[Ki_syllables]], case suffixes, verb agreement):
+
+{| class="wikitable"
+! Person !! Consonant !! Noun suffix
+|-
+| 1st || th || -th
+|-
+| 2nd || j || -j
+|-
+| 3rd || sh || -sh
+|-
+| 4th || k || (unmarked)
+|}
+
+== Historical sound changes ==
+
+=== The Great L Shift ===
+
+A major historical sound change affected /l/ in different positions:
+* Word-initial ''l-'' → ''l-'' (unchanged)
+* Medial ''-l-'' → ''-ʎ-'' (lateralized)
+* Word-final ''-l'' → ''-i'' (vocalized)
+
+Example chain: ''Sakel'' → ''Sakei'' → ''Saki'' → ''Soki'' → ''Sok''
+
+== See also ==
+
+* [[Aelaki]] — language overview
+* [[Noun]] — templatic noun morphology
+* [[Verb]] — verb classes and conjugation
+* [[Adjective]] — adjective morphology
+
+[[Category:Aelaki grammar]]
+[[Category:git synced pages]]
