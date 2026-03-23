@@ -45849,6 +45849,446 @@
       "gloss": "leadman (auto-generated)",
       "gender": "child",
       "citation_form": "bazhuvu"
+    },
+    "jgng": {
+      "root": [
+        "j",
+        "g",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "ugniberry (auto-generated)",
+      "gender": "female",
+      "citation_form": "jagongo"
+    },
+    "dhft": {
+      "root": [
+        "dh",
+        "f",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "ufufunyana (auto-generated)",
+      "gender": "female",
+      "citation_form": "dhafoto"
+    },
+    "ngdv": {
+      "root": [
+        "ng",
+        "d",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "ufufunyane (auto-generated)",
+      "gender": "male",
+      "citation_form": "ngadava"
+    },
+    "dhrd": {
+      "root": [
+        "dh",
+        "r",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "ujamaa (auto-generated)",
+      "gender": "male",
+      "citation_form": "dharada"
+    },
+    "chgs": {
+      "root": [
+        "ch",
+        "g",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "ukranazi (auto-generated)",
+      "gender": "male",
+      "citation_form": "chagasa"
+    },
+    "shndh": {
+      "root": [
+        "sh",
+        "n",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "ufufuyane (auto-generated)",
+      "gender": "child",
+      "citation_form": "shanudhu"
+    },
+    "kmb": {
+      "root": [
+        "k",
+        "m",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "uitspan (auto-generated)",
+      "gender": "female",
+      "citation_form": "kamobo"
+    },
+    "chjw": {
+      "root": [
+        "ch",
+        "j",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "uke (auto-generated)",
+      "gender": "female",
+      "citation_form": "chajowo"
+    },
+    "mbk": {
+      "root": [
+        "m",
+        "b",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "uid (auto-generated)",
+      "gender": "male",
+      "citation_form": "mabaka"
+    },
+    "tkk": {
+      "root": [
+        "t",
+        "k",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "ugger (auto-generated)",
+      "gender": "child",
+      "citation_form": "takuku"
+    },
+    "kpm": {
+      "root": [
+        "k",
+        "p",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "ugsomeness (auto-generated)",
+      "gender": "child",
+      "citation_form": "kapumu"
+    },
+    "dthd": {
+      "root": [
+        "d",
+        "th",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "ufocal (auto-generated)",
+      "gender": "child",
+      "citation_form": "dathudu"
+    },
+    "zlb": {
+      "root": [
+        "z",
+        "l",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "ugliness (auto-generated)",
+      "gender": "child",
+      "citation_form": "zalubu"
+    },
+    "bbl": {
+      "root": [
+        "b",
+        "b",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "ujima (auto-generated)",
+      "gender": "female",
+      "citation_form": "babolo"
+    },
+    "vrj": {
+      "root": [
+        "v",
+        "r",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "uglifier (auto-generated)",
+      "gender": "male",
+      "citation_form": "varaja"
+    },
+    "rhp": {
+      "root": [
+        "r",
+        "h",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "ufonaut (auto-generated)",
+      "gender": "female",
+      "citation_form": "rahopo"
+    },
+    "zhchs": {
+      "root": [
+        "zh",
+        "ch",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "uhligite (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zhachïfsïf"
+    },
+    "zhvf": {
+      "root": [
+        "zh",
+        "v",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "uint (auto-generated)",
+      "gender": "child",
+      "citation_form": "zhavufu"
+    },
+    "zthh": {
+      "root": [
+        "z",
+        "th",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "ufra (auto-generated)",
+      "gender": "male",
+      "citation_form": "zathaha"
+    },
+    "tpm": {
+      "root": [
+        "t",
+        "p",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "uggo (auto-generated)",
+      "gender": "male",
+      "citation_form": "tapama"
+    },
+    "chyd": {
+      "root": [
+        "ch",
+        "y",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "ukiyoe (auto-generated)",
+      "gender": "male",
+      "citation_form": "chayada"
+    },
+    "zthdh": {
+      "root": [
+        "z",
+        "th",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "uji (auto-generated)",
+      "gender": "male",
+      "citation_form": "zathadha"
+    },
+    "dngm": {
+      "root": [
+        "d",
+        "ng",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "ugrandite (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "dangïfmïf"
+    },
+    "gnl": {
+      "root": [
+        "g",
+        "n",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "uglification (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "ganïflïf"
+    },
+    "ngth": {
+      "root": [
+        "n",
+        "g",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "uhuru (auto-generated)",
+      "gender": "male",
+      "citation_form": "nagatha"
+    },
+    "nsht": {
+      "root": [
+        "n",
+        "sh",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "ukha (auto-generated)",
+      "gender": "male",
+      "citation_form": "nashata"
+    },
+    "ykn": {
+      "root": [
+        "y",
+        "k",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "ugali (auto-generated)",
+      "gender": "female",
+      "citation_form": "yakono"
+    },
+    "pngzh": {
+      "root": [
+        "p",
+        "ng",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "uintaite (auto-generated)",
+      "gender": "male",
+      "citation_form": "pangazha"
+    },
+    "zdv": {
+      "root": [
+        "z",
+        "d",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "uglyism (auto-generated)",
+      "gender": "female",
+      "citation_form": "zadovo"
+    },
+    "mtz": {
+      "root": [
+        "m",
+        "t",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "uintathere (auto-generated)",
+      "gender": "male",
+      "citation_form": "mataza"
+    },
+    "gdhs": {
+      "root": [
+        "g",
+        "dh",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "uigite (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "gadhïfsïf"
+    },
+    "jbsh": {
+      "root": [
+        "j",
+        "b",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "ukaz (auto-generated)",
+      "gender": "male",
+      "citation_form": "jabasha"
+    },
+    "zds": {
+      "root": [
+        "z",
+        "d",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "uie (auto-generated)",
+      "gender": "male",
+      "citation_form": "zadasa"
+    },
+    "vzhb": {
+      "root": [
+        "v",
+        "zh",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "ugrug (auto-generated)",
+      "gender": "male",
+      "citation_form": "vazhaba"
+    },
+    "vnl": {
+      "root": [
+        "v",
+        "n",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "ukelele (auto-generated)",
+      "gender": "female",
+      "citation_form": "vanolo"
+    },
+    "vdch": {
+      "root": [
+        "v",
+        "d",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "ugli (auto-generated)",
+      "gender": "male",
+      "citation_form": "vadacha"
+    },
+    "gld": {
+      "root": [
+        "g",
+        "l",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "uhllo (auto-generated)",
+      "gender": "child",
+      "citation_form": "galudu"
+    },
+    "wkdh": {
+      "root": [
+        "w",
+        "k",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "ugari (auto-generated)",
+      "gender": "female",
+      "citation_form": "wakodho"
+    },
+    "yshzh": {
+      "root": [
+        "y",
+        "sh",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "ufo (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "yashïfzhïf"
+    },
+    "rrd": {
+      "root": [
+        "r",
+        "r",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "uhtsong (auto-generated)",
+      "gender": "male",
+      "citation_form": "rarada"
     }
   },
   "adjectives": {
@@ -51569,6 +52009,106 @@
       "class": "adjective",
       "gloss": "cabbagey (auto-generated)",
       "citation_form": "tongamaka"
+    },
+    "wbv": {
+      "root": [
+        "w",
+        "b",
+        "v"
+      ],
+      "class": "adjective",
+      "gloss": "voetstoets (auto-generated)",
+      "citation_form": "wobavaka"
+    },
+    "ygdh": {
+      "root": [
+        "y",
+        "g",
+        "dh"
+      ],
+      "class": "adjective",
+      "gloss": "vocabular (auto-generated)",
+      "citation_form": "yogadhaka"
+    },
+    "chrth": {
+      "root": [
+        "ch",
+        "r",
+        "th"
+      ],
+      "class": "adjective",
+      "gloss": "voicist (auto-generated)",
+      "citation_form": "chorathaka"
+    },
+    "vns": {
+      "root": [
+        "v",
+        "n",
+        "s"
+      ],
+      "class": "adjective",
+      "gloss": "vodkaless (auto-generated)",
+      "citation_form": "vonasaka"
+    },
+    "dhvg": {
+      "root": [
+        "dh",
+        "v",
+        "g"
+      ],
+      "class": "adjective",
+      "gloss": "vochysiaceous (auto-generated)",
+      "citation_form": "dhovagaka"
+    },
+    "gshsh": {
+      "root": [
+        "g",
+        "sh",
+        "sh"
+      ],
+      "class": "adjective",
+      "gloss": "vogueing (auto-generated)",
+      "citation_form": "goshashaka"
+    },
+    "dngth": {
+      "root": [
+        "d",
+        "ng",
+        "th"
+      ],
+      "class": "adjective",
+      "gloss": "voetstoots (auto-generated)",
+      "citation_form": "dongathaka"
+    },
+    "vsr": {
+      "root": [
+        "v",
+        "s",
+        "r"
+      ],
+      "class": "adjective",
+      "gloss": "vocative (auto-generated)",
+      "citation_form": "vosaraka"
+    },
+    "chdm": {
+      "root": [
+        "ch",
+        "d",
+        "m"
+      ],
+      "class": "adjective",
+      "gloss": "vocabularyclept (auto-generated)",
+      "citation_form": "chodamaka"
+    },
+    "dpj": {
+      "root": [
+        "d",
+        "p",
+        "j"
+      ],
+      "class": "adjective",
+      "gloss": "voggy (auto-generated)",
+      "citation_form": "dopajaka"
     }
   },
   "adverbs": {
@@ -57160,6 +57700,106 @@
       "class": "adverb",
       "gloss": "idealistically (auto-generated)",
       "citation_form": "mayate"
+    },
+    "tlh": {
+      "root": [
+        "t",
+        "l",
+        "h"
+      ],
+      "class": "adverb",
+      "gloss": "dearly (auto-generated)",
+      "citation_form": "talate"
+    },
+    "ddr": {
+      "root": [
+        "d",
+        "d",
+        "r"
+      ],
+      "class": "adverb",
+      "gloss": "deasoil (auto-generated)",
+      "citation_form": "dadate"
+    },
+    "wzhj": {
+      "root": [
+        "w",
+        "zh",
+        "j"
+      ],
+      "class": "adverb",
+      "gloss": "deadass (auto-generated)",
+      "citation_form": "wazhate"
+    },
+    "zjp": {
+      "root": [
+        "z",
+        "j",
+        "p"
+      ],
+      "class": "adverb",
+      "gloss": "deadpan (auto-generated)",
+      "citation_form": "zajate"
+    },
+    "frz": {
+      "root": [
+        "f",
+        "r",
+        "z"
+      ],
+      "class": "adverb",
+      "gloss": "dearnly (auto-generated)",
+      "citation_form": "farate"
+    },
+    "kchh": {
+      "root": [
+        "k",
+        "ch",
+        "h"
+      ],
+      "class": "adverb",
+      "gloss": "deafly (auto-generated)",
+      "citation_form": "kachate"
+    },
+    "chtn": {
+      "root": [
+        "ch",
+        "t",
+        "n"
+      ],
+      "class": "adverb",
+      "gloss": "deadly (auto-generated)",
+      "citation_form": "chatate"
+    },
+    "chfzh": {
+      "root": [
+        "ch",
+        "f",
+        "zh"
+      ],
+      "class": "adverb",
+      "gloss": "dearely (auto-generated)",
+      "citation_form": "chafate"
+    },
+    "ywsh": {
+      "root": [
+        "y",
+        "w",
+        "sh"
+      ],
+      "class": "adverb",
+      "gloss": "debilitatedly (auto-generated)",
+      "citation_form": "yawate"
+    },
+    "zhngt": {
+      "root": [
+        "zh",
+        "ng",
+        "t"
+      ],
+      "class": "adverb",
+      "gloss": "debatedly (auto-generated)",
+      "citation_form": "zhangate"
     }
   },
   "colors": {
