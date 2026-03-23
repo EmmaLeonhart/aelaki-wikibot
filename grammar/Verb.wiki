@@ -1,0 +1,126 @@
+'''Verbs''' in [[Aelaki]] are built from triconsonantal roots using the same templatic morphology as nouns. They are divided into three classes based on transitivity, each with different agreement and case patterns.
+
+== Verb classes ==
+
+{| class="wikitable"
+! Class !! Agreement !! Subject case !! Example
+|-
+| '''Transitive''' || prefix Ki (subject) + suffix Ki (object) || [[Agent]] || ''bha'' "see"
+|-
+| '''Active intransitive''' || prefix Ki (subject) only || [[Agent]] || ''bvae'' "drink"
+|-
+| '''[[Stative_verbs|Stative]]''' || suffix Ki (subject) only || [[Patient]] || ''zoduk'' "know"
+|}
+
+This is a '''split-intransitive''' (active-stative) alignment system: subjects of stative verbs pattern with objects of transitive verbs (both take suffix [[Ki_syllables|Ki]]), while subjects of active verbs pattern with subjects of transitive verbs (both take prefix Ki).
+
+== Root and stem formation ==
+
+Verbs use the same triconsonantal root system as nouns. The citation form (lemma) is the root displayed as '''√C₁-C₂-C₃'''.
+
+Four core morphological operations apply to verb stems:
+
+{| class="wikitable"
+! Operation !! Form !! Meaning !! Example (d-p-z "shoot")
+|-
+| Base || C₁V₁C₂V₂C₃ || Perfective incomplete || ''Dapaz'' ("shot at once, success not implied")
+|-
+| Reduplication || C₁V₁C₂C₂V₂C₃ || Imperfective || ''Dapapaz'' ("shooting, ongoing")
+|-
+| Umlaut || C₁(front-V₁)C₂(front-V₂)C₃ || Perfective completed || ''Dæpæz'' ("shot, single hit achieved")
+|-
+| /f/ infix || C₁V₁fC₂V₂C₃ || Negation || ''Dapfaz'' ("did not shoot")
+|}
+
+== Tense and temporal frames ==
+
+Aelaki distinguishes seven temporal frames:
+
+{| class="wikitable"
+! Tense !! Temporal reference
+|-
+| [[Past]] || Before speaker's lifetime
+|-
+| [[Mythic]] || Mythological / legendary time
+|-
+| [[Hesternal]] || Yesterday or before (within lifetime)
+|-
+| [[Present]] || Now
+|-
+| [[Hodiernal]] || Today (marked with ''go-'' or ''goki-'' prefix)
+|-
+| [[Crastinal]] || Tomorrow
+|-
+| [[Future]] || After tomorrow
+|}
+
+== Evidentiality ==
+
+Every finite verb carries one of three core evidential suffixes, plus mood markers:
+
+{| class="wikitable"
+! Suffix !! Evidentiality !! Meaning
+|-
+| ''-shë'' || [[Visual]] || Speaker witnessed it directly
+|-
+| ''-ro'' || [[Auditory]] / testimony || Speaker heard it reported
+|-
+| ''-mu'' / ''-shëm'' || [[Inferential]] || Speaker deduced it
+|-
+| ''-ya'' || [[Optative]] || Speaker wishes it
+|-
+| ''-yam'' || [[Deliberative]] || Speaker wonders / asks about it
+|-
+| ''-rum'' || Future inferential || Speaker expects it will happen
+|-
+| ''-ng'' || [[Intentional]] || Speaker intends to do it (1st person)
+|}
+
+== Aspect ==
+
+Aspect interacts with the base morphological operations:
+
+{| class="wikitable"
+! Aspect !! Formation
+|-
+| [[Telic]] (completed) || Umlaut (vowel fronting)
+|-
+| [[Atelic]] (incomplete) || Base form
+|-
+| [[Habitual]] || Base form (present tense)
+|-
+| [[Continuous]] || Reduplication
+|-
+| [[Gnomic]] || Umlaut (universal truth)
+|}
+
+[[Stative_verbs|Stative verbs]] have an additional set of six '''prefix aspects''': [[Inchoative]] (nü-), [[Cessative]] (nï-), [[Resumptive]] (lu-), [[Almost]] (ko-), [[Probable]] (ho-), and [[Repetitive]] (li-). These can be made '''continuative''' through prefix reduplication (e.g. ''nünü-'' = "in the process of starting").
+
+== Verb agreement ==
+
+Verbs agree with their arguments via [[Ki_syllables]]:
+
+{| class="wikitable"
+! !! Position !! Encodes
+|-
+| Subject Ki || Prefix || Person + gender + number of subject
+|-
+| Object Ki || Suffix || Person + gender + number of object
+|}
+
+[[Inanimate]] nouns cannot appear as agents of dynamic verbs. When agreement is needed, speakers use an animate counter.
+
+== Hodiernal sandhi ==
+
+When the hodiernal prefix ''go-'' is used and a TAM suffix follows, the consonant cluster ''-nk-'' is inserted between the stem and the suffix.
+
+== See also ==
+
+* [[Stative_verbs]] — stative verbs with prefix aspect system
+* [[Converbs]] — non-finite verb forms functioning as adverbial clauses
+* [[Ki_syllables]] — person-gender-number clitics for verb agreement
+* [[Copula]] — irregular verb "hold" used as copula
+* [[Word_order]] — SVO base with pro-drop
+
+[[Category:parts of speech]]
+[[Category:git synced pages]]
