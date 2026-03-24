@@ -49713,6 +49713,446 @@
       "gloss": "scalade (auto-generated)",
       "gender": "male",
       "citation_form": "dhayasa"
+    },
+    "shchth": {
+      "root": [
+        "sh",
+        "ch",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "ibadah (auto-generated)",
+      "gender": "male",
+      "citation_form": "shachatha"
+    },
+    "tmsh": {
+      "root": [
+        "t",
+        "m",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "ibu (auto-generated)",
+      "gender": "male",
+      "citation_form": "tamasha"
+    },
+    "jwp": {
+      "root": [
+        "j",
+        "w",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "ibutilide (auto-generated)",
+      "gender": "female",
+      "citation_form": "jawopo"
+    },
+    "ngsht": {
+      "root": [
+        "ng",
+        "sh",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "iatrocide (auto-generated)",
+      "gender": "child",
+      "citation_form": "ngashutu"
+    },
+    "dyp": {
+      "root": [
+        "d",
+        "y",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "iatrophobia (auto-generated)",
+      "gender": "male",
+      "citation_form": "dayapa"
+    },
+    "shyk": {
+      "root": [
+        "sh",
+        "y",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "ibrotamide (auto-generated)",
+      "gender": "male",
+      "citation_form": "shayaka"
+    },
+    "zdng": {
+      "root": [
+        "z",
+        "d",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "iatrotheology (auto-generated)",
+      "gender": "child",
+      "citation_form": "zadungu"
+    },
+    "zhds": {
+      "root": [
+        "zh",
+        "d",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "iambist (auto-generated)",
+      "gender": "child",
+      "citation_form": "zhadusu"
+    },
+    "ngrb": {
+      "root": [
+        "ng",
+        "r",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "iamatology (auto-generated)",
+      "gender": "male",
+      "citation_form": "ngaraba"
+    },
+    "wrh": {
+      "root": [
+        "w",
+        "r",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "ibopamine (auto-generated)",
+      "gender": "female",
+      "citation_form": "waroho"
+    },
+    "sjdh": {
+      "root": [
+        "s",
+        "j",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "iatraliptics (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "sajïfdhïf"
+    },
+    "ngdk": {
+      "root": [
+        "ng",
+        "d",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "ibedul (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "ngadïfkïf"
+    },
+    "dhkm": {
+      "root": [
+        "dh",
+        "k",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "iberis (auto-generated)",
+      "gender": "child",
+      "citation_form": "dhakumu"
+    },
+    "vwth": {
+      "root": [
+        "v",
+        "w",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "ibufenac (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "vawïfthïf"
+    },
+    "pnch": {
+      "root": [
+        "p",
+        "n",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "iatropathology (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "panïfchïf"
+    },
+    "hwm": {
+      "root": [
+        "h",
+        "w",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "ibritumomab (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "hawïfmïf"
+    },
+    "ywr": {
+      "root": [
+        "y",
+        "w",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "iberiotoxin (auto-generated)",
+      "gender": "female",
+      "citation_form": "yaworo"
+    },
+    "lzth": {
+      "root": [
+        "l",
+        "z",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "ibuprofen (auto-generated)",
+      "gender": "child",
+      "citation_form": "lazuthu"
+    },
+    "dhvd": {
+      "root": [
+        "dh",
+        "v",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "ibalizumab (auto-generated)",
+      "gender": "male",
+      "citation_form": "dhavada"
+    },
+    "thdhv": {
+      "root": [
+        "th",
+        "dh",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "iberdomide (auto-generated)",
+      "gender": "child",
+      "citation_form": "thadhuvu"
+    },
+    "shch": {
+      "root": [
+        "s",
+        "h",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "iatrophobe (auto-generated)",
+      "gender": "male",
+      "citation_form": "sahacha"
+    },
+    "gjng": {
+      "root": [
+        "g",
+        "j",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "iamb (auto-generated)",
+      "gender": "female",
+      "citation_form": "gajongo"
+    },
+    "ymw": {
+      "root": [
+        "y",
+        "m",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "iapygid (auto-generated)",
+      "gender": "child",
+      "citation_form": "yamuwu"
+    },
+    "jgl": {
+      "root": [
+        "j",
+        "g",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "ibuproxam (auto-generated)",
+      "gender": "female",
+      "citation_form": "jagolo"
+    },
+    "pvb": {
+      "root": [
+        "p",
+        "v",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "ibuterol (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "pavïfbïf"
+    },
+    "thshng": {
+      "root": [
+        "th",
+        "sh",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "ianthinite (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "thashïfngïf"
+    },
+    "ydhy": {
+      "root": [
+        "y",
+        "dh",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "ibex (auto-generated)",
+      "gender": "male",
+      "citation_form": "yadhaya"
+    },
+    "yst": {
+      "root": [
+        "y",
+        "s",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "iambographer (auto-generated)",
+      "gender": "child",
+      "citation_form": "yasutu"
+    },
+    "rmh": {
+      "root": [
+        "r",
+        "m",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "iatrogenesis (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "ramïfhïf"
+    },
+    "rkr": {
+      "root": [
+        "r",
+        "k",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "ibandronate (auto-generated)",
+      "gender": "male",
+      "citation_form": "rakara"
+    },
+    "lyw": {
+      "root": [
+        "l",
+        "y",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "ibazocine (auto-generated)",
+      "gender": "female",
+      "citation_form": "layowo"
+    },
+    "vkdh": {
+      "root": [
+        "v",
+        "k",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "ibota (auto-generated)",
+      "gender": "child",
+      "citation_form": "vakudhu"
+    },
+    "wzhsh": {
+      "root": [
+        "w",
+        "zh",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "iatrology (auto-generated)",
+      "gender": "child",
+      "citation_form": "wazhushu"
+    },
+    "ngnj": {
+      "root": [
+        "ng",
+        "n",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "iacinct (auto-generated)",
+      "gender": "female",
+      "citation_form": "nganojo"
+    },
+    "ynf": {
+      "root": [
+        "y",
+        "n",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "iatrogenics (auto-generated)",
+      "gender": "male",
+      "citation_form": "yanafa"
+    },
+    "rjf": {
+      "root": [
+        "r",
+        "j",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "ibogaline (auto-generated)",
+      "gender": "female",
+      "citation_form": "rajofo"
+    },
+    "zhgp": {
+      "root": [
+        "zh",
+        "g",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "iatromedicine (auto-generated)",
+      "gender": "female",
+      "citation_form": "zhagopo"
+    },
+    "dhdhm": {
+      "root": [
+        "dh",
+        "dh",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "ibadat (auto-generated)",
+      "gender": "child",
+      "citation_form": "dhadhumu"
+    },
+    "chzhj": {
+      "root": [
+        "ch",
+        "zh",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "ibutamoren (auto-generated)",
+      "gender": "male",
+      "citation_form": "chazhaja"
+    },
+    "ngkv": {
+      "root": [
+        "ng",
+        "k",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "ibaliid (auto-generated)",
+      "gender": "child",
+      "citation_form": "ngakuvu"
     }
   },
   "adjectives": {
@@ -55943,6 +56383,106 @@
       "class": "adjective",
       "gloss": "wraparound (auto-generated)",
       "citation_form": "loshazaka"
+    },
+    "shrl": {
+      "root": [
+        "sh",
+        "r",
+        "l"
+      ],
+      "class": "adjective",
+      "gloss": "fob (auto-generated)",
+      "citation_form": "shoralaka"
+    },
+    "kpth": {
+      "root": [
+        "k",
+        "p",
+        "th"
+      ],
+      "class": "adjective",
+      "gloss": "foe (auto-generated)",
+      "citation_form": "kopathaka"
+    },
+    "zshth": {
+      "root": [
+        "z",
+        "sh",
+        "th"
+      ],
+      "class": "adjective",
+      "gloss": "focometric (auto-generated)",
+      "citation_form": "zoshathaka"
+    },
+    "dchth": {
+      "root": [
+        "d",
+        "ch",
+        "th"
+      ],
+      "class": "adjective",
+      "gloss": "foelike (auto-generated)",
+      "citation_form": "dochathaka"
+    },
+    "tvf": {
+      "root": [
+        "t",
+        "v",
+        "f"
+      ],
+      "class": "adjective",
+      "gloss": "foetid (auto-generated)",
+      "citation_form": "tovafaka"
+    },
+    "zhsn": {
+      "root": [
+        "zh",
+        "s",
+        "n"
+      ],
+      "class": "adjective",
+      "gloss": "fodderless (auto-generated)",
+      "citation_form": "zhosanaka"
+    },
+    "pchth": {
+      "root": [
+        "p",
+        "ch",
+        "th"
+      ],
+      "class": "adjective",
+      "gloss": "fodinichnial (auto-generated)",
+      "citation_form": "pochathaka"
+    },
+    "lthb": {
+      "root": [
+        "l",
+        "th",
+        "b"
+      ],
+      "class": "adjective",
+      "gloss": "foeless (auto-generated)",
+      "citation_form": "lothabaka"
+    },
+    "vpj": {
+      "root": [
+        "v",
+        "p",
+        "j"
+      ],
+      "class": "adjective",
+      "gloss": "foetal (auto-generated)",
+      "citation_form": "vopajaka"
+    },
+    "lngr": {
+      "root": [
+        "l",
+        "ng",
+        "r"
+      ],
+      "class": "adjective",
+      "gloss": "fmr (auto-generated)",
+      "citation_form": "longaraka"
     }
   },
   "adverbs": {
@@ -62064,6 +62604,106 @@
       "class": "adverb",
       "gloss": "zoosemiotically (auto-generated)",
       "citation_form": "tayate"
+    },
+    "nzhh": {
+      "root": [
+        "n",
+        "zh",
+        "h"
+      ],
+      "class": "adverb",
+      "gloss": "weightedly (auto-generated)",
+      "citation_form": "nazhate"
+    },
+    "shngn": {
+      "root": [
+        "sh",
+        "ng",
+        "n"
+      ],
+      "class": "adverb",
+      "gloss": "weakly (auto-generated)",
+      "citation_form": "shangate"
+    },
+    "tthng": {
+      "root": [
+        "t",
+        "th",
+        "ng"
+      ],
+      "class": "adverb",
+      "gloss": "welcomely (auto-generated)",
+      "citation_form": "tathate"
+    },
+    "ryj": {
+      "root": [
+        "r",
+        "y",
+        "j"
+      ],
+      "class": "adverb",
+      "gloss": "weedily (auto-generated)",
+      "citation_form": "rayate"
+    },
+    "vlv": {
+      "root": [
+        "v",
+        "l",
+        "v"
+      ],
+      "class": "adverb",
+      "gloss": "weirdly (auto-generated)",
+      "citation_form": "valate"
+    },
+    "rrp": {
+      "root": [
+        "r",
+        "r",
+        "p"
+      ],
+      "class": "adverb",
+      "gloss": "weetingly (auto-generated)",
+      "citation_form": "rarate"
+    },
+    "gchj": {
+      "root": [
+        "g",
+        "ch",
+        "j"
+      ],
+      "class": "adverb",
+      "gloss": "weightwise (auto-generated)",
+      "citation_form": "gachate"
+    },
+    "jngp": {
+      "root": [
+        "j",
+        "ng",
+        "p"
+      ],
+      "class": "adverb",
+      "gloss": "weakheartedly (auto-generated)",
+      "citation_form": "jangate"
+    },
+    "tzhh": {
+      "root": [
+        "t",
+        "zh",
+        "h"
+      ],
+      "class": "adverb",
+      "gloss": "wellah (auto-generated)",
+      "citation_form": "tazhate"
+    },
+    "wchn": {
+      "root": [
+        "w",
+        "ch",
+        "n"
+      ],
+      "class": "adverb",
+      "gloss": "wearyingly (auto-generated)",
+      "citation_form": "wachate"
     }
   },
   "colors": {
