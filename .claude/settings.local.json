@@ -45,7 +45,8 @@
       "Bash(unzip -o /tmp/failed_logs.zip -d /tmp/failed_logs)",
       "Bash(curl:*)",
       "Bash(tasklist)",
-      "Bash(jobs -l)"
+      "Bash(jobs -l)",
+      "Bash(find \"C:/Users/Immanuelle/Documents/Github/aelaki-wikibot/grammar/\" -type f -name \"*.wiki\" -exec wc -l {} +)"
     ]
   }
 }
