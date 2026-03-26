@@ -23,11 +23,11 @@ PAGE_TITLE = "Git commit log"
 REPO_URL = "https://github.com/EmmaLeonhart/aelaki-wikibot"
 
 
-def get_commits(limit: int = 500) -> list[dict]:
-    """Get recent git commits as list of dicts."""
+def get_commits() -> list[dict]:
+    """Get all git commits oldest-first as list of dicts."""
     fmt = "%H%n%h%n%ai%n%s"  # full hash, short hash, date, subject
     out = subprocess.check_output(
-        ["git", "log", f"--format={fmt}", f"-{limit}"],
+        ["git", "log", "--reverse", f"--format={fmt}"],
         cwd=os.path.join(os.path.dirname(__file__), ".."),
         text=True,
     )
