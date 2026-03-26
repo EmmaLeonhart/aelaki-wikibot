@@ -45,12 +45,12 @@ Based on: https://github.com/Emma-Leonhart/shintowiki-scripts/
 - [ ] Richer inflection tables: group by TAM/evidential for verbs, show possession paradigm for nouns
 - [ ] Cross-link related words (e.g. `bsl` noun ↔ `bsl_adj` adjective)
 
-### Planned: Wiktionary Countability Detection
-- [ ] Use Wiktionary API to detect noun countability (countable vs uncountable)
-- [ ] Countable nouns → animate gender (child/female/male, evenly distributed)
-- [ ] Uncountable nouns → inanimate gender (mass nouns, substances, abstractions)
-- [ ] Replace random gender assignment in `generate_random_words.py` with countability-based logic
-- [ ] Backfill existing auto-generated nouns with countability data
+### Wiktionary Countability Detection
+- [x] Use Wiktionary API to detect noun countability (countable vs uncountable)
+- [x] Countable nouns → animate gender (child/female/male, evenly distributed)
+- [x] Uncountable nouns → inanimate gender (mass nouns, substances, abstractions)
+- [x] Replace random gender assignment in `generate_random_words.py` with countability-based logic
+- [x] Backfill existing auto-generated nouns with countability data
 
 ### Orphaned Pages Cleanup (2027+)
 - [x] `delete_orphaned_pages.py` is in the pipeline, year-gated to 2027+
