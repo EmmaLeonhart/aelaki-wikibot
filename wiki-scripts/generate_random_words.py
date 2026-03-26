@@ -39,6 +39,7 @@ from aelaki.verbs import (
 )
 from aelaki.adjectives import realize_adjective
 from aelaki.adverbs import realize_adverb
+from wiktionary_countability import check_uncountable
 
 # ---------------------------------------------------------------------------
 # Constants
@@ -55,7 +56,7 @@ CATEGORIES = {
 }
 
 CONSONANT_LIST = sorted(CONSONANTS)
-GENDERS = [Gender.CHILD, Gender.FEMALE, Gender.MALE, Gender.INANIMATE]
+ANIMATE_GENDERS = [Gender.CHILD, Gender.FEMALE, Gender.MALE]
 # Verb class distribution: 80% transitive, 10% active, 10% stative
 VERB_CLASSES = ["verb_transitive", "verb_active", "verb_stative"]
 VERB_WEIGHTS = [80, 10, 10]
@@ -214,14 +215,18 @@ def build_adv_citation(root: TriRoot) -> str:
 # Entry generation
 # ---------------------------------------------------------------------------
 
-def _make_entry(word: str, word_type: str, used_keys: set[str]):
+def _make_entry(word: str, word_type: str, used_keys: set[str],
+                 uncountable_words: set[str] | None = None):
     """Create a single lexicon entry. Returns (section, key, entry_dict)."""
     gloss = f"{word} (auto-generated)"
 
     if word_type == "nouns":
         consonants, key = generate_root_key(used_keys)
         root = TriRoot(*consonants)
-        gender = random.choices(GENDERS, weights=[30, 30, 30, 10], k=1)[0]
+        if uncountable_words is not None and word.lower() in uncountable_words:
+            gender = Gender.INANIMATE
+        else:
+            gender = random.choice(ANIMATE_GENDERS)
         citation = build_noun_citation(root, gender)
         entry = {
             "root": consonants,
@@ -302,6 +307,14 @@ def generate_entries(count: int, dry_run: bool = False) -> int:
             print(f"Warning: failed to fetch {word_type}: {exc}")
             continue
 
+        # For nouns, batch-check which candidates are uncountable
+        uncountable_words = None
+        if word_type == "nouns":
+            new_candidates = [w for w in candidates if w.lower() not in known_glosses]
+            uncountable_words = check_uncountable(new_candidates)
+            print(f"  Checked {len(new_candidates)} noun candidates: "
+                  f"{len(uncountable_words)} uncountable")
+
         type_added = 0
         for word in candidates:
             if type_added >= target:
@@ -310,7 +323,8 @@ def generate_entries(count: int, dry_run: bool = False) -> int:
             if word.lower() in known_glosses:
                 continue
 
-            section, key, entry = _make_entry(word, word_type, used_keys)
+            section, key, entry = _make_entry(word, word_type, used_keys,
+                                              uncountable_words)
 
             if dry_run:
                 print(f"  [{section}] {key}: {entry['gloss']} -> {entry['citation_form']}")

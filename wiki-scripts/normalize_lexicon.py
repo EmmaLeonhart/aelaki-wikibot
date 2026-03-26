@@ -30,13 +30,13 @@ from aelaki.phonology import CONSONANTS
 from aelaki.roots import TriRoot
 from aelaki.gender import Gender, Number, Person
 from aelaki.nouns import build_noun
+from wiktionary_countability import check_uncountable
 
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
 
 LEXICON_PATH = PROJECT_ROOT / "aelaki" / "lexicon.json"
-TARGET_INANIMATE_RATIO = 0.10
 ANIMATE_GENDERS = [Gender.CHILD, Gender.FEMALE, Gender.MALE]
 
 # ---------------------------------------------------------------------------
@@ -70,86 +70,89 @@ def save_lexicon(lexicon: dict) -> None:
 # ---------------------------------------------------------------------------
 
 def normalize(dry_run: bool = False) -> int:
-    """Redistribute excess inanimate nouns. Returns count of changes."""
+    """Assign noun genders based on Wiktionary countability. Returns count of changes.
+
+    Uncountable nouns (per Category:English_uncountable_nouns) become inanimate.
+    Countable nouns that are currently inanimate get reassigned to an animate gender.
+    Only auto-generated nouns are touched; hand-curated entries are left alone.
+    """
     lexicon = load_lexicon()
     nouns = lexicon.get("nouns", {})
 
-    # Count current gender distribution
+    # Collect auto-generated nouns and their English glosses
+    auto_nouns = {}
+    for key, entry in nouns.items():
+        gloss = entry.get("gloss", "")
+        if "(auto-generated)" in gloss:
+            word = gloss.replace(" (auto-generated)", "").strip()
+            auto_nouns[key] = word
+
     total = len(nouns)
-    inanimate_keys = [k for k, v in nouns.items() if v.get("gender") == "inanimate"]
-    inanimate_count = len(inanimate_keys)
-    target_count = max(1, round(total * TARGET_INANIMATE_RATIO))
-
+    inanimate_count = sum(1 for v in nouns.values() if v.get("gender") == "inanimate")
     print(f"Nouns: {total} total, {inanimate_count} inanimate ({inanimate_count/total*100:.1f}%)")
-    print(f"Target: {target_count} inanimate ({TARGET_INANIMATE_RATIO*100:.0f}%)")
+    print(f"Auto-generated nouns to check: {len(auto_nouns)}")
 
-    if inanimate_count <= target_count:
-        print("Already at or below target. Nothing to do.")
-        # Clear any stale old_citation_form entries
+    if not auto_nouns:
         cleared = _clear_stale_migrations(nouns, set())
         if cleared and not dry_run:
             save_lexicon(lexicon)
-            print(f"Cleared {cleared} stale old_citation_form entries.")
         return 0
 
-    excess = inanimate_count - target_count
-    print(f"Need to reassign {excess} inanimate nouns.")
-
-    # Sort for deterministic ordering, then pick which ones to reassign
-    # Use a global seed so the selection is stable
-    rng = random.Random(42)
-    # Only reassign auto-generated nouns (not hand-curated ones)
-    auto_inanimate = [k for k in inanimate_keys
-                      if "(auto-generated)" in nouns[k].get("gloss", "")]
-    # If not enough auto-generated, fall back to all inanimate
-    if len(auto_inanimate) < excess:
-        candidates = sorted(inanimate_keys)
-    else:
-        candidates = sorted(auto_inanimate)
-
-    rng.shuffle(candidates)
-    to_reassign = candidates[:excess]
-    to_reassign_set = set(to_reassign)
+    # Batch-check countability via Wiktionary
+    unique_words = list(set(auto_nouns.values()))
+    uncountable = check_uncountable(unique_words)
+    print(f"Wiktionary: {len(uncountable)} uncountable out of {len(unique_words)} checked")
 
     changes = 0
-    for key in to_reassign:
+    changed_keys = set()
+
+    for key, word in auto_nouns.items():
         entry = nouns[key]
-
-        # Skip entries already being migrated (old_citation_form set this run)
-        if entry.get("old_citation_form"):
-            # Already has an old_citation_form — check if gender already changed
-            if entry["gender"] != "inanimate":
-                continue
-
-        # Deterministic gender assignment per root key
-        key_rng = random.Random(deterministic_seed(key))
-        new_gender = key_rng.choice(ANIMATE_GENDERS)
+        current_gender = entry.get("gender")
+        should_be_inanimate = word.lower() in uncountable
 
         root = entry["root"]
         if len(root) != 3:
-            print(f"  SKIP {key}: non-triconsonantal root ({len(root)} consonants)")
             continue
 
-        old_citation = entry.get("citation_form", "")
-        new_citation = compute_citation_form(root, new_gender)
+        if should_be_inanimate and current_gender != "inanimate":
+            # Countable→uncountable: make inanimate
+            old_citation = entry.get("citation_form", "")
+            new_citation = compute_citation_form(root, Gender.INANIMATE)
+            if dry_run:
+                print(f"  {key}: {current_gender} -> inanimate ({word})")
+            else:
+                entry["gender"] = "inanimate"
+                entry["old_citation_form"] = old_citation
+                entry["citation_form"] = new_citation
+            changes += 1
+            changed_keys.add(key)
 
-        if dry_run:
-            print(f"  {key}: {entry['gender']} -> {new_gender.value} "
-                  f"({old_citation} -> {new_citation})")
-        else:
-            entry["gender"] = new_gender.value
-            entry["old_citation_form"] = old_citation
-            entry["citation_form"] = new_citation
-
-        changes += 1
+        elif not should_be_inanimate and current_gender == "inanimate":
+            # Uncountable→countable: make animate
+            key_rng = random.Random(deterministic_seed(key))
+            new_gender = key_rng.choice(ANIMATE_GENDERS)
+            old_citation = entry.get("citation_form", "")
+            new_citation = compute_citation_form(root, new_gender)
+            if dry_run:
+                print(f"  {key}: inanimate -> {new_gender.value} ({word})")
+            else:
+                entry["gender"] = new_gender.value
+                entry["old_citation_form"] = old_citation
+                entry["citation_form"] = new_citation
+            changes += 1
+            changed_keys.add(key)
 
     # Clear stale old_citation_form on entries NOT being changed
-    cleared = _clear_stale_migrations(nouns, to_reassign_set)
+    cleared = _clear_stale_migrations(nouns, changed_keys)
 
     if not dry_run and (changes > 0 or cleared > 0):
         save_lexicon(lexicon)
 
-    print(f"\n{'Would reassign' if dry_run else 'Reassigned'} {changes} nouns.")
+    new_inanimate = sum(1 for v in nouns.values() if v.get("gender") == "inanimate")
+    print(f"\n{'Would change' if dry_run else 'Changed'} {changes} nouns "
+          f"based on Wiktionary countability.")
+    print(f"Inanimate nouns: {inanimate_count} -> {new_inanimate}")
     if cleared:
         print(f"Cleared {cleared} stale old_citation_form entries.")
 
