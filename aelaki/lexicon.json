@@ -29023,6 +29023,17 @@
       "class": "verb_active",
       "gloss": "electrodrill (auto-generated)",
       "citation_form": "kadazhaf"
+    },
+    "gdhngh": {
+      "root": [
+        "g",
+        "dh",
+        "ng",
+        "h"
+      ],
+      "class": "verb_transitive",
+      "gloss": "quinonize (auto-generated)",
+      "citation_form": "kagadhngehoko"
     }
   },
   "nouns": {
@@ -61674,6 +61685,446 @@
       "gloss": "khamsin (auto-generated)",
       "gender": "child",
       "citation_form": "shawuzhu"
+    },
+    "lpw": {
+      "root": [
+        "l",
+        "p",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "feastful (auto-generated)",
+      "gender": "child",
+      "citation_form": "lapuwu"
+    },
+    "hjch": {
+      "root": [
+        "h",
+        "j",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "fearscape (auto-generated)",
+      "gender": "female",
+      "citation_form": "hajocho"
+    },
+    "zmj": {
+      "root": [
+        "z",
+        "m",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "featurization (auto-generated)",
+      "gender": "male",
+      "citation_form": "zamaja"
+    },
+    "zhbh": {
+      "root": [
+        "zh",
+        "b",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "febricant (auto-generated)",
+      "gender": "child",
+      "citation_form": "zhabuhu"
+    },
+    "szm": {
+      "root": [
+        "s",
+        "z",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "feaver (auto-generated)",
+      "gender": "male",
+      "citation_form": "sazama"
+    },
+    "wbj": {
+      "root": [
+        "w",
+        "b",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "fearthought (auto-generated)",
+      "gender": "child",
+      "citation_form": "wabuju"
+    },
+    "wdhm": {
+      "root": [
+        "w",
+        "dh",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "fearmonging (auto-generated)",
+      "gender": "child",
+      "citation_form": "wadhumu"
+    },
+    "gzd": {
+      "root": [
+        "g",
+        "z",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "febricide (auto-generated)",
+      "gender": "male",
+      "citation_form": "gazada"
+    },
+    "ngk": {
+      "root": [
+        "n",
+        "g",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "febarbamate (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "nagïfkïf"
+    },
+    "gzw": {
+      "root": [
+        "g",
+        "z",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "fearfulness (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "gazïfwïf"
+    },
+    "lngv": {
+      "root": [
+        "l",
+        "ng",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "feature (auto-generated)",
+      "gender": "female",
+      "citation_form": "langovo"
+    },
+    "ghzh": {
+      "root": [
+        "g",
+        "h",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "feat (auto-generated)",
+      "gender": "male",
+      "citation_form": "gahazha"
+    },
+    "btj": {
+      "root": [
+        "b",
+        "t",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "feaso (auto-generated)",
+      "gender": "male",
+      "citation_form": "bataja"
+    },
+    "mshch": {
+      "root": [
+        "m",
+        "sh",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "feathermoss (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "mashïfchïf"
+    },
+    "vbth": {
+      "root": [
+        "v",
+        "b",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "feastday (auto-generated)",
+      "gender": "male",
+      "citation_form": "vabatha"
+    },
+    "zhyf": {
+      "root": [
+        "zh",
+        "y",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "featherdom (auto-generated)",
+      "gender": "child",
+      "citation_form": "zhayufu"
+    },
+    "jwch": {
+      "root": [
+        "j",
+        "w",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "featurelessness (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "jawïfchïf"
+    },
+    "zhbv": {
+      "root": [
+        "zh",
+        "b",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "fearnaught (auto-generated)",
+      "gender": "child",
+      "citation_form": "zhabuvu"
+    },
+    "chngf": {
+      "root": [
+        "ch",
+        "ng",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "featureliness (auto-generated)",
+      "gender": "child",
+      "citation_form": "changufu"
+    },
+    "rdh": {
+      "root": [
+        "r",
+        "d",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "featherstitch (auto-generated)",
+      "gender": "female",
+      "citation_form": "radoho"
+    },
+    "dhfs": {
+      "root": [
+        "dh",
+        "f",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "featurality (auto-generated)",
+      "gender": "child",
+      "citation_form": "dhafusu"
+    },
+    "chshj": {
+      "root": [
+        "ch",
+        "sh",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "fearbait (auto-generated)",
+      "gender": "female",
+      "citation_form": "chashojo"
+    },
+    "kdv": {
+      "root": [
+        "k",
+        "d",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "featherlet (auto-generated)",
+      "gender": "child",
+      "citation_form": "kaduvu"
+    },
+    "mfsh": {
+      "root": [
+        "m",
+        "f",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "featherman (auto-generated)",
+      "gender": "male",
+      "citation_form": "mafasha"
+    },
+    "shvr": {
+      "root": [
+        "sh",
+        "v",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "feasance (auto-generated)",
+      "gender": "female",
+      "citation_form": "shavoro"
+    },
+    "wzhy": {
+      "root": [
+        "w",
+        "zh",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "featherfew (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "wazhïfyïf"
+    },
+    "mchch": {
+      "root": [
+        "m",
+        "ch",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "featureitis (auto-generated)",
+      "gender": "male",
+      "citation_form": "machacha"
+    },
+    "sngv": {
+      "root": [
+        "s",
+        "ng",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "featheriness (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "sangïfvïf"
+    },
+    "dhthsh": {
+      "root": [
+        "dh",
+        "th",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "featherworking (auto-generated)",
+      "gender": "female",
+      "citation_form": "dhathosho"
+    },
+    "nzhg": {
+      "root": [
+        "n",
+        "zh",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "featherfoot (auto-generated)",
+      "gender": "female",
+      "citation_form": "nazhogo"
+    },
+    "ngrr": {
+      "root": [
+        "ng",
+        "r",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "featherer (auto-generated)",
+      "gender": "male",
+      "citation_form": "ngarara"
+    },
+    "pmf": {
+      "root": [
+        "p",
+        "m",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "feavour (auto-generated)",
+      "gender": "male",
+      "citation_form": "pamafa"
+    },
+    "chzch": {
+      "root": [
+        "ch",
+        "z",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "feathermonger (auto-generated)",
+      "gender": "child",
+      "citation_form": "chazuchu"
+    },
+    "ththng": {
+      "root": [
+        "th",
+        "th",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "fease (auto-generated)",
+      "gender": "male",
+      "citation_form": "thathanga"
+    },
+    "gsd": {
+      "root": [
+        "g",
+        "s",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "featheredness (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "gasïfdïf"
+    },
+    "jlh": {
+      "root": [
+        "j",
+        "l",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "febfem (auto-generated)",
+      "gender": "child",
+      "citation_form": "jaluhu"
+    },
+    "ngbd": {
+      "root": [
+        "ng",
+        "b",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "featherblade (auto-generated)",
+      "gender": "child",
+      "citation_form": "ngabudu"
+    },
+    "hjp": {
+      "root": [
+        "h",
+        "j",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "fearlessness (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "hajïfpïf"
+    },
+    "mshg": {
+      "root": [
+        "m",
+        "sh",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "fearologist (auto-generated)",
+      "gender": "male",
+      "citation_form": "mashaga"
+    },
+    "thrj": {
+      "root": [
+        "th",
+        "r",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "featherbells (auto-generated)",
+      "gender": "child",
+      "citation_form": "tharuju"
     }
   },
   "adjectives": {
@@ -69304,6 +69755,106 @@
       "class": "adjective",
       "gloss": "wadable (auto-generated)",
       "citation_form": "sodhazhaka"
+    },
+    "chzhz": {
+      "root": [
+        "ch",
+        "zh",
+        "z"
+      ],
+      "class": "adjective",
+      "gloss": "bubblelike (auto-generated)",
+      "citation_form": "chozhazaka"
+    },
+    "spt": {
+      "root": [
+        "s",
+        "p",
+        "t"
+      ],
+      "class": "adjective",
+      "gloss": "buccomesial (auto-generated)",
+      "citation_form": "sopataka"
+    },
+    "lgg": {
+      "root": [
+        "l",
+        "g",
+        "g"
+      ],
+      "class": "adjective",
+      "gloss": "buccolingual (auto-generated)",
+      "citation_form": "logagaka"
+    },
+    "rshf": {
+      "root": [
+        "r",
+        "sh",
+        "f"
+      ],
+      "class": "adjective",
+      "gloss": "bubblegum (auto-generated)",
+      "citation_form": "roshafaka"
+    },
+    "lvsh": {
+      "root": [
+        "l",
+        "v",
+        "sh"
+      ],
+      "class": "adjective",
+      "gloss": "buccodistal (auto-generated)",
+      "citation_form": "lovashaka"
+    },
+    "fzhg": {
+      "root": [
+        "f",
+        "zh",
+        "g"
+      ],
+      "class": "adjective",
+      "gloss": "buccohypophysial (auto-generated)",
+      "citation_form": "fozhagaka"
+    },
+    "szhm": {
+      "root": [
+        "s",
+        "zh",
+        "m"
+      ],
+      "class": "adjective",
+      "gloss": "buccoaxial (auto-generated)",
+      "citation_form": "sozhamaka"
+    },
+    "zshs": {
+      "root": [
+        "z",
+        "sh",
+        "s"
+      ],
+      "class": "adjective",
+      "gloss": "buccocervical (auto-generated)",
+      "citation_form": "zoshasaka"
+    },
+    "vdhd": {
+      "root": [
+        "v",
+        "dh",
+        "d"
+      ],
+      "class": "adjective",
+      "gloss": "bubbleless (auto-generated)",
+      "citation_form": "vodhadaka"
+    },
+    "shlv": {
+      "root": [
+        "sh",
+        "l",
+        "v"
+      ],
+      "class": "adjective",
+      "gloss": "buccofacial (auto-generated)",
+      "citation_form": "sholavaka"
     }
   },
   "adverbs": {
@@ -76725,6 +77276,106 @@
       "class": "adverb",
       "gloss": "nearby (auto-generated)",
       "citation_form": "kafate"
+    },
+    "tbv": {
+      "root": [
+        "t",
+        "b",
+        "v"
+      ],
+      "class": "adverb",
+      "gloss": "lefthandedly (auto-generated)",
+      "citation_form": "tabate"
+    },
+    "thgv": {
+      "root": [
+        "th",
+        "g",
+        "v"
+      ],
+      "class": "adverb",
+      "gloss": "least (auto-generated)",
+      "citation_form": "thagate"
+    },
+    "chpd": {
+      "root": [
+        "ch",
+        "p",
+        "d"
+      ],
+      "class": "adverb",
+      "gloss": "leftward (auto-generated)",
+      "citation_form": "chapate"
+    },
+    "szht": {
+      "root": [
+        "s",
+        "zh",
+        "t"
+      ],
+      "class": "adverb",
+      "gloss": "leastaways (auto-generated)",
+      "citation_form": "sazhate"
+    },
+    "vchy": {
+      "root": [
+        "v",
+        "ch",
+        "y"
+      ],
+      "class": "adverb",
+      "gloss": "leewards (auto-generated)",
+      "citation_form": "vachate"
+    },
+    "skb": {
+      "root": [
+        "s",
+        "k",
+        "b"
+      ],
+      "class": "adverb",
+      "gloss": "leaguewide (auto-generated)",
+      "citation_form": "sakate"
+    },
+    "zhzw": {
+      "root": [
+        "zh",
+        "z",
+        "w"
+      ],
+      "class": "adverb",
+      "gloss": "leafmeal (auto-generated)",
+      "citation_form": "zhazate"
+    },
+    "tngk": {
+      "root": [
+        "t",
+        "ng",
+        "k"
+      ],
+      "class": "adverb",
+      "gloss": "lecithotrophically (auto-generated)",
+      "citation_form": "tangate"
+    },
+    "kzng": {
+      "root": [
+        "k",
+        "z",
+        "ng"
+      ],
+      "class": "adverb",
+      "gloss": "legato (auto-generated)",
+      "citation_form": "kazate"
+    },
+    "hgv": {
+      "root": [
+        "h",
+        "g",
+        "v"
+      ],
+      "class": "adverb",
+      "gloss": "learily (auto-generated)",
+      "citation_form": "hagate"
     }
   },
   "colors": {
