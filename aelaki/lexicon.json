@@ -29034,6 +29034,114 @@
       "class": "verb_transitive",
       "gloss": "quinonize (auto-generated)",
       "citation_form": "kagadhngehoko"
+    },
+    "hjw": {
+      "root": [
+        "h",
+        "j",
+        "w"
+      ],
+      "class": "verb_stative",
+      "gloss": "wallbang (auto-generated)",
+      "citation_form": "hajawa"
+    },
+    "dhyfth": {
+      "root": [
+        "dh",
+        "y",
+        "f",
+        "th"
+      ],
+      "class": "verb_transitive",
+      "gloss": "wally (auto-generated)",
+      "citation_form": "kadhayfethoko"
+    },
+    "rmwd": {
+      "root": [
+        "r",
+        "m",
+        "w",
+        "d"
+      ],
+      "class": "verb_transitive",
+      "gloss": "waller (auto-generated)",
+      "citation_form": "karamwedoko"
+    },
+    "dhpyp": {
+      "root": [
+        "dh",
+        "p",
+        "y",
+        "p"
+      ],
+      "class": "verb_transitive",
+      "gloss": "wald (auto-generated)",
+      "citation_form": "kadhapyepoko"
+    },
+    "blmt": {
+      "root": [
+        "b",
+        "l",
+        "m",
+        "t"
+      ],
+      "class": "verb_transitive",
+      "gloss": "wail (auto-generated)",
+      "citation_form": "kabalmetoko"
+    },
+    "zbgch": {
+      "root": [
+        "z",
+        "b",
+        "g",
+        "ch"
+      ],
+      "class": "verb_transitive",
+      "gloss": "wait (auto-generated)",
+      "citation_form": "kazabgechoko"
+    },
+    "yzhlf": {
+      "root": [
+        "y",
+        "zh",
+        "l",
+        "f"
+      ],
+      "class": "verb_transitive",
+      "gloss": "vulgarise (auto-generated)",
+      "citation_form": "kayazhlefoko"
+    },
+    "pchzh": {
+      "root": [
+        "p",
+        "ch",
+        "zh"
+      ],
+      "class": "verb_stative",
+      "gloss": "vulcanise (auto-generated)",
+      "citation_form": "pachazha"
+    },
+    "wmms": {
+      "root": [
+        "w",
+        "m",
+        "m",
+        "s"
+      ],
+      "class": "verb_transitive",
+      "gloss": "wager (auto-generated)",
+      "citation_form": "kawamesoko"
+    },
+    "fshwj": {
+      "root": [
+        "f",
+        "sh",
+        "w",
+        "j"
+      ],
+      "class": "verb_transitive",
+      "gloss": "waken (auto-generated)",
+      "citation_form": "kafashwejoko"
     }
   },
   "nouns": {
@@ -62132,6 +62240,446 @@
       "gloss": "featherbells (auto-generated)",
       "gender": "child",
       "citation_form": "tharuju"
+    },
+    "gzzh": {
+      "root": [
+        "g",
+        "z",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "xylarium (auto-generated)",
+      "gender": "male",
+      "citation_form": "gazazha"
+    },
+    "bpv": {
+      "root": [
+        "b",
+        "p",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "xylanase (auto-generated)",
+      "gender": "female",
+      "citation_form": "bapovo"
+    },
+    "dzng": {
+      "root": [
+        "d",
+        "z",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "xylohexaose (auto-generated)",
+      "gender": "female",
+      "citation_form": "dazongo"
+    },
+    "kvm": {
+      "root": [
+        "k",
+        "v",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "xuanhuan (auto-generated)",
+      "gender": "male",
+      "citation_form": "kavama"
+    },
+    "dkm": {
+      "root": [
+        "d",
+        "k",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "xylomancy (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "dakïfmïf"
+    },
+    "bshg": {
+      "root": [
+        "b",
+        "sh",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "xylaloe (auto-generated)",
+      "gender": "child",
+      "citation_form": "bashugu"
+    },
+    "dhny": {
+      "root": [
+        "dh",
+        "n",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "xvalue (auto-generated)",
+      "gender": "child",
+      "citation_form": "dhanuyu"
+    },
+    "gpt": {
+      "root": [
+        "g",
+        "p",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "xylite (auto-generated)",
+      "gender": "child",
+      "citation_form": "gaputu"
+    },
+    "dhhdh": {
+      "root": [
+        "dh",
+        "h",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "xylobioside (auto-generated)",
+      "gender": "female",
+      "citation_form": "dhahodho"
+    },
+    "vzhzh": {
+      "root": [
+        "v",
+        "zh",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "xylochrome (auto-generated)",
+      "gender": "male",
+      "citation_form": "vazhazha"
+    },
+    "vwng": {
+      "root": [
+        "v",
+        "w",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "xyloma (auto-generated)",
+      "gender": "male",
+      "citation_form": "vawanga"
+    },
+    "mtzh": {
+      "root": [
+        "m",
+        "t",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "xutuli (auto-generated)",
+      "gender": "child",
+      "citation_form": "matuzhu"
+    },
+    "rzt": {
+      "root": [
+        "r",
+        "z",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "xylocopid (auto-generated)",
+      "gender": "female",
+      "citation_form": "razoto"
+    },
+    "kzy": {
+      "root": [
+        "k",
+        "z",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "xylolith (auto-generated)",
+      "gender": "female",
+      "citation_form": "kazoyo"
+    },
+    "wpy": {
+      "root": [
+        "w",
+        "p",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "xyloglucoside (auto-generated)",
+      "gender": "child",
+      "citation_form": "wapuyu"
+    },
+    "shmf": {
+      "root": [
+        "sh",
+        "m",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "xylochlore (auto-generated)",
+      "gender": "female",
+      "citation_form": "shamofo"
+    },
+    "dhzr": {
+      "root": [
+        "dh",
+        "z",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "xylidine (auto-generated)",
+      "gender": "male",
+      "citation_form": "dhazara"
+    },
+    "wdh": {
+      "root": [
+        "w",
+        "d",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "xylol (auto-generated)",
+      "gender": "child",
+      "citation_form": "waduhu"
+    },
+    "thshp": {
+      "root": [
+        "th",
+        "sh",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "xyloketose (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "thashïfpïf"
+    },
+    "jchs": {
+      "root": [
+        "j",
+        "ch",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "xyloketal (auto-generated)",
+      "gender": "child",
+      "citation_form": "jachusu"
+    },
+    "lpk": {
+      "root": [
+        "l",
+        "p",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "xray (auto-generated)",
+      "gender": "male",
+      "citation_form": "lapaka"
+    },
+    "slth": {
+      "root": [
+        "s",
+        "l",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "xyloglucan (auto-generated)",
+      "gender": "male",
+      "citation_form": "salatha"
+    },
+    "kkng": {
+      "root": [
+        "k",
+        "k",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "xylocarp (auto-generated)",
+      "gender": "child",
+      "citation_form": "kakungu"
+    },
+    "dbg": {
+      "root": [
+        "d",
+        "b",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "xylan (auto-generated)",
+      "gender": "male",
+      "citation_form": "dabaga"
+    },
+    "rgsh": {
+      "root": [
+        "r",
+        "g",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "xylacine (auto-generated)",
+      "gender": "male",
+      "citation_form": "ragasha"
+    },
+    "pjr": {
+      "root": [
+        "p",
+        "j",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "xwind (auto-generated)",
+      "gender": "male",
+      "citation_form": "pajara"
+    },
+    "fnw": {
+      "root": [
+        "f",
+        "n",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "xun (auto-generated)",
+      "gender": "female",
+      "citation_form": "fanowo"
+    },
+    "chssh": {
+      "root": [
+        "ch",
+        "s",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "xylocoumarol (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "chasïfshïf"
+    },
+    "jfj": {
+      "root": [
+        "j",
+        "f",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "xyloglyphy (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "jafïfjïf"
+    },
+    "rgs": {
+      "root": [
+        "r",
+        "g",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "xuwenyuanite (auto-generated)",
+      "gender": "male",
+      "citation_form": "ragasa"
+    },
+    "rkb": {
+      "root": [
+        "r",
+        "k",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "xylanthrax (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "rakïfbïf"
+    },
+    "gdv": {
+      "root": [
+        "g",
+        "d",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "xylographica (auto-generated)",
+      "gender": "child",
+      "citation_form": "gaduvu"
+    },
+    "chtd": {
+      "root": [
+        "ch",
+        "t",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "xylarate (auto-generated)",
+      "gender": "female",
+      "citation_form": "chatodo"
+    },
+    "shshw": {
+      "root": [
+        "sh",
+        "sh",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "xylochemistry (auto-generated)",
+      "gender": "child",
+      "citation_form": "shashuwu"
+    },
+    "hmw": {
+      "root": [
+        "h",
+        "m",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "xylofucoglycuronan (auto-generated)",
+      "gender": "male",
+      "citation_form": "hamawa"
+    },
+    "mrk": {
+      "root": [
+        "m",
+        "r",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "xylology (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "marïfkïf"
+    },
+    "sdw": {
+      "root": [
+        "s",
+        "d",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "xyloidin (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "sadïfwïf"
+    },
+    "rsj": {
+      "root": [
+        "r",
+        "s",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "xylamide (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "rasïfjïf"
+    },
+    "sgz": {
+      "root": [
+        "s",
+        "g",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "xyloidine (auto-generated)",
+      "gender": "female",
+      "citation_form": "sagozo"
+    },
+    "chpg": {
+      "root": [
+        "ch",
+        "p",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "xylidin (auto-generated)",
+      "gender": "female",
+      "citation_form": "chapogo"
     }
   },
   "adjectives": {
@@ -69862,6 +70410,106 @@
       "class": "adjective",
       "gloss": "buccofacial (auto-generated)",
       "citation_form": "sholavaka"
+    },
+    "ldhd": {
+      "root": [
+        "l",
+        "dh",
+        "d"
+      ],
+      "class": "adjective",
+      "gloss": "upbay (auto-generated)",
+      "citation_form": "lodhadaka"
+    },
+    "zhpd": {
+      "root": [
+        "zh",
+        "p",
+        "d"
+      ],
+      "class": "adjective",
+      "gloss": "upcore (auto-generated)",
+      "citation_form": "zhopadaka"
+    },
+    "zhby": {
+      "root": [
+        "zh",
+        "b",
+        "y"
+      ],
+      "class": "adjective",
+      "gloss": "upblowing (auto-generated)",
+      "citation_form": "zhobayaka"
+    },
+    "ddp": {
+      "root": [
+        "d",
+        "d",
+        "p"
+      ],
+      "class": "adjective",
+      "gloss": "upbraiding (auto-generated)",
+      "citation_form": "dodapaka"
+    },
+    "pnn": {
+      "root": [
+        "p",
+        "n",
+        "n"
+      ],
+      "class": "adjective",
+      "gloss": "upcity (auto-generated)",
+      "citation_form": "ponanaka"
+    },
+    "khh": {
+      "root": [
+        "k",
+        "h",
+        "h"
+      ],
+      "class": "adjective",
+      "gloss": "updatable (auto-generated)",
+      "citation_form": "kohahaka"
+    },
+    "vbt": {
+      "root": [
+        "v",
+        "b",
+        "t"
+      ],
+      "class": "adjective",
+      "gloss": "upface (auto-generated)",
+      "citation_form": "vobataka"
+    },
+    "pbsh": {
+      "root": [
+        "p",
+        "b",
+        "sh"
+      ],
+      "class": "adjective",
+      "gloss": "upbound (auto-generated)",
+      "citation_form": "pobashaka"
+    },
+    "dngs": {
+      "root": [
+        "d",
+        "ng",
+        "s"
+      ],
+      "class": "adjective",
+      "gloss": "upbristling (auto-generated)",
+      "citation_form": "dongasaka"
+    },
+    "chwt": {
+      "root": [
+        "ch",
+        "w",
+        "t"
+      ],
+      "class": "adjective",
+      "gloss": "upfaced (auto-generated)",
+      "citation_form": "chowataka"
     }
   },
   "adverbs": {
@@ -77383,6 +78031,26 @@
       "class": "adverb",
       "gloss": "learily (auto-generated)",
       "citation_form": "hagate"
+    },
+    "ngvs": {
+      "root": [
+        "ng",
+        "v",
+        "s"
+      ],
+      "class": "adverb",
+      "gloss": "zingingly (auto-generated)",
+      "citation_form": "ngavate"
+    },
+    "wydh": {
+      "root": [
+        "w",
+        "y",
+        "dh"
+      ],
+      "class": "adverb",
+      "gloss": "zingily (auto-generated)",
+      "citation_form": "wayate"
     }
   },
   "colors": {
