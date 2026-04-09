@@ -65082,6 +65082,446 @@
       "gloss": "pylon (auto-generated)",
       "gender": "female",
       "citation_form": "yanozo"
+    },
+    "bfk": {
+      "root": [
+        "b",
+        "f",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "foalhood (auto-generated)",
+      "gender": "male",
+      "citation_form": "bafaka"
+    },
+    "thdhd": {
+      "root": [
+        "th",
+        "dh",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "foeman (auto-generated)",
+      "gender": "child",
+      "citation_form": "thadhudu"
+    },
+    "chrw": {
+      "root": [
+        "ch",
+        "r",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "focimetry (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "charïfwïf"
+    },
+    "bszh": {
+      "root": [
+        "b",
+        "s",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "fmt (auto-generated)",
+      "gender": "male",
+      "citation_form": "basazha"
+    },
+    "rjv": {
+      "root": [
+        "r",
+        "j",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "fod (auto-generated)",
+      "gender": "child",
+      "citation_form": "rajuvu"
+    },
+    "tdj": {
+      "root": [
+        "t",
+        "d",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "focaliser (auto-generated)",
+      "gender": "child",
+      "citation_form": "taduju"
+    },
+    "mdhw": {
+      "root": [
+        "m",
+        "dh",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "foamflower (auto-generated)",
+      "gender": "female",
+      "citation_form": "madhowo"
+    },
+    "pngr": {
+      "root": [
+        "p",
+        "ng",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "fodderer (auto-generated)",
+      "gender": "male",
+      "citation_form": "pangara"
+    },
+    "ychsh": {
+      "root": [
+        "y",
+        "ch",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "foetometry (auto-generated)",
+      "gender": "female",
+      "citation_form": "yachosho"
+    },
+    "dhss": {
+      "root": [
+        "dh",
+        "s",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "focusability (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "dhasïfsïf"
+    },
+    "dnl": {
+      "root": [
+        "d",
+        "n",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "focality (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "danïflïf"
+    },
+    "kngm": {
+      "root": [
+        "k",
+        "ng",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "focalization (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "kangïfmïf"
+    },
+    "bhg": {
+      "root": [
+        "b",
+        "h",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "fody (auto-generated)",
+      "gender": "child",
+      "citation_form": "bahugu"
+    },
+    "tbzh": {
+      "root": [
+        "t",
+        "b",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "fnord (auto-generated)",
+      "gender": "child",
+      "citation_form": "tabuzhu"
+    },
+    "ydz": {
+      "root": [
+        "y",
+        "d",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "focuser (auto-generated)",
+      "gender": "child",
+      "citation_form": "yaduzu"
+    },
+    "fpsh": {
+      "root": [
+        "f",
+        "p",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "focastle (auto-generated)",
+      "gender": "male",
+      "citation_form": "fapasha"
+    },
+    "mgm": {
+      "root": [
+        "m",
+        "g",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "foaling (auto-generated)",
+      "gender": "child",
+      "citation_form": "magumu"
+    },
+    "rwth": {
+      "root": [
+        "r",
+        "w",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "foambow (auto-generated)",
+      "gender": "female",
+      "citation_form": "rawotho"
+    },
+    "shvf": {
+      "root": [
+        "sh",
+        "v",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "foeniculin (auto-generated)",
+      "gender": "female",
+      "citation_form": "shavofo"
+    },
+    "jndh": {
+      "root": [
+        "j",
+        "n",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "fmole (auto-generated)",
+      "gender": "female",
+      "citation_form": "janodho"
+    },
+    "gvt": {
+      "root": [
+        "g",
+        "v",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "fmol (auto-generated)",
+      "gender": "female",
+      "citation_form": "gavoto"
+    },
+    "bbn": {
+      "root": [
+        "b",
+        "b",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "foetalism (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "babïfnïf"
+    },
+    "zhlm": {
+      "root": [
+        "zh",
+        "l",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "focaccia (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zhalïfmïf"
+    },
+    "zhnl": {
+      "root": [
+        "zh",
+        "n",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "foalfoot (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zhanïflïf"
+    },
+    "bwd": {
+      "root": [
+        "b",
+        "w",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "fodrin (auto-generated)",
+      "gender": "child",
+      "citation_form": "bawudu"
+    },
+    "lchv": {
+      "root": [
+        "l",
+        "ch",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "focsle (auto-generated)",
+      "gender": "female",
+      "citation_form": "lachovo"
+    },
+    "lky": {
+      "root": [
+        "l",
+        "k",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "foetation (auto-generated)",
+      "gender": "child",
+      "citation_form": "lakuyu"
+    },
+    "ljy": {
+      "root": [
+        "l",
+        "j",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "foeder (auto-generated)",
+      "gender": "child",
+      "citation_form": "lajuyu"
+    },
+    "ydh": {
+      "root": [
+        "y",
+        "d",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "focusedness (auto-generated)",
+      "gender": "child",
+      "citation_form": "yaduhu"
+    },
+    "zpt": {
+      "root": [
+        "z",
+        "p",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "fmz (auto-generated)",
+      "gender": "child",
+      "citation_form": "zaputu"
+    },
+    "bdhg": {
+      "root": [
+        "b",
+        "dh",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "fnc (auto-generated)",
+      "gender": "female",
+      "citation_form": "badhogo"
+    },
+    "dhgb": {
+      "root": [
+        "dh",
+        "g",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "focuslessness (auto-generated)",
+      "gender": "child",
+      "citation_form": "dhagubu"
+    },
+    "dhvz": {
+      "root": [
+        "dh",
+        "v",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "foetidness (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "dhavïfzïf"
+    },
+    "pwt": {
+      "root": [
+        "p",
+        "w",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "foehn (auto-generated)",
+      "gender": "female",
+      "citation_form": "pawoto"
+    },
+    "mrth": {
+      "root": [
+        "m",
+        "r",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "foamie (auto-generated)",
+      "gender": "male",
+      "citation_form": "maratha"
+    },
+    "hhsh": {
+      "root": [
+        "h",
+        "h",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "fobbit (auto-generated)",
+      "gender": "female",
+      "citation_form": "hahosho"
+    },
+    "gmj": {
+      "root": [
+        "g",
+        "m",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "foenngreek (auto-generated)",
+      "gender": "female",
+      "citation_form": "gamojo"
+    },
+    "chjv": {
+      "root": [
+        "ch",
+        "j",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "focalizer (auto-generated)",
+      "gender": "female",
+      "citation_form": "chajovo"
+    },
+    "zgth": {
+      "root": [
+        "z",
+        "g",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "fodinichnion (auto-generated)",
+      "gender": "female",
+      "citation_form": "zagotho"
+    },
+    "hff": {
+      "root": [
+        "h",
+        "f",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "foaming (auto-generated)",
+      "gender": "child",
+      "citation_form": "hafufu"
     }
   },
   "adjectives": {
@@ -73212,6 +73652,106 @@
       "class": "adjective",
       "gloss": "stab (auto-generated)",
       "citation_form": "rolayaka"
+    },
+    "ntw": {
+      "root": [
+        "n",
+        "t",
+        "w"
+      ],
+      "class": "adjective",
+      "gloss": "labiopalatal (auto-generated)",
+      "citation_form": "notawaka"
+    },
+    "thngdh": {
+      "root": [
+        "th",
+        "ng",
+        "dh"
+      ],
+      "class": "adjective",
+      "gloss": "labiomedial (auto-generated)",
+      "citation_form": "thongadhaka"
+    },
+    "whg": {
+      "root": [
+        "w",
+        "h",
+        "g"
+      ],
+      "class": "adjective",
+      "gloss": "labelized (auto-generated)",
+      "citation_form": "wohagaka"
+    },
+    "chfdh": {
+      "root": [
+        "ch",
+        "f",
+        "dh"
+      ],
+      "class": "adjective",
+      "gloss": "labiatiflorous (auto-generated)",
+      "citation_form": "chofadhaka"
+    },
+    "shln": {
+      "root": [
+        "sh",
+        "l",
+        "n"
+      ],
+      "class": "adjective",
+      "gloss": "labiopalatine (auto-generated)",
+      "citation_form": "sholanaka"
+    },
+    "shfch": {
+      "root": [
+        "sh",
+        "f",
+        "ch"
+      ],
+      "class": "adjective",
+      "gloss": "labeled (auto-generated)",
+      "citation_form": "shofachaka"
+    },
+    "zhlj": {
+      "root": [
+        "zh",
+        "l",
+        "j"
+      ],
+      "class": "adjective",
+      "gloss": "labelled (auto-generated)",
+      "citation_form": "zholajaka"
+    },
+    "kkch": {
+      "root": [
+        "k",
+        "k",
+        "ch"
+      ],
+      "class": "adjective",
+      "gloss": "labellar (auto-generated)",
+      "citation_form": "kokachaka"
+    },
+    "dlsh": {
+      "root": [
+        "d",
+        "l",
+        "sh"
+      ],
+      "class": "adjective",
+      "gloss": "labiocervical (auto-generated)",
+      "citation_form": "dolashaka"
+    },
+    "kyth": {
+      "root": [
+        "k",
+        "y",
+        "th"
+      ],
+      "class": "adjective",
+      "gloss": "labiolingual (auto-generated)",
+      "citation_form": "koyathaka"
     }
   },
   "adverbs": {
