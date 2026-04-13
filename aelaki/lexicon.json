@@ -76705,6 +76705,106 @@
       "class": "adjective",
       "gloss": "labiogingival (auto-generated)",
       "citation_form": "sowataka"
+    },
+    "chsch": {
+      "root": [
+        "ch",
+        "s",
+        "ch"
+      ],
+      "class": "adjective",
+      "gloss": "yechy (auto-generated)",
+      "citation_form": "chosachaka"
+    },
+    "nddh": {
+      "root": [
+        "n",
+        "d",
+        "dh"
+      ],
+      "class": "adjective",
+      "gloss": "ycleped (auto-generated)",
+      "citation_form": "nodadhaka"
+    },
+    "dgp": {
+      "root": [
+        "d",
+        "g",
+        "p"
+      ],
+      "class": "adjective",
+      "gloss": "yeastless (auto-generated)",
+      "citation_form": "dogapaka"
+    },
+    "krp": {
+      "root": [
+        "k",
+        "r",
+        "p"
+      ],
+      "class": "adjective",
+      "gloss": "yeld (auto-generated)",
+      "citation_form": "korapaka"
+    },
+    "bnth": {
+      "root": [
+        "b",
+        "n",
+        "th"
+      ],
+      "class": "adjective",
+      "gloss": "yearbookish (auto-generated)",
+      "citation_form": "bonathaka"
+    },
+    "fms": {
+      "root": [
+        "f",
+        "m",
+        "s"
+      ],
+      "class": "adjective",
+      "gloss": "yeasticidal (auto-generated)",
+      "citation_form": "fomasaka"
+    },
+    "zhtg": {
+      "root": [
+        "zh",
+        "t",
+        "g"
+      ],
+      "class": "adjective",
+      "gloss": "yclothed (auto-generated)",
+      "citation_form": "zhotagaka"
+    },
+    "shdhch": {
+      "root": [
+        "sh",
+        "dh",
+        "ch"
+      ],
+      "class": "adjective",
+      "gloss": "yclept (auto-generated)",
+      "citation_form": "shodhachaka"
+    },
+    "nlb": {
+      "root": [
+        "n",
+        "l",
+        "b"
+      ],
+      "class": "adjective",
+      "gloss": "yellable (auto-generated)",
+      "citation_form": "nolabaka"
+    },
+    "hsz": {
+      "root": [
+        "h",
+        "s",
+        "z"
+      ],
+      "class": "adjective",
+      "gloss": "yeallow (auto-generated)",
+      "citation_form": "hosazaka"
     }
   },
   "adverbs": {
@@ -84696,6 +84796,106 @@
       "class": "adverb",
       "gloss": "zealfully (auto-generated)",
       "citation_form": "dadhate"
+    },
+    "shdk": {
+      "root": [
+        "sh",
+        "d",
+        "k"
+      ],
+      "class": "adverb",
+      "gloss": "dichotomously (auto-generated)",
+      "citation_form": "shadate"
+    },
+    "vmw": {
+      "root": [
+        "v",
+        "m",
+        "w"
+      ],
+      "class": "adverb",
+      "gloss": "diaxially (auto-generated)",
+      "citation_form": "vamate"
+    },
+    "ryv": {
+      "root": [
+        "r",
+        "y",
+        "v"
+      ],
+      "class": "adverb",
+      "gloss": "diaphragmatically (auto-generated)",
+      "citation_form": "rayate"
+    },
+    "jwf": {
+      "root": [
+        "j",
+        "w",
+        "f"
+      ],
+      "class": "adverb",
+      "gloss": "diatropically (auto-generated)",
+      "citation_form": "jawate"
+    },
+    "wzhzh": {
+      "root": [
+        "w",
+        "zh",
+        "zh"
+      ],
+      "class": "adverb",
+      "gloss": "dialectally (auto-generated)",
+      "citation_form": "wazhate"
+    },
+    "zrk": {
+      "root": [
+        "z",
+        "r",
+        "k"
+      ],
+      "class": "adverb",
+      "gloss": "diachronically (auto-generated)",
+      "citation_form": "zarate"
+    },
+    "rnk": {
+      "root": [
+        "r",
+        "n",
+        "k"
+      ],
+      "class": "adverb",
+      "gloss": "diastereomerically (auto-generated)",
+      "citation_form": "ranate"
+    },
+    "kchch": {
+      "root": [
+        "k",
+        "ch",
+        "ch"
+      ],
+      "class": "adverb",
+      "gloss": "dialogistically (auto-generated)",
+      "citation_form": "kachate"
+    },
+    "dsr": {
+      "root": [
+        "d",
+        "s",
+        "r"
+      ],
+      "class": "adverb",
+      "gloss": "dianoetically (auto-generated)",
+      "citation_form": "dasate"
+    },
+    "tzd": {
+      "root": [
+        "t",
+        "z",
+        "d"
+      ],
+      "class": "adverb",
+      "gloss": "diapirically (auto-generated)",
+      "citation_form": "tazate"
     }
   },
   "colors": {
