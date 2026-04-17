@@ -50,6 +50,21 @@ STATE_FILE = os.path.join(GRAMMAR_DIR, "_sync_state.json")
 CATEGORY = "Aelaki grammar"
 SYNC_CATEGORY = "git synced pages"
 
+# Git-synced pages are authored locally; they must never carry the
+# wanted-pages stub category. If a stub was ever pulled into a local file
+# (e.g. before create_wanted_pages.py learned to skip synced titles), strip
+# the category at push time so the wiki heals on the next sync.
+_WANTED_CATEGORY_RE = re.compile(
+    r"\s*\[\[\s*Category\s*:\s*Created from Wanted Pages\s*\]\]\s*",
+    re.IGNORECASE,
+)
+
+
+def strip_wanted_category(text: str) -> tuple[str, bool]:
+    """Remove [[Category:Created from Wanted Pages]]. Returns (text, stripped)."""
+    new_text, n = _WANTED_CATEGORY_RE.subn("\n", text)
+    return (new_text, n > 0)
+
 
 # ---------------------------------------------------------------------------
 # Filename <-> title mapping
@@ -274,6 +289,10 @@ def push(site, state: dict, apply: bool = False, run_tag: str = "",
 
         with open(filepath, "r", encoding="utf-8") as f:
             local_text = f.read()
+
+        local_text, stripped = strip_wanted_category(local_text)
+        if stripped:
+            print(f"  stripped wanted-pages category from: {title}", flush=True)
 
         page = site.pages[title]
         try:
