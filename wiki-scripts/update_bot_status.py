@@ -22,6 +22,7 @@ import mwclient
 
 sys.path.insert(0, os.path.dirname(__file__))
 from config import WIKI_URL, WIKI_PATH, USERNAME, PASSWORD, BOT_UA
+from utils import save_page
 
 STATUS_PAGE = os.getenv("WIKI_STATUS_PAGE", "User:EmmaBot")
 BASE_PAGE_PATH = os.getenv("WIKI_STATUS_TEMPLATE_PATH",
@@ -114,7 +115,7 @@ def update_stage(site, page, stage_text, run_tag):
             new_lines.append(line)
     new_text = "\n".join(new_lines)
     if new_text.rstrip() != current.rstrip():
-        page.save(new_text, summary=f"Bot: stage → {stage_text} {run_tag}")
+        save_page(page, new_text, summary=f"Bot: stage → {stage_text} {run_tag}")
         print(f"  Stage updated: {stage_text}", flush=True)
 
 
@@ -148,7 +149,7 @@ def main():
         base_text = base_path.read_text(encoding="utf-8")
         status_block = build_status_block(active=False)
         new_text = merge_base_and_status(base_text, status_block)
-        page.save(new_text, summary=f"Bot: pipeline finished {args.run_tag}")
+        save_page(page, new_text, summary=f"Bot: pipeline finished {args.run_tag}")
         print(f"Updated {STATUS_PAGE} → inactive")
         return
 
@@ -160,7 +161,7 @@ def main():
 
     status_block = build_status_block(active=True)
     new_text = merge_base_and_status(base_text, status_block)
-    page.save(new_text, summary=f"Bot: pipeline started {args.run_tag}")
+    save_page(page, new_text, summary=f"Bot: pipeline started {args.run_tag}")
     print(f"Updated {STATUS_PAGE} → active")
 
 
