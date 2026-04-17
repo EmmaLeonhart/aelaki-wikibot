@@ -15,7 +15,7 @@ import mwclient
 
 from config import (
     WIKI_URL, WIKI_PATH, USERNAME, PASSWORD, BOT_UA,
-    THROTTLE, CREATE_THROTTLE,
+    THROTTLE, CREATE_THROTTLE, CREATIONS_PER_DAY,
 )
 
 # ---------------------------------------------------------------------------
@@ -58,6 +58,49 @@ def connect() -> mwclient.Site:
 
 _last_write_ts: float = 0.0
 
+# Daily creation budget — page creation cost is polynomial in the existing
+# link-table size on this wiki farm, so we cap creations per UTC day across
+# every script in the pipeline. State is persisted to a JSON file that the
+# workflow commits alongside the other *.state files.
+CREATION_BUDGET_FILE = os.path.join(os.path.dirname(__file__), "create_budget.state")
+
+
+def _today_utc() -> str:
+    return dt.datetime.utcnow().strftime("%Y-%m-%d")
+
+
+def _load_creation_budget() -> dict:
+    today = _today_utc()
+    try:
+        with open(CREATION_BUDGET_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        if data.get("date") != today:
+            return {"date": today, "used": 0}
+        return {"date": today, "used": int(data.get("used", 0))}
+    except (FileNotFoundError, json.JSONDecodeError, ValueError):
+        return {"date": today, "used": 0}
+
+
+def _save_creation_budget(data: dict) -> None:
+    with open(CREATION_BUDGET_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f)
+
+
+def _consume_creation_budget() -> bool:
+    """Reserve one page creation for today. Returns False when the daily
+    cap has been reached — callers must then skip the create."""
+    data = _load_creation_budget()
+    if data["used"] >= CREATIONS_PER_DAY:
+        return False
+    data["used"] += 1
+    _save_creation_budget(data)
+    return True
+
+
+def creation_budget_status() -> tuple[int, int]:
+    """Return (used, limit) for today — for logging / status pages."""
+    return (_load_creation_budget()["used"], CREATIONS_PER_DAY)
+
 
 def _wait_for_write_slot(heavy: bool = False) -> None:
     """Block until the configured gap has elapsed since the last write.
@@ -93,6 +136,14 @@ def safe_save(page, text: str, summary: str) -> bool:
     # A None current means we couldn't read the page — treat as a create
     # (the heavier throttle is the safer default when in doubt).
     is_create = current is None or not page.exists
+
+    if is_create and not _consume_creation_budget():
+        print(
+            f"  Creation budget ({CREATIONS_PER_DAY}/day) exhausted — "
+            f"skipping: {page.name}",
+            flush=True,
+        )
+        return False
 
     for attempt in range(3):
         _wait_for_write_slot(heavy=is_create)
@@ -135,7 +186,15 @@ def move_page(site, old_title: str, new_title: str, reason: str, *, leave_redire
     new_page = site.pages[new_title]
     if new_page.exists:
         return False  # target already exists
-    # A move creates a page at the new title, so use the create throttle.
+    # A move creates a page at the new title, so it hits the same polynomial
+    # cost on the link table — budget and throttle it like a creation.
+    if not _consume_creation_budget():
+        print(
+            f"  Creation budget ({CREATIONS_PER_DAY}/day) exhausted — "
+            f"skipping move: {old_title} → {new_title}",
+            flush=True,
+        )
+        return False
     _wait_for_write_slot(heavy=True)
     old_page.move(new_title, reason=reason, no_redirect=not leave_redirect)
     return True
