@@ -11,7 +11,9 @@ Protected from deletion:
   - Template pages
   - MediaWiki namespace pages
 
-Only runs if the current year is 2027 or later.
+Activates on 2026-07-01. The start date is intentionally delayed so we
+have time to observe orphan behaviour and link anything (e.g. Adpositions)
+that we don't want swept up. Capped at 10 deletions per run.
 
 Usage:
     python wiki-scripts/delete_orphaned_pages.py              # dry-run
@@ -25,12 +27,11 @@ import sys
 sys.path.insert(0, os.path.join(os.path.dirname(__file__)))
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
-from config import THROTTLE
-from utils import connect, Progress
+from utils import connect, Progress, delete_page
 
-import time
-
-MIN_YEAR = 2027
+# Activation date and per-run cap. See module docstring.
+MIN_DATE = datetime.date(2026, 7, 1)
+MAX_DELETIONS_PER_RUN = 10
 
 # Namespace prefixes that should never be deleted
 PROTECTED_PREFIXES = (
@@ -91,14 +92,18 @@ def fetch_orphaned_pages(site) -> list[str]:
 def main():
     parser = argparse.ArgumentParser(description="Delete orphaned pages")
     parser.add_argument("--apply", action="store_true", help="Actually delete pages")
-    parser.add_argument("--max-edits", type=int, default=100, help="Max deletions per run")
+    parser.add_argument("--max-edits", type=int, default=MAX_DELETIONS_PER_RUN,
+                        help="Ceiling on deletions; clamped to MAX_DELETIONS_PER_RUN")
     parser.add_argument("--run-tag", default="", help="Run tag for edit summaries")
     args = parser.parse_args()
 
-    now = datetime.datetime.now(datetime.timezone.utc)
-    if now.year < MIN_YEAR:
-        print(f"Skipping: orphan cleanup only runs in {MIN_YEAR}+, current year is {now.year}.")
+    today = datetime.datetime.now(datetime.timezone.utc).date()
+    if today < MIN_DATE:
+        print(f"Skipping: orphan cleanup activates on {MIN_DATE}; today is {today}.")
         return
+
+    # Hard cap regardless of what the caller passed — 10/day policy.
+    deletion_limit = min(args.max_edits, MAX_DELETIONS_PER_RUN)
 
     site = connect()
     print("Fetching orphaned pages...", flush=True)
@@ -129,17 +134,16 @@ def main():
     stats = Progress()
 
     for i, title in enumerate(deletable, 1):
-        if stats.created >= args.max_edits:
-            print(f"Reached deletion budget ({args.max_edits}).", flush=True)
+        if stats.created >= deletion_limit:
+            print(f"Reached deletion budget ({deletion_limit}).", flush=True)
             break
 
         stats.processed += 1
         page = site.pages[title]
         try:
-            page.delete(reason=f"Bot: delete orphaned page{run_tag_suffix}")
+            delete_page(page, reason=f"Bot: delete orphaned page{run_tag_suffix}")
             stats.created += 1
             print(f"  [{i}/{len(deletable)}] Deleted: {title}", flush=True)
-            time.sleep(THROTTLE)
         except Exception as exc:
             stats.errors += 1
             print(f"  [{i}/{len(deletable)}] ERROR: {title} — {exc}", flush=True)
