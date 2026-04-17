@@ -13,13 +13,11 @@ Usage:
 import argparse
 import os
 import sys
-import time
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 sys.path.insert(0, os.path.dirname(__file__))
 
-from utils import connect, safe_save, append_log, Progress
-from config import THROTTLE
+from utils import connect, safe_save, append_log, Progress, delete_page
 
 SCRIPT_DIR = os.path.dirname(__file__)
 DEFAULT_LOG_FILE = os.path.join(SCRIPT_DIR, "delete_unused_categories.log")
@@ -114,8 +112,7 @@ def main():
 
         # Try actual deletion first, fall back to blanking
         try:
-            page.delete(reason=f"Bot: delete unused category{run_tag_suffix}")
-            time.sleep(THROTTLE)
+            delete_page(page, reason=f"Bot: delete unused category{run_tag_suffix}")
             print(f"  DELETED: [[{title}]]", flush=True)
             deleted_count += 1
             append_log(args.log_file, {"title": title, "status": "deleted"})

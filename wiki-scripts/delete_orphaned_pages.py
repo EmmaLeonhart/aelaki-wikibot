@@ -25,10 +25,7 @@ import sys
 sys.path.insert(0, os.path.join(os.path.dirname(__file__)))
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
-from config import THROTTLE
-from utils import connect, Progress
-
-import time
+from utils import connect, Progress, delete_page
 
 MIN_YEAR = 2027
 
@@ -136,10 +133,9 @@ def main():
         stats.processed += 1
         page = site.pages[title]
         try:
-            page.delete(reason=f"Bot: delete orphaned page{run_tag_suffix}")
+            delete_page(page, reason=f"Bot: delete orphaned page{run_tag_suffix}")
             stats.created += 1
             print(f"  [{i}/{len(deletable)}] Deleted: {title}", flush=True)
-            time.sleep(THROTTLE)
         except Exception as exc:
             stats.errors += 1
             print(f"  [{i}/{len(deletable)}] ERROR: {title} — {exc}", flush=True)

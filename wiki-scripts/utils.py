@@ -13,7 +13,10 @@ import datetime as dt
 
 import mwclient
 
-from config import WIKI_URL, WIKI_PATH, USERNAME, PASSWORD, BOT_UA, THROTTLE
+from config import (
+    WIKI_URL, WIKI_PATH, USERNAME, PASSWORD, BOT_UA,
+    THROTTLE, CREATE_THROTTLE,
+)
 
 # ---------------------------------------------------------------------------
 # Windows Unicode fix (always include)
@@ -45,6 +48,32 @@ def connect() -> mwclient.Site:
 
 
 # ---------------------------------------------------------------------------
+# Write throttling
+# ---------------------------------------------------------------------------
+# All write operations (edit, create, move, delete) must go through
+# _wait_for_write_slot before calling the mwclient write method. The gate is
+# pre-operation so a burst cannot sneak past it at script start, and the
+# timestamp is process-global so mixing helpers (e.g. safe_save then
+# delete_page) still respects the gap.
+
+_last_write_ts: float = 0.0
+
+
+def _wait_for_write_slot(heavy: bool = False) -> None:
+    """Block until the configured gap has elapsed since the last write.
+
+    heavy=True uses CREATE_THROTTLE (for page creation, which is more
+    expensive for the wiki farm than editing an existing page).
+    """
+    global _last_write_ts
+    min_gap = CREATE_THROTTLE if heavy else THROTTLE
+    elapsed = time.monotonic() - _last_write_ts
+    if elapsed < min_gap:
+        time.sleep(min_gap - elapsed)
+    _last_write_ts = time.monotonic()
+
+
+# ---------------------------------------------------------------------------
 # Safe save with edit-conflict handling
 # ---------------------------------------------------------------------------
 
@@ -61,10 +90,14 @@ def safe_save(page, text: str, summary: str) -> bool:
     if current is not None and current.rstrip() == text.rstrip():
         return False  # nothing changed
 
+    # A None current means we couldn't read the page — treat as a create
+    # (the heavier throttle is the safer default when in doubt).
+    is_create = current is None or not page.exists
+
     for attempt in range(3):
+        _wait_for_write_slot(heavy=is_create)
         try:
             page.save(text, summary=summary)
-            time.sleep(THROTTLE)
             return True
         except mwclient.errors.APIError as e:
             if e.code == "editconflict" and attempt < 2:
@@ -75,6 +108,20 @@ def safe_save(page, text: str, summary: str) -> bool:
             else:
                 raise
     return False
+
+
+def save_page(page, text: str, summary: str) -> None:
+    """Rate-limited raw save. Use when the caller has already decided the
+    page needs updating (e.g. stage-line updates on User:EmmaBot). Prefer
+    safe_save for idempotent writes that should skip unchanged pages."""
+    _wait_for_write_slot(heavy=not page.exists)
+    page.save(text, summary=summary)
+
+
+def delete_page(page, reason: str) -> None:
+    """Rate-limited page deletion."""
+    _wait_for_write_slot()
+    page.delete(reason=reason)
 
 
 def move_page(site, old_title: str, new_title: str, reason: str, *, leave_redirect: bool = True) -> bool:
@@ -88,8 +135,9 @@ def move_page(site, old_title: str, new_title: str, reason: str, *, leave_redire
     new_page = site.pages[new_title]
     if new_page.exists:
         return False  # target already exists
+    # A move creates a page at the new title, so use the create throttle.
+    _wait_for_write_slot(heavy=True)
     old_page.move(new_title, reason=reason, no_redirect=not leave_redirect)
-    time.sleep(THROTTLE)
     return True
 
 
