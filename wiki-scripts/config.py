@@ -20,8 +20,19 @@ WIKI_PATH = "/w/"
 USERNAME = os.getenv("WIKI_USERNAME", "") or os.getenv("AELAKI_WIKI_USERNAME", "")
 PASSWORD = os.getenv("WIKI_PASSWORD", "") or os.getenv("AELAKI_WIKI_PASSWORD", "")
 
-# Bot behaviour
-THROTTLE = 1.5          # seconds between edits (standard for Miraheze)
+# Bot behaviour — rate limits for write operations (reads are untouched).
+# THROTTLE applies to edits, moves, and deletes. CREATE_THROTTLE applies to
+# page creations, which are more expensive for the Miraheze wiki farm.
+# See utils._wait_for_write_slot — throttle is enforced before the write,
+# so bursts at script start or across helpers cannot bypass it.
+THROTTLE = 1.0
+CREATE_THROTTLE = 2.0
+
+# Page creation is polynomial in the existing link-table size, so we cap the
+# number of new pages the bot can create per UTC day across the whole
+# pipeline. See utils._consume_creation_budget (state in create_budget.state).
+CREATIONS_PER_DAY = 100
+
 BOT_UA = "AelakiBot/1.0 (User:AelakiBot; aelaki.miraheze.org)"
 
 # Namespace numbers (Aelaki wiki specific)
