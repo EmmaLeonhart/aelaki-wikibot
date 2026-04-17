@@ -27,6 +27,12 @@ PASSWORD = os.getenv("WIKI_PASSWORD", "") or os.getenv("AELAKI_WIKI_PASSWORD", "
 # so bursts at script start or across helpers cannot bypass it.
 THROTTLE = 1.0
 CREATE_THROTTLE = 2.0
+
+# Page creation is polynomial in the existing link-table size, so we cap the
+# number of new pages the bot can create per UTC day across the whole
+# pipeline. See utils._consume_creation_budget (state in create_budget.state).
+CREATIONS_PER_DAY = 100
+
 BOT_UA = "AelakiBot/1.0 (User:AelakiBot; aelaki.miraheze.org)"
 
 # Namespace numbers (Aelaki wiki specific)

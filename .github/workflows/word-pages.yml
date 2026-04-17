@@ -23,7 +23,11 @@ jobs:
     env:
       WIKI_USERNAME: EmmaBot@EmmaBot
       WIKI_PASSWORD: ${{ secrets.WIKI_PASSWORD }}
-      WIKI_EDIT_LIMIT: "100"
+      # Per-phase cap in create_word_pages.py. Set to 50 so lemma (Step 2)
+      # and non-lemma (Step 4) each get 50/day, totalling the 100/day
+      # global creation budget (config.CREATIONS_PER_DAY). The orphan
+      # deletion script (Step 9) ignores this and enforces its own 10/day.
+      WIKI_EDIT_LIMIT: "50"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
