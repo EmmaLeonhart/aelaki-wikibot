@@ -47,6 +47,39 @@ def connect() -> mwclient.Site:
     return site
 
 
+def batch_existing_titles(site, titles, chunk_size: int = 50) -> set[str]:
+    """Return the subset of ``titles`` that already exist on the wiki.
+
+    Batches up to ``chunk_size`` titles per ``action=query`` call, so a
+    5,000-title existence check costs ~100 API hits instead of 5,000.
+    Both the input form of each title and its wiki-canonical form (after
+    MediaWiki's title normalization) are added to the returned set, so
+    callers can membership-test with whichever form they hold.
+    """
+    existing: set[str] = set()
+    titles = list(titles)
+    for i in range(0, len(titles), chunk_size):
+        chunk = titles[i:i + chunk_size]
+        resp = site.api("query", titles="|".join(chunk), formatversion="2")
+        query = resp.get("query", {}) or {}
+        # normalization map: input form -> canonical form
+        norm_to_from: dict[str, str] = {}
+        for norm in query.get("normalized", []) or []:
+            canonical = norm.get("to")
+            original = norm.get("from")
+            if canonical and original:
+                norm_to_from[canonical] = original
+        for p in query.get("pages", []) or []:
+            if p.get("missing"):
+                continue
+            canonical = p.get("title", "")
+            if canonical:
+                existing.add(canonical)
+                if canonical in norm_to_from:
+                    existing.add(norm_to_from[canonical])
+    return existing
+
+
 # ---------------------------------------------------------------------------
 # Write throttling
 # ---------------------------------------------------------------------------

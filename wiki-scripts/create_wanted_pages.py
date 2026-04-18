@@ -21,7 +21,7 @@ import glob
 import json
 import os
 
-from utils import connect, create_page, Progress
+from utils import batch_existing_titles, connect, create_page, Progress
 
 SCRIPT_DIR = os.path.dirname(__file__)
 VERSION_HISTORY = os.path.join(SCRIPT_DIR, "version_history.txt")
@@ -151,43 +151,57 @@ def main():
         print("Nothing to do.")
         return
 
+    # Filter out titles we will never touch: Wikibase-entity namespaces
+    # (not directly editable) and pages owned by the grammar sync.
+    skipped_ns = 0
+    skipped_synced = 0
+    candidates: list[str] = []
+    for title in wanted:
+        if any(title.startswith(p) for p in SKIP_PREFIXES):
+            skipped_ns += 1
+            continue
+        if title in git_synced:
+            skipped_synced += 1
+            continue
+        candidates.append(title)
+
+    # Batch existence check — avoids the ~200ms-per-title page.exists probe
+    # that made this step dominate pipeline runtime (≈5000 * 0.2s = 17 min).
+    print(f"Batch-checking existence for {len(candidates)} candidate titles...", flush=True)
+    existing = batch_existing_titles(site, candidates) if candidates else set()
+    to_create = [t for t in candidates if t not in existing]
+    print(
+        f"  {len(existing)} already exist; {len(to_create)} remain to create.",
+        flush=True,
+    )
+
     if not args.apply:
         print("\n--- DRY RUN (pass --apply to create) ---")
-        for t in wanted:
-            note = " (SKIP: git-synced)" if t in git_synced else ""
-            print(f"  would create: {t}{note}")
-        print(f"\nTotal: {len(wanted)} pages")
+        for t in to_create:
+            print(f"  would create: {t}")
+        print(f"\nTotal: {len(to_create)} pages to create")
         return
 
     run_tag_suffix = f" {args.run_tag}" if args.run_tag else ""
     edit_summary = f"{EDIT_SUMMARY_BASE}{run_tag_suffix}"
 
     stats = Progress()
-    for i, title in enumerate(wanted, 1):
-        # Skip Wikibase entity namespaces (cannot be directly edited)
-        if any(title.startswith(p) for p in SKIP_PREFIXES):
-            stats.skipped += 1
-            continue
-
-        # Never stub a git-synced page — sync_grammar_pages.py owns its
-        # content, and the wanted-pages category must not appear on it.
-        if title in git_synced:
-            stats.skipped += 1
-            print(f"  [{i}/{len(wanted)}] Skipped (git-synced): {title}", flush=True)
-            continue
-
+    stats.skipped = skipped_ns + skipped_synced + len(existing)
+    total = len(to_create)
+    for i, title in enumerate(to_create, 1):
         stats.processed += 1
         try:
             created = create_page(site, title, _content_for(title), edit_summary)
             if created:
                 stats.created += 1
-                print(f"  [{i}/{len(wanted)}] Created: {title}", flush=True)
+                print(f"  [{i}/{total}] Created: {title}", flush=True)
             else:
+                # Race: someone created it between the batch check and now.
                 stats.skipped += 1
-                print(f"  [{i}/{len(wanted)}] Skipped (exists): {title}", flush=True)
+                print(f"  [{i}/{total}] Skipped (exists): {title}", flush=True)
         except Exception as exc:
             stats.errors += 1
-            print(f"  [{i}/{len(wanted)}] ERROR: {title} — {exc}", flush=True)
+            print(f"  [{i}/{total}] ERROR: {title} — {exc}", flush=True)
 
     print(f"\nDone. {stats.summary()}")
 
