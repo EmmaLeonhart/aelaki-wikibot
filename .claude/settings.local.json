@@ -48,7 +48,8 @@
       "Bash(jobs -l)",
       "Bash(find \"C:/Users/Immanuelle/Documents/Github/aelaki-wikibot/grammar/\" -type f -name \"*.wiki\" -exec wc -l {} +)",
       "Bash(gh run *)",
-      "Bash(rm err.txt)"
+      "Bash(rm err.txt)",
+      "Bash(env)"
     ]
   }
 }
