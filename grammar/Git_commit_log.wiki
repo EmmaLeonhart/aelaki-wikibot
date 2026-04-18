@@ -982,6 +982,22 @@ Short hashes are used in [[Category:Word pages|word page]] version categories (e
 | 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d8dd8bffe29a854b2d0b17c67699e7a76b5f4d61 d8dd8bff] || [[:Category:Words d8dd8bff|Words d8dd8bff]] || [[:Category:Non-lemma forms d8dd8bff|Non-lemma d8dd8bff]] || chore(state): post-grammar-sync [skip ci]
 |-
 | 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/9d27531d18745863d3a2d274105fa54b3b46ecd4 9d27531d] || [[:Category:Words 9d27531d|Words 9d27531d]] || [[:Category:Non-lemma forms 9d27531d|Non-lemma 9d27531d]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/7f02540db5e0d3aa43d8a7fbc1d4592187d07017 7f02540d] || [[:Category:Words 7f02540d|Words 7f02540d]] || [[:Category:Non-lemma forms 7f02540d|Non-lemma 7f02540d]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/5d338226090307cae0163cabd1ef3920a8b654bb 5d338226] || [[:Category:Words 5d338226|Words 5d338226]] || [[:Category:Non-lemma forms 5d338226|Non-lemma 5d338226]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/01ea535880a7650bc2f3779732e094fc9938a4ec 01ea5358] || [[:Category:Words 01ea5358|Words 01ea5358]] || [[:Category:Non-lemma forms 01ea5358|Non-lemma 01ea5358]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/75900f8fe158cb345768078868b84b7e266188e2 75900f8f] || [[:Category:Words 75900f8f|Words 75900f8f]] || [[:Category:Non-lemma forms 75900f8f|Non-lemma 75900f8f]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/56cdad0b06185f13127b3f2fbafeb0162fc1d8cd 56cdad0b] || [[:Category:Words 56cdad0b|Words 56cdad0b]] || [[:Category:Non-lemma forms 56cdad0b|Non-lemma 56cdad0b]] || fix(grammar-sync): stop multi-hour mass pull from tagged parent categories
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/b72af86c4f76b129ac5ba1f1963defda0d05e3da b72af86c] || [[:Category:Words b72af86c|Words b72af86c]] || [[:Category:Non-lemma forms b72af86c|Non-lemma b72af86c]] || perf(rate-limit): raise throttles and cooperate with server backoff signals
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/dca080b7d39e89fe092c4a41d3bf3f7eb9771151 dca080b7] || [[:Category:Words dca080b7|Words dca080b7]] || [[:Category:Non-lemma forms dca080b7|Non-lemma dca080b7]] || chore(state): post-grammar-sync [skip ci]
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a098947967cf6310210d328a8508ba549408362d a0989479] || [[:Category:Words a0989479|Words a0989479]] || [[:Category:Non-lemma forms a0989479|Non-lemma a0989479]] || chore(state): rebuild version history from git log [skip ci]
 |}
 
 [[Category:git synced pages]]
