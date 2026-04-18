@@ -151,3 +151,4 @@ character as its base.
 [[Category:Ringworld]]
 [[Category:Aelaki book content]]
 [[Category:Aelaki book content 2]]
+[[Category:git synced pages]]
