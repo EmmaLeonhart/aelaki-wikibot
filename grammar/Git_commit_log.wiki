@@ -1,0 +1,967 @@
+This page lists git commits from the [https://github.com/EmmaLeonhart/aelaki-wikibot aelaki-wikibot] repository.
+
+Short hashes are used in version categories (e.g. <nowiki>[[Category:Words abc1234]]</nowiki>).
+
+{| class="wikitable"
+! Date !! Hash !! Lemma category !! Non-lemma category !! Message
+|-
+| 2025-04-29 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/23fda1cfa70826dd45bd0ac4eb29ffc0ce59490a 23fda1c] || [[:Category:Words 23fda1c|Words 23fda1c]] || [[:Category:Non-lemma forms 23fda1c|Non-lemma 23fda1c]] || Initial commit
+|-
+| 2025-04-29 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/6affea579cbe3ce661097bb2e94a0aecc5cae369 6affea5] || [[:Category:Words 6affea5|Words 6affea5]] || [[:Category:Non-lemma forms 6affea5|Non-lemma 6affea5]] || q
+|-
+| 2025-04-29 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/5ec39f8e899a9562383fa33c1031a4c0c5d836fd 5ec39f8] || [[:Category:Words 5ec39f8|Words 5ec39f8]] || [[:Category:Non-lemma forms 5ec39f8|Non-lemma 5ec39f8]] || q
+|-
+| 2025-05-01 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/72edc4c70fc0a2540832484f0153faf89753e15b 72edc4c] || [[:Category:Words 72edc4c|Words 72edc4c]] || [[:Category:Non-lemma forms 72edc4c|Non-lemma 72edc4c]] || q
+|-
+| 2025-05-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d4c13a4e41eacad21a4ba87b3fae7a5b7146cdeb d4c13a4] || [[:Category:Words d4c13a4|Words d4c13a4]] || [[:Category:Non-lemma forms d4c13a4|Non-lemma d4c13a4]] || q
+|-
+| 2025-05-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/41af17a75bf8e901b242c80ec7eb26ffe530ec26 41af17a] || [[:Category:Words 41af17a|Words 41af17a]] || [[:Category:Non-lemma forms 41af17a|Non-lemma 41af17a]] || q
+|-
+| 2025-05-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/69443fcfda8025856a411aba14272be6c9bb231f 69443fc] || [[:Category:Words 69443fc|Words 69443fc]] || [[:Category:Non-lemma forms 69443fc|Non-lemma 69443fc]] || q
+|-
+| 2025-05-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/40790c2ecb1b93ffab7cf8f6898df32dd40eafa8 40790c2] || [[:Category:Words 40790c2|Words 40790c2]] || [[:Category:Non-lemma forms 40790c2|Non-lemma 40790c2]] || q
+|-
+| 2025-05-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/11bfa0c3128648111ab6333f3de78c73b94bcd96 11bfa0c] || [[:Category:Words 11bfa0c|Words 11bfa0c]] || [[:Category:Non-lemma forms 11bfa0c|Non-lemma 11bfa0c]] || q
+|-
+| 2025-05-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/8005d04664252679108e2f436bddac09c5cb9799 8005d04] || [[:Category:Words 8005d04|Words 8005d04]] || [[:Category:Non-lemma forms 8005d04|Non-lemma 8005d04]] || q
+|-
+| 2025-05-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d18c5c2926f843e4d13bbcbb7eb2462a4b3326ba d18c5c2] || [[:Category:Words d18c5c2|Words d18c5c2]] || [[:Category:Non-lemma forms d18c5c2|Non-lemma d18c5c2]] || q
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a314ca886db8575ffd6841aab439a3f3e39725fb a314ca8] || [[:Category:Words a314ca8|Words a314ca8]] || [[:Category:Non-lemma forms a314ca8|Non-lemma a314ca8]] || 1
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/fd2cfabb75d2b50f1d558fd50726527e774805b0 fd2cfab] || [[:Category:Words fd2cfab|Words fd2cfab]] || [[:Category:Non-lemma forms fd2cfab|Non-lemma fd2cfab]] || q
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/67137f8c32bfc1197b3651e602132dfbd336f93a 67137f8] || [[:Category:Words 67137f8|Words 67137f8]] || [[:Category:Non-lemma forms 67137f8|Non-lemma 67137f8]] || Remove backup file and ignore .vs folder
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/c4664106ca9be5b993d90a60b6b6ea95c063cf5b c466410] || [[:Category:Words c466410|Words c466410]] || [[:Category:Non-lemma forms c466410|Non-lemma c466410]] || Stop tracking entire .vs folder
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/75fac50dfe370a019602cbf7a397c480fd182401 75fac50] || [[:Category:Words 75fac50|Words 75fac50]] || [[:Category:Non-lemma forms 75fac50|Non-lemma 75fac50]] || q
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/1cfadb071e456a945335cc3a334f2aa4dcc32593 1cfadb0] || [[:Category:Words 1cfadb0|Words 1cfadb0]] || [[:Category:Non-lemma forms 1cfadb0|Non-lemma 1cfadb0]] || q
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a27e5d188946b4db137d46413736a124fade17a2 a27e5d1] || [[:Category:Words a27e5d1|Words a27e5d1]] || [[:Category:Non-lemma forms a27e5d1|Non-lemma a27e5d1]] || Update Program.cs
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/911faba68ac8013de7bab1c16fb855fcbbb72230 911faba] || [[:Category:Words 911faba|Words 911faba]] || [[:Category:Non-lemma forms 911faba|Non-lemma 911faba]] || Update Program.cs
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/59efc3458e52feeb9b2e642e26efeee20037c1a3 59efc34] || [[:Category:Words 59efc34|Words 59efc34]] || [[:Category:Non-lemma forms 59efc34|Non-lemma 59efc34]] || Update Program.cs
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/5a154660770e5abcf2e923a1c27670f81dab5ad9 5a15466] || [[:Category:Words 5a15466|Words 5a15466]] || [[:Category:Non-lemma forms 5a15466|Non-lemma 5a15466]] || Update Program.cs
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/5ea9f37a14d06abb9e1458a8f24580b2199dfc2d 5ea9f37] || [[:Category:Words 5ea9f37|Words 5ea9f37]] || [[:Category:Non-lemma forms 5ea9f37|Non-lemma 5ea9f37]] || Update Program.cs
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/c7987d48fcb1a5c1905306c7b48c2ab7475634e3 c7987d4] || [[:Category:Words c7987d4|Words c7987d4]] || [[:Category:Non-lemma forms c7987d4|Non-lemma c7987d4]] || q
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/9806358a3972b5a3a20d267bebb386588fe07cc0 9806358] || [[:Category:Words 9806358|Words 9806358]] || [[:Category:Non-lemma forms 9806358|Non-lemma 9806358]] || qq
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/7aace825e5f1111837c5c48332d91f7fb20e06d7 7aace82] || [[:Category:Words 7aace82|Words 7aace82]] || [[:Category:Non-lemma forms 7aace82|Non-lemma 7aace82]] || q
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/708e87e241124ae8a6bf74219d0e5a37465f99fa 708e87e] || [[:Category:Words 708e87e|Words 708e87e]] || [[:Category:Non-lemma forms 708e87e|Non-lemma 708e87e]] || Update Verb.cs
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/aec70c3ea5a283c833894ae7228dfacae966cbc2 aec70c3] || [[:Category:Words aec70c3|Words aec70c3]] || [[:Category:Non-lemma forms aec70c3|Non-lemma aec70c3]] || Update Verb.cs
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/11e6bc30e5b2d4b86a69b7c8d6c81eaedb902ae1 11e6bc3] || [[:Category:Words 11e6bc3|Words 11e6bc3]] || [[:Category:Non-lemma forms 11e6bc3|Non-lemma 11e6bc3]] || q
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/0e2688e843642ed2d8becd208e8b7c46bb608088 0e2688e] || [[:Category:Words 0e2688e|Words 0e2688e]] || [[:Category:Non-lemma forms 0e2688e|Non-lemma 0e2688e]] || Moved stuff around
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/119f2ea89a6b68f0892222d12005e40eaad191bc 119f2ea] || [[:Category:Words 119f2ea|Words 119f2ea]] || [[:Category:Non-lemma forms 119f2ea|Non-lemma 119f2ea]] || q
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ec864f4f2038a39fdfc05e2bd450988439d00d69 ec864f4] || [[:Category:Words ec864f4|Words ec864f4]] || [[:Category:Non-lemma forms ec864f4|Non-lemma ec864f4]] || q
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ab71891fbd3952192f88afdf0e1cd758ab26c9bf ab71891] || [[:Category:Words ab71891|Words ab71891]] || [[:Category:Non-lemma forms ab71891|Non-lemma ab71891]] || q
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/63aeb30678639c471bdcf005f59b52b35d97a4e5 63aeb30] || [[:Category:Words 63aeb30|Words 63aeb30]] || [[:Category:Non-lemma forms 63aeb30|Non-lemma 63aeb30]] || Implemented adjectival numbers a bit
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/f64b4cfab62551729d57d6e585c850add181025d f64b4cf] || [[:Category:Words f64b4cf|Words f64b4cf]] || [[:Category:Non-lemma forms f64b4cf|Non-lemma f64b4cf]] || Update Program.cs
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/622c251c085b2de164fa46040766fafd7d6a3cad 622c251] || [[:Category:Words 622c251|Words 622c251]] || [[:Category:Non-lemma forms 622c251|Non-lemma 622c251]] || Update Program.cs
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/168599c268d8152e2bf07e17ec685999b3c4d435 168599c] || [[:Category:Words 168599c|Words 168599c]] || [[:Category:Non-lemma forms 168599c|Non-lemma 168599c]] || merging them in a bit
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/69bf5181096402ad87127626bfec4b8b194118d9 69bf518] || [[:Category:Words 69bf518|Words 69bf518]] || [[:Category:Non-lemma forms 69bf518|Non-lemma 69bf518]] || removed this project, History was unfortunately not properly merged
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/049e69a247dd4788441348e408698a6322dff54a 049e69a] || [[:Category:Words 049e69a|Words 049e69a]] || [[:Category:Non-lemma forms 049e69a|Non-lemma 049e69a]] || merged in this file
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/f5f9c890b99d25b4c48f5760f0af735dc8ab917f f5f9c89] || [[:Category:Words f5f9c89|Words f5f9c89]] || [[:Category:Non-lemma forms f5f9c89|Non-lemma f5f9c89]] || mass removal
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/25c9469aa2bbb535a8679494181b63c61674c9e6 25c9469] || [[:Category:Words 25c9469|Words 25c9469]] || [[:Category:Non-lemma forms 25c9469|Non-lemma 25c9469]] || Update Aelaki.sln
+|-
+| 2025-05-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/8323c886e145b94597a0fd929163a65c501d01ce 8323c88] || [[:Category:Words 8323c88|Words 8323c88]] || [[:Category:Non-lemma forms 8323c88|Non-lemma 8323c88]] || Update Program.cs
+|-
+| 2025-05-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/fc82c3bf4d2f27612b8594dd56faa1a4c4bb1299 fc82c3b] || [[:Category:Words fc82c3b|Words fc82c3b]] || [[:Category:Non-lemma forms fc82c3b|Non-lemma fc82c3b]] || q
+|-
+| 2025-05-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/3e212f55f8cccf72148c112c1bb0f1b72698de4f 3e212f5] || [[:Category:Words 3e212f5|Words 3e212f5]] || [[:Category:Non-lemma forms 3e212f5|Non-lemma 3e212f5]] || qq
+|-
+| 2025-05-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d40378244c4f791c5696caf46fc2828beaa3ead2 d403782] || [[:Category:Words d403782|Words d403782]] || [[:Category:Non-lemma forms d403782|Non-lemma d403782]] || q
+|-
+| 2025-05-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/5ce922fd86a9b2cf00a052061ba1fa09839baf0e 5ce922f] || [[:Category:Words 5ce922f|Words 5ce922f]] || [[:Category:Non-lemma forms 5ce922f|Non-lemma 5ce922f]] || Update Verb.cs
+|-
+| 2025-05-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/02e24e37d9ef91e3ff78a3755df510f966f08376 02e24e3] || [[:Category:Words 02e24e3|Words 02e24e3]] || [[:Category:Non-lemma forms 02e24e3|Non-lemma 02e24e3]] || q
+|-
+| 2025-05-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/290714e3a939fea3f0f45d77b5a712553b6c4abe 290714e] || [[:Category:Words 290714e|Words 290714e]] || [[:Category:Non-lemma forms 290714e|Non-lemma 290714e]] || Update Verb.cs
+|-
+| 2025-05-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/c1b57e9ee70f8b4dd6110fbae982e3d6d772ffe3 c1b57e9] || [[:Category:Words c1b57e9|Words c1b57e9]] || [[:Category:Non-lemma forms c1b57e9|Non-lemma c1b57e9]] || Update Verb.cs
+|-
+| 2025-05-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d21dab69ec6db63ab1efd3d638abde4bb82c35e5 d21dab6] || [[:Category:Words d21dab6|Words d21dab6]] || [[:Category:Non-lemma forms d21dab6|Non-lemma d21dab6]] || q
+|-
+| 2025-05-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/aa27f8bb889187b17082e27b6f9a5aa084f622b4 aa27f8b] || [[:Category:Words aa27f8b|Words aa27f8b]] || [[:Category:Non-lemma forms aa27f8b|Non-lemma aa27f8b]] || minor fix
+|-
+| 2025-05-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/aa7c4ba47aebf09f7eac186eaa64b6ef544d0f44 aa7c4ba] || [[:Category:Words aa7c4ba|Words aa7c4ba]] || [[:Category:Non-lemma forms aa7c4ba|Non-lemma aa7c4ba]] || more stuff
+|-
+| 2025-05-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/c498b25afd2ef370536761fcd27805e9aeaa22a6 c498b25] || [[:Category:Words c498b25|Words c498b25]] || [[:Category:Non-lemma forms c498b25|Non-lemma c498b25]] || 1
+|-
+| 2025-05-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/452e85e694cea55f2f5bf09cf11bcc4a851393ba 452e85e] || [[:Category:Words 452e85e|Words 452e85e]] || [[:Category:Non-lemma forms 452e85e|Non-lemma 452e85e]] || q
+|-
+| 2025-05-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ea4f02b505eeafe64196d37a67bafff09cbb33de ea4f02b] || [[:Category:Words ea4f02b|Words ea4f02b]] || [[:Category:Non-lemma forms ea4f02b|Non-lemma ea4f02b]] || Update AelakiNumber.cs
+|-
+| 2025-05-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/fe5213554b04bd9b3abcef691f89d84737fb4bc1 fe52135] || [[:Category:Words fe52135|Words fe52135]] || [[:Category:Non-lemma forms fe52135|Non-lemma fe52135]] || q
+|-
+| 2025-05-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a4d00138c3bcfb00cc5153f72c13d3fbfb568264 a4d0013] || [[:Category:Words a4d0013|Words a4d0013]] || [[:Category:Non-lemma forms a4d0013|Non-lemma a4d0013]] || Update Program.cs
+|-
+| 2025-05-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/79d9902c7f44fd26bd47eb63eda720213de9a914 79d9902] || [[:Category:Words 79d9902|Words 79d9902]] || [[:Category:Non-lemma forms 79d9902|Non-lemma 79d9902]] || commented out stuff
+|-
+| 2025-05-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/2cdb8744c480c7b7ddb6855310493696c65126fb 2cdb874] || [[:Category:Words 2cdb874|Words 2cdb874]] || [[:Category:Non-lemma forms 2cdb874|Non-lemma 2cdb874]] || moved this to different files
+|-
+| 2025-05-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/fd5bced1d721851e2648e278e10baab56582ed57 fd5bced] || [[:Category:Words fd5bced|Words fd5bced]] || [[:Category:Non-lemma forms fd5bced|Non-lemma fd5bced]] || 1
+|-
+| 2025-05-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/0415a652566bd96d898d7dc534ffc81928851940 0415a65] || [[:Category:Words 0415a65|Words 0415a65]] || [[:Category:Non-lemma forms 0415a65|Non-lemma 0415a65]] || Update Adverb.cs
+|-
+| 2025-05-10 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/30af3d1a4819166f5b4815d6869cf379966d6d0a 30af3d1] || [[:Category:Words 30af3d1|Words 30af3d1]] || [[:Category:Non-lemma forms 30af3d1|Non-lemma 30af3d1]] || qq
+|-
+| 2025-05-10 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/88fc4e2398183b060ecff88e160bb706f7dee4d8 88fc4e2] || [[:Category:Words 88fc4e2|Words 88fc4e2]] || [[:Category:Non-lemma forms 88fc4e2|Non-lemma 88fc4e2]] || Update Verbs.cs
+|-
+| 2025-05-12 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/00a8047fe0be559213da660e094c7127c8b37763 00a8047] || [[:Category:Words 00a8047|Words 00a8047]] || [[:Category:Non-lemma forms 00a8047|Non-lemma 00a8047]] || Update Converb.cs
+|-
+| 2025-05-28 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/0bf664ab1265b940550e41c4a8b5adb9e2042935 0bf664a] || [[:Category:Words 0bf664a|Words 0bf664a]] || [[:Category:Non-lemma forms 0bf664a|Non-lemma 0bf664a]] || q
+|-
+| 2025-08-04 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/18607eeade5e1547c4795f66c8140feac752148d 18607ee] || [[:Category:Words 18607ee|Words 18607ee]] || [[:Category:Non-lemma forms 18607ee|Non-lemma 18607ee]] || Create Aelaki Grammar Guide.md
+|-
+| 2025-08-04 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/e09a74a9f25352a597a60bfd0d75f6d335938ea7 e09a74a] || [[:Category:Words e09a74a|Words e09a74a]] || [[:Category:Non-lemma forms e09a74a|Non-lemma e09a74a]] || Did the documentation stuff
+|-
+| 2025-08-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/c2d4d6bf0b2a9cc152491578862928f4e1b985b7 c2d4d6b] || [[:Category:Words c2d4d6b|Words c2d4d6b]] || [[:Category:Non-lemma forms c2d4d6b|Non-lemma c2d4d6b]] || Merged Jeconiah
+|-
+| 2025-08-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/f68d0e71d3b8f33c93c2c9274eaf10ee93f1e543 f68d0e7] || [[:Category:Words f68d0e7|Words f68d0e7]] || [[:Category:Non-lemma forms f68d0e7|Non-lemma f68d0e7]] || q
+|-
+| 2026-03-02 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/273fa82b8f8282c754c48232dc89d0e823380853 273fa82] || [[:Category:Words 273fa82|Words 273fa82]] || [[:Category:Non-lemma forms 273fa82|Non-lemma 273fa82]] || Initial commit: bootstrap CLAUDE.md
+|-
+| 2026-03-02 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/74b1bd1535815b9c4ddc33b46ef5422e2b12ab9c 74b1bd1] || [[:Category:Words 74b1bd1|Words 74b1bd1]] || [[:Category:Non-lemma forms 74b1bd1|Non-lemma 74b1bd1]] || Added all of the google docs stuff
+|-
+| 2026-03-02 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ced542d0732fc895969383ff6b820fa03c8b6e9f ced542d] || [[:Category:Words ced542d|Words ced542d]] || [[:Category:Non-lemma forms ced542d|Non-lemma ced542d]] || Add 'aelaki-sharp/' from commit '0bf664ab1265b940550e41c4a8b5adb9e2042935'
+|-
+| 2026-03-02 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/1c413a36f604cf1bf3fe6992e4bd95751ee1114f 1c413a3] || [[:Category:Words 1c413a3|Words 1c413a3]] || [[:Category:Non-lemma forms 1c413a3|Non-lemma 1c413a3]] || Add 'aelaki-split/' from commit 'f68d0e71d3b8f33c93c2c9274eaf10ee93f1e543'
+|-
+| 2026-03-02 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a721e516f9abaf3685785e2cbddb134589bd17c9 a721e51] || [[:Category:Words a721e51|Words a721e51]] || [[:Category:Non-lemma forms a721e51|Non-lemma a721e51]] || Create settings.local.json
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d80d8ad72d3b1b31fe177449d4764bfffa32f671 d80d8ad] || [[:Category:Words d80d8ad|Words d80d8ad]] || [[:Category:Non-lemma forms d80d8ad|Non-lemma d80d8ad]] || added 4 discord export zips
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/c4a88eba3513c46b38d15793a52eefc8df6e641a c4a88eb] || [[:Category:Words c4a88eb|Words c4a88eb]] || [[:Category:Non-lemma forms c4a88eb|Non-lemma c4a88eb]] || Organize repo: structure files into docs/, wiki/, discord/ directories
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/bff3c274212e1a2eab5359371b93142a589ce157 bff3c27] || [[:Category:Words bff3c27|Words bff3c27]] || [[:Category:Non-lemma forms bff3c27|Non-lemma bff3c27]] || Add extracted Discord message exports (JSON + assets)
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/100fdb9ff8b3554816223c46d27a17385ad67522 100fdb9] || [[:Category:Words 100fdb9|Words 100fdb9]] || [[:Category:Non-lemma forms 100fdb9|Non-lemma 100fdb9]] || Update settings.local.json
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/6c4a2f34baecbece328c102807fc0ac1a97afbd2 6c4a2f3] || [[:Category:Words 6c4a2f3|Words 6c4a2f3]] || [[:Category:Non-lemma forms 6c4a2f3|Non-lemma 6c4a2f3]] || Add comprehensive morphology analysis across all sources
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/30d0ed31a12c9300abc3cd7839763468af425938 30d0ed3] || [[:Category:Words 30d0ed3|Words 30d0ed3]] || [[:Category:Non-lemma forms 30d0ed3|Non-lemma 30d0ed3]] || Phase 1: Core foundation - phonology, roots, morphology, gender, person
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/180c906ca73291eeb9e2511b61350f9cb429b431 180c906] || [[:Category:Words 180c906|Words 180c906]] || [[:Category:Non-lemma forms 180c906|Non-lemma 180c906]] || Add Python gitignore rules, remove cached pycache
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/46910986bf9684a961ca12c41174db5540c620e0 4691098] || [[:Category:Words 4691098|Words 4691098]] || [[:Category:Non-lemma forms 4691098|Non-lemma 4691098]] || Phase 2: Nominals - nouns, possession, numerals
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/78cc503c9fa4240075e0cf91c9a62dceac93cc4a 78cc503] || [[:Category:Words 78cc503|Words 78cc503]] || [[:Category:Non-lemma forms 78cc503|Non-lemma 78cc503]] || Phase 3: Verbals - verbs, stative verbs, adjectives, adverbs
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/918c10b8c012551c3d1fe12efb05120db811c887 918c10b] || [[:Category:Words 918c10b|Words 918c10b]] || [[:Category:Non-lemma forms 918c10b|Non-lemma 918c10b]] || Phase 4: Complex structures - converbs, particles, phrases, lexicon
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/da7625c7d8f1a4de8634069ca6a26de46bb15d1a da7625c] || [[:Category:Words da7625c|Words da7625c]] || [[:Category:Non-lemma forms da7625c|Non-lemma da7625c]] || Phase 5: Test suite (108 passing) and updated README
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ba7c68635d58c9a80468718f8e2a3f47ce0a3a7f ba7c686] || [[:Category:Words ba7c686|Words ba7c686]] || [[:Category:Non-lemma forms ba7c686|Non-lemma ba7c686]] || Update settings.local.json
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/202e99b8b7732374ede35a0901bf47a5a056fead 202e99b] || [[:Category:Words 202e99b|Words 202e99b]] || [[:Category:Non-lemma forms 202e99b|Non-lemma 202e99b]] || Correct phonological inventory to match actual Aelaki usage
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/b23167ff247758c3ab644e4a74eac1e9741af90d b23167f] || [[:Category:Words b23167f|Words b23167f]] || [[:Category:Non-lemma forms b23167f|Non-lemma b23167f]] || Add spreadsheet generator for all Aelaki word forms
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/1698eef319c8e352324ebe7bbb71076a948ee67a 1698eef] || [[:Category:Words 1698eef|Words 1698eef]] || [[:Category:Non-lemma forms 1698eef|Non-lemma 1698eef]] || Extract Aelaki content from Discord messages into organized docs
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a7e1c3944eb7d24452684c78dddc36baf8f0b68d a7e1c39] || [[:Category:Words a7e1c39|Words a7e1c39]] || [[:Category:Non-lemma forms a7e1c39|Non-lemma a7e1c39]] || Update settings.local.json
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/5ad08453126a65cc5d37b1de323f8f7681c92355 5ad0845] || [[:Category:Words 5ad0845|Words 5ad0845]] || [[:Category:Non-lemma forms 5ad0845|Non-lemma 5ad0845]] || Fix contradictions in analysis docs after unified vowel shift
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/cbd3f448e6efad1594443740b458cf4e88b052e7 cbd3f44] || [[:Category:Words cbd3f44|Words cbd3f44]] || [[:Category:Non-lemma forms cbd3f44|Non-lemma cbd3f44]] || Add comprehensive Aelaki dictionary from Discord sources
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/6b6e48fb3df56fcaa6be12e62049d10f7a4a1f81 6b6e48f] || [[:Category:Words 6b6e48f|Words 6b6e48f]] || [[:Category:Non-lemma forms 6b6e48f|Non-lemma 6b6e48f]] || Add todo.md with Sægetlæræchïfïshë parsing task
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/f7450707151d068170937bbb8ecd0cde78977769 f745070] || [[:Category:Words f745070|Words f745070]] || [[:Category:Non-lemma forms f745070|Non-lemma f745070]] || Add wikibot framework for aelaki.miraheze.org
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/e763096defc43985032413da8f1bcab6515e4f59 e763096] || [[:Category:Words e763096|Words e763096]] || [[:Category:Non-lemma forms e763096|Non-lemma e763096]] || Update settings.local.json
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/34d054ae7ff114d7d3e43d1957031a8c00274930 34d054a] || [[:Category:Words 34d054a|Words 34d054a]] || [[:Category:Non-lemma forms 34d054a|Non-lemma 34d054a]] || Update settings.local.json
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/281f7599d96af57d2f7e35163d5966aa17707be6 281f759] || [[:Category:Words 281f759|Words 281f759]] || [[:Category:Non-lemma forms 281f759|Non-lemma 281f759]] || Add EmmaBot word page bot with GitHub Actions CI
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/2b0a3baa6a5035f2366a5a19e2658d09433ac2bf 2b0a3ba] || [[:Category:Words 2b0a3ba|Words 2b0a3ba]] || [[:Category:Non-lemma forms 2b0a3ba|Non-lemma 2b0a3ba]] || Fix: hardcode bot username in workflow
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/e0095ca3819946c7a76988ac0ae63b9c16d90947 e0095ca] || [[:Category:Words e0095ca|Words e0095ca]] || [[:Category:Non-lemma forms e0095ca|Non-lemma e0095ca]] || Update settings.local.json
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/211c82ff1f88bb10197586ae15feaebcc68de6df 211c82f] || [[:Category:Words 211c82f|Words 211c82f]] || [[:Category:Non-lemma forms 211c82f|Non-lemma 211c82f]] || Upgrade word pages to v2: full morphology from engine, upgrade loop
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/6bb570420cb5c65b67d348be11928dc11dc5da45 6bb5704] || [[:Category:Words 6bb5704|Words 6bb5704]] || [[:Category:Non-lemma forms 6bb5704|Non-lemma 6bb5704]] || Fix: track state files in git, 10 per old version + 10 new
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/0f8402b7476c758c67bd84ae002d46656139d296 0f8402b] || [[:Category:Words 0f8402b|Words 0f8402b]] || [[:Category:Non-lemma forms 0f8402b|Non-lemma 0f8402b]] || Fix: f-string backslash compat with Python 3.11
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/92ece2023771c6cf52879423b4832333d99ffa74 92ece20] || [[:Category:Words 92ece20|Words 92ece20]] || [[:Category:Non-lemma forms 92ece20|Non-lemma 92ece20]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/6fcc50a2b9ffb3ae80fc6053e8d58002061c8d3a 6fcc50a] || [[:Category:Words 6fcc50a|Words 6fcc50a]] || [[:Category:Non-lemma forms 6fcc50a|Non-lemma 6fcc50a]] || Add create_wanted_categories.py to pipeline
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/2f53555063c0c6a4eb8b692dad0eca22c37b324f 2f53555] || [[:Category:Words 2f53555|Words 2f53555]] || [[:Category:Non-lemma forms 2f53555|Non-lemma 2f53555]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/0764b6c46f53e7fab68a72fb626070973bda6852 0764b6c] || [[:Category:Words 0764b6c|Words 0764b6c]] || [[:Category:Non-lemma forms 0764b6c|Non-lemma 0764b6c]] || Update settings.local.json
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/2504e9f86853e4039229a5a6f094ecbb10025925 2504e9f] || [[:Category:Words 2504e9f|Words 2504e9f]] || [[:Category:Non-lemma forms 2504e9f|Non-lemma 2504e9f]] || Merge branch 'master' of https://github.com/Emma-Leonhart/aelaki-merged
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a96951ecc8423d0cef1a03171d240ebd305b7b76 a96951e] || [[:Category:Words a96951e|Words a96951e]] || [[:Category:Non-lemma forms a96951e|Non-lemma a96951e]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/c0e0d9ed09202c86f119bfe63e137970df7c4329 c0e0d9e] || [[:Category:Words c0e0d9e|Words c0e0d9e]] || [[:Category:Non-lemma forms c0e0d9e|Non-lemma c0e0d9e]] || Update dictionary.md
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/f87c7e4165eb89aec95da70626fec051f2124018 f87c7e4] || [[:Category:Words f87c7e4|Words f87c7e4]] || [[:Category:Non-lemma forms f87c7e4|Non-lemma f87c7e4]] || Add Discord dictionary roots to lexicon.py and clean up dictionary.md
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/f9b1325ce1d85fac9131211c022a19952783ae9f f9b1325] || [[:Category:Words f9b1325|Words f9b1325]] || [[:Category:Non-lemma forms f9b1325|Non-lemma f9b1325]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/affc152308985ab02d997a884a52d2c02e62a307 affc152] || [[:Category:Words affc152|Words affc152]] || [[:Category:Non-lemma forms affc152|Non-lemma affc152]] || migrated to the json
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/e7c618212d11a167b0c830c832f3a1583ee93094 e7c6182] || [[:Category:Words e7c6182|Words e7c6182]] || [[:Category:Non-lemma forms e7c6182|Non-lemma e7c6182]] || Merge branch 'master' of https://github.com/Emma-Leonhart/aelaki-merged
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/4d55872535a68ee7a503e5927aefaf6a44cad5f1 4d55872] || [[:Category:Words 4d55872|Words 4d55872]] || [[:Category:Non-lemma forms 4d55872|Non-lemma 4d55872]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/7134b7563ec2c5e4472787a0a2b53dfb289e4427 7134b75] || [[:Category:Words 7134b75|Words 7134b75]] || [[:Category:Non-lemma forms 7134b75|Non-lemma 7134b75]] || Merge dictionary.md entries into lexicon.json; add numerals and particles
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/c112d4af0ef936ced827a67c7e969b16887b808e c112d4a] || [[:Category:Words c112d4a|Words c112d4a]] || [[:Category:Non-lemma forms c112d4a|Non-lemma c112d4a]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/45fef1906336237609e5ef73fb67936038bf98e4 45fef19] || [[:Category:Words 45fef19|Words 45fef19]] || [[:Category:Non-lemma forms 45fef19|Non-lemma 45fef19]] || Update lexicon.json
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d502a8dff26e5285b1ba9339300fb0bd66afb88a d502a8d] || [[:Category:Words d502a8d|Words d502a8d]] || [[:Category:Non-lemma forms d502a8d|Non-lemma d502a8d]] || Merge branch 'master' of https://github.com/Emma-Leonhart/aelaki-merged
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/4aefaf781609808487fd2e880b6c33071442768d 4aefaf7] || [[:Category:Words 4aefaf7|Words 4aefaf7]] || [[:Category:Non-lemma forms 4aefaf7|Non-lemma 4aefaf7]] || Add auto-generation of Aelaki words from Wiktionary English lemmas
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/84c110ac0bb85bd9bdffc5ed5e1e345f2b57c5e4 84c110a] || [[:Category:Words 84c110a|Words 84c110a]] || [[:Category:Non-lemma forms 84c110a|Non-lemma 84c110a]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/7be0c1784068488e6d8f01d2289520bbd5ae873d 7be0c17] || [[:Category:Words 7be0c17|Words 7be0c17]] || [[:Category:Non-lemma forms 7be0c17|Non-lemma 7be0c17]] || Word page v3: full agreement paradigms; fix verb citation forms
+|-
+| 2026-03-04 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/23486b5d37330f9547460156beecb2594f3505d1 23486b5] || [[:Category:Words 23486b5|Words 23486b5]] || [[:Category:Non-lemma forms 23486b5|Non-lemma 23486b5]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/05d440ec654815e5e32705e85601bbf9029f4b2a 05d440e] || [[:Category:Words 05d440e|Words 05d440e]] || [[:Category:Non-lemma forms 05d440e|Non-lemma 05d440e]] || Fix {{wordpage}} rendering on bot page with nowiki tags
+|-
+| 2026-03-04 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/bbf6985357c3250e47a8463c849f4ed94bcc97c4 bbf6985] || [[:Category:Words bbf6985|Words bbf6985]] || [[:Category:Non-lemma forms bbf6985|Non-lemma bbf6985]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ffc6d055c60dad244fa0ae7e2f1da4f3fd58e2e5 ffc6d05] || [[:Category:Words ffc6d05|Words ffc6d05]] || [[:Category:Non-lemma forms ffc6d05|Non-lemma ffc6d05]] || updated to v4
+|-
+| 2026-03-04 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a4f8eb613a19b0c2f3d6778a5c8fc0f0fe177db0 a4f8eb6] || [[:Category:Words a4f8eb6|Words a4f8eb6]] || [[:Category:Non-lemma forms a4f8eb6|Non-lemma a4f8eb6]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-04 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ed82414c424b9263c24068a058cf5525b437fc3d ed82414] || [[:Category:Words ed82414|Words ed82414]] || [[:Category:Non-lemma forms ed82414|Non-lemma ed82414]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-04 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/058c3e8eeca5ab9fcfefa9ea5dbcaa365936f0b8 058c3e8] || [[:Category:Words 058c3e8|Words 058c3e8]] || [[:Category:Non-lemma forms 058c3e8|Non-lemma 058c3e8]] || Update settings.local.json
+|-
+| 2026-03-04 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/3324a82fc5ee742c52fbd0d4d79fc371e122899e 3324a82] || [[:Category:Words 3324a82|Words 3324a82]] || [[:Category:Non-lemma forms 3324a82|Non-lemma 3324a82]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-04 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ed7cef5930e57317a51650efe4f57d464276e756 ed7cef5] || [[:Category:Words ed7cef5|Words ed7cef5]] || [[:Category:Non-lemma forms ed7cef5|Non-lemma ed7cef5]] || updated to v5: add wiktionary links and grammatical term linking
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/e8215245868828435810862ae61b69316105d525 e821524] || [[:Category:Words e821524|Words e821524]] || [[:Category:Non-lemma forms e821524|Non-lemma e821524]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/054ff352706ca81eabea264bbbb633fd0d1f9bde 054ff35] || [[:Category:Words 054ff35|Words 054ff35]] || [[:Category:Non-lemma forms 054ff35|Non-lemma 054ff35]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/65911170904f78e89b575a44e66d697b834ce3e3 6591117] || [[:Category:Words 6591117|Words 6591117]] || [[:Category:Non-lemma forms 6591117|Non-lemma 6591117]] || Update to v6: link all inflection types in form labels
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/b76539e022afe6b4d24e327021aa69001779cc8e b76539e] || [[:Category:Words b76539e|Words b76539e]] || [[:Category:Non-lemma forms b76539e|Non-lemma b76539e]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/bad181fab334d660ba04b483139ba69723444094 bad181f] || [[:Category:Words bad181f|Words bad181f]] || [[:Category:Non-lemma forms bad181f|Non-lemma bad181f]] || Bump to v7: fix Wikt link capitalization
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ad169ad4d277cd18f0bba3526e30efc243c604bf ad169ad] || [[:Category:Words ad169ad|Words ad169ad]] || [[:Category:Non-lemma forms ad169ad|Non-lemma ad169ad]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/367a8d8c6e8a513e90b5517fd4d86b7b31bc9170 367a8d8] || [[:Category:Words 367a8d8|Words 367a8d8]] || [[:Category:Non-lemma forms 367a8d8|Non-lemma 367a8d8]] || Use git commit hash instead of manual version numbers
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/0a77b776bee3906d19da5688d7d2542a1c310f40 0a77b77] || [[:Category:Words 0a77b77|Words 0a77b77]] || [[:Category:Non-lemma forms 0a77b77|Non-lemma 0a77b77]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a9a080cd1edc11068ef369975f4f5e43b00d1b72 a9a080c] || [[:Category:Words a9a080c|Words a9a080c]] || [[:Category:Non-lemma forms a9a080c|Non-lemma a9a080c]] || Track version category ordering in version_history.txt
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/1ac7a1f7195b66ffdb9d572e2e3641cb2c0d28ba 1ac7a1f] || [[:Category:Words 1ac7a1f|Words 1ac7a1f]] || [[:Category:Non-lemma forms 1ac7a1f|Non-lemma 1ac7a1f]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-04 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/1a38ba0e0086ad2b4a3d6ef300a222135b75c360 1a38ba0] || [[:Category:Words 1a38ba0|Words 1a38ba0]] || [[:Category:Non-lemma forms 1a38ba0|Non-lemma 1a38ba0]] || Merge pull request #1 from Emma-Leonhart/claude/link-inflection-types-tTaOE
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/235cf4211e00e80687e4fcd3c946d6453694c8f4 235cf42] || [[:Category:Words 235cf42|Words 235cf42]] || [[:Category:Non-lemma forms 235cf42|Non-lemma 235cf42]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/fb8fd0942091ac8159591025760ac7cb296c8325 fb8fd09] || [[:Category:Words fb8fd09|Words fb8fd09]] || [[:Category:Non-lemma forms fb8fd09|Non-lemma fb8fd09]] || Commit version_history.txt back from CI/CD pipeline
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/c8d3606cb363dc380075dd232c99d9edf5650b58 c8d3606] || [[:Category:Words c8d3606|Words c8d3606]] || [[:Category:Non-lemma forms c8d3606|Non-lemma c8d3606]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-04 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/e3370dd59361287049e59e521493c97477980dfe e3370dd] || [[:Category:Words e3370dd|Words e3370dd]] || [[:Category:Non-lemma forms e3370dd|Non-lemma e3370dd]] || Merge PR #2: commit version_history.txt + restrict CI to master
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/1f84ecbf8524766488a783d26c75ec5346ccb7f8 1f84ecb] || [[:Category:Words 1f84ecb|Words 1f84ecb]] || [[:Category:Non-lemma forms 1f84ecb|Non-lemma 1f84ecb]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-04 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/943c1159eb03b494819124fbd4f2310a9af7090b 943c115] || [[:Category:Words 943c115|Words 943c115]] || [[:Category:Non-lemma forms 943c115|Non-lemma 943c115]] || docs: document CI pipeline state management in SCRIPTS.md
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/18e097f38dc726b36490c216a15a52fba9300990 18e097f] || [[:Category:Words 18e097f|Words 18e097f]] || [[:Category:Non-lemma forms 18e097f|Non-lemma 18e097f]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d024c2d9bfba5862b035263945ab22a693e8b612 d024c2d] || [[:Category:Words d024c2d|Words d024c2d]] || [[:Category:Non-lemma forms d024c2d|Non-lemma d024c2d]] || feat: categorize noun word pages by grammatical gender
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/e581db38ce775da6cabfdfca193007c389c7c260 e581db3] || [[:Category:Words e581db3|Words e581db3]] || [[:Category:Non-lemma forms e581db3|Non-lemma e581db3]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ec6fef15647e3c6176a2ae5f3a03d6782891afa2 ec6fef1] || [[:Category:Words ec6fef1|Words ec6fef1]] || [[:Category:Non-lemma forms ec6fef1|Non-lemma ec6fef1]] || feat: categorize verb word pages by type (active/stative/transitive)
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/090b29784463cce4061e07d98c33c331450b6550 090b297] || [[:Category:Words 090b297|Words 090b297]] || [[:Category:Non-lemma forms 090b297|Non-lemma 090b297]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/66ca423e960300f64d7ffd40dfab29a5b6e42d20 66ca423] || [[:Category:Words 66ca423|Words 66ca423]] || [[:Category:Non-lemma forms 66ca423|Non-lemma 66ca423]] || fix: upgrade phase skipped all pages due to case-sensitive namespace check
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a810f222daf4d9b8c615ada15b129b18e1271d4a a810f22] || [[:Category:Words a810f22|Words a810f22]] || [[:Category:Non-lemma forms a810f22|Non-lemma a810f22]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/edceed76ec34843c02bc316d9ac37eaa7b9421b3 edceed7] || [[:Category:Words edceed7|Words edceed7]] || [[:Category:Non-lemma forms edceed7|Non-lemma edceed7]] || Update settings.local.json
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/0d42cb70bfa5b8d66110cce6b2b6932c05daea06 0d42cb7] || [[:Category:Words 0d42cb7|Words 0d42cb7]] || [[:Category:Non-lemma forms 0d42cb7|Non-lemma 0d42cb7]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d3b2477fb7eb8ab5dabb7c3a7d0d9a37d497d733 d3b2477] || [[:Category:Words d3b2477|Words d3b2477]] || [[:Category:Non-lemma forms d3b2477|Non-lemma d3b2477]] || feat: use √C1-C2-C3 root citation form for verb pages
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/5a3fb4a2188ec0af381dea64f3d18b6c1a4f8b56 5a3fb4a] || [[:Category:Words 5a3fb4a|Words 5a3fb4a]] || [[:Category:Non-lemma forms 5a3fb4a|Non-lemma 5a3fb4a]] || Merge pull request #3 from Emma-Leonhart/claude/fix-verb-citation-form-fJz9m
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/b1c821ad53097bf70e187e064b684974cf5ec662 b1c821a] || [[:Category:Words b1c821a|Words b1c821a]] || [[:Category:Non-lemma forms b1c821a|Non-lemma b1c821a]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/cb332aa4a726e4d266b90980525d3976c742f89b cb332aa] || [[:Category:Words cb332aa|Words cb332aa]] || [[:Category:Non-lemma forms cb332aa|Non-lemma cb332aa]] || Update settings.local.json
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/c995ca6a512c738824f3386478c6b5235db39ef9 c995ca6] || [[:Category:Words c995ca6|Words c995ca6]] || [[:Category:Non-lemma forms c995ca6|Non-lemma c995ca6]] || Update settings.local.json
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/796efb629477a8809e9ad7794984ee868d79b5b8 796efb6] || [[:Category:Words 796efb6|Words 796efb6]] || [[:Category:Non-lemma forms 796efb6|Non-lemma 796efb6]] || fix(ci): pull --rebase before push to handle concurrent state commits
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d176386163729872f05d1b64471360ff649357ac d176386] || [[:Category:Words d176386|Words d176386]] || [[:Category:Non-lemma forms d176386|Non-lemma d176386]] || Update settings.local.json
+|-
+| 2026-03-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/b480631315dff64b9ebe1af2911d1d249a6419b5 b480631] || [[:Category:Words b480631|Words b480631]] || [[:Category:Non-lemma forms b480631|Non-lemma b480631]] || fix(ci): stash unstaged changes before rebase to prevent pull failure
+|-
+| 2026-03-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ae03957fddf111d0eff44d9cdf137aaeecb77ee8 ae03957] || [[:Category:Words ae03957|Words ae03957]] || [[:Category:Non-lemma forms ae03957|Non-lemma ae03957]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/e44ffd5abeda5c0e223128576b3a1c5b5df5fc20 e44ffd5] || [[:Category:Words e44ffd5|Words e44ffd5]] || [[:Category:Non-lemma forms e44ffd5|Non-lemma e44ffd5]] || Update settings.local.json
+|-
+| 2026-03-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/1aecd2692d83bcd2a76709bbc259d17973d1c328 1aecd26] || [[:Category:Words 1aecd26|Words 1aecd26]] || [[:Category:Non-lemma forms 1aecd26|Non-lemma 1aecd26]] || Merge branch 'master' of https://github.com/Emma-Leonhart/aelaki-wikibot
+|-
+| 2026-03-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d34c0b6f0c4dc8d9d344e2abc646311143cda12c d34c0b6] || [[:Category:Words d34c0b6|Words d34c0b6]] || [[:Category:Non-lemma forms d34c0b6|Non-lemma d34c0b6]] || fix(lexicon): lowercase citation forms and rename Dzahab to jahab
+|-
+| 2026-03-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/1d8450e0e98cda8f4d496bf5eedae71cbbe202fb 1d8450e] || [[:Category:Words 1d8450e|Words 1d8450e]] || [[:Category:Non-lemma forms 1d8450e|Non-lemma 1d8450e]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/086b4c8d2a10d896a36911e9f59d85c3acbfa74f 086b4c8] || [[:Category:Words 086b4c8|Words 086b4c8]] || [[:Category:Non-lemma forms 086b4c8|Non-lemma 086b4c8]] || fix(nouns): inanimate nouns use paucal/plentiful only, fix zero suffix ff doubling
+|-
+| 2026-03-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/29134caaeb3c1da6ba6b94c1d5b702cfc9d124dc 29134ca] || [[:Category:Words 29134ca|Words 29134ca]] || [[:Category:Non-lemma forms 29134ca|Non-lemma 29134ca]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/859501d031e4f1b0c379aae3e186c4c718c429be 859501d] || [[:Category:Words 859501d|Words 859501d]] || [[:Category:Non-lemma forms 859501d|Non-lemma 859501d]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/17b0cff1a362bdd37f84252cf2d911461d204091 17b0cff] || [[:Category:Words 17b0cff|Words 17b0cff]] || [[:Category:Non-lemma forms 17b0cff|Non-lemma 17b0cff]] || feat(wiki): create non-lemma form pages for each inflected surface form
+|-
+| 2026-03-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/acae5aaa07c7231f9c350b8b04ec00b51eef10c9 acae5aa] || [[:Category:Words acae5aa|Words acae5aa]] || [[:Category:Non-lemma forms acae5aa|Non-lemma acae5aa]] || fix(wiki): non-lemma pages now correctly created for verb citation forms
+|-
+| 2026-03-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/30312eb75ac586dd61ce777050221e91ba5ea558 30312eb] || [[:Category:Words 30312eb|Words 30312eb]] || [[:Category:Non-lemma forms 30312eb|Non-lemma 30312eb]] || feat(wiki): add version category to non-lemma pages, register version first
+|-
+| 2026-03-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/f051ff73b7f5ddb68c7fc12cb8ad8339592e8279 f051ff7] || [[:Category:Words f051ff7|Words f051ff7]] || [[:Category:Non-lemma forms f051ff7|Non-lemma f051ff7]] || feat(wiki): link surface forms in tables and improve non-lemma page format
+|-
+| 2026-03-07 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a3ddb2a0ab06ffc23eb756725d7a5c8805403c16 a3ddb2a] || [[:Category:Words a3ddb2a|Words a3ddb2a]] || [[:Category:Non-lemma forms a3ddb2a|Non-lemma a3ddb2a]] || fix(ci): remove 30-minute timeout causing premature job termination
+|-
+| 2026-03-07 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ff78c4c18c7fd22bf03b98f11bef8bb1bbbdb4d9 ff78c4c] || [[:Category:Words ff78c4c|Words ff78c4c]] || [[:Category:Non-lemma forms ff78c4c|Non-lemma ff78c4c]] || q
+|-
+| 2026-03-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/650487045343ad922b1a82c1e4c829fc4c02411d 6504870] || [[:Category:Words 6504870|Words 6504870]] || [[:Category:Non-lemma forms 6504870|Non-lemma 6504870]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/e8d4f4ad3b663d16b8c79c5924e664220c0a1153 e8d4f4a] || [[:Category:Words e8d4f4a|Words e8d4f4a]] || [[:Category:Non-lemma forms e8d4f4a|Non-lemma e8d4f4a]] || feat(bot): separate lemma and non-lemma phases with independent budgets
+|-
+| 2026-03-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/270c81a95a58d1c23f05003da890ead4d31e3fdd 270c81a] || [[:Category:Words 270c81a|Words 270c81a]] || [[:Category:Non-lemma forms 270c81a|Non-lemma 270c81a]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/9b4e2c8b7945be40a3daa5fbfad73acee2e9b5bb 9b4e2c8] || [[:Category:Words 9b4e2c8|Words 9b4e2c8]] || [[:Category:Non-lemma forms 9b4e2c8|Non-lemma 9b4e2c8]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/1bdf0e27c116da37091741c83c51b145bac0bdaa 1bdf0e2] || [[:Category:Words 1bdf0e2|Words 1bdf0e2]] || [[:Category:Non-lemma forms 1bdf0e2|Non-lemma 1bdf0e2]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/3bdbb3303ec715a49e9e94398e747998651ea6d6 3bdbb33] || [[:Category:Words 3bdbb33|Words 3bdbb33]] || [[:Category:Non-lemma forms 3bdbb33|Non-lemma 3bdbb33]] || feat(bot): add wanted pages creator to workflow
+|-
+| 2026-03-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/e161e0a6d3452fdae48613b547db144ddbf1eb35 e161e0a] || [[:Category:Words e161e0a|Words e161e0a]] || [[:Category:Non-lemma forms e161e0a|Non-lemma e161e0a]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-10 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/60977ac33ae82435e23a661000ae98222401d078 60977ac] || [[:Category:Words 60977ac|Words 60977ac]] || [[:Category:Non-lemma forms 60977ac|Non-lemma 60977ac]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-10 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/444b8a7ef34fb51daf27633b6b8b9f7873e9d369 444b8a7] || [[:Category:Words 444b8a7|Words 444b8a7]] || [[:Category:Non-lemma forms 444b8a7|Non-lemma 444b8a7]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-10 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/fd3af4c225e1f52dc0637a5a4355f862781303ab fd3af4c] || [[:Category:Words fd3af4c|Words fd3af4c]] || [[:Category:Non-lemma forms fd3af4c|Non-lemma fd3af4c]] || fix(lexicon): regularize 14 irregular noun roots
+|-
+| 2026-03-10 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/aee4ef989fa6d115cd01d814f12156e8f29165df aee4ef9] || [[:Category:Words aee4ef9|Words aee4ef9]] || [[:Category:Non-lemma forms aee4ef9|Non-lemma aee4ef9]] || feat(lexicon): redistribute inanimate nouns and integrate into pipeline
+|-
+| 2026-03-10 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/273dde7f9a742165459a57088e4b65b586d7f64e 273dde7] || [[:Category:Words 273dde7|Words 273dde7]] || [[:Category:Non-lemma forms 273dde7|Non-lemma 273dde7]] || feat(bot): tag wanted word: pages with non-lemma category early in pipeline
+|-
+| 2026-03-10 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/b1bd7bd260d39175e01eafdc665c755a9387ed3b b1bd7bd] || [[:Category:Words b1bd7bd|Words b1bd7bd]] || [[:Category:Non-lemma forms b1bd7bd|Non-lemma b1bd7bd]] || Merge pull request #4 from EmmaLeonhart/claude/reorganize-wiki-categories-Ho7Yn
+|-
+| 2026-03-10 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/3027dd63b6e6c8af7b1d11e2d6f9b9849965fc6a 3027dd6] || [[:Category:Words 3027dd6|Words 3027dd6]] || [[:Category:Non-lemma forms 3027dd6|Non-lemma 3027dd6]] || fix(bot): use <nowiki>[[</nowiki>github:...]] interwiki link in edit summaries
+|-
+| 2026-03-11 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/05730a58329372114789565c89ea7f22771fae63 05730a5] || [[:Category:Words 05730a5|Words 05730a5]] || [[:Category:Non-lemma forms 05730a5|Non-lemma 05730a5]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-10 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ae8a73a17fa27b55eb4f0158d92aa486dda354fa ae8a73a] || [[:Category:Words ae8a73a|Words ae8a73a]] || [[:Category:Non-lemma forms ae8a73a|Non-lemma ae8a73a]] || fix(bot): verb class ratio, agent/patient headings, and todo updates
+|-
+| 2026-03-10 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/f7d8325f405ce6125ff17f67a4f3b45bd08516a9 f7d8325] || [[:Category:Words f7d8325|Words f7d8325]] || [[:Category:Non-lemma forms f7d8325|Non-lemma f7d8325]] || fix(bot): restrict inanimate noun cases to patient/instrumental/dative
+|-
+| 2026-03-10 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/b19015dbb8c771df24b5f4a910cc1c01539d20eb b19015d] || [[:Category:Words b19015d|Words b19015d]] || [[:Category:Non-lemma forms b19015d|Non-lemma b19015d]] || Update settings.local.json
+|-
+| 2026-03-11 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/b3cb74a5951eb6eb0154e45260addd79da5ab101 b3cb74a] || [[:Category:Words b3cb74a|Words b3cb74a]] || [[:Category:Non-lemma forms b3cb74a|Non-lemma b3cb74a]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-11 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/43f6594ccb22b4ece57213d72aae1080f7442b27 43f6594] || [[:Category:Words 43f6594|Words 43f6594]] || [[:Category:Non-lemma forms 43f6594|Non-lemma 43f6594]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-11 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/52a58f3d7f4c2e8284b69ddd34d4589f4db987b3 52a58f3] || [[:Category:Words 52a58f3|Words 52a58f3]] || [[:Category:Non-lemma forms 52a58f3|Non-lemma 52a58f3]] || Merge branch 'master' of https://github.com/EmmaLeonhart/aelaki-wikibot
+|-
+| 2026-03-11 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/7ecf444ac2d2fa7f0c91093767860635545d772a 7ecf444] || [[:Category:Words 7ecf444|Words 7ecf444]] || [[:Category:Non-lemma forms 7ecf444|Non-lemma 7ecf444]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-12 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/46eeec47c649003d930b6c2be22f597d25a4c2c1 46eeec4] || [[:Category:Words 46eeec4|Words 46eeec4]] || [[:Category:Non-lemma forms 46eeec4|Non-lemma 46eeec4]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-13 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/fc10857dea0f72bca012b7d0379e9fefe6c53ad6 fc10857] || [[:Category:Words fc10857|Words fc10857]] || [[:Category:Non-lemma forms fc10857|Non-lemma fc10857]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-14 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/1e8b6ef5ec26d183542beb9945182e64df92d3a6 1e8b6ef] || [[:Category:Words 1e8b6ef|Words 1e8b6ef]] || [[:Category:Non-lemma forms 1e8b6ef|Non-lemma 1e8b6ef]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-15 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/0e152323e17f74efd32b08ebcb8b89bdb8151233 0e15232] || [[:Category:Words 0e15232|Words 0e15232]] || [[:Category:Non-lemma forms 0e15232|Non-lemma 0e15232]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-15 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/b470777bfb16e906ebcae45b8968d9eb8e2c9fb0 b470777] || [[:Category:Words b470777|Words b470777]] || [[:Category:Non-lemma forms b470777|Non-lemma b470777]] || fix(morphology): elide leading vowel in ki_word_final when stem ends in vowel
+|-
+| 2026-03-16 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/636dcbb9e57ccea57658e9ea39066983fea2f8d4 636dcbb] || [[:Category:Words 636dcbb|Words 636dcbb]] || [[:Category:Non-lemma forms 636dcbb|Non-lemma 636dcbb]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-15 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/5bad82d14866d46f78ad9f2863edea0a5bd6eca9 5bad82d] || [[:Category:Words 5bad82d|Words 5bad82d]] || [[:Category:Non-lemma forms 5bad82d|Non-lemma 5bad82d]] || Update todo.md
+|-
+| 2026-03-16 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/10597577384bc8a7f968fbda743eaefe64df78c0 1059757] || [[:Category:Words 1059757|Words 1059757]] || [[:Category:Non-lemma forms 1059757|Non-lemma 1059757]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-16 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/effa290c8cf51d451ad0d0127e940c7c053217a6 effa290] || [[:Category:Words effa290|Words effa290]] || [[:Category:Non-lemma forms effa290|Non-lemma effa290]] || fix(ci): pull before commit to avoid rebase conflicts on state files
+|-
+| 2026-03-16 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a8907152e7e3caab69c401f9c81dfa45eea31a7c a890715] || [[:Category:Words a890715|Words a890715]] || [[:Category:Non-lemma forms a890715|Non-lemma a890715]] || Update settings.local.json
+|-
+| 2026-03-16 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ebaeb35bd232d131e3164090cdfc7acf99b70e5a ebaeb35] || [[:Category:Words ebaeb35|Words ebaeb35]] || [[:Category:Non-lemma forms ebaeb35|Non-lemma ebaeb35]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-16 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/c579b502ec155426cb86b579ee2e5da1a86f7a55 c579b50] || [[:Category:Words c579b50|Words c579b50]] || [[:Category:Non-lemma forms c579b50|Non-lemma c579b50]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-17 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/8a892eaddb29ca0c3c786a6b3df54ddc24b16971 8a892ea] || [[:Category:Words 8a892ea|Words 8a892ea]] || [[:Category:Non-lemma forms 8a892ea|Non-lemma 8a892ea]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a345f0fb997367e210844b83b93daa57f85b6f4d a345f0f] || [[:Category:Words a345f0f|Words a345f0f]] || [[:Category:Non-lemma forms a345f0f|Non-lemma a345f0f]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/307a66b9e924e7179e60608a5ee612f6b93e477b 307a66b] || [[:Category:Words 307a66b|Words 307a66b]] || [[:Category:Non-lemma forms 307a66b|Non-lemma 307a66b]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ee717f62cad07cf267801ec5d70d0b1129d80ba5 ee717f6] || [[:Category:Words ee717f6|Words ee717f6]] || [[:Category:Non-lemma forms ee717f6|Non-lemma ee717f6]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/226c6583b9f433e1ae6d785927a401b526c3c6ec 226c658] || [[:Category:Words 226c658|Words 226c658]] || [[:Category:Non-lemma forms 226c658|Non-lemma 226c658]] || feat: add pipeline step to delete unused categories
+|-
+| 2026-03-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/8b628364c6f3960a0b712df5186d06d255b30ef9 8b62836] || [[:Category:Words 8b62836|Words 8b62836]] || [[:Category:Non-lemma forms 8b62836|Non-lemma 8b62836]] || feat: add word-class subcategories to non-lemma pages
+|-
+| 2026-03-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/5551a29975cfc863a19f535665a9176203697ebe 5551a29] || [[:Category:Words 5551a29|Words 5551a29]] || [[:Category:Non-lemma forms 5551a29|Non-lemma 5551a29]] || feat: announce pipeline stages on bot userpage
+|-
+| 2026-03-21 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/1a7b009865f47be4fd06ebd92db32b6a27c297ec 1a7b009] || [[:Category:Words 1a7b009|Words 1a7b009]] || [[:Category:Non-lemma forms 1a7b009|Non-lemma 1a7b009]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-21 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/77aa2b516421137a4a7b0ee309d37b6a4920adb9 77aa2b5] || [[:Category:Words 77aa2b5|Words 77aa2b5]] || [[:Category:Non-lemma forms 77aa2b5|Non-lemma 77aa2b5]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/1da9d5497312d6120093e2c67e650e8449008d6b 1da9d54] || [[:Category:Words 1da9d54|Words 1da9d54]] || [[:Category:Non-lemma forms 1da9d54|Non-lemma 1da9d54]] || fix: delete script falls back to blanking, tag script uses batch API
+|-
+| 2026-03-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/8e1392d558afd5423ade30daae1249be0ef706d6 8e1392d] || [[:Category:Words 8e1392d|Words 8e1392d]] || [[:Category:Non-lemma forms 8e1392d|Non-lemma 8e1392d]] || fix: skip Wikibase namespaces in wanted pages, bump batch to 100
+|-
+| 2026-03-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/34122d8ad548105c6bae8355f4f5d09e01141dd1 34122d8] || [[:Category:Words 34122d8|Words 34122d8]] || [[:Category:Non-lemma forms 34122d8|Non-lemma 34122d8]] || fix: adjective plural now reduplicates agreement suffix
+|-
+| 2026-03-21 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a8711d0d721cc46e1434807179eda97054e7cb3d a8711d0] || [[:Category:Words a8711d0|Words a8711d0]] || [[:Category:Non-lemma forms a8711d0|Non-lemma a8711d0]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-21 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/9be419ab0d08f0a539b559bf37cd9c4628203cb1 9be419a] || [[:Category:Words 9be419a|Words 9be419a]] || [[:Category:Non-lemma forms 9be419a|Non-lemma 9be419a]] || Update settings.local.json
+|-
+| 2026-03-21 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d5728ff27acfb48f6f8a85ef167488b80468f3c6 d5728ff] || [[:Category:Words d5728ff|Words d5728ff]] || [[:Category:Non-lemma forms d5728ff|Non-lemma d5728ff]] || Merge branch 'master' of https://github.com/EmmaLeonhart/aelaki-wikibot
+|-
+| 2026-03-21 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a065ff45b0740d3202dd30ea08f3b6e7f3fc73fd a065ff4] || [[:Category:Words a065ff4|Words a065ff4]] || [[:Category:Non-lemma forms a065ff4|Non-lemma a065ff4]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-21 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/5db7a013325bd25d45c63887b488a53274c152b0 5db7a01] || [[:Category:Words 5db7a01|Words 5db7a01]] || [[:Category:Non-lemma forms 5db7a01|Non-lemma 5db7a01]] || fix: zero case drops trailing -f before person suffix, eliminate oo long vowels in case paradigm
+|-
+| 2026-03-21 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/acbce6f54be1e315de6ebddd2c6c955dbc8108bd acbce6f] || [[:Category:Words acbce6f|Words acbce6f]] || [[:Category:Non-lemma forms acbce6f|Non-lemma acbce6f]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-21 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/c6f8e691b5a422b7b0c886b22aaf0c5952a26055 c6f8e69] || [[:Category:Words c6f8e69|Words c6f8e69]] || [[:Category:Non-lemma forms c6f8e69|Non-lemma c6f8e69]] || feat: bidirectional grammar wiki sync, hourly CI pipeline, improved docs
+|-
+| 2026-03-21 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/eda3f802ba22efeb00b4cab2afd9adbb9886acd7 eda3f80] || [[:Category:Words eda3f80|Words eda3f80]] || [[:Category:Non-lemma forms eda3f80|Non-lemma eda3f80]] || fix: revert CI schedule to daily
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/3b06d7d29f6ab6865b36680e1c8996798b7dadaf 3b06d7d] || [[:Category:Words 3b06d7d|Words 3b06d7d]] || [[:Category:Non-lemma forms 3b06d7d|Non-lemma 3b06d7d]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-21 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d414c4120681fb05f76d28273c8960cd331ffdc4 d414c41] || [[:Category:Words d414c41|Words d414c41]] || [[:Category:Non-lemma forms d414c41|Non-lemma d414c41]] || fix: add ?-ch-? (heart) and l-?-? (river) to lexicon for page regularization
+|-
+| 2026-03-21 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/17228b0de260705a89c298ccf52c5dc9836d8d2e 17228b0] || [[:Category:Words 17228b0|Words 17228b0]] || [[:Category:Non-lemma forms 17228b0|Non-lemma 17228b0]] || Update settings.local.json
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ea1fcd1d03d67e6159a7e46a3f450a1ad360f6af ea1fcd1] || [[:Category:Words ea1fcd1|Words ea1fcd1]] || [[:Category:Non-lemma forms ea1fcd1|Non-lemma ea1fcd1]] || chore(state): update word page bot state [skip ci]
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/b863984ac10b6eae300b2970647cabcf0cc36e1e b863984] || [[:Category:Words b863984|Words b863984]] || [[:Category:Non-lemma forms b863984|Non-lemma b863984]] || fix: resolve CI stash pop conflict on state files
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/f1dc4ccb39096a8ebba761494d3bf2dd0b414fed f1dc4cc] || [[:Category:Words f1dc4cc|Words f1dc4cc]] || [[:Category:Non-lemma forms f1dc4cc|Non-lemma f1dc4cc]] || feat: populate all grammar wiki pages with content from grammar guide
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a872b72493e5064f467c5f06c66ee64223a229c7 a872b72] || [[:Category:Words a872b72|Words a872b72]] || [[:Category:Non-lemma forms a872b72|Non-lemma a872b72]] || feat: update Aelaki overview, add category descriptions and new concept pages
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/c4139ef906fff30f911fae2ec5d3e88b96d6fbe6 c4139ef] || [[:Category:Words c4139ef|Words c4139ef]] || [[:Category:Non-lemma forms c4139ef|Non-lemma c4139ef]] || feat: add new grammar concept pages (stative verbs, particles, questions, etc.)
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/7cbd9d99b509ab328ab3295b74a38ab0d4b80a46 7cbd9d9] || [[:Category:Words 7cbd9d9|Words 7cbd9d9]] || [[:Category:Non-lemma forms 7cbd9d9|Non-lemma 7cbd9d9]] || feat: add stative verbs, particles, questions, and other concept pages
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/5f0bcb696a2d0e3b19b56af103d2c86f5d2a80bd 5f0bcb6] || [[:Category:Words 5f0bcb6|Words 5f0bcb6]] || [[:Category:Non-lemma forms 5f0bcb6|Non-lemma 5f0bcb6]] || Update settings.local.json
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/9c2f2fc274b4bd7c471292dcecb0c6bb6fdc4e8a 9c2f2fc] || [[:Category:Words 9c2f2fc|Words 9c2f2fc]] || [[:Category:Non-lemma forms 9c2f2fc|Non-lemma 9c2f2fc]] || fix: clarify umlaut-as-completion pattern and prefix pairings
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a249b1fb335a3dc041f5c6d7ee25c1c2052d43cd a249b1f] || [[:Category:Words a249b1f|Words a249b1f]] || [[:Category:Non-lemma forms a249b1f|Non-lemma a249b1f]] || fix: add run-tag to create_wanted_pages, move into pipeline loop
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ed31652098d2ab5660950419a89f85f9546b7d3a ed31652] || [[:Category:Words ed31652|Words ed31652]] || [[:Category:Non-lemma forms ed31652|Non-lemma ed31652]] || fix: exclude inanimate from agent/subject verb agreement paradigms
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ee85ffd9f3a3943e9c71a8891c648cea3842f454 ee85ffd] || [[:Category:Words ee85ffd|Words ee85ffd]] || [[:Category:Non-lemma forms ee85ffd|Non-lemma ee85ffd]] || feat: add <nowiki>[[</nowiki>Category:git synced pages]] to all .wiki files
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/1029860271fcc7c7099455a30fbd348af4650d43 1029860] || [[:Category:Words 1029860|Words 1029860]] || [[:Category:Non-lemma forms 1029860|Non-lemma 1029860]] || feat: auto-discover and adopt pages from Category:git synced pages
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/17ba421cfd2c36a9beadf7308c6098d4cbf531fb 17ba421] || [[:Category:Words 17ba421|Words 17ba421]] || [[:Category:Non-lemma forms 17ba421|Non-lemma 17ba421]] || feat: fix irregular word pages and simplify dzh -> j in lexicon
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/8d63c8d9996c128f2b959b35470db353e979df75 8d63c8d] || [[:Category:Words 8d63c8d|Words 8d63c8d]] || [[:Category:Non-lemma forms 8d63c8d|Non-lemma 8d63c8d]] || fix: use current version hash for wanted page non-lemma categories
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/e4d0dbbb150531aa0469f790b2e3158f92a9c36e e4d0dbb] || [[:Category:Words e4d0dbb|Words e4d0dbb]] || [[:Category:Non-lemma forms e4d0dbb|Non-lemma e4d0dbb]] || feat: add roots list page, orphan cleanup (2027+), remove Phase 0
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/5355ebdec377b12c1c6dc49d83dc45ed6f0ebf8e 5355ebd] || [[:Category:Words 5355ebd|Words 5355ebd]] || [[:Category:Non-lemma forms 5355ebd|Non-lemma 5355ebd]] || fix: elide leading gender vowel in adjective agreement after vowel-final stems
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/b2be6786395bdd56f7f614dd6f123911632cce9d b2be678] || [[:Category:Words b2be678|Words b2be678]] || [[:Category:Non-lemma forms b2be678|Non-lemma b2be678]] || feat: add degemination rule, git commit log page
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/6d3c35a5f531da041413463b886c0911ae566ad0 6d3c35a] || [[:Category:Words 6d3c35a|Words 6d3c35a]] || [[:Category:Non-lemma forms 6d3c35a|Non-lemma 6d3c35a]] || fix: use backlinks instead of page parsing to find parent lemma
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/376dfdaf02f6c45f1df9d6819b8ee67df0000aa9 376dfda] || [[:Category:Words 376dfda|Words 376dfda]] || [[:Category:Non-lemma forms 376dfda|Non-lemma 376dfda]] || feat: tag non-lemma forms with no backlinks as orphaned
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/203615953e677959eaf3b0cac49db226cd6a8383 2036159] || [[:Category:Words 2036159|Words 2036159]] || [[:Category:Non-lemma forms 2036159|Non-lemma 2036159]] || fix: commit and push state after each pipeline phase
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ec4ab336a05cd402ea4996885d80ed23217fd0a3 ec4ab33] || [[:Category:Words ec4ab33|Words ec4ab33]] || [[:Category:Non-lemma forms ec4ab33|Non-lemma ec4ab33]] || fix: rebuild version_history.txt from git log instead of appending
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/3a2bd3fb54770ed8389301e9aa289396d7a2062d 3a2bd3f] || [[:Category:Words 3a2bd3f|Words 3a2bd3f]] || [[:Category:Non-lemma forms 3a2bd3f|Non-lemma 3a2bd3f]] || docs: fully document pipeline steps, state risks, and commit points
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/47dae25f10b3ece2d4fafcb21c01925807230b84 47dae25] || [[:Category:Words 47dae25|Words 47dae25]] || [[:Category:Non-lemma forms 47dae25|Non-lemma 47dae25]] || feat: link lemma and non-lemma categories in git commit log table
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/6454350293404495f5dd1e339a159d4946f9a779 6454350] || [[:Category:Words 6454350|Words 6454350]] || [[:Category:Non-lemma forms 6454350|Non-lemma 6454350]] || docs: add state file audit items to todo.md
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/0674f569493f5cf50b4f8eda22d467810e3faa39 0674f56] || [[:Category:Words 0674f56|Words 0674f56]] || [[:Category:Non-lemma forms 0674f56|Non-lemma 0674f56]] || docs: add annual state reconciliation idea to todo
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/2f53f7c71a38f9b5bf4225f8a20d42127c2c8cd8 2f53f7c] || [[:Category:Words 2f53f7c|Words 2f53f7c]] || [[:Category:Non-lemma forms 2f53f7c|Non-lemma 2f53f7c]] || feat: add annual state file reconciliation
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/51ae12d56ab40dabe7e19022789b829243c5ffd4 51ae12d] || [[:Category:Words 51ae12d|Words 51ae12d]] || [[:Category:Non-lemma forms 51ae12d|Non-lemma 51ae12d]] || fix: handle missing glob patterns in commit_state to prevent pipeline crash
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/4e8b522be7770315451d22cab26fdf51e2741d16 4e8b522] || [[:Category:Words 4e8b522|Words 4e8b522]] || [[:Category:Non-lemma forms 4e8b522|Non-lemma 4e8b522]] || fix: expand orphan cleanup to all pages, stash before rebase in commit_state
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/9f6699a51ac5c830b2fb907bac26f192df2e4979 9f6699a] || [[:Category:Words 9f6699a|Words 9f6699a]] || [[:Category:Non-lemma forms 9f6699a|Non-lemma 9f6699a]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/3155d0f7f251b9d85f7534c98198c944f52afac7 3155d0f] || [[:Category:Words 3155d0f|Words 3155d0f]] || [[:Category:Non-lemma forms 3155d0f|Non-lemma 3155d0f]] || chore(state): annual state reconciliation [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/7296ca6b61422a013b3cd8a6d0bc2f40627f6a72 7296ca6] || [[:Category:Words 7296ca6|Words 7296ca6]] || [[:Category:Non-lemma forms 7296ca6|Non-lemma 7296ca6]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/54c3ae1e5ac53a5242a7c6ec4cc0e945fad4c700 54c3ae1] || [[:Category:Words 54c3ae1|Words 54c3ae1]] || [[:Category:Non-lemma forms 54c3ae1|Non-lemma 54c3ae1]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ee1e8aea656fa913812c8e2241daf071414118c3 ee1e8ae] || [[:Category:Words ee1e8ae|Words ee1e8ae]] || [[:Category:Non-lemma forms ee1e8ae|Non-lemma ee1e8ae]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d6292c1d69ee168285e899618ee0e1194e26fec1 d6292c1] || [[:Category:Words d6292c1|Words d6292c1]] || [[:Category:Non-lemma forms d6292c1|Non-lemma d6292c1]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/9dac1a9609bcdb89fc6b0dcda2a37b17735badbc 9dac1a9] || [[:Category:Words 9dac1a9|Words 9dac1a9]] || [[:Category:Non-lemma forms 9dac1a9|Non-lemma 9dac1a9]] || chore(state): post-grammar-sync [skip ci]
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/6353e95404416659b802db25f1737ee6c238ceb8 6353e95] || [[:Category:Words 6353e95|Words 6353e95]] || [[:Category:Non-lemma forms 6353e95|Non-lemma 6353e95]] || perf: skip non-existent version categories in upgrade loops
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/dc5bde7cea302c13e49d32ef6fe7341ec102fe68 dc5bde7] || [[:Category:Words dc5bde7|Words dc5bde7]] || [[:Category:Non-lemma forms dc5bde7|Non-lemma dc5bde7]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/16f482dc303cb5fb1c17255dfe01e4d2a30de231 16f482d] || [[:Category:Words 16f482d|Words 16f482d]] || [[:Category:Non-lemma forms 16f482d|Non-lemma 16f482d]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/fd9ec92de661a4765421e3b1c2d246a06ae457b7 fd9ec92] || [[:Category:Words fd9ec92|Words fd9ec92]] || [[:Category:Non-lemma forms fd9ec92|Non-lemma fd9ec92]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ed5f223dd986001eb49534111eb0a721e2a5b40c ed5f223] || [[:Category:Words ed5f223|Words ed5f223]] || [[:Category:Non-lemma forms ed5f223|Non-lemma ed5f223]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/06f9dc697d293f5ffaa32d89a26be87401b525fd 06f9dc6] || [[:Category:Words 06f9dc6|Words 06f9dc6]] || [[:Category:Non-lemma forms 06f9dc6|Non-lemma 06f9dc6]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/e514f42dab26ba2531ed26f3360e19f1086eb64e e514f42] || [[:Category:Words e514f42|Words e514f42]] || [[:Category:Non-lemma forms e514f42|Non-lemma e514f42]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/6a7636b3cbb2db5ae878d85bd2b6907e0900560f 6a7636b] || [[:Category:Words 6a7636b|Words 6a7636b]] || [[:Category:Non-lemma forms 6a7636b|Non-lemma 6a7636b]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/60948528be75212661689e62fb6faa0d0a6160e6 6094852] || [[:Category:Words 6094852|Words 6094852]] || [[:Category:Non-lemma forms 6094852|Non-lemma 6094852]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-03-22 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/0d7d99c6839ac6423a4aa911a2d08f559b01295a 0d7d99c] || [[:Category:Words 0d7d99c|Words 0d7d99c]] || [[:Category:Non-lemma forms 0d7d99c|Non-lemma 0d7d99c]] || fix: correct category case in Aelaki_roots.wiki to match convention
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/28ebc72da4a93f71c603df3b895ab62202cf4f35 28ebc72] || [[:Category:Words 28ebc72|Words 28ebc72]] || [[:Category:Non-lemma forms 28ebc72|Non-lemma 28ebc72]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/102fcd27af02487a969dbdc6985e94e6ec9f98cd 102fcd2] || [[:Category:Words 102fcd2|Words 102fcd2]] || [[:Category:Non-lemma forms 102fcd2|Non-lemma 102fcd2]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/11bc77e7888a6f98d9b281636d9308df520611d3 11bc77e] || [[:Category:Words 11bc77e|Words 11bc77e]] || [[:Category:Non-lemma forms 11bc77e|Non-lemma 11bc77e]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/6e6d819689cccbe1a853c30bb895aa00eb7c4098 6e6d819] || [[:Category:Words 6e6d819|Words 6e6d819]] || [[:Category:Non-lemma forms 6e6d819|Non-lemma 6e6d819]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/98138b52bf7ec297dedfa1de1830fe32140dbc87 98138b5] || [[:Category:Words 98138b5|Words 98138b5]] || [[:Category:Non-lemma forms 98138b5|Non-lemma 98138b5]] || chore(state): post-grammar-sync [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/cd781e1b976b11bf2936a66e5cfc6cf3cbfb293d cd781e1] || [[:Category:Words cd781e1|Words cd781e1]] || [[:Category:Non-lemma forms cd781e1|Non-lemma cd781e1]] || fix: inanimate nouns now only generate 4th person declensions
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/b1f7822508c5ccea533637bf63c64fc64b09a80a b1f7822] || [[:Category:Words b1f7822|Words b1f7822]] || [[:Category:Non-lemma forms b1f7822|Non-lemma b1f7822]] || fix: fetch full git history so commit log page shows all commits
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/f801d953d9a03a855982f0b188d0fea1ae56d182 f801d95] || [[:Category:Words f801d95|Words f801d95]] || [[:Category:Non-lemma forms f801d95|Non-lemma f801d95]] || refactor: move git commit log sync to early pipeline (Step 0.05)
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/9db2dec98c5ef2535f0066ddb86c4b8306f10512 9db2dec] || [[:Category:Words 9db2dec|Words 9db2dec]] || [[:Category:Non-lemma forms 9db2dec|Non-lemma 9db2dec]] || feat: add Noun, Verb, Phonology pages; expand Adjective
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/cc076f880652b1dc4b8471eeabe458c13316cf43 cc076f8] || [[:Category:Words cc076f8|Words cc076f8]] || [[:Category:Non-lemma forms cc076f8|Non-lemma cc076f8]] || docs: update todo with completed pipeline fixes and grammar wiki status
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d03cc2d9fef145436924b21e268f0bce0b53873a d03cc2d] || [[:Category:Words d03cc2d|Words d03cc2d]] || [[:Category:Non-lemma forms d03cc2d|Non-lemma d03cc2d]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ef402fc7d9ac92f43a7eb256396a205386557e96 ef402fc] || [[:Category:Words ef402fc|Words ef402fc]] || [[:Category:Non-lemma forms ef402fc|Non-lemma ef402fc]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/e59ce61926c97eb5250adc9ce27921bfaa5d558e e59ce61] || [[:Category:Words e59ce61|Words e59ce61]] || [[:Category:Non-lemma forms e59ce61|Non-lemma e59ce61]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/0230bfcac4b578bf897f128d3fb27843e87834ea 0230bfc] || [[:Category:Words 0230bfc|Words 0230bfc]] || [[:Category:Non-lemma forms 0230bfc|Non-lemma 0230bfc]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/97f1258ab9a5e584da1bc0bc2a41a299229a3cb6 97f1258] || [[:Category:Words 97f1258|Words 97f1258]] || [[:Category:Non-lemma forms 97f1258|Non-lemma 97f1258]] || chore(state): post-grammar-sync [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ff5e8ab7ed73bf58d088d1524dd433ef6ac55fc9 ff5e8ab] || [[:Category:Words ff5e8ab|Words ff5e8ab]] || [[:Category:Non-lemma forms ff5e8ab|Non-lemma ff5e8ab]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/8e86d1aeeca594e59689abbfba8d577982b5f377 8e86d1a] || [[:Category:Words 8e86d1a|Words 8e86d1a]] || [[:Category:Non-lemma forms 8e86d1a|Non-lemma 8e86d1a]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/27205862aeb02764c168b9d5b5453126e0eb72d2 2720586] || [[:Category:Words 2720586|Words 2720586]] || [[:Category:Non-lemma forms 2720586|Non-lemma 2720586]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/c093ada06951a147465cb033200d99a8a2fb17f7 c093ada] || [[:Category:Words c093ada|Words c093ada]] || [[:Category:Non-lemma forms c093ada|Non-lemma c093ada]] || docs: expand grammar wiki gaps with detailed page-by-page breakdown
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a3355136ff33bbe787ff1bf17c936a164f987cc6 a335513] || [[:Category:Words a335513|Words a335513]] || [[:Category:Non-lemma forms a335513|Non-lemma a335513]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/af1ccfe15f6dab520338cea88b74bcc03c6d168e af1ccfe] || [[:Category:Words af1ccfe|Words af1ccfe]] || [[:Category:Non-lemma forms af1ccfe|Non-lemma af1ccfe]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/247046e736159da6bf83d7d4dc906a2209a9a1d9 247046e] || [[:Category:Words 247046e|Words 247046e]] || [[:Category:Non-lemma forms 247046e|Non-lemma 247046e]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a101f16996b4db0e2c2cc9630ec9a3384b2295b6 a101f16] || [[:Category:Words a101f16|Words a101f16]] || [[:Category:Non-lemma forms a101f16|Non-lemma a101f16]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-03-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/dcef9d85980b3dad6a833078033c872ac25f8f29 dcef9d8] || [[:Category:Words dcef9d8|Words dcef9d8]] || [[:Category:Non-lemma forms dcef9d8|Non-lemma dcef9d8]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-03-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/7a30b3ae219764f4adee8fbd3ee6bea40a91c04d 7a30b3a] || [[:Category:Words 7a30b3a|Words 7a30b3a]] || [[:Category:Non-lemma forms 7a30b3a|Non-lemma 7a30b3a]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-03-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a739425660e7c83b9bc7422a84334668233e7cb3 a739425] || [[:Category:Words a739425|Words a739425]] || [[:Category:Non-lemma forms a739425|Non-lemma a739425]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-03-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/62619cc6f1da297f70379900baa3272d226e7fb9 62619cc] || [[:Category:Words 62619cc|Words 62619cc]] || [[:Category:Non-lemma forms 62619cc|Non-lemma 62619cc]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/e7351abcb6484393870e493ebc8d85a5a7748d5c e7351ab] || [[:Category:Words e7351ab|Words e7351ab]] || [[:Category:Non-lemma forms e7351ab|Non-lemma e7351ab]] || not sure what this is
+|-
+| 2026-03-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/32e41d12648dd6bf21d7ada322347f7e208db59d 32e41d1] || [[:Category:Words 32e41d1|Words 32e41d1]] || [[:Category:Non-lemma forms 32e41d1|Non-lemma 32e41d1]] || Merge branch 'master' of https://github.com/EmmaLeonhart/aelaki-wikibot
+|-
+| 2026-03-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/3a936e1255748bdcaca40bc8e34f305efc55b4b1 3a936e1] || [[:Category:Words 3a936e1|Words 3a936e1]] || [[:Category:Non-lemma forms 3a936e1|Non-lemma 3a936e1]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-03-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/946526c1fcf27b3ea5bf1e5f599be9490b0e19cd 946526c] || [[:Category:Words 946526c|Words 946526c]] || [[:Category:Non-lemma forms 946526c|Non-lemma 946526c]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-03-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a8a264021ebdfe905a7fa77e07fca7c6a260c157 a8a2640] || [[:Category:Words a8a2640|Words a8a2640]] || [[:Category:Non-lemma forms a8a2640|Non-lemma a8a2640]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-03-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/3bcc2825d30503ef27a3704f8571802a8b38495b 3bcc282] || [[:Category:Words 3bcc282|Words 3bcc282]] || [[:Category:Non-lemma forms 3bcc282|Non-lemma 3bcc282]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-03-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/45e90f5a05a7f2041207eea5612c9ecade29e52e 45e90f5] || [[:Category:Words 45e90f5|Words 45e90f5]] || [[:Category:Non-lemma forms 45e90f5|Non-lemma 45e90f5]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-03-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/66806d682943f744f98dd69d2b81e3f6ce7d87c1 66806d6] || [[:Category:Words 66806d6|Words 66806d6]] || [[:Category:Non-lemma forms 66806d6|Non-lemma 66806d6]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-03-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/4199aba71392e944b7b82b1f13c3a96273d0da95 4199aba] || [[:Category:Words 4199aba|Words 4199aba]] || [[:Category:Non-lemma forms 4199aba|Non-lemma 4199aba]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-03-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/545002b06775945bd0fd5a72cd453ebd8315c07f 545002b] || [[:Category:Words 545002b|Words 545002b]] || [[:Category:Non-lemma forms 545002b|Non-lemma 545002b]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-03-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/9935792a986d1b8c31f0ad65778b4015d0acf275 9935792] || [[:Category:Words 9935792|Words 9935792]] || [[:Category:Non-lemma forms 9935792|Non-lemma 9935792]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-03-25 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d8945be5f782b7a3c5fdd5b3d074520cb3f0e15b d8945be] || [[:Category:Words d8945be|Words d8945be]] || [[:Category:Non-lemma forms d8945be|Non-lemma d8945be]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-03-25 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/88d00a51a8e3487f4795c655b199a0022677c3f3 88d00a5] || [[:Category:Words 88d00a5|Words 88d00a5]] || [[:Category:Non-lemma forms 88d00a5|Non-lemma 88d00a5]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-03-25 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/59ddb444fa0b1a52fb6abbc384faf0c463e7f9d6 59ddb44] || [[:Category:Words 59ddb44|Words 59ddb44]] || [[:Category:Non-lemma forms 59ddb44|Non-lemma 59ddb44]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-03-25 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/26006a2bdacd1b53fee2c7f434898f85df4743cb 26006a2] || [[:Category:Words 26006a2|Words 26006a2]] || [[:Category:Non-lemma forms 26006a2|Non-lemma 26006a2]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-03-25 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a6ea45d636ad3d3e294393d5d9494867158daaf9 a6ea45d] || [[:Category:Words a6ea45d|Words a6ea45d]] || [[:Category:Non-lemma forms a6ea45d|Non-lemma a6ea45d]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-03-26 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/dea8a941c2afd88c1935f453e7dd44569b161ef3 dea8a94] || [[:Category:Words dea8a94|Words dea8a94]] || [[:Category:Non-lemma forms dea8a94|Non-lemma dea8a94]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-03-26 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/60346bcfe39652d982db18c94e616e876aeca596 60346bc] || [[:Category:Words 60346bc|Words 60346bc]] || [[:Category:Non-lemma forms 60346bc|Non-lemma 60346bc]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-03-26 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/2d5a5f35da4ade7944780e5449d8d69f2100f348 2d5a5f3] || [[:Category:Words 2d5a5f3|Words 2d5a5f3]] || [[:Category:Non-lemma forms 2d5a5f3|Non-lemma 2d5a5f3]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-03-26 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/31d3853bdfcba7319a604d1b6820778db2e2e5ca 31d3853] || [[:Category:Words 31d3853|Words 31d3853]] || [[:Category:Non-lemma forms 31d3853|Non-lemma 31d3853]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-03-26 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/4f6272c67558d523767e12634ded80fe06a750b4 4f6272c] || [[:Category:Words 4f6272c|Words 4f6272c]] || [[:Category:Non-lemma forms 4f6272c|Non-lemma 4f6272c]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-03-26 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/3c231f3097567e9adc066891434cd7e57d75e4c3 3c231f3] || [[:Category:Words 3c231f3|Words 3c231f3]] || [[:Category:Non-lemma forms 3c231f3|Non-lemma 3c231f3]] || feat: assign noun genders based on Wiktionary uncountable category
+|-
+| 2026-03-26 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/dc69a9f1d78ae7689ea589ff11fe29a0cd1ecf56 dc69a9f] || [[:Category:Words dc69a9f|Words dc69a9f]] || [[:Category:Non-lemma forms dc69a9f|Non-lemma dc69a9f]] || fix: show all commits oldest-first in git commit log page
+|-
+| 2026-03-26 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/913a4f908cb9a18151a03d566599ade32365c445 913a4f9] || [[:Category:Words 913a4f9|Words 913a4f9]] || [[:Category:Non-lemma forms 913a4f9|Non-lemma 913a4f9]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-03-26 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/185e81bfce59e08be1b7d19b3cf4fa64b22637f0 185e81b] || [[:Category:Words 185e81b|Words 185e81b]] || [[:Category:Non-lemma forms 185e81b|Non-lemma 185e81b]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-03-26 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/1bc3390c3c7754d6357f92bf0299db317de5ea27 1bc3390] || [[:Category:Words 1bc3390|Words 1bc3390]] || [[:Category:Non-lemma forms 1bc3390|Non-lemma 1bc3390]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-03-26 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/35a086f56aab3e4e7b0c4a29226a6d879c33b872 35a086f] || [[:Category:Words 35a086f|Words 35a086f]] || [[:Category:Non-lemma forms 35a086f|Non-lemma 35a086f]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-03-26 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/bfc4f7989b51696754b5a01c74c080f616dad7ca bfc4f79] || [[:Category:Words bfc4f79|Words bfc4f79]] || [[:Category:Non-lemma forms bfc4f79|Non-lemma bfc4f79]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-03-26 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/cf3742ef083c0997e44c49c628447db38c355d61 cf3742e] || [[:Category:Words cf3742e|Words cf3742e]] || [[:Category:Non-lemma forms cf3742e|Non-lemma cf3742e]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-03-26 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/fe9eecbc07cd363337d9db20ab38b22de0f396ee fe9eecb] || [[:Category:Words fe9eecb|Words fe9eecb]] || [[:Category:Non-lemma forms fe9eecb|Non-lemma fe9eecb]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-03-26 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/330ceec45af695bf43871aaed41d961f9a039cbb 330ceec] || [[:Category:Words 330ceec|Words 330ceec]] || [[:Category:Non-lemma forms 330ceec|Non-lemma 330ceec]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-03-27 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/53d9eac341e3a7fc53c8522cf175139edf33a621 53d9eac] || [[:Category:Words 53d9eac|Words 53d9eac]] || [[:Category:Non-lemma forms 53d9eac|Non-lemma 53d9eac]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-03-27 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/5445898383901cd708f3b3e22c8079576c6a0ab0 5445898] || [[:Category:Words 5445898|Words 5445898]] || [[:Category:Non-lemma forms 5445898|Non-lemma 5445898]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-03-27 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/7e571395864b8c9dedf8e2de9520adb7ba8e2f76 7e57139] || [[:Category:Words 7e57139|Words 7e57139]] || [[:Category:Non-lemma forms 7e57139|Non-lemma 7e57139]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-03-27 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/e4b9153ff12654aa5da990820850cfc13f14d295 e4b9153] || [[:Category:Words e4b9153|Words e4b9153]] || [[:Category:Non-lemma forms e4b9153|Non-lemma e4b9153]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-03-27 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/8e676bcf408f7c91517be7411bdb107bef7dc726 8e676bc] || [[:Category:Words 8e676bc|Words 8e676bc]] || [[:Category:Non-lemma forms 8e676bc|Non-lemma 8e676bc]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-03-28 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/7856e44e07e5134adcb0c96a1e27a6fa92624d3c 7856e44] || [[:Category:Words 7856e44|Words 7856e44]] || [[:Category:Non-lemma forms 7856e44|Non-lemma 7856e44]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-03-28 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ed5025b94aa73dc3ef4f2f91f9970295582442b2 ed5025b] || [[:Category:Words ed5025b|Words ed5025b]] || [[:Category:Non-lemma forms ed5025b|Non-lemma ed5025b]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-03-28 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/0b1d02de743f70e6b0788cb94b3f439896dc708d 0b1d02d] || [[:Category:Words 0b1d02d|Words 0b1d02d]] || [[:Category:Non-lemma forms 0b1d02d|Non-lemma 0b1d02d]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-03-28 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/f70aa3151dd12e45ddaf365cc12080a0d9fe0b35 f70aa31] || [[:Category:Words f70aa31|Words f70aa31]] || [[:Category:Non-lemma forms f70aa31|Non-lemma f70aa31]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-03-28 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/dc9a6d1088b0e263362a5afd9547416a09efb19f dc9a6d1] || [[:Category:Words dc9a6d1|Words dc9a6d1]] || [[:Category:Non-lemma forms dc9a6d1|Non-lemma dc9a6d1]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-03-29 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/363ce6b627bbc85e3bad361b747a16bd8762052d 363ce6b] || [[:Category:Words 363ce6b|Words 363ce6b]] || [[:Category:Non-lemma forms 363ce6b|Non-lemma 363ce6b]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-03-29 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/5390c6aea365567d3a17c6727f0285cb2e75b27d 5390c6a] || [[:Category:Words 5390c6a|Words 5390c6a]] || [[:Category:Non-lemma forms 5390c6a|Non-lemma 5390c6a]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-03-29 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/0426d57d0b929a07362af669e08cbd353f557b9c 0426d57] || [[:Category:Words 0426d57|Words 0426d57]] || [[:Category:Non-lemma forms 0426d57|Non-lemma 0426d57]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-03-29 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/2617b48e66aad8247daa8d3dd8d9a6ecc6a8fe06 2617b48] || [[:Category:Words 2617b48|Words 2617b48]] || [[:Category:Non-lemma forms 2617b48|Non-lemma 2617b48]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-03-29 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ca8b5aea6029159d0f890534a83b433ca4b51ff5 ca8b5ae] || [[:Category:Words ca8b5ae|Words ca8b5ae]] || [[:Category:Non-lemma forms ca8b5ae|Non-lemma ca8b5ae]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-03-30 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/09615063abd007e9b7c586b096626762aad12ae4 0961506] || [[:Category:Words 0961506|Words 0961506]] || [[:Category:Non-lemma forms 0961506|Non-lemma 0961506]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-03-30 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a27364fbff1d72d399be7518549efea9e9e18649 a27364f] || [[:Category:Words a27364f|Words a27364f]] || [[:Category:Non-lemma forms a27364f|Non-lemma a27364f]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-03-30 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ecda5eaa1aa735a061f8f85136df3d8ca7403ff7 ecda5ea] || [[:Category:Words ecda5ea|Words ecda5ea]] || [[:Category:Non-lemma forms ecda5ea|Non-lemma ecda5ea]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-03-30 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/5b2935739de178a68ecd737faf0bea385193e58d 5b29357] || [[:Category:Words 5b29357|Words 5b29357]] || [[:Category:Non-lemma forms 5b29357|Non-lemma 5b29357]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-03-30 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/4d2a44dc4abbca17d59507df57193a01d398406d 4d2a44d] || [[:Category:Words 4d2a44d|Words 4d2a44d]] || [[:Category:Non-lemma forms 4d2a44d|Non-lemma 4d2a44d]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-03-31 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/0c0f3f946b66655ef3e2d9b8078e87700bfae72b 0c0f3f9] || [[:Category:Words 0c0f3f9|Words 0c0f3f9]] || [[:Category:Non-lemma forms 0c0f3f9|Non-lemma 0c0f3f9]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-03-31 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/92df33cc1a049f6b196aaeef40207aead9f28a4a 92df33c] || [[:Category:Words 92df33c|Words 92df33c]] || [[:Category:Non-lemma forms 92df33c|Non-lemma 92df33c]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-03-31 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/5c9445b710452ca90d52da6cbbc46afc88eaed3f 5c9445b] || [[:Category:Words 5c9445b|Words 5c9445b]] || [[:Category:Non-lemma forms 5c9445b|Non-lemma 5c9445b]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-03-31 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ef842b5e33272150a6788dd31a8ba1ffc0cf01a1 ef842b5] || [[:Category:Words ef842b5|Words ef842b5]] || [[:Category:Non-lemma forms ef842b5|Non-lemma ef842b5]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-03-31 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/45b2ce397e0b408b2da6fb7871795afbe052b45f 45b2ce3] || [[:Category:Words 45b2ce3|Words 45b2ce3]] || [[:Category:Non-lemma forms 45b2ce3|Non-lemma 45b2ce3]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-01 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/2f3f1f88dbcc8f04100a60bf7e611bdabce87d9c 2f3f1f8] || [[:Category:Words 2f3f1f8|Words 2f3f1f8]] || [[:Category:Non-lemma forms 2f3f1f8|Non-lemma 2f3f1f8]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-01 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/691fcb17c5557e6157a435c647d5d4b90696d470 691fcb1] || [[:Category:Words 691fcb1|Words 691fcb1]] || [[:Category:Non-lemma forms 691fcb1|Non-lemma 691fcb1]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-01 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/09e1a96d25ad988ec934b2e8a040bc171b0d9d54 09e1a96] || [[:Category:Words 09e1a96|Words 09e1a96]] || [[:Category:Non-lemma forms 09e1a96|Non-lemma 09e1a96]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-01 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/5f69f3067a757c7d50fa9f041099ce6620a88ff8 5f69f30] || [[:Category:Words 5f69f30|Words 5f69f30]] || [[:Category:Non-lemma forms 5f69f30|Non-lemma 5f69f30]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-01 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d2fe940a0f5813c77dbf1012767ba04d38738c96 d2fe940] || [[:Category:Words d2fe940|Words d2fe940]] || [[:Category:Non-lemma forms d2fe940|Non-lemma d2fe940]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-02 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a7196c8b5abd90518b3ebb9bbcf57e7d4fd34f72 a7196c8] || [[:Category:Words a7196c8|Words a7196c8]] || [[:Category:Non-lemma forms a7196c8|Non-lemma a7196c8]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-02 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/718161e9ce59c1d4d0758ab4f3a4e4ac4e358578 718161e] || [[:Category:Words 718161e|Words 718161e]] || [[:Category:Non-lemma forms 718161e|Non-lemma 718161e]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-02 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/e7d07d0c57600324eeb974c4b42d753ec4e37727 e7d07d0] || [[:Category:Words e7d07d0|Words e7d07d0]] || [[:Category:Non-lemma forms e7d07d0|Non-lemma e7d07d0]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-02 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/573f981bbde9b29febbff424b449818662e63160 573f981] || [[:Category:Words 573f981|Words 573f981]] || [[:Category:Non-lemma forms 573f981|Non-lemma 573f981]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-02 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d5433473c8eefa24d2c7530e8767edcbd222aed3 d543347] || [[:Category:Words d543347|Words d543347]] || [[:Category:Non-lemma forms d543347|Non-lemma d543347]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/0390e55186cc530d9207206e279c45867e193074 0390e55] || [[:Category:Words 0390e55|Words 0390e55]] || [[:Category:Non-lemma forms 0390e55|Non-lemma 0390e55]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/c715ec1c613788618b5162629b288f39b2504d52 c715ec1] || [[:Category:Words c715ec1|Words c715ec1]] || [[:Category:Non-lemma forms c715ec1|Non-lemma c715ec1]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/6f7c5558e0146ca303cb0307835480b4fc0d94a1 6f7c555] || [[:Category:Words 6f7c555|Words 6f7c555]] || [[:Category:Non-lemma forms 6f7c555|Non-lemma 6f7c555]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/71f7cca746e20904fb333187eba3dba03a2ae6ed 71f7cca] || [[:Category:Words 71f7cca|Words 71f7cca]] || [[:Category:Non-lemma forms 71f7cca|Non-lemma 71f7cca]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-03 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/0bd4b812eb42a455a082e019011b0a241e3294d4 0bd4b81] || [[:Category:Words 0bd4b81|Words 0bd4b81]] || [[:Category:Non-lemma forms 0bd4b81|Non-lemma 0bd4b81]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-04 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/265ac25b0656f06240476e99c30a8fb4cd60e0bc 265ac25] || [[:Category:Words 265ac25|Words 265ac25]] || [[:Category:Non-lemma forms 265ac25|Non-lemma 265ac25]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-04 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/46bbfe2aa46a1b1d504512e52774cbe4f42b45b0 46bbfe2] || [[:Category:Words 46bbfe2|Words 46bbfe2]] || [[:Category:Non-lemma forms 46bbfe2|Non-lemma 46bbfe2]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-04 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/34ddf0ce16aeb4c027601e4524072d694125e3c3 34ddf0c] || [[:Category:Words 34ddf0c|Words 34ddf0c]] || [[:Category:Non-lemma forms 34ddf0c|Non-lemma 34ddf0c]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-04 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/eeb0f7e11d933c23844a48b10eed90063594ea31 eeb0f7e] || [[:Category:Words eeb0f7e|Words eeb0f7e]] || [[:Category:Non-lemma forms eeb0f7e|Non-lemma eeb0f7e]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-04 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/961961ac210429749e6356ce037990b0051d4544 961961a] || [[:Category:Words 961961a|Words 961961a]] || [[:Category:Non-lemma forms 961961a|Non-lemma 961961a]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/1d711dc099f82c2c38382134a54121602afcc82e 1d711dc] || [[:Category:Words 1d711dc|Words 1d711dc]] || [[:Category:Non-lemma forms 1d711dc|Non-lemma 1d711dc]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d2c7592af86ad3bfb9078b4b0c1af4192a609e9a d2c7592] || [[:Category:Words d2c7592|Words d2c7592]] || [[:Category:Non-lemma forms d2c7592|Non-lemma d2c7592]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/4e95b685bab92e6f7d0569603a5a964b9aab6aa9 4e95b68] || [[:Category:Words 4e95b68|Words 4e95b68]] || [[:Category:Non-lemma forms 4e95b68|Non-lemma 4e95b68]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/e8d138a01de2d0b4f7a671985ab2e773873aedac e8d138a] || [[:Category:Words e8d138a|Words e8d138a]] || [[:Category:Non-lemma forms e8d138a|Non-lemma e8d138a]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/8f165cc429e96c8c12ed6c4e325c102a091dde27 8f165cc] || [[:Category:Words 8f165cc|Words 8f165cc]] || [[:Category:Non-lemma forms 8f165cc|Non-lemma 8f165cc]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/9dc77ccf0540fcf9625ce51b7889f9a16cab10cf 9dc77cc] || [[:Category:Words 9dc77cc|Words 9dc77cc]] || [[:Category:Non-lemma forms 9dc77cc|Non-lemma 9dc77cc]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/654f723e0849dce6316556f666d532a573eb62bb 654f723] || [[:Category:Words 654f723|Words 654f723]] || [[:Category:Non-lemma forms 654f723|Non-lemma 654f723]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/9af39f3d0e9684603a0d7210e4b43b86cc6cb9e1 9af39f3] || [[:Category:Words 9af39f3|Words 9af39f3]] || [[:Category:Non-lemma forms 9af39f3|Non-lemma 9af39f3]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/36421706b531ca47c2aa0471e3ff551d37a88fea 3642170] || [[:Category:Words 3642170|Words 3642170]] || [[:Category:Non-lemma forms 3642170|Non-lemma 3642170]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/04a80b67b0598fa7ba775a13d1362d63ffb51935 04a80b6] || [[:Category:Words 04a80b6|Words 04a80b6]] || [[:Category:Non-lemma forms 04a80b6|Non-lemma 04a80b6]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-07 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/de042953e709c040e8bc2e72e9f3e05d1c1f9510 de04295] || [[:Category:Words de04295|Words de04295]] || [[:Category:Non-lemma forms de04295|Non-lemma de04295]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-07 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/1f1e26d3fbc18ec6ca3645ae22d3a0c96110a20e 1f1e26d] || [[:Category:Words 1f1e26d|Words 1f1e26d]] || [[:Category:Non-lemma forms 1f1e26d|Non-lemma 1f1e26d]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-07 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a1f68f84413c2c255a8d6c7c4db86f718e780c77 a1f68f8] || [[:Category:Words a1f68f8|Words a1f68f8]] || [[:Category:Non-lemma forms a1f68f8|Non-lemma a1f68f8]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-07 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/f311604611e81e319b19e152d1aa008557eff6c3 f311604] || [[:Category:Words f311604|Words f311604]] || [[:Category:Non-lemma forms f311604|Non-lemma f311604]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-07 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/32be60fda1002b31efb66ce865bb4d30609bf4ce 32be60f] || [[:Category:Words 32be60f|Words 32be60f]] || [[:Category:Non-lemma forms 32be60f|Non-lemma 32be60f]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/df098f826592e24934a13944a089159c2f592288 df098f8] || [[:Category:Words df098f8|Words df098f8]] || [[:Category:Non-lemma forms df098f8|Non-lemma df098f8]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/806ef69db736a5553070a7a6c85bcfbcaa126d0b 806ef69] || [[:Category:Words 806ef69|Words 806ef69]] || [[:Category:Non-lemma forms 806ef69|Non-lemma 806ef69]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/19d5d2d6a6c5abaa9123433cca46d7c470c3cddb 19d5d2d] || [[:Category:Words 19d5d2d|Words 19d5d2d]] || [[:Category:Non-lemma forms 19d5d2d|Non-lemma 19d5d2d]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/7ad871c1dc2898b05e4269caf83fa87c195874ad 7ad871c] || [[:Category:Words 7ad871c|Words 7ad871c]] || [[:Category:Non-lemma forms 7ad871c|Non-lemma 7ad871c]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-08 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/34081281e62e26e72d942e17ec1dcd4e3db0e4b3 3408128] || [[:Category:Words 3408128|Words 3408128]] || [[:Category:Non-lemma forms 3408128|Non-lemma 3408128]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/5af3b8282e06cb7c7bcccb0c69721af9edabf18a 5af3b82] || [[:Category:Words 5af3b82|Words 5af3b82]] || [[:Category:Non-lemma forms 5af3b82|Non-lemma 5af3b82]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/0c0cba0a5d7da9e9f0ef42e7c7ddad59644c5f0a 0c0cba0] || [[:Category:Words 0c0cba0|Words 0c0cba0]] || [[:Category:Non-lemma forms 0c0cba0|Non-lemma 0c0cba0]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d41437815928fd28c65a938a114611fe740683c7 d414378] || [[:Category:Words d414378|Words d414378]] || [[:Category:Non-lemma forms d414378|Non-lemma d414378]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a134370b499499d5c3bb2b483053d0198b3dc6c2 a134370] || [[:Category:Words a134370|Words a134370]] || [[:Category:Non-lemma forms a134370|Non-lemma a134370]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-09 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/4782fab8e6d6ba1e84c7154effa019de0136c1ac 4782fab] || [[:Category:Words 4782fab|Words 4782fab]] || [[:Category:Non-lemma forms 4782fab|Non-lemma 4782fab]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-10 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/698dc1a5f38d8a7e313223e2b5ce8c616175509d 698dc1a] || [[:Category:Words 698dc1a|Words 698dc1a]] || [[:Category:Non-lemma forms 698dc1a|Non-lemma 698dc1a]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-10 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/27df60fcc12a7032251c2b4a300f8173f8915c48 27df60f] || [[:Category:Words 27df60f|Words 27df60f]] || [[:Category:Non-lemma forms 27df60f|Non-lemma 27df60f]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-10 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/bf0f2e62685477165ba46edd18ca969031799827 bf0f2e6] || [[:Category:Words bf0f2e6|Words bf0f2e6]] || [[:Category:Non-lemma forms bf0f2e6|Non-lemma bf0f2e6]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-10 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/2fae2233abaa9f7230f68f852aec24333993f0a6 2fae223] || [[:Category:Words 2fae223|Words 2fae223]] || [[:Category:Non-lemma forms 2fae223|Non-lemma 2fae223]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-10 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/5a38e85a07d018c6c5651700f692f19cc6160691 5a38e85] || [[:Category:Words 5a38e85|Words 5a38e85]] || [[:Category:Non-lemma forms 5a38e85|Non-lemma 5a38e85]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-11 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/1dcf4f26806af541ce4d63fce5267459cbec80f7 1dcf4f2] || [[:Category:Words 1dcf4f2|Words 1dcf4f2]] || [[:Category:Non-lemma forms 1dcf4f2|Non-lemma 1dcf4f2]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-11 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/e6a8a0bd1296a66c8becf68acef43458ba5f272b e6a8a0b] || [[:Category:Words e6a8a0b|Words e6a8a0b]] || [[:Category:Non-lemma forms e6a8a0b|Non-lemma e6a8a0b]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-11 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/c10ad1e4613282b2584ee930225e7bdedda7c55f c10ad1e] || [[:Category:Words c10ad1e|Words c10ad1e]] || [[:Category:Non-lemma forms c10ad1e|Non-lemma c10ad1e]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-11 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/2077c72786161ead0680834108fa685ad5c790c1 2077c72] || [[:Category:Words 2077c72|Words 2077c72]] || [[:Category:Non-lemma forms 2077c72|Non-lemma 2077c72]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-11 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/3e69f738d92a1b0525b33721ba4637b6327e76a0 3e69f73] || [[:Category:Words 3e69f73|Words 3e69f73]] || [[:Category:Non-lemma forms 3e69f73|Non-lemma 3e69f73]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-12 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/b5a87441521bf7a27ec8643fe6f0cb68e8eed76f b5a8744] || [[:Category:Words b5a8744|Words b5a8744]] || [[:Category:Non-lemma forms b5a8744|Non-lemma b5a8744]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-12 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/4a6dc7794539d0ececb1b79665d3e649452ba200 4a6dc77] || [[:Category:Words 4a6dc77|Words 4a6dc77]] || [[:Category:Non-lemma forms 4a6dc77|Non-lemma 4a6dc77]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-12 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d794aa7f07e6de510b2f703c9cccb58000b26fd4 d794aa7] || [[:Category:Words d794aa7|Words d794aa7]] || [[:Category:Non-lemma forms d794aa7|Non-lemma d794aa7]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-12 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/48ffe49483a9db4322d189321132b2aa1c4ed792 48ffe49] || [[:Category:Words 48ffe49|Words 48ffe49]] || [[:Category:Non-lemma forms 48ffe49|Non-lemma 48ffe49]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-12 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/c19b0e9ad24910fc395358ef992aec73ada38310 c19b0e9] || [[:Category:Words c19b0e9|Words c19b0e9]] || [[:Category:Non-lemma forms c19b0e9|Non-lemma c19b0e9]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-13 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a10b1352608670fe32ec93b6f92f84bddacf3ef0 a10b135] || [[:Category:Words a10b135|Words a10b135]] || [[:Category:Non-lemma forms a10b135|Non-lemma a10b135]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-13 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/0c91cecc8cb7aa313396d5fb2270a990e6be5fc8 0c91cec] || [[:Category:Words 0c91cec|Words 0c91cec]] || [[:Category:Non-lemma forms 0c91cec|Non-lemma 0c91cec]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-13 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/68bb515c29dd4716555b4adc9772b9c93e35981d 68bb515] || [[:Category:Words 68bb515|Words 68bb515]] || [[:Category:Non-lemma forms 68bb515|Non-lemma 68bb515]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-13 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/153f0fade91e18fdc07f6267e3e3c132829afa52 153f0fa] || [[:Category:Words 153f0fa|Words 153f0fa]] || [[:Category:Non-lemma forms 153f0fa|Non-lemma 153f0fa]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-13 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/fa94657a904c3c07b82b248d3ce1702f141e3c75 fa94657] || [[:Category:Words fa94657|Words fa94657]] || [[:Category:Non-lemma forms fa94657|Non-lemma fa94657]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-14 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/fa871ab815befd9f285ba7d26ae56444f8b3bdf3 fa871ab] || [[:Category:Words fa871ab|Words fa871ab]] || [[:Category:Non-lemma forms fa871ab|Non-lemma fa871ab]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-14 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a6f1c69600a63c78504de4192cfb4d9ffb6a2099 a6f1c69] || [[:Category:Words a6f1c69|Words a6f1c69]] || [[:Category:Non-lemma forms a6f1c69|Non-lemma a6f1c69]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-14 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a9ce1a4229e011eda62971925fe1b263dc6c3962 a9ce1a4] || [[:Category:Words a9ce1a4|Words a9ce1a4]] || [[:Category:Non-lemma forms a9ce1a4|Non-lemma a9ce1a4]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-14 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d3101865e1c432ce843755788b8c70f556a94bc5 d310186] || [[:Category:Words d310186|Words d310186]] || [[:Category:Non-lemma forms d310186|Non-lemma d310186]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-14 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/50397963660ded5cf86ac34192a0a92c2d7a6641 5039796] || [[:Category:Words 5039796|Words 5039796]] || [[:Category:Non-lemma forms 5039796|Non-lemma 5039796]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-15 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/05b1f1ee77ddc5300f18ba93fe0e6995f57c357c 05b1f1e] || [[:Category:Words 05b1f1e|Words 05b1f1e]] || [[:Category:Non-lemma forms 05b1f1e|Non-lemma 05b1f1e]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-15 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/59e8839758153b877d86e57eff4a5c2ae5c3884f 59e8839] || [[:Category:Words 59e8839|Words 59e8839]] || [[:Category:Non-lemma forms 59e8839|Non-lemma 59e8839]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-15 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/f86f838cc7667e431191626ef631d8c90cf98855 f86f838] || [[:Category:Words f86f838|Words f86f838]] || [[:Category:Non-lemma forms f86f838|Non-lemma f86f838]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-15 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/86a190ec74ac74f6d2c8909f27ccd7af3f1d1f8f 86a190e] || [[:Category:Words 86a190e|Words 86a190e]] || [[:Category:Non-lemma forms 86a190e|Non-lemma 86a190e]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-15 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/1bcf38c10bf6a97e0a41fea5c3762b11ca2decda 1bcf38c] || [[:Category:Words 1bcf38c|Words 1bcf38c]] || [[:Category:Non-lemma forms 1bcf38c|Non-lemma 1bcf38c]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-16 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/7618e6be3510e88ca21be998660543822addd42a 7618e6b] || [[:Category:Words 7618e6b|Words 7618e6b]] || [[:Category:Non-lemma forms 7618e6b|Non-lemma 7618e6b]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-16 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/c2e237e16f9ace6faf5b9453be76ba3c9911abb7 c2e237e] || [[:Category:Words c2e237e|Words c2e237e]] || [[:Category:Non-lemma forms c2e237e|Non-lemma c2e237e]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-16 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/aa7087f5b91b8bf898ec3ef1861c29c4b2eed922 aa7087f] || [[:Category:Words aa7087f|Words aa7087f]] || [[:Category:Non-lemma forms aa7087f|Non-lemma aa7087f]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-16 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/67db2cec58cd772757719ecb5aa527c0a18dc5c0 67db2ce] || [[:Category:Words 67db2ce|Words 67db2ce]] || [[:Category:Non-lemma forms 67db2ce|Non-lemma 67db2ce]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-16 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/493dfaf97a090665ee4db6623d21d9246596e0d3 493dfaf] || [[:Category:Words 493dfaf|Words 493dfaf]] || [[:Category:Non-lemma forms 493dfaf|Non-lemma 493dfaf]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-17 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/6dd99f42eb61ff5266121a9a23af1dfacee6352d 6dd99f4] || [[:Category:Words 6dd99f4|Words 6dd99f4]] || [[:Category:Non-lemma forms 6dd99f4|Non-lemma 6dd99f4]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-17 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d0c3b9f6dd6f32d3b7193dbcac27f741e9d1e1ca d0c3b9f] || [[:Category:Words d0c3b9f|Words d0c3b9f]] || [[:Category:Non-lemma forms d0c3b9f|Non-lemma d0c3b9f]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-17 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a311c147e90fa6a2f2b9eeab02a83a837335a351 a311c14] || [[:Category:Words a311c14|Words a311c14]] || [[:Category:Non-lemma forms a311c14|Non-lemma a311c14]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-17 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/3624edbe050478419bd0ee072d7d7011b2d3b02c 3624edb] || [[:Category:Words 3624edb|Words 3624edb]] || [[:Category:Non-lemma forms 3624edb|Non-lemma 3624edb]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-17 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/1b8f35cd4762b47338b7c9643ddf364ab491ee5b 1b8f35c] || [[:Category:Words 1b8f35c|Words 1b8f35c]] || [[:Category:Non-lemma forms 1b8f35c|Non-lemma 1b8f35c]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-17 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/0fc0a2bddfa34e5111d596be465b0d6aeb6956bb 0fc0a2b] || [[:Category:Words 0fc0a2b|Words 0fc0a2b]] || [[:Category:Non-lemma forms 0fc0a2b|Non-lemma 0fc0a2b]] || feat(wiki): centralize write rate limiting
+|-
+| 2026-04-17 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/05603aa5f27cec66030560c4ade0ae8ff7131183 05603aa] || [[:Category:Words 05603aa|Words 05603aa]] || [[:Category:Non-lemma forms 05603aa|Non-lemma 05603aa]] || feat(wiki): daily creation budget, orphan cleanup gating, Adpositions link
+|-
+| 2026-04-17 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a3f2e6ce1cd1e0a0bde6ac3f26c6a62370f018ba a3f2e6c] || [[:Category:Words a3f2e6c|Words a3f2e6c]] || [[:Category:Non-lemma forms a3f2e6c|Non-lemma a3f2e6c]] || fix(wiki): keep git-synced pages out of Category:Created from Wanted Pages
+|-
+| 2026-04-17 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/392b5c351ad7409b29f886a6431a40c8d72425d4 392b5c3] || [[:Category:Words 392b5c3|Words 392b5c3]] || [[:Category:Non-lemma forms 392b5c3|Non-lemma 392b5c3]] || Merge pull request #5 from EmmaLeonhart/claude/add-rate-limiting-yUOma
+|-
+| 2026-04-17 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/057f3b854fe5d92310a6d32171992f3f91afb763 057f3b8] || [[:Category:Words 057f3b8|Words 057f3b8]] || [[:Category:Non-lemma forms 057f3b8|Non-lemma 057f3b8]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-17 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/2edd4952281639a6298da873884f8b02fd9aeb65 2edd495] || [[:Category:Words 2edd495|Words 2edd495]] || [[:Category:Non-lemma forms 2edd495|Non-lemma 2edd495]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-17 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/2df921062bdee64c05d50d717fc6d1188c56de20 2df9210] || [[:Category:Words 2df9210|Words 2df9210]] || [[:Category:Non-lemma forms 2df9210|Non-lemma 2df9210]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-17 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/48acf537acaad3b87f51e263ff17cdb009fbc8ec 48acf53] || [[:Category:Words 48acf53|Words 48acf53]] || [[:Category:Non-lemma forms 48acf53|Non-lemma 48acf53]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-17 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/563ba81a483d67cec30f0e44661cd77e76cf6bd9 563ba81] || [[:Category:Words 563ba81|Words 563ba81]] || [[:Category:Non-lemma forms 563ba81|Non-lemma 563ba81]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-17 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/41a9634eb271b48c53c01c04048e890b8ba73902 41a9634] || [[:Category:Words 41a9634|Words 41a9634]] || [[:Category:Non-lemma forms 41a9634|Non-lemma 41a9634]] || chore(state): post-grammar-sync [skip ci]
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/092a8fa04a1d2f845512fdf6ad8fe807ac486521 092a8fa] || [[:Category:Words 092a8fa|Words 092a8fa]] || [[:Category:Non-lemma forms 092a8fa|Non-lemma 092a8fa]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/386eaa09d9dd54d60c9f53f56de8a3541a945f0d 386eaa0] || [[:Category:Words 386eaa0|Words 386eaa0]] || [[:Category:Non-lemma forms 386eaa0|Non-lemma 386eaa0]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/27acfc93be31273f55c3e53de0e45dd39b342e4c 27acfc9] || [[:Category:Words 27acfc9|Words 27acfc9]] || [[:Category:Non-lemma forms 27acfc9|Non-lemma 27acfc9]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/89607509da3b0a8e3c70caff916a880a80e94ad7 8960750] || [[:Category:Words 8960750|Words 8960750]] || [[:Category:Non-lemma forms 8960750|Non-lemma 8960750]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/088d61ce4848faea346d78b8f908a874d0d2d395 088d61c] || [[:Category:Words 088d61c|Words 088d61c]] || [[:Category:Non-lemma forms 088d61c|Non-lemma 088d61c]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-17 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/7d16fbdcc23c78fefb0df2bf2c5728b7cbb15ca1 7d16fbd] || [[:Category:Words 7d16fbd|Words 7d16fbd]] || [[:Category:Non-lemma forms 7d16fbd|Non-lemma 7d16fbd]] || Update sync_grammar_pages.py
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ca25e5d933fa7f1af2cdfd8c92ab3ec73865e2d2 ca25e5d] || [[:Category:Words ca25e5d|Words ca25e5d]] || [[:Category:Non-lemma forms ca25e5d|Non-lemma ca25e5d]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/91d6f4e27e165f458645fea445173fe2c7c28436 91d6f4e] || [[:Category:Words 91d6f4e|Words 91d6f4e]] || [[:Category:Non-lemma forms 91d6f4e|Non-lemma 91d6f4e]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/4ac78c5982b1e4259d59c96ff6c839b51ce1fc7c 4ac78c5] || [[:Category:Words 4ac78c5|Words 4ac78c5]] || [[:Category:Non-lemma forms 4ac78c5|Non-lemma 4ac78c5]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/58c01386d048f44b13fbf521fe21832aa4adc7c5 58c0138] || [[:Category:Words 58c0138|Words 58c0138]] || [[:Category:Non-lemma forms 58c0138|Non-lemma 58c0138]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/9f6da765a5fe0d09b325913d3d0eb7758a58e87e 9f6da76] || [[:Category:Words 9f6da76|Words 9f6da76]] || [[:Category:Non-lemma forms 9f6da76|Non-lemma 9f6da76]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-17 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/f589ea51fc2d53e2386bf2bc3ab5a168eb2f7067 f589ea5] || [[:Category:Words f589ea5|Words f589ea5]] || [[:Category:Non-lemma forms f589ea5|Non-lemma f589ea5]] || Update settings.local.json
+|-
+| 2026-04-17 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/7792879774ee7837e9b68b4bb918c64569252547 7792879] || [[:Category:Words 7792879|Words 7792879]] || [[:Category:Non-lemma forms 7792879|Non-lemma 7792879]] || Create scheduled_tasks.lock
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/cca524d8a8894474e690f969d25ce8271501bef3 cca524d] || [[:Category:Words cca524d|Words cca524d]] || [[:Category:Non-lemma forms cca524d|Non-lemma cca524d]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/73187187b283db917fccc1d25b653124514a25ad 7318718] || [[:Category:Words 7318718|Words 7318718]] || [[:Category:Non-lemma forms 7318718|Non-lemma 7318718]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/5ea25566a55343b0b3fd1e98a6a9a28fd9fd00a3 5ea2556] || [[:Category:Words 5ea2556|Words 5ea2556]] || [[:Category:Non-lemma forms 5ea2556|Non-lemma 5ea2556]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/8692abf23181296a5f9c2b1eab5c439a7584cea8 8692abf] || [[:Category:Words 8692abf|Words 8692abf]] || [[:Category:Non-lemma forms 8692abf|Non-lemma 8692abf]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/51f70f735d21eba4f0aee99aefc48e0abb714299 51f70f7] || [[:Category:Words 51f70f7|Words 51f70f7]] || [[:Category:Non-lemma forms 51f70f7|Non-lemma 51f70f7]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/4d8692e0a7a774b0402d9bbad473cbc9c58539c0 4d8692e] || [[:Category:Words 4d8692e|Words 4d8692e]] || [[:Category:Non-lemma forms 4d8692e|Non-lemma 4d8692e]] || Update sync_grammar_pages.py
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/786da5a0098911b430cccf033d7744b232511632 786da5a] || [[:Category:Words 786da5a|Words 786da5a]] || [[:Category:Non-lemma forms 786da5a|Non-lemma 786da5a]] || Update settings.local.json
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/fdc767cdf063061d52ebfc501daa6d0129bda3a6 fdc767c] || [[:Category:Words fdc767c|Words fdc767c]] || [[:Category:Non-lemma forms fdc767c|Non-lemma fdc767c]] || docs(worldbuilding): rewrite Ringworld culture building page
+|-
+| 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/4ec96928e07718362e267a18444eefc99979161f 4ec9692] || [[:Category:Words 4ec9692|Words 4ec9692]] || [[:Category:Non-lemma forms 4ec9692|Non-lemma 4ec9692]] || chore(state): rebuild version history from git log [skip ci]
+|}
+
+[[Category:git synced pages]]
