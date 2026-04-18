@@ -48,6 +48,20 @@ STATE_FILE = os.path.join(GRAMMAR_DIR, "_sync_state.json")
 CATEGORY = "Aelaki grammar"
 SYNC_CATEGORY = "git synced pages"
 
+# Titles we will never sync, regardless of which category surfaced them.
+# Word:/Lexeme:/Item:/Property: pages are generated and managed by the
+# word-page and Wikibase pipelines; pulling them into grammar/ was what
+# turned an 8-minute sync step into a multi-hour mass download after a
+# user tagged [[Category:Ringworld]] (which contains thousands of Word:
+# pages) with [[Category:git synced pages]].
+_TITLE_SKIP_PREFIXES = ("Word:", "Lexeme:", "Item:", "Property:")
+
+# Hard cap on how many pages a single pull is allowed to touch. If the
+# category walk exceeds this, something has gone wrong (usually recursion
+# into an unrelated category tree) and we abort rather than commit a huge
+# spurious changeset.
+_PULL_PAGE_CAP = 500
+
 # Git-synced pages are authored locally; they must never carry the
 # wanted-pages stub category. If a stub was ever pulled into a local file
 # (e.g. before create_wanted_pages.py learned to skip synced titles), strip
@@ -151,12 +165,20 @@ def iter_category_with_revisions(site, category_name: str, namespaces: str = "0|
 
 
 def walk_category(site, category_name: str, seen: set[str] | None = None,
-                  namespaces: str = "0|14") -> dict[str, tuple[int, int, str]]:
-    """Recursively collect every page below a category.
+                  namespaces: str = "0|14", recurse: bool = True,
+                  cap: int = _PULL_PAGE_CAP) -> dict[str, tuple[int, int, str]]:
+    """Collect pages below a category.
 
-    Returns a dict mapping title -> (ns, revid, text). Subcategories are
-    descended into; the subcategory page itself is also kept so category
-    descriptions stay in sync.
+    Returns a dict mapping title -> (ns, revid, text). When ``recurse`` is
+    true, subcategories are descended into and their pages are included
+    too; the subcategory page itself is also kept so category descriptions
+    stay in sync.
+
+    Titles whose prefix matches ``_TITLE_SKIP_PREFIXES`` are dropped so
+    tagging a broad parent category with ``[[Category:git synced pages]]``
+    cannot drag in thousands of generated word/lexeme pages. The hard cap
+    is an additional safety net: if more than ``cap`` pages are collected
+    we raise, because the sync was never meant to download whole namespaces.
     """
     if seen is None:
         seen = set()
@@ -167,10 +189,20 @@ def walk_category(site, category_name: str, seen: set[str] | None = None,
     collected: dict[str, tuple[int, int, str]] = {}
     for title, ns, revid, text in iter_category_with_revisions(
             site, category_name, namespaces=namespaces):
+        if title.startswith(_TITLE_SKIP_PREFIXES):
+            continue
         collected[title] = (ns, revid, text)
-        if ns == 14:
+        if len(collected) > cap:
+            raise RuntimeError(
+                f"Category walk of [[Category:{category_name}]] exceeded "
+                f"{cap} pages — refusing to continue. Likely cause: a broad "
+                f"parent category was tagged for sync. Fix by untagging or "
+                f"narrowing the category."
+            )
+        if recurse and ns == 14:
             sub_name = title.split(":", 1)[1] if ":" in title else title
-            collected.update(walk_category(site, sub_name, seen, namespaces))
+            collected.update(walk_category(
+                site, sub_name, seen, namespaces, recurse=True, cap=cap))
     return collected
 
 
@@ -188,8 +220,12 @@ def pull(site, state: dict, verbose: bool = True) -> int:
     Returns number of files updated.
     """
     os.makedirs(GRAMMAR_DIR, exist_ok=True)
-    collected = walk_category(site, CATEGORY)
-    collected.update(walk_category(site, SYNC_CATEGORY))
+    # Grammar tree: recurse (small, well-known set of subcategories).
+    # Sync-tag category: do NOT recurse — subcategory contents are not
+    # implicitly owned by the sync, and recursing there is what caused the
+    # Ringworld-category mass-pull incident.
+    collected = walk_category(site, CATEGORY, recurse=True)
+    collected.update(walk_category(site, SYNC_CATEGORY, recurse=False))
     if not collected:
         print("No pages found in Category:Aelaki grammar or Category:git synced pages.")
         return 0
