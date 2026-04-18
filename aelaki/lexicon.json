@@ -86482,6 +86482,106 @@
       "class": "adjective",
       "gloss": "yogist (auto-generated)",
       "citation_form": "sofabaka"
+    },
+    "vlzh": {
+      "root": [
+        "v",
+        "l",
+        "zh"
+      ],
+      "class": "adjective",
+      "gloss": "kaftaned (auto-generated)",
+      "citation_form": "volazhaka"
+    },
+    "chwh": {
+      "root": [
+        "ch",
+        "w",
+        "h"
+      ],
+      "class": "adjective",
+      "gloss": "kaersutitic (auto-generated)",
+      "citation_form": "chowahaka"
+    },
+    "sgn": {
+      "root": [
+        "s",
+        "g",
+        "n"
+      ],
+      "class": "adjective",
+      "gloss": "kaily (auto-generated)",
+      "citation_form": "soganaka"
+    },
+    "chdhz": {
+      "root": [
+        "ch",
+        "dh",
+        "z"
+      ],
+      "class": "adjective",
+      "gloss": "kaftanned (auto-generated)",
+      "citation_form": "chodhazaka"
+    },
+    "shzw": {
+      "root": [
+        "sh",
+        "z",
+        "w"
+      ],
+      "class": "adjective",
+      "gloss": "kaalgat (auto-generated)",
+      "citation_form": "shozawaka"
+    },
+    "gngf": {
+      "root": [
+        "g",
+        "ng",
+        "f"
+      ],
+      "class": "adjective",
+      "gloss": "kabukiesque (auto-generated)",
+      "citation_form": "gongafaka"
+    },
+    "nzw": {
+      "root": [
+        "n",
+        "z",
+        "w"
+      ],
+      "class": "adjective",
+      "gloss": "kainic (auto-generated)",
+      "citation_form": "nozawaka"
+    },
+    "pkv": {
+      "root": [
+        "p",
+        "k",
+        "v"
+      ],
+      "class": "adjective",
+      "gloss": "jyngine (auto-generated)",
+      "citation_form": "pokavaka"
+    },
+    "thgm": {
+      "root": [
+        "th",
+        "g",
+        "m"
+      ],
+      "class": "adjective",
+      "gloss": "kaftanlike (auto-generated)",
+      "citation_form": "thogamaka"
+    },
+    "gdf": {
+      "root": [
+        "g",
+        "d",
+        "f"
+      ],
+      "class": "adjective",
+      "gloss": "kabbalistic (auto-generated)",
+      "citation_form": "godafaka"
     }
   },
   "adverbs": {
@@ -95473,6 +95573,106 @@
       "class": "adverb",
       "gloss": "roentgenologically (auto-generated)",
       "citation_form": "chayate"
+    },
+    "lbn": {
+      "root": [
+        "l",
+        "b",
+        "n"
+      ],
+      "class": "adverb",
+      "gloss": "muggily (auto-generated)",
+      "citation_form": "labate"
+    },
+    "vshth": {
+      "root": [
+        "v",
+        "sh",
+        "th"
+      ],
+      "class": "adverb",
+      "gloss": "muddleheadedly (auto-generated)",
+      "citation_form": "vashate"
+    },
+    "nfv": {
+      "root": [
+        "n",
+        "f",
+        "v"
+      ],
+      "class": "adverb",
+      "gloss": "muleback (auto-generated)",
+      "citation_form": "nafate"
+    },
+    "dhzth": {
+      "root": [
+        "dh",
+        "z",
+        "th"
+      ],
+      "class": "adverb",
+      "gloss": "mucho (auto-generated)",
+      "citation_form": "dhazate"
+    },
+    "fhw": {
+      "root": [
+        "f",
+        "h",
+        "w"
+      ],
+      "class": "adverb",
+      "gloss": "multigenerationally (auto-generated)",
+      "citation_form": "fahate"
+    },
+    "llh": {
+      "root": [
+        "l",
+        "l",
+        "h"
+      ],
+      "class": "adverb",
+      "gloss": "multimethodologically (auto-generated)",
+      "citation_form": "lalate"
+    },
+    "lmzh": {
+      "root": [
+        "l",
+        "m",
+        "zh"
+      ],
+      "class": "adverb",
+      "gloss": "multiethnically (auto-generated)",
+      "citation_form": "lamate"
+    },
+    "vgz": {
+      "root": [
+        "v",
+        "g",
+        "z"
+      ],
+      "class": "adverb",
+      "gloss": "mucilaginously (auto-generated)",
+      "citation_form": "vagate"
+    },
+    "chgw": {
+      "root": [
+        "ch",
+        "g",
+        "w"
+      ],
+      "class": "adverb",
+      "gloss": "multiculturally (auto-generated)",
+      "citation_form": "chagate"
+    },
+    "nmn": {
+      "root": [
+        "n",
+        "m",
+        "n"
+      ],
+      "class": "adverb",
+      "gloss": "muchwhat (auto-generated)",
+      "citation_form": "namate"
     }
   },
   "colors": {
