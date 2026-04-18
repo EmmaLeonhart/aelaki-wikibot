@@ -144,12 +144,17 @@ def get_category_pages(site, category_name: str, seen: set[str] | None = None) -
 def pull(site, state: dict, verbose: bool = True) -> int:
     """Pull grammar pages from the wiki into local files.
 
+    Walks both Category:Aelaki grammar (recursively) and Category:git synced
+    pages so any page opted into sync — whether by living in the grammar
+    tree or by being tagged directly — gets its local copy refreshed.
+
     Returns number of files updated.
     """
     os.makedirs(GRAMMAR_DIR, exist_ok=True)
     pages = get_category_pages(site, CATEGORY)
+    pages.extend(get_category_pages(site, SYNC_CATEGORY))
     if not pages:
-        print("No pages found in Category:Aelaki grammar.")
+        print("No pages found in Category:Aelaki grammar or Category:git synced pages.")
         return 0
 
     updated = 0
