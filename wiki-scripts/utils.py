@@ -15,7 +15,7 @@ import mwclient
 
 from config import (
     WIKI_URL, WIKI_PATH, USERNAME, PASSWORD, BOT_UA,
-    THROTTLE, CREATE_THROTTLE, CREATIONS_PER_DAY,
+    THROTTLE, CREATE_THROTTLE, CREATIONS_PER_DAY, MAX_LAG,
 )
 
 # ---------------------------------------------------------------------------
@@ -36,6 +36,11 @@ def connect() -> mwclient.Site:
             "Create a bot password at https://aelaki.miraheze.org/wiki/Special:BotPasswords"
         )
     site = mwclient.Site(WIKI_URL, path=WIKI_PATH, clients_useragent=BOT_UA)
+    # Cooperative server-side throttling: MediaWiki returns a maxlag error
+    # when replication lag exceeds this, so we pause instead of piling more
+    # writes onto an already-struggling database. mwclient handles the
+    # retry/backoff automatically when max_lag is set on the Site.
+    site.max_lag = str(MAX_LAG)
     site.login(USERNAME, PASSWORD)
     # Verify login
     try:
@@ -189,6 +194,16 @@ def safe_save(page, text: str, summary: str) -> bool:
                 time.sleep(3)
                 # Re-fetch is caller's responsibility for content changes;
                 # for create-only pages this retry is usually enough.
+            elif e.code in ("ratelimited", "maxlag") and attempt < 2:
+                # Server is telling us it's overloaded. Back off exponentially
+                # (10s, then 30s) so we cooperate instead of hammering it.
+                backoff = 10 * (3 ** attempt)
+                print(
+                    f"  Server overload ({e.code}) — backing off {backoff}s "
+                    f"(retry {attempt + 1}/3): {page.name}",
+                    flush=True,
+                )
+                time.sleep(backoff)
             else:
                 raise
     return False

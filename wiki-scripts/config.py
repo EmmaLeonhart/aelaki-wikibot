@@ -25,8 +25,18 @@ PASSWORD = os.getenv("WIKI_PASSWORD", "") or os.getenv("AELAKI_WIKI_PASSWORD", "
 # page creations, which are more expensive for the Miraheze wiki farm.
 # See utils._wait_for_write_slot — throttle is enforced before the write,
 # so bursts at script start or across helpers cannot bypass it.
-THROTTLE = 1.0
-CREATE_THROTTLE = 2.0
+#
+# Numbers were raised from 1.0/2.0 to 2.0/5.0 after repeated long workflow
+# runs: we would rather the pipeline take longer than put sustained load
+# on shared Miraheze infrastructure. Creation is the expensive write
+# (polynomial in link-table size), so it gets the larger gap.
+THROTTLE = 2.0
+CREATE_THROTTLE = 5.0
+
+# MediaWiki maxlag parameter (seconds). When replication lag exceeds this,
+# the API returns an error and we back off — this is the server's preferred
+# way to cooperate with bots during peak load. See utils.connect().
+MAX_LAG = 5
 
 # Page creation is polynomial in the existing link-table size, so we cap the
 # number of new pages the bot can create per UTC day across the whole
