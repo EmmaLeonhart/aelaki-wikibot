@@ -8,6 +8,21 @@ Repository: https://github.com/Emma-Leonhart/aelaki-merged
 
 Routine automated edits are implemented by changing the GitHub repository and executed through GitHub Actions. Local manual script runs are reserved for testing and emergency intervention only.
 
+== Server load reduction ==
+
+The operator is actively working to reduce this bot's load on shared Miraheze infrastructure through increased rate limiting. Current measures:
+
+* '''Edit throttle''': minimum 2 seconds between edits (was 1 second).
+* '''Creation throttle''': minimum 5 seconds between page creations (was 2 seconds). Creates are the expensive write — their cost on Miraheze is polynomial in the existing link-table size.
+* '''Daily creation cap''': 100 new pages per UTC day across the whole pipeline. Enforced by a persistent state file; the workflow commits the counter alongside other state so the cap holds across runs.
+* '''Server-requested backoff''' (<code>maxlag=5</code>): every API call carries a maxlag parameter. When Miraheze's replicas fall more than 5 seconds behind, the API returns an error and the bot waits instead of piling more writes onto the database.
+* '''Exponential backoff on ratelimit errors''': if the server returns <code>ratelimited</code> or <code>maxlag</code>, the bot sleeps 10s, then 30s, before retrying.
+* '''Pre-operation gate''': throttles are enforced ''before'' the write, process-global, so bursts at script start or across helpers cannot bypass them.
+* '''Batched existence checks''': page-existence probes are batched 50 titles per API call instead of one-at-a-time, cutting the wanted-pages step from ≈17 minutes to ≈30 seconds while reducing API hit count by ~50×.
+* '''Category-walk safeguards''': category sync refuses to walk more than 500 pages and skips generated namespaces (<code>Word:</code>, <code>Lexeme:</code>, <code>Item:</code>, <code>Property:</code>), so a misconfigured tag cannot trigger a mass download like it did previously.
+
+Preference is explicitly for '''longer pipeline runtimes over sustained server load'''. If the wiki appears strained, further increases to the throttles are on the table and the operator is reachable via the talk page or GitHub.
+
 == Current tasks ==
 
 * Create <code>word:LEMMA</code> pages for all vocabulary entries
