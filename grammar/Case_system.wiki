@@ -1,0 +1,231 @@
+Aelaki has a simple case system
+
+We are not gonna address person and gender because that would blow up the cases beyond the ability to explain simply
+
+== Chart ==
+Aelaki has a system of five cases, all cases have ki syllables in them.
+
+Aelaki has five cases. Here they are demonstrated with different persons for the noun Basol (tree, feminine, singular). Changes to number and gender strictly follow the “Ki” rules, and reduplication of the -s- consonant, so they do not affect the presented case markings
+{| class="wikitable"
+|'''Case'''
+|'''1p'''
+|'''2p'''
+|'''3p'''
+|'''4p'''
+|'''Inanimate'''
+|'''Evolution'''
+|'''Usage notes'''
+|-
+|Agent
+|'''Basoltho'''
+|'''Basoljo'''
+|'''Basolsho'''
+|'''Basolko'''
+|
+|'''Epenthesis over “-oth tho-” constructs being hard to pronounce'''
+|'''Does not exist for inanimate nouns'''
+
+'''Subject of active verbs'''
+|-
+|Patient
+|'''Basoloth'''
+|'''Basoloj'''
+|'''Basolosh'''
+|'''Basol'''
+|'''Basïlïf'''
+|'''Evolved from earlier ergative case, least marked'''
+|'''Subject of stative verbs'''
+|-
+|Possessive
+|'''Basothol'''
+|'''Basojol'''
+|'''Basoshol'''
+|'''Basokol'''
+|'''Basïfïl'''
+|
+|'''Usually dropped, alienable-inalienable distinction made with the prefix/infix on the possessed'''
+|-
+|Instrumental
+|'''Basolothko'''
+|'''Basolozhgo'''
+|'''Basoloshko'''
+|'''Basolokto'''
+|'''Basïlkïf'''
+|
+|'''Also works as Comitative case or a Locative case'''
+|-
+|Dative
+|'''Basolthon'''
+|'''Basoljon'''
+|'''Basolshon'''
+|'''Basolkon'''
+|'''Basïlïfïn'''
+|
+|'''Also works as Benefactive case.'''
+
+'''When the noun is in negative number it operates as an ablative, malefactive'''
+|-
+|Speaker
+|'''Basolthoro'''
+|'''Basoljoro'''
+|'''Basolshoro'''
+|'''Basolkoro'''
+|
+|
+|
+|}
+If the verb agrees to the same thing multiple times there is a hierarchy of the following
+
+Agent > Dative > Patient > Instrumental > Possessive > Speaker
+
+Speaker case should be indicated with the speaker auxiliary verb if it is overwritten with another one of these.
+
+The Instrumental and Dative case are both highly context dependent and rely on inferences from the nature of the verb, or adverbs to determine their meaning
+
+== Agent ==
+Straightforward subject of a sentence. 
+
+derived from an epenthesis of the vowels to make it easier to say it in sequence with a verb. 
+
+'''Basoloth Tho-'''
+
+'''Basoltho Tho-'''
+
+== Patient ==
+Indicates the object of a transitive verb and the subject of a stative verb
+
+Straightforward
+
+Originally present on everything
+
+== Instrumental ==
+-ko -ka -ke etc
+
+The instrumental is a combined locative comitative and instrumental
+
+
+
+== Speaker ==
+Speaker case indicates the source for the information in a non-visual evidential. Speaker aux is an auxiliary verb that agrees with the speaker to allow for some information but dropping them. Speaker ironic indicates skepticism of the source of the information. Speaker aux always drops the speaker noun. Speaker ironic often accompanies the noun for emphasis.
+
+=== Speaker auxiliary verbs ===
+Not exactly a case system, but very linked to the speaker case
+{| class="wikitable"
+|
+|
+|'''1p'''
+|'''2p'''
+|'''3p'''
+|'''4p'''
+|-
+| rowspan="2" |'''Child'''
+|Speaker aux
+|'''Uthuro'''
+|'''Ujuro'''
+|'''Ushuro'''
+|'''Ukoro'''
+|-
+|Speaker ironic
+|'''Uthuthuro'''
+|'''Ujujuro'''
+|'''Ushushuro'''
+|'''Ukokoro'''
+|-
+| rowspan="2" |'''Female'''
+|Speaker aux
+|'''Othoro'''
+|'''Ojoro'''
+|'''Oshoro'''
+|'''Okoro'''
+|-
+|Speaker ironic
+|'''Othothoro'''
+|'''Ojojoro'''
+|'''Oshoshoro'''
+|'''Okokoro'''
+|-
+| rowspan="2" |'''Male'''
+|Speaker aux
+|'''Atharo'''
+|'''Ajaro'''
+|'''Asharo'''
+|'''Akaro'''
+|-
+|Speaker ironic
+|'''Athatharo'''
+|'''Ajajaro'''
+|'''Ashasharo'''
+|'''Akakaro'''
+|}
+
+
+== Instrumental ==
+
+== Dative ==
+
+== Possession (Genitive Constructions) ==
+
+=== Overview ===
+Aelaki distinguishes '''inalienable''' and '''alienable''' possession. Both strategies are '''head‑marking''': morphological material appears principally on the possessed noun, while the possessor NP is frequently omitted unless contrastive.
+
+=== Inalienable Possession ===
+''Domains:'' kin relations, body parts, part‑whole, inherent properties.
+{| class="wikitable"
+|Morphology
+|Details
+|-
+|'''Internal infix'''
+|C₁ + V(gender) + C(person) + … inserts possessor’s gender vowel & person consonant right after the first root consonant.
+|-
+|'''Suffix'''
+|‑ng replaces the usual Ki person clitic on nouns.
+|}
+''Example''
+
+'''gar''' “hand” → '''ga‑o‑r‑ung''' “my hand” (o = child vowel, r = 1SG consonant, ‑ng inalienable)
+
+If the possessor NP is expressed it typically follows the noun:
+
+'''ga‑o‑r‑ung''' '''thu''' “my hand (I)”
+
+=== Alienable Possession ===
+''Domains:'' transferable property, abstract relations, spatial/temporal genitives
+{| class="wikitable"
+|Morphology
+|Details
+|-
+|'''Prefix'''
+|V(gender) + C(person)‑ attaches before the noun.
+|-
+|
+|
+|}
+''Example''
+
+'''selo''' “book” → '''uthselo''' “my book”
+
+=== Comparative Summary ===
+{| class="wikitable"
+|Genitive
+|Template
+|Typical use
+|1SG example
+|-
+|Inalienable
+|C₁ V(gen) C(person)…‑ng
+|kin, body, inherent
+|'''ga‑o‑r‑ung''' “my hand”
+|-
+|Alienable
+|V(gen) C(person)‑root‑n
+|property, location, oblique
+|'''o‑r‑selo‑n''' “my book”
+|}
+
+=== Syntactic Notes ===
+
+* Ki on verbs agrees with the possessor only when that possessor functions as an argument (e.g., subject of a stative clause).
+* Dialects in the western highlands generalise the alienable prefix but keep '''‑ng/‑n''' to mark semantic nuance.
+
+[[Category:Aelaki]]
+[[Category:Git synced pages]]
