@@ -46,7 +46,9 @@
       "Bash(curl:*)",
       "Bash(tasklist)",
       "Bash(jobs -l)",
-      "Bash(find \"C:/Users/Immanuelle/Documents/Github/aelaki-wikibot/grammar/\" -type f -name \"*.wiki\" -exec wc -l {} +)"
+      "Bash(find \"C:/Users/Immanuelle/Documents/Github/aelaki-wikibot/grammar/\" -type f -name \"*.wiki\" -exec wc -l {} +)",
+      "Bash(gh run *)",
+      "Bash(rm err.txt)"
     ]
   }
 }
