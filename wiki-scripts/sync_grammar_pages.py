@@ -36,13 +36,11 @@ import json
 import os
 import re
 import sys
-import time
 
 # Allow running from repo root
 sys.path.insert(0, os.path.join(os.path.dirname(__file__)))
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
-from config import THROTTLE
 from utils import connect, safe_save
 
 GRAMMAR_DIR = os.path.join(os.path.dirname(__file__), "..", "grammar")
@@ -108,33 +106,72 @@ def save_state(state: dict) -> None:
 
 
 # ---------------------------------------------------------------------------
-# Category member enumeration (recursive)
+# Category member enumeration (recursive, batched)
 # ---------------------------------------------------------------------------
 
-def get_category_pages(site, category_name: str, seen: set[str] | None = None) -> list[dict]:
-    """Recursively list all pages in a category and its subcategories.
+def iter_category_with_revisions(site, category_name: str, namespaces: str = "0|14"):
+    """Yield (title, ns, revid, text) for every page in Category:<category_name>.
 
-    Returns list of dicts with 'title' and 'ns' keys.
+    Uses ``generator=categorymembers`` + ``prop=revisions`` so each page
+    comes back with its latest revid and wikitext in a single batched API
+    call (with continuation). This is the same pattern as
+    shintowiki-scripts/shinto_miraheze/sync_need_translation.py and avoids
+    the per-page ``page.text()`` round-trip that the old implementation
+    relied on.
+    """
+    params = {
+        "generator": "categorymembers",
+        "gcmtitle": f"Category:{category_name}",
+        "gcmnamespace": namespaces,
+        "gcmlimit": "max",
+        "prop": "revisions",
+        "rvprop": "ids|content",
+        "rvslots": "main",
+        "formatversion": "2",
+    }
+    while True:
+        result = site.api("query", **params)
+        pages = result.get("query", {}).get("pages", [])
+        for page in pages:
+            if page.get("missing"):
+                continue
+            revs = page.get("revisions") or []
+            if not revs:
+                continue
+            rev = revs[0]
+            revid = rev.get("revid")
+            text = rev.get("slots", {}).get("main", {}).get("content", "")
+            if revid is None:
+                continue
+            yield page["title"], page.get("ns", 0), revid, text
+        if "continue" in result:
+            params.update(result["continue"])
+        else:
+            break
+
+
+def walk_category(site, category_name: str, seen: set[str] | None = None,
+                  namespaces: str = "0|14") -> dict[str, tuple[int, int, str]]:
+    """Recursively collect every page below a category.
+
+    Returns a dict mapping title -> (ns, revid, text). Subcategories are
+    descended into; the subcategory page itself is also kept so category
+    descriptions stay in sync.
     """
     if seen is None:
         seen = set()
     if category_name in seen:
-        return []
+        return {}
     seen.add(category_name)
 
-    pages = []
-    cat = site.categories[category_name]
-    for member in cat.members():
-        title = member.name
-        ns = member.namespace
-        if ns == 14:  # Category namespace — recurse
-            sub_name = title.replace("Category:", "", 1)
-            pages.extend(get_category_pages(site, sub_name, seen))
-            # Also include the category page itself if it has content
-            pages.append({"title": title, "ns": ns})
-        else:
-            pages.append({"title": title, "ns": ns})
-    return pages
+    collected: dict[str, tuple[int, int, str]] = {}
+    for title, ns, revid, text in iter_category_with_revisions(
+            site, category_name, namespaces=namespaces):
+        collected[title] = (ns, revid, text)
+        if ns == 14:
+            sub_name = title.split(":", 1)[1] if ":" in title else title
+            collected.update(walk_category(site, sub_name, seen, namespaces))
+    return collected
 
 
 # ---------------------------------------------------------------------------
@@ -151,43 +188,29 @@ def pull(site, state: dict, verbose: bool = True) -> int:
     Returns number of files updated.
     """
     os.makedirs(GRAMMAR_DIR, exist_ok=True)
-    pages = get_category_pages(site, CATEGORY)
-    pages.extend(get_category_pages(site, SYNC_CATEGORY))
-    if not pages:
+    collected = walk_category(site, CATEGORY)
+    collected.update(walk_category(site, SYNC_CATEGORY))
+    if not collected:
         print("No pages found in Category:Aelaki grammar or Category:git synced pages.")
         return 0
 
     updated = 0
-    titles_seen = set()
+    titles_seen = set(collected.keys())
 
-    for pinfo in pages:
-        title = pinfo["title"]
-        if title in titles_seen:
-            continue
-        titles_seen.add(title)
-
-        page = site.pages[title]
-        if not page.exists:
-            continue
-
-        text = page.text()
+    for title, (ns, revid, text) in collected.items():
         if not text or not text.strip():
             continue
 
-        revid = page.revision
         filename = title_to_filename(title)
         filepath = os.path.join(GRAMMAR_DIR, filename)
 
-        # Check if content changed since last sync
         old_meta = state.get(title, {})
         if old_meta.get("revid") == revid and os.path.exists(filepath):
             if verbose:
                 print(f"  unchanged: {title}")
-            # Still record in state
             state[title] = {"file": filename, "revid": revid}
             continue
 
-        # Write file
         with open(filepath, "w", encoding="utf-8") as f:
             f.write(text)
         state[title] = {"file": filename, "revid": revid}
@@ -221,33 +244,18 @@ def discover(site, state: dict, verbose: bool = True) -> int:
     Returns number of new pages adopted.
     """
     os.makedirs(GRAMMAR_DIR, exist_ok=True)
-
-    cat = site.categories[SYNC_CATEGORY]
     adopted = 0
 
-    for member in cat.members():
-        title = member.name
-        ns = member.namespace
-
-        # Skip category pages themselves
-        if ns == 14:
-            continue
-
-        # Already tracked — nothing to do
+    for title, ns, revid, text in iter_category_with_revisions(
+            site, SYNC_CATEGORY, namespaces="0"):
         if title in state:
             if verbose:
                 print(f"  already tracked: {title}")
             continue
 
-        page = site.pages[title]
-        if not page.exists:
-            continue
-
-        text = page.text()
         if not text or not text.strip():
             continue
 
-        revid = page.revision
         filename = title_to_filename(title)
         filepath = os.path.join(GRAMMAR_DIR, filename)
 
@@ -257,7 +265,6 @@ def discover(site, state: dict, verbose: bool = True) -> int:
         state[title] = {"file": filename, "revid": revid}
         adopted += 1
         print(f"  adopted: {title} -> {filename}")
-        time.sleep(THROTTLE)
 
     print(f"Discover complete: {adopted} new pages adopted for syncing.")
     return adopted
