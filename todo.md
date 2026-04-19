@@ -8,7 +8,7 @@ So go over its claude.md and status.md and maybe todo.md to figure the stuff out
 
 ## Clean up the data lake
 
-We are currently working on this. auditing the discord stuff in data lake and the megadoc. We hope to eventyually get them deleted since the wiki and grammar stuff are the primary source of truth, not sure if we can get to this today but I hope we can
+We are currently working on this. auditing the discord stuff in data lake and the megadoc. We hope to eventyually get them deleted since the wiki and grammar stuff are the primary source of truth, not sure if we can get to this today but I hope we can. Compression is a bitch and might lose what we are doing
 
 ## Potentially outdated wiki material
 
