@@ -3,6 +3,22 @@
 == Historical baseline ==
 Classical [[Aelaki]] texts are parsed as '''Subject-Verb-Object''' (SVO). However, modern speech is almost entirely '''pro-drop''', so the finite verb tends to surface first. The default spoken order is therefore '''V(S)(O)''', with arguments recovered from [[Ki_syllables|Ki clitics]] or context.
 
+== Clause order by verb class ==
+
+When overt arguments do appear, the canonical order depends on the verb class (''source: Discord conlangs-server, 2025-05-30''):
+
+{| class="wikitable"
+! Verb class !! Canonical order !! Example
+|-
+| '''Transitive''' || S V O || ''Tidanash bsl shabesh'' "the person tree-hit"
+|-
+| '''Intransitive (active)''' || S V || ''Tidanash shasaero'' "the person walked"
+|-
+| '''Intransitive (stative)''' || V S || ''shazodukoth tidanash'' "the person knows"
+|}
+
+The active/stative split mirrors the [[Ki_syllables|Ki clitic]] placement (prefix for actives, suffix for statives).
+
 == Argument marking with Ki placement ==
 {| class="wikitable"
 ! Verb type !! Prefix Ki (left of stem) !! Suffix Ki (right of stem)
@@ -23,6 +39,30 @@ This pattern is now the default 1st-person futurative:
 
 : '''Thu-bal-zar''' "Let '''me''' catch '''two''' (fish)!"
 
+The imperative's frozen SOV survives as a fossil of pre-classical [[Aelaki]] word order, which was also SOV (''source: Discord conlangs-server, 2025-05-03'').
+
+== Weather verbs ==
+
+Weather verbs take a dedicated agreement frame: '''masculine subject, feminine object''', conventionally analyzed as ''a part of the sky acts on a part of the ground'' (''source: Discord conlangs-server, 2025-06-05''). Unlike many natural languages, Aelaki actively conjugates weather verbs rather than treating them as impersonal. Example:
+
+: '''Sharokasoro''' "it's raining" — 3p.MASC.SING-rain.ATEL-PAST.AUD with implicit 3p.FEM.SING object.
+
+== Gnomic clauses and argument umlaut ==
+
+In a [[Gnomic|gnomic]] clause, the back-to-front vowel shift propagates ''past the verb'' onto the subject and object as well, giving an entirely umlauted clause (''source: Discord conlangs-server, 2025-06-04''):
+
+: ''Pæn Dhihevæsh Shædhïm'' "the sun shines [universal truth]"
+
+Every content word in the clause has front-vowel realizations — ''Pæn'' not ''pan'', ''Dhihevæsh'' not ''dhihavash'', ''Shædhïm'' not ''shadhim'' — marking the whole clause as gnomic.
+
+== Switch reference ==
+
+Aelaki uses the topic-shift particle ''nono'' (rather than bound morphology) to redirect which referent is the running topic of a chained clause, and contrasts [[Third_person|3p]] (clause-shared referent) with [[Fourth_person|4p]] (newly-introduced referent) to track arguments across clauses. See [[Switch references]] for details.
+
+== Flexibility ==
+
+Word order is otherwise relatively fluid; rigid orders typically appear only when many same-gender referents would otherwise create ambiguity (''source: Discord conlangs-server, 2025-05-31''). Speakers may fall back to strict archaic order to disambiguate in those cases.
+
 == Pragmatic notes ==
 * First-person speakers strongly prefer the [[Visual|visual past]] for narration of completed actions
 * Except in humorous or self-deprecating references, one avoids assigning oneself the [[Mythic|mythical past]]
@@ -37,7 +77,9 @@ The [[Speaker]] case should be indicated with the speaker auxiliary verb if it i
 == See also ==
 * [[Ki_syllables]]
 * [[Imperative]]
+* [[Switch references]]
 * [[Agent]]
 * [[Patient]]
+* [[Random_sentences]]
 
 [[Category:git synced pages]]
