@@ -99,6 +99,8 @@ Many images are missing from this wiki. Check [[Special:WantedFiles]] and cross-
 
 We might work towards git syncing images with this repo too but that is another step beyond this immediate thing
 
+Okay so update: We now hafe it so that pages in [[Category:Images]] are being made for all files used on this wiki, later on they are going to be synced to the git repo too like [[:Category:git synced pages]]. Once we get this completely synced we can work on doing the import from the order.life repo for the files there.
+
 == Auto-generated verb word pages ==
 
 * '''Verify the Converb section renders correctly on the live wiki.''' The word-page generator at <code>wiki-scripts/create_word_pages.py</code> emits a Converbs section for every verb lemma, pulling forms from <code>aelaki/converbs.py</code>. The tables need a sanity check on aelaki.miraheze.org once the next pipeline run deploys them — confirm agreement with <code>Converbs.wiki</code>, check wikitext renders as a table not literal pipes, confirm row links resolve.
