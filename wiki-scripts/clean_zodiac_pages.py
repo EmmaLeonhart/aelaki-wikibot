@@ -41,18 +41,88 @@ HEADER_RE = re.compile(
 
 # Wikipedia-only templates. These are single-line and never contain
 # nested templates in the scraped pages, so a non-greedy [^{}]* body is
-# safe.
+# safe. {{wikidata link}} and {{nihongo}} are kept — wikidata link is
+# the local convention for linking a page to its Wikidata item, and
+# nihongo wraps Japanese-script names that we want to preserve inline.
 WIKIPEDIA_TEMPLATE_NAMES = (
     "infobox Chinese",
     "Sexagenary cycle",
     "prefix",
     "intitle",
+    "in title",
     "translated page",
+    "otheruses",
+    "otheruseslist",
+    "merge",
+    "main",
+    "kotobank",
+    "short description",
+    "distinguish",
+    "more footnotes",
+    "more footnotes needed",
+    "italic title",
+    "shinto shrine",
+    "hiyoshi faith",
+    "reflist",
+    "references",
+    "notelist",
+    "cite web",
+    "cite book",
+    "cite journal",
+    "cite wikisource",
+    "citation needed",
+    "cn",
+    "efn",
+    "bare url pdf",
+    "anchors",
+    "Hiragana",
 )
 WIKIPEDIA_TEMPLATE_RE = re.compile(
     r"\{\{\s*(?:" + "|".join(re.escape(n) for n in WIKIPEDIA_TEMPLATE_NAMES)
     + r")\s*(?:\|[^{}]*)?\}\}",
     re.IGNORECASE,
+)
+
+# Content-preserving wrappers — render to their first textual argument
+# so the wrapped text survives on aelaki.
+#   {{transliteration|LANG|TEXT}}  -> TEXT
+#   {{unicode|TEXT}}               -> TEXT
+#   {{lang|CODE|TEXT|...}}         -> TEXT
+#   {{lang-xx|TEXT}}               -> TEXT
+TRANSLITERATION_RE = re.compile(
+    r"\{\{\s*transliteration\s*\|\s*[^|{}]*\|([^|{}]*?)(?:\|[^{}]*)?\}\}",
+    re.IGNORECASE,
+)
+UNICODE_TEMPLATE_RE = re.compile(
+    r"\{\{\s*unicode\s*\|([^|{}]*?)(?:\|[^{}]*)?\}\}",
+    re.IGNORECASE,
+)
+LANG_CODE_RE = re.compile(
+    r"\{\{\s*lang\s*\|\s*[^|{}]*\|([^|{}]*?)(?:\|[^{}]*)?\}\}",
+    re.IGNORECASE,
+)
+LANG_XX_RE = re.compile(
+    r"\{\{\s*lang-[a-z-]+\s*\|([^|{}]*?)(?:\|[^{}]*)?\}\}",
+    re.IGNORECASE,
+)
+
+# {{ISBN|NNN-N-NNN-NNNNN-N}} -> "ISBN NNN-N-NNN-NNNNN-N"
+ISBN_TEMPLATE_RE = re.compile(
+    r"\{\{\s*ISBN\s*\|\s*([0-9X\-\s]+?)(?:\s*\|[^{}]*)?\}\}",
+    re.IGNORECASE,
+)
+
+# <ref>...</ref> citation tags (Wikipedia footnotes) plus self-closing
+# <ref name="..." /> references. Drop entirely — they reference Wikipedia
+# sources and render as red numbers on a wiki without {{reflist}}.
+REF_TAG_RE = re.compile(r"<ref\b[^>]*?/>|<ref\b[^>]*?>.*?</ref>",
+                        re.IGNORECASE | re.DOTALL)
+
+# Bare "<!--Xwiki derived wikidata interwikis-->" comments left behind
+# when my earlier cleanup stripped the interwikis that followed them.
+BARE_DERIVED_COMMENT_RE = re.compile(
+    r"^<!--\s*[a-z]+wiki derived wikidata interwikis\s*-->\s*\n",
+    re.IGNORECASE | re.MULTILINE,
 )
 
 # Malformed pronunciation block: HTML comment that opens before a ``==``
@@ -71,9 +141,9 @@ META_COMMENT_RE = re.compile(
 # inside the kept top-of-file header line because that line starts with
 # the comment marker.
 INTERWIKI_CODES = (
-    "af", "ar", "cdo", "de", "en", "es", "fr", "hak", "it",
-    "ja", "ko", "nds", "pt", "ru", "vi", "za", "zh",
-    "zh-min-nan", "zh-yue",
+    "af", "ar", "cdo", "ceb", "de", "en", "eo", "es", "fa", "fr",
+    "hak", "id", "it", "ja", "ko", "nds", "pt", "ru", "th", "uk",
+    "vi", "za", "zh", "zh-min-nan", "zh-yue",
 )
 INTERWIKI_LINE_RE = re.compile(
     r"^\s*(?:\[\[(?:" + "|".join(INTERWIKI_CODES) + r"):[^\[\]\n]*?\]\]\s*)+$",
@@ -126,13 +196,33 @@ def clean(text: str) -> tuple[str, int]:
     #    interwikis, so their preamble comments go with them).
     text, k = DERIVED_INTERWIKI_BLOCK_RE.subn("", text)
     n += k
-    # 3. Strip Wikipedia-only templates.
+    # 3. Drop <ref>...</ref> and self-closing <ref /> footnotes. Run
+    #    before template removal so that a <ref> whose body contains a
+    #    {{cite web}} gets removed whole instead of leaving debris.
+    text, k = REF_TAG_RE.subn("", text)
+    n += k
+    # 4. Strip Wikipedia-only templates.
     text, k = WIKIPEDIA_TEMPLATE_RE.subn("", text)
     n += k
-    # 4. Drop malformed comment blocks and meta comments.
+    # 5. Unwrap content-preserving templates (transliteration/unicode)
+    #    so the wrapped text survives. {{lang|CODE|TEXT}} and
+    #    {{lang-xx|TEXT}} are intentionally left in place — the scraped
+    #    usages are all named-param style ("|c=丙午|p=bǐngwǔ"), which
+    #    this kind of simple unwrap mangles.
+    text, k = TRANSLITERATION_RE.subn(r"\1", text)
+    n += k
+    text, k = UNICODE_TEMPLATE_RE.subn(r"\1", text)
+    n += k
+    # 6. Replace {{ISBN|...}} with "ISBN ..." prose form.
+    text, k = ISBN_TEMPLATE_RE.subn(r"ISBN \1", text)
+    n += k
+    # 7. Drop malformed comment blocks, meta comments, and bare
+    #    "<!--Xwiki derived wikidata interwikis-->" markers left behind.
     text, k = MALFORMED_COMMENT_RE.subn("", text)
     n += k
     text, k = META_COMMENT_RE.subn("", text)
+    n += k
+    text, k = BARE_DERIVED_COMMENT_RE.subn("", text)
     n += k
     # 5. Strip free-floating interwiki lines anywhere in the body. The
     #    kept top-of-file header line starts with "<!--interwikis from
