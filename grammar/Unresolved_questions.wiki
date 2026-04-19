@@ -1,0 +1,74 @@
+'''Unresolved questions''' is a running record of grammatical contradictions, unresolved morphological choices, and documentation clashes in the [[Aelaki]] corpus that cannot be settled automatically. It is maintained jointly on this wiki page and in the source repository so that the operator can work through items manually over time.
+
+This page is ''the'' central place to record and resolve these questions. Each item gives a short description of the contradiction, GitHub source links so either the operator or a future pipeline pass can reread the exact passages, and a note about how resolution should propagate back to the wiki and the Python morphology engine.
+
+== Background: three co-authoritative sources ==
+
+Aelaki is described by three peer sources, which are synthesized by hand and never auto-reconciled:
+
+* '''[https://github.com/EmmaLeonhart/aelaki-wikibot/tree/master/grammar grammar/*.wiki]''' — the live wiki, mirrored into the repo via bidirectional sync. The explanatory layer.
+* '''[https://github.com/EmmaLeonhart/aelaki-wikibot/blob/master/data%20lake/Aelaki_Grammar_Guide.md data lake/Aelaki_Grammar_Guide.md]''' (the "megadoc") — the original long-form grammar guide, slightly outdated but still authoritative on claims the wiki has not yet absorbed.
+* '''[https://github.com/EmmaLeonhart/aelaki-wikibot/tree/master/aelaki aelaki/*.py]''' — the Python morphology engine that drives the word-page pipeline. Source of truth on the ''shape'' of any inflected form it actually implements.
+
+Directional rules: Python wins over the megadoc on the shape of forms Python actually builds. The megadoc wins over Python on ''existence claims'' (a missing category in Python means Python is incomplete, not that the category is fake). The wiki is the explanatory layer where context, examples, and cross-links live.
+
+== Class I converb inventory disagreement ==
+
+The three sources list different Class I prefix inventories. No automated reconciliation is acceptable — the operator has to rule on each entry.
+
+* Wiki ([https://github.com/EmmaLeonhart/aelaki-wikibot/blob/master/grammar/Converbs.wiki#L11-L30 Converbs.wiki §"Class I: Prefix converbs"]) currently lists eight prefixes: '''ki-, ha-, sa-, ra-, mu-, ne-, ta-, tu-'''.
+* Python ([https://github.com/EmmaLeonhart/aelaki-wikibot/blob/master/aelaki/converbs.py#L22-L32 aelaki/converbs.py:22-32]) now lists nine: '''ki-, ha-, sa-, ra-, mu-, ne-, ta-, engmo-, i?o-'''.
+* Megadoc and discord ([https://github.com/EmmaLeonhart/aelaki-wikibot/blob/master/data%20lake/dictionary.md#L67-L82 data lake/dictionary.md §"Converb prefix inventory (2025-05-10)"]) list an older, differently-shaped inventory: '''ta-...-te, ngu-...-shəlon, ngu-...-mulon, ki-, be-, mi-, ha-, sa-, ra-, tlu-, aglu-, engmo-, id!o-'''.
+
+=== Open questions within the inventory ===
+
+;'''ta-...-te''' circumfix vs bare '''ta-'''
+:Discord 2025-05-10 ([https://github.com/EmmaLeonhart/aelaki-wikibot/blob/master/data%20lake/dictionary.md#L70 dictionary.md:70]) glosses '''ta-...-te''' as "actions occurred simultaneously". Python currently implements only bare '''ta-''' as <code>ConverbPrefixType.SIMULTANEOUS</code> ([https://github.com/EmmaLeonhart/aelaki-wikibot/blob/master/aelaki/converbs.py#L30 converbs.py:30]). Is the '''-te''' suffix a separate morpheme (circumfix), an older orthographic variant, or a distinct aspectual distinction (e.g. perfective simultaneity vs imperfective)?
+:''If kept as a circumfix:'' both the wiki and <code>build_prefix_converb_*</code> need to take a closing '''-te''' marker. ''If rejected:'' note the resolution and leave bare '''ta-''' as canonical.
+
+;'''tu-''' Simulative prefix
+:Wiki lists '''tu-''' "as if doing" at [https://github.com/EmmaLeonhart/aelaki-wikibot/blob/master/grammar/Converbs.wiki#L29 Converbs.wiki:29] as a ninth Class I prefix. No equivalent exists in Python — the similative-flavored form in Python is the Class II suffix '''mutu''' "as though" ([https://github.com/EmmaLeonhart/aelaki-wikibot/blob/master/aelaki/converbs.py#L117 converbs.py:117]). The older '''tlu-''' in the dictionary inventory is confirmed dead (phonologically illegal). Is '''tu-''' the surviving Class I similative, or a holdover that should be dropped from the wiki?
+:''If kept:'' add to <code>ConverbPrefixType</code>. ''If dropped:'' remove the row from Converbs.wiki.
+
+;'''be-''' prefix (rejection documented)
+:Discord 2025-05-10 ([https://github.com/EmmaLeonhart/aelaki-wikibot/blob/master/data%20lake/dictionary.md#L74 dictionary.md:74]) lists '''be-''' "verb done in hopes of converb (benefactive/dative)". This is noise: the older list recycled English abbreviations (BE = "benefactive") into the Aelaki column. Recorded here so future pipeline passes do not re-mine the line as a real prefix.
+
+;'''-rum''' beneficiary: not a converb
+:'''-rum''' is a real role-suffix but is not a converb. The wiki folds it into the [[Dative]] case ([https://github.com/EmmaLeonhart/aelaki-wikibot/blob/master/grammar/Dative.wiki#L2 Dative.wiki:2]: dative = beneficiary; negative number flips to ablative/malefactive). The megadoc groups it with other tenseless "role & stance suffixes" ([https://github.com/EmmaLeonhart/aelaki-wikibot/blob/master/data%20lake/Aelaki_Grammar_Guide.md#L2055 megadoc:2055]). Python has no module for role-suffixes; the entry was previously mis-placed in <code>ConverbSuffixType</code> and has been removed. Needs a Python home — most likely extend <code>aelaki/cases.py</code> or create <code>aelaki/role_suffixes.py</code>.
+
+== Other documentation clashes ==
+
+;'''Sægetlæræchïfïshë''' morpheme parse
+:Appears in the 2025-06-04 car-crash glossed example, reproduced in [[Random sentences]] and [[Test sentences]]. Discord gloss is <code>SIM.CONV-HOD-be_hit.COMP-INAN.4p-VIS.PAST</code> but the surface string does not match that skeleton under any current verb root. Needs a manual morpheme decomposition before the example can be fed through <code>aelaki/</code> or used on [[Verb]].
+
+;'''ë''' (e-diaeresis) in the vowel grid
+:'''ë''' appears in the evidential suffixes ('''-shë, -shëm, -shëlon''') and in the temporal adposition '''Slë''', but it is not listed in the vowel grid or in <code>VOWEL_SHIFT_MAP</code> in [https://github.com/EmmaLeonhart/aelaki-wikibot/blob/master/aelaki/phonology.py aelaki/phonology.py]. The umlaut pair '''Slë → Slæ''' suggests '''ë''' behaves like schwa '''ə''' (shifting to '''æ''') rather than like plain front '''e''' (which would not shift). Is '''ë''' a spelling variant of '''ə''', a grid-distinct vowel, or a special case restricted to these morphemes? Once decided, update <code>VOWELS</code>, <code>VOWEL_SHIFT_MAP</code>, and <code>apply_umlaut()</code>.
+
+== Pages to audit from 4db8259d ==
+
+Commit [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/4db8259d 4db8259d] ("docs(wiki): migrate data-lake xlsx tables into Converbs/TAM/Aelaki") folded three now-deleted spreadsheets into the wiki. The migrated content contradicts current Python in places and has not yet been reconciled. These three pages carry [[:Category:git synced pages to audit]]:
+
+* [[Converbs]] — Class I inventory disagreement (see above); Class II suffix set mostly matches Python after recent cleanup.
+* [[TAM]] — Needs a pass against <code>aelaki/verbs.py</code>'s <code>Evidential</code>, <code>EVIDENTIAL_TABLE</code>, and <code>StemTemplate</code> to confirm every stem template and every evidential row.
+* [[Aelaki]] — Only the "Proto-Aelaki verb reference" section was populated from an xlsx; most of the page is independent of that migration.
+
+== Workflow for this page ==
+
+* When a contradiction is resolved, delete the item here and apply the change to the wiki + Python + megadoc as appropriate.
+* When a new contradiction is discovered, add it with a GitHub link at the relevant file:line.
+* Items can remain unresolved indefinitely; that is the point of the page.
+* This page is the canonical list; <code>STATUS.md</code> and <code>todo.md</code> in the repo point to this page rather than duplicating its content.
+
+== See also ==
+
+* [[To-do list]] — mechanical implementation items (not documentation contradictions)
+* [[Aelaki]] — main grammar hub
+* [[Converbs]], [[TAM]] — the two primary audit-target pages
+* [[Dative]] — current home of the beneficiary morpheme question
+* [[Git commit log]] — repository change log mirrored into the wiki
+
+[[Category:Aelaki grammar]]
+
+[[Category:git synced pages]]
+
+[[Category:Project maintenance]]
