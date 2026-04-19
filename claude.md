@@ -26,6 +26,7 @@ Consolidated archive of all Aelaki constructed language materials. Aelaki is a c
 - When adding a new page, immediately grep for a natural parent/sibling page (e.g. `Converbs.wiki` for a new converb-related page) and add a `[[link]]` or a `See also` entry.
 - When populating a previously-empty page, same rule applies — check `git grep '[[PageName]]'` before committing and add at least one incoming link if none exist.
 - `User:EmmaBot` is maintained by `update_bot_status.py` and sits in the `User:` namespace, which is excluded from the orphan sweep; it does not need explicit incoming links.
+- Before committing a wiki change, run `python wiki-scripts/check_wiki_orphans.py` — it reports exactly the pages that `delete_orphaned_pages.py` would sweep, without hitting the live wiki.
 
 ## Discord Citation Format
 - When wiki content draws on a message from the conlangs-server discord corpus, cite inline as italic: ''(source: Discord conlangs-server, YYYY-MM-DD)''. Established on `grammar/Switch_references.wiki`. Do not invent competing conventions.

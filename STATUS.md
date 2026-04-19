@@ -47,6 +47,7 @@ The work here is **keeping the Aelaki conlang coherent and the wiki at aelaki.mi
 - Python morphology source of truth: `aelaki/*.py`.
 - Wiki reference, synced bidirectionally: `grammar/*.wiki` via `wiki-scripts/sync_grammar_pages.py`.
 - Bot scripts: `wiki-scripts/`.
+- Offline orphan audit: `python wiki-scripts/check_wiki_orphans.py` — run before any commit that adds or empties a grammar page. Output mirrors `delete_orphaned_pages.py` sweep semantics.
 - Discord corpus (primary-source attestations): `data lake/all_aelaki_messages.md`, `data lake/topic_*.md`, `data lake/dictionary.md`.
 - Remaining docx: `data lake/docs/Aelaki Grammar Guide.docx` (authoritative original, not yet folded).
 - C# port (outdated, offline): `aelaki-sharp/`.
