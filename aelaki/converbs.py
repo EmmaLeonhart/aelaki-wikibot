@@ -95,7 +95,7 @@ class ConverbSuffixType(Enum):
     TERMINATIVE =  ("ndor",    "until")
     LOCATIVE =     ("lok",     "where")
     SIMULATIVE =   ("mutu",    "as though")
-    BENEFICIARY =  ("rum",     "for the sake of")
+    # -rum beneficiary is a real morpheme but not a converb; lives with Dative.
     COMITATIVE =   ("wom",     "together with")
     EXCEPTIVE =    ("səf",     "except for")
     RESTRICTIVE =  ("vai",     "only if/when")
