@@ -4,16 +4,15 @@
 Consolidated archive of all Aelaki constructed language materials. Aelaki is a conlang with non-concatenative templatic morphology, set in a ringworld science fiction universe.
 
 ## Repository Structure
-- `docs/` -- Authoritative documents: grammar guide (.docx, **primary reference**), proto-language, converb/TAM/verb spreadsheets
-- `aelaki-sharp/` -- C# .NET 8.0 implementation of Aelaki morphology (noun, verb, adjective, converb, number generation)
-- `aelaki-split/` -- Markdown grammar guide (~31k lines), Python morphology script, worldbuilding docs (17 files)
-- `wiki/` -- MediaWiki XML export of Aelaki wiki
-- `discord/` -- Personal message exports from a conlangs Discord server (author's messages only)
+- `grammar/` -- `*.wiki` pages, synced bidirectionally with aelaki.miraheze.org via `sync_grammar_pages.py`. **Authoritative reference** for the language today.
+- `aelaki/` -- Python morphology engine used by the word-page pipeline (phonology, roots, person, nouns, verbs, etc.).
+- `aelaki-sharp/` -- C# .NET 8.0 morphology library. Outdated snapshot from before recent consolidations; kept because it's slated to become a real .NET library. See `todo.md` for the update task.
+- `wiki-scripts/` -- MediaWiki bot scripts that maintain aelaki.miraheze.org (create/update word pages, delete orphans, sync commit log).
+- `data lake/` -- Lower-authority source materials kept for reference: `docs/` (original Google Docs as .docx + TAM/converb/verb spreadsheets), `discord/` (conlangs-server message exports), and anything else being audited before deletion.
 
 ## Key Facts
-- The `.docx` grammar guide in `docs/` is the **most authoritative** reference for the language
-- The markdown grammar guide in `aelaki-split/` is extensive but may diverge from the docx
-- `aelaki-sharp/` and `aelaki-split/` were imported via `git subtree` with full history preserved
+- The **live wiki** (mirrored to `grammar/*.wiki`) is the authoritative reference. The `.docx` guides in `data lake/docs/` are the original source that seeded it.
+- `aelaki/` drives the pipeline; `aelaki-sharp/` is a sibling implementation that has drifted out of sync with the current grammar.
 
 ## Lexicon Gender Distribution
 - **Inanimate = uncountable**: In Aelaki, inanimate gender represents uncountable/mass nouns (water, air, sand), not merely lifeless things. Countable nouns use child/female/male genders.
