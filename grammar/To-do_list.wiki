@@ -41,6 +41,12 @@ These are wiki pages that exist but are thin or stub-like. Each expansion should
 
 On the page [[List of Aelaki roots]] there are some pages that are linked but do not exist. Figure out why they do not exist since they should exist and have it so the generator eventually makes them.
 
+==Images==
+
+Many images are missing from this wiki. Check [[Special:WantedFiles]] and cross-reference it with C:\Users\Immanuelle\Documents\Github\order.life\wikibase\images to see if any of the wanted files are there. If there are wanted filrs that are in that directory then please upload them here
+
+We might work towards git syncing images with this repo too but that is another step beyond this immediate thing
+
 == Auto-generated verb word pages ==
 
 * '''Verify the Converb section renders correctly on the live wiki.''' The word-page generator at <code>wiki-scripts/create_word_pages.py</code> emits a Converbs section for every verb lemma, pulling forms from <code>aelaki/converbs.py</code>. The tables need a sanity check on aelaki.miraheze.org once the next pipeline run deploys them — confirm agreement with <code>Converbs.wiki</code>, check wikitext renders as a table not literal pipes, confirm row links resolve.
