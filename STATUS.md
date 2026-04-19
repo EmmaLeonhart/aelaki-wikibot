@@ -26,7 +26,11 @@ The work here is **keeping the Aelaki conlang coherent and the wiki at aelaki.mi
 
 ## Pinned corrections (I keep dropping these)
 
-1. **Python and wiki are peers, not master/slave.** Neither `aelaki/*.py` nor `grammar/*.wiki` is the unilateral source of truth. Python implements *some* morphology (verbs, Ki-syllables, genders, declensions); the wiki documents grammar that Python doesn't cover (converbs are a clear example — the wiki has both classes worked out, Python has only a partial Class I implementation with 6 of ~8+ prefixes). **When they disagree, surface the disagreement for manual resolution. Do not auto-edit either side to match the other.** The operator decides case by case which direction the fix goes. Audits produce reports; they don't produce commits.
+1. **Three co-authoritative sources, synthesized manually.** `grammar/*.wiki`, `data lake/Aelaki_Grammar_Guide.md` (the megadoc), and `aelaki/*.py` are three peer sources. The long-term goal is to synthesize them into one coherent grammar and eventually retire the megadoc by folding its content into wiki + Python. Specific directional rules the operator has called out:
+   - **Python wins over the megadoc on morphology Python actually implements.** The megadoc is a bit outdated but not hugely so; where Python and megadoc disagree on the *shape* of an inflected form, Python's output is the current language.
+   - **Megadoc wins over Python on existence claims.** If the megadoc says a category/prefix/construction exists and Python doesn't implement it, that thing exists — Python is incomplete, not authoritative. Example: the megadoc implies a Simultaneous converb and an INST-Ki slot in the Class I template; Python lacks both, so Python is the gap to fill.
+   - **Wiki is the explanatory layer.** If the megadoc discusses something not covered in any `grammar/*.wiki` page, a new wiki page should be created for it. Python files should gain comments (non-trivial *why* comments) where the megadoc provides context that bare code doesn't carry.
+   - **When doing an audit, surface discrepancies; don't auto-edit either side.** The operator decides case by case. Audits produce reports; they don't produce commits.
 
 2. **Don't create orphan wiki pages.** The bot pipeline sweeps orphans. Every new page or expanded-from-empty page needs at least one incoming `[[link]]` from a sibling grammar page before it goes into a commit. Check with `git grep` before committing.
 
