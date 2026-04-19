@@ -6,6 +6,10 @@ We need a status.md like C:\Users\Immanuelle\Documents\Github\Sutra and C:\Users
 
 So go over its claude.md and status.md and maybe todo.md to figure the stuff out. We want to begin powering through our todo.md and status.md in the way that is intended instead of letting these documents go stale and add bloat.
 
+## Clean up the data lake
+
+We are currently working on this. auditing the discord stuff in data lake and the megadoc. We hope to eventyually get them deleted since the wiki and grammar stuff are the primary source of truth, not sure if we can get to this today but I hope we can
+
 ## Potentially outdated wiki material
 
 The commit 4db8259de2771511cbf6aaa11edbd6c1993a933b 
