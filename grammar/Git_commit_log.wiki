@@ -1010,6 +1010,24 @@ Short hashes are used in [[Category:Word pages|word page]] version categories (e
 | 2026-04-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/16834c5223b33d5cff4ca1c9b1b6044d478ebf80 16834c52] || [[:Category:Words 16834c52|Words 16834c52]] || [[:Category:Non-lemma forms 16834c52|Non-lemma 16834c52]] || chore(state): post-grammar-sync [skip ci]
 |-
 | 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/2539b4569ed5e300687938929cb268b7ce499759 2539b456] || [[:Category:Words 2539b456|Words 2539b456]] || [[:Category:Non-lemma forms 2539b456|Non-lemma 2539b456]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/2072e532b9df0de1adf814d81592601b26f6a475 2072e532] || [[:Category:Words 2072e532|Words 2072e532]] || [[:Category:Non-lemma forms 2072e532|Non-lemma 2072e532]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d6c2d49ad315d451c3d442c438ab815a760d7f76 d6c2d49a] || [[:Category:Words d6c2d49a|Words d6c2d49a]] || [[:Category:Non-lemma forms d6c2d49a|Non-lemma d6c2d49a]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/9c696d485edf37316eaec40d8076d907b58da639 9c696d48] || [[:Category:Words 9c696d48|Words 9c696d48]] || [[:Category:Non-lemma forms 9c696d48|Non-lemma 9c696d48]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/63a4019bb5430b72e186fb28610a65b2b3290fe9 63a4019b] || [[:Category:Words 63a4019b|Words 63a4019b]] || [[:Category:Non-lemma forms 63a4019b|Non-lemma 63a4019b]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/09943ca1b6e5cc3b44cc9799153e4dd5454aa047 09943ca1] || [[:Category:Words 09943ca1|Words 09943ca1]] || [[:Category:Non-lemma forms 09943ca1|Non-lemma 09943ca1]] || chore(state): post-grammar-sync [skip ci]
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/52199a2e0ca13c1d383027edb9a54da4e5e66837 52199a2e] || [[:Category:Words 52199a2e|Words 52199a2e]] || [[:Category:Non-lemma forms 52199a2e|Non-lemma 52199a2e]] || docs(worldbuilding): rewrite Ringworld culture/declensions pages
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/027c41d565192c688d1b2a9e73cef17bf5e0a463 027c41d5] || [[:Category:Words 027c41d5|Words 027c41d5]] || [[:Category:Non-lemma forms 027c41d5|Non-lemma 027c41d5]] || feat(ci): run workflow on every push and auto-delete unused templates
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/c3eebe406fbbc289b29b09097372909d2c059c47 c3eebe40] || [[:Category:Words c3eebe40|Words c3eebe40]] || [[:Category:Non-lemma forms c3eebe40|Non-lemma c3eebe40]] || docs(wiki): add incoming links to keep orphan pages off the sweep list
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ef2ba67fccecf9938366ff86f3d97eb469ccb861 ef2ba67f] || [[:Category:Words ef2ba67f|Words ef2ba67f]] || [[:Category:Non-lemma forms ef2ba67f|Non-lemma ef2ba67f]] || chore(state): rebuild version history from git log [skip ci]
 |}
 
 [[Category:git synced pages]]
