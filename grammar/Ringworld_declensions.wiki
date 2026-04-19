@@ -1,1 +1,102 @@
+Noun paradigms for the Ringworld-era Kxaki language. See [[Ringworld culture building]] for the sound system and general grammar, and [[Ringworld basic syntax words]] for the basic vocabulary these examples are built on.
+
+== Overview ==
+
+There are '''eight declensions''', formed by crossing two stem shapes (vowel-ended, consonant-ended) with four genders:
+
+* '''inanimate''' (uncountable / mass)
+* '''child'''
+* '''feminine'''
+* '''masculine'''
+
+The language uses '''tripartite alignment''': the subject of a transitive verb, the object of a transitive verb, and the sole argument of an intransitive verb are each marked distinctly.
+
+[[File:Cat genders in Old Aelaki.svg|thumb|Gender endings sketched on the root ''cat'']]
+
+== Cases ==
+
+Cases are layered: if a declension uses one of these, it generally uses all of the ones listed above it.
+
+# '''Subject''' (transitive agent) — ''-ɓi''
+# '''Object''' (transitive patient) — ''-la/-na''
+# '''Intransitive''' — unmarked
+# '''Inalienable possessive''' (genitive) — ''-bu''
+# '''Alienable possessive''' — ''-dzh''
+# '''Instrumental / ablative''' — ''-z''
+# '''Vocative''' — ''-go''
+# '''Dative''', '''locative''', '''comitative''' — used in fuller paradigms
+
+== Number ==
+
+Three numbers, matching the Ringworld plural system:
+
+* '''singular''' — unmarked
+* '''non-exhaustive plural''' — full reduplication of the stem; "some of the X"
+* '''exhaustive plural''' — suffix ''-l'' (with connecting vowel matching gender); "all the X"
+
+== Consonant-ended paradigms ==
+
+Exemplified with the stem '''mak''' ("language").
+
+=== Child ===
+
+{| class="wikitable"
+|+ ''mak'' — child declension
+! Number !! Subject !! Object !! Intrans. !! Inal. poss. !! Alien. poss. !! Instr. !! Voc.
+|-
+! singular
+| makɓi || makla || mak || makbu || makydzh || makyz || makygo
+|-
+! non-exhaustive plural
+| makmakɓi || makmakla || makmak || makmakbu || makmakydzh || makmakyz || makmakygo
+|-
+! exhaustive plural
+| makylɓi || makylla || makyl || makylbu || makyldzh || makylz || makylgo
+|}
+
+=== Feminine ===
+
+{| class="wikitable"
+|+ ''mak'' — feminine declension
+! Number !! Subject !! Object !! Intrans.
+|-
+! singular
+| makɓi || makla || mak
+|-
+! non-exhaustive plural
+| makmakɓi || makmakla || makmak
+|-
+! exhaustive plural
+| makelɓi || makella || makel
+|}
+
+The possessive, instrumental and vocative cells of the feminine paradigm are not yet attested and are left open.
+
+=== Masculine ===
+
+{| class="wikitable"
+|+ ''mak'' — masculine declension
+! Number !! Subject !! Object !! Intrans.
+|-
+! singular
+| makɓi || makla || mak
+|-
+! non-exhaustive plural
+| makmakɓi || makmakla || makmak
+|-
+! exhaustive plural
+| makalɓi || makalla || makal
+|}
+
+The exhaustive-plural connecting vowel tracks the gender: '''y''' for child, '''e''' for feminine, '''a''' for masculine.
+
+== Vowel-ended paradigms ==
+
+Not yet documented.
+
+== Reduplicated stem ==
+
+Not yet documented.
+
+[[Category:Ringworld]]
 [[Category:Git synced pages]]
