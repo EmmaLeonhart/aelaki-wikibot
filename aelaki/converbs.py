@@ -27,6 +27,7 @@ class ConverbPrefixType(Enum):
     CONCESSIVE = "ra"      # "even though"
     INSTRUMENTAL = "mu"    # "by means of"
     ADVERSATIVE = "ne"     # "instead of"
+    SIMULTANEOUS = "ta"    # "while doing"
 
 
 def build_prefix_converb_transitive(
