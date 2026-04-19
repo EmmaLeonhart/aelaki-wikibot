@@ -1,6 +1,6 @@
-This is the operational bot account used for automated maintenance on aelaki.miraheze.org.
+This is the operational bot account used for automated maintenance of the [[Main Page|Aelaki wiki]] at aelaki.miraheze.org.
 
-Its purpose is to create and maintain word pages with transparent logging, persistent state files, and auditable edit summaries tied to GitHub Actions workflow runs.
+Its purpose is to create and maintain word pages with transparent logging, persistent state files, and auditable edit summaries tied to GitHub Actions workflow runs. A human-readable log of the repository changes that drive each run is kept at [[Git commit log]].
 
 Repository: https://github.com/Emma-Leonhart/aelaki-merged
 
