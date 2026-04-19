@@ -71,6 +71,25 @@ from aelaki.verbs import (
 from aelaki.stative_verbs import stative_paradigm
 from aelaki.adjectives import realize_adjective, AdjDegree, AdjEvidential
 from aelaki.adverbs import realize_adverb, AdverbDegree, AdverbTense
+from aelaki.converbs import (
+    ConverbPrefixType, ConverbSuffixType,
+    build_prefix_converb_transitive, build_prefix_converb_intransitive,
+    build_suffix_converb_transitive, build_suffix_converb_intransitive,
+)
+
+# Glosses for Class I prefix converbs (kept here because the Enum only carries
+# the surface prefix). See aelaki/converbs.py:22-32 for the source list.
+CONVERB_PREFIX_GLOSS = {
+    ConverbPrefixType.PURPOSIVE:    "in order to",
+    ConverbPrefixType.CAUSAL:       "because (subject) did",
+    ConverbPrefixType.CONDITIONAL:  "if / when (subject) does",
+    ConverbPrefixType.CONCESSIVE:   "even though (subject) does",
+    ConverbPrefixType.INSTRUMENTAL: "by means of / using",
+    ConverbPrefixType.ADVERSATIVE:  "instead of",
+    ConverbPrefixType.SIMULTANEOUS: "while doing",
+    ConverbPrefixType.SHARED_CAUSE: "with the same cause as",
+    ConverbPrefixType.SHARED_INTENT:"with the same intent as",
+}
 
 # Canonical agreement for verb/adj tables (3rd male singular subject, 4th female singular object)
 SUBJ = (Person.THIRD, Gender.MALE, Number.SINGULAR)
@@ -729,6 +748,86 @@ def generate_forms_table(forms: list[tuple[str, str]]) -> str:
     return "\n".join(lines)
 
 
+def generate_converb_section(entry: dict) -> str:
+    """Converb tables for a verb entry.
+
+    Class I (prefix) converbs retain full TAM — the table uses base
+    present (no evidential) with canonical 3sg.M subject (and 4sg.F
+    object for transitives). Class II (suffix) converbs consume TAM
+    via the suffix itself; the same subject is used for agreement.
+
+    Returns the full wikitext for the '== Converbs ==' section, or
+    an empty string if the word class is not a verb.
+    """
+    wc = entry["word_class"]
+    if wc not in VERB_CLASSES:
+        return ""
+    root = entry["root"]
+
+    intro = (
+        "''Example forms for this verb root. Agreement is shown for a "
+        "3rd-person male singular subject"
+        + (", 4th-person female singular object" if wc == "verb_transitive" else "")
+        + ". Class I retains full TAM (unmarked evidential here); Class II "
+        "consumes TAM via the suffix. See [[Converbs]] for the full system.''"
+    )
+
+    lines = ["\n== [[Converbs]] ==", intro]
+
+    # ----- Class I: prefix converbs -----
+    lines.append("\n=== Class I (prefix) converbs ===")
+    lines.append('{| class="wikitable"')
+    lines.append("! Prefix !! Type !! Gloss !! Example")
+    for pt in ConverbPrefixType:
+        try:
+            if wc == "verb_transitive":
+                form = build_prefix_converb_transitive(
+                    pt, root, StemTemplate.TELIC_IMPERFECT,
+                    subj_person=SUBJ[0], subj_gender=SUBJ[1], subj_number=SUBJ[2],
+                    obj_person=OBJ[0], obj_gender=OBJ[1], obj_number=OBJ[2],
+                )
+            else:
+                form = build_prefix_converb_intransitive(
+                    pt, root,
+                    subj_person=SUBJ[0], subj_gender=SUBJ[1], subj_number=SUBJ[2],
+                    active=(wc == "verb_active"),
+                )
+        except Exception as e:
+            form = f"ERROR: {e}"
+        type_label = pt.name.capitalize().replace("_", " ")
+        gloss = CONVERB_PREFIX_GLOSS.get(pt, "")
+        lines.append("|-")
+        lines.append(f"| '''{pt.value}-''' || {type_label} || {gloss} || {link_surface(form)}")
+    lines.append("|}")
+
+    # ----- Class II: suffix converbs -----
+    lines.append("\n=== Class II (suffix) converbs ===")
+    lines.append('{| class="wikitable"')
+    lines.append("! Suffix !! Type !! Gloss !! Example")
+    for st in ConverbSuffixType:
+        try:
+            if wc == "verb_transitive":
+                form = build_suffix_converb_transitive(
+                    st, root, StemTemplate.TELIC_IMPERFECT,
+                    subj_person=SUBJ[0], subj_gender=SUBJ[1], subj_number=SUBJ[2],
+                    obj_person=OBJ[0], obj_gender=OBJ[1], obj_number=OBJ[2],
+                )
+            else:
+                form = build_suffix_converb_intransitive(
+                    st, root,
+                    subj_person=SUBJ[0], subj_gender=SUBJ[1], subj_number=SUBJ[2],
+                    active=(wc == "verb_active"),
+                )
+        except Exception as e:
+            form = f"ERROR: {e}"
+        type_label = st.name.capitalize().replace("_", " ")
+        lines.append("|-")
+        lines.append(f"| '''-{st.suffix}''' || {type_label} || {st.gloss} || {link_surface(form)}")
+    lines.append("|}")
+
+    return "\n".join(lines)
+
+
 def generate_word_page(key: str, entry: dict) -> str:
     """Generate full wikitext for a word:LEMMA page."""
     wc = entry["word_class"]
@@ -824,6 +923,12 @@ def generate_word_page(key: str, entry: dict) -> str:
                 sections.append("\n== Case paradigm ==")
                 sections.append(f"''Shown for {gender.value} singular.''")
                 sections.append(generate_case_table(case_forms))
+
+        # Converb paradigm for verbs
+        if wc in VERB_CLASSES:
+            converb_section = generate_converb_section(entry)
+            if converb_section:
+                sections.append(converb_section)
 
     # See also
     sections.append("\n== See also ==")
