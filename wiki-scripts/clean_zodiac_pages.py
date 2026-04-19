@@ -95,6 +95,26 @@ DERIVED_INTERWIKI_BLOCK_RE = re.compile(
 # placeholders for future content.
 EMPTY_BULLET_RE = re.compile(r"^\*\s*$\n?", re.MULTILINE)
 
+# Wikipedia-scrape maintenance categories that have no counterpart on
+# aelaki.miraheze.org. "translated pages with valid <lang> interwikis"
+# is written by the scrape pipeline, "Wikidata has short description"
+# is an enwiki housekeeping bucket, and "WikiProject Japanese Calendar"
+# is an enwiki WikiProject.
+WIKIPEDIA_MAINTENANCE_CATEGORY_RE = re.compile(
+    r"^\[\[\s*Category\s*:\s*"
+    r"(?:translated pages with valid [a-z-]+ interwikis"
+    r"|Wikidata has short description"
+    r"|WikiProject Japanese Calendar)"
+    r"\s*\]\]\s*\n?",
+    re.IGNORECASE | re.MULTILINE,
+)
+
+# Year-only interwiki links like "[[:en:2149|2149]]" — both halves are
+# the same digit string. These render as enwiki interwiki links, but
+# the year tables already link plain [[YYYY]] elsewhere, so collapse to
+# plain text. Non-year [[:en:...]] links (concepts) are left alone.
+EN_YEAR_LINK_RE = re.compile(r"\[\[:en:(\d+)\|\1\]\]")
+
 
 def clean(text: str) -> tuple[str, int]:
     """Return (cleaned_text, number_of_substitutions)."""
@@ -123,9 +143,20 @@ def clean(text: str) -> tuple[str, int]:
     # 6. Drop empty bullets left by removed templates.
     text, k = EMPTY_BULLET_RE.subn("", text)
     n += k
-    # 7. Collapse runs of blank lines introduced by the deletions.
+    # 7. Drop Wikipedia-scrape maintenance categories.
+    text, k = WIKIPEDIA_MAINTENANCE_CATEGORY_RE.subn("", text)
+    n += k
+    # 8. Collapse enwiki year interwikis "[[:en:YYYY|YYYY]]" -> "YYYY".
+    text, k = EN_YEAR_LINK_RE.subn(r"\1", text)
+    n += k
+    # 9. Collapse runs of 2+ spaces in prose to a single space.
+    #    Preserve line-initial indentation by only touching runs that
+    #    are not at the very start of a line.
+    text, k = re.subn(r"(?<=\S)  +", " ", text)
+    n += k
+    # 10. Collapse runs of blank lines introduced by the deletions.
     text = re.sub(r"\n{3,}", "\n\n", text)
-    # 8. Trim trailing whitespace before final newline.
+    # 11. Trim trailing whitespace before final newline.
     text = text.rstrip() + "\n"
     return text, n
 
