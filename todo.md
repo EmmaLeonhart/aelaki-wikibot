@@ -4,6 +4,10 @@
 
 - [ ] Parse **Sægetlæræchïfïshë** into morphemes — appears in the car crash glossed sentence as `SIM.CONV-HOD-be_hit.COMP-INAN.4p-VIS.PAST` but likely has nonstandard romanization. Needs manual analysis to determine correct root and morpheme boundaries. (Source: discord 2025-06-04)
 
+## aelaki-sharp (C# library)
+
+- [ ] Bring `aelaki-sharp/` in line with canonical wiki grammar — the C# morphology library is an outdated snapshot from before several consolidations (unified back-to-front vowel shift, inanimate gender behaviour, Ki-syllable tables, stative-verb prefixes). Intended to eventually be published as a .NET library; not in the data lake. Needs a pass that diff's each module against `grammar/*.wiki` / `aelaki/` and updates accordingly.
+
 ## Phonology / Vowel Grid
 
 - [ ] Clarify the status of **ë** (e-diaeresis) in the vowel system — it appears frequently in evidential suffixes (`-shë`, `-shëm`, `-shëlon`) and the temporal adposition (`Slë`), but is absent from the vowel grid and `VOWEL_SHIFT_MAP` in `phonology.py`. The umlaut pair `Slë → Slæ` suggests ë behaves like **ə** (schwa, shifting to æ), not like plain **e** (which is already front and wouldn't shift). Need to decide: is ë a spelling variant of ə, a distinct vowel that belongs in the grid, or just plain e with the adposition being a special case? Once decided, update `VOWELS`, `VOWEL_SHIFT_MAP`, and `apply_umlaut()` accordingly.
