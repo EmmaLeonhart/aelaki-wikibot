@@ -14,6 +14,13 @@ Consolidated archive of all Aelaki constructed language materials. Aelaki is a c
 - The **live wiki** (mirrored to `grammar/*.wiki`) is the authoritative reference. The `.docx` guides in `data lake/docs/` are the original source that seeded it.
 - `aelaki/` drives the pipeline; `aelaki-sharp/` is a sibling implementation that has drifted out of sync with the current grammar.
 
+## Three Co-Authoritative Sources (read STATUS.md pinned #1)
+- `grammar/*.wiki`, `data lake/Aelaki_Grammar_Guide.md` (megadoc), and `aelaki/*.py` are three peers to **synthesize**, not reconcile. Long-term goal: retire the megadoc by folding it into wiki + Python.
+- **Python wins over the megadoc on morphology Python actually implements** (shape of inflected forms = current state of the language).
+- **Megadoc wins over Python on existence claims.** If the megadoc says X exists and Python doesn't implement it, X exists — Python is just incomplete. Don't prune real grammar to match the builders.
+- **Wiki is the explanatory layer.** Megadoc topic without a wiki page → make a wiki page. Python behaviour the megadoc explains → add *why* comments to Python.
+- **Audits produce reports, not commits.** Operator resolves discrepancies manually, one at a time.
+
 ## Lexicon Gender Distribution
 - **Inanimate = uncountable**: In Aelaki, inanimate gender represents uncountable/mass nouns (water, air, sand), not merely lifeless things. Countable nouns use child/female/male genders.
 - **Target ratio**: ~10% inanimate, ~30% each for child/female/male
