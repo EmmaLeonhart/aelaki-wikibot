@@ -190,6 +190,9 @@ python wiki-scripts/create_wanted_categories.py --apply --run-tag "${RUN_TAG}"
 stage "Deleting unused categories"
 python wiki-scripts/delete_unused_categories.py --apply --run-tag "${RUN_TAG}"
 
+stage "Deleting unused templates"
+python wiki-scripts/delete_unused_templates.py --apply --run-tag "${RUN_TAG}"
+
 # ===========================================================================
 # Step 1.5 [safe]: Tag wanted word pages with non-lemma version category
 # Writes: wiki only (adds category to stub pages)
