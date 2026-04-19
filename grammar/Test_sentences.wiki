@@ -1,23 +1,55 @@
+Translations of the cofl/conlang syntax test list. Sentences without Aelaki renderings below are still pending. Glossed sentences in the opening block come from a translation pass posted to the conlangs-server Discord on 2025-06-05; for standalone sentences outside this list see [[Random sentences]].
+
 == [https://tmh.conlang.org/test-sentences/conlang-syntax-test-cases.html from this list] ==
 
 # The sun shines.
+#: ''Pæn Dhihevæsh Shædhïm''
+#: one.COLL.ENUM.MASC sun.COLL-MASC.COLL.3p 3p.COLL.MASC-shine.COLL.GNOMIC
+#: Gnomic indicated by the whole-clause umlaut (see [[Gnomic#Argument-side umlaut|Gnomic]]).
 # The sun is shining.
+#: ''Pæn Dhihevæsh Shædhümüm''
+#: one.COLL.ENUM.MASC sun.COLL-MASC.COLL.3p 3p.COLL.MASC-shine.CONT
 # [[File:Imagetest sentence.png|thumb|First three sentences]]The sun shone (yesterday)
+#: ''Pæn Dhihevæsh Shædhümshë''
+#: one.COLL.ENUM.MASC sun.COLL-MASC.COLL.3p 3p.COLL.MASC-shine-PAST.VIS
 # The sun will shine.
+#: ''Pæn Dhihevæsh Gokishædhümümürum''
+#: one.COLL.ENUM.MASC sun.COLL-MALE.COLL.3p CRAST-3p.MALE.COLL-burn.CONT-AUD.FUT
 # The sun has been shining.
+#: ''Pæn Dhihevæsh Goshædhümümüro''
+#: one.COLL.ENUM.MASC sun.COLL-MALE.COLL.3p HOD-3p.MALE.COLL-burn.CONT-AUD.PAST
+#: The "has been" present-perfect-progressive is rendered with a hodiernal prefix.
 # The sun is shining again.
+#: (not yet translated — flagged as uncertain on the 2025-06-05 pass)
 # The sun will shine tomorrow.
+#: ''Pæn Dhihevæsh Gokishædhümümürom''
+#: one.COLL.ENUM.MASC sun.COLL-MALE.COLL.3p CRAST-3p.MALE.COLL-burn.CONT-AUD.FUT
 # The sun shines brightly.
+#: ''Pæn Dhihevæsh Shædhïm Bagadhate''
+#: one.COLL.ENUM.MASC sun.COLL-MASC.COLL.3p 3p.COLL.MASC-shine.COLL.GNOMIC bright-ADV.PRESENT
 # The bright sun shines.
+#: ''Pæn Dhihevæsh Bagadhashë Shædhïm''
+#: one.COLL.ENUM.MASC sun.COLL-MASC.COLL.3p 3p.COLL.MASC-shine.COLL.GNOMIC bright-ADV.PRESENT
 # The sun is rising now.
+#: ''Pæn Dhihevæsh Shækamamas Vadante''
+#: one.COLL.ENUM.MASC sun.COLL-MASC.COLL.3p 3p.MASC.COLL-rise.CONT now-ADV.PRES
 # All the people shouted.
+#: ''Tïdænæsh Shæslodonro''
+#: person.COLL-MASC.COLL.3p MASC.COLL.3p-shout.TERM-PAST.AUD
+#: Auditory evidentiality in this context is first-hand (the speaker heard the shout).
 # Some of the people shouted.
+#: ''Tüdënënësh Shashaslodonro''
+#: person.PL-MASC.3p MASC.PL.3p-shout.TERM-PAST.AUD
 # Many of the people shouted twice.
+#: ''Tüdënënësh Shashaslodonro Baltero''
+#: person.PL-MASC.3p MASC.PL.3p-shout.TERM-PAST.AUD two-ADV-PAST.AUD
 # Happy people often shout.
 # The kitten jumped up.
 # The kitten jumped onto the table.
 # My little kitten walked away.
 # It's raining.
+#: ''Sharokasoro''
+#: Weather verb — fixed masculine subject / feminine object agreement. See [[Word_order#Weather verbs|Word order]].
 # The rain came down.
 # The kitten is playing in the rain.
 # The rain has stopped.
