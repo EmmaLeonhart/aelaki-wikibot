@@ -1124,43 +1124,6 @@ def find_entry_by_page_title(lexicon, page_name):
 
 
 # ---------------------------------------------------------------------------
-# Phase 3: Create new non-lemma forms for current-version lemmas
-# ---------------------------------------------------------------------------
-
-def create_nonlemma_for_current(site, lexicon, limit, run_tag_suffix, log_file):
-    """Create non-lemma form pages for lemmas at the current version.
-
-    Walks [[Category:Words {PAGE_VERSION}]] and creates NEW form pages
-    (skipping already-existing pages) for each lemma entry found.
-    """
-    current_cat = f"Words {PAGE_VERSION}"
-    print(f"  Walking [[Category:{current_cat}]]...", flush=True)
-
-    cat = site.categories[current_cat]
-    total_created = 0
-
-    for page in cat:
-        if total_created >= limit:
-            print(f"  Non-lemma creation budget exhausted ({limit}).", flush=True)
-            break
-        if not page.name.lower().startswith("word:"):
-            continue
-
-        key, entry = find_entry_by_page_title(lexicon, page.name)
-        if not entry:
-            continue
-
-        budget = limit - total_created
-        form_count = create_form_pages(site, entry, run_tag_suffix, log_file,
-                                        budget=budget, skip_existing=True)
-        if form_count:
-            print(f"  +{form_count} form pages for [[{page.name}]]", flush=True)
-            total_created += form_count
-
-    return total_created
-
-
-# ---------------------------------------------------------------------------
 # Phase 4: Upgrade old non-lemma forms
 # ---------------------------------------------------------------------------
 
@@ -1305,7 +1268,8 @@ def main():
     parser.add_argument("--phase", default="all",
                         choices=["all", "lemma", "nonlemma"],
                         help="Which phases to run: lemma (upgrade+create), "
-                             "nonlemma (form pages), or all.")
+                             "nonlemma (upgrade only — non-lemma forms are "
+                             "created by create_wanted_pages.py), or all.")
     args = parser.parse_args()
 
     # Register current commit in version history first (even in dry-run)
@@ -1414,16 +1378,10 @@ def main():
         print(f"\n  Phase 2: {progress.summary()}")
         print(f"  Phase 2 edits: {phase2_edits}", flush=True)
 
-    # ===== Phase 3: Create new non-lemma forms for current-version lemmas =====
-    if run_nonlemma:
-        if args.apply:
-            print(f"\n--- Phase 3: Create new non-lemma forms (budget: {args.limit}) ---", flush=True)
-            phase3_edits = create_nonlemma_for_current(site, lexicon, args.limit,
-                                                        run_tag_suffix, args.log_file)
-            total_edits += phase3_edits
-            print(f"\n  Phase 3 edits: {phase3_edits}", flush=True)
-        else:
-            print(f"\n--- Phase 3: Would create non-lemma forms (dry-run) ---", flush=True)
+    # Non-lemma creation is intentionally delegated to create_wanted_pages.py
+    # (Special:WantedPages is the single source of truth for which non-lemma
+    # forms should exist). This script only upgrades existing non-lemma pages
+    # — see Phase 4 below.
 
     # ===== Phase 4: Upgrade old non-lemma forms =====
     if run_nonlemma:

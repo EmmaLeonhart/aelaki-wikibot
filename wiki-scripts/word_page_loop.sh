@@ -24,7 +24,7 @@
 # Step 1.6:  Normalize lexicon (gender redistribution)      [local] → commit
 # Step 2:    Upgrade old lemmas + create new lemma pages    [local+wiki] → commit
 # Step 3:    Generate new random words into lexicon         [local] → commit
-# Step 4:    Create + upgrade non-lemma form pages          [local+wiki] → commit
+# Step 4:    Upgrade non-lemma form pages (no create)       [local+wiki] → commit
 # Step 5:    Create wanted page stubs                       [safe]
 # Step 6:    Update [[List of Aelaki roots]]                [safe]
 # Step 9:    Delete orphaned pages (2027+ only)             [safe]
@@ -137,6 +137,11 @@ commit_state() {
 git config user.name "github-actions[bot]"
 git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+# Reset the per-run creation budget. The per-day counter in
+# wiki-scripts/create_budget.state persists across runs on the same UTC
+# day; the per-run counter is transient and must start at zero.
+rm -f wiki-scripts/create_run_budget.state
+
 # ===========================================================================
 # Step 0 [local+wiki → commit]: Sync grammar pages (bidirectional)
 # Writes: grammar/*.wiki (pull), _sync_state.json, wiki (push)
@@ -248,11 +253,13 @@ python wiki-scripts/generate_random_words.py --count 100
 commit_state "chore(state): post-generate lexicon [skip ci]"
 
 # ===========================================================================
-# Step 4 [local+wiki → commit]: Create + upgrade non-lemma form pages
+# Step 4 [local+wiki → commit]: Upgrade old non-lemma form pages
 # Writes: wiki (form pages), create_word_pages.state
-# Risk if crash before commit: same as step 2 — safe_save is idempotent
+# Note: non-lemma *creation* is handled exclusively by create_wanted_pages.py
+# (Step 5). This step only regenerates existing non-lemma pages at older
+# versions. Risk if crash before commit: safe_save is idempotent.
 # ===========================================================================
-stage "Creating and upgrading non-lemma form pages"
+stage "Upgrading non-lemma form pages"
 python wiki-scripts/create_word_pages.py --apply --limit "$EDIT_LIMIT" --phase nonlemma --run-tag "${RUN_TAG}"
 commit_state "chore(state): post-nonlemma state [skip ci]"
 

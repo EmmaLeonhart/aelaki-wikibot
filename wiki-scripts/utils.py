@@ -15,7 +15,7 @@ import mwclient
 
 from config import (
     WIKI_URL, WIKI_PATH, USERNAME, PASSWORD, BOT_UA,
-    THROTTLE, CREATE_THROTTLE, CREATIONS_PER_DAY, MAX_LAG,
+    THROTTLE, CREATE_THROTTLE, CREATIONS_PER_DAY, CREATIONS_PER_RUN, MAX_LAG,
 )
 
 # ---------------------------------------------------------------------------
@@ -96,11 +96,22 @@ def batch_existing_titles(site, titles, chunk_size: int = 50) -> set[str]:
 
 _last_write_ts: float = 0.0
 
-# Daily creation budget — page creation cost is polynomial in the existing
-# link-table size on this wiki farm, so we cap creations per UTC day across
-# every script in the pipeline. State is persisted to a JSON file that the
-# workflow commits alongside the other *.state files.
+# Creation budgets — page creation is polynomial in the existing link-table
+# size on this wiki farm, so creations are capped on two horizons:
+#
+#   * Per-run (CREATIONS_PER_RUN): hard ceiling for a single pipeline run.
+#     Tracked in create_run_budget.state. word_page_loop.sh deletes that
+#     file at startup so every run begins with a fresh per-run budget.
+#     Not committed.
+#
+#   * Per-day (CREATIONS_PER_DAY): rolling cap across all runs in a UTC day.
+#     Tracked in create_budget.state, committed alongside other *.state
+#     files so the counter persists between runs within the same day.
+#
+# _consume_creation_budget enforces both; exhausting either blocks further
+# creations until the corresponding state resets.
 CREATION_BUDGET_FILE = os.path.join(os.path.dirname(__file__), "create_budget.state")
+CREATION_RUN_BUDGET_FILE = os.path.join(os.path.dirname(__file__), "create_run_budget.state")
 
 
 def _today_utc() -> str:
@@ -124,20 +135,45 @@ def _save_creation_budget(data: dict) -> None:
         json.dump(data, f)
 
 
+def _load_run_budget() -> int:
+    try:
+        with open(CREATION_RUN_BUDGET_FILE, "r", encoding="utf-8") as f:
+            return int(json.load(f).get("used", 0))
+    except (FileNotFoundError, json.JSONDecodeError, ValueError):
+        return 0
+
+
+def _save_run_budget(used: int) -> None:
+    with open(CREATION_RUN_BUDGET_FILE, "w", encoding="utf-8") as f:
+        json.dump({"used": used}, f)
+
+
 def _consume_creation_budget() -> bool:
-    """Reserve one page creation for today. Returns False when the daily
-    cap has been reached — callers must then skip the create."""
+    """Reserve one page creation against both the per-run and per-day caps.
+
+    Returns False when either cap would be exceeded; callers must then skip
+    the create.
+    """
+    run_used = _load_run_budget()
+    if run_used >= CREATIONS_PER_RUN:
+        return False
     data = _load_creation_budget()
     if data["used"] >= CREATIONS_PER_DAY:
         return False
     data["used"] += 1
     _save_creation_budget(data)
+    _save_run_budget(run_used + 1)
     return True
 
 
-def creation_budget_status() -> tuple[int, int]:
-    """Return (used, limit) for today — for logging / status pages."""
-    return (_load_creation_budget()["used"], CREATIONS_PER_DAY)
+def creation_budget_status() -> tuple[int, int, int, int]:
+    """Return (run_used, run_limit, day_used, day_limit) — for logging."""
+    return (
+        _load_run_budget(),
+        CREATIONS_PER_RUN,
+        _load_creation_budget()["used"],
+        CREATIONS_PER_DAY,
+    )
 
 
 def _wait_for_write_slot(heavy: bool = False) -> None:
@@ -176,8 +212,9 @@ def safe_save(page, text: str, summary: str) -> bool:
     is_create = current is None or not page.exists
 
     if is_create and not _consume_creation_budget():
+        ru, rl, du, dl = creation_budget_status()
         print(
-            f"  Creation budget ({CREATIONS_PER_DAY}/day) exhausted — "
+            f"  Creation budget exhausted (run {ru}/{rl}, day {du}/{dl}) — "
             f"skipping: {page.name}",
             flush=True,
         )
@@ -237,8 +274,9 @@ def move_page(site, old_title: str, new_title: str, reason: str, *, leave_redire
     # A move creates a page at the new title, so it hits the same polynomial
     # cost on the link table — budget and throttle it like a creation.
     if not _consume_creation_budget():
+        ru, rl, du, dl = creation_budget_status()
         print(
-            f"  Creation budget ({CREATIONS_PER_DAY}/day) exhausted — "
+            f"  Creation budget exhausted (run {ru}/{rl}, day {du}/{dl}) — "
             f"skipping move: {old_title} → {new_title}",
             flush=True,
         )

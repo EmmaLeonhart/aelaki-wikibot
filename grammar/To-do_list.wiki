@@ -55,6 +55,7 @@ These are wiki pages that exist but are thin or stub-like. Each expansion should
 
 The 60-entry sexagenary-cycle pages ('''Yang_Fire_Horse''', '''Yang_Earth_Monkey''', …) sit in the grammar namespace but have a muddled history — they were seeded from a different project and not all of them are structurally clean. They do not block the language work but should eventually be swept:
 
+* Actually make them consistent with the page [[The divine 60]] because the entire concept comes from Asian stuff but is pretty different on Ngorno
 * Audit every <code>Yang_*</code> and <code>Yin_*</code> page against [[The divine 60]] and [[Sexagenary cycle]] for consistency of headers, categories, and cross-links.
 * Confirm every page in [[:Category:Sexagenary cycle]] has at least one incoming link besides the category (the orphan sweep exempts categories but not zodiac prose pages — unless explicitly flagged).
 * Collapse duplicated content across [[Sexagenary cycle]] and [[Sexagenary cycle german style]] if the two pages really are meant to be different rather than accidentally divergent.
