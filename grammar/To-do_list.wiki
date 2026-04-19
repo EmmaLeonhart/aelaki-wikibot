@@ -1,0 +1,78 @@
+'''To-do list''' is the project-level backlog for the [[Aelaki]] wiki and its [https://github.com/EmmaLeonhart/aelaki-wikibot Python morphology engine]. It tracks '''mechanical''' work — things that need to be written, expanded, or wired up, not linguistic contradictions that require a ruling. For documentation clashes the three sources (wiki, megadoc, Python) disagree on, see [[Unresolved questions]] instead.
+
+Items here are expected to be worked through incrementally, often by automated passes against [https://github.com/EmmaLeonhart/aelaki-wikibot the repo]. When an item is finished, delete it.
+
+== Wiki pages to expand ==
+
+These are wiki pages that exist but are thin or stub-like. Each expansion should cite <code>aelaki/*.py</code> as the source of truth for any inflected form, and pull attestations from the discord corpus (<code>data lake/all_aelaki_messages.md</code>, <code>data lake/topic_*.md</code>) where available, using the inline italic format ''(source: Discord conlangs-server, YYYY-MM-DD)''.
+
+=== Thin pages (15–29 lines) ===
+
+* [[Positive]] — comprehensive mood paradigms and contrastive examples
+* [[Present]] — formation details and tense interaction
+* [[Quirky optative]] — examples and detailed paradigms
+* [[Collective]] — syntax and agreement details on top of the evolution section
+* [[Comparative]] — coverage for all word classes
+* [[Deliberative]] — usage contexts and full paradigms
+* [[First person nouns]] — needs substantial expansion beyond the current sketch
+* [[Mythic]] — usage patterns with hearsay evidential
+* [[Superlative]] — parallel expansion alongside Comparative
+* [[Contact influence]] — more language-contact examples
+* [[Imperative]] — more examples and mood interactions
+* [[Plural]] — self-contained description rather than pointer to [[Aelaki plural]]
+
+=== Moderate pages (30–44 lines) ===
+
+* [[Adpositions]] — paradigmatic tables and more examples
+* [[Copula]] — irregular forms and historical development
+* [[Pseudopronouns]] — more usage context
+* [[Negative]] — /f/ infix interaction with different word classes
+* [[Optative]] — mood distinctions
+
+== Wiki pages to create ==
+
+* [[Cohortative]] — "let us..." construction, referenced in [[Optative]] and [[Intentional]] but no page yet.
+* [[Realis]] — realis mood, referenced in [[Converbs]] but no page.
+* Converb-type explainer pages. Only [[Instrumental]] currently exists as a dedicated page; the other types (Purposive, Causal, Conditional, Concessive, Adversative, Simultaneous, Shared-cause, Shared-intent, Posterior, Anterior, Sequential, Terminative, Locative, Simulative, Comitative, Exceptive, Restrictive) currently redirect to or are explained only on [[Converbs]]. Stub pages with a brief gloss + link back to [[Converbs]] would improve navigation.
+* A pedagogical '''Getting started''' page or learning path beyond the short section on [[Aelaki]].
+* '''Complex syntax''' coverage — subordination, coordination, multi-clause constructions beyond [[Switch references]] and the stub [[Basic syntax]].
+
+== Auto-generated verb word pages ==
+
+* '''Verify the Converb section renders correctly on the live wiki.''' The word-page generator at <code>wiki-scripts/create_word_pages.py</code> emits a Converbs section for every verb lemma, pulling forms from <code>aelaki/converbs.py</code>. The tables need a sanity check on aelaki.miraheze.org once the next pipeline run deploys them — confirm agreement with <code>Converbs.wiki</code>, check wikitext renders as a table not literal pipes, confirm row links resolve.
+* '''Word-page v2 format.''' <code>create_word_pages.py</code> currently emits <code>{{wordpage|v1}}</code>. v2 needs: pronunciation / phonetic transcription, etymology section linking to proto-Aelaki roots, example sentences from the discord corpus, TAM-grouped verb inflection tables, possession paradigms for nouns, cross-links between morphologically related lemmas (e.g. <code>bsl</code> noun ↔ <code>bsl_adj</code> adjective). Companion <code>update_word_pages.py</code> finds pages tagged <code>{{wordpage|v1}}</code> and regenerates them.
+* '''Automatic new-word ingestion from the discord corpus.''' <code>data lake/dictionary.md</code> and <code>data lake/topic_*.md</code> hold ~120 unique Aelaki word forms. Extend <code>extract_discord_aelaki.py</code> (or a successor) to identify forms not yet in <code>aelaki/lexicon.py</code>, propose them with best-guess roots + gender, and feed them into the lexicon. Goal: every documented discord form ends up with a <code>word:LEMMA</code> page.
+
+== Pipeline and state ==
+
+* '''State-file audit.''' <code>create_word_pages.state</code> may hold stale entries from renamed keys (e.g. <code>dzhbhr → jbhr</code>). A general review of all pipeline state files (<code>*.state</code>, <code>*.last</code>) and their failure modes under <code>set -euo pipefail</code> is overdue. The annual reconciliation step (<code>reconcile_state.py</code>) is wired but other state files have not had the same pass.
+
+== Sægetlæræchïfïshë (single manual parse) ==
+
+* '''Parse Sægetlæræchïfïshë into morphemes.''' Appears in the 2025-06-04 car-crash glossed sentence ([[Random sentences]], [[Test sentences]]). Discord gloss is <code>SIM.CONV-HOD-be_hit.COMP-INAN.4p-VIS.PAST</code> but the surface string does not match that skeleton under any current verb root. Once parsed, write the decomposition up on [[Verb]] as a worked example. (Also tracked on [[Unresolved questions]] because the competing glosses are a synthesis call, not purely mechanical.)
+
+== Zodiac / sexagenary-cycle pages ==
+
+The 60-entry sexagenary-cycle pages ('''Yang_Fire_Horse''', '''Yang_Earth_Monkey''', …) sit in the grammar namespace but have a muddled history — they were seeded from a different project and not all of them are structurally clean. They do not block the language work but should eventually be swept:
+
+* Audit every <code>Yang_*</code> and <code>Yin_*</code> page against [[The divine 60]] and [[Sexagenary cycle]] for consistency of headers, categories, and cross-links.
+* Confirm every page in [[:Category:Sexagenary cycle]] has at least one incoming link besides the category (the orphan sweep exempts categories but not zodiac prose pages — unless explicitly flagged).
+* Collapse duplicated content across [[Sexagenary cycle]] and [[Sexagenary cycle german style]] if the two pages really are meant to be different rather than accidentally divergent.
+
+This is '''not a priority''' for the current language-consolidation effort and will not be completed in-session.
+
+== C# port (aelaki-sharp) ==
+
+* '''Bring <code>aelaki-sharp/</code> in line with canonical grammar.''' The C# morphology library is an outdated snapshot from before the unified back-to-front vowel shift, inanimate-gender behavior, Ki-syllable tables, and stative-verb prefixes were consolidated. Intended to eventually ship as a .NET library. Diff each module against <code>aelaki/*.py</code> and update module by module.
+
+== See also ==
+
+* [[Unresolved questions]] — documentation contradictions that need operator rulings
+* [[Aelaki]] — main grammar hub
+* [[Git commit log]] — repository change log mirrored into the wiki
+
+[[Category:Aelaki grammar]]
+
+[[Category:git synced pages]]
+
+[[Category:Project maintenance]]
