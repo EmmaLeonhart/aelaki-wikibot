@@ -11,6 +11,7 @@ Usage:
     python create_word_pages.py --apply --run-tag "..."
 """
 import argparse
+import itertools
 import os
 import re
 import subprocess
@@ -951,13 +952,21 @@ def upgrade_old_versions(site, lexicon, limit, run_tag_suffix, log_file,
             break
 
         cat = site.categories[cat_name]
-        if not cat.exists:
+        # mwclient's Category.exists is True only when a Category:X description
+        # page has been saved to the wiki. Hash-suffixed version categories
+        # never get such a description page — membership is tracked via
+        # categorylinks only — so .exists is always False. Peek the iterator
+        # instead: if it yields nothing, there's nothing to upgrade.
+        cat_iter = iter(cat)
+        try:
+            first_member = next(cat_iter)
+        except StopIteration:
             continue
 
         print(f"\nChecking [[Category:{cat_name}]]...", flush=True)
         upgraded_this_cat = 0
 
-        for page in cat:
+        for page in itertools.chain([first_member], cat_iter):
             if total_edits >= limit:
                 print(f"  Reached edit budget of {limit}.", flush=True)
                 break
@@ -1085,13 +1094,19 @@ def upgrade_old_nonlemma_forms(site, lexicon, limit, run_tag_suffix, log_file,
             break
 
         cat = site.categories[nonlemma_cat]
-        if not cat.exists:
+        # See upgrade_old_versions: hash-suffixed category pages never exist
+        # as wikitext, so cat.exists would always be False and skip them.
+        # Peek the iterator — empty categories yield StopIteration immediately.
+        cat_iter = iter(cat)
+        try:
+            first_member = next(cat_iter)
+        except StopIteration:
             continue
 
         print(f"\n  Checking [[Category:{nonlemma_cat}]]...", flush=True)
         upgraded_this_cat = 0
 
-        for page in cat:
+        for page in itertools.chain([first_member], cat_iter):
             if total_upgraded >= limit:
                 print(f"  Non-lemma upgrade budget exhausted ({limit}).", flush=True)
                 break
