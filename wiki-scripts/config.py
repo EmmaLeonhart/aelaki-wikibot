@@ -39,9 +39,15 @@ CREATE_THROTTLE = 5.0
 MAX_LAG = 5
 
 # Page creation is polynomial in the existing link-table size, so we cap the
-# number of new pages the bot can create per UTC day across the whole
-# pipeline. See utils._consume_creation_budget (state in create_budget.state).
-CREATIONS_PER_DAY = 100
+# number of new pages the bot can create. Two caps apply:
+#   - CREATIONS_PER_RUN: hard ceiling for a single pipeline run. Resets when
+#     word_page_loop.sh deletes create_run_budget.state at startup.
+#   - CREATIONS_PER_DAY: rolling cap per UTC day across all runs. Persisted
+#     in create_budget.state (committed by the workflow so it survives
+#     between runs on the same day).
+# See utils._consume_creation_budget.
+CREATIONS_PER_RUN = 100
+CREATIONS_PER_DAY = 500
 
 BOT_UA = "AelakiBot/1.0 (User:AelakiBot; aelaki.miraheze.org)"
 

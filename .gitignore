@@ -5,4 +5,8 @@ __pycache__/
 
 # Wiki bot logs (state files are tracked for CI persistence)
 wiki-scripts/*.log
+# Per-run creation budget — reset at the start of every pipeline run, so
+# there is nothing to persist between runs. (The per-day counter in
+# create_budget.state is committed so the cap carries across same-day runs.)
+wiki-scripts/create_run_budget.state
 .env

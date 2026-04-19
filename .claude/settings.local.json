@@ -53,7 +53,8 @@
       "Read(//tmp/**)",
       "Bash(pandoc --version)",
       "Bash(awk -F: '{sum+=$2; files+=1} END {print \"files with {{ill}}:\", files; print \"total occurrences:\", sum}')",
-      "Bash(awk -F: '$2>0{sum+=$2; files+=1} END {print \"files with >0:\", files; print \"total:\", sum}')"
+      "Bash(awk -F: '$2>0{sum+=$2; files+=1} END {print \"files with >0:\", files; print \"total:\", sum}')",
+      "Bash(bash -n wiki-scripts/word_page_loop.sh)"
     ]
   }
 }
