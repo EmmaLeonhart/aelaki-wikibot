@@ -37,6 +37,10 @@ These are wiki pages that exist but are thin or stub-like. Each expansion should
 * A pedagogical '''Getting started''' page or learning path beyond the short section on [[Aelaki]].
 * '''Complex syntax''' coverage — subordination, coordination, multi-clause constructions beyond [[Switch references]] and the stub [[Basic syntax]].
 
+== Fixing up Lexicon issues ==
+
+On the page [[List of Aelaki roots]] there are some pages that are linked but do not exist. Figure out why they do not exist since they should exist and have it so the generator eventually makes them.
+
 == Auto-generated verb word pages ==
 
 * '''Verify the Converb section renders correctly on the live wiki.''' The word-page generator at <code>wiki-scripts/create_word_pages.py</code> emits a Converbs section for every verb lemma, pulling forms from <code>aelaki/converbs.py</code>. The tables need a sanity check on aelaki.miraheze.org once the next pipeline run deploys them — confirm agreement with <code>Converbs.wiki</code>, check wikitext renders as a table not literal pipes, confirm row links resolve.
