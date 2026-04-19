@@ -1198,6 +1198,30 @@ Short hashes are used in [[Category:Word pages|word page]] version categories (e
 | 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/14df1e708f1bb94b42681c950144e76c2d7995e6 14df1e70] || [[:Category:Words 14df1e70|Words 14df1e70]] || [[:Category:Non-lemma forms 14df1e70|Non-lemma 14df1e70]] || chore(state): post-grammar-sync [skip ci]
 |-
 | 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/8bedf791692eeda59af30f9f5755de0192a9e9cf 8bedf791] || [[:Category:Words 8bedf791|Words 8bedf791]] || [[:Category:Non-lemma forms 8bedf791|Non-lemma 8bedf791]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/83b9281d363803d9156e73012e6f4e0849bd2886 83b9281d] || [[:Category:Words 83b9281d|Words 83b9281d]] || [[:Category:Non-lemma forms 83b9281d|Non-lemma 83b9281d]] || Link converb type labels and audit wiki page collisions
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/2ff17a823979cdf8afc284a835d8b95b74cb175d 2ff17a82] || [[:Category:Words 2ff17a82|Words 2ff17a82]] || [[:Category:Non-lemma forms 2ff17a82|Non-lemma 2ff17a82]] || Merge pull request #6 from EmmaLeonhart/claude/add-anthint-todo-list-0X13b
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/74b28cb05665ea9a58fc280dea4fd2a5f75e778d 74b28cb0] || [[:Category:Words 74b28cb0|Words 74b28cb0]] || [[:Category:Non-lemma forms 74b28cb0|Non-lemma 74b28cb0]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/9f8768dfc3e70f8a29a54811bdb2479846d6637c 9f8768df] || [[:Category:Words 9f8768df|Words 9f8768df]] || [[:Category:Non-lemma forms 9f8768df|Non-lemma 9f8768df]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/04e4937c581a56f43c20103a7c2b9aa53be3d7d2 04e4937c] || [[:Category:Words 04e4937c|Words 04e4937c]] || [[:Category:Non-lemma forms 04e4937c|Non-lemma 04e4937c]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/53bb543a1754465d8085626512e012fe33529cf1 53bb543a] || [[:Category:Words 53bb543a|Words 53bb543a]] || [[:Category:Non-lemma forms 53bb543a|Non-lemma 53bb543a]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/451166ea7c5673c140e5c050da3475dabd30c089 451166ea] || [[:Category:Words 451166ea|Words 451166ea]] || [[:Category:Non-lemma forms 451166ea|Non-lemma 451166ea]] || Update To-do_list.wiki
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/565b731cd26f4d673980f9212ba6d63dd76c0c23 565b731c] || [[:Category:Words 565b731c|Words 565b731c]] || [[:Category:Non-lemma forms 565b731c|Non-lemma 565b731c]] || Update To-do list with notes on Sægetlæræchïfïshë
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a204048854a1b1ff920a67356cde6e21c523d36a a2040488] || [[:Category:Words a2040488|Words a2040488]] || [[:Category:Non-lemma forms a2040488|Non-lemma a2040488]] || Remove 'Allochy' references from To-do list
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/62e8df60c93f854babe44582e008cb90a8b2c329 62e8df60] || [[:Category:Words 62e8df60|Words 62e8df60]] || [[:Category:Non-lemma forms 62e8df60|Non-lemma 62e8df60]] || fix(upgrade): don't gate version-category iteration on Category.exists
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/1921dc3e1ef8e5e7c6dc688d9857472e7fc6423b 1921dc3e] || [[:Category:Words 1921dc3e|Words 1921dc3e]] || [[:Category:Non-lemma forms 1921dc3e|Non-lemma 1921dc3e]] || chore(state): post-grammar-sync [skip ci]
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/35bcc92a79fcafd8f5f1e64978090ff8dea8f4d9 35bcc92a] || [[:Category:Words 35bcc92a|Words 35bcc92a]] || [[:Category:Non-lemma forms 35bcc92a|Non-lemma 35bcc92a]] || chore(state): rebuild version history from git log [skip ci]
 |}
 
 [[Category:git synced pages]]
