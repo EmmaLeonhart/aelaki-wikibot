@@ -29,6 +29,8 @@ Based on patterns from [shintowiki-scripts](https://github.com/Emma-Leonhart/shi
 | `word_page_loop.sh` | **CI** | Orchestrates the word page bot pipeline |
 | `generate_random_words.py` | **CI** | Generates new lexicon entries from Wiktionary lemmas |
 | `create_wanted_categories.py` | **CI** | Creates missing categories from Special:WantedCategories |
+| `delete_unused_categories.py` | **CI** | Deletes empty categories from Special:UnusedCategories |
+| `delete_unused_templates.py` | **CI** | Deletes templates from Special:UnusedTemplates |
 | `sync_grammar_pages.py` | **CI** | Bidirectional sync of grammar docs between wiki and repo |
 | `create_word_articles.py` | Ready | Creates wiki articles for each root word in the lexicon |
 | `sync_lexicon_page.py` | Ready | Syncs the roots summary table to a wiki page |
@@ -227,9 +229,9 @@ aelaki/
 The word page bot runs via `.github/workflows/word-pages.yml`.
 
 **Triggers:**
-- Every push to `master` (except `*.state` and `grammar/` changes)
-- Hourly at :00 (cron schedule) — keeps grammar sync fresh and avoids conflicts
-- Manual dispatch (`workflow_dispatch`)
+- Every push to `master`. The `[skip ci]` tag on the bot's own state commits keeps it from re-triggering itself.
+- Daily at 00:00 UTC (cron schedule).
+- Manual dispatch (`workflow_dispatch`).
 
 **Required repository configuration:**
 1. **Variable** `WIKI_USERNAME` — bot-password username (e.g. `EmmaBot@EmmaBot`)

@@ -4,9 +4,6 @@ on:
   workflow_dispatch:
   push:
     branches: [master]
-    paths-ignore:
-      - "**/*.state"
-      - "grammar/**"
   schedule:
     - cron: "0 0 * * *"
 
