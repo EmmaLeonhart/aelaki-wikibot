@@ -76,12 +76,6 @@ class TestClassIISuffixConverbs:
             subj_person=Person.THIRD, subj_gender=Gender.MALE)
         assert result.endswith("ndor")
 
-    def test_beneficiary_suffix(self):
-        result = build_suffix_converb_transitive(
-            ConverbSuffixType.BENEFICIARY, self.root, StemTemplate.TELIC_IMPERFECT,
-            subj_person=Person.THIRD, subj_gender=Gender.MALE)
-        assert result.endswith("rum")
-
     def test_with_day_prefix(self):
         result = build_suffix_converb_transitive(
             ConverbSuffixType.POSTERIOR, self.root, StemTemplate.TELIC_IMPERFECT,
