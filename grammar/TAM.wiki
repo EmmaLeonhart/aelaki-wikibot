@@ -1,1 +1,120 @@
-[[Category:Git synced pages]]
+'''TAM''' (tense-aspect-mood) is the combined system of morphology that marks ''when'' an event happens, ''how'' it unfolds, and the ''speaker's stance'' toward it in [[Aelaki]]. The three dimensions are not orthogonal — evidentiality and mood frequently shift the apparent tense, and some aspects are restricted to particular tense/evidential combinations.
+
+See [[Verb]] for general verb structure, [[Evidentialities]] for evidential morphology, and [[Converbs]] for how TAM interacts with subordinate clauses.
+
+== Dimensions ==
+
+=== Tense ===
+
+Three core frames: [[Past]], [[Present]], [[Future]]. Additional graded tenses ([[Hesternal]], [[Hodiernal]], [[Crastinal]], [[Mythic]]) are derived from the core three via day prefixes.
+
+=== Aspect ===
+
+* '''Imperfective''' — default; action in progress or unbounded.
+* '''Habitual''' — suffix '''-d'eb''''; action characterises the subject.
+* '''Gnomic''' — stem reduplication; general/universal truth. Overrides other plural markings.
+* '''Telic perfective''' — infix '''-m'eu'''; completed, goal-achieved.
+* '''Atelic perfective''' — infix '''-pihn'''; completed but unbounded, "ran until they stopped".
+
+=== Evidentiality ===
+
+Four evidentials are marked on the verb itself:
+
+* '''Visual''' — default present; particle '''bha''' (from "see") on past tense.
+* '''Auditory / second-hand''' — particle '''dibv'''; covers both literal hearing and reported speech.
+* '''Inferential''' — particle '''eux''' (past, from "smell", metaphorical) or '''agh''' (future, from "think").
+* '''Second-hand (gnomic default)''' — used for universal statements, because the speaker cannot directly witness generic claims.
+
+Evidentials can shift the apparent tense: inferential defaults to past in the past tense, and to future in the present tense.
+
+=== Mood ===
+
+* '''Indicative''' — unmarked.
+* '''Intentive''' — '''-vo'''; implies a plan the speaker was in on. Not for warning the police about a criminal.
+* '''Admonitive''' — '''-d'id'''; "I'm afraid they will". Not an inverse imperative — use negation+imperative for that. Second-person use implies the subject acts unwillingly (genuine concern or mafia-style threat).
+* '''[[Optative]]''' — '''-laex'''; "they should". Imperative force in 1st/2nd person, optative in 3rd/4th.
+* '''Deliberative''' — '''-ga'''; snappy yes-no question ("should they?"). Inside the verb rather than the free yes-no particle ''ga''. For philosophical questions, use ''-zoga''.
+
+== Worked paradigm: ''exu'' "run" ==
+
+The verb '''exu''' "run" illustrates the full TAM matrix. Morphemes are shown with hyphens; surface forms appear where simple concatenation misrepresents the actual pronunciation.
+
+=== Present ===
+
+{| class="wikitable"
+! Aspect !! Evidential !! Morphemes !! Surface !! Gloss
+|-
+| imperfective || visual || exu || ''exu'' || they are running
+|-
+| imperfective habitual || visual || exu-d'eb' || ''exud'eb''' || they run (habitually)
+|-
+| imperfective || auditory || exu-laen-dibv || — || they are running (I hear)
+|-
+| imperfective habitual || auditory || exu-laen-dibv-d'eb' || — || (habitual, heard)
+|-
+| gnomic || second-hand (default) || exu-exu-belel || ''exuxubelel'' || they run (as a characterisation)
+|-
+| imperfective || inferential || exu-laen-agh || — || they are running (I infer)
+|-
+| gnomic || inferential || exu-exu-laen-agh-belel || — || gnomic inferential
+|}
+
+Gnomic always reduplicates the stem and overwrites any other plural markings. It defaults to second-hand evidentiality because the speaker cannot directly witness a generic claim.
+
+=== Past ===
+
+{| class="wikitable"
+! Aspect !! Evidential !! Morphemes !! Surface !! Gloss
+|-
+| imperfective || visual || exu-bha || ''exubha'' || they were running (I saw)
+|-
+| imperfective || auditory || exu-dibv || ''exudibv'' || they were running (I heard)
+|-
+| imperfective || inferential || exu-eux || ''exeuxu'' || they ran (by inference)
+|-
+| telic perfective || visual || exu-m'eu || ''exum'eu'' || they ran (to their destination)
+|-
+| telic perfective || auditory || exu-dibv-m'eu || ''exum'eu'' || (heard, telic)
+|-
+| atelic perfective || visual || exu-pihn || ''exupihn'' || they ran (until they stopped)
+|-
+| atelic perfective || inferential || exu-eux-pihn || ''exupihn'' || (inferred, atelic)
+|}
+
+The past visual '''bha''' is not by itself a reliable past indicator — other particles can move the statement back into the past or out into the future again.
+
+=== Future ===
+
+{| class="wikitable"
+! Aspect !! Mood !! Morphemes !! Surface !! Gloss
+|-
+| imperfective || inferential || exu-agh || ''exaghu'' || they will run (I infer)
+|-
+| imperfective || intentive || exu-vo || ''exuvo'' || they will run (by plan)
+|-
+| imperfective || admonitive || exu-d'id || ''exud'id'' || I fear they will run
+|-
+| imperfective || optative || exu-laex || ''exulaex'' || they should run
+|-
+| imperfective || deliberative || exu-ga || ''exuga'' || should they run?
+|-
+| telic perfective || intentive || exu-vo-m'eu || ''exuvom'eu'' || they will run to (by plan)
+|-
+| atelic perfective || intentive || exu-vo-pihn || ''exuvopihn'' || they will run (unbounded, by plan)
+|-
+| telic perfective || deliberative || exu-ga-m'eu || ''exugam'eu'' || should they run there?
+|-
+| atelic perfective || deliberative || exu-ga-pihn || ''exugapihn'' || should they run?
+|}
+
+The inferential particle '''agh''' (from "think") moves the statement into the future; it is infixed rather than suffixed for sound-rule reasons. Habitual '''-d'eb'''' combines freely with each perfective.
+
+== Notes ==
+
+* Present visual is the default reading of an unmarked finite verb.
+* The gnomic reduplication is morphologically distinctive: it is the only aspect that overrides plural marking on the stem.
+* Inferential shifts an otherwise-present verb into the future, and an otherwise-past verb further into the past — the tense arrow is ''away from'' the speaker.
+
+[[Category:Aelaki grammar]]
+
+[[Category:git synced pages]]
