@@ -42,18 +42,25 @@ def build_prefix_converb_transitive(
     obj_person: Person = Person.FOURTH,
     obj_gender: Gender = Gender.FEMALE,
     obj_number: Number = Number.SINGULAR,
+    inst_person: Person | None = None,
+    inst_gender: Gender | None = None,
+    inst_number: Number = Number.SINGULAR,
 ) -> str:
     """Build a Class I prefix converb from a transitive verb.
 
-    Template: PREFIX-[DAY-](SUBJ-Ki)ROOT.ASPECT-(OBJ-Ki)-TAM
+    Template: PREFIX-[DAY-](SUBJ-Ki)(INST-Ki)ROOT.ASPECT-(OBJ-Ki)-TAM
 
     Class I converbs retain full TAM from the finite verb system.
+    SUBJ-Ki and INST-Ki are both optional slots per the megadoc
+    (grammar guide §1970); INST-Ki is emitted only when inst_person
+    and inst_gender are both supplied.
     """
     from .verbs import conjugate_transitive
     finite_form = conjugate_transitive(
         root, template, evidential, day,
         subj_person, subj_gender, subj_number,
         obj_person, obj_gender, obj_number,
+        inst_person, inst_gender, inst_number,
     )
     return prefix_type.value + finite_form
 
@@ -69,12 +76,22 @@ def build_prefix_converb_intransitive(
     subj_gender: Gender = Gender.MALE,
     subj_number: Number = Number.SINGULAR,
     active: bool = True,
+    inst_person: Person | None = None,
+    inst_gender: Gender | None = None,
+    inst_number: Number = Number.SINGULAR,
 ) -> str:
-    """Build a Class I prefix converb from an intransitive verb."""
+    """Build a Class I prefix converb from an intransitive verb.
+
+    INST-Ki is optional and emitted only for active intransitives
+    when inst_person and inst_gender are both supplied. Stative
+    intransitives don't take INST-Ki (the stative frame expresses
+    a property, not an agent+instrument configuration).
+    """
     from .verbs import conjugate_intransitive_active, conjugate_intransitive_stative
     if active:
         finite_form = conjugate_intransitive_active(
-            root, v1, v2, evidential, day, subj_person, subj_gender, subj_number)
+            root, v1, v2, evidential, day, subj_person, subj_gender, subj_number,
+            inst_person, inst_gender, inst_number)
     else:
         finite_form = conjugate_intransitive_stative(
             root, v1, v2, evidential, day, subj_person, subj_gender, subj_number)
