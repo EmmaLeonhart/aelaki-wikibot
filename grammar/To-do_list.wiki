@@ -19,6 +19,8 @@ Shared budget is down to 200 a day shared by both. And each one can cap at 100 f
 
 Production run is done last thing in the day, using up 100. So you can theoretically do say 6 production push runs, so 120 pages made, and as a result the production push caps off at 80 pages made (50 lemmas and 30 non-lemmas)
 
+Remove all references to "Allochy" from the repo, that was just a hallucination
+
 == Wiki pages to expand ==
 
 These are wiki pages that exist but are thin or stub-like. Each expansion should cite <code>aelaki/*.py</code> as the source of truth for any inflected form, and pull attestations from the discord corpus (<code>data lake/all_aelaki_messages.md</code>, <code>data lake/topic_*.md</code>) where available, using the inline italic format ''(source: Discord conlangs-server, YYYY-MM-DD)''.
