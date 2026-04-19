@@ -18,6 +18,15 @@ This wiki also covers Illish.
 ## [[Transitive verbs]]
 ## [[stative verbs]]
 
+== Helping with the project ==
+
+Two wiki pages track open work on the Aelaki language and this wiki:
+
+* [[Unresolved questions]] — grammatical contradictions and documentation clashes between the wiki, the megadoc, and the Python morphology engine that require a manual ruling. Each item links to the exact source passage on GitHub. Edit this page directly when you notice something the three sources disagree on, or when you have a ruling to record.
+* [[To-do list]] — mechanical implementation work: thin wiki pages to expand, missing pages to create, pipeline items, and maintenance tasks that do not require an ontological decision.
+
+Both pages are kept in sync with the [https://github.com/EmmaLeonhart/aelaki-wikibot aelaki-wikibot GitHub repository] so contributions made on-wiki flow back into the repo and vice versa.
+
 == Worldbuilding ==
 
 Aelaki is set on the planet Ngorno under a visible ring system. The planet's delta-dwelling culture and its religion are sketched on [[Ringworld culture building]] and [[Aelateun religion]].
