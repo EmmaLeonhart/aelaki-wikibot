@@ -51,6 +51,19 @@ These are wiki pages that exist but are thin or stub-like. Each expansion should
 
 * '''Parse Sægetlæræchïfïshë into morphemes.''' Appears in the 2025-06-04 car-crash glossed sentence ([[Random sentences]], [[Test sentences]]). Discord gloss is <code>SIM.CONV-HOD-be_hit.COMP-INAN.4p-VIS.PAST</code> but the surface string does not match that skeleton under any current verb root. Once parsed, write the decomposition up on [[Verb]] as a worked example. (Also tracked on [[Unresolved questions]] because the competing glosses are a synthesis call, not purely mechanical.)
 
+==Lexicon page issue==
+
+* Square the circle of [[Aelaki Lexicon]] and [[List of Aelaki roots]]
+* Most likely this involves a full history merge. Move [[Aelaki Lexicon]] -> [[List of Aelaki roots]]
+* However the Lexicon page might be best repurposed into something. So do not just randomly commit to doing this. 
+* Big issue is that [[Aelaki Lexicon]] is the oldest comprehensive word list, and [[List of Aelaki roots]] is the current one. So history wise the merge might make sentences
+* Current Intention
+** Study the content of [[Aelaki Lexicon]]
+** Upgrade the format of [[List of Aelaki roots]] to one influenced by [[Aelaki Lexicon]]
+** Move [[Aelaki Lexicon]] -> [[List of Aelaki roots]] with deletion, and then restore revision visibility to preserve history
+** Edit [[List of Aelaki roots]] to give some kind of an introduction explanantion of the history
+** [[Aelaki Lexicon]] is now a single revision redirect. Turn it into a hatnote leading there and make the article discussing the actual content of the Lexicon
+
 == Zodiac / sexagenary-cycle pages ==
 
 The 60-entry sexagenary-cycle pages ('''Yang_Fire_Horse''', '''Yang_Earth_Monkey''', …) sit in the grammar namespace but have a muddled history — they were seeded from a different project and not all of them are structurally clean. They do not block the language work but should eventually be swept:
