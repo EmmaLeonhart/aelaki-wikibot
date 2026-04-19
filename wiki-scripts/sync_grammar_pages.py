@@ -223,9 +223,12 @@ def pull(site, state: dict, verbose: bool = True) -> int:
     # Grammar tree: recurse (small, well-known set of subcategories).
     # Sync-tag category: do NOT recurse — subcategory contents are not
     # implicitly owned by the sync, and recursing there is what caused the
-    # Ringworld-category mass-pull incident.
+    # Ringworld-category mass-pull incident. Include template namespace (10)
+    # so tagged templates (and tagged categories) sync alongside main pages;
+    # the point of the opt-in tag is editing descriptions in git.
     collected = walk_category(site, CATEGORY, recurse=True)
-    collected.update(walk_category(site, SYNC_CATEGORY, recurse=False))
+    collected.update(walk_category(
+        site, SYNC_CATEGORY, recurse=False, namespaces="0|10|14"))
     if not collected:
         print("No pages found in Category:Aelaki grammar or Category:git synced pages.")
         return 0
@@ -283,7 +286,7 @@ def discover(site, state: dict, verbose: bool = True) -> int:
     adopted = 0
 
     for title, ns, revid, text in iter_category_with_revisions(
-            site, SYNC_CATEGORY, namespaces="0"):
+            site, SYNC_CATEGORY, namespaces="0|10|14"):
         if title in state:
             if verbose:
                 print(f"  already tracked: {title}")
