@@ -1,5 +1,11 @@
 # Aelaki TODO
 
+## getting status.md working
+
+We need a status.md like C:\Users\Immanuelle\Documents\Github\Sutra and C:\Users\Immanuelle\Documents\Github\order.life 
+
+So go over its claude.md and status.md and maybe todo.md to figure the stuff out. We want to begin powering through our todo.md and status.md in the way that is intended instead of letting these documents go stale and add bloat.
+
 ## Potentially outdated wiki material
 
 The commit 4db8259de2771511cbf6aaa11edbd6c1993a933b 
