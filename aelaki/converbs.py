@@ -27,7 +27,9 @@ class ConverbPrefixType(Enum):
     CONCESSIVE = "ra"      # "even though"
     INSTRUMENTAL = "mu"    # "by means of"
     ADVERSATIVE = "ne"     # "instead of"
-    SIMULTANEOUS = "ta"    # "while doing"
+    SIMULTANEOUS = "ta"    # "while doing" — see STATUS re: possible ta-...-te circumfix
+    SHARED_CAUSE = "engmo" # "with the same cause as"
+    SHARED_INTENT = "i?o"  # "with the same intent as" — romanization provisional; ? is glottal stop
 
 
 def build_prefix_converb_transitive(
