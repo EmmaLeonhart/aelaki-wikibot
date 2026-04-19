@@ -13,7 +13,8 @@
 #   [local] = writes local files (needs commit_state to persist)
 #   [safe]  = no local state; if run crashes here, nothing is lost
 #
-# Step 0:    Rebuild version_history.txt from git log       [local] → commit
+# Step 0:    Sync grammar pages (bidirectional)             [local+wiki] → commit
+# Step 0.2:  Rebuild version_history.txt from git log       [local] → commit
 # Step 0.05: Update [[Git commit log]]                      [safe]
 # Step 0.1:  Reconcile state file (annual)                  [local] → commit
 # Step 0.5:  Mark bot active on wiki                        [wiki]
@@ -26,9 +27,14 @@
 # Step 4:    Create + upgrade non-lemma form pages          [local+wiki] → commit
 # Step 5:    Create wanted page stubs                       [safe]
 # Step 6:    Update [[List of Aelaki roots]]                [safe]
-# Step 8:    Sync grammar pages (bidirectional)             [local+wiki] → commit
 # Step 9:    Delete orphaned pages (2027+ only)             [safe]
 # Step 10:   Mark bot inactive on wiki                      [wiki]
+#
+# NOTE: Grammar sync runs FIRST (Step 0) so human-curated grammar pages get
+# first claim on the shared 100/day creation budget (per UTC day, persisted
+# in create_budget.state). Previously it ran late (Step 8) and was silently
+# starved of budget on days when word-page creation consumed the full cap,
+# leaving locally-added grammar pages as red links on the wiki.
 #
 # LOCAL STATE FILES
 # =================
@@ -132,7 +138,19 @@ git config user.name "github-actions[bot]"
 git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
 # ===========================================================================
-# Step 0 [local → commit]: Rebuild version_history.txt from git log
+# Step 0 [local+wiki → commit]: Sync grammar pages (bidirectional)
+# Writes: grammar/*.wiki (pull), _sync_state.json, wiki (push)
+# Runs FIRST so human-curated grammar pages get first claim on the shared
+# 100/day creation budget, before word-page creation (Steps 2 and 4) can
+# consume it. The budget is per UTC day, persisted across runs.
+# Risk if crash before commit: grammar files stale → next pull re-fetches
+# ===========================================================================
+stage "Syncing grammar pages"
+python wiki-scripts/sync_grammar_pages.py --sync --apply --run-tag "${RUN_TAG}"
+commit_state "chore(state): post-grammar-sync [skip ci]"
+
+# ===========================================================================
+# Step 0.2 [local → commit]: Rebuild version_history.txt from git log
 # Writes: wiki-scripts/version_history.txt
 # Risk if crash: none — rebuilt from scratch every run
 # ===========================================================================
@@ -251,15 +269,6 @@ python wiki-scripts/create_wanted_pages.py --apply --run-tag "${RUN_TAG}"
 # ===========================================================================
 stage "Updating list of Aelaki roots"
 python wiki-scripts/sync_roots_list.py --apply --run-tag "${RUN_TAG}"
-
-# ===========================================================================
-# Step 8 [local+wiki → commit]: Sync grammar pages (bidirectional)
-# Writes: grammar/*.wiki (pull), _sync_state.json, wiki (push)
-# Risk if crash before commit: grammar files stale → next pull re-fetches
-# ===========================================================================
-stage "Syncing grammar pages"
-python wiki-scripts/sync_grammar_pages.py --sync --apply --run-tag "${RUN_TAG}"
-commit_state "chore(state): post-grammar-sync [skip ci]"
 
 # ===========================================================================
 # Step 9 [safe]: Delete orphaned pages (year-gated to 2027+)
