@@ -1,10 +1,8 @@
 # Aelaki TODO
 
-## getting status.md working
-
-We need a status.md like C:\Users\Immanuelle\Documents\Github\Sutra and C:\Users\Immanuelle\Documents\Github\order.life 
-
-So go over its claude.md and status.md and maybe todo.md to figure the stuff out. We want to begin powering through our todo.md and status.md in the way that is intended instead of letting these documents go stale and add bloat.
+Active work queue lives in `STATUS.md` — a tight list of what's next, with
+context. This file is the long-tail backlog: checkbox history,
+expansion inventories, and items not yet promoted to the active queue.
 
 ## Clean up the data lake
 
