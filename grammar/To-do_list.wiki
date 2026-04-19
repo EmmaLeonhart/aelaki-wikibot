@@ -37,6 +37,39 @@ These are wiki pages that exist but are thin or stub-like. Each expansion should
 * A pedagogical '''Getting started''' page or learning path beyond the short section on [[Aelaki]].
 * '''Complex syntax''' coverage — subordination, coordination, multi-clause constructions beyond [[Switch references]] and the stub [[Basic syntax]].
 
+== Page name collisions and potential duplicates ==
+
+The repository has several wiki pages whose titles collide, overlap semantically, or are near-duplicates of each other. Each entry below lists the repo file (<code>grammar/PAGE.wiki</code>) alongside the wiki link ([[PAGE]]). Resolving these requires a per-pair judgment — merge, redirect, rename with hatnote, or leave as-is — so they are collected here rather than auto-fixed.
+
+=== Semantic overload (same title, distinct concepts) ===
+
+* <code>Instrumental.wiki</code> → [[Instrumental]] — currently documents the '''noun case''' and '''verb argument'''. The '''instrumental converb''' (mu- prefix) is a separate concept that should live on its own page (e.g. [[Instrumental converb]]) with a hatnote from [[Instrumental]]. The existing coverage of case + verb argument staying on one article is intentional.
+* <code>Locative</code>, <code>Comitative</code>, <code>Simulative</code> as converbs — [[Converbs]] lists these as converb types, but [[Instrumental]] already describes instrumental/comitative/locative as semantic functions of the case. Any future stub pages must be disambiguated (e.g. [[Locative converb]], [[Comitative converb]], [[Simulative converb]]).
+
+=== Case-only collision (probable filesystem / title-case bug) ===
+
+* <code>Heavenly_Stems.wiki</code> → [[Heavenly Stems]] vs <code>Heavenly_stems.wiki</code> → [[Heavenly stems]] — file contents are '''byte-identical'''. One should be deleted or turned into a redirect; pick the canonical capitalization.
+
+=== Identical content, differing titles (likely redirect candidates) ===
+
+* <code>Active.wiki</code> → [[Active]] vs <code>Active_verb.wiki</code> → [[Active verb]] — byte-identical. A third variant <code>Active_verbs.wiki</code> → [[Active verbs]] differs; decide which is canonical.
+* <code>Ki.wiki</code> → [[Ki]] vs <code>Ki_syllable.wiki</code> → [[Ki syllable]] — byte-identical. <code>Ki_syllables.wiki</code> → [[Ki syllables]] differs.
+
+=== Near-duplicates / singular-plural / derivational pairs (judgment calls) ===
+
+* <code>Adjective.wiki</code> → [[Adjective]] vs <code>Adjectives.wiki</code> → [[Adjectives]]
+* <code>Active_verb.wiki</code> → [[Active verb]] vs <code>Active_verbs.wiki</code> → [[Active verbs]]
+* <code>Aelaki_plural.wiki</code> → [[Aelaki plural]] vs <code>Plural.wiki</code> → [[Plural]] — already flagged in the Thin pages section above; the intent is to make [[Plural]] self-contained.
+* <code>Cess.wiki</code> → [[Cess]] vs <code>Cessative.wiki</code> → [[Cessative]]
+* <code>Habitual.wiki</code> → [[Habitual]] vs <code>Habitual_form.wiki</code> → [[Habitual form]]
+* <code>Intention.wiki</code> → [[Intention]] vs <code>Intentional.wiki</code> → [[Intentional]]
+* <code>Mythic.wiki</code> → [[Mythic]] vs <code>Mythical.wiki</code> → [[Mythical]]
+* <code>Quirky_jussive.wiki</code> → [[Quirky jussive]] vs <code>Quirky_optative.wiki</code> → [[Quirky optative]] — not strictly duplicates, but parallel constructions whose relationship should be stated on each page.
+
+=== Lexicon / roots trio (already flagged elsewhere) ===
+
+* <code>Aelaki_Lexicon.wiki</code> → [[Aelaki Lexicon]], <code>Aelaki_roots.wiki</code> → [[Aelaki roots]], <code>List_of_Aelaki_roots.wiki</code> → [[List of Aelaki roots]] — see the "Lexicon page issue" section below for the intended merge/redirect plan.
+
 == Fixing up Lexicon issues ==
 
 On the page [[List of Aelaki roots]] there are some pages that are linked but do not exist. Figure out why they do not exist since they should exist and have it so the generator eventually makes them.
