@@ -1,1 +1,73 @@
+'''Random sentences''' collects short, self-contained [[Aelaki]] sentences that have been worked out in full during development — usually on the conlangs-server Discord corpus — and that do not belong to the structured [[Test_sentences|test-sentences list]]. They are preserved here as primary-source attestations with dates, so that later grammar changes can be checked against actual produced text.
+
+Dates in parentheses refer to the Discord message where the sentence was first posted by the author (kamidere, #conlangs channel unless noted).
+
+== Formulaic sentences ==
+
+=== "May the force be with you" (2025-05-29) ===
+
+: '''Forsash Zi Gojaroj Ne Jæsangangazya'''
+
+Morphemes:
+
+: force-MASC.SING.3p ''and.exhaustive'' >2p.FEM.POS<body-2p.FEM.SING ''TOPIC_UNIFIER'' 2p.MASC.COLL-walk.CONT-OPT.FUTURE
+
+Notes: Uses the exhaustive coordinator ''zi'' between the agent ("force") and the body-possessive pseudopronoun ("your body" for "you"), then the topic unifier ''ne'' before the optative-future verb "walk". The sentence cleanly demonstrates the [[Pseudopronouns|body-pronoun construction]] for second person.
+
+=== "Long live the king" (2025-05-29) ===
+
+: '''Sanash Shazhærænya Zadateya'''
+
+Morphemes:
+
+: king-3p.MASC.SING 3p.MASC.SING-live.CONT-OPT.FUTURE long-ADV-OPT.FUTURE
+
+Notes: Both the verb and the adverb take the optative-future suffix ''-ya'', reflecting Aelaki's requirement that TAM concord propagate to any adverb modifying the predicate.
+
+== Discourse-length sentences ==
+
+=== Car-crash sentence (2025-06-04) ===
+
+: '''Gothozapapayashë Vothonüdïf Sægetlæræchïfïshë Nono Hagebilidïfïshë Sakadïf'''
+
+Morphemes:
+
+: HOD-1p.FEM.SING-drive.IMP-PAST.VIS >1p.FEM.SING.POS<windshield-INAN.4p SIM.CONV-HOD-be_hit.COMP-INAN.4p-VIS.PAST TOPIC_SHIFT CAUS.CONV-HOD-fly.COMP-INAN.4p-VIS.PAST rock-4p.SING.INAN
+
+Approximate translation: "I was driving, my windshield got hit, ''nono'' a rock caused [it] to fly." See [[Switch_references]] for the topic-shift mechanism.
+
+Note: The form '''Sægetlæræchïfïshë''' is marked in [[Aelaki grammar todo]] as having nonstandard romanization and is still pending manual morpheme analysis.
+
+=== "Let us meet tomorrow morning" (2025-05-26) ===
+
+: '''Gothaefïfïlgom ngugoyaklon Goyakak Shushu'''
+
+Morphemes:
+
+: CRAST-1PL.INC.MASC-IMPERATIVE.meet BEFORE-early_in_day-BEFORE early_in_day-MASC.SING.4p DISCOURSE_PARTICLE
+
+Notes: The adverbial ''goyakak'' "early in day" takes masculine singular 4th-person agreement; ''ngu-...-lon'' brackets it into a Class II converb, and ''shushu'' is the discourse particle.
+
+=== Henry sentence (2025-05-31) ===
+
+: '''Rühüngush Shashabechekushkashrom ka Bazhashya Kühüngash nono Ëkutashashë Kühüngash Nühofuglon'''
+
+Notes: All-masculine-subject sentence, flagged in the original post as harder than expected because of gender agreement. Preserved verbatim as a work-in-progress attestation; a full gloss has not yet been produced.
+
+== Weather verbs ==
+
+=== "It's raining." (2025-06-05) ===
+
+: '''Sharokasoro'''
+
+Weather verbs take a fixed agreement pattern: '''masculine subject, feminine object''', traditionally analyzed as "a part of the sky (masc.) acts on a part of the ground (fem.)". They are much more actively conjugated in sentences than in most natural languages (''source: Discord conlangs-server, 2025-06-05''). See [[Word_order#Weather verbs|Word order]] for the agreement convention.
+
+== See also ==
+
+* [[Test_sentences]] — structured translation list from the cofl conlang syntax test cases
+* [[Switch_references]]
+* [[Word_order]]
+* [[Pseudopronouns]]
+
+[[Category:Aelaki]]
 [[Category:Git synced pages]]
