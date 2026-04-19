@@ -21,7 +21,18 @@ Consolidated archive of all Aelaki constructed language materials. Aelaki is a c
 - `generate_random_words.py` uses weighted random (30/30/30/10) for new noun genders
 - Future: Use Wiktionary countability data instead of random assignment (see todo.md)
 
+## Wiki Page Interlinking (Critical)
+- **Every `grammar/*.wiki` page must have at least one incoming link from another page in the same directory.** The `delete_orphaned_pages.py` job deletes any orphaned page with no incoming links. Creating or populating a wiki page without also adding at least one `[[PageName]]` link to it from a sibling page will cause the new page to be swept on the next pipeline run.
+- When adding a new page, immediately grep for a natural parent/sibling page (e.g. `Converbs.wiki` for a new converb-related page) and add a `[[link]]` or a `See also` entry.
+- When populating a previously-empty page, same rule applies — check `git grep '[[PageName]]'` before committing and add at least one incoming link if none exist.
+- `User:EmmaBot` is maintained by `update_bot_status.py` and sits in the `User:` namespace, which is excluded from the orphan sweep; it does not need explicit incoming links.
+
+## Discord Citation Format
+- When wiki content draws on a message from the conlangs-server discord corpus, cite inline as italic: ''(source: Discord conlangs-server, YYYY-MM-DD)''. Established on `grammar/Switch_references.wiki`. Do not invent competing conventions.
+
 ## Workflow Guidelines
 - **Commit early and often.** Every meaningful change should be committed with a clear, descriptive summary.
+- **One STATUS.md / todo.md item per commit.** Work through the queue atomically — finish an item, commit it in isolation, move to the next. Bundling multiple unrelated items into one commit makes the history harder to read and harder to revert.
 - **Keep this claude.md up to date** with architectural decisions and conventions.
 - **Update README.md** when structure or content changes significantly.
+- **Active work queue lives in `STATUS.md`.** `todo.md` is the long-tail backlog.
