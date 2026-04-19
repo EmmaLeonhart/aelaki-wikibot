@@ -174,10 +174,18 @@ def conjugate_transitive(
     obj_person: Person = Person.FOURTH,
     obj_gender: Gender = Gender.FEMALE,
     obj_number: Number = Number.SINGULAR,
+    inst_person: Person | None = None,
+    inst_gender: Gender | None = None,
+    inst_number: Number = Number.SINGULAR,
 ) -> str:
     """Conjugate a transitive verb with full agreement.
 
-    Returns: [day_prefix] + subject_prefix + stem + evidential_suffix + object_suffix
+    Returns: [day_prefix] + subject_prefix + [inst_ki] + stem + evidential_suffix + object_suffix
+
+    SUBJ-Ki and INST-Ki are both optional slots per the megadoc template
+    (grammar guide §1970). INST-Ki appears only when inst_person and
+    inst_gender are both supplied — it cross-references an instrumental
+    argument the same way SUBJ-Ki cross-references the subject.
     """
     helper_vowel, evid_suffix = EVIDENTIAL_TABLE[evidential]
 
@@ -194,12 +202,15 @@ def conjugate_transitive(
 
     # Agreement markers
     prefix = _subject_prefix(subj_person, subj_gender, subj_number)
+    inst_ki = ""
+    if inst_person is not None and inst_gender is not None:
+        inst_ki = _subject_prefix(inst_person, inst_gender, inst_number)
     suffix = _object_suffix(obj_person, obj_gender, obj_number)
 
     # Day prefix
     day_str = day.value
 
-    return degeminate(day_str + prefix + stem + suffix)
+    return degeminate(day_str + prefix + inst_ki + stem + suffix)
 
 
 # ===========================================================================
@@ -215,11 +226,14 @@ def conjugate_intransitive_active(
     subj_person: Person = Person.THIRD,
     subj_gender: Gender = Gender.MALE,
     subj_number: Number = Number.SINGULAR,
+    inst_person: Person | None = None,
+    inst_gender: Gender | None = None,
+    inst_number: Number = Number.SINGULAR,
 ) -> str:
     """Conjugate an intransitive active verb.
 
-    Active intransitive: subject prefix + stem + evidential
-    (No object suffix)
+    Active intransitive: subject prefix + [inst_ki] + stem + evidential
+    (No object suffix.) INST-Ki is optional per the megadoc template.
     """
     _, evid_suffix = EVIDENTIAL_TABLE[evidential]
 
@@ -233,9 +247,12 @@ def conjugate_intransitive_active(
         stem = stem + evid_suffix
 
     prefix = _subject_prefix(subj_person, subj_gender, subj_number)
+    inst_ki = ""
+    if inst_person is not None and inst_gender is not None:
+        inst_ki = _subject_prefix(inst_person, inst_gender, inst_number)
     day_str = day.value
 
-    return degeminate(day_str + prefix + stem)
+    return degeminate(day_str + prefix + inst_ki + stem)
 
 
 def conjugate_intransitive_stative(
