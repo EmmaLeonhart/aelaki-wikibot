@@ -80,6 +80,12 @@ PERSON_SUFFIXES: dict[int, str] = {
 CONSONANTS = {
     # Stops
     "p", "b", "t", "d", "k", "g",
+    # Glottal stop (romanised as ?). Originally crept into roots because
+    # earlier generator scripts used "?" as a placeholder on parse
+    # failures; the resulting roots were liked well enough that the
+    # glottal stop is now a proper member of the consonant inventory.
+    # Future lexicon generation may pick it like any other consonant.
+    "?",
     # Affricates
     "ch", "j",
     # Fricatives
