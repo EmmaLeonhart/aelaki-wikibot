@@ -6,7 +6,7 @@ The work here is **keeping the Aelaki conlang coherent and the wiki at aelaki.mi
 
 ## Queued work
 
-1. **Audit the 4db8259d xlsx→wiki migration against current Python.** During the data-lake cleanup three xlsx tables from `data lake/docs/` were folded into `Converbs.wiki`, `TAM.wiki`, and `Aelaki.wiki`. Those xlsx sources were snapshots from before several grammar consolidations (unified vowel shift, inanimate-gender behavior, Ki-syllable tables, stative-verb prefixes). The migrated content may contain claims that no longer hold. Diff each page's tables against `aelaki/converbs.py`, `aelaki/verbs.py`, `aelaki/phonology.py`, `aelaki/gender.py`. Python wins when they disagree. Known conflict so far: Converbs.wiki lists 8 Class I prefixes; `aelaki/converbs.py` has 6.
+1. **Audit the 4db8259d xlsx→wiki migration against current Python — as a report, not edits.** The xlsx files are gone (deleted in that commit). The audit compares `grammar/Converbs.wiki`, `grammar/TAM.wiki`, and the Proto-Aelaki section of `grammar/Aelaki.wiki` against `aelaki/*.py` and the discord corpus. Produce a discrepancy list for manual review — **do not edit either side**. Per pinned correction #1, Python and wiki are peers; converbs in particular are only partially in Python, so "Python wins" would discard real grammar. Known discrepancies so far: (a) `Converbs.wiki` Class I has 8 entries (`ki/ha/sa/ra/mu/ne/ta/tu`), Python has 6 (no `ta-`, no `tu-`); (b) discord 2025-05-10 (`data lake/dictionary.md:67-82`) lists an older, different inventory with `ta-...-te` circumfix, `be-` benefactive, `mi-` instrumental, `tlu-` similative, `aglu-` terminative, `engmo-`, `id!o-` — i.e. all three sources disagree in different directions, which is exactly the case the operator has to resolve manually.
 
 2. **Parse Sægetlæræchïfïshë.** Appears in the 2025-06-04 car-crash discord sentence and is reproduced in `grammar/Random_sentences.wiki`. Nonstandard romanization (or pre-consolidation romanization); needs a manual morpheme decomposition before it can be fed through `aelaki/` or used as a worked example on `grammar/Verb.wiki`. The discord gloss was `SIM.CONV-HOD-be_hit.COMP-INAN.4p-VIS.PAST` but the surface does not match that skeleton with any current verb root.
 
@@ -26,7 +26,7 @@ The work here is **keeping the Aelaki conlang coherent and the wiki at aelaki.mi
 
 ## Pinned corrections (I keep dropping these)
 
-1. **`aelaki/*.py` is the source of truth.** When wiki, xlsx, or discord disagree with Python, Python wins. The only exception is when the disagreement reveals a Python bug — in which case fix Python, not the docs.
+1. **Python and wiki are peers, not master/slave.** Neither `aelaki/*.py` nor `grammar/*.wiki` is the unilateral source of truth. Python implements *some* morphology (verbs, Ki-syllables, genders, declensions); the wiki documents grammar that Python doesn't cover (converbs are a clear example — the wiki has both classes worked out, Python has only a partial Class I implementation with 6 of ~8+ prefixes). **When they disagree, surface the disagreement for manual resolution. Do not auto-edit either side to match the other.** The operator decides case by case which direction the fix goes. Audits produce reports; they don't produce commits.
 
 2. **Don't create orphan wiki pages.** The bot pipeline sweeps orphans. Every new page or expanded-from-empty page needs at least one incoming `[[link]]` from a sibling grammar page before it goes into a commit. Check with `git grep` before committing.
 
@@ -40,7 +40,7 @@ The work here is **keeping the Aelaki conlang coherent and the wiki at aelaki.mi
 
 7. **`?` is a real consonant now.** Glottal stop. Originally a parse-failure placeholder, but the roots containing it were liked enough that it stayed. Lexicon generation should pick it like any other consonant. Consolidated in `aelaki/phonology.py:80`.
 
-8. **Don't push manually.** A cron push handles it. If a push is needed earlier, reschedule the cron, don't run `git push` by hand.
+8. **Don't push manually. Rebase only.** A session-scoped one-shot cron (`CronList`) handles the push — it exists to rate-limit pushes against the miraheze pipeline and to keep work batched. Running `git push` by hand bypasses that gate and leaves nothing for the scheduled cron to carry at end of session. If a push really has to happen earlier than the cron fires, reschedule the cron; never run `git push` yourself. I've broken this once already this session — don't do it again.
 
 ## Pointers
 
