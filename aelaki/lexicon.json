@@ -78958,6 +78958,446 @@
       "gloss": "kecamatan (auto-generated)",
       "gender": "female",
       "citation_form": "tadotho"
+    },
+    "nkzh": {
+      "root": [
+        "n",
+        "k",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "vaccinization (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "nakïfzhïf"
+    },
+    "nsw": {
+      "root": [
+        "n",
+        "s",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "vaccina (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "nasïfwïf"
+    },
+    "shvg": {
+      "root": [
+        "sh",
+        "v",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "vactrain (auto-generated)",
+      "gender": "female",
+      "citation_form": "shavogo"
+    },
+    "thbsh": {
+      "root": [
+        "th",
+        "b",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "vacuometer (auto-generated)",
+      "gender": "child",
+      "citation_form": "thabushu"
+    },
+    "pmd": {
+      "root": [
+        "p",
+        "m",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "vaccinum (auto-generated)",
+      "gender": "female",
+      "citation_form": "pamodo"
+    },
+    "thvl": {
+      "root": [
+        "th",
+        "v",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "vaccinator (auto-generated)",
+      "gender": "male",
+      "citation_form": "thavala"
+    },
+    "zyf": {
+      "root": [
+        "z",
+        "y",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "vacatur (auto-generated)",
+      "gender": "child",
+      "citation_form": "zayufu"
+    },
+    "?pl": {
+      "root": [
+        "?",
+        "p",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "vaccination (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?apïflïf"
+    },
+    "bshb": {
+      "root": [
+        "b",
+        "sh",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "vacationist (auto-generated)",
+      "gender": "female",
+      "citation_form": "bashobo"
+    },
+    "th?v": {
+      "root": [
+        "th",
+        "?",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "vacationgoer (auto-generated)",
+      "gender": "female",
+      "citation_form": "tha?ovo"
+    },
+    "dhdhj": {
+      "root": [
+        "dh",
+        "dh",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "vaccicide (auto-generated)",
+      "gender": "child",
+      "citation_form": "dhadhuju"
+    },
+    "dlt": {
+      "root": [
+        "d",
+        "l",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "vacciolation (auto-generated)",
+      "gender": "child",
+      "citation_form": "dalutu"
+    },
+    "zvr": {
+      "root": [
+        "z",
+        "v",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "vacupuncture (auto-generated)",
+      "gender": "male",
+      "citation_form": "zavara"
+    },
+    "zhfl": {
+      "root": [
+        "zh",
+        "f",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "vaccinifer (auto-generated)",
+      "gender": "female",
+      "citation_form": "zhafolo"
+    },
+    "kngk": {
+      "root": [
+        "k",
+        "ng",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "vacon (auto-generated)",
+      "gender": "male",
+      "citation_form": "kangaka"
+    },
+    "j?z": {
+      "root": [
+        "j",
+        "?",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "vaccaria (auto-generated)",
+      "gender": "child",
+      "citation_form": "ja?uzu"
+    },
+    "dpzh": {
+      "root": [
+        "d",
+        "p",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "vacuolization (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "dapïfzhïf"
+    },
+    "?yh": {
+      "root": [
+        "?",
+        "y",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "vacabond (auto-generated)",
+      "gender": "female",
+      "citation_form": "?ayoho"
+    },
+    "gym": {
+      "root": [
+        "g",
+        "y",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "vaccinationist (auto-generated)",
+      "gender": "child",
+      "citation_form": "gayumu"
+    },
+    "dhmsh": {
+      "root": [
+        "dh",
+        "m",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "vacciner (auto-generated)",
+      "gender": "female",
+      "citation_form": "dhamosho"
+    },
+    "plch": {
+      "root": [
+        "p",
+        "l",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "vacherin (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "palïfchïf"
+    },
+    "n?th": {
+      "root": [
+        "n",
+        "?",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "vaccinide (auto-generated)",
+      "gender": "female",
+      "citation_form": "na?otho"
+    },
+    "?shm": {
+      "root": [
+        "?",
+        "sh",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "vaccinologist (auto-generated)",
+      "gender": "child",
+      "citation_form": "?ashumu"
+    },
+    "dwk": {
+      "root": [
+        "d",
+        "w",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "vaccident (auto-generated)",
+      "gender": "female",
+      "citation_form": "dawoko"
+    },
+    "yydh": {
+      "root": [
+        "y",
+        "y",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "vacancy (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "yayïfdhïf"
+    },
+    "zhhh": {
+      "root": [
+        "zh",
+        "h",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "uzzard (auto-generated)",
+      "gender": "male",
+      "citation_form": "zhahaha"
+    },
+    "zngt": {
+      "root": [
+        "z",
+        "ng",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "vaccinophobe (auto-generated)",
+      "gender": "male",
+      "citation_form": "zangata"
+    },
+    "?mz": {
+      "root": [
+        "?",
+        "m",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "vaccary (auto-generated)",
+      "gender": "female",
+      "citation_form": "?amozo"
+    },
+    "ndhsh": {
+      "root": [
+        "n",
+        "dh",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "vachery (auto-generated)",
+      "gender": "child",
+      "citation_form": "nadhushu"
+    },
+    "nwp": {
+      "root": [
+        "n",
+        "w",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "uzh (auto-generated)",
+      "gender": "male",
+      "citation_form": "nawapa"
+    },
+    "?yzh": {
+      "root": [
+        "?",
+        "y",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "vacivity (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?ayïfzhïf"
+    },
+    "r?s": {
+      "root": [
+        "r",
+        "?",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "vactrol (auto-generated)",
+      "gender": "child",
+      "citation_form": "ra?usu"
+    },
+    "bbj": {
+      "root": [
+        "b",
+        "b",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "vaccinine (auto-generated)",
+      "gender": "female",
+      "citation_form": "babojo"
+    },
+    "vkn": {
+      "root": [
+        "v",
+        "k",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "vaccinoid (auto-generated)",
+      "gender": "child",
+      "citation_form": "vakunu"
+    },
+    "shzhl": {
+      "root": [
+        "sh",
+        "zh",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "vacationing (auto-generated)",
+      "gender": "child",
+      "citation_form": "shazhulu"
+    },
+    "bpw": {
+      "root": [
+        "b",
+        "p",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "vaccinationism (auto-generated)",
+      "gender": "child",
+      "citation_form": "bapuwu"
+    },
+    "mbb": {
+      "root": [
+        "m",
+        "b",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "uzaroside (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "mabïfbïf"
+    },
+    "zszh": {
+      "root": [
+        "z",
+        "s",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "vacbed (auto-generated)",
+      "gender": "female",
+      "citation_form": "zasozho"
+    },
+    "ngjm": {
+      "root": [
+        "ng",
+        "j",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "vaccinotherapy (auto-generated)",
+      "gender": "female",
+      "citation_form": "ngajomo"
+    },
+    "zhhd": {
+      "root": [
+        "zh",
+        "h",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "vaccinophobia (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zhahïfdïf"
     }
   },
   "adjectives": {
@@ -88988,6 +89428,106 @@
       "class": "adjective",
       "gloss": "scabridous (auto-generated)",
       "citation_form": "dodawaka"
+    },
+    "shmn": {
+      "root": [
+        "sh",
+        "m",
+        "n"
+      ],
+      "class": "adjective",
+      "gloss": "aedicular (auto-generated)",
+      "citation_form": "shomanaka"
+    },
+    "kdhs": {
+      "root": [
+        "k",
+        "dh",
+        "s"
+      ],
+      "class": "adjective",
+      "gloss": "aenigmatic (auto-generated)",
+      "citation_form": "kodhasaka"
+    },
+    "?ngk": {
+      "root": [
+        "?",
+        "ng",
+        "k"
+      ],
+      "class": "adjective",
+      "gloss": "aecidial (auto-generated)",
+      "citation_form": "?ongakaka"
+    },
+    "vdhch": {
+      "root": [
+        "v",
+        "dh",
+        "ch"
+      ],
+      "class": "adjective",
+      "gloss": "aeolianitic (auto-generated)",
+      "citation_form": "vodhachaka"
+    },
+    "dhzd": {
+      "root": [
+        "dh",
+        "z",
+        "d"
+      ],
+      "class": "adjective",
+      "gloss": "aeger (auto-generated)",
+      "citation_form": "dhozadaka"
+    },
+    "jdz": {
+      "root": [
+        "j",
+        "d",
+        "z"
+      ],
+      "class": "adjective",
+      "gloss": "aeneous (auto-generated)",
+      "citation_form": "jodazaka"
+    },
+    "?thk": {
+      "root": [
+        "?",
+        "th",
+        "k"
+      ],
+      "class": "adjective",
+      "gloss": "aegiritic (auto-generated)",
+      "citation_form": "?othakaka"
+    },
+    "?dhth": {
+      "root": [
+        "?",
+        "dh",
+        "th"
+      ],
+      "class": "adjective",
+      "gloss": "aedilic (auto-generated)",
+      "citation_form": "?odhathaka"
+    },
+    "lhdh": {
+      "root": [
+        "l",
+        "h",
+        "dh"
+      ],
+      "class": "adjective",
+      "gloss": "aecial (auto-generated)",
+      "citation_form": "lohadhaka"
+    },
+    "rw?": {
+      "root": [
+        "r",
+        "w",
+        "?"
+      ],
+      "class": "adjective",
+      "gloss": "aeneolithic (auto-generated)",
+      "citation_form": "rowa?aka"
     }
   },
   "adverbs": {
@@ -98379,6 +98919,106 @@
       "class": "adverb",
       "gloss": "ethnosemantically (auto-generated)",
       "citation_form": "jatate"
+    },
+    "ythd": {
+      "root": [
+        "y",
+        "th",
+        "d"
+      ],
+      "class": "adverb",
+      "gloss": "sacrificingly (auto-generated)",
+      "citation_form": "yathate"
+    },
+    "zshg": {
+      "root": [
+        "z",
+        "sh",
+        "g"
+      ],
+      "class": "adverb",
+      "gloss": "saccadically (auto-generated)",
+      "citation_form": "zashate"
+    },
+    "bsth": {
+      "root": [
+        "b",
+        "s",
+        "th"
+      ],
+      "class": "adverb",
+      "gloss": "safely (auto-generated)",
+      "citation_form": "basate"
+    },
+    "chdr": {
+      "root": [
+        "ch",
+        "d",
+        "r"
+      ],
+      "class": "adverb",
+      "gloss": "saltationally (auto-generated)",
+      "citation_form": "chadate"
+    },
+    "sbn": {
+      "root": [
+        "s",
+        "b",
+        "n"
+      ],
+      "class": "adverb",
+      "gloss": "saliently (auto-generated)",
+      "citation_form": "sabate"
+    },
+    "tngt": {
+      "root": [
+        "t",
+        "ng",
+        "t"
+      ],
+      "class": "adverb",
+      "gloss": "sacrosanctly (auto-generated)",
+      "citation_form": "tangate"
+    },
+    "?kp": {
+      "root": [
+        "?",
+        "k",
+        "p"
+      ],
+      "class": "adverb",
+      "gloss": "saccately (auto-generated)",
+      "citation_form": "?akate"
+    },
+    "gjd": {
+      "root": [
+        "g",
+        "j",
+        "d"
+      ],
+      "class": "adverb",
+      "gloss": "sailingly (auto-generated)",
+      "citation_form": "gajate"
+    },
+    "lsj": {
+      "root": [
+        "l",
+        "s",
+        "j"
+      ],
+      "class": "adverb",
+      "gloss": "sadomasochistically (auto-generated)",
+      "citation_form": "lasate"
+    },
+    "fng?": {
+      "root": [
+        "f",
+        "ng",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "sacrilegiously (auto-generated)",
+      "citation_form": "fangate"
     }
   },
   "colors": {
