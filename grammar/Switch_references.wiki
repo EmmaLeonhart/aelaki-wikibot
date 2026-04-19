@@ -1,1 +1,49 @@
-[[Category:Git synced pages]]
+'''Switch reference''' in [[Aelaki]] is handled by a dedicated '''topic-shift particle''' rather than by bound morphology. The main device is the particle '''nono''' (sometimes transcribed ''no''), which signals that the topic of the next clause differs from the immediately preceding one.
+
+== Topic-shift particle ''nono'' ==
+
+''nono'' is placed between two clauses to indicate that the subject of the following clause is a referent mentioned earlier in the discourse, rather than the most recent subject.
+
+Worked example (''source: Discord conlangs-server, 2025-05-30''):
+
+* ''He hugged her, (and) she gave him coffee.'' — without ''nono'', the default reading is that the subject of the second clause is still ''he''.
+* ''He hugged her, '''nono''' she gave him coffee.'' — the particle forces the switch so that ''she'' is now the subject of the second clause.
+
+''nono'' can also reach further back. In a chain of three or more clauses, it re-activates a previously established referent as the new topic rather than merely the prior-clause subject.
+
+== Person agreement and clause chains ==
+
+Within a chained clause structure, Aelaki distinguishes the topical argument (shared across clauses) from newly-introduced arguments via the [[Third_person|3rd]] vs. [[Fourth_person|4th]] person contrast (''source: Discord conlangs-server, 2025-05-31''):
+
+* '''3rd person''' — the referent that is common across all chained clauses.
+* '''4th person''' — referents that are introduced in only some of the chained clauses.
+
+This makes the case hierarchy on [[Word_order#Case hierarchy|Word order]] interact with switch reference: a 4th-person argument signals that the referent is not the running topic, while 3rd person signals continuity.
+
+== Why a particle and not a suffix ==
+
+Aelaki has no dedicated switch-reference verbal morphology. The topic-shift particle is the usual mechanism, assisted by the 3p/4p person contrast. When two inanimate nouns would otherwise produce an ambiguous chain, ''nono'' (or an overtly re-introduced noun) is essentially mandatory, because word-order alone cannot recover the intended subject if part of the next clause is elided (''source: Discord conlangs-server, 2025-05-30'').
+
+== Attested usage ==
+
+=== Car-crash sentence (2025-06-04) ===
+
+The following attested sentence uses ''nono'' to shift the topic from the windshield to the rock mid-chain:
+
+: '''Gothozapapayashë Vothonüdïf Sægetlæræchïfïshë Nono Hagebilidïfïshë Sakadïf'''
+
+Gloss:
+
+: HOD-1p.FEM.SING-drive.IMP-PAST.VIS >1p.FEM.SING.POS<windshield-INAN.4p SIM.CONV-HOD-be_hit.COMP-INAN.4p-VIS.PAST '''TOPIC_SHIFT''' CAUS.CONV-HOD-fly.COMP-INAN.4p-VIS.PAST rock-4p.SING.INAN
+
+Approximate translation: "I was driving, my windshield got hit, ''nono'' (switching topic) a rock caused [it] to fly." The particle marks the transition from windshield-as-topic to rock-as-topic in the causal clause.
+
+== See also ==
+
+* [[Word_order]]
+* [[Third_person]]
+* [[Fourth_person]]
+* [[Converbs]]
+
+[[Category:Aelaki grammar]]
+[[Category:git synced pages]]
