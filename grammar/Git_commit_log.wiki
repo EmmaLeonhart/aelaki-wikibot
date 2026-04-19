@@ -1140,6 +1140,22 @@ Short hashes are used in [[Category:Word pages|word page]] version categories (e
 | 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/e81ba6d57d521f50b05615142d0b513c02b292cc e81ba6d5] || [[:Category:Words e81ba6d5|Words e81ba6d5]] || [[:Category:Non-lemma forms e81ba6d5|Non-lemma e81ba6d5]] || chore(zodiac): strip more Wikipedia-only cruft (refs, maintenance templates, en-year links)
 |-
 | 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d78c9ea8b3f30c1794f03b9f7be89a30538af092 d78c9ea8] || [[:Category:Words d78c9ea8|Words d78c9ea8]] || [[:Category:Non-lemma forms d78c9ea8|Non-lemma d78c9ea8]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/679365d1f36ece9ae9168c86923540573139fea8 679365d1] || [[:Category:Words 679365d1|Words 679365d1]] || [[:Category:Non-lemma forms 679365d1|Non-lemma 679365d1]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d03e3d1de7c615398afbcb026bf58760df12b76e d03e3d1d] || [[:Category:Words d03e3d1d|Words d03e3d1d]] || [[:Category:Non-lemma forms d03e3d1d|Non-lemma d03e3d1d]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/7272aa821e06456503a853b9f1470fd3526366ec 7272aa82] || [[:Category:Words 7272aa82|Words 7272aa82]] || [[:Category:Non-lemma forms 7272aa82|Non-lemma 7272aa82]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/03b8298dbc42fdb879b0db1e63b6734f8fafe87b 03b8298d] || [[:Category:Words 03b8298d|Words 03b8298d]] || [[:Category:Non-lemma forms 03b8298d|Non-lemma 03b8298d]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/dc0eaf0aeb40e7e819a2bd6d669cfb7bc25ac4c5 dc0eaf0a] || [[:Category:Words dc0eaf0a|Words dc0eaf0a]] || [[:Category:Non-lemma forms dc0eaf0a|Non-lemma dc0eaf0a]] || chore(state): post-grammar-sync [skip ci]
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/1088bf4bad5dc972fa50302c56358783f6e1fd3a 1088bf4b] || [[:Category:Words 1088bf4b|Words 1088bf4b]] || [[:Category:Non-lemma forms 1088bf4b|Non-lemma 1088bf4b]] || removed comments from the pages
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/0d6c0e36da81210816b580321b7193f87eec0d99 0d6c0e36] || [[:Category:Words 0d6c0e36|Words 0d6c0e36]] || [[:Category:Non-lemma forms 0d6c0e36|Non-lemma 0d6c0e36]] || Merge branch 'master' of https://github.com/EmmaLeonhart/aelaki-wikibot
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/8ff7a6690ca7f105b41c301465dcf00b8e7deb62 8ff7a669] || [[:Category:Words 8ff7a669|Words 8ff7a669]] || [[:Category:Non-lemma forms 8ff7a669|Non-lemma 8ff7a669]] || chore(state): rebuild version history from git log [skip ci]
 |}
 
 [[Category:git synced pages]]
