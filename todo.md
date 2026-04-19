@@ -10,6 +10,13 @@ So go over its claude.md and status.md and maybe todo.md to figure the stuff out
 
 We are currently working on this. auditing the discord stuff in data lake and the megadoc. We hope to eventyually get them deleted since the wiki and grammar stuff are the primary source of truth, not sure if we can get to this today but I hope we can. Compression is a bitch and might lose what we are doing
 
+
+## Making the .wiki files interlink with each other
+
+I am concerned that the .wiki files do not all link to each other. They will be autodeleted if this happens and it makes the wiki hard to read. Please make eadch one be linked by at least one other (including User:EmmaBot even though idk how it is stored)
+
+Add to the claude.md to maintain this rule since it is critical for repo health
+
 ## Potentially outdated wiki material
 
 The commit 4db8259de2771511cbf6aaa11edbd6c1993a933b 
@@ -134,3 +141,4 @@ Wiki grammar reference at `grammar/*.wiki`, synced bidirectionally via `sync_gra
 - [ ] Add pedagogical "Getting started" page or learning path
 - [ ] Add complex syntax coverage — subordination, coordination, multi-clause constructions
 - [ ] Expand Questions.wiki with more examples of complex question formations
+
