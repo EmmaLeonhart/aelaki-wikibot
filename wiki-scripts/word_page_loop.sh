@@ -25,6 +25,7 @@
 # Step 2:    Upgrade old lemmas + create new lemma pages    [local+wiki] → commit
 # Step 3:    Generate new random words into lexicon         [local] → commit
 # Step 4:    Upgrade non-lemma form pages (no create)       [local+wiki] → commit
+# Step 4.5:  Create wanted file descriptions                 [safe]
 # Step 5:    Create wanted page stubs                       [safe]
 # Step 6:    Update [[List of Aelaki roots]]                [safe]
 # Step 9:    Delete orphaned pages (2027+ only)             [safe]
@@ -262,6 +263,15 @@ commit_state "chore(state): post-generate lexicon [skip ci]"
 stage "Upgrading non-lemma form pages"
 python wiki-scripts/create_word_pages.py --apply --limit "$EDIT_LIMIT" --phase nonlemma --run-tag "${RUN_TAG}"
 commit_state "chore(state): post-nonlemma state [skip ci]"
+
+# ===========================================================================
+# Step 4.5 [safe]: Create File: description pages from Special:WantedFiles
+# Writes: wiki only (File: description pages tagged [[Category:Images]])
+# Runs before create_wanted_pages.py so image descriptions claim their
+# share of the per-run creation budget first (50/run by default).
+# ===========================================================================
+stage "Creating wanted file descriptions"
+python wiki-scripts/create_wanted_files.py --apply --limit 50 --run-tag "${RUN_TAG}"
 
 # ===========================================================================
 # Step 5 [safe]: Create wanted page stubs from Special:WantedPages
