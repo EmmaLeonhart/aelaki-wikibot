@@ -729,9 +729,10 @@ def generate_converb_section(entry: dict) -> str:
         except Exception as e:
             form = f"ERROR: {e}"
         type_label = pt.name.capitalize().replace("_", " ")
+        type_link = f"[[{type_label} converb|{type_label}]]"
         gloss = CONVERB_PREFIX_GLOSS.get(pt, "")
         lines.append("|-")
-        lines.append(f"| '''{pt.value}-''' || {type_label} || {gloss} || {link_surface(form)}")
+        lines.append(f"| '''{pt.value}-''' || {type_link} || {gloss} || {link_surface(form)}")
     lines.append("|}")
 
     # ----- Class II: suffix converbs -----
@@ -755,8 +756,9 @@ def generate_converb_section(entry: dict) -> str:
         except Exception as e:
             form = f"ERROR: {e}"
         type_label = st.name.capitalize().replace("_", " ")
+        type_link = f"[[{type_label} converb|{type_label}]]"
         lines.append("|-")
-        lines.append(f"| '''-{st.suffix}''' || {type_label} || {st.gloss} || {link_surface(form)}")
+        lines.append(f"| '''-{st.suffix}''' || {type_link} || {st.gloss} || {link_surface(form)}")
     lines.append("|}")
 
     return "\n".join(lines)
