@@ -1,5 +1,16 @@
 # Aelaki TODO
 
+## Potentially outdated wiki material
+
+The commit 4db8259de2771511cbf6aaa11edbd6c1993a933b 
+
+docs(wiki): migrate data-lake xlsx tables into Converbs/TAM/Aelaki
+Three spreadsheets in data lake/docs/ held content that was not
+adequately mirrored on the wiki. Folded each into the appropriate
+grammar page so the xlsx files could be removed.
+
+appears to have added potentially outdated information into the wiki pages. Not the biggest concern but it needs to be audited based on the current grammar later. Remember that the python files are the biggest source of truth for us right now
+
 ## Manual Analysis Needed
 
 - [ ] Parse **Sægetlæræchïfïshë** into morphemes — appears in the car crash glossed sentence as `SIM.CONV-HOD-be_hit.COMP-INAN.4p-VIS.PAST` but likely has nonstandard romanization. Needs manual analysis to determine correct root and morpheme boundaries. (Source: discord 2025-06-04)
