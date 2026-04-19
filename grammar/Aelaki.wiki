@@ -25,27 +25,6 @@ Example with verb root d-p-z "shoot":
 * '''Dæpæz''' "shot (single hit achieved)"
 * '''Dapfaz''' "did not shoot / no shots fired"
 
-== Learning the language ==
-
-If you are new to Aelaki and want a path through the material:
-
-* Start with [[Phonology]] (sounds and vowel shifts) and the '''Modern grammar''' section of this page for the big picture.
-* Then [[Noun]], [[Verb]], [[Adjective]] for the core word classes.
-* [[Ki syllables]] for the person-agreement machinery that shows up everywhere.
-* [[Basic syntax]] and [[Word order]] for clause structure, then [[Test sentences]] and [[Random sentences]] for worked examples.
-* [[Converbs]] and [[Switch references]] for multi-clause constructions.
-
-The full grammar is mirrored bidirectionally between [https://aelaki.miraheze.org aelaki.miraheze.org] and the [https://github.com/EmmaLeonhart/aelaki-wikibot GitHub repository].
-
-== Helping with the project ==
-
-Two wiki pages track what is open and what is contested:
-
-* [[Unresolved questions]] — grammatical contradictions and documentation clashes that require a manual ruling, with GitHub links to every disputed passage. Edit this page directly when you encounter something the three sources (wiki, megadoc, Python) disagree on, or when you have a ruling to record.
-* [[To-do list]] — mechanical work still queued: wiki pages that need expansion, pipeline items, and any other concrete tasks that do not require an ontological decision.
-
-A Python morphology engine (<code>aelaki/</code>) auto-generates word pages from [[Aelaki Lexicon]]; new lemmas and new inflection paradigms show up on the wiki automatically once they land in the repo.
-
 == Modern grammar ==
 === Gender system ===
 Aelaki distinguishes four [[Category:Grammatical genders|grammatical genders]]: [[Child]], [[Female]], [[Male]], and [[Inanimate]]. Speakers are sequential hermaphrodites (child → female → male).
