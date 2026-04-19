@@ -24,6 +24,15 @@ appears to have added potentially outdated information into the wiki pages. Not 
 
 - [ ] Parse **Sægetlæræchïfïshë** into morphemes — appears in the car crash glossed sentence as `SIM.CONV-HOD-be_hit.COMP-INAN.4p-VIS.PAST` but likely has nonstandard romanization. Needs manual analysis to determine correct root and morpheme boundaries. (Source: discord 2025-06-04)
 
+## Parked converb questions (require operator decision)
+
+Four open items surfaced while consolidating the Class I converb inventory in `aelaki/converbs.py`. Each needs the operator to rule before Python/wiki can be synchronized. File:line citations included so either of us can reread the source.
+
+- [ ] **`ta-...-te` circumfix vs bare `ta-`** — discord 2025-05-10 (`data lake/dictionary.md:70`) glosses `ta-...-te` as "actions occurred simultaneously", but Python currently implements only bare `ta-` as `ConverbPrefixType.SIMULTANEOUS` (`aelaki/converbs.py:30`). Decide whether the circumfix is a separate morpheme, an older form, or the same thing written differently. Don't collapse them before deciding.
+- [ ] **`tu-` Simulative prefix** — `grammar/Converbs.wiki:29` lists a Class I prefix `tu-` "as if doing". Python has no such prefix (the similative-flavored form is the Class II suffix `mutu` at `aelaki/converbs.py:117`). Operator said "Tlu Simultative is not something I'm going to be using because I decided that was phonologically illegal" — unclear whether `tu-` survives as a separate Class I entry or should be removed from the wiki.
+- [ ] **Beneficiary / malefactive case marker** — `-rum` is a real role-suffix but NOT a converb. Currently documented in `grammar/Dative.wiki:2` (dative = beneficiary; negative number flips to ablative/malefactive) and `data lake/Aelaki_Grammar_Guide.md:2055` (listed as a tenseless "role & stance suffix" alongside Class II converbs). Needs a Python home — probably extend `aelaki/cases.py` or add `aelaki/role_suffixes.py`. Do not re-add as a converb.
+- [ ] **`be-` prefix** — discord 2025-05-10 (`data lake/dictionary.md:74`) lists `be-` "verb done in hopes of converb". Confirmed noise: the operator's pre-consolidation list used English abbreviations (`be-` = "benefactive") that look like Aelaki morphemes but aren't. Do not add to Python; leave as a documented rejection so the same line doesn't get re-mined.
+
 ## aelaki-sharp (C# library)
 
 - [ ] Bring `aelaki-sharp/` in line with canonical wiki grammar — the C# morphology library is an outdated snapshot from before several consolidations (unified back-to-front vowel shift, inanimate gender behaviour, Ki-syllable tables, stative-verb prefixes). Intended to eventually be published as a .NET library; not in the data lake. Needs a pass that diff's each module against `grammar/*.wiki` / `aelaki/` and updates accordingly.
