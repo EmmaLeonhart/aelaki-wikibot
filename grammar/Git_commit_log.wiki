@@ -1300,6 +1300,20 @@ Short hashes are used in [[Category:Word pages|word page]] version categories (e
 | 2026-04-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/801558bf622b70e81e2ac8af676b50f3febc845f 801558bf] || [[:Category:Words 801558bf|Words 801558bf]] || [[:Category:Non-lemma forms 801558bf|Non-lemma 801558bf]] || chore(state): post-grammar-sync [skip ci]
 |-
 | 2026-04-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/3ef46fcf57c189bc1821940d921ed5f09c506152 3ef46fcf] || [[:Category:Words 3ef46fcf|Words 3ef46fcf]] || [[:Category:Non-lemma forms 3ef46fcf|Non-lemma 3ef46fcf]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/eaee66be40a3ecf8492803476b7ddef7a31106c7 eaee66be] || [[:Category:Words eaee66be|Words eaee66be]] || [[:Category:Non-lemma forms eaee66be|Non-lemma eaee66be]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a6f60da3b0f29c077e46418ba912b6b189bad4b7 a6f60da3] || [[:Category:Words a6f60da3|Words a6f60da3]] || [[:Category:Non-lemma forms a6f60da3|Non-lemma a6f60da3]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/40c7e2b6d5ad8572d49fd27e4c90d64f95a3e681 40c7e2b6] || [[:Category:Words 40c7e2b6|Words 40c7e2b6]] || [[:Category:Non-lemma forms 40c7e2b6|Non-lemma 40c7e2b6]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/f86d9e84e0fb1174c82efb73a1068366077696e9 f86d9e84] || [[:Category:Words f86d9e84|Words f86d9e84]] || [[:Category:Non-lemma forms f86d9e84|Non-lemma f86d9e84]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/30c8422beab01ce04d78d222f3aa0101395b9e08 30c8422b] || [[:Category:Words 30c8422b|Words 30c8422b]] || [[:Category:Non-lemma forms 30c8422b|Non-lemma 30c8422b]] || Update README.md
+|-
+| 2026-04-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/06b9db457d649bd3ec9c695d408769b406c15e27 06b9db45] || [[:Category:Words 06b9db45|Words 06b9db45]] || [[:Category:Non-lemma forms 06b9db45|Non-lemma 06b9db45]] || chore(state): post-grammar-sync [skip ci]
+|-
+| 2026-04-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/5b0ec7861bd79b1441fd70cd1d5c9a4a07c30057 5b0ec786] || [[:Category:Words 5b0ec786|Words 5b0ec786]] || [[:Category:Non-lemma forms 5b0ec786|Non-lemma 5b0ec786]] || chore(state): rebuild version history from git log [skip ci]
 |}
 
 [[Category:git synced pages]]
