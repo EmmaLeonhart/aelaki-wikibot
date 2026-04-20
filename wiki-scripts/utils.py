@@ -100,9 +100,9 @@ _last_write_ts: float = 0.0
 # size on this wiki farm, so creations are capped on two horizons:
 #
 #   * Per-run (CREATIONS_PER_RUN): hard ceiling for a single pipeline run.
-#     Tracked in create_run_budget.state. word_page_loop.sh deletes that
-#     file at startup so every run begins with a fresh per-run budget.
-#     Not committed.
+#     Tracked in create_run_budget.state. The "Prepare" step in
+#     word-pages.yml deletes that file at startup so every run begins with
+#     a fresh per-run budget. Not committed.
 #
 #   * Per-day (CREATIONS_PER_DAY): rolling cap across all runs in a UTC day.
 #     Tracked in create_budget.state, committed alongside other *.state

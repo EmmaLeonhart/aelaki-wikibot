@@ -14,6 +14,26 @@ concurrency:
   group: word-page-bot
   cancel-in-progress: false
 
+# -----------------------------------------------------------------------------
+# Pipeline overview
+# -----------------------------------------------------------------------------
+# Each step below runs exactly one phase of the word page bot. Annotations:
+#   [wiki]  = edits wiki pages (idempotent — safe to re-run)
+#   [local] = writes local files (followed by a "Commit state" step)
+#   [safe]  = no local state; if a later step fails, nothing is lost
+#
+# The shared 100/day creation budget lives in wiki-scripts/create_budget.state
+# (per UTC day, persisted across runs). Grammar sync runs first so human-
+# curated grammar pages get first claim on the budget.
+#
+# If the run crashes between a wiki edit and its commit, the only risk is:
+#   - A .state entry is missing → the page won't be re-created (it already
+#     exists on the wiki), it just won't be skipped as fast next run.
+#   - lexicon.json changes are lost → normalize/generate reruns next time,
+#     producing the same result (idempotent).
+#   - grammar/ files are stale → next pull will re-fetch them.
+# -----------------------------------------------------------------------------
+
 jobs:
   create-word-pages:
     runs-on: ubuntu-latest
@@ -21,9 +41,9 @@ jobs:
       WIKI_USERNAME: EmmaBot@EmmaBot
       WIKI_PASSWORD: ${{ secrets.WIKI_PASSWORD }}
       # Per-phase cap in create_word_pages.py. Set to 50 so lemma (Step 2)
-      # and non-lemma (Step 4) each get 50/day, totalling the 100/day
-      # global creation budget (config.CREATIONS_PER_DAY). The orphan
-      # deletion script (Step 9) ignores this and enforces its own 10/day.
+      # and non-lemma (Step 4) each get 50/day, totalling the 100/day global
+      # creation budget (config.CREATIONS_PER_DAY). The orphan deletion step
+      # ignores this and enforces its own 10/day.
       WIKI_EDIT_LIMIT: "50"
     steps:
       - name: Checkout
@@ -39,10 +59,240 @@ jobs:
       - name: Install dependencies
         run: pip install mwclient requests
 
-      - name: Run word page bot
+      - name: Prepare run tag and git identity
         run: |
-          chmod +x wiki-scripts/word_page_loop.sh
-          wiki-scripts/word_page_loop.sh
+          set -euo pipefail
+          if [ -z "${GITHUB_RUN_ID:-}" ]; then
+            echo "GITHUB_RUN_ID is required to build run-tag; refusing to run."
+            exit 1
+          fi
+          case "${GITHUB_EVENT_NAME}" in
+            push)              cause="commit triggered pipeline" ;;
+            schedule)          cause="time triggered pipeline" ;;
+            workflow_dispatch) cause="manual triggered pipeline" ;;
+            *)                 cause="pipeline run" ;;
+          esac
+          run_path="${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          run_tag="[[github:${run_path}|${cause}]]"
+          echo "RUN_TAG=${run_tag}" >> "$GITHUB_ENV"
+          echo "Run tag: ${run_tag}"
 
-      # State is committed incrementally inside word_page_loop.sh
-      # after each phase that mutates state files.
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Reset the per-run creation budget. The per-day counter in
+          # create_budget.state persists; the per-run counter must start at 0.
+          rm -f wiki-scripts/create_run_budget.state
+
+          chmod +x wiki-scripts/commit_state.sh
+
+      # ---------------------------------------------------------------------
+      # Step 0 [local+wiki → commit]: Sync grammar pages (bidirectional)
+      # Runs FIRST so human-curated grammar pages get first claim on the
+      # shared 100/day creation budget before word-page creation uses it.
+      # ---------------------------------------------------------------------
+      - name: "Stage: Syncing grammar pages"
+        run: python wiki-scripts/update_bot_status.py --run-tag "$RUN_TAG" --stage "Syncing grammar pages"
+
+      - name: "Step 0: Sync grammar pages"
+        run: python wiki-scripts/sync_grammar_pages.py --sync --apply --run-tag "$RUN_TAG"
+
+      - name: "Commit state: post-grammar-sync"
+        run: 'wiki-scripts/commit_state.sh "chore(state): post-grammar-sync [skip ci]"'
+
+      # ---------------------------------------------------------------------
+      # Step 0.2 [local → commit]: Rebuild version_history.txt from git log
+      # ---------------------------------------------------------------------
+      - name: "Stage: Rebuilding version history"
+        run: python wiki-scripts/update_bot_status.py --run-tag "$RUN_TAG" --stage "Rebuilding version history"
+
+      - name: "Step 0.2: Rebuild version_history.txt"
+        run: |
+          python - <<'PY'
+          import subprocess
+          path = 'wiki-scripts/version_history.txt'
+          hashes = subprocess.check_output(
+              ['git', 'log', '--reverse', '--format=%h'],
+              text=True,
+          ).strip().split('\n')
+          versions = ['legacy categorized words']
+          for h in hashes:
+              h = h.strip()
+              if h:
+                  versions.append(f'Words {h}')
+          with open(path, 'w', encoding='utf-8') as f:
+              for v in versions:
+                  f.write(v + '\n')
+          print(f'Rebuilt version_history.txt: {len(versions)} entries')
+          PY
+
+      - name: "Commit state: rebuild version history"
+        run: 'wiki-scripts/commit_state.sh "chore(state): rebuild version history from git log [skip ci]"'
+
+      # ---------------------------------------------------------------------
+      # Step 0.05 [safe]: Update [[Git commit log]]
+      # Early so version categories are navigable before word page phases.
+      # ---------------------------------------------------------------------
+      - name: "Stage: Updating git commit log"
+        run: python wiki-scripts/update_bot_status.py --run-tag "$RUN_TAG" --stage "Updating git commit log"
+
+      - name: "Step 0.05: Update [[Git commit log]]"
+        run: python wiki-scripts/sync_commit_log.py --apply --run-tag "$RUN_TAG"
+
+      # ---------------------------------------------------------------------
+      # Step 0.1 [local → commit]: Reconcile state file (annual)
+      # First run 2026-03-22, then Jan 1 each year. Otherwise a no-op.
+      # ---------------------------------------------------------------------
+      - name: "Stage: Reconciling state file"
+        run: python wiki-scripts/update_bot_status.py --run-tag "$RUN_TAG" --stage "Reconciling state file (annual)"
+
+      - name: "Step 0.1: Reconcile state file (annual)"
+        run: python wiki-scripts/reconcile_state.py --apply
+
+      - name: "Commit state: annual state reconciliation"
+        run: 'wiki-scripts/commit_state.sh "chore(state): annual state reconciliation [skip ci]"'
+
+      # ---------------------------------------------------------------------
+      # Step 0.5 [wiki]: Mark bot as active
+      # ---------------------------------------------------------------------
+      - name: "Step 0.5: Mark bot as active"
+        run: python wiki-scripts/update_bot_status.py --run-tag "$RUN_TAG"
+
+      # ---------------------------------------------------------------------
+      # Step 1 [safe]: Create wanted categories + delete unused
+      # ---------------------------------------------------------------------
+      - name: "Stage: Creating wanted categories"
+        run: python wiki-scripts/update_bot_status.py --run-tag "$RUN_TAG" --stage "Creating wanted categories"
+
+      - name: "Step 1: Create wanted categories"
+        run: python wiki-scripts/create_wanted_categories.py --apply --run-tag "$RUN_TAG"
+
+      - name: "Stage: Deleting unused categories"
+        run: python wiki-scripts/update_bot_status.py --run-tag "$RUN_TAG" --stage "Deleting unused categories"
+
+      - name: "Step 1.1: Delete unused categories"
+        run: python wiki-scripts/delete_unused_categories.py --apply --run-tag "$RUN_TAG"
+
+      - name: "Stage: Deleting unused templates"
+        run: python wiki-scripts/update_bot_status.py --run-tag "$RUN_TAG" --stage "Deleting unused templates"
+
+      - name: "Step 1.2: Delete unused templates"
+        run: python wiki-scripts/delete_unused_templates.py --apply --run-tag "$RUN_TAG"
+
+      # ---------------------------------------------------------------------
+      # Step 1.5 [safe]: Tag wanted word pages with non-lemma version
+      # ---------------------------------------------------------------------
+      - name: "Stage: Tagging wanted word pages"
+        run: python wiki-scripts/update_bot_status.py --run-tag "$RUN_TAG" --stage "Tagging wanted word pages"
+
+      - name: "Step 1.5: Tag wanted word pages"
+        run: python wiki-scripts/tag_wanted_word_pages.py --apply --run-tag "$RUN_TAG"
+
+      # ---------------------------------------------------------------------
+      # Step 1.6 [local → commit]: Normalize lexicon (gender redistribution)
+      # Idempotent: reruns produce the same result.
+      # ---------------------------------------------------------------------
+      - name: "Stage: Normalizing lexicon"
+        run: python wiki-scripts/update_bot_status.py --run-tag "$RUN_TAG" --stage "Normalizing lexicon"
+
+      - name: "Step 1.6: Normalize lexicon"
+        run: python wiki-scripts/normalize_lexicon.py
+
+      - name: "Commit state: post-normalize lexicon"
+        run: 'wiki-scripts/commit_state.sh "chore(state): post-normalize lexicon [skip ci]"'
+
+      # ---------------------------------------------------------------------
+      # Step 2 [local+wiki → commit]: Upgrade + create lemma pages
+      # ---------------------------------------------------------------------
+      - name: "Stage: Upgrading and creating lemma pages"
+        run: python wiki-scripts/update_bot_status.py --run-tag "$RUN_TAG" --stage "Upgrading and creating lemma pages"
+
+      - name: "Step 2: Upgrade + create lemma pages"
+        run: python wiki-scripts/create_word_pages.py --apply --limit "$WIKI_EDIT_LIMIT" --phase lemma --run-tag "$RUN_TAG"
+
+      - name: "Commit state: post-lemma"
+        run: 'wiki-scripts/commit_state.sh "chore(state): post-lemma state [skip ci]"'
+
+      # ---------------------------------------------------------------------
+      # Step 3 [local → commit]: Generate new random words
+      # ---------------------------------------------------------------------
+      - name: "Stage: Generating new random words"
+        run: python wiki-scripts/update_bot_status.py --run-tag "$RUN_TAG" --stage "Generating new random words"
+
+      - name: "Step 3: Generate random words"
+        run: python wiki-scripts/generate_random_words.py --count 100
+
+      - name: "Commit state: post-generate lexicon"
+        run: 'wiki-scripts/commit_state.sh "chore(state): post-generate lexicon [skip ci]"'
+
+      # ---------------------------------------------------------------------
+      # Step 4 [local+wiki → commit]: Upgrade non-lemma form pages
+      # Non-lemma *creation* is handled by Step 5 (create_wanted_pages.py).
+      # ---------------------------------------------------------------------
+      - name: "Stage: Upgrading non-lemma form pages"
+        run: python wiki-scripts/update_bot_status.py --run-tag "$RUN_TAG" --stage "Upgrading non-lemma form pages"
+
+      - name: "Step 4: Upgrade non-lemma form pages"
+        run: python wiki-scripts/create_word_pages.py --apply --limit "$WIKI_EDIT_LIMIT" --phase nonlemma --run-tag "$RUN_TAG"
+
+      - name: "Commit state: post-nonlemma"
+        run: 'wiki-scripts/commit_state.sh "chore(state): post-nonlemma state [skip ci]"'
+
+      # ---------------------------------------------------------------------
+      # Step 4.5 [safe]: Create File: description pages (bypasses daily cap)
+      # File: descriptions aren't link-graph inputs; one-off bulk import.
+      # ---------------------------------------------------------------------
+      - name: "Stage: Creating wanted file descriptions"
+        run: python wiki-scripts/update_bot_status.py --run-tag "$RUN_TAG" --stage "Creating wanted file descriptions"
+
+      - name: "Step 4.5: Create wanted file descriptions"
+        run: python wiki-scripts/create_wanted_files.py --apply --run-tag "$RUN_TAG"
+
+      # ---------------------------------------------------------------------
+      # Step 4.6 [local → commit]: Sync [[Category:Images]] wikitext locally
+      # Runs right after create_wanted_files so new descriptions land in the
+      # repo on the same commit.
+      # ---------------------------------------------------------------------
+      - name: "Stage: Syncing image wikitext"
+        run: python wiki-scripts/update_bot_status.py --run-tag "$RUN_TAG" --stage "Syncing image wikitext"
+
+      - name: "Step 4.6: Sync image wikitext"
+        run: python wiki-scripts/sync_image_pages.py --apply
+
+      - name: "Commit state: sync image wikitext"
+        run: 'wiki-scripts/commit_state.sh "chore(state): sync image wikitext [skip ci]"'
+
+      # ---------------------------------------------------------------------
+      # Step 5 [safe]: Create wanted page stubs
+      # ---------------------------------------------------------------------
+      - name: "Stage: Creating wanted pages"
+        run: python wiki-scripts/update_bot_status.py --run-tag "$RUN_TAG" --stage "Creating wanted pages"
+
+      - name: "Step 5: Create wanted page stubs"
+        run: python wiki-scripts/create_wanted_pages.py --apply --run-tag "$RUN_TAG"
+
+      # ---------------------------------------------------------------------
+      # Step 6 [safe]: Update [[List of Aelaki roots]]
+      # ---------------------------------------------------------------------
+      - name: "Stage: Updating list of Aelaki roots"
+        run: python wiki-scripts/update_bot_status.py --run-tag "$RUN_TAG" --stage "Updating list of Aelaki roots"
+
+      - name: "Step 6: Update list of Aelaki roots"
+        run: python wiki-scripts/sync_roots_list.py --apply --run-tag "$RUN_TAG"
+
+      # ---------------------------------------------------------------------
+      # Step 9 [safe]: Delete orphaned pages (year-gated to 2027+)
+      # ---------------------------------------------------------------------
+      - name: "Stage: Cleaning orphaned pages"
+        run: python wiki-scripts/update_bot_status.py --run-tag "$RUN_TAG" --stage "Cleaning orphaned pages"
+
+      - name: "Step 9: Delete orphaned pages"
+        run: python wiki-scripts/delete_orphaned_pages.py --apply --max-edits "$WIKI_EDIT_LIMIT" --run-tag "$RUN_TAG"
+
+      # ---------------------------------------------------------------------
+      # Step 10 [wiki]: Mark bot as inactive. Always runs, even on failure,
+      # so the userpage doesn't get stuck showing "active".
+      # ---------------------------------------------------------------------
+      - name: "Step 10: Mark bot as inactive"
+        if: always()
+        run: python wiki-scripts/update_bot_status.py --run-tag "$RUN_TAG" --finish
