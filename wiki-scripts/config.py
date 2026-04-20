@@ -41,7 +41,8 @@ MAX_LAG = 5
 # Page creation is polynomial in the existing link-table size, so we cap the
 # number of new pages the bot can create. Two caps apply:
 #   - CREATIONS_PER_RUN: hard ceiling for a single pipeline run. Resets when
-#     word_page_loop.sh deletes create_run_budget.state at startup.
+#     the "Prepare" step in word-pages.yml deletes create_run_budget.state
+#     at startup.
 #   - CREATIONS_PER_DAY: rolling cap per UTC day across all runs. Persisted
 #     in create_budget.state (committed by the workflow so it survives
 #     between runs on the same day).

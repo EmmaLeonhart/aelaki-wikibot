@@ -26,7 +26,7 @@ Based on patterns from [shintowiki-scripts](https://github.com/Emma-Leonhart/shi
 |--------|--------|-------------|
 | `create_word_pages.py` | **CI** | Creates `word:LEMMA` pages (runs via GitHub Actions) |
 | `update_bot_status.py` | **CI** | Updates `User:EmmaBot` with pipeline run metadata |
-| `word_page_loop.sh` | **CI** | Orchestrates the word page bot pipeline |
+| `commit_state.sh` | **CI** | Commits and pushes mutated state files between pipeline steps |
 | `generate_random_words.py` | **CI** | Generates new lexicon entries from Wiktionary lemmas |
 | `create_wanted_categories.py` | **CI** | Creates missing categories from Special:WantedCategories |
 | `delete_unused_categories.py` | **CI** | Deletes empty categories from Special:UnusedCategories |
@@ -80,15 +80,19 @@ Grows the lexicon automatically. Each run:
 
 Creates missing category pages listed on `Special:WantedCategories`. Each page contains only `[[Category:Bot created categories]]`. No local state file; writes directly to the wiki.
 
-### word_page_loop.sh (CI — GitHub Actions)
+### Pipeline orchestration (`.github/workflows/word-pages.yml`)
 
-Shell orchestrator that runs the full pipeline in order:
-1. `generate_random_words.py` — grow the lexicon with ~100 new entries
-2. `update_bot_status.py` — declare the run on the wiki
-3. `create_wanted_categories.py` — create any missing category pages
-4. `create_word_pages.py` — upgrade old pages and create new word pages
+The full pipeline is orchestrated directly in the GitHub Actions workflow —
+one YAML step per phase, so each step's status, duration, and logs are
+visible independently in the Actions UI. The workflow file itself has a
+"Pipeline overview" block at the top listing every step in order.
 
-Builds a run tag from GitHub Actions environment variables (run ID, event type) for wiki edit summaries.
+Between steps that mutate local files, the workflow runs
+`wiki-scripts/commit_state.sh <message>` to stage state files
+(`*.state`, `*.last`, `aelaki/lexicon.json`, `wiki-scripts/version_history.txt`,
+`grammar/`, `images/imagewikitext/`), commit, rebase, and push. The run tag
+used in wiki edit summaries is built once in the "Prepare" step and exported
+to `$RUN_TAG` for every subsequent step.
 
 ### sync_grammar_pages.py (CI — GitHub Actions)
 
@@ -201,7 +205,7 @@ wiki-scripts/
 ├── EmmaBot.wiki                # Template for User:EmmaBot status page
 ├── config.py                   # Connection settings and constants
 ├── utils.py                    # Shared bot utilities
-├── word_page_loop.sh           # CI orchestrator (GitHub Actions)
+├── commit_state.sh             # State commit helper called between CI steps
 ├── generate_random_words.py    # Lexicon growth from Wiktionary (CI)
 ├── create_word_pages.py        # word:LEMMA page creation (CI)
 ├── update_bot_status.py        # Bot status page updater (CI)
