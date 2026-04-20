@@ -25,7 +25,8 @@
 # Step 2:    Upgrade old lemmas + create new lemma pages    [local+wiki] → commit
 # Step 3:    Generate new random words into lexicon         [local] → commit
 # Step 4:    Upgrade non-lemma form pages (no create)       [local+wiki] → commit
-# Step 4.5:  Create wanted file descriptions                 [safe]
+# Step 4.5:  Create wanted file descriptions (budget-bypass) [safe]
+# Step 4.6:  Pull Category:Images → images/imagewikitext/    [local] → commit
 # Step 5:    Create wanted page stubs                       [safe]
 # Step 6:    Update [[List of Aelaki roots]]                [safe]
 # Step 9:    Delete orphaned pages (2027+ only)             [safe]
@@ -115,6 +116,7 @@ commit_state() {
   git add -A -- "*.state" 2>/dev/null || true
   git add -A -- "*.last" 2>/dev/null || true
   git add -A -- "aelaki/lexicon.json" "wiki-scripts/version_history.txt" "grammar/"
+  git add -A -- "images/imagewikitext/" 2>/dev/null || true
   if git diff --cached --quiet; then
     echo "  (no state changes to commit)"
     return 0
@@ -267,11 +269,23 @@ commit_state "chore(state): post-nonlemma state [skip ci]"
 # ===========================================================================
 # Step 4.5 [safe]: Create File: description pages from Special:WantedFiles
 # Writes: wiki only (File: description pages tagged [[Category:Images]])
-# Runs before create_wanted_pages.py so image descriptions claim their
-# share of the per-run creation budget first (50/run by default).
+# Bypasses the per-run/per-day creation cap by design: File: descriptions
+# are not link-graph inputs, and this is a one-off bulk import to get every
+# known image described. See create_wanted_files.py module docstring.
 # ===========================================================================
 stage "Creating wanted file descriptions"
-python wiki-scripts/create_wanted_files.py --apply --limit 50 --run-tag "${RUN_TAG}"
+python wiki-scripts/create_wanted_files.py --apply --run-tag "${RUN_TAG}"
+
+# ===========================================================================
+# Step 4.6 [local → commit]: Sync [[Category:Images]] wikitext locally
+# Writes: images/imagewikitext/*.wiki
+# Runs right after create_wanted_files so newly-created descriptions land
+# in the repo on the same commit. One-way (wiki → local); see
+# sync_image_pages.py for the rationale.
+# ===========================================================================
+stage "Syncing image wikitext"
+python wiki-scripts/sync_image_pages.py --apply
+commit_state "chore(state): sync image wikitext [skip ci]"
 
 # ===========================================================================
 # Step 5 [safe]: Create wanted page stubs from Special:WantedPages
