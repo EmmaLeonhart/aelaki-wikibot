@@ -1272,6 +1272,20 @@ Short hashes are used in [[Category:Word pages|word page]] version categories (e
 | 2026-04-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/c68f0c23356e10ec4d5038e136d2ff970ac5f880 c68f0c23] || [[:Category:Words c68f0c23|Words c68f0c23]] || [[:Category:Non-lemma forms c68f0c23|Non-lemma c68f0c23]] || chore(state): post-grammar-sync [skip ci]
 |-
 | 2026-04-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/e490f867803b0b8ccf889480d3b8058b05e8225d e490f867] || [[:Category:Words e490f867|Words e490f867]] || [[:Category:Non-lemma forms e490f867|Non-lemma e490f867]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/20be54f92c4b4923935275e9a373f222e31e6613 20be54f9] || [[:Category:Words 20be54f9|Words 20be54f9]] || [[:Category:Non-lemma forms 20be54f9|Non-lemma 20be54f9]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/2985dffd4d0e6af30e6f8b83612096000202e125 2985dffd] || [[:Category:Words 2985dffd|Words 2985dffd]] || [[:Category:Non-lemma forms 2985dffd|Non-lemma 2985dffd]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/71f743f5a47f9c8092fa52b6e2553da4a903ff9c 71f743f5] || [[:Category:Words 71f743f5|Words 71f743f5]] || [[:Category:Non-lemma forms 71f743f5|Non-lemma 71f743f5]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/879ceb16e8305480815fb677414d4cc91f05d492 879ceb16] || [[:Category:Words 879ceb16|Words 879ceb16]] || [[:Category:Non-lemma forms 879ceb16|Non-lemma 879ceb16]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/2f532c243230d9ffbeabaf798122fe0416f961c2 2f532c24] || [[:Category:Words 2f532c24|Words 2f532c24]] || [[:Category:Non-lemma forms 2f532c24|Non-lemma 2f532c24]] || docs(todo): clear Unsorted — dev/prod workflow split is done
+|-
+| 2026-04-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/fbde9229c64c8c26793190e7b1484f24a5dec5d6 fbde9229] || [[:Category:Words fbde9229|Words fbde9229]] || [[:Category:Non-lemma forms fbde9229|Non-lemma fbde9229]] || chore(state): post-grammar-sync [skip ci]
+|-
+| 2026-04-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/937d9254fe15618d665fd3bad340d5d0ec46b4aa 937d9254] || [[:Category:Words 937d9254|Words 937d9254]] || [[:Category:Non-lemma forms 937d9254|Non-lemma 937d9254]] || chore(state): rebuild version history from git log [skip ci]
 |}
 
 [[Category:git synced pages]]
