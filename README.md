@@ -1,6 +1,6 @@
 # Aelaki Merged
 
-A consolidated archive of all documentation, implementations, and reference materials for **Aelaki** (also written Allochy) -- a constructed language (conlang) designed for a science fiction setting on a ringworld called Gaiad/Ngorno.
+A consolidated archive of all documentation, implementations, and reference materials for **Aelaki** -- a constructed language (conlang) designed for a science fiction setting on a ringworld called Gaiad/Ngorno.
 
 ## About Aelaki
 
