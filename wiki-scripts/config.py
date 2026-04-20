@@ -42,13 +42,15 @@ MAX_LAG = 5
 # number of new pages the bot can create. Two caps apply:
 #   - CREATIONS_PER_RUN: hard ceiling for a single pipeline run. Resets when
 #     the "Prepare" step in word-pages.yml deletes create_run_budget.state
-#     at startup.
-#   - CREATIONS_PER_DAY: rolling cap per UTC day across all runs. Persisted
-#     in create_budget.state (committed by the workflow so it survives
-#     between runs on the same day).
+#     at startup. Default 100 (production); the workflow overrides via
+#     WIKI_CREATIONS_PER_RUN to 20 for development (push-triggered) runs.
+#   - CREATIONS_PER_DAY: single rolling cap per UTC day, shared across every
+#     run (dev push + prod cron). Persisted in create_budget.state, committed
+#     by the workflow so it survives between runs on the same day. Production
+#     cron fires at the end of the UTC day and eats whatever budget is left.
 # See utils._consume_creation_budget.
-CREATIONS_PER_RUN = 100
-CREATIONS_PER_DAY = 500
+CREATIONS_PER_RUN = int(os.getenv("WIKI_CREATIONS_PER_RUN", "100"))
+CREATIONS_PER_DAY = int(os.getenv("WIKI_CREATIONS_PER_DAY", "200"))
 
 BOT_UA = "AelakiBot/1.0 (User:AelakiBot; aelaki.miraheze.org)"
 
