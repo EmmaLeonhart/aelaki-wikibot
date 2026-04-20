@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    <svg version="1.1"
+        baseProfile="full"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:cc="http://creativecommons.org/ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/" 
+        preserveAspectRatio="xMidYMid meet" height="1200" width="1000" viewBox="0,0,1030,1230 ">
+<metadata>
+<rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</dc:title>
+          </cc:Agent>
+        </dc:rights>
+         <dc:creator>
+           <cc:Agent>
+              <dc:title>roundel/geometric - (Drawshield internal)
+crescent/geometric - (Drawshield internal)
+heater shape - https://commons.wikimedia.org/wiki/User:MG
+</dc:title>
+           </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+      </rdf:RDF>
+</metadata>
+<defs>
+      <filter id="shiny" x="0" y="0" width="150%" height="150%">
+      <feGaussianBlur in = "SourceAlpha" stdDeviation = "4" result = "blur1"/>
+        <feSpecularLighting result = "specOut" in = "blur1" specularExponent = "20" lighting-color = "#696969">
+            <fePointLight x = "300" y = "300" z = "500"/>
+        </feSpecularLighting>
+        <feComposite result="highlight" in = "SourceGraphic" in2 = "specOut" operator = "arithmetic" k1 = "0" k2 = "1" k3 = "1" k4 = "0"/>
+      <feOffset result="offOut" in="SourceGraphic" dx="14" dy="14" />
+      <feColorMatrix result = "matrixOut" in = "offOut" type = "matrix" values = "0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0"/>
+      <feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="10" />
+      <feBlend in="highlight" in2="blurOut" mode="normal"/>
+    </filter></defs><g  filter="url(#shiny)" ><g mask="url(#mask10-1)"><g><g><title>per-pale</title><desc>Division used to fill field</desc><g stroke-width="4" stroke="none" ><g  fill="#0f47af"><rect x='-100' y='-100' width='1200' height='1400' /></g>
+<g  fill="#da1219"><path fill-rule="evenodd" d="M500,0h500 v1200   h-500.000   v-1200.000  z" /></g></g></g><g transform='translate(0,0)'><g><title>bend</title><g  fill="#ffffff"><path fill-rule="evenodd" d="M-100,-100 l106.066,-106.066   l1200.000,1200.000   l-212.132,212.132   l-1200.000,-1200.000   l106.066,-106.066  z" /></g><g  fill="#000000"><g class="PlaceCharge" transform="rotate(45,500,500)  translate(408,408) scale(0.368, 0.368) " >
+<title>a roundel</title><g  fill-rule="evenodd" stroke="#fcdd07" stroke-width="3" ><circle cx="250" cy="250" r="250"  />
+</g>
+</g>
+</g></g><g  fill="#ffffff"><g class="PlaceCharge" transform=" translate(456.34976152623,50) scale(0.88182299947006, 0.73485249955838) " >
+<title>a sword</title><g transform="translate(0,353.8125) scale(1,-1)"><desc>inverted charge</desc><g transform="translate(-101.25,-61.59375)"><g stroke-opacity="1" stroke-dasharray="none" fill-opacity="1"  ><g  ><g  ><g  ><g  ><path d="M 150.75194 63 L 140.58854 78.24186 L 135.50362 298.5713 L 150.75194 298.5713 L 165.9938 298.5713 L 160.91533 78.24186 Z"  fill="#FFFFFF"  />
+<path d="M 150.75194 63 L 140.58854 78.24186 L 135.50362 298.5713 L 150.75194 298.5713 L 165.9938 298.5713 L 160.91533 78.24186 Z"  stroke="#000000" stroke-linecap="round" stroke-linejoin="round"  stroke-width="2"  />
+<g  ><path d="M 150.47704 134.48575 L 150.47704 116.26263 L 150.3867 125.37419 L 150.29636 116.26263 L 150.29636 134.48575 L 148.66376 298.48095 L 150.29636 298.56484 L 150.3867 298.56484 L 150.47704 298.5713 L 152.10964 298.48095 Z"  fill="#FFFFFF"  />
+<path d="M 150.47704 134.48575 L 150.47704 116.26263 L 150.3867 125.37419 L 150.29636 116.26263 L 150.29636 134.48575 L 148.66376 298.48095 L 150.29636 298.56484 L 150.3867 298.56484 L 150.47704 298.5713 L 152.10964 298.48095 Z"  stroke="#000000" stroke-linecap="round" stroke-linejoin="round"  stroke-width="2"  />
+</g>
+</g>
+</g>
+<g  fill="#fcdd07"  class="feature hilt"   fill-opacity="0.999" ><g   fill-opacity="0.999" ><path d="M 138.66492 313.76927 C 138.38046 315.34066 138.11557 316.9666 137.8712 318.64124 L 165.2059 334.26383 C 164.94646 330.0249 164.5699 325.91302 164.08308 322.00323 L 149.67365 313.76927 Z"   fill-opacity="0.999" />
+<path d="M 138.66492 313.76927 C 138.38046 315.34066 138.11557 316.9666 137.8712 318.64124 L 165.2059 334.26383 C 164.94646 330.0249 164.5699 325.91302 164.08308 322.00323 L 149.67365 313.76927 Z"  stroke="#000000" stroke-linecap="round" stroke-linejoin="round"  stroke-width="2"   fill-opacity="0.999" />
+</g>
+<g   fill-opacity="0.999" ><path d="M 149.67042 313.7712 L 164.07985 322.00517 C 163.72155 319.13082 163.30504 316.3771 162.83443 313.7712 Z"   fill-opacity="0.999" />
+<path d="M 149.67042 313.7712 L 164.07985 322.00517 C 163.72155 319.13082 163.30504 316.3771 162.83443 313.7712 Z"  stroke="#000000" stroke-linecap="round" stroke-linejoin="round"  stroke-width="2"   fill-opacity="0.999" />
+</g>
+<g   fill-opacity="0.999" ><path d="M 165.6292 347.57303 C 165.6168 343.0867 165.47609 338.6205 165.20976 334.2606 L 137.87508 318.64447 C 137.30755 322.52448 136.85292 326.64863 136.51996 330.93733 Z"   fill-opacity="0.999" />
+<path d="M 165.6292 347.57303 C 165.6168 343.0867 165.47609 338.6205 165.20976 334.2606 L 137.87508 318.64447 C 137.30755 322.52448 136.85292 326.64863 136.51996 330.93733 Z"  stroke="#000000" stroke-linecap="round" stroke-linejoin="round"  stroke-width="2"   fill-opacity="0.999" />
+</g>
+<g   fill-opacity="0.999" ><path d="M 165.40464 358.64306 C 165.56712 354.9883 165.64274 351.2809 165.6305 347.5698 L 136.52125 330.94056 C 136.24872 334.4891 136.06076 338.1317 135.95985 341.82023 Z"   fill-opacity="0.999" />
+<path d="M 165.40464 358.64306 C 165.56712 354.9883 165.64274 351.2809 165.6305 347.5698 L 136.52125 330.94056 C 136.24872 334.4891 136.06076 338.1317 135.95985 341.82023 Z"  stroke="#000000" stroke-linecap="round" stroke-linejoin="round"  stroke-width="2"   fill-opacity="0.999" />
+</g>
+<g   fill-opacity="0.999" ><path d="M 163.2442 380.43338 L 136.48382 365.1399 C 138.359 390.2478 144.1633 407.46643 150.75129 407.46477 C 155.79924 407.46084 160.50255 397.2841 163.2442 380.43338 Z"   fill-opacity="0.999" />
+<path d="M 163.2442 380.43338 L 136.48382 365.1399 C 138.359 390.2478 144.1633 407.46643 150.75129 407.46477 C 155.79924 407.46084 160.50255 397.2841 163.2442 380.43338 Z"  stroke="#000000" stroke-linecap="round" stroke-linejoin="round"  stroke-width="2"   fill-opacity="0.999" />
+</g>
+<g   fill-opacity="0.999" ><path d="M 136.48318 365.14054 L 163.24355 380.434 C 163.80796 376.96546 164.27945 373.27144 164.6503 369.4124 L 135.91532 352.9961 C 135.9975 357.1119 136.18783 361.18225 136.48318 365.14054 Z"   fill-opacity="0.999" />
+<path d="M 136.48318 365.14054 L 163.24355 380.434 C 163.80796 376.96546 164.27945 373.27144 164.6503 369.4124 L 135.91532 352.9961 C 135.9975 357.1119 136.18783 361.18225 136.48318 365.14054 Z"  stroke="#000000" stroke-linecap="round" stroke-linejoin="round"  stroke-width="2"   fill-opacity="0.999" />
+</g>
+<g   fill-opacity="0.999" ><path d="M 135.9179 352.99157 L 164.65287 369.41432 C 164.98729 365.92625 165.23792 362.3202 165.40142 358.64435 L 135.95662 341.81507 C 135.85503 345.52736 135.84206 349.26956 135.9179 352.99157 Z"   fill-opacity="0.999" />
+<path d="M 135.9179 352.99157 L 164.65287 369.41432 C 164.98729 365.92625 165.23792 362.3202 165.40142 358.64435 L 135.95662 341.81507 C 135.85503 345.52736 135.84206 349.26956 135.9179 352.99157 Z"  stroke="#000000" stroke-linecap="round" stroke-linejoin="round"  stroke-width="2"   fill-opacity="0.999" />
+</g>
+<g   fill-opacity="0.999" ><rect x="104.28878" y="298.2083" width="92.92244" height="15.608066"   fill-opacity="0.999" />
+<rect x="104.28878" y="298.2083" width="92.92244" height="15.608066"  stroke="#000000" stroke-linecap="round" stroke-linejoin="round"  stroke-width="2"   fill-opacity="0.999" />
+</g>
+</g>
+<g  ><g  ><path d="M 150.75 413.9984 C 141.81937 413.87285 134.64554 406.5975 134.64554 397.66597 C 134.64554 388.73446 141.81937 381.4591 150.75 381.33356 C 156.63972 381.2508 162.1178 384.3455 165.08682 389.4328 C 168.05584 394.52007 168.05584 400.81187 165.08682 405.89916 C 162.1178 410.98646 156.63972 414.08116 150.75 413.9984 Z"  fill="#FFFFFF"  />
+<path d="M 150.75 413.9984 C 141.81937 413.87285 134.64554 406.5975 134.64554 397.66597 C 134.64554 388.73446 141.81937 381.4591 150.75 381.33356 C 156.63972 381.2508 162.1178 384.3455 165.08682 389.4328 C 168.05584 394.52007 168.05584 400.81187 165.08682 405.89916 C 162.1178 410.98646 156.63972 414.08116 150.75 413.9984 Z"  stroke="#000000" stroke-linecap="round" stroke-linejoin="round"  stroke-width="2"  />
+</g>
+<g  ><path d="M 150.74916 405.1054 C 146.68359 405.04433 143.4198 401.73116 143.4198 397.66513 C 143.4198 393.5991 146.68359 390.28594 150.74916 390.2249 C 153.43393 390.18457 155.9322 391.5938 157.28636 393.9124 C 158.64052 396.23097 158.64052 399.0993 157.28636 401.4179 C 155.9322 403.7365 153.43393 405.1457 150.74916 405.1054 Z"  fill="#FFFFFF"  />
+<path d="M 150.74916 405.1054 C 146.68359 405.04433 143.4198 401.73116 143.4198 397.66513 C 143.4198 393.5991 146.68359 390.28594 150.74916 390.2249 C 153.43393 390.18457 155.9322 391.5938 157.28636 393.9124 C 158.64052 396.23097 158.64052 399.0993 157.28636 401.4179 C 155.9322 403.7365 153.43393 405.1457 150.74916 405.1054 Z"  stroke="#000000" stroke-linecap="round" stroke-linejoin="round"  stroke-width="2"  />
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g><g  fill="#ffffff"><g class="PlaceCharge" transform=" translate(300,775) scale(1, 0.625) " >
+<title>a crescent</title><g  fill-rule="evenodd" stroke="#696969" stroke-width="3" ><path d="M 400,200 C 400,310 310,400 200,400 90,400 0,310 0,200 0,150 71,9.9 130,8.8 46,110 150,150 200,150 260,150 350,94 270,8.8 340,11 400,140 400,200"  stroke-width="6"  />
+<path  stroke-width="6" d="M 130,8.8 C 71,9.9 28,130 50,200 c 18,60 90,90 150,90 60,0 130,-40 150,-90 C 370,130 340,11 270,8.8"  fill="none"  />
+</g>
+</g>
+</g></g></g></g><defs><mask id="mask10-1" >
+<path fill="#FFFFFF" d="m 0,0 v 800 c -2.5063876,43.11115 1.2341419,84.33503 21.489586,125.13639 20.255443,40.80137 53.477613,79.98631 98.039434,115.63581 44.56181,35.6494 100.44867,67.7517 164.92346,94.7345 64.47479,26.9828 137.51639,48.8374 215.54752,64.4933 78.03113,-15.6559 151.07273,-37.5105 215.54752,-64.4933 64.47479,-26.9828 120.36165,-59.0851 164.92346,-94.7345 44.56182,-35.6495 77.78399,-74.83444 98.03943,-115.63581 C 998.76586,884.33503 1000.1453,841.93063 1000,800 V 0 Z" />
+</mask>
+</defs></g></svg>

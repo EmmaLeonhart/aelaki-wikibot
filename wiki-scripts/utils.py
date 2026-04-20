@@ -194,10 +194,16 @@ def _wait_for_write_slot(heavy: bool = False) -> None:
 # Safe save with edit-conflict handling
 # ---------------------------------------------------------------------------
 
-def safe_save(page, text: str, summary: str) -> bool:
+def safe_save(page, text: str, summary: str, *, bypass_budget: bool = False) -> bool:
     """Save a page, handling edit conflicts and no-change cases.
 
     Returns True if the page was actually edited.
+
+    ``bypass_budget=True`` skips the per-run/per-day creation cap but keeps
+    the write throttle and retry logic. Reserve for **exceptional bulk
+    imports** where the cost model doesn't apply — e.g. creating File:
+    description stubs (no link-table explosion). Don't use for word: pages
+    or anything that inflates the link graph.
     """
     try:
         current = page.text()
@@ -211,7 +217,7 @@ def safe_save(page, text: str, summary: str) -> bool:
     # (the heavier throttle is the safer default when in doubt).
     is_create = current is None or not page.exists
 
-    if is_create and not _consume_creation_budget():
+    if is_create and not bypass_budget and not _consume_creation_budget():
         ru, rl, du, dl = creation_budget_status()
         print(
             f"  Creation budget exhausted (run {ru}/{rl}, day {du}/{dl}) — "
@@ -286,16 +292,19 @@ def move_page(site, old_title: str, new_title: str, reason: str, *, leave_redire
     return True
 
 
-def create_page(site, title: str, text: str, summary: str, overwrite: bool = False) -> bool:
+def create_page(site, title: str, text: str, summary: str, overwrite: bool = False,
+                *, bypass_budget: bool = False) -> bool:
     """Create a page if it doesn't already exist.
 
     If overwrite=True, replaces existing content.
+    bypass_budget=True forwards to safe_save — see that docstring; only for
+    exceptional bulk imports like File: description stubs.
     Returns True if the page was created/updated.
     """
     page = site.pages[title]
     if page.exists and not overwrite:
         return False
-    return safe_save(page, text, summary)
+    return safe_save(page, text, summary, bypass_budget=bypass_budget)
 
 
 # ---------------------------------------------------------------------------
