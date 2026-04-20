@@ -97,6 +97,10 @@ On the page [[List of Aelaki roots]] there are some pages that are linked but do
 
 Many images are missing from this wiki. Check [[Special:WantedFiles]] and cross-reference it with C:\Users\Immanuelle\Documents\Github\order.life\wikibase\images to see if any of the wanted files are there. If there are wanted filrs that are in that directory then please upload them here
 
+Update: All of the images are in the directory C:\Users\Immanuelle\Documents\Github\aelaki-wikibot\images\imagefiles and all of the image pages are gonna be synced to C:\Users\Immanuelle\Documents\Github\aelaki-wikibot\images\imagepages
+
+Our auto-sync of the image pages is the next step towards getting the images onto the wiki. And afterwards we will begin trimming down the images present to only the ones with imagepages and then eventually the imagepage and imagefile will be deleted if a file is present but unused
+
 We might work towards git syncing images with this repo too but that is another step beyond this immediate thing
 
 Okay so update: We now hafe it so that pages in [[Category:Images]] are being made for all files used on this wiki, later on they are going to be synced to the git repo too like [[:Category:git synced pages]]. Once we get this completely synced we can work on doing the import from the order.life repo for the files there.
