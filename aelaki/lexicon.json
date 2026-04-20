@@ -40238,6 +40238,434 @@
       "class": "verb_transitive",
       "gloss": "niggard (auto-generated)",
       "citation_form": "kabalkejoko"
+    },
+    "m?dy": {
+      "root": [
+        "m",
+        "?",
+        "d",
+        "y"
+      ],
+      "class": "verb_transitive",
+      "gloss": "rile (auto-generated)",
+      "citation_form": "kama?deyoko"
+    },
+    "shschh": {
+      "root": [
+        "sh",
+        "s",
+        "ch",
+        "h"
+      ],
+      "class": "verb_transitive",
+      "gloss": "rigidize (auto-generated)",
+      "citation_form": "kashaschehoko"
+    },
+    "chfky": {
+      "root": [
+        "ch",
+        "f",
+        "k",
+        "y"
+      ],
+      "class": "verb_transitive",
+      "gloss": "ricket (auto-generated)",
+      "citation_form": "kachafkeyoko"
+    },
+    "bhsch": {
+      "root": [
+        "b",
+        "h",
+        "s",
+        "ch"
+      ],
+      "class": "verb_transitive",
+      "gloss": "richen (auto-generated)",
+      "citation_form": "kabahsechoko"
+    },
+    "ngkf": {
+      "root": [
+        "ng",
+        "k",
+        "f"
+      ],
+      "class": "verb_active",
+      "gloss": "ribroast (auto-generated)",
+      "citation_form": "kangakaf"
+    },
+    "thhnp": {
+      "root": [
+        "th",
+        "h",
+        "n",
+        "p"
+      ],
+      "class": "verb_transitive",
+      "gloss": "rift (auto-generated)",
+      "citation_form": "kathahnepoko"
+    },
+    "kthy": {
+      "root": [
+        "k",
+        "th",
+        "y"
+      ],
+      "class": "verb_stative",
+      "gloss": "rinse (auto-generated)",
+      "citation_form": "kathaya"
+    },
+    "zdhnv": {
+      "root": [
+        "z",
+        "dh",
+        "n",
+        "v"
+      ],
+      "class": "verb_transitive",
+      "gloss": "rine (auto-generated)",
+      "citation_form": "kazadhnevoko"
+    },
+    "shzhzhg": {
+      "root": [
+        "sh",
+        "zh",
+        "zh",
+        "g"
+      ],
+      "class": "verb_transitive",
+      "gloss": "rigorize (auto-generated)",
+      "citation_form": "kashazhegoko"
+    },
+    "w?h": {
+      "root": [
+        "w",
+        "?",
+        "h"
+      ],
+      "class": "verb_stative",
+      "gloss": "ridge (auto-generated)",
+      "citation_form": "wa?aha"
+    },
+    "dzhsh": {
+      "root": [
+        "d",
+        "zh",
+        "s",
+        "h"
+      ],
+      "class": "verb_transitive",
+      "gloss": "rigidify (auto-generated)",
+      "citation_form": "kadazhsehoko"
+    },
+    "dh?b": {
+      "root": [
+        "dh",
+        "?",
+        "b"
+      ],
+      "class": "verb_stative",
+      "gloss": "righteous (auto-generated)",
+      "citation_form": "dha?aba"
+    },
+    "ngys": {
+      "root": [
+        "ng",
+        "y",
+        "s"
+      ],
+      "class": "verb_active",
+      "gloss": "rightsize (auto-generated)",
+      "citation_form": "kangayas"
+    },
+    "tkbdh": {
+      "root": [
+        "t",
+        "k",
+        "b",
+        "dh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "rightclick (auto-generated)",
+      "citation_form": "katakbedhoko"
+    },
+    "ykrdh": {
+      "root": [
+        "y",
+        "k",
+        "r",
+        "dh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "ringtone (auto-generated)",
+      "citation_form": "kayakredhoko"
+    },
+    "lnsk": {
+      "root": [
+        "l",
+        "n",
+        "s",
+        "k"
+      ],
+      "class": "verb_transitive",
+      "gloss": "ripe (auto-generated)",
+      "citation_form": "kalansekoko"
+    },
+    "zhh?r": {
+      "root": [
+        "zh",
+        "h",
+        "?",
+        "r"
+      ],
+      "class": "verb_transitive",
+      "gloss": "ribbon (auto-generated)",
+      "citation_form": "kazhah?eroko"
+    },
+    "ngfz": {
+      "root": [
+        "ng",
+        "f",
+        "z"
+      ],
+      "class": "verb_stative",
+      "gloss": "rill (auto-generated)",
+      "citation_form": "ngafaza"
+    },
+    "rbzh": {
+      "root": [
+        "r",
+        "b",
+        "zh"
+      ],
+      "class": "verb_stative",
+      "gloss": "rickshaw (auto-generated)",
+      "citation_form": "rabazha"
+    },
+    "gpzhh": {
+      "root": [
+        "g",
+        "p",
+        "zh",
+        "h"
+      ],
+      "class": "verb_transitive",
+      "gloss": "rim (auto-generated)",
+      "citation_form": "kagapzhehoko"
+    },
+    "rgwl": {
+      "root": [
+        "r",
+        "g",
+        "w",
+        "l"
+      ],
+      "class": "verb_transitive",
+      "gloss": "rimrock (auto-generated)",
+      "citation_form": "karagweloko"
+    },
+    "sbww": {
+      "root": [
+        "s",
+        "b",
+        "w",
+        "w"
+      ],
+      "class": "verb_transitive",
+      "gloss": "riggle (auto-generated)",
+      "citation_form": "kasabwewoko"
+    },
+    "pfz": {
+      "root": [
+        "p",
+        "f",
+        "z"
+      ],
+      "class": "verb_active",
+      "gloss": "ringlead (auto-generated)",
+      "citation_form": "kapafaz"
+    },
+    "mthzhch": {
+      "root": [
+        "m",
+        "th",
+        "zh",
+        "ch"
+      ],
+      "class": "verb_transitive",
+      "gloss": "rigourise (auto-generated)",
+      "citation_form": "kamathzhechoko"
+    },
+    "zhksh": {
+      "root": [
+        "zh",
+        "k",
+        "s",
+        "h"
+      ],
+      "class": "verb_transitive",
+      "gloss": "riffle (auto-generated)",
+      "citation_form": "kazhaksehoko"
+    },
+    "jnb": {
+      "root": [
+        "j",
+        "n",
+        "b"
+      ],
+      "class": "verb_active",
+      "gloss": "ridder (auto-generated)",
+      "citation_form": "kajanab"
+    },
+    "plzp": {
+      "root": [
+        "p",
+        "l",
+        "z",
+        "p"
+      ],
+      "class": "verb_transitive",
+      "gloss": "riff (auto-generated)",
+      "citation_form": "kapalzepoko"
+    },
+    "fjfn": {
+      "root": [
+        "f",
+        "j",
+        "f",
+        "n"
+      ],
+      "class": "verb_transitive",
+      "gloss": "rightwise (auto-generated)",
+      "citation_form": "kafajfenoko"
+    },
+    "thrmsh": {
+      "root": [
+        "th",
+        "r",
+        "m",
+        "sh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "ribotype (auto-generated)",
+      "citation_form": "katharmeshoko"
+    },
+    "pych": {
+      "root": [
+        "p",
+        "y",
+        "ch"
+      ],
+      "class": "verb_active",
+      "gloss": "ridiculize (auto-generated)",
+      "citation_form": "kapayach"
+    },
+    "hshtth": {
+      "root": [
+        "h",
+        "sh",
+        "t",
+        "th"
+      ],
+      "class": "verb_transitive",
+      "gloss": "rip (auto-generated)",
+      "citation_form": "kahashtethoko"
+    },
+    "?fngp": {
+      "root": [
+        "?",
+        "f",
+        "ng",
+        "p"
+      ],
+      "class": "verb_transitive",
+      "gloss": "rick (auto-generated)",
+      "citation_form": "ka?afngepoko"
+    },
+    "ldhvl": {
+      "root": [
+        "l",
+        "dh",
+        "v",
+        "l"
+      ],
+      "class": "verb_transitive",
+      "gloss": "rigourize (auto-generated)",
+      "citation_form": "kaladhveloko"
+    },
+    "sbyh": {
+      "root": [
+        "s",
+        "b",
+        "y",
+        "h"
+      ],
+      "class": "verb_transitive",
+      "gloss": "rightify (auto-generated)",
+      "citation_form": "kasabyehoko"
+    },
+    "ssvv": {
+      "root": [
+        "s",
+        "s",
+        "v",
+        "v"
+      ],
+      "class": "verb_transitive",
+      "gloss": "ringlet (auto-generated)",
+      "citation_form": "kasasvevoko"
+    },
+    "?fzhk": {
+      "root": [
+        "?",
+        "f",
+        "zh",
+        "k"
+      ],
+      "class": "verb_transitive",
+      "gloss": "ripen (auto-generated)",
+      "citation_form": "ka?afzhekoko"
+    },
+    "ngshyn": {
+      "root": [
+        "ng",
+        "sh",
+        "y",
+        "n"
+      ],
+      "class": "verb_transitive",
+      "gloss": "ribbonize (auto-generated)",
+      "citation_form": "kangashyenoko"
+    },
+    "sdt": {
+      "root": [
+        "s",
+        "d",
+        "t"
+      ],
+      "class": "verb_stative",
+      "gloss": "ridiculise (auto-generated)",
+      "citation_form": "sadata"
+    },
+    "kyj": {
+      "root": [
+        "k",
+        "y",
+        "j"
+      ],
+      "class": "verb_active",
+      "gloss": "riot (auto-generated)",
+      "citation_form": "kakayaj"
+    },
+    "jshny": {
+      "root": [
+        "j",
+        "sh",
+        "n",
+        "y"
+      ],
+      "class": "verb_transitive",
+      "gloss": "ribosylate (auto-generated)",
+      "citation_form": "kajashneyoko"
     }
   },
   "nouns": {
@@ -86413,6 +86841,446 @@
       "gloss": "thanatist (auto-generated)",
       "gender": "child",
       "citation_form": "kadhupu"
+    },
+    "zhdhg": {
+      "root": [
+        "zh",
+        "dh",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "fibrinoplastine (auto-generated)",
+      "gender": "child",
+      "citation_form": "zhadhugu"
+    },
+    "nsd": {
+      "root": [
+        "n",
+        "s",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "fibreglassing (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "nasïfdïf"
+    },
+    "ltj": {
+      "root": [
+        "l",
+        "t",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "fiancee (auto-generated)",
+      "gender": "male",
+      "citation_form": "lataja"
+    },
+    "jngt": {
+      "root": [
+        "j",
+        "ng",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "fibnif (auto-generated)",
+      "gender": "child",
+      "citation_form": "jangutu"
+    },
+    "lyf": {
+      "root": [
+        "l",
+        "y",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "fiberglas (auto-generated)",
+      "gender": "male",
+      "citation_form": "layafa"
+    },
+    "lzzh": {
+      "root": [
+        "l",
+        "z",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "fibroadenosis (auto-generated)",
+      "gender": "child",
+      "citation_form": "lazuzhu"
+    },
+    "gss": {
+      "root": [
+        "g",
+        "s",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "fibrinoprotein (auto-generated)",
+      "gender": "male",
+      "citation_form": "gasasa"
+    },
+    "lzn": {
+      "root": [
+        "l",
+        "z",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "fibrochondrocyte (auto-generated)",
+      "gender": "male",
+      "citation_form": "lazana"
+    },
+    "?tr": {
+      "root": [
+        "?",
+        "t",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "fibrinogenolysis (auto-generated)",
+      "gender": "female",
+      "citation_form": "?atoro"
+    },
+    "d?y": {
+      "root": [
+        "d",
+        "?",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "fiberboard (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "da?ïfyïf"
+    },
+    "?bth": {
+      "root": [
+        "?",
+        "b",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "fibrinogen (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?abïfthïf"
+    },
+    "gvg": {
+      "root": [
+        "g",
+        "v",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "fibrilla (auto-generated)",
+      "gender": "female",
+      "citation_form": "gavogo"
+    },
+    "?wk": {
+      "root": [
+        "?",
+        "w",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "fiador (auto-generated)",
+      "gender": "female",
+      "citation_form": "?awoko"
+    },
+    "wnng": {
+      "root": [
+        "w",
+        "n",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "fibrogastroscopy (auto-generated)",
+      "gender": "child",
+      "citation_form": "wanungu"
+    },
+    "sp?": {
+      "root": [
+        "s",
+        "p",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "fibracillin (auto-generated)",
+      "gender": "female",
+      "citation_form": "sapo?o"
+    },
+    "?mh": {
+      "root": [
+        "?",
+        "m",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "fibrisol (auto-generated)",
+      "gender": "child",
+      "citation_form": "?amuhu"
+    },
+    "zhshch": {
+      "root": [
+        "zh",
+        "sh",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "fibbery (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zhashïfchïf"
+    },
+    "tnd": {
+      "root": [
+        "t",
+        "n",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "fiasco (auto-generated)",
+      "gender": "female",
+      "citation_form": "tanodo"
+    },
+    "mthr": {
+      "root": [
+        "m",
+        "th",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "fiberizer (auto-generated)",
+      "gender": "child",
+      "citation_form": "mathuru"
+    },
+    "ngym": {
+      "root": [
+        "ng",
+        "y",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "fibro (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "ngayïfmïf"
+    },
+    "?hk": {
+      "root": [
+        "?",
+        "h",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "fibrinogenesis (auto-generated)",
+      "gender": "child",
+      "citation_form": "?ahuku"
+    },
+    "kkb": {
+      "root": [
+        "k",
+        "k",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "fibrinoplastin (auto-generated)",
+      "gender": "child",
+      "citation_form": "kakubu"
+    },
+    "dpl": {
+      "root": [
+        "d",
+        "p",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "fiberlessness (auto-generated)",
+      "gender": "child",
+      "citation_form": "dapulu"
+    },
+    "vjg": {
+      "root": [
+        "v",
+        "j",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "fibbie (auto-generated)",
+      "gender": "female",
+      "citation_form": "vajogo"
+    },
+    "d?v": {
+      "root": [
+        "d",
+        "?",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "fibranne (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "da?ïfvïf"
+    },
+    "vwh": {
+      "root": [
+        "v",
+        "w",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "fibrinase (auto-generated)",
+      "gender": "child",
+      "citation_form": "vawuhu"
+    },
+    "pdhth": {
+      "root": [
+        "p",
+        "dh",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "fibreclay (auto-generated)",
+      "gender": "child",
+      "citation_form": "padhuthu"
+    },
+    "dnd": {
+      "root": [
+        "d",
+        "n",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "fibrework (auto-generated)",
+      "gender": "female",
+      "citation_form": "danodo"
+    },
+    "jtg": {
+      "root": [
+        "j",
+        "t",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "fibrization (auto-generated)",
+      "gender": "male",
+      "citation_form": "jataga"
+    },
+    "rwch": {
+      "root": [
+        "r",
+        "w",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "fibrinoplatelet (auto-generated)",
+      "gender": "female",
+      "citation_form": "rawocho"
+    },
+    "l?y": {
+      "root": [
+        "l",
+        "?",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "fibrinolysin (auto-generated)",
+      "gender": "female",
+      "citation_form": "la?oyo"
+    },
+    "kg?": {
+      "root": [
+        "k",
+        "g",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "fibrofolliculoma (auto-generated)",
+      "gender": "child",
+      "citation_form": "kagu?u"
+    },
+    "bzh": {
+      "root": [
+        "b",
+        "z",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "fibroadenoma (auto-generated)",
+      "gender": "child",
+      "citation_form": "bazuhu"
+    },
+    "tmg": {
+      "root": [
+        "t",
+        "m",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "fibroferrite (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "tamïfgïf"
+    },
+    "dch?": {
+      "root": [
+        "d",
+        "ch",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "fiar (auto-generated)",
+      "gender": "female",
+      "citation_form": "dacho?o"
+    },
+    "??p": {
+      "root": [
+        "?",
+        "?",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "fiaunt (auto-generated)",
+      "gender": "female",
+      "citation_form": "?a?opo"
+    },
+    "njz": {
+      "root": [
+        "n",
+        "j",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "fiamma (auto-generated)",
+      "gender": "female",
+      "citation_form": "najozo"
+    },
+    "?gzh": {
+      "root": [
+        "?",
+        "g",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "fibroelastosis (auto-generated)",
+      "gender": "male",
+      "citation_form": "?agazha"
+    },
+    "thnzh": {
+      "root": [
+        "th",
+        "n",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "fiberfill (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "thanïfzhïf"
+    },
+    "jwz": {
+      "root": [
+        "j",
+        "w",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "fibrefill (auto-generated)",
+      "gender": "child",
+      "citation_form": "jawuzu"
     }
   },
   "adjectives": {
@@ -97343,6 +98211,106 @@
       "class": "adjective",
       "gloss": "asciibetical (auto-generated)",
       "citation_form": "nodhafaka"
+    },
+    "??w": {
+      "root": [
+        "?",
+        "?",
+        "w"
+      ],
+      "class": "adjective",
+      "gloss": "oarlike (auto-generated)",
+      "citation_form": "?o?awaka"
+    },
+    "?mj": {
+      "root": [
+        "?",
+        "m",
+        "j"
+      ],
+      "class": "adjective",
+      "gloss": "oathlike (auto-generated)",
+      "citation_form": "?omajaka"
+    },
+    "phs": {
+      "root": [
+        "p",
+        "h",
+        "s"
+      ],
+      "class": "adjective",
+      "gloss": "oared (auto-generated)",
+      "citation_form": "pohasaka"
+    },
+    "?thsh": {
+      "root": [
+        "?",
+        "th",
+        "sh"
+      ],
+      "class": "adjective",
+      "gloss": "oathless (auto-generated)",
+      "citation_form": "?othashaka"
+    },
+    "pzhz": {
+      "root": [
+        "p",
+        "zh",
+        "z"
+      ],
+      "class": "adjective",
+      "gloss": "oaked (auto-generated)",
+      "citation_form": "pozhazaka"
+    },
+    "vrp": {
+      "root": [
+        "v",
+        "r",
+        "p"
+      ],
+      "class": "adjective",
+      "gloss": "oathworthy (auto-generated)",
+      "citation_form": "vorapaka"
+    },
+    "ng?m": {
+      "root": [
+        "ng",
+        "?",
+        "m"
+      ],
+      "class": "adjective",
+      "gloss": "oathbound (auto-generated)",
+      "citation_form": "ngo?amaka"
+    },
+    "shzhth": {
+      "root": [
+        "sh",
+        "zh",
+        "th"
+      ],
+      "class": "adjective",
+      "gloss": "oathsworn (auto-generated)",
+      "citation_form": "shozhathaka"
+    },
+    "ndhz": {
+      "root": [
+        "n",
+        "dh",
+        "z"
+      ],
+      "class": "adjective",
+      "gloss": "oasal (auto-generated)",
+      "citation_form": "nodhazaka"
+    },
+    "jmch": {
+      "root": [
+        "j",
+        "m",
+        "ch"
+      ],
+      "class": "adjective",
+      "gloss": "oatmealy (auto-generated)",
+      "citation_form": "jomachaka"
     }
   },
   "adverbs": {
