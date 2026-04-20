@@ -5,7 +5,11 @@ on:
   push:
     branches: [master]
   schedule:
-    - cron: "0 0 * * *"
+    # 23:00 UTC — one hour before create_budget.state rolls over. Production
+    # runs last in the UTC day so dev pushes earlier get first claim on the
+    # shared 200/day creation budget; prod eats whatever is left (up to its
+    # own 100/run cap).
+    - cron: "0 23 * * *"
 
 permissions:
   contents: write
@@ -22,9 +26,21 @@ concurrency:
 #   [local] = writes local files (followed by a "Commit state" step)
 #   [safe]  = no local state; if a later step fails, nothing is lost
 #
-# The shared 100/day creation budget lives in wiki-scripts/create_budget.state
-# (per UTC day, persisted across runs). Grammar sync runs first so human-
-# curated grammar pages get first claim on the budget.
+# MODES
+# -----
+# The workflow runs in one of two modes based on the triggering event:
+#
+#   dev  (on push)              — 10 lemma + 10 non-lemma per run, cap 20/run
+#   prod (on schedule, dispatch) — 50 lemma + 50 non-lemma per run, cap 100/run
+#
+# Both modes draw from a single shared 200/day creation budget living in
+# wiki-scripts/create_budget.state (per UTC day, committed between runs).
+# The production cron fires at 23:55 UTC — last thing in the UTC day —
+# so dev pushes earlier in the day get first claim and prod eats the
+# remainder. If eight dev pushes already consumed 160, prod only mints 40.
+#
+# Grammar sync still runs first within each run so human-curated grammar
+# pages get first claim on the budget within that run.
 #
 # If the run crashes between a wiki edit and its commit, the only risk is:
 #   - A .state entry is missing → the page won't be re-created (it already
@@ -40,11 +56,9 @@ jobs:
     env:
       WIKI_USERNAME: EmmaBot@EmmaBot
       WIKI_PASSWORD: ${{ secrets.WIKI_PASSWORD }}
-      # Per-phase cap in create_word_pages.py. Set to 50 so lemma (Step 2)
-      # and non-lemma (Step 4) each get 50/day, totalling the 100/day global
-      # creation budget (config.CREATIONS_PER_DAY). The orphan deletion step
-      # ignores this and enforces its own 10/day.
-      WIKI_EDIT_LIMIT: "50"
+      # WIKI_EDIT_LIMIT and WIKI_CREATIONS_PER_RUN are set by the "Prepare"
+      # step based on the triggering event (push → dev, schedule/dispatch →
+      # prod). The shared 200/day budget lives in config.CREATIONS_PER_DAY.
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -59,23 +73,59 @@ jobs:
       - name: Install dependencies
         run: pip install mwclient requests
 
-      - name: Prepare run tag and git identity
+      - name: Prepare run tag, mode, and git identity
         run: |
           set -euo pipefail
           if [ -z "${GITHUB_RUN_ID:-}" ]; then
             echo "GITHUB_RUN_ID is required to build run-tag; refusing to run."
             exit 1
           fi
+
+          # Mode selection — push events are "dev" (small, fast, light on
+          # server load); scheduled and manual runs are "prod" (full batch).
           case "${GITHUB_EVENT_NAME}" in
-            push)              cause="commit triggered pipeline" ;;
-            schedule)          cause="time triggered pipeline" ;;
-            workflow_dispatch) cause="manual triggered pipeline" ;;
-            *)                 cause="pipeline run" ;;
+            push)
+              bot_mode="dev"
+              cause="commit triggered pipeline"
+              edit_limit=10
+              creations_per_run=20
+              ;;
+            schedule)
+              bot_mode="prod"
+              cause="time triggered pipeline"
+              edit_limit=50
+              creations_per_run=100
+              ;;
+            workflow_dispatch)
+              bot_mode="prod"
+              cause="manual triggered pipeline"
+              edit_limit=50
+              creations_per_run=100
+              ;;
+            *)
+              bot_mode="prod"
+              cause="pipeline run"
+              edit_limit=50
+              creations_per_run=100
+              ;;
           esac
+
           run_path="${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           run_tag="[[github:${run_path}|${cause}]]"
-          echo "RUN_TAG=${run_tag}" >> "$GITHUB_ENV"
-          echo "Run tag: ${run_tag}"
+          {
+            echo "RUN_TAG=${run_tag}"
+            echo "BOT_MODE=${bot_mode}"
+            echo "WIKI_EDIT_LIMIT=${edit_limit}"
+            echo "WIKI_CREATIONS_PER_RUN=${creations_per_run}"
+          } >> "$GITHUB_ENV"
+
+          echo "===================================================="
+          echo "  MODE: ${bot_mode}   (${GITHUB_EVENT_NAME})"
+          echo "  Per-run edit limit:  ${edit_limit} lemma + ${edit_limit} non-lemma"
+          echo "  Per-run creation cap: ${creations_per_run}"
+          echo "  Shared daily cap:    200 (UTC, across all runs)"
+          echo "  Run tag: ${run_tag}"
+          echo "===================================================="
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -85,6 +135,12 @@ jobs:
           rm -f wiki-scripts/create_run_budget.state
 
           chmod +x wiki-scripts/commit_state.sh
+
+      - name: "Mode banner: ${{ github.event_name }}"
+        run: |
+          echo "Running in $BOT_MODE mode"
+          echo "  WIKI_EDIT_LIMIT=$WIKI_EDIT_LIMIT"
+          echo "  WIKI_CREATIONS_PER_RUN=$WIKI_CREATIONS_PER_RUN"
 
       # ---------------------------------------------------------------------
       # Step 0 [local+wiki → commit]: Sync grammar pages (bidirectional)
