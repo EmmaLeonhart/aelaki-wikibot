@@ -5,7 +5,7 @@ Items here are expected to be worked through incrementally, often by automated p
 ==Unsorted==
 
 
-Figure out why the heck non-lemma pages are not getting upgraded
+Figure out why the heck non-lemma pages are not getting upgraded. Might even have general word pages not being upgraded, this is a confusing situation that might be causing massive technical debt
 
 Change the production to be a bit different. I want there to be two different kinds of workflows: production workflows which are on a daily cron, and development workflows which are on push
 
@@ -100,6 +100,8 @@ Many images are missing from this wiki. Check [[Special:WantedFiles]] and cross-
 We might work towards git syncing images with this repo too but that is another step beyond this immediate thing
 
 Okay so update: We now hafe it so that pages in [[Category:Images]] are being made for all files used on this wiki, later on they are going to be synced to the git repo too like [[:Category:git synced pages]]. Once we get this completely synced we can work on doing the import from the order.life repo for the files there.
+
+After all of the Special:WantedFiles are created and the syncing has been done. Then do something that deletes files from Special:UnusedFiles say starting in July
 
 == Auto-generated verb word pages ==
 

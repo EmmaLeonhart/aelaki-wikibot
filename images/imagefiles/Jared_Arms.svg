@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    <svg version="1.1"
+        baseProfile="full"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:cc="http://creativecommons.org/ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/" 
+        preserveAspectRatio="xMidYMid meet" height="1200" width="1000" viewBox="0,0,1030,1230 ">
+<metadata>
+<rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</dc:title>
+          </cc:Agent>
+        </dc:rights>
+         <dc:creator>
+           <cc:Agent>
+              <dc:title>annulet/annulet - (Drawshield internal)
+heart/human - (Drawshield internal)
+heater shape - https://commons.wikimedia.org/wiki/User:MG
+</dc:title>
+           </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+      </rdf:RDF>
+</metadata>
+<defs>
+      <filter id="shiny" x="0" y="0" width="150%" height="150%">
+      <feGaussianBlur in = "SourceAlpha" stdDeviation = "4" result = "blur1"/>
+        <feSpecularLighting result = "specOut" in = "blur1" specularExponent = "20" lighting-color = "#696969">
+            <fePointLight x = "300" y = "300" z = "500"/>
+        </feSpecularLighting>
+        <feComposite result="highlight" in = "SourceGraphic" in2 = "specOut" operator = "arithmetic" k1 = "0" k2 = "1" k3 = "1" k4 = "0"/>
+      <feOffset result="offOut" in="SourceGraphic" dx="14" dy="14" />
+      <feColorMatrix result = "matrixOut" in = "offOut" type = "matrix" values = "0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0"/>
+      <feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="10" />
+      <feBlend in="highlight" in2="blurOut" mode="normal"/>
+    </filter></defs><g  filter="url(#shiny)" ><g mask="url(#mask9-1)"><g><g  fill="#088930"><rect x='0' y='0' width='1000' height='1200'><title>Field</title></rect></g><g transform='translate(0,0)'><g  fill="#fcdd07"><g class="PlaceCharge" transform=" translate(370,50) scale(0.52, 0.52) " >
+<title>an annulet</title><g  fill-rule="evenodd" stroke="#000000" stroke-width="3" ><path d="M 0,250 a 250,250 0,0,1 500,0 a 250,250 0,0,1 -500,0 z M 100,250 a 150,150 0,0,1 300,0 a 150,150 0,0,1 -300,0 z" fill-rule="evenodd"  />
+</g>
+</g>
+</g><g><title>fess</title><g  fill="#ffffff"><path fill-rule="evenodd" d="M-100,320q30.000,-40 60.000,0 q30.000,40 60.000,0q30.000,-40 60.000,0 q30.000,40 60.000,0q30.000,-40 60.000,0 q30.000,40 60.000,0q30.000,-40 60.000,0 q30.000,40 60.000,0q30.000,-40 60.000,0 q30.000,40 60.000,0q30.000,-40 60.000,0 q30.000,40 60.000,0q30.000,-40 60.000,0 q30.000,40 60.000,0q30.000,-40 60.000,0 q30.000,40 60.000,0q30.000,-40 60.000,0 q30.000,40 60.000,0q30.000,-40 60.000,0 q30.000,40 60.000,0 v360   q-30.000,40.000 -60.000,0.000   q-30.000,-40.000 -60.000,0.000    q-30.000,40.000 -60.000,0.000   q-30.000,-40.000 -60.000,0.000    q-30.000,40.000 -60.000,0.000   q-30.000,-40.000 -60.000,0.000    q-30.000,40.000 -60.000,0.000   q-30.000,-40.000 -60.000,0.000    q-30.000,40.000 -60.000,0.000   q-30.000,-40.000 -60.000,0.000    q-30.000,40.000 -60.000,0.000   q-30.000,-40.000 -60.000,0.000    q-30.000,40.000 -60.000,0.000   q-30.000,-40.000 -60.000,0.000    q-30.000,40.000 -60.000,0.000   q-30.000,-40.000 -60.000,0.000    q-30.000,40.000 -60.000,0.000   q-30.000,-40.000 -60.000,0.000    q-30.000,40.000 -60.000,0.000   q-30.000,-40.000 -60.000,0.000    v-360.000  z" /></g></g><g  fill="#da1219"><g class="PlaceCharge" transform=" translate(379,775) scale(2, 2) " >
+<title>a heart</title><g  fill-rule="evenodd" stroke="#000000" stroke-width="3" ><path d="M 63,14.6 C 63,14.6 29.9,-14.5 8.77,8.79 -19.9,40.3 47.6,123 59.3,124 71,124 135,48.9 118,13.9 112,0.555 80.6,-5.85 63,14.6 z"  />
+</g>
+</g>
+</g><g><title>bordure</title><g  fill="#fcdd07"><path fill-rule='evenodd' d='M 1100 -100 L 1100,846.4 C 1101.2,1084 809.6,1228 500,1300 190.4,1228 -101.2,1084 -100,846.4 L -100,-100 L 1100,-100 ZM 920 80 L 80,80 L 80,802.48 C 79.16,968.8 283.28,1069.6 500,1120 716.72,1069.6 920.84,968.8 920,802.48 L 920,80 Z'/></g></g></g></g></g><defs><mask id="mask9-1" >
+<path fill="#FFFFFF" d="m 0,0 v 800 c -2.5063876,43.11115 1.2341419,84.33503 21.489586,125.13639 20.255443,40.80137 53.477613,79.98631 98.039434,115.63581 44.56181,35.6494 100.44867,67.7517 164.92346,94.7345 64.47479,26.9828 137.51639,48.8374 215.54752,64.4933 78.03113,-15.6559 151.07273,-37.5105 215.54752,-64.4933 64.47479,-26.9828 120.36165,-59.0851 164.92346,-94.7345 44.56182,-35.6495 77.78399,-74.83444 98.03943,-115.63581 C 998.76586,884.33503 1000.1453,841.93063 1000,800 V 0 Z" />
+</mask>
+</defs></g></svg>
