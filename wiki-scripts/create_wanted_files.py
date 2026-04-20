@@ -6,8 +6,12 @@ description page with content [[Category:Images]]. The file itself is
 not uploaded — this only creates the local description page so the
 Images category picks them up and the red File: links turn blue.
 
-Runs before create_wanted_pages.py so image descriptions claim their
-share of the creation budget first.
+**Budget bypass.** This script is allowed to bypass the per-run/per-day
+creation cap that protects word: page creation (polynomial in link-table
+size). File: description stubs are not link-graph inputs — creating one
+does not drag the link table with it — and this is an exceptional one-off
+bulk import to get every known image described. Keep the bypass scoped
+to this script; do not extend it to anything that creates mainspace links.
 
 Usage:
     python create_wanted_files.py              # dry-run (list only)
@@ -19,7 +23,6 @@ from utils import batch_existing_titles, connect, create_page, Progress
 
 CATEGORY_TEXT = "[[Category:Images]]"
 EDIT_SUMMARY_BASE = "Bot: create file description from Special:WantedFiles"
-DEFAULT_LIMIT = 50
 
 
 def fetch_wanted_files(site) -> list[str]:
@@ -57,8 +60,8 @@ def fetch_wanted_files(site) -> list[str]:
 def main():
     parser = argparse.ArgumentParser(description="Create file description pages from Special:WantedFiles")
     parser.add_argument("--apply", action="store_true", help="Actually create pages (default is dry-run)")
-    parser.add_argument("--limit", type=int, default=DEFAULT_LIMIT,
-                        help=f"Max pages to create this run (default: {DEFAULT_LIMIT})")
+    parser.add_argument("--limit", type=int, default=0,
+                        help="Max pages to create this run (0 = unlimited, default: 0)")
     parser.add_argument("--run-tag", default="", help="Wiki-formatted run tag for edit summaries.")
     args = parser.parse_args()
 
@@ -72,8 +75,8 @@ def main():
         return
 
     # Special:Wantedfiles is a cached querypage — it can lag behind actual
-    # state. Batch-check existence so we don't waste create-budget slots
-    # on files whose descriptions have already been written this cycle.
+    # state. Batch-check existence so we don't waste API calls on files
+    # whose descriptions have already been written this cycle.
     print(f"Batch-checking existence for {len(wanted)} titles...", flush=True)
     existing = batch_existing_titles(site, wanted)
     to_create = [t for t in wanted if t not in existing]
@@ -102,15 +105,18 @@ def main():
     for i, title in enumerate(to_create, 1):
         stats.processed += 1
         try:
-            created = create_page(site, title, CATEGORY_TEXT, edit_summary)
+            # bypass_budget=True: see module docstring. File: description
+            # stubs are exempt from the word-page creation cap.
+            created = create_page(site, title, CATEGORY_TEXT, edit_summary,
+                                  bypass_budget=True)
             if created:
                 stats.created += 1
                 print(f"  [{i}/{total}] Created: {title}", flush=True)
             else:
                 # Race: another process wrote the description between the
-                # batch check and now, or the creation budget is exhausted.
+                # batch check and now.
                 stats.skipped += 1
-                print(f"  [{i}/{total}] Skipped (exists or budget): {title}", flush=True)
+                print(f"  [{i}/{total}] Skipped (exists): {title}", flush=True)
         except Exception as exc:
             stats.errors += 1
             print(f"  [{i}/{total}] ERROR: {title} — {exc}", flush=True)
