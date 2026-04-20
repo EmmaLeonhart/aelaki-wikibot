@@ -1286,6 +1286,20 @@ Short hashes are used in [[Category:Word pages|word page]] version categories (e
 | 2026-04-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/fbde9229c64c8c26793190e7b1484f24a5dec5d6 fbde9229] || [[:Category:Words fbde9229|Words fbde9229]] || [[:Category:Non-lemma forms fbde9229|Non-lemma fbde9229]] || chore(state): post-grammar-sync [skip ci]
 |-
 | 2026-04-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/937d9254fe15618d665fd3bad340d5d0ec46b4aa 937d9254] || [[:Category:Words 937d9254|Words 937d9254]] || [[:Category:Non-lemma forms 937d9254|Non-lemma 937d9254]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/edb15c7aae827b8b99d4ab3081ad41f371341aeb edb15c7a] || [[:Category:Words edb15c7a|Words edb15c7a]] || [[:Category:Non-lemma forms edb15c7a|Non-lemma edb15c7a]] || docs: purge 'Allochy' — hallucinated alt-spelling for Aelaki
+|-
+| 2026-04-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/86e19112298c4b724c927f7c09bfd63c05262d44 86e19112] || [[:Category:Words 86e19112|Words 86e19112]] || [[:Category:Non-lemma forms 86e19112|Non-lemma 86e19112]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/b6e77748b95f0810dd700ff0156a6dea589d3e2b b6e77748] || [[:Category:Words b6e77748|Words b6e77748]] || [[:Category:Non-lemma forms b6e77748|Non-lemma b6e77748]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-04-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/86f8983669b52975fd6dedbb271c56e4ebac9bc4 86f89836] || [[:Category:Words 86f89836|Words 86f89836]] || [[:Category:Non-lemma forms 86f89836|Non-lemma 86f89836]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-04-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ff528e6b89db20c58abdb8d8afaf27d8b8432dc1 ff528e6b] || [[:Category:Words ff528e6b|Words ff528e6b]] || [[:Category:Non-lemma forms ff528e6b|Non-lemma ff528e6b]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-04-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/801558bf622b70e81e2ac8af676b50f3febc845f 801558bf] || [[:Category:Words 801558bf|Words 801558bf]] || [[:Category:Non-lemma forms 801558bf|Non-lemma 801558bf]] || chore(state): post-grammar-sync [skip ci]
+|-
+| 2026-04-20 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/3ef46fcf57c189bc1821940d921ed5f09c506152 3ef46fcf] || [[:Category:Words 3ef46fcf|Words 3ef46fcf]] || [[:Category:Non-lemma forms 3ef46fcf|Non-lemma 3ef46fcf]] || chore(state): rebuild version history from git log [skip ci]
 |}
 
 [[Category:git synced pages]]
