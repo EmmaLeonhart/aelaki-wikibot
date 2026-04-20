@@ -1222,6 +1222,16 @@ Short hashes are used in [[Category:Word pages|word page]] version categories (e
 | 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/1921dc3e1ef8e5e7c6dc688d9857472e7fc6423b 1921dc3e] || [[:Category:Words 1921dc3e|Words 1921dc3e]] || [[:Category:Non-lemma forms 1921dc3e|Non-lemma 1921dc3e]] || chore(state): post-grammar-sync [skip ci]
 |-
 | 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/35bcc92a79fcafd8f5f1e64978090ff8dea8f4d9 35bcc92a] || [[:Category:Words 35bcc92a|Words 35bcc92a]] || [[:Category:Non-lemma forms 35bcc92a|Non-lemma 35bcc92a]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/9fcabf2fb442f15c5a3ad11fd632d23b5f338703 9fcabf2f] || [[:Category:Words 9fcabf2f|Words 9fcabf2f]] || [[:Category:Non-lemma forms 9fcabf2f|Non-lemma 9fcabf2f]] || feat(pipeline): create File: description stubs from Special:WantedFiles
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/60b557d19cc90a2e21a8936de6625ab3a44ec19f 60b557d1] || [[:Category:Words 60b557d1|Words 60b557d1]] || [[:Category:Non-lemma forms 60b557d1|Non-lemma 60b557d1]] || Update To-do_list.wiki
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/915815e1452a88c7c41392631dadf8666eb4a7ee 915815e1] || [[:Category:Words 915815e1|Words 915815e1]] || [[:Category:Non-lemma forms 915815e1|Non-lemma 915815e1]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/25827d43b2a1788654166b0acc367c272af047e4 25827d43] || [[:Category:Words 25827d43|Words 25827d43]] || [[:Category:Non-lemma forms 25827d43|Non-lemma 25827d43]] || chore(state): post-grammar-sync [skip ci]
+|-
+| 2026-04-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/896e1833066637815fb8605398aec8ebfbcc175f 896e1833] || [[:Category:Words 896e1833|Words 896e1833]] || [[:Category:Non-lemma forms 896e1833|Non-lemma 896e1833]] || chore(state): rebuild version history from git log [skip ci]
 |}
 
 [[Category:git synced pages]]
