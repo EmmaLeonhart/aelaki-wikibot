@@ -2,22 +2,7 @@
 
 Items here are expected to be worked through incrementally, often by automated passes against [https://github.com/EmmaLeonhart/aelaki-wikibot the repo]. When an item is finished, delete it.
 
-==Unsorted (I think all of this is done but the Allochy stuff)==
-
-
-Figure out why the heck non-lemma pages are not getting upgraded. Might even have general word pages not being upgraded, this is a confusing situation that might be causing massive technical debt
-
-Change the production to be a bit different. I want there to be two different kinds of workflows: production workflows which are on a daily cron, and development workflows which are on push
-
-Development pushes make 10 word pages and 10 from wanted pages
-
-Production does 50 and 50
-
-Development has a maximum of 20 created pages
-
-Shared budget is down to 200 a day shared by both. And each one can cap at 100 for production and 20 for development. 
-
-Production run is done last thing in the day, using up 100. So you can theoretically do say 6 production push runs, so 120 pages made, and as a result the production push caps off at 80 pages made (50 lemmas and 30 non-lemmas)
+==Unsorted==
 
 Remove all references to "Allochy" from the repo, that was just a hallucination
 
