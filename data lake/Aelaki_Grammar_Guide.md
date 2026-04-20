@@ -1,14 +1,14 @@
 <!-- Converted from 'Aelaki Grammar Guide.docx' by wiki-scripts/convert_grammar_guide.py.
      The docx remains authoritative; this markdown is a greppable mirror. -->
 
-# Allochy (Aelaki) Grammar Guide
+# Aelaki Grammar Guide
 
 Everything in this primer reflects the standard literary variety spoken in the capital region circa CE 1800.
  Pronunciation key: Aelaki /a.e.ˈla.ki/.
 
 ## 1 Overview
 
-Allochy is famous across Keth and beyond for non‑concatenative morphology—grammatical meaning is encoded by reshaping a triconsonantal (occasionally quadri‑) root rather than by stringing affixes. Three phonological operations lie at the heart of the system:
+Aelaki is famous across Keth and beyond for non‑concatenative morphology—grammatical meaning is encoded by reshaping a triconsonantal (occasionally quadri‑) root rather than by stringing affixes. Three phonological operations lie at the heart of the system:
 
 | Operation | Mnemonic name (Aelaki) | Form | Core meaning |
 |---|---|---|---|
@@ -204,7 +204,7 @@ Stative verb “Lake”
 
 ## 3 Gender System
 
-Allochy distinguishes four grammatical genders:
+Aelaki distinguishes four grammatical genders:
 
 | Gender | Singular vowel | Collective vowel | Biological note |
 |---|---|---|---|
@@ -939,7 +939,7 @@ Illustration
 
 # Aelaki Numerals & Counter System
 
-Dedicated companion to the Allochy Grammar Guide; reference variety: capital‑region standard, c. CE 1800.
+Dedicated companion to the Aelaki Grammar Guide; reference variety: capital‑region standard, c. CE 1800.
 
 ## 1 Overview
 
@@ -1942,7 +1942,7 @@ Expand table beyond 10 for full base‑12 set.
 
 Document decimal vs. duodecimal counting in trade jargon.
 
-Link to Allochy Grammar Guide § 11 for interaction with sentence negation.
+Link to Aelaki Grammar Guide § 11 for interaction with sentence negation.
 
 Last revised: 26 May 2025
 
