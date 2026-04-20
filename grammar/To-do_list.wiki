@@ -2,7 +2,7 @@
 
 Items here are expected to be worked through incrementally, often by automated passes against [https://github.com/EmmaLeonhart/aelaki-wikibot the repo]. When an item is finished, delete it.
 
-==Unsorted==
+==Unsorted (I think all of this is done but the Allochy stuff)==
 
 
 Figure out why the heck non-lemma pages are not getting upgraded. Might even have general word pages not being upgraded, this is a confusing situation that might be causing massive technical debt
@@ -149,6 +149,11 @@ This is '''not a priority''' for the current language-consolidation effort and w
 == C# port (aelaki-sharp) ==
 
 * '''Bring <code>aelaki-sharp/</code> in line with canonical grammar.''' The C# morphology library is an outdated snapshot from before the unified back-to-front vowel shift, inanimate-gender behavior, Ki-syllable tables, and stative-verb prefixes were consolidated. Intended to eventually ship as a .NET library. Diff each module against <code>aelaki/*.py</code> and update module by module.
+
+== Expand [[Random sentences]] ==
+The page [[Random sentences]] is way too short and does not have most of the discord sentences. The thing to be clear about is that this is meant to be exhaustive of all of the sentences present
+
+Oh nvm [[Test sentences]] and [[random sentences]] should not be two different pages, idk why they are
 
 == See also ==
 
