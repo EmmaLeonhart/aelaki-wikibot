@@ -90459,6 +90459,50 @@
       "gloss": "drabbie (auto-generated)",
       "gender": "child",
       "citation_form": "tashuchu"
+    },
+    "shgz": {
+      "root": [
+        "sh",
+        "g",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "ibodutant (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "shagïfzïf"
+    },
+    "ngzw": {
+      "root": [
+        "ng",
+        "z",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "ibrexafungerp (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "ngazïfwïf"
+    },
+    "wtz": {
+      "root": [
+        "w",
+        "t",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "ibis (auto-generated)",
+      "gender": "female",
+      "citation_form": "watozo"
+    },
+    "trv": {
+      "root": [
+        "t",
+        "r",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "ibudilast (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "tarïfvïf"
     }
   },
   "adjectives": {
@@ -101979,6 +102023,106 @@
       "class": "adjective",
       "gloss": "coachy (auto-generated)",
       "citation_form": "ngoyazaka"
+    },
+    "thkr": {
+      "root": [
+        "th",
+        "k",
+        "r"
+      ],
+      "class": "adjective",
+      "gloss": "cecidial (auto-generated)",
+      "citation_form": "thokaraka"
+    },
+    "yfj": {
+      "root": [
+        "y",
+        "f",
+        "j"
+      ],
+      "class": "adjective",
+      "gloss": "cebocephalic (auto-generated)",
+      "citation_form": "yofajaka"
+    },
+    "szhn": {
+      "root": [
+        "s",
+        "zh",
+        "n"
+      ],
+      "class": "adjective",
+      "gloss": "cebrionine (auto-generated)",
+      "citation_form": "sozhanaka"
+    },
+    "?sl": {
+      "root": [
+        "?",
+        "s",
+        "l"
+      ],
+      "class": "adjective",
+      "gloss": "ceilingward (auto-generated)",
+      "citation_form": "?osalaka"
+    },
+    "bdhch": {
+      "root": [
+        "b",
+        "dh",
+        "ch"
+      ],
+      "class": "adjective",
+      "gloss": "cedrous (auto-generated)",
+      "citation_form": "bodhachaka"
+    },
+    "vngs": {
+      "root": [
+        "v",
+        "ng",
+        "s"
+      ],
+      "class": "adjective",
+      "gloss": "celebrational (auto-generated)",
+      "citation_form": "vongasaka"
+    },
+    "jfzh": {
+      "root": [
+        "j",
+        "f",
+        "zh"
+      ],
+      "class": "adjective",
+      "gloss": "cedared (auto-generated)",
+      "citation_form": "jofazhaka"
+    },
+    "shgy": {
+      "root": [
+        "sh",
+        "g",
+        "y"
+      ],
+      "class": "adjective",
+      "gloss": "cecropiaceous (auto-generated)",
+      "citation_form": "shogayaka"
+    },
+    "wzhdh": {
+      "root": [
+        "w",
+        "zh",
+        "dh"
+      ],
+      "class": "adjective",
+      "gloss": "cebuanized (auto-generated)",
+      "citation_form": "wozhadhaka"
+    },
+    "gngy": {
+      "root": [
+        "g",
+        "ng",
+        "y"
+      ],
+      "class": "adjective",
+      "gloss": "celebrationary (auto-generated)",
+      "citation_form": "gongayaka"
     }
   },
   "adverbs": {
@@ -112590,6 +112734,106 @@
       "class": "adverb",
       "gloss": "arcanely (auto-generated)",
       "citation_form": "mangate"
+    },
+    "w?k": {
+      "root": [
+        "w",
+        "?",
+        "k"
+      ],
+      "class": "adverb",
+      "gloss": "vocally (auto-generated)",
+      "citation_form": "wa?ate"
+    },
+    "mjng": {
+      "root": [
+        "m",
+        "j",
+        "ng"
+      ],
+      "class": "adverb",
+      "gloss": "voluntary (auto-generated)",
+      "citation_form": "majate"
+    },
+    "yzhr": {
+      "root": [
+        "y",
+        "zh",
+        "r"
+      ],
+      "class": "adverb",
+      "gloss": "vulgarily (auto-generated)",
+      "citation_form": "yazhate"
+    },
+    "vps": {
+      "root": [
+        "v",
+        "p",
+        "s"
+      ],
+      "class": "adverb",
+      "gloss": "voicedly (auto-generated)",
+      "citation_form": "vapate"
+    },
+    "wd?": {
+      "root": [
+        "w",
+        "d",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "voidly (auto-generated)",
+      "citation_form": "wadate"
+    },
+    "gzf": {
+      "root": [
+        "g",
+        "z",
+        "f"
+      ],
+      "class": "adverb",
+      "gloss": "vomeronasally (auto-generated)",
+      "citation_form": "gazate"
+    },
+    "tvy": {
+      "root": [
+        "t",
+        "v",
+        "y"
+      ],
+      "class": "adverb",
+      "gloss": "volcanologically (auto-generated)",
+      "citation_form": "tavate"
+    },
+    "mkl": {
+      "root": [
+        "m",
+        "k",
+        "l"
+      ],
+      "class": "adverb",
+      "gloss": "volarly (auto-generated)",
+      "citation_form": "makate"
+    },
+    "mkd": {
+      "root": [
+        "m",
+        "k",
+        "d"
+      ],
+      "class": "adverb",
+      "gloss": "vocalically (auto-generated)",
+      "citation_form": "makate"
+    },
+    "t?th": {
+      "root": [
+        "t",
+        "?",
+        "th"
+      ],
+      "class": "adverb",
+      "gloss": "vulnerably (auto-generated)",
+      "citation_form": "ta?ate"
     }
   },
   "colors": {
