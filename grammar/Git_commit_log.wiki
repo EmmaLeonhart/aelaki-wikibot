@@ -1508,6 +1508,20 @@ Short hashes are used in [[Category:Word pages|word page]] version categories (e
 | 2026-05-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/10fb1a473476b46ebf4c643c66fc2f0006fc248f 10fb1a47] || [[:Category:Words 10fb1a47|Words 10fb1a47]] || [[:Category:Non-lemma forms 10fb1a47|Non-lemma 10fb1a47]] || chore(state): post-grammar-sync [skip ci]
 |-
 | 2026-05-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/5624f8ad8f5c509f4143f4afa0ef7a8202e31557 5624f8ad] || [[:Category:Words 5624f8ad|Words 5624f8ad]] || [[:Category:Non-lemma forms 5624f8ad|Non-lemma 5624f8ad]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-05-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/11358401383908106382dbaaea1b6c74cc25b1a5 11358401] || [[:Category:Words 11358401|Words 11358401]] || [[:Category:Non-lemma forms 11358401|Non-lemma 11358401]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-05-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/f210538b9e69b6195b39654ec71724f9fc93b8e5 f210538b] || [[:Category:Words f210538b|Words f210538b]] || [[:Category:Non-lemma forms f210538b|Non-lemma f210538b]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-05-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/21493da31fe4c0c6f59cd86d460c8ceff4e4eb31 21493da3] || [[:Category:Words 21493da3|Words 21493da3]] || [[:Category:Non-lemma forms 21493da3|Non-lemma 21493da3]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-05-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/3cd6849a1c42d9185f7dafa634231e08cb93217d 3cd6849a] || [[:Category:Words 3cd6849a|Words 3cd6849a]] || [[:Category:Non-lemma forms 3cd6849a|Non-lemma 3cd6849a]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-05-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/69f3be7361899abcbca8204e417f5814b16a0a01 69f3be73] || [[:Category:Words 69f3be73|Words 69f3be73]] || [[:Category:Non-lemma forms 69f3be73|Non-lemma 69f3be73]] || rewrite 60 sexagenary cycle pages to fit ringworld lore
+|-
+| 2026-05-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/e6926154d6a265d002e71c99d24fbb67601dde68 e6926154] || [[:Category:Words e6926154|Words e6926154]] || [[:Category:Non-lemma forms e6926154|Non-lemma e6926154]] || chore(state): post-grammar-sync [skip ci]
+|-
+| 2026-05-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/9aa7fab84b03afc86f0a9b2354095afb455b3357 9aa7fab8] || [[:Category:Words 9aa7fab8|Words 9aa7fab8]] || [[:Category:Non-lemma forms 9aa7fab8|Non-lemma 9aa7fab8]] || chore(state): rebuild version history from git log [skip ci]
 |}
 
 [[Category:git synced pages]]
