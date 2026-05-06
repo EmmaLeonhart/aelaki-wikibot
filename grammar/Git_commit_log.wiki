@@ -1522,6 +1522,20 @@ Short hashes are used in [[Category:Word pages|word page]] version categories (e
 | 2026-05-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/e6926154d6a265d002e71c99d24fbb67601dde68 e6926154] || [[:Category:Words e6926154|Words e6926154]] || [[:Category:Non-lemma forms e6926154|Non-lemma e6926154]] || chore(state): post-grammar-sync [skip ci]
 |-
 | 2026-05-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/9aa7fab84b03afc86f0a9b2354095afb455b3357 9aa7fab8] || [[:Category:Words 9aa7fab8|Words 9aa7fab8]] || [[:Category:Non-lemma forms 9aa7fab8|Non-lemma 9aa7fab8]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-05-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/4b92a084ef247a1a2dd18e3f7c21f15e285be56b 4b92a084] || [[:Category:Words 4b92a084|Words 4b92a084]] || [[:Category:Non-lemma forms 4b92a084|Non-lemma 4b92a084]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-05-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/5785e7ed7ecb20e2791a2a192e32ec2a29f6224b 5785e7ed] || [[:Category:Words 5785e7ed|Words 5785e7ed]] || [[:Category:Non-lemma forms 5785e7ed|Non-lemma 5785e7ed]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-05-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/93bfb7183cfb9bf03f1253b2433466dd608ef6eb 93bfb718] || [[:Category:Words 93bfb718|Words 93bfb718]] || [[:Category:Non-lemma forms 93bfb718|Non-lemma 93bfb718]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-05-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/2363187364a37563cf5576c0f78e4fc098e48128 23631873] || [[:Category:Words 23631873|Words 23631873]] || [[:Category:Non-lemma forms 23631873|Non-lemma 23631873]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-05-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/230c57b3af8bee973a94dde2823ee0cbce5615a8 230c57b3] || [[:Category:Words 230c57b3|Words 230c57b3]] || [[:Category:Non-lemma forms 230c57b3|Non-lemma 230c57b3]] || add per-node folk-reading flavor to 20 sexagenary pages
+|-
+| 2026-05-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/87cce1b7d23597176ba13507837d73e101f7ff8c 87cce1b7] || [[:Category:Words 87cce1b7|Words 87cce1b7]] || [[:Category:Non-lemma forms 87cce1b7|Non-lemma 87cce1b7]] || chore(state): post-grammar-sync [skip ci]
+|-
+| 2026-05-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ecfff3d43b7e2dc41d73afb7db4bc41497570dbe ecfff3d4] || [[:Category:Words ecfff3d4|Words ecfff3d4]] || [[:Category:Non-lemma forms ecfff3d4|Non-lemma ecfff3d4]] || chore(state): rebuild version history from git log [skip ci]
 |}
 
 [[Category:git synced pages]]
