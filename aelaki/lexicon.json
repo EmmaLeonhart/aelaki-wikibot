@@ -99839,6 +99839,446 @@
       "gloss": "lobelia (auto-generated)",
       "gender": "male",
       "citation_form": "jazara"
+    },
+    "?rp": {
+      "root": [
+        "?",
+        "r",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "pkwy (auto-generated)",
+      "gender": "child",
+      "citation_form": "?arupu"
+    },
+    "rsh?": {
+      "root": [
+        "r",
+        "sh",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "plagiosere (auto-generated)",
+      "gender": "child",
+      "citation_form": "rashu?u"
+    },
+    "ngbz": {
+      "root": [
+        "ng",
+        "b",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "placentogenesis (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "ngabïfzïf"
+    },
+    "ynb": {
+      "root": [
+        "y",
+        "n",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "placer (auto-generated)",
+      "gender": "female",
+      "citation_form": "yanobo"
+    },
+    "dzhl": {
+      "root": [
+        "d",
+        "zh",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "placet (auto-generated)",
+      "gender": "child",
+      "citation_form": "dazhulu"
+    },
+    "bzs": {
+      "root": [
+        "b",
+        "z",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "placability (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "bazïfsïf"
+    },
+    "?nf": {
+      "root": [
+        "?",
+        "n",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "pkg (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?anïffïf"
+    },
+    "lwz": {
+      "root": [
+        "l",
+        "w",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "placentarium (auto-generated)",
+      "gender": "child",
+      "citation_form": "lawuzu"
+    },
+    "lp?": {
+      "root": [
+        "l",
+        "p",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "placitum (auto-generated)",
+      "gender": "child",
+      "citation_form": "lapu?u"
+    },
+    "szp": {
+      "root": [
+        "s",
+        "z",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "plagiocephalism (auto-generated)",
+      "gender": "female",
+      "citation_form": "sazopo"
+    },
+    "thb?": {
+      "root": [
+        "th",
+        "b",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "plagioclimax (auto-generated)",
+      "gender": "child",
+      "citation_form": "thabu?u"
+    },
+    "jzp": {
+      "root": [
+        "j",
+        "z",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "placentome (auto-generated)",
+      "gender": "male",
+      "citation_form": "jazapa"
+    },
+    "zsdh": {
+      "root": [
+        "z",
+        "s",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "plagiarizer (auto-generated)",
+      "gender": "male",
+      "citation_form": "zasadha"
+    },
+    "gdht": {
+      "root": [
+        "g",
+        "dh",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "plagiosaurid (auto-generated)",
+      "gender": "female",
+      "citation_form": "gadhoto"
+    },
+    "dhz?": {
+      "root": [
+        "dh",
+        "z",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "placing (auto-generated)",
+      "gender": "male",
+      "citation_form": "dhaza?a"
+    },
+    "mwl": {
+      "root": [
+        "m",
+        "w",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "placodiomorph (auto-generated)",
+      "gender": "male",
+      "citation_form": "mawala"
+    },
+    "tyd": {
+      "root": [
+        "t",
+        "y",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "plagioleucitite (auto-generated)",
+      "gender": "child",
+      "citation_form": "tayudu"
+    },
+    "ngwr": {
+      "root": [
+        "ng",
+        "w",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "placozoan (auto-generated)",
+      "gender": "child",
+      "citation_form": "ngawuru"
+    },
+    "shz?": {
+      "root": [
+        "sh",
+        "z",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "placeability (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "shazïf?ïf"
+    },
+    "mshj": {
+      "root": [
+        "m",
+        "sh",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "placeman (auto-generated)",
+      "gender": "child",
+      "citation_form": "mashuju"
+    },
+    "zdhsh": {
+      "root": [
+        "z",
+        "dh",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "placater (auto-generated)",
+      "gender": "child",
+      "citation_form": "zadhushu"
+    },
+    "?chch": {
+      "root": [
+        "?",
+        "ch",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "pkge (auto-generated)",
+      "gender": "child",
+      "citation_form": "?achuchu"
+    },
+    "bchj": {
+      "root": [
+        "b",
+        "ch",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "placeful (auto-generated)",
+      "gender": "child",
+      "citation_form": "bachuju"
+    },
+    "ndd": {
+      "root": [
+        "n",
+        "d",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "placoidian (auto-generated)",
+      "gender": "male",
+      "citation_form": "nadada"
+    },
+    "?ry": {
+      "root": [
+        "?",
+        "r",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "plagiarizing (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?arïfyïf"
+    },
+    "dst": {
+      "root": [
+        "d",
+        "s",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "plagiarist (auto-generated)",
+      "gender": "male",
+      "citation_form": "dasata"
+    },
+    "lhd": {
+      "root": [
+        "l",
+        "h",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "placeness (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "lahïfdïf"
+    },
+    "dhk?": {
+      "root": [
+        "dh",
+        "k",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "placemanship (auto-generated)",
+      "gender": "male",
+      "citation_form": "dhaka?a"
+    },
+    "ngtdh": {
+      "root": [
+        "ng",
+        "t",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "pkt (auto-generated)",
+      "gender": "female",
+      "citation_form": "ngatodho"
+    },
+    "yk?": {
+      "root": [
+        "y",
+        "k",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "placit (auto-generated)",
+      "gender": "child",
+      "citation_form": "yaku?u"
+    },
+    "hyg": {
+      "root": [
+        "h",
+        "y",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "placename (auto-generated)",
+      "gender": "male",
+      "citation_form": "hayaga"
+    },
+    "dhlz": {
+      "root": [
+        "dh",
+        "l",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "placemark (auto-generated)",
+      "gender": "child",
+      "citation_form": "dhaluzu"
+    },
+    "gdh?": {
+      "root": [
+        "g",
+        "dh",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "placebome (auto-generated)",
+      "gender": "male",
+      "citation_form": "gadha?a"
+    },
+    "ymsh": {
+      "root": [
+        "y",
+        "m",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "plagiaulacid (auto-generated)",
+      "gender": "child",
+      "citation_form": "yamushu"
+    },
+    "btm": {
+      "root": [
+        "b",
+        "t",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "placiality (auto-generated)",
+      "gender": "child",
+      "citation_form": "batumu"
+    },
+    "lzhs": {
+      "root": [
+        "l",
+        "zh",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "plafond (auto-generated)",
+      "gender": "child",
+      "citation_form": "lazhusu"
+    },
+    "kchdh": {
+      "root": [
+        "k",
+        "ch",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "placekick (auto-generated)",
+      "gender": "child",
+      "citation_form": "kachudhu"
+    },
+    "shtj": {
+      "root": [
+        "sh",
+        "t",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "placement (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "shatïfjïf"
+    },
+    "twzh": {
+      "root": [
+        "t",
+        "w",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "pladdy (auto-generated)",
+      "gender": "male",
+      "citation_form": "tawazha"
+    },
+    "ghdh": {
+      "root": [
+        "g",
+        "h",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "pkhali (auto-generated)",
+      "gender": "female",
+      "citation_form": "gahodho"
     }
   },
   "adjectives": {
@@ -112759,6 +113199,106 @@
       "class": "adjective",
       "gloss": "tabooistic (auto-generated)",
       "citation_form": "ko?alaka"
+    },
+    "zhky": {
+      "root": [
+        "zh",
+        "k",
+        "y"
+      ],
+      "class": "adjective",
+      "gloss": "flabile (auto-generated)",
+      "citation_form": "zhokayaka"
+    },
+    "krz": {
+      "root": [
+        "k",
+        "r",
+        "z"
+      ],
+      "class": "adjective",
+      "gloss": "flagonless (auto-generated)",
+      "citation_form": "korazaka"
+    },
+    "prf": {
+      "root": [
+        "p",
+        "r",
+        "f"
+      ],
+      "class": "adjective",
+      "gloss": "flaccid (auto-generated)",
+      "citation_form": "porafaka"
+    },
+    "bbzh": {
+      "root": [
+        "b",
+        "b",
+        "zh"
+      ],
+      "class": "adjective",
+      "gloss": "flagitous (auto-generated)",
+      "citation_form": "bobazhaka"
+    },
+    "wdhsh": {
+      "root": [
+        "w",
+        "dh",
+        "sh"
+      ],
+      "class": "adjective",
+      "gloss": "flagrant (auto-generated)",
+      "citation_form": "wodhashaka"
+    },
+    "sbs": {
+      "root": [
+        "s",
+        "b",
+        "s"
+      ],
+      "class": "adjective",
+      "gloss": "flailing (auto-generated)",
+      "citation_form": "sobasaka"
+    },
+    "?g?": {
+      "root": [
+        "?",
+        "g",
+        "?"
+      ],
+      "class": "adjective",
+      "gloss": "flagged (auto-generated)",
+      "citation_form": "?oga?aka"
+    },
+    "m?sh": {
+      "root": [
+        "m",
+        "?",
+        "sh"
+      ],
+      "class": "adjective",
+      "gloss": "flabby (auto-generated)",
+      "citation_form": "mo?ashaka"
+    },
+    "chg?": {
+      "root": [
+        "ch",
+        "g",
+        "?"
+      ],
+      "class": "adjective",
+      "gloss": "flagtail (auto-generated)",
+      "citation_form": "choga?aka"
+    },
+    "kzn": {
+      "root": [
+        "k",
+        "z",
+        "n"
+      ],
+      "class": "adjective",
+      "gloss": "flacourtiaceous (auto-generated)",
+      "citation_form": "kozanaka"
     }
   },
   "adverbs": {
@@ -124370,6 +124910,106 @@
       "class": "adverb",
       "gloss": "valuably (auto-generated)",
       "citation_form": "?athate"
+    },
+    "chpy": {
+      "root": [
+        "ch",
+        "p",
+        "y"
+      ],
+      "class": "adverb",
+      "gloss": "voltammetrically (auto-generated)",
+      "citation_form": "chapate"
+    },
+    "shyp": {
+      "root": [
+        "sh",
+        "y",
+        "p"
+      ],
+      "class": "adverb",
+      "gloss": "voluptuously (auto-generated)",
+      "citation_form": "shayate"
+    },
+    "yjg": {
+      "root": [
+        "y",
+        "j",
+        "g"
+      ],
+      "class": "adverb",
+      "gloss": "voraciously (auto-generated)",
+      "citation_form": "yajate"
+    },
+    "?ym": {
+      "root": [
+        "?",
+        "y",
+        "m"
+      ],
+      "class": "adverb",
+      "gloss": "voguishly (auto-generated)",
+      "citation_form": "?ayate"
+    },
+    "fngd": {
+      "root": [
+        "f",
+        "ng",
+        "d"
+      ],
+      "class": "adverb",
+      "gloss": "vorticosely (auto-generated)",
+      "citation_form": "fangate"
+    },
+    "dhzh?": {
+      "root": [
+        "dh",
+        "zh",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "vomitingly (auto-generated)",
+      "citation_form": "dhazhate"
+    },
+    "gshzh": {
+      "root": [
+        "g",
+        "sh",
+        "zh"
+      ],
+      "class": "adverb",
+      "gloss": "voluntarily (auto-generated)",
+      "citation_form": "gashate"
+    },
+    "ytf": {
+      "root": [
+        "y",
+        "t",
+        "f"
+      ],
+      "class": "adverb",
+      "gloss": "voicelessly (auto-generated)",
+      "citation_form": "yatate"
+    },
+    "mtg": {
+      "root": [
+        "m",
+        "t",
+        "g"
+      ],
+      "class": "adverb",
+      "gloss": "vulgarly (auto-generated)",
+      "citation_form": "matate"
+    },
+    "j?p": {
+      "root": [
+        "j",
+        "?",
+        "p"
+      ],
+      "class": "adverb",
+      "gloss": "volumewise (auto-generated)",
+      "citation_form": "ja?ate"
     }
   },
   "colors": {
