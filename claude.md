@@ -44,3 +44,6 @@ Consolidated archive of all Aelaki constructed language materials. Aelaki is a c
 - **Keep this claude.md up to date** with architectural decisions and conventions.
 - **Update README.md** when structure or content changes significantly.
 - **Active work queue lives in `STATUS.md`.** `todo.md` is the long-tail backlog.
+
+## Writing
+- Do not use the word "honest", "honesty", or "honestly". It is aggressively overused. Choose a more precise word that says what you actually mean (e.g. "accurate", "frank", "plainly", "truly").
