@@ -1708,6 +1708,20 @@ Short hashes are used in [[Category:Word pages|word page]] version categories (e
 | 2026-05-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/55fc7f2a1d8a5ffba6a8a87f675b3dc6bfefbd09 55fc7f2a] || [[:Category:Words 55fc7f2a|Words 55fc7f2a]] || [[:Category:Non-lemma forms 55fc7f2a|Non-lemma 55fc7f2a]] || chore(state): post-grammar-sync [skip ci]
 |-
 | 2026-05-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/f68720019b43f400d95286a6c0c64c2457b392a6 f6872001] || [[:Category:Words f6872001|Words f6872001]] || [[:Category:Non-lemma forms f6872001|Non-lemma f6872001]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-05-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/604869977913fc1cbaa967b98c27647c343ffae2 60486997] || [[:Category:Words 60486997|Words 60486997]] || [[:Category:Non-lemma forms 60486997|Non-lemma 60486997]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-05-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/9b02121222870efc6e1beb234c3428f024f8a60c 9b021212] || [[:Category:Words 9b021212|Words 9b021212]] || [[:Category:Non-lemma forms 9b021212|Non-lemma 9b021212]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-05-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/431408df631c83e2dbc0eba89769261f3bdd473c 431408df] || [[:Category:Words 431408df|Words 431408df]] || [[:Category:Non-lemma forms 431408df|Non-lemma 431408df]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-05-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/bcb009cd2d38fa0f9e76aa7533a7fef3833cdb65 bcb009cd] || [[:Category:Words bcb009cd|Words bcb009cd]] || [[:Category:Non-lemma forms bcb009cd|Non-lemma bcb009cd]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-05-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/730a15d8e440dfe4fb3e3f8b5b1c67bd940bad59 730a15d8] || [[:Category:Words 730a15d8|Words 730a15d8]] || [[:Category:Non-lemma forms 730a15d8|Non-lemma 730a15d8]] || docs: strengthen anti-"honest" Writing rule (ban substitute coats; name failures plainly)
+|-
+| 2026-05-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/999355266af21eb9c900326bdaaccdda024642a2 99935526] || [[:Category:Words 99935526|Words 99935526]] || [[:Category:Non-lemma forms 99935526|Non-lemma 99935526]] || chore(state): post-grammar-sync [skip ci]
+|-
+| 2026-05-19 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/634a83730f53f1c31360099bfbc033f2a7d2e3dd 634a8373] || [[:Category:Words 634a8373|Words 634a8373]] || [[:Category:Non-lemma forms 634a8373|Non-lemma 634a8373]] || chore(state): rebuild version history from git log [skip ci]
 |}
 
 [[Category:git synced pages]]
