@@ -1682,6 +1682,20 @@ Short hashes are used in [[Category:Word pages|word page]] version categories (e
 | 2026-05-17 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/b52c9437ef31d91e3705c19202a8f3189d93598f b52c9437] || [[:Category:Words b52c9437|Words b52c9437]] || [[:Category:Non-lemma forms b52c9437|Non-lemma b52c9437]] || chore(state): post-grammar-sync [skip ci]
 |-
 | 2026-05-17 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/2610aec49e9ee667fdc85222cfe9125d7a7a5e2a 2610aec4] || [[:Category:Words 2610aec4|Words 2610aec4]] || [[:Category:Non-lemma forms 2610aec4|Non-lemma 2610aec4]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-05-17 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ef3ac56188117624a657a8b3fb812db0b467faf9 ef3ac561] || [[:Category:Words ef3ac561|Words ef3ac561]] || [[:Category:Non-lemma forms ef3ac561|Non-lemma ef3ac561]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-05-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/79a11e1700c9e7f291632a1e0cda04335f6bc382 79a11e17] || [[:Category:Words 79a11e17|Words 79a11e17]] || [[:Category:Non-lemma forms 79a11e17|Non-lemma 79a11e17]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-05-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/f8cf4f3c79de03f8ad018985a7c183f8d139157c f8cf4f3c] || [[:Category:Words f8cf4f3c|Words f8cf4f3c]] || [[:Category:Non-lemma forms f8cf4f3c|Non-lemma f8cf4f3c]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-05-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/1892dce4e653ddb8379f7b9112a678797ee8beaf 1892dce4] || [[:Category:Words 1892dce4|Words 1892dce4]] || [[:Category:Non-lemma forms 1892dce4|Non-lemma 1892dce4]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-05-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/6c09b2b0109d082aed556374efd19ee0cc9e8a1e 6c09b2b0] || [[:Category:Words 6c09b2b0|Words 6c09b2b0]] || [[:Category:Non-lemma forms 6c09b2b0|Non-lemma 6c09b2b0]] || CLAUDE.md: ban overused word "honest" (add ## Writing rule)
+|-
+| 2026-05-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/bf572ee938a2d9d8aaa5ac5a34b20bee7fbe9a95 bf572ee9] || [[:Category:Words bf572ee9|Words bf572ee9]] || [[:Category:Non-lemma forms bf572ee9|Non-lemma bf572ee9]] || chore(state): post-grammar-sync [skip ci]
+|-
+| 2026-05-18 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/2f86f55f6d0ac41a12fce8f26309aa4db3eb6148 2f86f55f] || [[:Category:Words 2f86f55f|Words 2f86f55f]] || [[:Category:Non-lemma forms 2f86f55f|Non-lemma 2f86f55f]] || chore(state): rebuild version history from git log [skip ci]
 |}
 
 [[Category:git synced pages]]
