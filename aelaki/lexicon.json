@@ -48679,6 +48679,190 @@
       "class": "verb_transitive",
       "gloss": "topsyturn (auto-generated)",
       "citation_form": "kathamkenoko"
+    },
+    "dklk": {
+      "root": [
+        "d",
+        "k",
+        "l",
+        "k"
+      ],
+      "class": "verb_transitive",
+      "gloss": "drib (auto-generated)",
+      "citation_form": "kadaklekoko"
+    },
+    "zhgd": {
+      "root": [
+        "zh",
+        "g",
+        "d"
+      ],
+      "class": "verb_active",
+      "gloss": "dreadlock (auto-generated)",
+      "citation_form": "kazhagad"
+    },
+    "wrsng": {
+      "root": [
+        "w",
+        "r",
+        "s",
+        "ng"
+      ],
+      "class": "verb_transitive",
+      "gloss": "drail (auto-generated)",
+      "citation_form": "kawarsengoko"
+    },
+    "?lyk": {
+      "root": [
+        "?",
+        "l",
+        "y",
+        "k"
+      ],
+      "class": "verb_transitive",
+      "gloss": "dramaturge (auto-generated)",
+      "citation_form": "ka?alyekoko"
+    },
+    "jzh?f": {
+      "root": [
+        "j",
+        "zh",
+        "?",
+        "f"
+      ],
+      "class": "verb_transitive",
+      "gloss": "drant (auto-generated)",
+      "citation_form": "kajazh?efoko"
+    },
+    "chshbb": {
+      "root": [
+        "ch",
+        "sh",
+        "b",
+        "b"
+      ],
+      "class": "verb_transitive",
+      "gloss": "dreap (auto-generated)",
+      "citation_form": "kachashbeboko"
+    },
+    "vhfm": {
+      "root": [
+        "v",
+        "h",
+        "f",
+        "m"
+      ],
+      "class": "verb_transitive",
+      "gloss": "dragoon (auto-generated)",
+      "citation_form": "kavahfemoko"
+    },
+    "flvj": {
+      "root": [
+        "f",
+        "l",
+        "v",
+        "j"
+      ],
+      "class": "verb_transitive",
+      "gloss": "drape (auto-generated)",
+      "citation_form": "kafalvejoko"
+    },
+    "ngbth?": {
+      "root": [
+        "ng",
+        "b",
+        "th",
+        "?"
+      ],
+      "class": "verb_transitive",
+      "gloss": "dramatise (auto-generated)",
+      "citation_form": "kangabthe?oko"
+    },
+    "rknm": {
+      "root": [
+        "r",
+        "k",
+        "n",
+        "m"
+      ],
+      "class": "verb_transitive",
+      "gloss": "dramatize (auto-generated)",
+      "citation_form": "karaknemoko"
+    },
+    "lwd": {
+      "root": [
+        "l",
+        "w",
+        "d"
+      ],
+      "class": "verb_active",
+      "gloss": "dream (auto-generated)",
+      "citation_form": "kalawad"
+    },
+    "bjchp": {
+      "root": [
+        "b",
+        "j",
+        "ch",
+        "p"
+      ],
+      "class": "verb_transitive",
+      "gloss": "dretch (auto-generated)",
+      "citation_form": "kabajchepoko"
+    },
+    "?hgk": {
+      "root": [
+        "?",
+        "h",
+        "g",
+        "k"
+      ],
+      "class": "verb_transitive",
+      "gloss": "drawl (auto-generated)",
+      "citation_form": "ka?ahgekoko"
+    },
+    "zsn": {
+      "root": [
+        "z",
+        "s",
+        "n"
+      ],
+      "class": "verb_stative",
+      "gloss": "dreve (auto-generated)",
+      "citation_form": "zasana"
+    },
+    "zhththg": {
+      "root": [
+        "zh",
+        "th",
+        "th",
+        "g"
+      ],
+      "class": "verb_transitive",
+      "gloss": "drinck (auto-generated)",
+      "citation_form": "kazhathegoko"
+    },
+    "lvdhw": {
+      "root": [
+        "l",
+        "v",
+        "dh",
+        "w"
+      ],
+      "class": "verb_transitive",
+      "gloss": "draggle (auto-generated)",
+      "citation_form": "kalavdhewoko"
+    },
+    "ngdhnw": {
+      "root": [
+        "ng",
+        "dh",
+        "n",
+        "w"
+      ],
+      "class": "verb_transitive",
+      "gloss": "dragonize (auto-generated)",
+      "citation_form": "kangadhnewoko"
     }
   },
   "nouns": {
@@ -107711,6 +107895,446 @@
       "gender": "child",
       "citation_form": "razuzhu",
       "old_citation_form": "razïfzhïf"
+    },
+    "thgl": {
+      "root": [
+        "th",
+        "g",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "bibliofilm (auto-generated)",
+      "gender": "female",
+      "citation_form": "thagolo"
+    },
+    "jw?": {
+      "root": [
+        "j",
+        "w",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "bialgebra (auto-generated)",
+      "gender": "child",
+      "citation_form": "jawu?u"
+    },
+    "zrzh": {
+      "root": [
+        "z",
+        "r",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "biarc (auto-generated)",
+      "gender": "male",
+      "citation_form": "zarazha"
+    },
+    "m?p": {
+      "root": [
+        "m",
+        "?",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "biballism (auto-generated)",
+      "gender": "female",
+      "citation_form": "ma?opo"
+    },
+    "chn?": {
+      "root": [
+        "ch",
+        "n",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "bibliomystery (auto-generated)",
+      "gender": "female",
+      "citation_form": "chano?o"
+    },
+    "hbd": {
+      "root": [
+        "h",
+        "b",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "biathloner (auto-generated)",
+      "gender": "female",
+      "citation_form": "habodo"
+    },
+    "pdhm": {
+      "root": [
+        "p",
+        "dh",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "bibliopegy (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "padhïfmïf"
+    },
+    "ddhng": {
+      "root": [
+        "d",
+        "dh",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "biblicist (auto-generated)",
+      "gender": "female",
+      "citation_form": "dadhongo"
+    },
+    "dhzj": {
+      "root": [
+        "dh",
+        "z",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "biastophiliac (auto-generated)",
+      "gender": "female",
+      "citation_form": "dhazojo"
+    },
+    "rzj": {
+      "root": [
+        "r",
+        "z",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "bibliopegism (auto-generated)",
+      "gender": "female",
+      "citation_form": "razojo"
+    },
+    "hchm": {
+      "root": [
+        "h",
+        "ch",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "bibliome (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "hachïfmïf"
+    },
+    "rrg": {
+      "root": [
+        "r",
+        "r",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "bibliograph (auto-generated)",
+      "gender": "male",
+      "citation_form": "raraga"
+    },
+    "ldh?": {
+      "root": [
+        "l",
+        "dh",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "bibcock (auto-generated)",
+      "gender": "female",
+      "citation_form": "ladho?o"
+    },
+    "mths": {
+      "root": [
+        "m",
+        "th",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "bibliogenesis (auto-generated)",
+      "gender": "male",
+      "citation_form": "mathasa"
+    },
+    "dbf": {
+      "root": [
+        "d",
+        "b",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "biannual (auto-generated)",
+      "gender": "male",
+      "citation_form": "dabafa"
+    },
+    "wyz": {
+      "root": [
+        "w",
+        "y",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "bialgebroid (auto-generated)",
+      "gender": "child",
+      "citation_form": "wayuzu"
+    },
+    "gln": {
+      "root": [
+        "g",
+        "l",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "biallelism (auto-generated)",
+      "gender": "child",
+      "citation_form": "galunu"
+    },
+    "mft": {
+      "root": [
+        "m",
+        "f",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "biarticular (auto-generated)",
+      "gender": "female",
+      "citation_form": "mafoto"
+    },
+    "vngng": {
+      "root": [
+        "v",
+        "ng",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "bibliometrist (auto-generated)",
+      "gender": "child",
+      "citation_form": "vangungu"
+    },
+    "wmn": {
+      "root": [
+        "w",
+        "m",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "bibliopegia (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "wamïfnïf"
+    },
+    "vfh": {
+      "root": [
+        "v",
+        "f",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "bibirine (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "vafïfhïf"
+    },
+    "chlr": {
+      "root": [
+        "ch",
+        "l",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "bibliognost (auto-generated)",
+      "gender": "male",
+      "citation_form": "chalara"
+    },
+    "thshv": {
+      "root": [
+        "th",
+        "sh",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "bibimpap (auto-generated)",
+      "gender": "female",
+      "citation_form": "thashovo"
+    },
+    "dfy": {
+      "root": [
+        "d",
+        "f",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "bibenzonium (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "dafïfyïf"
+    },
+    "y?zh": {
+      "root": [
+        "y",
+        "?",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "bianthraquinone (auto-generated)",
+      "gender": "female",
+      "citation_form": "ya?ozho"
+    },
+    "bdh?": {
+      "root": [
+        "b",
+        "dh",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "biblicality (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "badhïf?ïf"
+    },
+    "vzm": {
+      "root": [
+        "v",
+        "z",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "biastophilia (auto-generated)",
+      "gender": "male",
+      "citation_form": "vazama"
+    },
+    "hngv": {
+      "root": [
+        "h",
+        "ng",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "bibliodiversity (auto-generated)",
+      "gender": "child",
+      "citation_form": "hanguvu"
+    },
+    "mkh": {
+      "root": [
+        "m",
+        "k",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "bibler (auto-generated)",
+      "gender": "child",
+      "citation_form": "makuhu"
+    },
+    "ngg?": {
+      "root": [
+        "ng",
+        "g",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "biblioblog (auto-generated)",
+      "gender": "male",
+      "citation_form": "ngaga?a"
+    },
+    "?yj": {
+      "root": [
+        "?",
+        "y",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "bibliomancer (auto-generated)",
+      "gender": "child",
+      "citation_form": "?ayuju"
+    },
+    "dgsh": {
+      "root": [
+        "d",
+        "g",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "bibl (auto-generated)",
+      "gender": "child",
+      "citation_form": "dagushu"
+    },
+    "vzhv": {
+      "root": [
+        "v",
+        "zh",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "bibliometrician (auto-generated)",
+      "gender": "male",
+      "citation_form": "vazhava"
+    },
+    "vzhg": {
+      "root": [
+        "v",
+        "zh",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "biaryl (auto-generated)",
+      "gender": "child",
+      "citation_form": "vazhugu"
+    },
+    "rpth": {
+      "root": [
+        "r",
+        "p",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "bibelot (auto-generated)",
+      "gender": "female",
+      "citation_form": "rapotho"
+    },
+    "sbl": {
+      "root": [
+        "s",
+        "b",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "bialy (auto-generated)",
+      "gender": "child",
+      "citation_form": "sabulu"
+    },
+    "r??": {
+      "root": [
+        "r",
+        "?",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "bibidees (auto-generated)",
+      "gender": "child",
+      "citation_form": "ra?u?u"
+    },
+    "shfsh": {
+      "root": [
+        "sh",
+        "f",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "bibliographer (auto-generated)",
+      "gender": "child",
+      "citation_form": "shafushu"
+    },
+    "byr": {
+      "root": [
+        "b",
+        "y",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "bianthrone (auto-generated)",
+      "gender": "male",
+      "citation_form": "bayara"
+    },
+    "vzhy": {
+      "root": [
+        "v",
+        "zh",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "bibi (auto-generated)",
+      "gender": "child",
+      "citation_form": "vazhuyu"
     }
   },
   "adjectives": {
@@ -121721,6 +122345,106 @@
       "class": "adjective",
       "gloss": "equiangled (auto-generated)",
       "citation_form": "bofathaka"
+    },
+    "d?k": {
+      "root": [
+        "d",
+        "?",
+        "k"
+      ],
+      "class": "adjective",
+      "gloss": "draconical (auto-generated)",
+      "citation_form": "do?akaka"
+    },
+    "ngdhz": {
+      "root": [
+        "ng",
+        "dh",
+        "z"
+      ],
+      "class": "adjective",
+      "gloss": "draggly (auto-generated)",
+      "citation_form": "ngodhazaka"
+    },
+    "shll": {
+      "root": [
+        "sh",
+        "l",
+        "l"
+      ],
+      "class": "adjective",
+      "gloss": "dracontic (auto-generated)",
+      "citation_form": "sholalaka"
+    },
+    "chkv": {
+      "root": [
+        "ch",
+        "k",
+        "v"
+      ],
+      "class": "adjective",
+      "gloss": "draftsmanly (auto-generated)",
+      "citation_form": "chokavaka"
+    },
+    "zjb": {
+      "root": [
+        "z",
+        "j",
+        "b"
+      ],
+      "class": "adjective",
+      "gloss": "dragonesque (auto-generated)",
+      "citation_form": "zojabaka"
+    },
+    "?zt": {
+      "root": [
+        "?",
+        "z",
+        "t"
+      ],
+      "class": "adjective",
+      "gloss": "drabby (auto-generated)",
+      "citation_form": "?ozataka"
+    },
+    "mlp": {
+      "root": [
+        "m",
+        "l",
+        "p"
+      ],
+      "class": "adjective",
+      "gloss": "dragonless (auto-generated)",
+      "citation_form": "molapaka"
+    },
+    "shly": {
+      "root": [
+        "sh",
+        "l",
+        "y"
+      ],
+      "class": "adjective",
+      "gloss": "dragonic (auto-generated)",
+      "citation_form": "sholayaka"
+    },
+    "?zw": {
+      "root": [
+        "?",
+        "z",
+        "w"
+      ],
+      "class": "adjective",
+      "gloss": "drafty (auto-generated)",
+      "citation_form": "?ozawaka"
+    },
+    "mngb": {
+      "root": [
+        "m",
+        "ng",
+        "b"
+      ],
+      "class": "adjective",
+      "gloss": "dragomanic (auto-generated)",
+      "citation_form": "mongabaka"
     }
   },
   "adverbs": {
@@ -134252,6 +134976,106 @@
       "class": "adverb",
       "gloss": "outstation (auto-generated)",
       "citation_form": "samate"
+    },
+    "nggng": {
+      "root": [
+        "ng",
+        "g",
+        "ng"
+      ],
+      "class": "adverb",
+      "gloss": "blimpishly (auto-generated)",
+      "citation_form": "ngagate"
+    },
+    "zhbng": {
+      "root": [
+        "zh",
+        "b",
+        "ng"
+      ],
+      "class": "adverb",
+      "gloss": "blearily (auto-generated)",
+      "citation_form": "zhabate"
+    },
+    "wshf": {
+      "root": [
+        "w",
+        "sh",
+        "f"
+      ],
+      "class": "adverb",
+      "gloss": "blates (auto-generated)",
+      "citation_form": "washate"
+    },
+    "sthz": {
+      "root": [
+        "s",
+        "th",
+        "z"
+      ],
+      "class": "adverb",
+      "gloss": "blinding (auto-generated)",
+      "citation_form": "sathate"
+    },
+    "zhtm": {
+      "root": [
+        "zh",
+        "t",
+        "m"
+      ],
+      "class": "adverb",
+      "gloss": "blazingly (auto-generated)",
+      "citation_form": "zhatate"
+    },
+    "b?sh": {
+      "root": [
+        "b",
+        "?",
+        "sh"
+      ],
+      "class": "adverb",
+      "gloss": "blameworthily (auto-generated)",
+      "citation_form": "ba?ate"
+    },
+    "ngws": {
+      "root": [
+        "ng",
+        "w",
+        "s"
+      ],
+      "class": "adverb",
+      "gloss": "blackishly (auto-generated)",
+      "citation_form": "ngawate"
+    },
+    "skh": {
+      "root": [
+        "s",
+        "k",
+        "h"
+      ],
+      "class": "adverb",
+      "gloss": "blazes (auto-generated)",
+      "citation_form": "sakate"
+    },
+    "wgf": {
+      "root": [
+        "w",
+        "g",
+        "f"
+      ],
+      "class": "adverb",
+      "gloss": "bleatingly (auto-generated)",
+      "citation_form": "wagate"
+    },
+    "ngnr": {
+      "root": [
+        "ng",
+        "n",
+        "r"
+      ],
+      "class": "adverb",
+      "gloss": "blindfully (auto-generated)",
+      "citation_form": "nganate"
     }
   },
   "colors": {
