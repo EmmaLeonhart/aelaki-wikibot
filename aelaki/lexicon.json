@@ -48863,6 +48863,113 @@
       "class": "verb_transitive",
       "gloss": "dragonize (auto-generated)",
       "citation_form": "kangadhnewoko"
+    },
+    "drhn": {
+      "root": [
+        "d",
+        "r",
+        "h",
+        "n"
+      ],
+      "class": "verb_transitive",
+      "gloss": "filet (auto-generated)",
+      "citation_form": "kadarhenoko"
+    },
+    "kchvsh": {
+      "root": [
+        "k",
+        "ch",
+        "v",
+        "sh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "filibuster (auto-generated)",
+      "citation_form": "kakachveshoko"
+    },
+    "ch?t": {
+      "root": [
+        "ch",
+        "?",
+        "t"
+      ],
+      "class": "verb_active",
+      "gloss": "fictionise (auto-generated)",
+      "citation_form": "kacha?at"
+    },
+    "ygdw": {
+      "root": [
+        "y",
+        "g",
+        "d",
+        "w"
+      ],
+      "class": "verb_transitive",
+      "gloss": "fianchetto (auto-generated)",
+      "citation_form": "kayagdewoko"
+    },
+    "blzh": {
+      "root": [
+        "b",
+        "l",
+        "zh"
+      ],
+      "class": "verb_stative",
+      "gloss": "fiercen (auto-generated)",
+      "citation_form": "balazha"
+    },
+    "ktld": {
+      "root": [
+        "k",
+        "t",
+        "l",
+        "d"
+      ],
+      "class": "verb_transitive",
+      "gloss": "fictionalise (auto-generated)",
+      "citation_form": "kakatledoko"
+    },
+    "fchzdh": {
+      "root": [
+        "f",
+        "ch",
+        "z",
+        "dh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "finagle (auto-generated)",
+      "citation_form": "kafachzedhoko"
+    },
+    "lwl": {
+      "root": [
+        "l",
+        "w",
+        "l"
+      ],
+      "class": "verb_active",
+      "gloss": "figurehead (auto-generated)",
+      "citation_form": "kalawal"
+    },
+    "dchchsh": {
+      "root": [
+        "d",
+        "ch",
+        "ch",
+        "sh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "figurate (auto-generated)",
+      "citation_form": "kadacheshoko"
+    },
+    "?pshp": {
+      "root": [
+        "?",
+        "p",
+        "sh",
+        "p"
+      ],
+      "class": "verb_transitive",
+      "gloss": "fiance (auto-generated)",
+      "citation_form": "ka?apshepoko"
     }
   },
   "nouns": {
@@ -122447,6 +122554,106 @@
       "class": "adjective",
       "gloss": "dragomanic (auto-generated)",
       "citation_form": "mongabaka"
+    },
+    "?zhv": {
+      "root": [
+        "?",
+        "zh",
+        "v"
+      ],
+      "class": "adjective",
+      "gloss": "vulcanoid (auto-generated)",
+      "citation_form": "?ozhavaka"
+    },
+    "?ngn": {
+      "root": [
+        "?",
+        "ng",
+        "n"
+      ],
+      "class": "adjective",
+      "gloss": "vulpine (auto-generated)",
+      "citation_form": "?onganaka"
+    },
+    "ngmb": {
+      "root": [
+        "ng",
+        "m",
+        "b"
+      ],
+      "class": "adjective",
+      "gloss": "vulnerant (auto-generated)",
+      "citation_form": "ngomabaka"
+    },
+    "tnj": {
+      "root": [
+        "t",
+        "n",
+        "j"
+      ],
+      "class": "adjective",
+      "gloss": "vulgarian (auto-generated)",
+      "citation_form": "tonajaka"
+    },
+    "pgh": {
+      "root": [
+        "p",
+        "g",
+        "h"
+      ],
+      "class": "adjective",
+      "gloss": "vulgarising (auto-generated)",
+      "citation_form": "pogahaka"
+    },
+    "gpl": {
+      "root": [
+        "g",
+        "p",
+        "l"
+      ],
+      "class": "adjective",
+      "gloss": "vulturelike (auto-generated)",
+      "citation_form": "gopalaka"
+    },
+    "yzhj": {
+      "root": [
+        "y",
+        "zh",
+        "j"
+      ],
+      "class": "adjective",
+      "gloss": "vulgar (auto-generated)",
+      "citation_form": "yozhajaka"
+    },
+    "wk?": {
+      "root": [
+        "w",
+        "k",
+        "?"
+      ],
+      "class": "adjective",
+      "gloss": "vulturine (auto-generated)",
+      "citation_form": "woka?aka"
+    },
+    "?rng": {
+      "root": [
+        "?",
+        "r",
+        "ng"
+      ],
+      "class": "adjective",
+      "gloss": "vulpinous (auto-generated)",
+      "citation_form": "?orangaka"
+    },
+    "szd": {
+      "root": [
+        "s",
+        "z",
+        "d"
+      ],
+      "class": "adjective",
+      "gloss": "vulnerose (auto-generated)",
+      "citation_form": "sozadaka"
     }
   },
   "adverbs": {
@@ -135078,6 +135285,106 @@
       "class": "adverb",
       "gloss": "blindfully (auto-generated)",
       "citation_form": "nganate"
+    },
+    "?ls": {
+      "root": [
+        "?",
+        "l",
+        "s"
+      ],
+      "class": "adverb",
+      "gloss": "ignobly (auto-generated)",
+      "citation_form": "?alate"
+    },
+    "pzdh": {
+      "root": [
+        "p",
+        "z",
+        "dh"
+      ],
+      "class": "adverb",
+      "gloss": "ignominiously (auto-generated)",
+      "citation_form": "pazate"
+    },
+    "fdb": {
+      "root": [
+        "f",
+        "d",
+        "b"
+      ],
+      "class": "adverb",
+      "gloss": "illimitably (auto-generated)",
+      "citation_form": "fadate"
+    },
+    "t?g": {
+      "root": [
+        "t",
+        "?",
+        "g"
+      ],
+      "class": "adverb",
+      "gloss": "illiquidly (auto-generated)",
+      "citation_form": "ta?ate"
+    },
+    "gw?": {
+      "root": [
+        "g",
+        "w",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "ignorantly (auto-generated)",
+      "citation_form": "gawate"
+    },
+    "dhgz": {
+      "root": [
+        "dh",
+        "g",
+        "z"
+      ],
+      "class": "adverb",
+      "gloss": "illiterally (auto-generated)",
+      "citation_form": "dhagate"
+    },
+    "mdhdh": {
+      "root": [
+        "m",
+        "dh",
+        "dh"
+      ],
+      "class": "adverb",
+      "gloss": "ill (auto-generated)",
+      "citation_form": "madhate"
+    },
+    "ktw": {
+      "root": [
+        "k",
+        "t",
+        "w"
+      ],
+      "class": "adverb",
+      "gloss": "illegibly (auto-generated)",
+      "citation_form": "katate"
+    },
+    "lzp": {
+      "root": [
+        "l",
+        "z",
+        "p"
+      ],
+      "class": "adverb",
+      "gloss": "illiberally (auto-generated)",
+      "citation_form": "lazate"
+    },
+    "vms": {
+      "root": [
+        "v",
+        "m",
+        "s"
+      ],
+      "class": "adverb",
+      "gloss": "illaudably (auto-generated)",
+      "citation_form": "vamate"
     }
   },
   "colors": {
