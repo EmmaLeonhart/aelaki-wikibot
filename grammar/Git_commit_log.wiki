@@ -1782,6 +1782,20 @@ Short hashes are used in [[Category:Word pages|word page]] version categories (e
 | 2026-05-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/674ebff18c65c18fe54d748d6e1d2e1e36767a04 674ebff1] || [[:Category:Words 674ebff1|Words 674ebff1]] || [[:Category:Non-lemma forms 674ebff1|Non-lemma 674ebff1]] || chore(state): post-grammar-sync [skip ci]
 |-
 | 2026-05-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/0a8469c5142ab426f9d97ebd2863c42423874d5e 0a8469c5] || [[:Category:Words 0a8469c5|Words 0a8469c5]] || [[:Category:Non-lemma forms 0a8469c5|Non-lemma 0a8469c5]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-05-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/dd2be83bf0ba6bc04c73f6d630a106a488b7eff2 dd2be83b] || [[:Category:Words dd2be83b|Words dd2be83b]] || [[:Category:Non-lemma forms dd2be83b|Non-lemma dd2be83b]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-05-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/60b4569e978d270af6cf908a4c1626670f7adc75 60b4569e] || [[:Category:Words 60b4569e|Words 60b4569e]] || [[:Category:Non-lemma forms 60b4569e|Non-lemma 60b4569e]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-05-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/fc0174958f78e0dbd89610e60c4bb29192535317 fc017495] || [[:Category:Words fc017495|Words fc017495]] || [[:Category:Non-lemma forms fc017495|Non-lemma fc017495]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-05-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/4b20db845bf4dcd2d1e4fff603021ce888056b00 4b20db84] || [[:Category:Words 4b20db84|Words 4b20db84]] || [[:Category:Non-lemma forms 4b20db84|Non-lemma 4b20db84]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-05-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/c00c46431c62824f7f3a52025d01e0a5bd4b7c94 c00c4643] || [[:Category:Words c00c4643|Words c00c4643]] || [[:Category:Non-lemma forms c00c4643|Non-lemma c00c4643]] || Add Emergency Stop Mode to CLAUDE.md
+|-
+| 2026-05-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/89b951519f8bae86d8361520bbbfca419bca8162 89b95151] || [[:Category:Words 89b95151|Words 89b95151]] || [[:Category:Non-lemma forms 89b95151|Non-lemma 89b95151]] || chore(state): post-grammar-sync [skip ci]
+|-
+| 2026-05-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/fe207b893e4eefcdb5774ce6aaaad00aeb6898c4 fe207b89] || [[:Category:Words fe207b89|Words fe207b89]] || [[:Category:Non-lemma forms fe207b89|Non-lemma fe207b89]] || chore(state): rebuild version history from git log [skip ci]
 |}
 
 [[Category:git synced pages]]
