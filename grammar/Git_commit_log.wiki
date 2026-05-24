@@ -1796,6 +1796,20 @@ Short hashes are used in [[Category:Word pages|word page]] version categories (e
 | 2026-05-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/89b951519f8bae86d8361520bbbfca419bca8162 89b95151] || [[:Category:Words 89b95151|Words 89b95151]] || [[:Category:Non-lemma forms 89b95151|Non-lemma 89b95151]] || chore(state): post-grammar-sync [skip ci]
 |-
 | 2026-05-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/fe207b893e4eefcdb5774ce6aaaad00aeb6898c4 fe207b89] || [[:Category:Words fe207b89|Words fe207b89]] || [[:Category:Non-lemma forms fe207b89|Non-lemma fe207b89]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-05-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/90194eb3179ee909f46dfa385de522c5a296a42e 90194eb3] || [[:Category:Words 90194eb3|Words 90194eb3]] || [[:Category:Non-lemma forms 90194eb3|Non-lemma 90194eb3]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-05-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/c8490aa6c075c44672057cafe0e213427895c980 c8490aa6] || [[:Category:Words c8490aa6|Words c8490aa6]] || [[:Category:Non-lemma forms c8490aa6|Non-lemma c8490aa6]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-05-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/be1066a3843f48ff507b7bffe961985972029d92 be1066a3] || [[:Category:Words be1066a3|Words be1066a3]] || [[:Category:Non-lemma forms be1066a3|Non-lemma be1066a3]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-05-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/2103fd27fdaaea3eb415574e55f5403df1dd4d2d 2103fd27] || [[:Category:Words 2103fd27|Words 2103fd27]] || [[:Category:Non-lemma forms 2103fd27|Non-lemma 2103fd27]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-05-23 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/846bab785f64b1dd24b90ec5064b3eec939b6be2 846bab78] || [[:Category:Words 846bab78|Words 846bab78]] || [[:Category:Non-lemma forms 846bab78|Non-lemma 846bab78]] || Clarify in CLAUDE.md: cron means local CronCreate
+|-
+| 2026-05-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/6b4f8c767a3f85612e1976d5c463e127b9055357 6b4f8c76] || [[:Category:Words 6b4f8c76|Words 6b4f8c76]] || [[:Category:Non-lemma forms 6b4f8c76|Non-lemma 6b4f8c76]] || chore(state): post-grammar-sync [skip ci]
+|-
+| 2026-05-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/bf57755461d9a90e7dd505213b645835442b9af2 bf577554] || [[:Category:Words bf577554|Words bf577554]] || [[:Category:Non-lemma forms bf577554|Non-lemma bf577554]] || chore(state): rebuild version history from git log [skip ci]
 |}
 
 [[Category:git synced pages]]
