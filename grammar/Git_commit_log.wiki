@@ -1810,6 +1810,20 @@ Short hashes are used in [[Category:Word pages|word page]] version categories (e
 | 2026-05-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/6b4f8c767a3f85612e1976d5c463e127b9055357 6b4f8c76] || [[:Category:Words 6b4f8c76|Words 6b4f8c76]] || [[:Category:Non-lemma forms 6b4f8c76|Non-lemma 6b4f8c76]] || chore(state): post-grammar-sync [skip ci]
 |-
 | 2026-05-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/bf57755461d9a90e7dd505213b645835442b9af2 bf577554] || [[:Category:Words bf577554|Words bf577554]] || [[:Category:Non-lemma forms bf577554|Non-lemma bf577554]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-05-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/cf29da990f5a59a022fab33140da08e622e57238 cf29da99] || [[:Category:Words cf29da99|Words cf29da99]] || [[:Category:Non-lemma forms cf29da99|Non-lemma cf29da99]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-05-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/e8b120fdceaf801e489c47acaaac4dfbd2db180a e8b120fd] || [[:Category:Words e8b120fd|Words e8b120fd]] || [[:Category:Non-lemma forms e8b120fd|Non-lemma e8b120fd]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-05-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/7317515c8639911eb2c9e2469624b756bc0e08f5 7317515c] || [[:Category:Words 7317515c|Words 7317515c]] || [[:Category:Non-lemma forms 7317515c|Non-lemma 7317515c]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-05-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/07ad95ee951c6f6b042a8859171254fe0584a38d 07ad95ee] || [[:Category:Words 07ad95ee|Words 07ad95ee]] || [[:Category:Non-lemma forms 07ad95ee|Non-lemma 07ad95ee]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-05-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/13a8678e9d91c73276ebc5d63cc7a99731acb23f 13a8678e] || [[:Category:Words 13a8678e|Words 13a8678e]] || [[:Category:Non-lemma forms 13a8678e|Non-lemma 13a8678e]] || Add hourly status-report cron section to CLAUDE.md
+|-
+| 2026-05-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/f5346af2d7dc8c125361d2fdac109e92bccd3a05 f5346af2] || [[:Category:Words f5346af2|Words f5346af2]] || [[:Category:Non-lemma forms f5346af2|Non-lemma f5346af2]] || chore(state): post-grammar-sync [skip ci]
+|-
+| 2026-05-24 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/334fb2bd8410fd801b59b8235a91ff1bc8c96b71 334fb2bd] || [[:Category:Words 334fb2bd|Words 334fb2bd]] || [[:Category:Non-lemma forms 334fb2bd|Non-lemma 334fb2bd]] || chore(state): rebuild version history from git log [skip ci]
 |}
 
 [[Category:git synced pages]]
