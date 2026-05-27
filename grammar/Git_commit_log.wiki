@@ -1860,6 +1860,20 @@ Short hashes are used in [[Category:Word pages|word page]] version categories (e
 | 2026-05-27 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/5f6fffebcdaac5a2dd28131ea0241f76c967125a 5f6fffeb] || [[:Category:Words 5f6fffeb|Words 5f6fffeb]] || [[:Category:Non-lemma forms 5f6fffeb|Non-lemma 5f6fffeb]] || chore(state): post-grammar-sync [skip ci]
 |-
 | 2026-05-27 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/0acd5d2a63b000cdfee973748b6dccbd97ad14d4 0acd5d2a] || [[:Category:Words 0acd5d2a|Words 0acd5d2a]] || [[:Category:Non-lemma forms 0acd5d2a|Non-lemma 0acd5d2a]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-05-27 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d2033c2cf504cf5f88300d6dc70cab21cc118fbd d2033c2c] || [[:Category:Words d2033c2c|Words d2033c2c]] || [[:Category:Non-lemma forms d2033c2c|Non-lemma d2033c2c]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-05-26 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/40f9135eceb1daf7a1adb8dd9b5f88a9e880cf3c 40f9135e] || [[:Category:Words 40f9135e|Words 40f9135e]] || [[:Category:Non-lemma forms 40f9135e|Non-lemma 40f9135e]] || CLAUDE.md: upgrade to three-cron playbook + cleanvibe self-update pointer
+|-
+| 2026-05-27 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/bcbf4b6dbca95a7ef51da8306cc26b4aa7acee85 bcbf4b6d] || [[:Category:Words bcbf4b6d|Words bcbf4b6d]] || [[:Category:Non-lemma forms bcbf4b6d|Non-lemma bcbf4b6d]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-05-27 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/aa286edcbce1a231301597e4373c35f810dd8072 aa286edc] || [[:Category:Words aa286edc|Words aa286edc]] || [[:Category:Non-lemma forms aa286edc|Non-lemma aa286edc]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-05-27 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/12884575818c29ed2a84e2962c7804b587e3ab42 12884575] || [[:Category:Words 12884575|Words 12884575]] || [[:Category:Non-lemma forms 12884575|Non-lemma 12884575]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-05-27 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/bcc7804ca2cb87c20316a216a6f34ed0c59d76e9 bcc7804c] || [[:Category:Words bcc7804c|Words bcc7804c]] || [[:Category:Non-lemma forms bcc7804c|Non-lemma bcc7804c]] || chore(state): post-grammar-sync [skip ci]
+|-
+| 2026-05-27 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/546ee573b20a7d589298773dcd0c659585e550a0 546ee573] || [[:Category:Words 546ee573|Words 546ee573]] || [[:Category:Non-lemma forms 546ee573|Non-lemma 546ee573]] || chore(state): rebuild version history from git log [skip ci]
 |}
 
 [[Category:git synced pages]]
