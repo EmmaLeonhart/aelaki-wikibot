@@ -117752,6 +117752,72 @@
       "gender": "female",
       "citation_form": "yathowo",
       "old_citation_form": "yathïfwïf"
+    },
+    "mjdh": {
+      "root": [
+        "m",
+        "j",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "xnipec (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "majïfdhïf"
+    },
+    "dyth": {
+      "root": [
+        "d",
+        "y",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "xorn (auto-generated)",
+      "gender": "child",
+      "citation_form": "dayuthu"
+    },
+    "dvd": {
+      "root": [
+        "d",
+        "v",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "xonotlite (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "davïfdïf"
+    },
+    "lchj": {
+      "root": [
+        "l",
+        "ch",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "xmission (auto-generated)",
+      "gender": "male",
+      "citation_form": "lachaja"
+    },
+    "fpr": {
+      "root": [
+        "f",
+        "p",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "xonaltite (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "fapïfrïf"
+    },
+    "pkch": {
+      "root": [
+        "p",
+        "k",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "xoconostle (auto-generated)",
+      "gender": "male",
+      "citation_form": "pakacha"
     }
   },
   "adjectives": {
@@ -133162,6 +133228,106 @@
       "class": "adjective",
       "gloss": "qtrly (auto-generated)",
       "citation_form": "thova?aka"
+    },
+    "s?p": {
+      "root": [
+        "s",
+        "?",
+        "p"
+      ],
+      "class": "adjective",
+      "gloss": "updateable (auto-generated)",
+      "citation_form": "so?apaka"
+    },
+    "yyg": {
+      "root": [
+        "y",
+        "y",
+        "g"
+      ],
+      "class": "adjective",
+      "gloss": "upconverted (auto-generated)",
+      "citation_form": "yoyagaka"
+    },
+    "m?s": {
+      "root": [
+        "m",
+        "?",
+        "s"
+      ],
+      "class": "adjective",
+      "gloss": "upbeat (auto-generated)",
+      "citation_form": "mo?asaka"
+    },
+    "zhrm": {
+      "root": [
+        "zh",
+        "r",
+        "m"
+      ],
+      "class": "adjective",
+      "gloss": "upbounden (auto-generated)",
+      "citation_form": "zhoramaka"
+    },
+    "jnw": {
+      "root": [
+        "j",
+        "n",
+        "w"
+      ],
+      "class": "adjective",
+      "gloss": "upcoming (auto-generated)",
+      "citation_form": "jonawaka"
+    },
+    "nghy": {
+      "root": [
+        "ng",
+        "h",
+        "y"
+      ],
+      "class": "adjective",
+      "gloss": "upcoast (auto-generated)",
+      "citation_form": "ngohayaka"
+    },
+    "w?y": {
+      "root": [
+        "w",
+        "?",
+        "y"
+      ],
+      "class": "adjective",
+      "gloss": "upcountry (auto-generated)",
+      "citation_form": "wo?ayaka"
+    },
+    "tchth": {
+      "root": [
+        "t",
+        "ch",
+        "th"
+      ],
+      "class": "adjective",
+      "gloss": "upcraned (auto-generated)",
+      "citation_form": "tochathaka"
+    },
+    "thchf": {
+      "root": [
+        "th",
+        "ch",
+        "f"
+      ],
+      "class": "adjective",
+      "gloss": "upcycled (auto-generated)",
+      "citation_form": "thochafaka"
+    },
+    "ymf": {
+      "root": [
+        "y",
+        "m",
+        "f"
+      ],
+      "class": "adjective",
+      "gloss": "upcarried (auto-generated)",
+      "citation_form": "yomafaka"
     }
   },
   "adverbs": {
@@ -146893,6 +147059,106 @@
       "class": "adverb",
       "gloss": "lickably (auto-generated)",
       "citation_form": "va?ate"
+    },
+    "hdh": {
+      "root": [
+        "h",
+        "d",
+        "h"
+      ],
+      "class": "adverb",
+      "gloss": "leaderlessly (auto-generated)",
+      "citation_form": "hadate"
+    },
+    "thsh?": {
+      "root": [
+        "th",
+        "sh",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "leapingly (auto-generated)",
+      "citation_form": "thashate"
+    },
+    "pchch": {
+      "root": [
+        "p",
+        "ch",
+        "ch"
+      ],
+      "class": "adverb",
+      "gloss": "leftistly (auto-generated)",
+      "citation_form": "pachate"
+    },
+    "th?r": {
+      "root": [
+        "th",
+        "?",
+        "r"
+      ],
+      "class": "adverb",
+      "gloss": "legally (auto-generated)",
+      "citation_form": "tha?ate"
+    },
+    "shsv": {
+      "root": [
+        "sh",
+        "s",
+        "v"
+      ],
+      "class": "adverb",
+      "gloss": "leadenly (auto-generated)",
+      "citation_form": "shasate"
+    },
+    "zh?h": {
+      "root": [
+        "zh",
+        "?",
+        "h"
+      ],
+      "class": "adverb",
+      "gloss": "leanly (auto-generated)",
+      "citation_form": "zha?ate"
+    },
+    "fbp": {
+      "root": [
+        "f",
+        "b",
+        "p"
+      ],
+      "class": "adverb",
+      "gloss": "leasurely (auto-generated)",
+      "citation_form": "fabate"
+    },
+    "lzhg": {
+      "root": [
+        "l",
+        "zh",
+        "g"
+      ],
+      "class": "adverb",
+      "gloss": "leewardly (auto-generated)",
+      "citation_form": "lazhate"
+    },
+    "tln": {
+      "root": [
+        "t",
+        "l",
+        "n"
+      ],
+      "class": "adverb",
+      "gloss": "leafwise (auto-generated)",
+      "citation_form": "talate"
+    },
+    "?zz": {
+      "root": [
+        "?",
+        "z",
+        "z"
+      ],
+      "class": "adverb",
+      "gloss": "lecherously (auto-generated)",
+      "citation_form": "?azate"
     }
   },
   "colors": {
