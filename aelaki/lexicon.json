@@ -117806,6 +117806,446 @@
       "gloss": "xoconostle (auto-generated)",
       "gender": "male",
       "citation_form": "pakacha"
+    },
+    "gfr": {
+      "root": [
+        "g",
+        "f",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "otkon (auto-generated)",
+      "gender": "male",
+      "citation_form": "gafara"
+    },
+    "shjt": {
+      "root": [
+        "sh",
+        "j",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "otmeal (auto-generated)",
+      "gender": "female",
+      "citation_form": "shajoto"
+    },
+    "zwch": {
+      "root": [
+        "z",
+        "w",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "otariid (auto-generated)",
+      "gender": "female",
+      "citation_form": "zawocho"
+    },
+    "b?j": {
+      "root": [
+        "b",
+        "?",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "otidimorph (auto-generated)",
+      "gender": "child",
+      "citation_form": "ba?uju"
+    },
+    "tshl": {
+      "root": [
+        "t",
+        "sh",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "oto (auto-generated)",
+      "gender": "female",
+      "citation_form": "tasholo"
+    },
+    "zhv?": {
+      "root": [
+        "zh",
+        "v",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "otomicroscopy (auto-generated)",
+      "gender": "male",
+      "citation_form": "zhava?a"
+    },
+    "hjk": {
+      "root": [
+        "h",
+        "j",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "otary (auto-generated)",
+      "gender": "male",
+      "citation_form": "hajaka"
+    },
+    "hgw": {
+      "root": [
+        "h",
+        "g",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "otophylloside (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "hagïfwïf"
+    },
+    "fpy": {
+      "root": [
+        "f",
+        "p",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "otologist (auto-generated)",
+      "gender": "female",
+      "citation_form": "fapoyo"
+    },
+    "shthg": {
+      "root": [
+        "sh",
+        "th",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "otaku (auto-generated)",
+      "gender": "male",
+      "citation_form": "shathaga"
+    },
+    "gbsh": {
+      "root": [
+        "g",
+        "b",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "otherworldliness (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "gabïfshïf"
+    },
+    "zhzhch": {
+      "root": [
+        "zh",
+        "zh",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "otherdom (auto-generated)",
+      "gender": "female",
+      "citation_form": "zhazhocho"
+    },
+    "dhpth": {
+      "root": [
+        "dh",
+        "p",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "otagei (auto-generated)",
+      "gender": "male",
+      "citation_form": "dhapatha"
+    },
+    "pyl": {
+      "root": [
+        "p",
+        "y",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "otkhod (auto-generated)",
+      "gender": "female",
+      "citation_form": "payolo"
+    },
+    "sshv": {
+      "root": [
+        "s",
+        "sh",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "otoantritis (auto-generated)",
+      "gender": "child",
+      "citation_form": "sashuvu"
+    },
+    "rpng": {
+      "root": [
+        "r",
+        "p",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "otomicroscope (auto-generated)",
+      "gender": "child",
+      "citation_form": "rapungu"
+    },
+    "pzhsh": {
+      "root": [
+        "p",
+        "zh",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "otometry (auto-generated)",
+      "gender": "child",
+      "citation_form": "pazhushu"
+    },
+    "?zhy": {
+      "root": [
+        "?",
+        "zh",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "otoferlin (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?azhïfyïf"
+    },
+    "ybsh": {
+      "root": [
+        "y",
+        "b",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "otarid (auto-generated)",
+      "gender": "female",
+      "citation_form": "yabosho"
+    },
+    "jyn": {
+      "root": [
+        "j",
+        "y",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "othering (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "jayïfnïf"
+    },
+    "ybm": {
+      "root": [
+        "y",
+        "b",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "otherwiseness (auto-generated)",
+      "gender": "male",
+      "citation_form": "yabama"
+    },
+    "flt": {
+      "root": [
+        "f",
+        "l",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "otopetrin (auto-generated)",
+      "gender": "child",
+      "citation_form": "falutu"
+    },
+    "ngzh?": {
+      "root": [
+        "ng",
+        "zh",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "otectomy (auto-generated)",
+      "gender": "male",
+      "citation_form": "ngazha?a"
+    },
+    "mpn": {
+      "root": [
+        "m",
+        "p",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "otoconium (auto-generated)",
+      "gender": "male",
+      "citation_form": "mapana"
+    },
+    "dkzh": {
+      "root": [
+        "d",
+        "k",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "otorhinology (auto-generated)",
+      "gender": "male",
+      "citation_form": "dakazha"
+    },
+    "r?v": {
+      "root": [
+        "r",
+        "?",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "otography (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "ra?ïfvïf"
+    },
+    "yzhzh": {
+      "root": [
+        "y",
+        "zh",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "otocephaly (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "yazhïfzhïf"
+    },
+    "r?w": {
+      "root": [
+        "r",
+        "?",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "otomassage (auto-generated)",
+      "gender": "female",
+      "citation_form": "ra?owo"
+    },
+    "?rg": {
+      "root": [
+        "?",
+        "r",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "otacore (auto-generated)",
+      "gender": "male",
+      "citation_form": "?araga"
+    },
+    "pjd": {
+      "root": [
+        "p",
+        "j",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "otoprotection (auto-generated)",
+      "gender": "child",
+      "citation_form": "pajudu"
+    },
+    "lthy": {
+      "root": [
+        "l",
+        "th",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "otlum (auto-generated)",
+      "gender": "child",
+      "citation_form": "lathuyu"
+    },
+    "td?": {
+      "root": [
+        "t",
+        "d",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "otacousticon (auto-generated)",
+      "gender": "child",
+      "citation_form": "tadu?u"
+    },
+    "gchth": {
+      "root": [
+        "g",
+        "ch",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "otocephalic (auto-generated)",
+      "gender": "child",
+      "citation_form": "gachuthu"
+    },
+    "dhvw": {
+      "root": [
+        "dh",
+        "v",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "othematoma (auto-generated)",
+      "gender": "child",
+      "citation_form": "dhavuwu"
+    },
+    "yng?": {
+      "root": [
+        "y",
+        "ng",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "otopheidomenid (auto-generated)",
+      "gender": "male",
+      "citation_form": "yanga?a"
+    },
+    "wcht": {
+      "root": [
+        "w",
+        "ch",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "otjize (auto-generated)",
+      "gender": "male",
+      "citation_form": "wachata"
+    },
+    "myb": {
+      "root": [
+        "m",
+        "y",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "otiatrics (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "mayïfbïf"
+    },
+    "gfl": {
+      "root": [
+        "g",
+        "f",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "otology (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "gafïflïf"
+    },
+    "ldh": {
+      "root": [
+        "l",
+        "d",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "otherisation (auto-generated)",
+      "gender": "child",
+      "citation_form": "laduhu"
+    },
+    "nthm": {
+      "root": [
+        "n",
+        "th",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "otolin (auto-generated)",
+      "gender": "female",
+      "citation_form": "nathomo"
     }
   },
   "adjectives": {
@@ -133316,6 +133756,106 @@
       "class": "adjective",
       "gloss": "upcarried (auto-generated)",
       "citation_form": "yomafaka"
+    },
+    "dh?l": {
+      "root": [
+        "dh",
+        "?",
+        "l"
+      ],
+      "class": "adjective",
+      "gloss": "adaptional (auto-generated)",
+      "citation_form": "dho?alaka"
+    },
+    "tshp": {
+      "root": [
+        "t",
+        "sh",
+        "p"
+      ],
+      "class": "adjective",
+      "gloss": "adapertural (auto-generated)",
+      "citation_form": "toshapaka"
+    },
+    "zbng": {
+      "root": [
+        "z",
+        "b",
+        "ng"
+      ],
+      "class": "adjective",
+      "gloss": "adaxonal (auto-generated)",
+      "citation_form": "zobangaka"
+    },
+    "wkzh": {
+      "root": [
+        "w",
+        "k",
+        "zh"
+      ],
+      "class": "adjective",
+      "gloss": "adaxial (auto-generated)",
+      "citation_form": "wokazhaka"
+    },
+    "?lr": {
+      "root": [
+        "?",
+        "l",
+        "r"
+      ],
+      "class": "adjective",
+      "gloss": "adaptogenous (auto-generated)",
+      "citation_form": "?olaraka"
+    },
+    "vnd": {
+      "root": [
+        "v",
+        "n",
+        "d"
+      ],
+      "class": "adjective",
+      "gloss": "adakitic (auto-generated)",
+      "citation_form": "vonadaka"
+    },
+    "lrw": {
+      "root": [
+        "l",
+        "r",
+        "w"
+      ],
+      "class": "adjective",
+      "gloss": "adaptational (auto-generated)",
+      "citation_form": "lorawaka"
+    },
+    "vtng": {
+      "root": [
+        "v",
+        "t",
+        "ng"
+      ],
+      "class": "adjective",
+      "gloss": "adaptative (auto-generated)",
+      "citation_form": "votangaka"
+    },
+    "thpk": {
+      "root": [
+        "th",
+        "p",
+        "k"
+      ],
+      "class": "adjective",
+      "gloss": "adawed (auto-generated)",
+      "citation_form": "thopakaka"
+    },
+    "lngng": {
+      "root": [
+        "l",
+        "ng",
+        "ng"
+      ],
+      "class": "adjective",
+      "gloss": "adaptorial (auto-generated)",
+      "citation_form": "longangaka"
     }
   },
   "adverbs": {
@@ -147147,6 +147687,106 @@
       "class": "adverb",
       "gloss": "lecherously (auto-generated)",
       "citation_form": "?azate"
+    },
+    "ggz": {
+      "root": [
+        "g",
+        "g",
+        "z"
+      ],
+      "class": "adverb",
+      "gloss": "classily (auto-generated)",
+      "citation_form": "gagate"
+    },
+    "zht?": {
+      "root": [
+        "zh",
+        "t",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "clatteringly (auto-generated)",
+      "citation_form": "zhatate"
+    },
+    "shchm": {
+      "root": [
+        "sh",
+        "ch",
+        "m"
+      ],
+      "class": "adverb",
+      "gloss": "clamourously (auto-generated)",
+      "citation_form": "shachate"
+    },
+    "ngzhn": {
+      "root": [
+        "ng",
+        "zh",
+        "n"
+      ],
+      "class": "adverb",
+      "gloss": "classicly (auto-generated)",
+      "citation_form": "ngazhate"
+    },
+    "dhyv": {
+      "root": [
+        "dh",
+        "y",
+        "v"
+      ],
+      "class": "adverb",
+      "gloss": "clannishly (auto-generated)",
+      "citation_form": "dhayate"
+    },
+    "bdng": {
+      "root": [
+        "b",
+        "d",
+        "ng"
+      ],
+      "class": "adverb",
+      "gloss": "cleansingly (auto-generated)",
+      "citation_form": "badate"
+    },
+    "?nt": {
+      "root": [
+        "?",
+        "n",
+        "t"
+      ],
+      "class": "adverb",
+      "gloss": "claustrophobically (auto-generated)",
+      "citation_form": "?anate"
+    },
+    "dzhj": {
+      "root": [
+        "d",
+        "zh",
+        "j"
+      ],
+      "class": "adverb",
+      "gloss": "cleistogamously (auto-generated)",
+      "citation_form": "dazhate"
+    },
+    "wvw": {
+      "root": [
+        "w",
+        "v",
+        "w"
+      ],
+      "class": "adverb",
+      "gloss": "clathrately (auto-generated)",
+      "citation_form": "wavate"
+    },
+    "kbb": {
+      "root": [
+        "k",
+        "b",
+        "b"
+      ],
+      "class": "adverb",
+      "gloss": "cladistically (auto-generated)",
+      "citation_form": "kabate"
     }
   },
   "colors": {
