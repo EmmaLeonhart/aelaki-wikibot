@@ -53629,6 +53629,17 @@
       "class": "verb_transitive",
       "gloss": "torace (auto-generated)",
       "citation_form": "kasa?ledoko"
+    },
+    "zsh??": {
+      "root": [
+        "z",
+        "sh",
+        "?",
+        "?"
+      ],
+      "class": "verb_transitive",
+      "gloss": "yacketayak (auto-generated)",
+      "citation_form": "kazash?e?oko"
     }
   },
   "nouns": {
@@ -118249,6 +118260,446 @@
       "gloss": "otolin (auto-generated)",
       "gender": "female",
       "citation_form": "nathomo"
+    },
+    "thshy": {
+      "root": [
+        "th",
+        "sh",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "quacking (auto-generated)",
+      "gender": "male",
+      "citation_form": "thashaya"
+    },
+    "pngch": {
+      "root": [
+        "p",
+        "ng",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "quackster (auto-generated)",
+      "gender": "female",
+      "citation_form": "pangocho"
+    },
+    "gnf": {
+      "root": [
+        "g",
+        "n",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "quadbiking (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "ganïffïf"
+    },
+    "d?r": {
+      "root": [
+        "d",
+        "?",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "quacksalvery (auto-generated)",
+      "gender": "female",
+      "citation_form": "da?oro"
+    },
+    "dzs": {
+      "root": [
+        "d",
+        "z",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "quachtli (auto-generated)",
+      "gender": "child",
+      "citation_form": "dazusu"
+    },
+    "dh?t": {
+      "root": [
+        "dh",
+        "?",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "qocho (auto-generated)",
+      "gender": "male",
+      "citation_form": "dha?ata"
+    },
+    "dhl": {
+      "root": [
+        "d",
+        "h",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "quacksalver (auto-generated)",
+      "gender": "male",
+      "citation_form": "dahala"
+    },
+    "kbsh": {
+      "root": [
+        "k",
+        "b",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "quachil (auto-generated)",
+      "gender": "male",
+      "citation_form": "kabasha"
+    },
+    "thw": {
+      "root": [
+        "t",
+        "h",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "quaddition (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "tahïfwïf"
+    },
+    "hdhv": {
+      "root": [
+        "h",
+        "dh",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "quackgrass (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "hadhïfvïf"
+    },
+    "h?h": {
+      "root": [
+        "h",
+        "?",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "quadium (auto-generated)",
+      "gender": "female",
+      "citation_form": "ha?oho"
+    },
+    "?bs": {
+      "root": [
+        "?",
+        "b",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "qobyz (auto-generated)",
+      "gender": "female",
+      "citation_form": "?aboso"
+    },
+    "sh?g": {
+      "root": [
+        "sh",
+        "?",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "quadbike (auto-generated)",
+      "gender": "female",
+      "citation_form": "sha?ogo"
+    },
+    "chmh": {
+      "root": [
+        "ch",
+        "m",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "quadlet (auto-generated)",
+      "gender": "male",
+      "citation_form": "chamaha"
+    },
+    "pmch": {
+      "root": [
+        "p",
+        "m",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "quadcast (auto-generated)",
+      "gender": "child",
+      "citation_form": "pamuchu"
+    },
+    "fchdh": {
+      "root": [
+        "f",
+        "ch",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "quacha (auto-generated)",
+      "gender": "female",
+      "citation_form": "fachodho"
+    },
+    "jzy": {
+      "root": [
+        "j",
+        "z",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "quademic (auto-generated)",
+      "gender": "child",
+      "citation_form": "jazuyu"
+    },
+    "rss": {
+      "root": [
+        "r",
+        "s",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "quadball (auto-generated)",
+      "gender": "female",
+      "citation_form": "rasoso"
+    },
+    "zms": {
+      "root": [
+        "z",
+        "m",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "quadexciton (auto-generated)",
+      "gender": "male",
+      "citation_form": "zamasa"
+    },
+    "htv": {
+      "root": [
+        "h",
+        "t",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "quackbuster (auto-generated)",
+      "gender": "female",
+      "citation_form": "hatovo"
+    },
+    "znv": {
+      "root": [
+        "z",
+        "n",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "quadkey (auto-generated)",
+      "gender": "female",
+      "citation_form": "zanovo"
+    },
+    "fyw": {
+      "root": [
+        "f",
+        "y",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "qop (auto-generated)",
+      "gender": "child",
+      "citation_form": "fayuwu"
+    },
+    "?hg": {
+      "root": [
+        "?",
+        "h",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "quackism (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?ahïfgïf"
+    },
+    "zpz": {
+      "root": [
+        "z",
+        "p",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "quadcasting (auto-generated)",
+      "gender": "male",
+      "citation_form": "zapaza"
+    },
+    "pg?": {
+      "root": [
+        "p",
+        "g",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "qty (auto-generated)",
+      "gender": "male",
+      "citation_form": "paga?a"
+    },
+    "hshk": {
+      "root": [
+        "h",
+        "sh",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "quaddie (auto-generated)",
+      "gender": "female",
+      "citation_form": "hashoko"
+    },
+    "nghl": {
+      "root": [
+        "ng",
+        "h",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "quackery (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "ngahïflïf"
+    },
+    "?mg": {
+      "root": [
+        "?",
+        "m",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "quacktitioner (auto-generated)",
+      "gender": "child",
+      "citation_form": "?amugu"
+    },
+    "mchk": {
+      "root": [
+        "m",
+        "ch",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "quadder (auto-generated)",
+      "gender": "male",
+      "citation_form": "machaka"
+    },
+    "skdh": {
+      "root": [
+        "s",
+        "k",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "quadcycle (auto-generated)",
+      "gender": "male",
+      "citation_form": "sakadha"
+    },
+    "ngzth": {
+      "root": [
+        "ng",
+        "z",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "quadbit (auto-generated)",
+      "gender": "male",
+      "citation_form": "ngazatha"
+    },
+    "shzhj": {
+      "root": [
+        "sh",
+        "zh",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "quadazocine (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "shazhïfjïf"
+    },
+    "rmng": {
+      "root": [
+        "r",
+        "m",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "quacker (auto-generated)",
+      "gender": "child",
+      "citation_form": "ramungu"
+    },
+    "jth?": {
+      "root": [
+        "j",
+        "th",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "quackhood (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "jathïf?ïf"
+    },
+    "nwk": {
+      "root": [
+        "n",
+        "w",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "quadfurcation (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "nawïfkïf"
+    },
+    "hkw": {
+      "root": [
+        "h",
+        "k",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "quackdom (auto-generated)",
+      "gender": "female",
+      "citation_form": "hakowo"
+    },
+    "kdhdh": {
+      "root": [
+        "k",
+        "dh",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "quadpod (auto-generated)",
+      "gender": "female",
+      "citation_form": "kadhodho"
+    },
+    "gzk": {
+      "root": [
+        "g",
+        "z",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "quackmire (auto-generated)",
+      "gender": "female",
+      "citation_form": "gazoko"
+    },
+    "nhy": {
+      "root": [
+        "n",
+        "h",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "quadmire (auto-generated)",
+      "gender": "female",
+      "citation_form": "nahoyo"
+    },
+    "ngvw": {
+      "root": [
+        "ng",
+        "v",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "quadplex (auto-generated)",
+      "gender": "female",
+      "citation_form": "ngavowo"
     }
   },
   "adjectives": {
@@ -133859,6 +134310,106 @@
       "class": "adjective",
       "gloss": "adaptorial (auto-generated)",
       "citation_form": "longangaka"
+    },
+    "wfn": {
+      "root": [
+        "w",
+        "f",
+        "n"
+      ],
+      "class": "adjective",
+      "gloss": "cyanophilic (auto-generated)",
+      "citation_form": "wofanaka"
+    },
+    "rvzh": {
+      "root": [
+        "r",
+        "v",
+        "zh"
+      ],
+      "class": "adjective",
+      "gloss": "cyanic (auto-generated)",
+      "citation_form": "rovazhaka"
+    },
+    "b?ch": {
+      "root": [
+        "b",
+        "?",
+        "ch"
+      ],
+      "class": "adjective",
+      "gloss": "cyanoacetic (auto-generated)",
+      "citation_form": "bo?achaka"
+    },
+    "thkn": {
+      "root": [
+        "th",
+        "k",
+        "n"
+      ],
+      "class": "adjective",
+      "gloss": "cybercolonial (auto-generated)",
+      "citation_form": "thokanaka"
+    },
+    "thchng": {
+      "root": [
+        "th",
+        "ch",
+        "ng"
+      ],
+      "class": "adjective",
+      "gloss": "cyberdefensive (auto-generated)",
+      "citation_form": "thochangaka"
+    },
+    "jdhs": {
+      "root": [
+        "j",
+        "dh",
+        "s"
+      ],
+      "class": "adjective",
+      "gloss": "cyanopathic (auto-generated)",
+      "citation_form": "jodhasaka"
+    },
+    "jpch": {
+      "root": [
+        "j",
+        "p",
+        "ch"
+      ],
+      "class": "adjective",
+      "gloss": "cybercartographic (auto-generated)",
+      "citation_form": "jopachaka"
+    },
+    "ngshb": {
+      "root": [
+        "ng",
+        "sh",
+        "b"
+      ],
+      "class": "adjective",
+      "gloss": "cyanophilous (auto-generated)",
+      "citation_form": "ngoshabaka"
+    },
+    "ggdh": {
+      "root": [
+        "g",
+        "g",
+        "dh"
+      ],
+      "class": "adjective",
+      "gloss": "cyan (auto-generated)",
+      "citation_form": "gogadhaka"
+    },
+    "zngh": {
+      "root": [
+        "z",
+        "ng",
+        "h"
+      ],
+      "class": "adjective",
+      "gloss": "cyanoacrylic (auto-generated)",
+      "citation_form": "zongahaka"
     }
   },
   "adverbs": {
@@ -147790,6 +148341,106 @@
       "class": "adverb",
       "gloss": "cladistically (auto-generated)",
       "citation_form": "kabate"
+    },
+    "rdl": {
+      "root": [
+        "r",
+        "d",
+        "l"
+      ],
+      "class": "adverb",
+      "gloss": "rightward (auto-generated)",
+      "citation_form": "radate"
+    },
+    "zhwsh": {
+      "root": [
+        "zh",
+        "w",
+        "sh"
+      ],
+      "class": "adverb",
+      "gloss": "ribosomically (auto-generated)",
+      "citation_form": "zhawate"
+    },
+    "jbt": {
+      "root": [
+        "j",
+        "b",
+        "t"
+      ],
+      "class": "adverb",
+      "gloss": "riffwise (auto-generated)",
+      "citation_form": "jabate"
+    },
+    "dhg?": {
+      "root": [
+        "dh",
+        "g",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "richly (auto-generated)",
+      "citation_form": "dhagate"
+    },
+    "spsh": {
+      "root": [
+        "s",
+        "p",
+        "sh"
+      ],
+      "class": "adverb",
+      "gloss": "righthandedly (auto-generated)",
+      "citation_form": "sapate"
+    },
+    "jvw": {
+      "root": [
+        "j",
+        "v",
+        "w"
+      ],
+      "class": "adverb",
+      "gloss": "ribbingly (auto-generated)",
+      "citation_form": "javate"
+    },
+    "nsj": {
+      "root": [
+        "n",
+        "s",
+        "j"
+      ],
+      "class": "adverb",
+      "gloss": "ribaldly (auto-generated)",
+      "citation_form": "nasate"
+    },
+    "sb?": {
+      "root": [
+        "s",
+        "b",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "ridgewise (auto-generated)",
+      "citation_form": "sabate"
+    },
+    "pth?": {
+      "root": [
+        "p",
+        "th",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "rightwisely (auto-generated)",
+      "citation_form": "pathate"
+    },
+    "jjm": {
+      "root": [
+        "j",
+        "j",
+        "m"
+      ],
+      "class": "adverb",
+      "gloss": "rightmindedly (auto-generated)",
+      "citation_form": "jajate"
     }
   },
   "colors": {
