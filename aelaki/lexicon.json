@@ -119575,6 +119575,446 @@
       "gender": "male",
       "citation_form": "madanga",
       "old_citation_form": "madïfngïf"
+    },
+    "ndv": {
+      "root": [
+        "n",
+        "d",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "bubeleh (auto-generated)",
+      "gender": "female",
+      "citation_form": "nadovo"
+    },
+    "dbh": {
+      "root": [
+        "d",
+        "b",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "bucatini (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "dabïfhïf"
+    },
+    "tmm": {
+      "root": [
+        "t",
+        "m",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "bubbletop (auto-generated)",
+      "gender": "female",
+      "citation_form": "tamomo"
+    },
+    "mww": {
+      "root": [
+        "m",
+        "w",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "bubkes (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "mawïfwïf"
+    },
+    "ngzhsh": {
+      "root": [
+        "ng",
+        "zh",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "buccalization (auto-generated)",
+      "gender": "male",
+      "citation_form": "ngazhasha"
+    },
+    "y?dh": {
+      "root": [
+        "y",
+        "?",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "buckaroo (auto-generated)",
+      "gender": "male",
+      "citation_form": "ya?adha"
+    },
+    "dtj": {
+      "root": [
+        "d",
+        "t",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "bubkus (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "datïfjïf"
+    },
+    "lvm": {
+      "root": [
+        "l",
+        "v",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "buaze (auto-generated)",
+      "gender": "female",
+      "citation_form": "lavomo"
+    },
+    "vzhh": {
+      "root": [
+        "v",
+        "zh",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "bubble (auto-generated)",
+      "gender": "male",
+      "citation_form": "vazhaha"
+    },
+    "tpd": {
+      "root": [
+        "t",
+        "p",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "bubblevator (auto-generated)",
+      "gender": "child",
+      "citation_form": "tapudu"
+    },
+    "yzg": {
+      "root": [
+        "y",
+        "z",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "buccopharynx (auto-generated)",
+      "gender": "male",
+      "citation_form": "yazaga"
+    },
+    "njch": {
+      "root": [
+        "n",
+        "j",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "bucculatricid (auto-generated)",
+      "gender": "female",
+      "citation_form": "najocho"
+    },
+    "dvng": {
+      "root": [
+        "d",
+        "v",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "bucerotid (auto-generated)",
+      "gender": "male",
+      "citation_form": "davanga"
+    },
+    "m?ng": {
+      "root": [
+        "m",
+        "?",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "bubby (auto-generated)",
+      "gender": "child",
+      "citation_form": "ma?ungu"
+    },
+    "hdhm": {
+      "root": [
+        "h",
+        "dh",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "bubblet (auto-generated)",
+      "gender": "female",
+      "citation_form": "hadhomo"
+    },
+    "shjr": {
+      "root": [
+        "sh",
+        "j",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "buccinid (auto-generated)",
+      "gender": "male",
+      "citation_form": "shajara"
+    },
+    "jthk": {
+      "root": [
+        "j",
+        "th",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "buckarette (auto-generated)",
+      "gender": "female",
+      "citation_form": "jathoko"
+    },
+    "?kch": {
+      "root": [
+        "?",
+        "k",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "bubblewrap (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?akïfchïf"
+    },
+    "wdhv": {
+      "root": [
+        "w",
+        "dh",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "buciclovir (auto-generated)",
+      "gender": "child",
+      "citation_form": "wadhuvu"
+    },
+    "thv": {
+      "root": [
+        "t",
+        "h",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "bubo (auto-generated)",
+      "gender": "child",
+      "citation_form": "tahuvu"
+    },
+    "zhjs": {
+      "root": [
+        "zh",
+        "j",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "bucchero (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zhajïfsïf"
+    },
+    "fll": {
+      "root": [
+        "f",
+        "l",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "bucca (auto-generated)",
+      "gender": "female",
+      "citation_form": "falolo"
+    },
+    "shdg": {
+      "root": [
+        "sh",
+        "d",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "bub (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "shadïfgïf"
+    },
+    "chjng": {
+      "root": [
+        "ch",
+        "j",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "bubbly (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "chajïfngïf"
+    },
+    "hlw": {
+      "root": [
+        "h",
+        "l",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "bubbling (auto-generated)",
+      "gender": "male",
+      "citation_form": "halawa"
+    },
+    "kbch": {
+      "root": [
+        "k",
+        "b",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "buchiid (auto-generated)",
+      "gender": "male",
+      "citation_form": "kabacha"
+    },
+    "wchg": {
+      "root": [
+        "w",
+        "ch",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "buck (auto-generated)",
+      "gender": "female",
+      "citation_form": "wachogo"
+    },
+    "thnth": {
+      "root": [
+        "th",
+        "n",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "bubele (auto-generated)",
+      "gender": "child",
+      "citation_form": "thanuthu"
+    },
+    "rpzh": {
+      "root": [
+        "r",
+        "p",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "buccinoid (auto-generated)",
+      "gender": "child",
+      "citation_form": "rapuzhu"
+    },
+    "hdng": {
+      "root": [
+        "h",
+        "d",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "bubah (auto-generated)",
+      "gender": "female",
+      "citation_form": "hadongo"
+    },
+    "dtch": {
+      "root": [
+        "d",
+        "t",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "buckaroonie (auto-generated)",
+      "gender": "child",
+      "citation_form": "datuchu"
+    },
+    "?thdh": {
+      "root": [
+        "?",
+        "th",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "buboe (auto-generated)",
+      "gender": "child",
+      "citation_form": "?athudhu"
+    },
+    "t?h": {
+      "root": [
+        "t",
+        "?",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "bubblegrunge (auto-generated)",
+      "gender": "child",
+      "citation_form": "ta?uhu"
+    },
+    "gtsh": {
+      "root": [
+        "g",
+        "t",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "buansuah (auto-generated)",
+      "gender": "female",
+      "citation_form": "gatosho"
+    },
+    "bny": {
+      "root": [
+        "b",
+        "n",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "buchanosteid (auto-generated)",
+      "gender": "female",
+      "citation_form": "banoyo"
+    },
+    "fwh": {
+      "root": [
+        "f",
+        "w",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "bucandin (auto-generated)",
+      "gender": "female",
+      "citation_form": "fawoho"
+    },
+    "thk?": {
+      "root": [
+        "th",
+        "k",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "buccoversion (auto-generated)",
+      "gender": "male",
+      "citation_form": "thaka?a"
+    },
+    "lchsh": {
+      "root": [
+        "l",
+        "ch",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "bubbler (auto-generated)",
+      "gender": "male",
+      "citation_form": "lachasha"
+    },
+    "dhbn": {
+      "root": [
+        "dh",
+        "b",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "bubbleguts (auto-generated)",
+      "gender": "female",
+      "citation_form": "dhabono"
+    },
+    "nshzh": {
+      "root": [
+        "n",
+        "sh",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "bucellarius (auto-generated)",
+      "gender": "male",
+      "citation_form": "nashazha"
     }
   },
   "adjectives": {
@@ -135305,6 +135745,36 @@
       "class": "adjective",
       "gloss": "rubiaceous (auto-generated)",
       "citation_form": "longayaka"
+    },
+    "shrzh": {
+      "root": [
+        "sh",
+        "r",
+        "zh"
+      ],
+      "class": "adjective",
+      "gloss": "kabbalic (auto-generated)",
+      "citation_form": "shorazhaka"
+    },
+    "mdhl": {
+      "root": [
+        "m",
+        "dh",
+        "l"
+      ],
+      "class": "adjective",
+      "gloss": "kairomonal (auto-generated)",
+      "citation_form": "modhalaka"
+    },
+    "wjv": {
+      "root": [
+        "w",
+        "j",
+        "v"
+      ],
+      "class": "adjective",
+      "gloss": "jymold (auto-generated)",
+      "citation_form": "wojavaka"
     }
   },
   "adverbs": {
@@ -149356,6 +149826,106 @@
       "class": "adverb",
       "gloss": "pyrotechnically (auto-generated)",
       "citation_form": "gathate"
+    },
+    "mll": {
+      "root": [
+        "m",
+        "l",
+        "l"
+      ],
+      "class": "adverb",
+      "gloss": "numismatically (auto-generated)",
+      "citation_form": "malate"
+    },
+    "thjj": {
+      "root": [
+        "th",
+        "j",
+        "j"
+      ],
+      "class": "adverb",
+      "gloss": "nucleoplasmically (auto-generated)",
+      "citation_form": "thajate"
+    },
+    "chgj": {
+      "root": [
+        "ch",
+        "g",
+        "j"
+      ],
+      "class": "adverb",
+      "gloss": "nuancely (auto-generated)",
+      "citation_form": "chagate"
+    },
+    "dhv": {
+      "root": [
+        "d",
+        "h",
+        "v"
+      ],
+      "class": "adverb",
+      "gloss": "nucleocytoplasmically (auto-generated)",
+      "citation_form": "dahate"
+    },
+    "npk": {
+      "root": [
+        "n",
+        "p",
+        "k"
+      ],
+      "class": "adverb",
+      "gloss": "nuch (auto-generated)",
+      "citation_form": "napate"
+    },
+    "ldhg": {
+      "root": [
+        "l",
+        "dh",
+        "g"
+      ],
+      "class": "adverb",
+      "gloss": "nudily (auto-generated)",
+      "citation_form": "ladhate"
+    },
+    "mjr": {
+      "root": [
+        "m",
+        "j",
+        "r"
+      ],
+      "class": "adverb",
+      "gloss": "nutritively (auto-generated)",
+      "citation_form": "majate"
+    },
+    "rrm": {
+      "root": [
+        "r",
+        "r",
+        "m"
+      ],
+      "class": "adverb",
+      "gloss": "nuclearly (auto-generated)",
+      "citation_form": "rarate"
+    },
+    "zhr?": {
+      "root": [
+        "zh",
+        "r",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "numerably (auto-generated)",
+      "citation_form": "zharate"
+    },
+    "wwh": {
+      "root": [
+        "w",
+        "w",
+        "h"
+      ],
+      "class": "adverb",
+      "gloss": "nucleolytically (auto-generated)",
+      "citation_form": "wawate"
     }
   },
   "colors": {
