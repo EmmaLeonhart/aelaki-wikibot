@@ -1922,6 +1922,20 @@ Short hashes are used in [[Category:Word pages|word page]] version categories (e
 | 2026-05-30 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/d320b8ef02035ba58446263a4dc6f2ec162fc448 d320b8ef] || [[:Category:Words d320b8ef|Words d320b8ef]] || [[:Category:Non-lemma forms d320b8ef|Non-lemma d320b8ef]] || chore(state): post-grammar-sync [skip ci]
 |-
 | 2026-05-30 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/6ab63c1a1c1349ed86671575af78d44eca6f0008 6ab63c1a] || [[:Category:Words 6ab63c1a|Words 6ab63c1a]] || [[:Category:Non-lemma forms 6ab63c1a|Non-lemma 6ab63c1a]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-05-31 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/6d0833ca4dc6bf8eb9eab0f9f2f302d934cc908a 6d0833ca] || [[:Category:Words 6d0833ca|Words 6d0833ca]] || [[:Category:Non-lemma forms 6d0833ca|Non-lemma 6d0833ca]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-05-31 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/fa66a758e5cead32073756b9e89f0bd05b9577f5 fa66a758] || [[:Category:Words fa66a758|Words fa66a758]] || [[:Category:Non-lemma forms fa66a758|Non-lemma fa66a758]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-05-31 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/13fbb4cc68e1371d0e498a3b08791d075638a406 13fbb4cc] || [[:Category:Words 13fbb4cc|Words 13fbb4cc]] || [[:Category:Non-lemma forms 13fbb4cc|Non-lemma 13fbb4cc]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-05-31 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/270af4662ad4e6f0141fad81de6f747110d4dcc7 270af466] || [[:Category:Words 270af466|Words 270af466]] || [[:Category:Non-lemma forms 270af466|Non-lemma 270af466]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-05-30 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/77a24a70a5aefb7f59a0335eac792225a69454b1 77a24a70] || [[:Category:Words 77a24a70|Words 77a24a70]] || [[:Category:Non-lemma forms 77a24a70|Non-lemma 77a24a70]] || chore: vendor cleanvibe skills into .claude/skills; trim CLAUDE.md to pointer
+|-
+| 2026-05-31 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/7c976239768670280948315ad188efcc43131afd 7c976239] || [[:Category:Words 7c976239|Words 7c976239]] || [[:Category:Non-lemma forms 7c976239|Non-lemma 7c976239]] || chore(state): post-grammar-sync [skip ci]
+|-
+| 2026-05-31 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/148eeb75edcb36afc8a94b2a250898b872962b40 148eeb75] || [[:Category:Words 148eeb75|Words 148eeb75]] || [[:Category:Non-lemma forms 148eeb75|Non-lemma 148eeb75]] || chore(state): rebuild version history from git log [skip ci]
 |}
 
 [[Category:git synced pages]]
