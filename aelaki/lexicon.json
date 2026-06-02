@@ -120883,6 +120883,446 @@
       "gloss": "zuppa (auto-generated)",
       "gender": "male",
       "citation_form": "falama"
+    },
+    "hfth": {
+      "root": [
+        "h",
+        "f",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "fiberscope (auto-generated)",
+      "gender": "child",
+      "citation_form": "hafuthu"
+    },
+    "pjm": {
+      "root": [
+        "p",
+        "j",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "fiberization (auto-generated)",
+      "gender": "female",
+      "citation_form": "pajomo"
+    },
+    "y??": {
+      "root": [
+        "y",
+        "?",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "fiberclay (auto-generated)",
+      "gender": "male",
+      "citation_form": "ya?a?a"
+    },
+    "kngg": {
+      "root": [
+        "k",
+        "ng",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "fibrillisation (auto-generated)",
+      "gender": "female",
+      "citation_form": "kangogo"
+    },
+    "lj?": {
+      "root": [
+        "l",
+        "j",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "fggot (auto-generated)",
+      "gender": "female",
+      "citation_form": "lajo?o"
+    },
+    "bdhv": {
+      "root": [
+        "b",
+        "dh",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "fibrinogenemia (auto-generated)",
+      "gender": "female",
+      "citation_form": "badhovo"
+    },
+    "?zhk": {
+      "root": [
+        "?",
+        "zh",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "fibrisation (auto-generated)",
+      "gender": "child",
+      "citation_form": "?azhuku"
+    },
+    "p?r": {
+      "root": [
+        "p",
+        "?",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "fibreboard (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "pa?ïfrïf"
+    },
+    "yhsh": {
+      "root": [
+        "y",
+        "h",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "fiberedness (auto-generated)",
+      "gender": "male",
+      "citation_form": "yahasha"
+    },
+    "shksh": {
+      "root": [
+        "sh",
+        "k",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "fiberwood (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "shakïfshïf"
+    },
+    "chsb": {
+      "root": [
+        "ch",
+        "s",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "fibber (auto-generated)",
+      "gender": "female",
+      "citation_form": "chasobo"
+    },
+    "zh?r": {
+      "root": [
+        "zh",
+        "?",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "fiberscopy (auto-generated)",
+      "gender": "child",
+      "citation_form": "zha?uru"
+    },
+    "fngr": {
+      "root": [
+        "f",
+        "ng",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "fibrillarity (auto-generated)",
+      "gender": "female",
+      "citation_form": "fangoro"
+    },
+    "chsl": {
+      "root": [
+        "ch",
+        "s",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "fianelite (auto-generated)",
+      "gender": "female",
+      "citation_form": "chasolo"
+    },
+    "zpdh": {
+      "root": [
+        "z",
+        "p",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "fibbing (auto-generated)",
+      "gender": "female",
+      "citation_form": "zapodho"
+    },
+    "zhpf": {
+      "root": [
+        "zh",
+        "p",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "fibrescope (auto-generated)",
+      "gender": "male",
+      "citation_form": "zhapafa"
+    },
+    "?dy": {
+      "root": [
+        "?",
+        "d",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "fiacitabine (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?adïfyïf"
+    },
+    "kmv": {
+      "root": [
+        "k",
+        "m",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "fibrination (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "kamïfvïf"
+    },
+    "chngg": {
+      "root": [
+        "ch",
+        "ng",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "fibroadenomatosis (auto-generated)",
+      "gender": "child",
+      "citation_form": "changugu"
+    },
+    "zhbd": {
+      "root": [
+        "zh",
+        "b",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "fiard (auto-generated)",
+      "gender": "child",
+      "citation_form": "zhabudu"
+    },
+    "rdp": {
+      "root": [
+        "r",
+        "d",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "fibrinogenase (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "radïfpïf"
+    },
+    "?km": {
+      "root": [
+        "?",
+        "k",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "fibrewood (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?akïfmïf"
+    },
+    "chww": {
+      "root": [
+        "ch",
+        "w",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "fibrillinogenesis (auto-generated)",
+      "gender": "male",
+      "citation_form": "chawawa"
+    },
+    "chysh": {
+      "root": [
+        "ch",
+        "y",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "fibermaxxing (auto-generated)",
+      "gender": "male",
+      "citation_form": "chayasha"
+    },
+    "mfl": {
+      "root": [
+        "m",
+        "f",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "fibrillogenesis (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "mafïflïf"
+    },
+    "fwsh": {
+      "root": [
+        "f",
+        "w",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "fgirl (auto-generated)",
+      "gender": "female",
+      "citation_form": "fawosho"
+    },
+    "chngz": {
+      "root": [
+        "ch",
+        "ng",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "fibroactin (auto-generated)",
+      "gender": "child",
+      "citation_form": "changuzu"
+    },
+    "thh?": {
+      "root": [
+        "th",
+        "h",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "fibrillinopathy (auto-generated)",
+      "gender": "child",
+      "citation_form": "thahu?u"
+    },
+    "yshv": {
+      "root": [
+        "y",
+        "sh",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "fibrinemia (auto-generated)",
+      "gender": "male",
+      "citation_form": "yashava"
+    },
+    "nrw": {
+      "root": [
+        "n",
+        "r",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "fibrelessness (auto-generated)",
+      "gender": "male",
+      "citation_form": "narawa"
+    },
+    "ch?k": {
+      "root": [
+        "ch",
+        "?",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "fiacre (auto-generated)",
+      "gender": "child",
+      "citation_form": "cha?uku"
+    },
+    "stsh": {
+      "root": [
+        "s",
+        "t",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "fibrillation (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "satïfshïf"
+    },
+    "?jm": {
+      "root": [
+        "?",
+        "j",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "fibrilization (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?ajïfmïf"
+    },
+    "gvth": {
+      "root": [
+        "g",
+        "v",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "fibrinopeptide (auto-generated)",
+      "gender": "male",
+      "citation_form": "gavatha"
+    },
+    "hkdh": {
+      "root": [
+        "h",
+        "k",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "fibrate (auto-generated)",
+      "gender": "female",
+      "citation_form": "hakodho"
+    },
+    "ljl": {
+      "root": [
+        "l",
+        "j",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "fibrine (auto-generated)",
+      "gender": "child",
+      "citation_form": "lajulu"
+    },
+    "ngy?": {
+      "root": [
+        "ng",
+        "y",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "fibrillin (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "ngayïf?ïf"
+    },
+    "shdj": {
+      "root": [
+        "sh",
+        "d",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "fiberoscopy (auto-generated)",
+      "gender": "female",
+      "citation_form": "shadojo"
+    },
+    "nbth": {
+      "root": [
+        "n",
+        "b",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "fibrinolytic (auto-generated)",
+      "gender": "child",
+      "citation_form": "nabuthu"
+    },
+    "wwm": {
+      "root": [
+        "w",
+        "w",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "fibrinoid (auto-generated)",
+      "gender": "female",
+      "citation_form": "wawomo"
     }
   },
   "adjectives": {
@@ -136743,6 +137183,106 @@
       "class": "adjective",
       "gloss": "gymnotic (auto-generated)",
       "citation_form": "thonangaka"
+    },
+    "k?b": {
+      "root": [
+        "k",
+        "?",
+        "b"
+      ],
+      "class": "adjective",
+      "gloss": "cyanographic (auto-generated)",
+      "citation_form": "ko?abaka"
+    },
+    "zhmj": {
+      "root": [
+        "zh",
+        "m",
+        "j"
+      ],
+      "class": "adjective",
+      "gloss": "cyanobacteriolytic (auto-generated)",
+      "citation_form": "zhomajaka"
+    },
+    "dmng": {
+      "root": [
+        "d",
+        "m",
+        "ng"
+      ],
+      "class": "adjective",
+      "gloss": "cyanotic (auto-generated)",
+      "citation_form": "domangaka"
+    },
+    "chchdh": {
+      "root": [
+        "ch",
+        "ch",
+        "dh"
+      ],
+      "class": "adjective",
+      "gloss": "cybercratic (auto-generated)",
+      "citation_form": "chochadhaka"
+    },
+    "sfch": {
+      "root": [
+        "s",
+        "f",
+        "ch"
+      ],
+      "class": "adjective",
+      "gloss": "cyanogenic (auto-generated)",
+      "citation_form": "sofachaka"
+    },
+    "??b": {
+      "root": [
+        "?",
+        "?",
+        "b"
+      ],
+      "class": "adjective",
+      "gloss": "cybercriminal (auto-generated)",
+      "citation_form": "?o?abaka"
+    },
+    "zhgv": {
+      "root": [
+        "zh",
+        "g",
+        "v"
+      ],
+      "class": "adjective",
+      "gloss": "cyatheaceous (auto-generated)",
+      "citation_form": "zhogavaka"
+    },
+    "gwch": {
+      "root": [
+        "g",
+        "w",
+        "ch"
+      ],
+      "class": "adjective",
+      "gloss": "cybercentric (auto-generated)",
+      "citation_form": "gowachaka"
+    },
+    "fgsh": {
+      "root": [
+        "f",
+        "g",
+        "sh"
+      ],
+      "class": "adjective",
+      "gloss": "cyanogenetic (auto-generated)",
+      "citation_form": "fogashaka"
+    },
+    "pmz": {
+      "root": [
+        "p",
+        "m",
+        "z"
+      ],
+      "class": "adjective",
+      "gloss": "cvnt (auto-generated)",
+      "citation_form": "pomazaka"
     }
   },
   "adverbs": {
@@ -150994,6 +151534,106 @@
       "class": "adverb",
       "gloss": "wgat (auto-generated)",
       "citation_form": "?amate"
+    },
+    "gngd": {
+      "root": [
+        "g",
+        "ng",
+        "d"
+      ],
+      "class": "adverb",
+      "gloss": "grasswards (auto-generated)",
+      "citation_form": "gangate"
+    },
+    "tdhdh": {
+      "root": [
+        "t",
+        "dh",
+        "dh"
+      ],
+      "class": "adverb",
+      "gloss": "gratifyingly (auto-generated)",
+      "citation_form": "tadhate"
+    },
+    "thlt": {
+      "root": [
+        "th",
+        "l",
+        "t"
+      ],
+      "class": "adverb",
+      "gloss": "granularly (auto-generated)",
+      "citation_form": "thalate"
+    },
+    "shws": {
+      "root": [
+        "sh",
+        "w",
+        "s"
+      ],
+      "class": "adverb",
+      "gloss": "grammatologically (auto-generated)",
+      "citation_form": "shawate"
+    },
+    "?lb": {
+      "root": [
+        "?",
+        "l",
+        "b"
+      ],
+      "class": "adverb",
+      "gloss": "grantedly (auto-generated)",
+      "citation_form": "?alate"
+    },
+    "thdhw": {
+      "root": [
+        "th",
+        "dh",
+        "w"
+      ],
+      "class": "adverb",
+      "gloss": "gratefully (auto-generated)",
+      "citation_form": "thadhate"
+    },
+    "zwd": {
+      "root": [
+        "z",
+        "w",
+        "d"
+      ],
+      "class": "adverb",
+      "gloss": "grassward (auto-generated)",
+      "citation_form": "zawate"
+    },
+    "ngngp": {
+      "root": [
+        "ng",
+        "ng",
+        "p"
+      ],
+      "class": "adverb",
+      "gloss": "graphetically (auto-generated)",
+      "citation_form": "ngangate"
+    },
+    "snk": {
+      "root": [
+        "s",
+        "n",
+        "k"
+      ],
+      "class": "adverb",
+      "gloss": "grassily (auto-generated)",
+      "citation_form": "sanate"
+    },
+    "rlth": {
+      "root": [
+        "r",
+        "l",
+        "th"
+      ],
+      "class": "adverb",
+      "gloss": "gratewise (auto-generated)",
+      "citation_form": "ralate"
     }
   },
   "colors": {
