@@ -54499,6 +54499,71 @@
       "class": "verb_stative",
       "gloss": "gain (auto-generated)",
       "citation_form": "yalafa"
+    },
+    "slng": {
+      "root": [
+        "s",
+        "l",
+        "ng"
+      ],
+      "class": "verb_stative",
+      "gloss": "kruppize (auto-generated)",
+      "citation_form": "salanga"
+    },
+    "thgww": {
+      "root": [
+        "th",
+        "g",
+        "w",
+        "w"
+      ],
+      "class": "verb_transitive",
+      "gloss": "kris (auto-generated)",
+      "citation_form": "kathagwewoko"
+    },
+    "jngjh": {
+      "root": [
+        "j",
+        "ng",
+        "j",
+        "h"
+      ],
+      "class": "verb_transitive",
+      "gloss": "lamblast (auto-generated)",
+      "citation_form": "kajangjehoko"
+    },
+    "wdzk": {
+      "root": [
+        "w",
+        "d",
+        "z",
+        "k"
+      ],
+      "class": "verb_transitive",
+      "gloss": "kreese (auto-generated)",
+      "citation_form": "kawadzekoko"
+    },
+    "nzjr": {
+      "root": [
+        "n",
+        "z",
+        "j",
+        "r"
+      ],
+      "class": "verb_transitive",
+      "gloss": "kreasote (auto-generated)",
+      "citation_form": "kanazjeroko"
+    },
+    "wthgk": {
+      "root": [
+        "w",
+        "th",
+        "g",
+        "k"
+      ],
+      "class": "verb_transitive",
+      "gloss": "krige (auto-generated)",
+      "citation_form": "kawathgekoko"
     }
   },
   "nouns": {
@@ -121770,6 +121835,446 @@
       "gloss": "afferentia (auto-generated)",
       "gender": "male",
       "citation_form": "?ayaga"
+    },
+    "thpg": {
+      "root": [
+        "th",
+        "p",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "chactoid (auto-generated)",
+      "gender": "female",
+      "citation_form": "thapogo"
+    },
+    "pd?": {
+      "root": [
+        "p",
+        "d",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "cgm (auto-generated)",
+      "gender": "male",
+      "citation_form": "pada?a"
+    },
+    "fgr": {
+      "root": [
+        "f",
+        "g",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "chaddock (auto-generated)",
+      "gender": "female",
+      "citation_form": "fagoro"
+    },
+    "thhb": {
+      "root": [
+        "th",
+        "h",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "chaetodon (auto-generated)",
+      "gender": "child",
+      "citation_form": "thahubu"
+    },
+    "g?y": {
+      "root": [
+        "g",
+        "?",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "chaddor (auto-generated)",
+      "gender": "male",
+      "citation_form": "ga?aya"
+    },
+    "ththl": {
+      "root": [
+        "th",
+        "th",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "chadacryst (auto-generated)",
+      "gender": "female",
+      "citation_form": "thatholo"
+    },
+    "thtb": {
+      "root": [
+        "th",
+        "t",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "chadwickite (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "thatïfbïf"
+    },
+    "gtw": {
+      "root": [
+        "g",
+        "t",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "chaconine (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "gatïfwïf"
+    },
+    "zfng": {
+      "root": [
+        "z",
+        "f",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "chafening (auto-generated)",
+      "gender": "male",
+      "citation_form": "zafanga"
+    },
+    "chlb": {
+      "root": [
+        "ch",
+        "l",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "chacate (auto-generated)",
+      "gender": "child",
+      "citation_form": "chalubu"
+    },
+    "mgy": {
+      "root": [
+        "m",
+        "g",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "chaffwax (auto-generated)",
+      "gender": "female",
+      "citation_form": "magoyo"
+    },
+    "?tb": {
+      "root": [
+        "?",
+        "t",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "chader (auto-generated)",
+      "gender": "female",
+      "citation_form": "?atobo"
+    },
+    "lsh": {
+      "root": [
+        "l",
+        "s",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "chachalaca (auto-generated)",
+      "gender": "child",
+      "citation_form": "lasuhu"
+    },
+    "jsz": {
+      "root": [
+        "j",
+        "s",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "chaeropodid (auto-generated)",
+      "gender": "male",
+      "citation_form": "jasaza"
+    },
+    "chls": {
+      "root": [
+        "ch",
+        "l",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "chaetocerotacean (auto-generated)",
+      "gender": "child",
+      "citation_form": "chalusu"
+    },
+    "zrj": {
+      "root": [
+        "z",
+        "r",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "chacotriose (auto-generated)",
+      "gender": "male",
+      "citation_form": "zaraja"
+    },
+    "dvs": {
+      "root": [
+        "d",
+        "v",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "chabob (auto-generated)",
+      "gender": "male",
+      "citation_form": "davasa"
+    },
+    "zfw": {
+      "root": [
+        "z",
+        "f",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "chaetocin (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zafïfwïf"
+    },
+    "?sng": {
+      "root": [
+        "?",
+        "s",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "chabasie (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?asïfngïf"
+    },
+    "wsl": {
+      "root": [
+        "w",
+        "s",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "chad (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "wasïflïf"
+    },
+    "ygng": {
+      "root": [
+        "y",
+        "g",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "chaffiness (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "yagïfngïf"
+    },
+    "dhnw": {
+      "root": [
+        "dh",
+        "n",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "chaffern (auto-generated)",
+      "gender": "male",
+      "citation_form": "dhanawa"
+    },
+    "hz?": {
+      "root": [
+        "h",
+        "z",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "chablis (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "hazïf?ïf"
+    },
+    "nwh": {
+      "root": [
+        "n",
+        "w",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "chabrette (auto-generated)",
+      "gender": "male",
+      "citation_form": "nawaha"
+    },
+    "jwl": {
+      "root": [
+        "j",
+        "w",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "chaconne (auto-generated)",
+      "gender": "male",
+      "citation_form": "jawala"
+    },
+    "tvt": {
+      "root": [
+        "t",
+        "v",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "chaetodontid (auto-generated)",
+      "gender": "male",
+      "citation_form": "tavata"
+    },
+    "dngh": {
+      "root": [
+        "d",
+        "ng",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "chacrona (auto-generated)",
+      "gender": "child",
+      "citation_form": "danguhu"
+    },
+    "grl": {
+      "root": [
+        "g",
+        "r",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "chachka (auto-generated)",
+      "gender": "male",
+      "citation_form": "garala"
+    },
+    "fyng": {
+      "root": [
+        "f",
+        "y",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "chacid (auto-generated)",
+      "gender": "female",
+      "citation_form": "fayongo"
+    },
+    "thzdh": {
+      "root": [
+        "th",
+        "z",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "chaas (auto-generated)",
+      "gender": "child",
+      "citation_form": "thazudhu"
+    },
+    "nws": {
+      "root": [
+        "n",
+        "w",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "chaenopsid (auto-generated)",
+      "gender": "child",
+      "citation_form": "nawusu"
+    },
+    "dthj": {
+      "root": [
+        "d",
+        "th",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "chacne (auto-generated)",
+      "gender": "female",
+      "citation_form": "dathojo"
+    },
+    "mrd": {
+      "root": [
+        "m",
+        "r",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "cgs (auto-generated)",
+      "gender": "child",
+      "citation_form": "marudu"
+    },
+    "k?y": {
+      "root": [
+        "k",
+        "?",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "chabootra (auto-generated)",
+      "gender": "female",
+      "citation_form": "ka?oyo"
+    },
+    "chdz": {
+      "root": [
+        "ch",
+        "d",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "chabudai (auto-generated)",
+      "gender": "male",
+      "citation_form": "chadaza"
+    },
+    "bk?": {
+      "root": [
+        "b",
+        "k",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "chadlock (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "bakïf?ïf"
+    },
+    "?thch": {
+      "root": [
+        "?",
+        "th",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "chactid (auto-generated)",
+      "gender": "child",
+      "citation_form": "?athuchu"
+    },
+    "bjb": {
+      "root": [
+        "b",
+        "j",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "chacco (auto-generated)",
+      "gender": "female",
+      "citation_form": "bajobo"
+    },
+    "kh?": {
+      "root": [
+        "k",
+        "h",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "chaabi (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "kahïf?ïf"
+    },
+    "gngg": {
+      "root": [
+        "g",
+        "ng",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "chadrool (auto-generated)",
+      "gender": "male",
+      "citation_form": "gangaga"
     }
   },
   "adjectives": {
@@ -137760,6 +138265,96 @@
       "class": "adjective",
       "gloss": "quacksalving (auto-generated)",
       "citation_form": "gojagaka"
+    },
+    "tshr": {
+      "root": [
+        "t",
+        "sh",
+        "r"
+      ],
+      "class": "adjective",
+      "gloss": "kyriological (auto-generated)",
+      "citation_form": "tosharaka"
+    },
+    "dshl": {
+      "root": [
+        "d",
+        "sh",
+        "l"
+      ],
+      "class": "adjective",
+      "gloss": "kyphoscoliotic (auto-generated)",
+      "citation_form": "doshalaka"
+    },
+    "?mzh": {
+      "root": [
+        "?",
+        "m",
+        "zh"
+      ],
+      "class": "adjective",
+      "gloss": "kymatic (auto-generated)",
+      "citation_form": "?omazhaka"
+    },
+    "m?th": {
+      "root": [
+        "m",
+        "?",
+        "th"
+      ],
+      "class": "adjective",
+      "gloss": "kymographic (auto-generated)",
+      "citation_form": "mo?athaka"
+    },
+    "ltzh": {
+      "root": [
+        "l",
+        "t",
+        "zh"
+      ],
+      "class": "adjective",
+      "gloss": "kyriocentric (auto-generated)",
+      "citation_form": "lotazhaka"
+    },
+    "vngt": {
+      "root": [
+        "v",
+        "ng",
+        "t"
+      ],
+      "class": "adjective",
+      "gloss": "kyphosed (auto-generated)",
+      "citation_form": "vongataka"
+    },
+    "pwch": {
+      "root": [
+        "p",
+        "w",
+        "ch"
+      ],
+      "class": "adjective",
+      "gloss": "kyphotic (auto-generated)",
+      "citation_form": "powachaka"
+    },
+    "th?s": {
+      "root": [
+        "th",
+        "?",
+        "s"
+      ],
+      "class": "adjective",
+      "gloss": "laanie (auto-generated)",
+      "citation_form": "tho?asaka"
+    },
+    "mlsh": {
+      "root": [
+        "m",
+        "l",
+        "sh"
+      ],
+      "class": "adjective",
+      "gloss": "kyriarchic (auto-generated)",
+      "citation_form": "molashaka"
     }
   },
   "adverbs": {
@@ -152211,6 +152806,106 @@
       "class": "adverb",
       "gloss": "diatopically (auto-generated)",
       "citation_form": "ngapate"
+    },
+    "?lsh": {
+      "root": [
+        "?",
+        "l",
+        "sh"
+      ],
+      "class": "adverb",
+      "gloss": "culturelessly (auto-generated)",
+      "citation_form": "?alate"
+    },
+    "ngshzh": {
+      "root": [
+        "ng",
+        "sh",
+        "zh"
+      ],
+      "class": "adverb",
+      "gloss": "cursedly (auto-generated)",
+      "citation_form": "ngashate"
+    },
+    "mshth": {
+      "root": [
+        "m",
+        "sh",
+        "th"
+      ],
+      "class": "adverb",
+      "gloss": "cumulatively (auto-generated)",
+      "citation_form": "mashate"
+    },
+    "bfg": {
+      "root": [
+        "b",
+        "f",
+        "g"
+      ],
+      "class": "adverb",
+      "gloss": "cumbersomely (auto-generated)",
+      "citation_form": "bafate"
+    },
+    "rdhy": {
+      "root": [
+        "r",
+        "dh",
+        "y"
+      ],
+      "class": "adverb",
+      "gloss": "cucullately (auto-generated)",
+      "citation_form": "radhate"
+    },
+    "lthsh": {
+      "root": [
+        "l",
+        "th",
+        "sh"
+      ],
+      "class": "adverb",
+      "gloss": "cupboardwise (auto-generated)",
+      "citation_form": "lathate"
+    },
+    "rngv": {
+      "root": [
+        "r",
+        "ng",
+        "v"
+      ],
+      "class": "adverb",
+      "gloss": "cumbrously (auto-generated)",
+      "citation_form": "rangate"
+    },
+    "mwj": {
+      "root": [
+        "m",
+        "w",
+        "j"
+      ],
+      "class": "adverb",
+      "gloss": "cultishly (auto-generated)",
+      "citation_form": "mawate"
+    },
+    "ryg": {
+      "root": [
+        "r",
+        "y",
+        "g"
+      ],
+      "class": "adverb",
+      "gloss": "currentwise (auto-generated)",
+      "citation_form": "rayate"
+    },
+    "j?l": {
+      "root": [
+        "j",
+        "?",
+        "l"
+      ],
+      "class": "adverb",
+      "gloss": "cupidinously (auto-generated)",
+      "citation_form": "ja?ate"
     }
   },
   "colors": {
