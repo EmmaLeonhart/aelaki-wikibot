@@ -54564,6 +54564,27 @@
       "class": "verb_transitive",
       "gloss": "krige (auto-generated)",
       "citation_form": "kawathgekoko"
+    },
+    "dhnlng": {
+      "root": [
+        "dh",
+        "n",
+        "l",
+        "ng"
+      ],
+      "class": "verb_transitive",
+      "gloss": "homebake (auto-generated)",
+      "citation_form": "kadhanlengoko"
+    },
+    "tjb": {
+      "root": [
+        "t",
+        "j",
+        "b"
+      ],
+      "class": "verb_active",
+      "gloss": "homebirth (auto-generated)",
+      "citation_form": "katajab"
     }
   },
   "nouns": {
@@ -122267,6 +122288,446 @@
       "gloss": "chadrool (auto-generated)",
       "gender": "male",
       "citation_form": "gangaga"
+    },
+    "nsh?": {
+      "root": [
+        "n",
+        "sh",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "tober (auto-generated)",
+      "gender": "child",
+      "citation_form": "nashu?u"
+    },
+    "fln": {
+      "root": [
+        "f",
+        "l",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "tobacker (auto-generated)",
+      "gender": "female",
+      "citation_form": "falono"
+    },
+    "szg": {
+      "root": [
+        "s",
+        "z",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "toastmaster (auto-generated)",
+      "gender": "female",
+      "citation_form": "sazogo"
+    },
+    "k?p": {
+      "root": [
+        "k",
+        "?",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "tobanjan (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "ka?ïfpïf"
+    },
+    "chht": {
+      "root": [
+        "ch",
+        "h",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "toaster (auto-generated)",
+      "gender": "male",
+      "citation_form": "chahata"
+    },
+    "hgh": {
+      "root": [
+        "h",
+        "g",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "toasty (auto-generated)",
+      "gender": "child",
+      "citation_form": "haguhu"
+    },
+    "mwy": {
+      "root": [
+        "m",
+        "w",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "tobaccoman (auto-generated)",
+      "gender": "male",
+      "citation_form": "mawaya"
+    },
+    "pdr": {
+      "root": [
+        "p",
+        "d",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "tobying (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "padïfrïf"
+    },
+    "lwf": {
+      "root": [
+        "l",
+        "w",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "tobruk (auto-generated)",
+      "gender": "child",
+      "citation_form": "lawufu"
+    },
+    "jzhy": {
+      "root": [
+        "j",
+        "zh",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "toadshade (auto-generated)",
+      "gender": "male",
+      "citation_form": "jazhaya"
+    },
+    "tcht": {
+      "root": [
+        "t",
+        "ch",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "toadyship (auto-generated)",
+      "gender": "female",
+      "citation_form": "tachoto"
+    },
+    "wthng": {
+      "root": [
+        "w",
+        "th",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "tobuterol (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "wathïfngïf"
+    },
+    "fsh?": {
+      "root": [
+        "f",
+        "sh",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "toastmaker (auto-generated)",
+      "gender": "female",
+      "citation_form": "fasho?o"
+    },
+    "spy": {
+      "root": [
+        "s",
+        "p",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "tobacciana (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "sapïfyïf"
+    },
+    "bfw": {
+      "root": [
+        "b",
+        "f",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "tnoyim (auto-generated)",
+      "gender": "male",
+      "citation_form": "bafawa"
+    },
+    "yrt": {
+      "root": [
+        "y",
+        "r",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "tobaccophile (auto-generated)",
+      "gender": "male",
+      "citation_form": "yarata"
+    },
+    "bngch": {
+      "root": [
+        "b",
+        "ng",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "toadsticker (auto-generated)",
+      "gender": "female",
+      "citation_form": "bangocho"
+    },
+    "jwm": {
+      "root": [
+        "j",
+        "w",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "toatoa (auto-generated)",
+      "gender": "male",
+      "citation_form": "jawama"
+    },
+    "bzhz": {
+      "root": [
+        "b",
+        "zh",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "toadery (auto-generated)",
+      "gender": "female",
+      "citation_form": "bazhozo"
+    },
+    "kmch": {
+      "root": [
+        "k",
+        "m",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "toadstool (auto-generated)",
+      "gender": "female",
+      "citation_form": "kamocho"
+    },
+    "hzm": {
+      "root": [
+        "h",
+        "z",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "toadroot (auto-generated)",
+      "gender": "male",
+      "citation_form": "hazama"
+    },
+    "dngj": {
+      "root": [
+        "d",
+        "ng",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "tobaccoite (auto-generated)",
+      "gender": "child",
+      "citation_form": "danguju"
+    },
+    "ydhng": {
+      "root": [
+        "y",
+        "dh",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "tobine (auto-generated)",
+      "gender": "male",
+      "citation_form": "yadhanga"
+    },
+    "mzk": {
+      "root": [
+        "m",
+        "z",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "toboggannist (auto-generated)",
+      "gender": "female",
+      "citation_form": "mazoko"
+    },
+    "blth": {
+      "root": [
+        "b",
+        "l",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "tobiano (auto-generated)",
+      "gender": "male",
+      "citation_form": "balatha"
+    },
+    "chzp": {
+      "root": [
+        "ch",
+        "z",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "toastmastery (auto-generated)",
+      "gender": "child",
+      "citation_form": "chazupu"
+    },
+    "pnp": {
+      "root": [
+        "p",
+        "n",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "toadestoole (auto-generated)",
+      "gender": "female",
+      "citation_form": "panopo"
+    },
+    "zhngn": {
+      "root": [
+        "zh",
+        "ng",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "toadyism (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zhangïfnïf"
+    },
+    "z?p": {
+      "root": [
+        "z",
+        "?",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "tobaccer (auto-generated)",
+      "gender": "male",
+      "citation_form": "za?apa"
+    },
+    "kps": {
+      "root": [
+        "k",
+        "p",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "toastmistress (auto-generated)",
+      "gender": "male",
+      "citation_form": "kapasa"
+    },
+    "njk": {
+      "root": [
+        "n",
+        "j",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "tobaccophobe (auto-generated)",
+      "gender": "male",
+      "citation_form": "najaka"
+    },
+    "yzs": {
+      "root": [
+        "y",
+        "z",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "tobosagrass (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "yazïfsïf"
+    },
+    "pdhdh": {
+      "root": [
+        "p",
+        "dh",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "toast (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "padhïfdhïf"
+    },
+    "chdy": {
+      "root": [
+        "ch",
+        "d",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "toadrush (auto-generated)",
+      "gender": "male",
+      "citation_form": "chadaya"
+    },
+    "yz?": {
+      "root": [
+        "y",
+        "z",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "tobogin (auto-generated)",
+      "gender": "male",
+      "citation_form": "yaza?a"
+    },
+    "chgb": {
+      "root": [
+        "ch",
+        "g",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "toadhead (auto-generated)",
+      "gender": "male",
+      "citation_form": "chagaba"
+    },
+    "fmd": {
+      "root": [
+        "f",
+        "m",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "toadpipe (auto-generated)",
+      "gender": "male",
+      "citation_form": "famada"
+    },
+    "wngng": {
+      "root": [
+        "w",
+        "ng",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "toastie (auto-generated)",
+      "gender": "male",
+      "citation_form": "wanganga"
+    },
+    "hsw": {
+      "root": [
+        "h",
+        "s",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "toadier (auto-generated)",
+      "gender": "male",
+      "citation_form": "hasawa"
+    },
+    "thtl": {
+      "root": [
+        "th",
+        "t",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "toadflax (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "thatïflïf"
     }
   },
   "adjectives": {
@@ -138347,6 +138808,106 @@
       "class": "adjective",
       "gloss": "kyriarchic (auto-generated)",
       "citation_form": "molashaka"
+    },
+    "fmm": {
+      "root": [
+        "f",
+        "m",
+        "m"
+      ],
+      "class": "adjective",
+      "gloss": "alabastrian (auto-generated)",
+      "citation_form": "fomamaka"
+    },
+    "dzht": {
+      "root": [
+        "d",
+        "zh",
+        "t"
+      ],
+      "class": "adjective",
+      "gloss": "alamort (auto-generated)",
+      "citation_form": "dozhataka"
+    },
+    "pshng": {
+      "root": [
+        "p",
+        "sh",
+        "ng"
+      ],
+      "class": "adjective",
+      "gloss": "alabaster (auto-generated)",
+      "citation_form": "poshangaka"
+    },
+    "ydhw": {
+      "root": [
+        "y",
+        "dh",
+        "w"
+      ],
+      "class": "adjective",
+      "gloss": "alabastre (auto-generated)",
+      "citation_form": "yodhawaka"
+    },
+    "khf": {
+      "root": [
+        "k",
+        "h",
+        "f"
+      ],
+      "class": "adjective",
+      "gloss": "alacrifying (auto-generated)",
+      "citation_form": "kohafaka"
+    },
+    "thshg": {
+      "root": [
+        "th",
+        "sh",
+        "g"
+      ],
+      "class": "adjective",
+      "gloss": "alarmist (auto-generated)",
+      "citation_form": "thoshagaka"
+    },
+    "bhz": {
+      "root": [
+        "b",
+        "h",
+        "z"
+      ],
+      "class": "adjective",
+      "gloss": "alangiaceous (auto-generated)",
+      "citation_form": "bohazaka"
+    },
+    "fshr": {
+      "root": [
+        "f",
+        "sh",
+        "r"
+      ],
+      "class": "adjective",
+      "gloss": "alarmable (auto-generated)",
+      "citation_form": "fosharaka"
+    },
+    "fj?": {
+      "root": [
+        "f",
+        "j",
+        "?"
+      ],
+      "class": "adjective",
+      "gloss": "alaryngeal (auto-generated)",
+      "citation_form": "foja?aka"
+    },
+    "yl?": {
+      "root": [
+        "y",
+        "l",
+        "?"
+      ],
+      "class": "adjective",
+      "gloss": "alactic (auto-generated)",
+      "citation_form": "yola?aka"
     }
   },
   "adverbs": {
@@ -152898,6 +153459,106 @@
       "class": "adverb",
       "gloss": "cupidinously (auto-generated)",
       "citation_form": "ja?ate"
+    },
+    "rbb": {
+      "root": [
+        "r",
+        "b",
+        "b"
+      ],
+      "class": "adverb",
+      "gloss": "multigranularly (auto-generated)",
+      "citation_form": "rabate"
+    },
+    "f?j": {
+      "root": [
+        "f",
+        "?",
+        "j"
+      ],
+      "class": "adverb",
+      "gloss": "multicentrically (auto-generated)",
+      "citation_form": "fa?ate"
+    },
+    "gngz": {
+      "root": [
+        "g",
+        "ng",
+        "z"
+      ],
+      "class": "adverb",
+      "gloss": "muddily (auto-generated)",
+      "citation_form": "gangate"
+    },
+    "zhshm": {
+      "root": [
+        "zh",
+        "sh",
+        "m"
+      ],
+      "class": "adverb",
+      "gloss": "mucosally (auto-generated)",
+      "citation_form": "zhashate"
+    },
+    "prm": {
+      "root": [
+        "p",
+        "r",
+        "m"
+      ],
+      "class": "adverb",
+      "gloss": "mucocutaneously (auto-generated)",
+      "citation_form": "parate"
+    },
+    "tdhd": {
+      "root": [
+        "t",
+        "dh",
+        "d"
+      ],
+      "class": "adverb",
+      "gloss": "multidimensionally (auto-generated)",
+      "citation_form": "tadhate"
+    },
+    "hshw": {
+      "root": [
+        "h",
+        "sh",
+        "w"
+      ],
+      "class": "adverb",
+      "gloss": "multifractally (auto-generated)",
+      "citation_form": "hashate"
+    },
+    "zmn": {
+      "root": [
+        "z",
+        "m",
+        "n"
+      ],
+      "class": "adverb",
+      "gloss": "mulierly (auto-generated)",
+      "citation_form": "zamate"
+    },
+    "br?": {
+      "root": [
+        "b",
+        "r",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "multiannually (auto-generated)",
+      "citation_form": "barate"
+    },
+    "?pv": {
+      "root": [
+        "?",
+        "p",
+        "v"
+      ],
+      "class": "adverb",
+      "gloss": "muchly (auto-generated)",
+      "citation_form": "?apate"
     }
   },
   "colors": {
