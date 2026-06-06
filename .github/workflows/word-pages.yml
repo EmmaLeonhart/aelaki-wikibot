@@ -50,6 +50,9 @@ concurrency:
 #   - grammar/ files are stale → next pull will re-fetch them.
 # -----------------------------------------------------------------------------
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   create-word-pages:
     runs-on: ubuntu-latest
