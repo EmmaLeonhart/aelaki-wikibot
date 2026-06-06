@@ -54585,6 +54585,39 @@
       "class": "verb_active",
       "gloss": "homebirth (auto-generated)",
       "citation_form": "katajab"
+    },
+    "znvsh": {
+      "root": [
+        "z",
+        "n",
+        "v",
+        "sh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "lask (auto-generated)",
+      "citation_form": "kazanveshoko"
+    },
+    "bknz": {
+      "root": [
+        "b",
+        "k",
+        "n",
+        "z"
+      ],
+      "class": "verb_transitive",
+      "gloss": "laske (auto-generated)",
+      "citation_form": "kabaknezoko"
+    },
+    "dwzh?": {
+      "root": [
+        "d",
+        "w",
+        "zh",
+        "?"
+      ],
+      "class": "verb_transitive",
+      "gloss": "lasso (auto-generated)",
+      "citation_form": "kadawzhe?oko"
     }
   },
   "nouns": {
@@ -122737,6 +122770,446 @@
       "gender": "female",
       "citation_form": "thatolo",
       "old_citation_form": "thatïflïf"
+    },
+    "mdy": {
+      "root": [
+        "m",
+        "d",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "zunana (auto-generated)",
+      "gender": "male",
+      "citation_form": "madaya"
+    },
+    "m?r": {
+      "root": [
+        "m",
+        "?",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "zygnematophycean (auto-generated)",
+      "gender": "female",
+      "citation_form": "ma?oro"
+    },
+    "rjzh": {
+      "root": [
+        "r",
+        "j",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "zybavirus (auto-generated)",
+      "gender": "child",
+      "citation_form": "rajuzhu"
+    },
+    "vchg": {
+      "root": [
+        "v",
+        "ch",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "zwitterionomer (auto-generated)",
+      "gender": "female",
+      "citation_form": "vachogo"
+    },
+    "nfzh": {
+      "root": [
+        "n",
+        "f",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "zuza (auto-generated)",
+      "gender": "female",
+      "citation_form": "nafozho"
+    },
+    "ppsh": {
+      "root": [
+        "p",
+        "p",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "zumbi (auto-generated)",
+      "gender": "male",
+      "citation_form": "papasha"
+    },
+    "m?zh": {
+      "root": [
+        "m",
+        "?",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "zygaenid (auto-generated)",
+      "gender": "male",
+      "citation_form": "ma?azha"
+    },
+    "hsr": {
+      "root": [
+        "h",
+        "s",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "zygomaticoauricularis (auto-generated)",
+      "gender": "male",
+      "citation_form": "hasara"
+    },
+    "mngv": {
+      "root": [
+        "m",
+        "ng",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "zuz (auto-generated)",
+      "gender": "male",
+      "citation_form": "mangava"
+    },
+    "zshng": {
+      "root": [
+        "z",
+        "sh",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "zygodactylae (auto-generated)",
+      "gender": "female",
+      "citation_form": "zashongo"
+    },
+    "shrk": {
+      "root": [
+        "sh",
+        "r",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "zuclomifene (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "sharïfkïf"
+    },
+    "ngrzh": {
+      "root": [
+        "ng",
+        "r",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "zubr (auto-generated)",
+      "gender": "child",
+      "citation_form": "ngaruzhu"
+    },
+    "kzl": {
+      "root": [
+        "k",
+        "z",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "zygacine (auto-generated)",
+      "gender": "male",
+      "citation_form": "kazala"
+    },
+    "j?w": {
+      "root": [
+        "j",
+        "?",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "zygokrotaphy (auto-generated)",
+      "gender": "child",
+      "citation_form": "ja?uwu"
+    },
+    "bfb": {
+      "root": [
+        "b",
+        "f",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "zumology (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "bafïfbïf"
+    },
+    "vnm": {
+      "root": [
+        "v",
+        "n",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "zucchina (auto-generated)",
+      "gender": "male",
+      "citation_form": "vanama"
+    },
+    "fzhng": {
+      "root": [
+        "f",
+        "zh",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "zuclopenthixol (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "fazhïfngïf"
+    },
+    "bsr": {
+      "root": [
+        "b",
+        "s",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "zucchetto (auto-generated)",
+      "gender": "female",
+      "citation_form": "basoro"
+    },
+    "vl?": {
+      "root": [
+        "v",
+        "l",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "zucchetta (auto-generated)",
+      "gender": "male",
+      "citation_form": "vala?a"
+    },
+    "ng?r": {
+      "root": [
+        "ng",
+        "?",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "zygion (auto-generated)",
+      "gender": "male",
+      "citation_form": "nga?ara"
+    },
+    "rsth": {
+      "root": [
+        "r",
+        "s",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "zwinger (auto-generated)",
+      "gender": "male",
+      "citation_form": "rasatha"
+    },
+    "s?r": {
+      "root": [
+        "s",
+        "?",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "zwieselite (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "sa?ïfrïf"
+    },
+    "wvng": {
+      "root": [
+        "w",
+        "v",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "zulbia (auto-generated)",
+      "gender": "child",
+      "citation_form": "wavungu"
+    },
+    "zdch": {
+      "root": [
+        "z",
+        "d",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "zutho (auto-generated)",
+      "gender": "female",
+      "citation_form": "zadocho"
+    },
+    "dhtr": {
+      "root": [
+        "dh",
+        "t",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "zuigerphobia (auto-generated)",
+      "gender": "child",
+      "citation_form": "dhaturu"
+    },
+    "dzhzh": {
+      "root": [
+        "d",
+        "zh",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "zrazy (auto-generated)",
+      "gender": "child",
+      "citation_form": "dazhuzhu"
+    },
+    "dhm?": {
+      "root": [
+        "dh",
+        "m",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "zurkhaneh (auto-generated)",
+      "gender": "child",
+      "citation_form": "dhamu?u"
+    },
+    "rvl": {
+      "root": [
+        "r",
+        "v",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "zupa (auto-generated)",
+      "gender": "male",
+      "citation_form": "ravala"
+    },
+    "mly": {
+      "root": [
+        "m",
+        "l",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "zumeendar (auto-generated)",
+      "gender": "female",
+      "citation_form": "maloyo"
+    },
+    "msk": {
+      "root": [
+        "m",
+        "s",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "zygapophysis (auto-generated)",
+      "gender": "child",
+      "citation_form": "masuku"
+    },
+    "kngng": {
+      "root": [
+        "k",
+        "ng",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "zygadite (auto-generated)",
+      "gender": "female",
+      "citation_form": "kangongo"
+    },
+    "?n?": {
+      "root": [
+        "?",
+        "n",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "zygobolbid (auto-generated)",
+      "gender": "male",
+      "citation_form": "?ana?a"
+    },
+    "gnj": {
+      "root": [
+        "g",
+        "n",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "zygology (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "ganïfjïf"
+    },
+    "bvj": {
+      "root": [
+        "b",
+        "v",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "zwittergent (auto-generated)",
+      "gender": "child",
+      "citation_form": "bavuju"
+    },
+    "dhns": {
+      "root": [
+        "dh",
+        "n",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "zygodactyle (auto-generated)",
+      "gender": "male",
+      "citation_form": "dhanasa"
+    },
+    "pngg": {
+      "root": [
+        "p",
+        "ng",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "zuffolo (auto-generated)",
+      "gender": "female",
+      "citation_form": "pangogo"
+    },
+    "pwm": {
+      "root": [
+        "p",
+        "w",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "zwischenschach (auto-generated)",
+      "gender": "male",
+      "citation_form": "pawama"
+    },
+    "?chh": {
+      "root": [
+        "?",
+        "ch",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "zwischenzug (auto-generated)",
+      "gender": "female",
+      "citation_form": "?achoho"
+    },
+    "ngshh": {
+      "root": [
+        "ng",
+        "sh",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "zuclopentixole (auto-generated)",
+      "gender": "female",
+      "citation_form": "ngashoho"
+    },
+    "wlr": {
+      "root": [
+        "w",
+        "l",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "zygadenine (auto-generated)",
+      "gender": "female",
+      "citation_form": "waloro"
     }
   },
   "adjectives": {
@@ -138917,6 +139390,106 @@
       "class": "adjective",
       "gloss": "alactic (auto-generated)",
       "citation_form": "yola?aka"
+    },
+    "jvj": {
+      "root": [
+        "j",
+        "v",
+        "j"
+      ],
+      "class": "adjective",
+      "gloss": "cedry (auto-generated)",
+      "citation_form": "jovajaka"
+    },
+    "shyzh": {
+      "root": [
+        "sh",
+        "y",
+        "zh"
+      ],
+      "class": "adjective",
+      "gloss": "ceilingless (auto-generated)",
+      "citation_form": "shoyazhaka"
+    },
+    "hzf": {
+      "root": [
+        "h",
+        "z",
+        "f"
+      ],
+      "class": "adjective",
+      "gloss": "celebratable (auto-generated)",
+      "citation_form": "hozafaka"
+    },
+    "lngb": {
+      "root": [
+        "l",
+        "ng",
+        "b"
+      ],
+      "class": "adjective",
+      "gloss": "ceilinglike (auto-generated)",
+      "citation_form": "longabaka"
+    },
+    "zv?": {
+      "root": [
+        "z",
+        "v",
+        "?"
+      ],
+      "class": "adjective",
+      "gloss": "ceiled (auto-generated)",
+      "citation_form": "zova?aka"
+    },
+    "tych": {
+      "root": [
+        "t",
+        "y",
+        "ch"
+      ],
+      "class": "adjective",
+      "gloss": "cedrelaceous (auto-generated)",
+      "citation_form": "toyachaka"
+    },
+    "bch?": {
+      "root": [
+        "b",
+        "ch",
+        "?"
+      ],
+      "class": "adjective",
+      "gloss": "celastraceous (auto-generated)",
+      "citation_form": "bocha?aka"
+    },
+    "ngfs": {
+      "root": [
+        "ng",
+        "f",
+        "s"
+      ],
+      "class": "adjective",
+      "gloss": "ceilinged (auto-generated)",
+      "citation_form": "ngofasaka"
+    },
+    "shbzh": {
+      "root": [
+        "sh",
+        "b",
+        "zh"
+      ],
+      "class": "adjective",
+      "gloss": "ceaseless (auto-generated)",
+      "citation_form": "shobazhaka"
+    },
+    "hthng": {
+      "root": [
+        "h",
+        "th",
+        "ng"
+      ],
+      "class": "adjective",
+      "gloss": "cedrine (auto-generated)",
+      "citation_form": "hothangaka"
     }
   },
   "adverbs": {
@@ -153568,6 +154141,106 @@
       "class": "adverb",
       "gloss": "muchly (auto-generated)",
       "citation_form": "?apate"
+    },
+    "thsl": {
+      "root": [
+        "th",
+        "s",
+        "l"
+      ],
+      "class": "adverb",
+      "gloss": "foorth (auto-generated)",
+      "citation_form": "thasate"
+    },
+    "vthj": {
+      "root": [
+        "v",
+        "th",
+        "j"
+      ],
+      "class": "adverb",
+      "gloss": "folklorically (auto-generated)",
+      "citation_form": "vathate"
+    },
+    "?bz": {
+      "root": [
+        "?",
+        "b",
+        "z"
+      ],
+      "class": "adverb",
+      "gloss": "foodwise (auto-generated)",
+      "citation_form": "?abate"
+    },
+    "jrf": {
+      "root": [
+        "j",
+        "r",
+        "f"
+      ],
+      "class": "adverb",
+      "gloss": "follically (auto-generated)",
+      "citation_form": "jarate"
+    },
+    "?dhn": {
+      "root": [
+        "?",
+        "dh",
+        "n"
+      ],
+      "class": "adverb",
+      "gloss": "footlessly (auto-generated)",
+      "citation_form": "?adhate"
+    },
+    "fhf": {
+      "root": [
+        "f",
+        "h",
+        "f"
+      ],
+      "class": "adverb",
+      "gloss": "foothot (auto-generated)",
+      "citation_form": "fahate"
+    },
+    "vng?": {
+      "root": [
+        "v",
+        "ng",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "foorthwith (auto-generated)",
+      "citation_form": "vangate"
+    },
+    "z?s": {
+      "root": [
+        "z",
+        "?",
+        "s"
+      ],
+      "class": "adverb",
+      "gloss": "foppishly (auto-generated)",
+      "citation_form": "za?ate"
+    },
+    "?fw": {
+      "root": [
+        "?",
+        "f",
+        "w"
+      ],
+      "class": "adverb",
+      "gloss": "foraminally (auto-generated)",
+      "citation_form": "?afate"
+    },
+    "dhfr": {
+      "root": [
+        "dh",
+        "f",
+        "r"
+      ],
+      "class": "adverb",
+      "gloss": "foolishly (auto-generated)",
+      "citation_form": "dhafate"
     }
   },
   "colors": {
