@@ -2008,6 +2008,20 @@ Short hashes are used in [[Category:Word pages|word page]] version categories (e
 | 2026-06-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a919bf6cfdf0f6887119543276e6005567c1524a a919bf6c] || [[:Category:Words a919bf6c|Words a919bf6c]] || [[:Category:Non-lemma forms a919bf6c|Non-lemma a919bf6c]] || chore(state): post-grammar-sync [skip ci]
 |-
 | 2026-06-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/c20a31070134fcc48d13eb06717b373a534911fc c20a3107] || [[:Category:Words c20a3107|Words c20a3107]] || [[:Category:Non-lemma forms c20a3107|Non-lemma c20a3107]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-06-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/9e4ee02d1177ce87541f688daea7229351b7cce7 9e4ee02d] || [[:Category:Words 9e4ee02d|Words 9e4ee02d]] || [[:Category:Non-lemma forms 9e4ee02d|Non-lemma 9e4ee02d]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-06-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/f02f3b0527d36775999b4d363e7ab620c00c308a f02f3b05] || [[:Category:Words f02f3b05|Words f02f3b05]] || [[:Category:Non-lemma forms f02f3b05|Non-lemma f02f3b05]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-06-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/5b84d66920f195a933c3878e0c17fa0c5eb77841 5b84d669] || [[:Category:Words 5b84d669|Words 5b84d669]] || [[:Category:Non-lemma forms 5b84d669|Non-lemma 5b84d669]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-06-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/f23a13535b25689eb65681907a85c7aa0f80cabc f23a1353] || [[:Category:Words f23a1353|Words f23a1353]] || [[:Category:Non-lemma forms f23a1353|Non-lemma f23a1353]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-06-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/ef7306051a8bd93a7a74385ed7dcea718da2a4d0 ef730605] || [[:Category:Words ef730605|Words ef730605]] || [[:Category:Non-lemma forms ef730605|Non-lemma ef730605]] || ci: opt Actions into Node 24 (FORCE_JAVASCRIPT_ACTIONS_TO_NODE24)
+|-
+| 2026-06-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/f2a63e40310ca18948406b690410ddc30f50e8c4 f2a63e40] || [[:Category:Words f2a63e40|Words f2a63e40]] || [[:Category:Non-lemma forms f2a63e40|Non-lemma f2a63e40]] || chore(state): post-grammar-sync [skip ci]
+|-
+| 2026-06-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/7cadd8dd58bcc13cefba637df48ed44f926cfd74 7cadd8dd] || [[:Category:Words 7cadd8dd|Words 7cadd8dd]] || [[:Category:Non-lemma forms 7cadd8dd|Non-lemma 7cadd8dd]] || chore(state): rebuild version history from git log [skip ci]
 |}
 
 [[Category:git synced pages]]
