@@ -55479,6 +55479,17 @@
       "class": "verb_transitive",
       "gloss": "romanticise (auto-generated)",
       "citation_form": "karatshedoko"
+    },
+    "khmzh": {
+      "root": [
+        "k",
+        "h",
+        "m",
+        "zh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "yummify (auto-generated)",
+      "citation_form": "kakahmezhoko"
     }
   },
   "nouns": {
@@ -125032,6 +125043,325 @@
       "gloss": "crabronid (auto-generated)",
       "gender": "female",
       "citation_form": "fahodo"
+    },
+    "thld": {
+      "root": [
+        "th",
+        "l",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "fibroleukin (auto-generated)",
+      "gender": "female",
+      "citation_form": "thalodo"
+    },
+    "zhrsh": {
+      "root": [
+        "zh",
+        "r",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "fibroelastoma (auto-generated)",
+      "gender": "male",
+      "citation_form": "zharasha"
+    },
+    "mthk": {
+      "root": [
+        "m",
+        "th",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "fibrocystin (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "mathïfkïf"
+    },
+    "rrv": {
+      "root": [
+        "r",
+        "r",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "fibroin (auto-generated)",
+      "gender": "male",
+      "citation_form": "rarava"
+    },
+    "yrr": {
+      "root": [
+        "y",
+        "r",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "fibrohexamerin (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "yarïfrïf"
+    },
+    "rll": {
+      "root": [
+        "r",
+        "l",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "fibroidectomy (auto-generated)",
+      "gender": "female",
+      "citation_form": "ralolo"
+    },
+    "jdhv": {
+      "root": [
+        "j",
+        "dh",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "fibroglia (auto-generated)",
+      "gender": "child",
+      "citation_form": "jadhuvu"
+    },
+    "vhv": {
+      "root": [
+        "v",
+        "h",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "fibrohyalinosis (auto-generated)",
+      "gender": "male",
+      "citation_form": "vahava"
+    },
+    "kshm": {
+      "root": [
+        "k",
+        "sh",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "fibroelastography (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "kashïfmïf"
+    },
+    "chfng": {
+      "root": [
+        "ch",
+        "f",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "fibroatheroma (auto-generated)",
+      "gender": "female",
+      "citation_form": "chafongo"
+    },
+    "nchd": {
+      "root": [
+        "n",
+        "ch",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "fibroid (auto-generated)",
+      "gender": "male",
+      "citation_form": "nachada"
+    },
+    "tbt": {
+      "root": [
+        "t",
+        "b",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "fibroatrophy (auto-generated)",
+      "gender": "male",
+      "citation_form": "tabata"
+    },
+    "hsth": {
+      "root": [
+        "h",
+        "s",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "fibroinflammation (auto-generated)",
+      "gender": "female",
+      "citation_form": "hasotho"
+    },
+    "dhshm": {
+      "root": [
+        "dh",
+        "sh",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "fibrolase (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "dhashïfmïf"
+    },
+    "sdsh": {
+      "root": [
+        "s",
+        "d",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "fibrokeratoma (auto-generated)",
+      "gender": "child",
+      "citation_form": "sadushu"
+    },
+    "pnz": {
+      "root": [
+        "p",
+        "n",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "fibrogenesis (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "panïfzïf"
+    },
+    "fldh": {
+      "root": [
+        "f",
+        "l",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "fibering (auto-generated)",
+      "gender": "male",
+      "citation_form": "faladha"
+    },
+    "vmy": {
+      "root": [
+        "v",
+        "m",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "fibrogenicity (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "vamïfyïf"
+    },
+    "thhh": {
+      "root": [
+        "th",
+        "h",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "fibrogastroscope (auto-generated)",
+      "gender": "male",
+      "citation_form": "thahaha"
+    },
+    "rgv": {
+      "root": [
+        "r",
+        "g",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "fibroleiomyoma (auto-generated)",
+      "gender": "child",
+      "citation_form": "raguvu"
+    },
+    "dhdb": {
+      "root": [
+        "dh",
+        "d",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "fibrobronchoscope (auto-generated)",
+      "gender": "child",
+      "citation_form": "dhadubu"
+    },
+    "vt?": {
+      "root": [
+        "v",
+        "t",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "fibroendoscopy (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "vatïf?ïf"
+    },
+    "thwdh": {
+      "root": [
+        "th",
+        "w",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "fibrodysplasia (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "thawïfdhïf"
+    },
+    "nthn": {
+      "root": [
+        "n",
+        "th",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "fibrochondrogenesis (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "nathïfnïf"
+    },
+    "shgl": {
+      "root": [
+        "sh",
+        "g",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "fibroglycemia (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "shagïflïf"
+    },
+    "bdm": {
+      "root": [
+        "b",
+        "d",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "fibroadipocyte (auto-generated)",
+      "gender": "female",
+      "citation_form": "badomo"
+    },
+    "ydp": {
+      "root": [
+        "y",
+        "d",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "fibrogranuloma (auto-generated)",
+      "gender": "female",
+      "citation_form": "yadopo"
+    },
+    "tbl": {
+      "root": [
+        "t",
+        "b",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "fibrocyte (auto-generated)",
+      "gender": "child",
+      "citation_form": "tabulu"
+    },
+    "zhs": {
+      "root": [
+        "z",
+        "h",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "fibrohistiocytoma (auto-generated)",
+      "gender": "child",
+      "citation_form": "zahusu"
     }
   },
   "adjectives": {
@@ -141512,6 +141842,106 @@
       "class": "adjective",
       "gloss": "moatlike (auto-generated)",
       "citation_form": "bomahaka"
+    },
+    "rs?": {
+      "root": [
+        "r",
+        "s",
+        "?"
+      ],
+      "class": "adjective",
+      "gloss": "outboard (auto-generated)",
+      "citation_form": "rosa?aka"
+    },
+    "??v": {
+      "root": [
+        "?",
+        "?",
+        "v"
+      ],
+      "class": "adjective",
+      "gloss": "ouchless (auto-generated)",
+      "citation_form": "?o?avaka"
+    },
+    "zhy?": {
+      "root": [
+        "zh",
+        "y",
+        "?"
+      ],
+      "class": "adjective",
+      "gloss": "ourie (auto-generated)",
+      "citation_form": "zhoya?aka"
+    },
+    "vdk": {
+      "root": [
+        "v",
+        "d",
+        "k"
+      ],
+      "class": "adjective",
+      "gloss": "outblown (auto-generated)",
+      "citation_form": "vodakaka"
+    },
+    "zhk?": {
+      "root": [
+        "zh",
+        "k",
+        "?"
+      ],
+      "class": "adjective",
+      "gloss": "outbeaming (auto-generated)",
+      "citation_form": "zhoka?aka"
+    },
+    "lgsh": {
+      "root": [
+        "l",
+        "g",
+        "sh"
+      ],
+      "class": "adjective",
+      "gloss": "ouretic (auto-generated)",
+      "citation_form": "logashaka"
+    },
+    "?tt": {
+      "root": [
+        "?",
+        "t",
+        "t"
+      ],
+      "class": "adjective",
+      "gloss": "ouchy (auto-generated)",
+      "citation_form": "?otataka"
+    },
+    "ngfy": {
+      "root": [
+        "ng",
+        "f",
+        "y"
+      ],
+      "class": "adjective",
+      "gloss": "outbond (auto-generated)",
+      "citation_form": "ngofayaka"
+    },
+    "yrng": {
+      "root": [
+        "y",
+        "r",
+        "ng"
+      ],
+      "class": "adjective",
+      "gloss": "outbowed (auto-generated)",
+      "citation_form": "yorangaka"
+    },
+    "jshth": {
+      "root": [
+        "j",
+        "sh",
+        "th"
+      ],
+      "class": "adjective",
+      "gloss": "outbursted (auto-generated)",
+      "citation_form": "joshathaka"
     }
   },
   "adverbs": {
