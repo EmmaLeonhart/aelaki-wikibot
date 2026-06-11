@@ -126508,6 +126508,446 @@
       "gender": "male",
       "citation_form": "ranapa",
       "old_citation_form": "ranïfpïf"
+    },
+    "ngjzh": {
+      "root": [
+        "ng",
+        "j",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "koenoline (auto-generated)",
+      "gender": "child",
+      "citation_form": "ngajuzhu"
+    },
+    "ypsh": {
+      "root": [
+        "y",
+        "p",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "koboko (auto-generated)",
+      "gender": "child",
+      "citation_form": "yapushu"
+    },
+    "lfg": {
+      "root": [
+        "l",
+        "f",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "koekchuch (auto-generated)",
+      "gender": "female",
+      "citation_form": "lafogo"
+    },
+    "hbzh": {
+      "root": [
+        "h",
+        "b",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "koeksister (auto-generated)",
+      "gender": "child",
+      "citation_form": "habuzhu"
+    },
+    "ngfg": {
+      "root": [
+        "ng",
+        "f",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "koineization (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "ngafïfgïf"
+    },
+    "bjzh": {
+      "root": [
+        "b",
+        "j",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "koholiine (auto-generated)",
+      "gender": "male",
+      "citation_form": "bajazha"
+    },
+    "rsn": {
+      "root": [
+        "r",
+        "s",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "kogiid (auto-generated)",
+      "gender": "male",
+      "citation_form": "rasana"
+    },
+    "vdv": {
+      "root": [
+        "v",
+        "d",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "kobresia (auto-generated)",
+      "gender": "male",
+      "citation_form": "vadava"
+    },
+    "?szh": {
+      "root": [
+        "?",
+        "s",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "kodomo (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?asïfzhïf"
+    },
+    "vng": {
+      "root": [
+        "v",
+        "n",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "koenine (auto-generated)",
+      "gender": "female",
+      "citation_form": "vanogo"
+    },
+    "?ngh": {
+      "root": [
+        "?",
+        "ng",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "kobuvirus (auto-generated)",
+      "gender": "female",
+      "citation_form": "?angoho"
+    },
+    "ddng": {
+      "root": [
+        "d",
+        "d",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "koff (auto-generated)",
+      "gender": "child",
+      "citation_form": "dadungu"
+    },
+    "dhngch": {
+      "root": [
+        "dh",
+        "ng",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "koan (auto-generated)",
+      "gender": "male",
+      "citation_form": "dhangacha"
+    },
+    "chpr": {
+      "root": [
+        "ch",
+        "p",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "kogelmogel (auto-generated)",
+      "gender": "male",
+      "citation_form": "chapara"
+    },
+    "lvk": {
+      "root": [
+        "l",
+        "v",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "kobald (auto-generated)",
+      "gender": "child",
+      "citation_form": "lavuku"
+    },
+    "dtd": {
+      "root": [
+        "d",
+        "t",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "koali (auto-generated)",
+      "gender": "child",
+      "citation_form": "datudu"
+    },
+    "zfth": {
+      "root": [
+        "z",
+        "f",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "koftgaree (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zafïfthïf"
+    },
+    "dhnp": {
+      "root": [
+        "dh",
+        "n",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "kobyz (auto-generated)",
+      "gender": "female",
+      "citation_form": "dhanopo"
+    },
+    "chyb": {
+      "root": [
+        "ch",
+        "y",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "koimesis (auto-generated)",
+      "gender": "female",
+      "citation_form": "chayobo"
+    },
+    "srr": {
+      "root": [
+        "s",
+        "r",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "kogarkoite (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "sarïfrïf"
+    },
+    "?kk": {
+      "root": [
+        "?",
+        "k",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "kohl (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?akïfkïf"
+    },
+    "thlzh": {
+      "root": [
+        "th",
+        "l",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "kodaker (auto-generated)",
+      "gender": "female",
+      "citation_form": "thalozho"
+    },
+    "zhthl": {
+      "root": [
+        "zh",
+        "th",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "koenenite (auto-generated)",
+      "gender": "female",
+      "citation_form": "zhatholo"
+    },
+    "ptm": {
+      "root": [
+        "p",
+        "t",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "koenidine (auto-generated)",
+      "gender": "male",
+      "citation_form": "patama"
+    },
+    "shm?": {
+      "root": [
+        "sh",
+        "m",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "kodakist (auto-generated)",
+      "gender": "male",
+      "citation_form": "shama?a"
+    },
+    "gmy": {
+      "root": [
+        "g",
+        "m",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "koineisation (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "gamïfyïf"
+    },
+    "zkw": {
+      "root": [
+        "z",
+        "k",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "koban (auto-generated)",
+      "gender": "female",
+      "citation_form": "zakowo"
+    },
+    "rkp": {
+      "root": [
+        "r",
+        "k",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "kogo (auto-generated)",
+      "gender": "male",
+      "citation_form": "rakapa"
+    },
+    "vrw": {
+      "root": [
+        "v",
+        "r",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "koilosternia (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "varïfwïf"
+    },
+    "ghf": {
+      "root": [
+        "g",
+        "h",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "koina (auto-generated)",
+      "gender": "female",
+      "citation_form": "gahofo"
+    },
+    "sgp": {
+      "root": [
+        "s",
+        "g",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "koinonia (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "sagïfpïf"
+    },
+    "ng?t": {
+      "root": [
+        "ng",
+        "?",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "kogaionid (auto-generated)",
+      "gender": "male",
+      "citation_form": "nga?ata"
+    },
+    "sdj": {
+      "root": [
+        "s",
+        "d",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "kochkarite (auto-generated)",
+      "gender": "male",
+      "citation_form": "sadaja"
+    },
+    "knth": {
+      "root": [
+        "k",
+        "n",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "kofer (auto-generated)",
+      "gender": "female",
+      "citation_form": "kanotho"
+    },
+    "vchzh": {
+      "root": [
+        "v",
+        "ch",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "kodo (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "vachïfzhïf"
+    },
+    "lyth": {
+      "root": [
+        "l",
+        "y",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "koft (auto-generated)",
+      "gender": "child",
+      "citation_form": "layuthu"
+    },
+    "fshdh": {
+      "root": [
+        "f",
+        "sh",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "koinon (auto-generated)",
+      "gender": "female",
+      "citation_form": "fashodho"
+    },
+    "kjt": {
+      "root": [
+        "k",
+        "j",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "kochliarion (auto-generated)",
+      "gender": "female",
+      "citation_form": "kajoto"
+    },
+    "dh?f": {
+      "root": [
+        "dh",
+        "?",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "koinobiont (auto-generated)",
+      "gender": "female",
+      "citation_form": "dha?ofo"
+    },
+    "?ys": {
+      "root": [
+        "?",
+        "y",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "kobocha (auto-generated)",
+      "gender": "male",
+      "citation_form": "?ayasa"
     }
   },
   "adjectives": {
@@ -143288,6 +143728,106 @@
       "class": "adjective",
       "gloss": "squamelliform (auto-generated)",
       "citation_form": "shofazhaka"
+    },
+    "nby": {
+      "root": [
+        "n",
+        "b",
+        "y"
+      ],
+      "class": "adjective",
+      "gloss": "pterotic (auto-generated)",
+      "citation_form": "nobayaka"
+    },
+    "zthv": {
+      "root": [
+        "z",
+        "th",
+        "v"
+      ],
+      "class": "adjective",
+      "gloss": "pteridoid (auto-generated)",
+      "citation_form": "zothavaka"
+    },
+    "ngfch": {
+      "root": [
+        "ng",
+        "f",
+        "ch"
+      ],
+      "class": "adjective",
+      "gloss": "pterinic (auto-generated)",
+      "citation_form": "ngofachaka"
+    },
+    "tkr": {
+      "root": [
+        "t",
+        "k",
+        "r"
+      ],
+      "class": "adjective",
+      "gloss": "pteridospermous (auto-generated)",
+      "citation_form": "tokaraka"
+    },
+    "vjw": {
+      "root": [
+        "v",
+        "j",
+        "w"
+      ],
+      "class": "adjective",
+      "gloss": "pterocardiac (auto-generated)",
+      "citation_form": "vojawaka"
+    },
+    "tthk": {
+      "root": [
+        "t",
+        "th",
+        "k"
+      ],
+      "class": "adjective",
+      "gloss": "pterygoparoccipital (auto-generated)",
+      "citation_form": "tothakaka"
+    },
+    "mzhr": {
+      "root": [
+        "m",
+        "zh",
+        "r"
+      ],
+      "class": "adjective",
+      "gloss": "pterochorous (auto-generated)",
+      "citation_form": "mozharaka"
+    },
+    "zhvl": {
+      "root": [
+        "zh",
+        "v",
+        "l"
+      ],
+      "class": "adjective",
+      "gloss": "pterygomaxillary (auto-generated)",
+      "citation_form": "zhovalaka"
+    },
+    "dhzp": {
+      "root": [
+        "dh",
+        "z",
+        "p"
+      ],
+      "class": "adjective",
+      "gloss": "pterygostomial (auto-generated)",
+      "citation_form": "dhozapaka"
+    },
+    "hthk": {
+      "root": [
+        "h",
+        "th",
+        "k"
+      ],
+      "class": "adjective",
+      "gloss": "ptenoglossate (auto-generated)",
+      "citation_form": "hothakaka"
     }
   },
   "adverbs": {
@@ -158339,6 +158879,106 @@
       "class": "adverb",
       "gloss": "wheezingly (auto-generated)",
       "citation_form": "zha?ate"
+    },
+    "d?d": {
+      "root": [
+        "d",
+        "?",
+        "d"
+      ],
+      "class": "adverb",
+      "gloss": "yowzah (auto-generated)",
+      "citation_form": "da?ate"
+    },
+    "d?ng": {
+      "root": [
+        "d",
+        "?",
+        "ng"
+      ],
+      "class": "adverb",
+      "gloss": "yuppity (auto-generated)",
+      "citation_form": "da?ate"
+    },
+    "thyk": {
+      "root": [
+        "th",
+        "y",
+        "k"
+      ],
+      "class": "adverb",
+      "gloss": "yonside (auto-generated)",
+      "citation_form": "thayate"
+    },
+    "sdn": {
+      "root": [
+        "s",
+        "d",
+        "n"
+      ],
+      "class": "adverb",
+      "gloss": "yogically (auto-generated)",
+      "citation_form": "sadate"
+    },
+    "hzsh": {
+      "root": [
+        "h",
+        "z",
+        "sh"
+      ],
+      "class": "adverb",
+      "gloss": "yummily (auto-generated)",
+      "citation_form": "hazate"
+    },
+    "zj?": {
+      "root": [
+        "z",
+        "j",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "younder (auto-generated)",
+      "citation_form": "zajate"
+    },
+    "chthg": {
+      "root": [
+        "ch",
+        "th",
+        "g"
+      ],
+      "class": "adverb",
+      "gloss": "youthwards (auto-generated)",
+      "citation_form": "chathate"
+    },
+    "chrsh": {
+      "root": [
+        "ch",
+        "r",
+        "sh"
+      ],
+      "class": "adverb",
+      "gloss": "yrly (auto-generated)",
+      "citation_form": "charate"
+    },
+    "chthp": {
+      "root": [
+        "ch",
+        "th",
+        "p"
+      ],
+      "class": "adverb",
+      "gloss": "ylike (auto-generated)",
+      "citation_form": "chathate"
+    },
+    "jtb": {
+      "root": [
+        "j",
+        "t",
+        "b"
+      ],
+      "class": "adverb",
+      "gloss": "youthfully (auto-generated)",
+      "citation_form": "jatate"
     }
   },
   "colors": {
