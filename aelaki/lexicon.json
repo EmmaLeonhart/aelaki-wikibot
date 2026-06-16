@@ -57231,6 +57231,148 @@
       "class": "verb_transitive",
       "gloss": "geno (auto-generated)",
       "citation_form": "kamajchekoko"
+    },
+    "szzhs": {
+      "root": [
+        "s",
+        "z",
+        "zh",
+        "s"
+      ],
+      "class": "verb_transitive",
+      "gloss": "kms (auto-generated)",
+      "citation_form": "kasazhesoko"
+    },
+    "l?hn": {
+      "root": [
+        "l",
+        "?",
+        "h",
+        "n"
+      ],
+      "class": "verb_transitive",
+      "gloss": "kleptoparasite (auto-generated)",
+      "citation_form": "kala?henoko"
+    },
+    "jyngd": {
+      "root": [
+        "j",
+        "y",
+        "ng",
+        "d"
+      ],
+      "class": "verb_transitive",
+      "gloss": "klondike (auto-generated)",
+      "citation_form": "kajayngedoko"
+    },
+    "dhngp": {
+      "root": [
+        "dh",
+        "ng",
+        "p"
+      ],
+      "class": "verb_stative",
+      "gloss": "klaxon (auto-generated)",
+      "citation_form": "dhangapa"
+    },
+    "vrdhp": {
+      "root": [
+        "v",
+        "r",
+        "dh",
+        "p"
+      ],
+      "class": "verb_transitive",
+      "gloss": "klatawaw (auto-generated)",
+      "citation_form": "kavardhepoko"
+    },
+    "dhchsz": {
+      "root": [
+        "dh",
+        "ch",
+        "s",
+        "z"
+      ],
+      "class": "verb_transitive",
+      "gloss": "klomp (auto-generated)",
+      "citation_form": "kadhachsezoko"
+    },
+    "vngvl": {
+      "root": [
+        "v",
+        "ng",
+        "v",
+        "l"
+      ],
+      "class": "verb_transitive",
+      "gloss": "kleptoparasitize (auto-generated)",
+      "citation_form": "kavangveloko"
+    },
+    "htkl": {
+      "root": [
+        "h",
+        "t",
+        "k",
+        "l"
+      ],
+      "class": "verb_transitive",
+      "gloss": "kline (auto-generated)",
+      "citation_form": "kahatkeloko"
+    },
+    "ryrb": {
+      "root": [
+        "r",
+        "y",
+        "r",
+        "b"
+      ],
+      "class": "verb_transitive",
+      "gloss": "kluge (auto-generated)",
+      "citation_form": "karayreboko"
+    },
+    "vfsl": {
+      "root": [
+        "v",
+        "f",
+        "s",
+        "l"
+      ],
+      "class": "verb_transitive",
+      "gloss": "klondyke (auto-generated)",
+      "citation_form": "kavafseloko"
+    },
+    "pbvd": {
+      "root": [
+        "p",
+        "b",
+        "v",
+        "d"
+      ],
+      "class": "verb_transitive",
+      "gloss": "kludge (auto-generated)",
+      "citation_form": "kapabvedoko"
+    },
+    "gngzp": {
+      "root": [
+        "g",
+        "ng",
+        "z",
+        "p"
+      ],
+      "class": "verb_transitive",
+      "gloss": "klunk (auto-generated)",
+      "citation_form": "kagangzepoko"
+    },
+    "thhlt": {
+      "root": [
+        "th",
+        "h",
+        "l",
+        "t"
+      ],
+      "class": "verb_transitive",
+      "gloss": "klap (auto-generated)",
+      "citation_form": "kathahletoko"
     }
   },
   "nouns": {
@@ -129876,6 +130018,292 @@
       "gloss": "ppts (auto-generated)",
       "gender": "female",
       "citation_form": "rashono"
+    },
+    "?shdh": {
+      "root": [
+        "?",
+        "sh",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "crackpotology (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?ashïfdhïf"
+    },
+    "ktl": {
+      "root": [
+        "k",
+        "t",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "crackpottery (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "katïflïf"
+    },
+    "dhpzh": {
+      "root": [
+        "dh",
+        "p",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "crackiness (auto-generated)",
+      "gender": "female",
+      "citation_form": "dhapozho"
+    },
+    "shvt": {
+      "root": [
+        "sh",
+        "v",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "crackermeal (auto-generated)",
+      "gender": "female",
+      "citation_form": "shavoto"
+    },
+    "dfp": {
+      "root": [
+        "d",
+        "f",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "crackow (auto-generated)",
+      "gender": "male",
+      "citation_form": "dafapa"
+    },
+    "rhng": {
+      "root": [
+        "r",
+        "h",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "crackerjack (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "rahïfngïf"
+    },
+    "zhtsh": {
+      "root": [
+        "zh",
+        "t",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "crabwalk (auto-generated)",
+      "gender": "female",
+      "citation_form": "zhatosho"
+    },
+    "ymt": {
+      "root": [
+        "y",
+        "m",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "crackshot (auto-generated)",
+      "gender": "female",
+      "citation_form": "yamoto"
+    },
+    "m?ch": {
+      "root": [
+        "m",
+        "?",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "cracking (auto-generated)",
+      "gender": "female",
+      "citation_form": "ma?ocho"
+    },
+    "mth?": {
+      "root": [
+        "m",
+        "th",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "cracktro (auto-generated)",
+      "gender": "female",
+      "citation_form": "matho?o"
+    },
+    "wkn": {
+      "root": [
+        "w",
+        "k",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "crackne (auto-generated)",
+      "gender": "female",
+      "citation_form": "wakono"
+    },
+    "ptl": {
+      "root": [
+        "p",
+        "t",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "crackpipe (auto-generated)",
+      "gender": "male",
+      "citation_form": "patala"
+    },
+    "shngz": {
+      "root": [
+        "sh",
+        "ng",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "crackling (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "shangïfzïf"
+    },
+    "shyth": {
+      "root": [
+        "sh",
+        "y",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "crackuh (auto-generated)",
+      "gender": "male",
+      "citation_form": "shayatha"
+    },
+    "npl": {
+      "root": [
+        "n",
+        "p",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "crackliness (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "napïflïf"
+    },
+    "pcht": {
+      "root": [
+        "p",
+        "ch",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "crackskull (auto-generated)",
+      "gender": "female",
+      "citation_form": "pachoto"
+    },
+    "lt?": {
+      "root": [
+        "l",
+        "t",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "crackmeter (auto-generated)",
+      "gender": "male",
+      "citation_form": "lata?a"
+    },
+    "nchm": {
+      "root": [
+        "n",
+        "ch",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "crackleware (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "nachïfmïf"
+    },
+    "thfsh": {
+      "root": [
+        "th",
+        "f",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "crackfic (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "thafïfshïf"
+    },
+    "nth": {
+      "root": [
+        "n",
+        "t",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "crackhouse (auto-generated)",
+      "gender": "female",
+      "citation_form": "natoho"
+    },
+    "mnr": {
+      "root": [
+        "m",
+        "n",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "crackers (auto-generated)",
+      "gender": "child",
+      "citation_form": "manuru"
+    },
+    "mgw": {
+      "root": [
+        "m",
+        "g",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "crackpotitude (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "magïfwïf"
+    },
+    "?dt": {
+      "root": [
+        "?",
+        "d",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "cracklet (auto-generated)",
+      "gender": "female",
+      "citation_form": "?adoto"
+    },
+    "w?ng": {
+      "root": [
+        "w",
+        "?",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "cracklin (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "wa?ïfngïf"
+    },
+    "blk": {
+      "root": [
+        "b",
+        "l",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "crackdown (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "balïfkïf"
+    },
+    "frf": {
+      "root": [
+        "f",
+        "r",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "crackle (auto-generated)",
+      "gender": "female",
+      "citation_form": "farofo"
     }
   },
   "adjectives": {
@@ -162707,6 +163135,106 @@
       "class": "adverb",
       "gloss": "jointedly (auto-generated)",
       "citation_form": "jazate"
+    },
+    "sjth": {
+      "root": [
+        "s",
+        "j",
+        "th"
+      ],
+      "class": "adverb",
+      "gloss": "dreadingly (auto-generated)",
+      "citation_form": "sajate"
+    },
+    "zhgs": {
+      "root": [
+        "zh",
+        "g",
+        "s"
+      ],
+      "class": "adverb",
+      "gloss": "driftily (auto-generated)",
+      "citation_form": "zhagate"
+    },
+    "thgb": {
+      "root": [
+        "th",
+        "g",
+        "b"
+      ],
+      "class": "adverb",
+      "gloss": "drawlingly (auto-generated)",
+      "citation_form": "thagate"
+    },
+    "lsng": {
+      "root": [
+        "l",
+        "s",
+        "ng"
+      ],
+      "class": "adverb",
+      "gloss": "drivellingly (auto-generated)",
+      "citation_form": "lasate"
+    },
+    "chwsh": {
+      "root": [
+        "ch",
+        "w",
+        "sh"
+      ],
+      "class": "adverb",
+      "gloss": "dramatistically (auto-generated)",
+      "citation_form": "chawate"
+    },
+    "rchch": {
+      "root": [
+        "r",
+        "ch",
+        "ch"
+      ],
+      "class": "adverb",
+      "gloss": "dreadly (auto-generated)",
+      "citation_form": "rachate"
+    },
+    "ffj": {
+      "root": [
+        "f",
+        "f",
+        "j"
+      ],
+      "class": "adverb",
+      "gloss": "dreely (auto-generated)",
+      "citation_form": "fafate"
+    },
+    "zhyb": {
+      "root": [
+        "zh",
+        "y",
+        "b"
+      ],
+      "class": "adverb",
+      "gloss": "driverlessly (auto-generated)",
+      "citation_form": "zhayate"
+    },
+    "vj?": {
+      "root": [
+        "v",
+        "j",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "drainingly (auto-generated)",
+      "citation_form": "vajate"
+    },
+    "fs?": {
+      "root": [
+        "f",
+        "s",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "dreamward (auto-generated)",
+      "citation_form": "fasate"
     }
   },
   "colors": {
