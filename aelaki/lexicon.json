@@ -130306,6 +130306,94 @@
       "gloss": "crackle (auto-generated)",
       "gender": "female",
       "citation_form": "farofo"
+    },
+    "jzh": {
+      "root": [
+        "j",
+        "z",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "wurmal (auto-generated)",
+      "gender": "male",
+      "citation_form": "jazaha"
+    },
+    "tys": {
+      "root": [
+        "t",
+        "y",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "wuji (auto-generated)",
+      "gender": "female",
+      "citation_form": "tayoso"
+    },
+    "chzhw": {
+      "root": [
+        "ch",
+        "zh",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "wyandotte (auto-generated)",
+      "gender": "child",
+      "citation_form": "chazhuwu"
+    },
+    "srd": {
+      "root": [
+        "s",
+        "r",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "wulfenite (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "sarïfdïf"
+    },
+    "gzhth": {
+      "root": [
+        "g",
+        "zh",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "wuhanic (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "gazhïfthïf"
+    },
+    "kchn": {
+      "root": [
+        "k",
+        "ch",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "wunderkammer (auto-generated)",
+      "gender": "child",
+      "citation_form": "kachunu"
+    },
+    "fgch": {
+      "root": [
+        "f",
+        "g",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "wunderwaffe (auto-generated)",
+      "gender": "male",
+      "citation_form": "fagacha"
+    },
+    "kych": {
+      "root": [
+        "k",
+        "y",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "wuhk (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "kayïfchïf"
     }
   },
   "adjectives": {
@@ -147586,6 +147674,106 @@
       "class": "adjective",
       "gloss": "rhabdomal (auto-generated)",
       "citation_form": "sofagaka"
+    },
+    "nnv": {
+      "root": [
+        "n",
+        "n",
+        "v"
+      ],
+      "class": "adjective",
+      "gloss": "michel (auto-generated)",
+      "citation_form": "nonavaka"
+    },
+    "fkdh": {
+      "root": [
+        "f",
+        "k",
+        "dh"
+      ],
+      "class": "adjective",
+      "gloss": "micathermic (auto-generated)",
+      "citation_form": "fokadhaka"
+    },
+    "vsht": {
+      "root": [
+        "v",
+        "sh",
+        "t"
+      ],
+      "class": "adjective",
+      "gloss": "miasmalike (auto-generated)",
+      "citation_form": "voshataka"
+    },
+    "shbn": {
+      "root": [
+        "sh",
+        "b",
+        "n"
+      ],
+      "class": "adjective",
+      "gloss": "micareoid (auto-generated)",
+      "citation_form": "shobanaka"
+    },
+    "shng?": {
+      "root": [
+        "sh",
+        "ng",
+        "?"
+      ],
+      "class": "adjective",
+      "gloss": "miascitic (auto-generated)",
+      "citation_form": "shonga?aka"
+    },
+    "shds": {
+      "root": [
+        "sh",
+        "d",
+        "s"
+      ],
+      "class": "adjective",
+      "gloss": "miceproof (auto-generated)",
+      "citation_form": "shodasaka"
+    },
+    "rchj": {
+      "root": [
+        "r",
+        "ch",
+        "j"
+      ],
+      "class": "adjective",
+      "gloss": "miasmous (auto-generated)",
+      "citation_form": "rochajaka"
+    },
+    "dthn": {
+      "root": [
+        "d",
+        "th",
+        "n"
+      ],
+      "class": "adjective",
+      "gloss": "mickey (auto-generated)",
+      "citation_form": "dothanaka"
+    },
+    "n?sh": {
+      "root": [
+        "n",
+        "?",
+        "sh"
+      ],
+      "class": "adjective",
+      "gloss": "miasmatic (auto-generated)",
+      "citation_form": "no?ashaka"
+    },
+    "?zhw": {
+      "root": [
+        "?",
+        "zh",
+        "w"
+      ],
+      "class": "adjective",
+      "gloss": "micellarized (auto-generated)",
+      "citation_form": "?ozhawaka"
     }
   },
   "adverbs": {
@@ -163237,6 +163425,106 @@
       "class": "adverb",
       "gloss": "dreamward (auto-generated)",
       "citation_form": "fasate"
+    },
+    "zrsh": {
+      "root": [
+        "z",
+        "r",
+        "sh"
+      ],
+      "class": "adverb",
+      "gloss": "radiologically (auto-generated)",
+      "citation_form": "zarate"
+    },
+    "hngn": {
+      "root": [
+        "h",
+        "ng",
+        "n"
+      ],
+      "class": "adverb",
+      "gloss": "ragingly (auto-generated)",
+      "citation_form": "hangate"
+    },
+    "vfp": {
+      "root": [
+        "v",
+        "f",
+        "p"
+      ],
+      "class": "adverb",
+      "gloss": "racially (auto-generated)",
+      "citation_form": "vafate"
+    },
+    "rbk": {
+      "root": [
+        "r",
+        "b",
+        "k"
+      ],
+      "class": "adverb",
+      "gloss": "radiatively (auto-generated)",
+      "citation_form": "rabate"
+    },
+    "?dh?": {
+      "root": [
+        "?",
+        "dh",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "radiotherapeutically (auto-generated)",
+      "citation_form": "?adhate"
+    },
+    "dhrm": {
+      "root": [
+        "dh",
+        "r",
+        "m"
+      ],
+      "class": "adverb",
+      "gloss": "radiantly (auto-generated)",
+      "citation_form": "dharate"
+    },
+    "fgy": {
+      "root": [
+        "f",
+        "g",
+        "y"
+      ],
+      "class": "adverb",
+      "gloss": "radiophonically (auto-generated)",
+      "citation_form": "fagate"
+    },
+    "gngv": {
+      "root": [
+        "g",
+        "ng",
+        "v"
+      ],
+      "class": "adverb",
+      "gloss": "rainfallwise (auto-generated)",
+      "citation_form": "gangate"
+    },
+    "whz": {
+      "root": [
+        "w",
+        "h",
+        "z"
+      ],
+      "class": "adverb",
+      "gloss": "radiobiologically (auto-generated)",
+      "citation_form": "wahate"
+    },
+    "pdt": {
+      "root": [
+        "p",
+        "d",
+        "t"
+      ],
+      "class": "adverb",
+      "gloss": "radiosurgically (auto-generated)",
+      "citation_form": "padate"
     }
   },
   "colors": {
