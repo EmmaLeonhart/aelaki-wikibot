@@ -131341,6 +131341,435 @@
       "gloss": "nodalization (auto-generated)",
       "gender": "male",
       "citation_form": "chakaga"
+    },
+    "pjf": {
+      "root": [
+        "p",
+        "j",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "drabbiness (auto-generated)",
+      "gender": "male",
+      "citation_form": "pajafa"
+    },
+    "hysh": {
+      "root": [
+        "h",
+        "y",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "draggletail (auto-generated)",
+      "gender": "male",
+      "citation_form": "hayasha"
+    },
+    "hthzh": {
+      "root": [
+        "h",
+        "th",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "draconicide (auto-generated)",
+      "gender": "child",
+      "citation_form": "hathuzhu"
+    },
+    "dsb": {
+      "root": [
+        "d",
+        "s",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "draghound (auto-generated)",
+      "gender": "female",
+      "citation_form": "dasobo"
+    },
+    "ngmp": {
+      "root": [
+        "ng",
+        "m",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "draftnik (auto-generated)",
+      "gender": "male",
+      "citation_form": "ngamapa"
+    },
+    "hdhl": {
+      "root": [
+        "h",
+        "dh",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "draglift (auto-generated)",
+      "gender": "child",
+      "citation_form": "hadhulu"
+    },
+    "gsr": {
+      "root": [
+        "g",
+        "s",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "draatsi (auto-generated)",
+      "gender": "child",
+      "citation_form": "gasuru"
+    },
+    "hlch": {
+      "root": [
+        "h",
+        "l",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "dragonbreath (auto-generated)",
+      "gender": "child",
+      "citation_form": "haluchu"
+    },
+    "dt?": {
+      "root": [
+        "d",
+        "t",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "dracaenoside (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "datïf?ïf"
+    },
+    "srch": {
+      "root": [
+        "s",
+        "r",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "dracin (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "sarïfchïf"
+    },
+    "?ty": {
+      "root": [
+        "?",
+        "t",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "dradge (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?atïfyïf"
+    },
+    "tjm": {
+      "root": [
+        "t",
+        "j",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "dragmark (auto-generated)",
+      "gender": "child",
+      "citation_form": "tajumu"
+    },
+    "pshb": {
+      "root": [
+        "p",
+        "sh",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "draggletailedness (auto-generated)",
+      "gender": "female",
+      "citation_form": "pashobo"
+    },
+    "dhrf": {
+      "root": [
+        "dh",
+        "r",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "draftmate (auto-generated)",
+      "gender": "female",
+      "citation_form": "dharofo"
+    },
+    "?shh": {
+      "root": [
+        "?",
+        "sh",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "drac (auto-generated)",
+      "gender": "child",
+      "citation_form": "?ashuhu"
+    },
+    "rz?": {
+      "root": [
+        "r",
+        "z",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "draftswoman (auto-generated)",
+      "gender": "male",
+      "citation_form": "raza?a"
+    },
+    "?nz": {
+      "root": [
+        "?",
+        "n",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "dragonewt (auto-generated)",
+      "gender": "female",
+      "citation_form": "?anozo"
+    },
+    "jdhsh": {
+      "root": [
+        "j",
+        "dh",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "dragonfish (auto-generated)",
+      "gender": "male",
+      "citation_form": "jadhasha"
+    },
+    "gzhk": {
+      "root": [
+        "g",
+        "zh",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "draftee (auto-generated)",
+      "gender": "male",
+      "citation_form": "gazhaka"
+    },
+    "bgn": {
+      "root": [
+        "b",
+        "g",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "dracotaur (auto-generated)",
+      "gender": "male",
+      "citation_form": "bagana"
+    },
+    "zjdh": {
+      "root": [
+        "z",
+        "j",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "draftiness (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zajïfdhïf"
+    },
+    "pbl": {
+      "root": [
+        "p",
+        "b",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "draftlessness (auto-generated)",
+      "gender": "child",
+      "citation_form": "pabulu"
+    },
+    "syt": {
+      "root": [
+        "s",
+        "y",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "dragonette (auto-generated)",
+      "gender": "child",
+      "citation_form": "sayutu"
+    },
+    "?tg": {
+      "root": [
+        "?",
+        "t",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "dragline (auto-generated)",
+      "gender": "child",
+      "citation_form": "?atugu"
+    },
+    "fgb": {
+      "root": [
+        "f",
+        "g",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "dragonet (auto-generated)",
+      "gender": "child",
+      "citation_form": "fagubu"
+    },
+    "jyk": {
+      "root": [
+        "j",
+        "y",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "draglessness (auto-generated)",
+      "gender": "child",
+      "citation_form": "jayuku"
+    },
+    "dhnz": {
+      "root": [
+        "dh",
+        "n",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "dracology (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "dhanïfzïf"
+    },
+    "?p?": {
+      "root": [
+        "?",
+        "p",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "dracoside (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?apïf?ïf"
+    },
+    "thrsh": {
+      "root": [
+        "th",
+        "r",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "dragging (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "tharïfshïf"
+    },
+    "wdng": {
+      "root": [
+        "w",
+        "d",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "dragoman (auto-generated)",
+      "gender": "child",
+      "citation_form": "wadungu"
+    },
+    "sh?m": {
+      "root": [
+        "sh",
+        "?",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "dracine (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "sha?ïfmïf"
+    },
+    "pthl": {
+      "root": [
+        "p",
+        "th",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "draconologist (auto-generated)",
+      "gender": "female",
+      "citation_form": "patholo"
+    },
+    "dhlch": {
+      "root": [
+        "dh",
+        "l",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "draconettid (auto-generated)",
+      "gender": "male",
+      "citation_form": "dhalacha"
+    },
+    "h??": {
+      "root": [
+        "h",
+        "?",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "dragginess (auto-generated)",
+      "gender": "female",
+      "citation_form": "ha?o?o"
+    },
+    "?thl": {
+      "root": [
+        "?",
+        "th",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "dragman (auto-generated)",
+      "gender": "female",
+      "citation_form": "?atholo"
+    },
+    "zh?k": {
+      "root": [
+        "zh",
+        "?",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "draflazine (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zha?ïfkïf"
+    },
+    "zww": {
+      "root": [
+        "z",
+        "w",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "dragonbone (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zawïfwïf"
+    },
+    "?kb": {
+      "root": [
+        "?",
+        "k",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "dragling (auto-generated)",
+      "gender": "child",
+      "citation_form": "?akubu"
+    },
+    "jjzh": {
+      "root": [
+        "j",
+        "j",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "dragglement (auto-generated)",
+      "gender": "male",
+      "citation_form": "jajazha"
     }
   },
   "adjectives": {
@@ -148821,6 +149250,106 @@
       "class": "adjective",
       "gloss": "leaderish (auto-generated)",
       "citation_form": "bola?aka"
+    },
+    "vlg": {
+      "root": [
+        "v",
+        "l",
+        "g"
+      ],
+      "class": "adjective",
+      "gloss": "wucking (auto-generated)",
+      "citation_form": "volagaka"
+    },
+    "hzl": {
+      "root": [
+        "h",
+        "z",
+        "l"
+      ],
+      "class": "adjective",
+      "gloss": "wyld (auto-generated)",
+      "citation_form": "hozalaka"
+    },
+    "?vth": {
+      "root": [
+        "?",
+        "v",
+        "th"
+      ],
+      "class": "adjective",
+      "gloss": "xanthocarpous (auto-generated)",
+      "citation_form": "?ovathaka"
+    },
+    "f?z": {
+      "root": [
+        "f",
+        "?",
+        "z"
+      ],
+      "class": "adjective",
+      "gloss": "wust (auto-generated)",
+      "citation_form": "fo?azaka"
+    },
+    "chyzh": {
+      "root": [
+        "ch",
+        "y",
+        "zh"
+      ],
+      "class": "adjective",
+      "gloss": "wuffless (auto-generated)",
+      "citation_form": "choyazhaka"
+    },
+    "wvdh": {
+      "root": [
+        "w",
+        "v",
+        "dh"
+      ],
+      "class": "adjective",
+      "gloss": "xanchromatic (auto-generated)",
+      "citation_form": "wovadhaka"
+    },
+    "thbth": {
+      "root": [
+        "th",
+        "b",
+        "th"
+      ],
+      "class": "adjective",
+      "gloss": "xanthic (auto-generated)",
+      "citation_form": "thobathaka"
+    },
+    "zfg": {
+      "root": [
+        "z",
+        "f",
+        "g"
+      ],
+      "class": "adjective",
+      "gloss": "wud (auto-generated)",
+      "citation_form": "zofagaka"
+    },
+    "pbz": {
+      "root": [
+        "p",
+        "b",
+        "z"
+      ],
+      "class": "adjective",
+      "gloss": "xanthochroic (auto-generated)",
+      "citation_form": "pobazaka"
+    },
+    "tshg": {
+      "root": [
+        "t",
+        "sh",
+        "g"
+      ],
+      "class": "adjective",
+      "gloss": "xanthenic (auto-generated)",
+      "citation_form": "toshagaka"
     }
   },
   "adverbs": {
@@ -164672,6 +165201,106 @@
       "class": "adverb",
       "gloss": "philoprogenitively (auto-generated)",
       "citation_form": "dha?ate"
+    },
+    "nggs": {
+      "root": [
+        "ng",
+        "g",
+        "s"
+      ],
+      "class": "adverb",
+      "gloss": "haemodynamical (auto-generated)",
+      "citation_form": "ngagate"
+    },
+    "?chr": {
+      "root": [
+        "?",
+        "ch",
+        "r"
+      ],
+      "class": "adverb",
+      "gloss": "halakhically (auto-generated)",
+      "citation_form": "?achate"
+    },
+    "y?v": {
+      "root": [
+        "y",
+        "?",
+        "v"
+      ],
+      "class": "adverb",
+      "gloss": "halfheartedly (auto-generated)",
+      "citation_form": "ya?ate"
+    },
+    "rshl": {
+      "root": [
+        "r",
+        "sh",
+        "l"
+      ],
+      "class": "adverb",
+      "gloss": "hackingly (auto-generated)",
+      "citation_form": "rashate"
+    },
+    "kshn": {
+      "root": [
+        "k",
+        "sh",
+        "n"
+      ],
+      "class": "adverb",
+      "gloss": "hadronically (auto-generated)",
+      "citation_form": "kashate"
+    },
+    "lthv": {
+      "root": [
+        "l",
+        "th",
+        "v"
+      ],
+      "class": "adverb",
+      "gloss": "half (auto-generated)",
+      "citation_form": "lathate"
+    },
+    "tpz": {
+      "root": [
+        "t",
+        "p",
+        "z"
+      ],
+      "class": "adverb",
+      "gloss": "haemodynamically (auto-generated)",
+      "citation_form": "tapate"
+    },
+    "zhgch": {
+      "root": [
+        "zh",
+        "g",
+        "ch"
+      ],
+      "class": "adverb",
+      "gloss": "halfely (auto-generated)",
+      "citation_form": "zhagate"
+    },
+    "zhzhk": {
+      "root": [
+        "zh",
+        "zh",
+        "k"
+      ],
+      "class": "adverb",
+      "gloss": "haggishly (auto-generated)",
+      "citation_form": "zhazhate"
+    },
+    "gpk": {
+      "root": [
+        "g",
+        "p",
+        "k"
+      ],
+      "class": "adverb",
+      "gloss": "habitably (auto-generated)",
+      "citation_form": "gapate"
     }
   },
   "colors": {
