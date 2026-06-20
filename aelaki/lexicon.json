@@ -57804,6 +57804,71 @@
       "class": "verb_transitive",
       "gloss": "thickness (auto-generated)",
       "citation_form": "kafayweyoko"
+    },
+    "wzwf": {
+      "root": [
+        "w",
+        "z",
+        "w",
+        "f"
+      ],
+      "class": "verb_transitive",
+      "gloss": "dwell (auto-generated)",
+      "citation_form": "kawazwefoko"
+    },
+    "tgngb": {
+      "root": [
+        "t",
+        "g",
+        "ng",
+        "b"
+      ],
+      "class": "verb_transitive",
+      "gloss": "dwarf (auto-generated)",
+      "citation_form": "katagngeboko"
+    },
+    "rthym": {
+      "root": [
+        "r",
+        "th",
+        "y",
+        "m"
+      ],
+      "class": "verb_transitive",
+      "gloss": "dwallow (auto-generated)",
+      "citation_form": "karathyemoko"
+    },
+    "ttjn": {
+      "root": [
+        "t",
+        "t",
+        "j",
+        "n"
+      ],
+      "class": "verb_transitive",
+      "gloss": "dwindle (auto-generated)",
+      "citation_form": "katatjenoko"
+    },
+    "lpfj": {
+      "root": [
+        "l",
+        "p",
+        "f",
+        "j"
+      ],
+      "class": "verb_transitive",
+      "gloss": "dwine (auto-generated)",
+      "citation_form": "kalapfejoko"
+    },
+    "wdt": {
+      "root": [
+        "w",
+        "d",
+        "t"
+      ],
+      "class": "verb_active",
+      "gloss": "dwaum (auto-generated)",
+      "citation_form": "kawadat"
     }
   },
   "nouns": {
@@ -131696,6 +131761,446 @@
       "gloss": "dragglement (auto-generated)",
       "gender": "male",
       "citation_form": "jajazha"
+    },
+    "njw": {
+      "root": [
+        "n",
+        "j",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "jocoseriosity (auto-generated)",
+      "gender": "female",
+      "citation_form": "najowo"
+    },
+    "shgh": {
+      "root": [
+        "sh",
+        "g",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "jod (auto-generated)",
+      "gender": "female",
+      "citation_form": "shagoho"
+    },
+    "lvn": {
+      "root": [
+        "l",
+        "v",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "jodeler (auto-generated)",
+      "gender": "female",
+      "citation_form": "lavono"
+    },
+    "jngf": {
+      "root": [
+        "j",
+        "ng",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "jockeys (auto-generated)",
+      "gender": "female",
+      "citation_form": "jangofo"
+    },
+    "tzl": {
+      "root": [
+        "t",
+        "z",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "jockeydom (auto-generated)",
+      "gender": "female",
+      "citation_form": "tazolo"
+    },
+    "jg?": {
+      "root": [
+        "j",
+        "g",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "jocoseness (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "jagïf?ïf"
+    },
+    "ngtz": {
+      "root": [
+        "ng",
+        "t",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "jocteleg (auto-generated)",
+      "gender": "female",
+      "citation_form": "ngatozo"
+    },
+    "ldht": {
+      "root": [
+        "l",
+        "dh",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "joaquinite (auto-generated)",
+      "gender": "child",
+      "citation_form": "ladhutu"
+    },
+    "b?l": {
+      "root": [
+        "b",
+        "?",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "jobbernowl (auto-generated)",
+      "gender": "child",
+      "citation_form": "ba?ulu"
+    },
+    "vpch": {
+      "root": [
+        "v",
+        "p",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "jobfish (auto-generated)",
+      "gender": "female",
+      "citation_form": "vapocho"
+    },
+    "dhpr": {
+      "root": [
+        "dh",
+        "p",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "jobstopper (auto-generated)",
+      "gender": "female",
+      "citation_form": "dhaporo"
+    },
+    "djdh": {
+      "root": [
+        "d",
+        "j",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "jobbe (auto-generated)",
+      "gender": "child",
+      "citation_form": "dajudhu"
+    },
+    "jzht": {
+      "root": [
+        "j",
+        "zh",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "jobseeking (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "jazhïftïf"
+    },
+    "sh?r": {
+      "root": [
+        "sh",
+        "?",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "jobama (auto-generated)",
+      "gender": "female",
+      "citation_form": "sha?oro"
+    },
+    "tfzh": {
+      "root": [
+        "t",
+        "f",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "jobsworth (auto-generated)",
+      "gender": "male",
+      "citation_form": "tafazha"
+    },
+    "ychz": {
+      "root": [
+        "y",
+        "ch",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "joanna (auto-generated)",
+      "gender": "female",
+      "citation_form": "yachozo"
+    },
+    "whch": {
+      "root": [
+        "w",
+        "h",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "jockeyism (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "wahïfchïf"
+    },
+    "jvl": {
+      "root": [
+        "j",
+        "v",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "joconde (auto-generated)",
+      "gender": "female",
+      "citation_form": "javolo"
+    },
+    "th?d": {
+      "root": [
+        "th",
+        "?",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "joculator (auto-generated)",
+      "gender": "child",
+      "citation_form": "tha?udu"
+    },
+    "dshth": {
+      "root": [
+        "d",
+        "sh",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "jobbery (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "dashïfthïf"
+    },
+    "gddh": {
+      "root": [
+        "g",
+        "d",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "jnl (auto-generated)",
+      "gender": "female",
+      "citation_form": "gadodho"
+    },
+    "vzsh": {
+      "root": [
+        "v",
+        "z",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "jobanowl (auto-generated)",
+      "gender": "child",
+      "citation_form": "vazushu"
+    },
+    "ngzg": {
+      "root": [
+        "ng",
+        "z",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "jocularness (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "ngazïfgïf"
+    },
+    "pfy": {
+      "root": [
+        "p",
+        "f",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "jockocracy (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "pafïfyïf"
+    },
+    "?vw": {
+      "root": [
+        "?",
+        "v",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "jobsearch (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?avïfwïf"
+    },
+    "zhshs": {
+      "root": [
+        "zh",
+        "sh",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "jocundness (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zhashïfsïf"
+    },
+    "thlf": {
+      "root": [
+        "th",
+        "l",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "joaning (auto-generated)",
+      "gender": "female",
+      "citation_form": "thalofo"
+    },
+    "fjdh": {
+      "root": [
+        "f",
+        "j",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "jobspeak (auto-generated)",
+      "gender": "child",
+      "citation_form": "fajudhu"
+    },
+    "shjsh": {
+      "root": [
+        "sh",
+        "j",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "joba (auto-generated)",
+      "gender": "child",
+      "citation_form": "shajushu"
+    },
+    "?hsh": {
+      "root": [
+        "?",
+        "h",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "jobby (auto-generated)",
+      "gender": "female",
+      "citation_form": "?ahosho"
+    },
+    "sys": {
+      "root": [
+        "s",
+        "y",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "jockette (auto-generated)",
+      "gender": "female",
+      "citation_form": "sayoso"
+    },
+    "d?l": {
+      "root": [
+        "d",
+        "?",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "joblessness (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "da?ïflïf"
+    },
+    "?fz": {
+      "root": [
+        "?",
+        "f",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "jobber (auto-generated)",
+      "gender": "female",
+      "citation_form": "?afozo"
+    },
+    "gvn": {
+      "root": [
+        "g",
+        "v",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "jocundry (auto-generated)",
+      "gender": "child",
+      "citation_form": "gavunu"
+    },
+    "tsw": {
+      "root": [
+        "t",
+        "s",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "jobman (auto-generated)",
+      "gender": "child",
+      "citation_form": "tasuwu"
+    },
+    "?chm": {
+      "root": [
+        "?",
+        "ch",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "jodave (auto-generated)",
+      "gender": "male",
+      "citation_form": "?achama"
+    },
+    "thmr": {
+      "root": [
+        "th",
+        "m",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "jodh (auto-generated)",
+      "gender": "child",
+      "citation_form": "thamuru"
+    },
+    "pzv": {
+      "root": [
+        "p",
+        "z",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "jobpocalypse (auto-generated)",
+      "gender": "male",
+      "citation_form": "pazava"
+    },
+    "dhks": {
+      "root": [
+        "dh",
+        "k",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "jobmate (auto-generated)",
+      "gender": "female",
+      "citation_form": "dhakoso"
+    },
+    "ngdht": {
+      "root": [
+        "ng",
+        "dh",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "jodeller (auto-generated)",
+      "gender": "female",
+      "citation_form": "ngadhoto"
     }
   },
   "adjectives": {
@@ -149276,6 +149781,16 @@
       "class": "adjective",
       "gloss": "xanthenic (auto-generated)",
       "citation_form": "toshagaka"
+    },
+    "thzhf": {
+      "root": [
+        "th",
+        "zh",
+        "f"
+      ],
+      "class": "adjective",
+      "gloss": "khass (auto-generated)",
+      "citation_form": "thozhafaka"
     }
   },
   "adverbs": {
@@ -165227,6 +165742,16 @@
       "class": "adverb",
       "gloss": "habitably (auto-generated)",
       "citation_form": "gapate"
+    },
+    "nbk": {
+      "root": [
+        "n",
+        "b",
+        "k"
+      ],
+      "class": "adverb",
+      "gloss": "yanways (auto-generated)",
+      "citation_form": "nabate"
     }
   },
   "colors": {
