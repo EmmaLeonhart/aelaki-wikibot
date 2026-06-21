@@ -57869,6 +57869,442 @@
       "class": "verb_active",
       "gloss": "dwaum (auto-generated)",
       "citation_form": "kawadat"
+    },
+    "shyby": {
+      "root": [
+        "sh",
+        "y",
+        "b",
+        "y"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flimmer (auto-generated)",
+      "citation_form": "kashaybeyoko"
+    },
+    "chdtf": {
+      "root": [
+        "ch",
+        "d",
+        "t",
+        "f"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flea (auto-generated)",
+      "citation_form": "kachadtefoko"
+    },
+    "gvtsh": {
+      "root": [
+        "g",
+        "v",
+        "t",
+        "sh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flabbergaster (auto-generated)",
+      "citation_form": "kagavteshoko"
+    },
+    "shwzhng": {
+      "root": [
+        "sh",
+        "w",
+        "zh",
+        "ng"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flash (auto-generated)",
+      "citation_form": "kashawzhengoko"
+    },
+    "sgjj": {
+      "root": [
+        "s",
+        "g",
+        "j",
+        "j"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flashbang (auto-generated)",
+      "citation_form": "kasagjejoko"
+    },
+    "vwfm": {
+      "root": [
+        "v",
+        "w",
+        "f",
+        "m"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flehmen (auto-generated)",
+      "citation_form": "kavawfemoko"
+    },
+    "fzhrth": {
+      "root": [
+        "f",
+        "zh",
+        "r",
+        "th"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flam (auto-generated)",
+      "citation_form": "kafazhrethoko"
+    },
+    "hnby": {
+      "root": [
+        "h",
+        "n",
+        "b",
+        "y"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flex (auto-generated)",
+      "citation_form": "kahanbeyoko"
+    },
+    "?tj": {
+      "root": [
+        "?",
+        "t",
+        "j"
+      ],
+      "class": "verb_active",
+      "gloss": "flay (auto-generated)",
+      "citation_form": "ka?ataj"
+    },
+    "thgzh": {
+      "root": [
+        "th",
+        "g",
+        "zh"
+      ],
+      "class": "verb_stative",
+      "gloss": "flagellate (auto-generated)",
+      "citation_form": "thagazha"
+    },
+    "chgdf": {
+      "root": [
+        "ch",
+        "g",
+        "d",
+        "f"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flipper (auto-generated)",
+      "citation_form": "kachagdefoko"
+    },
+    "slkl": {
+      "root": [
+        "s",
+        "l",
+        "k",
+        "l"
+      ],
+      "class": "verb_transitive",
+      "gloss": "fletcherize (auto-generated)",
+      "citation_form": "kasalkeloko"
+    },
+    "gkchz": {
+      "root": [
+        "g",
+        "k",
+        "ch",
+        "z"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flavor (auto-generated)",
+      "citation_form": "kagakchezoko"
+    },
+    "vzhnl": {
+      "root": [
+        "v",
+        "zh",
+        "n",
+        "l"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flatulate (auto-generated)",
+      "citation_form": "kavazhneloko"
+    },
+    "bbssh": {
+      "root": [
+        "b",
+        "b",
+        "s",
+        "sh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flavorize (auto-generated)",
+      "citation_form": "kababseshoko"
+    },
+    "ngspp": {
+      "root": [
+        "ng",
+        "s",
+        "p",
+        "p"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flatplan (auto-generated)",
+      "citation_form": "kangaspepoko"
+    },
+    "jzhdd": {
+      "root": [
+        "j",
+        "zh",
+        "d",
+        "d"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flag (auto-generated)",
+      "citation_form": "kajazhdedoko"
+    },
+    "kfmsh": {
+      "root": [
+        "k",
+        "f",
+        "m",
+        "sh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flamb (auto-generated)",
+      "citation_form": "kakafmeshoko"
+    },
+    "zh?rz": {
+      "root": [
+        "zh",
+        "?",
+        "r",
+        "z"
+      ],
+      "class": "verb_transitive",
+      "gloss": "fleak (auto-generated)",
+      "citation_form": "kazha?rezoko"
+    },
+    "wwrh": {
+      "root": [
+        "w",
+        "w",
+        "r",
+        "h"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flamework (auto-generated)",
+      "citation_form": "kawawrehoko"
+    },
+    "zfchb": {
+      "root": [
+        "z",
+        "f",
+        "ch",
+        "b"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flair (auto-generated)",
+      "citation_form": "kazafcheboko"
+    },
+    "kfsb": {
+      "root": [
+        "k",
+        "f",
+        "s",
+        "b"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flimflam (auto-generated)",
+      "citation_form": "kakafseboko"
+    },
+    "nngdt": {
+      "root": [
+        "n",
+        "ng",
+        "d",
+        "t"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flail (auto-generated)",
+      "citation_form": "kanangdetoko"
+    },
+    "yfdhk": {
+      "root": [
+        "y",
+        "f",
+        "dh",
+        "k"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flabagast (auto-generated)",
+      "citation_form": "kayafdhekoko"
+    },
+    "k?pdh": {
+      "root": [
+        "k",
+        "?",
+        "p",
+        "dh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flashlight (auto-generated)",
+      "citation_form": "kaka?pedhoko"
+    },
+    "jbgw": {
+      "root": [
+        "j",
+        "b",
+        "g",
+        "w"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flatter (auto-generated)",
+      "citation_form": "kajabgewoko"
+    },
+    "nhhb": {
+      "root": [
+        "n",
+        "h",
+        "h",
+        "b"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flatfoot (auto-generated)",
+      "citation_form": "kanaheboko"
+    },
+    "hydh": {
+      "root": [
+        "h",
+        "y",
+        "dh"
+      ],
+      "class": "verb_active",
+      "gloss": "flapdoodle (auto-generated)",
+      "citation_form": "kahayadh"
+    },
+    "gfbj": {
+      "root": [
+        "g",
+        "f",
+        "b",
+        "j"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flagrate (auto-generated)",
+      "citation_form": "kagafbejoko"
+    },
+    "tkhdh": {
+      "root": [
+        "t",
+        "k",
+        "h",
+        "dh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flappergast (auto-generated)",
+      "citation_form": "katakhedhoko"
+    },
+    "zgnn": {
+      "root": [
+        "z",
+        "g",
+        "n",
+        "n"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flan (auto-generated)",
+      "citation_form": "kazagnenoko"
+    },
+    "g?dhg": {
+      "root": [
+        "g",
+        "?",
+        "dh",
+        "g"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flie (auto-generated)",
+      "citation_form": "kaga?dhegoko"
+    },
+    "kzrh": {
+      "root": [
+        "k",
+        "z",
+        "r",
+        "h"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flake (auto-generated)",
+      "citation_form": "kakazrehoko"
+    },
+    "dg?": {
+      "root": [
+        "d",
+        "g",
+        "?"
+      ],
+      "class": "verb_active",
+      "gloss": "fleece (auto-generated)",
+      "citation_form": "kadaga?"
+    },
+    "hrthy": {
+      "root": [
+        "h",
+        "r",
+        "th",
+        "y"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flabaghast (auto-generated)",
+      "citation_form": "kahartheyoko"
+    },
+    "chhfh": {
+      "root": [
+        "ch",
+        "h",
+        "f",
+        "h"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flesh (auto-generated)",
+      "citation_form": "kachahfehoko"
+    },
+    "lgrdh": {
+      "root": [
+        "l",
+        "g",
+        "r",
+        "dh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flagitate (auto-generated)",
+      "citation_form": "kalagredhoko"
+    },
+    "brgf": {
+      "root": [
+        "b",
+        "r",
+        "g",
+        "f"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flashforward (auto-generated)",
+      "citation_form": "kabargefoko"
+    },
+    "dhnfr": {
+      "root": [
+        "dh",
+        "n",
+        "f",
+        "r"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flinch (auto-generated)",
+      "citation_form": "kadhanferoko"
+    },
+    "vlvm": {
+      "root": [
+        "v",
+        "l",
+        "v",
+        "m"
+      ],
+      "class": "verb_transitive",
+      "gloss": "flidge (auto-generated)",
+      "citation_form": "kavalvemoko"
     }
   },
   "nouns": {
@@ -132206,6 +132642,347 @@
       "gloss": "jodeller (auto-generated)",
       "gender": "female",
       "citation_form": "ngadhoto"
+    },
+    "yhdh": {
+      "root": [
+        "y",
+        "h",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "yingyang (auto-generated)",
+      "gender": "male",
+      "citation_form": "yahadha"
+    },
+    "gnp": {
+      "root": [
+        "g",
+        "n",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "yizkor (auto-generated)",
+      "gender": "female",
+      "citation_form": "ganopo"
+    },
+    "snt": {
+      "root": [
+        "s",
+        "n",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "ylond (auto-generated)",
+      "gender": "female",
+      "citation_form": "sanoto"
+    },
+    "?rdh": {
+      "root": [
+        "?",
+        "r",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "yin (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?arïfdhïf"
+    },
+    "dhvl": {
+      "root": [
+        "dh",
+        "v",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "yobbo (auto-generated)",
+      "gender": "child",
+      "citation_form": "dhavulu"
+    },
+    "fdng": {
+      "root": [
+        "f",
+        "d",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "yite (auto-generated)",
+      "gender": "child",
+      "citation_form": "fadungu"
+    },
+    "hfn": {
+      "root": [
+        "h",
+        "f",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "yoctogram (auto-generated)",
+      "gender": "child",
+      "citation_form": "hafunu"
+    },
+    "bwj": {
+      "root": [
+        "b",
+        "w",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "yibum (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "bawïfjïf"
+    },
+    "zh?d": {
+      "root": [
+        "zh",
+        "?",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "yilt (auto-generated)",
+      "gender": "child",
+      "citation_form": "zha?udu"
+    },
+    "llg": {
+      "root": [
+        "l",
+        "l",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "yidishkeyt (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "lalïfgïf"
+    },
+    "vzhr": {
+      "root": [
+        "v",
+        "zh",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "yobibyte (auto-generated)",
+      "gender": "female",
+      "citation_form": "vazhoro"
+    },
+    "ybv": {
+      "root": [
+        "y",
+        "b",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "yiffer (auto-generated)",
+      "gender": "male",
+      "citation_form": "yabava"
+    },
+    "bpy": {
+      "root": [
+        "b",
+        "p",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "ylide (auto-generated)",
+      "gender": "male",
+      "citation_form": "bapaya"
+    },
+    "vhy": {
+      "root": [
+        "v",
+        "h",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "yinglet (auto-generated)",
+      "gender": "female",
+      "citation_form": "vahoyo"
+    },
+    "mvch": {
+      "root": [
+        "m",
+        "v",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "yinyang (auto-generated)",
+      "gender": "female",
+      "citation_form": "mavocho"
+    },
+    "djy": {
+      "root": [
+        "d",
+        "j",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "yland (auto-generated)",
+      "gender": "child",
+      "citation_form": "dajuyu"
+    },
+    "tfl": {
+      "root": [
+        "t",
+        "f",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "yieldco (auto-generated)",
+      "gender": "child",
+      "citation_form": "tafulu"
+    },
+    "svy": {
+      "root": [
+        "s",
+        "v",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "yirratji (auto-generated)",
+      "gender": "female",
+      "citation_form": "savoyo"
+    },
+    "dhvp": {
+      "root": [
+        "dh",
+        "v",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "yiffsuit (auto-generated)",
+      "gender": "male",
+      "citation_form": "dhavapa"
+    },
+    "chlw": {
+      "root": [
+        "ch",
+        "l",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "yichus (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "chalïfwïf"
+    },
+    "lsg": {
+      "root": [
+        "l",
+        "s",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "yinglong (auto-generated)",
+      "gender": "female",
+      "citation_form": "lasogo"
+    },
+    "nzv": {
+      "root": [
+        "n",
+        "z",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "yibbum (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "nazïfvïf"
+    },
+    "t?d": {
+      "root": [
+        "t",
+        "?",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "yielding (auto-generated)",
+      "gender": "female",
+      "citation_form": "ta?odo"
+    },
+    "rksh": {
+      "root": [
+        "r",
+        "k",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "yichud (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "rakïfshïf"
+    },
+    "?zh": {
+      "root": [
+        "?",
+        "z",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "yiddo (auto-generated)",
+      "gender": "child",
+      "citation_form": "?azuhu"
+    },
+    "lchy": {
+      "root": [
+        "l",
+        "ch",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "yoderite (auto-generated)",
+      "gender": "male",
+      "citation_form": "lachaya"
+    },
+    "h?g": {
+      "root": [
+        "h",
+        "?",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "yidaki (auto-generated)",
+      "gender": "female",
+      "citation_form": "ha?ogo"
+    },
+    "tr?": {
+      "root": [
+        "t",
+        "r",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "yinpterochiropteran (auto-generated)",
+      "gender": "child",
+      "citation_form": "taru?u"
+    },
+    "?vz": {
+      "root": [
+        "?",
+        "v",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "yinyeung (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?avïfzïf"
+    },
+    "wzhg": {
+      "root": [
+        "w",
+        "zh",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "yoctonewton (auto-generated)",
+      "gender": "male",
+      "citation_form": "wazhaga"
+    },
+    "zm?": {
+      "root": [
+        "z",
+        "m",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "ylelond (auto-generated)",
+      "gender": "male",
+      "citation_form": "zama?a"
     }
   },
   "adjectives": {
@@ -165757,6 +166534,106 @@
       "class": "adverb",
       "gloss": "yanways (auto-generated)",
       "citation_form": "nabate"
+    },
+    "?jw": {
+      "root": [
+        "?",
+        "j",
+        "w"
+      ],
+      "class": "adverb",
+      "gloss": "vacuously (auto-generated)",
+      "citation_form": "?ajate"
+    },
+    "j?f": {
+      "root": [
+        "j",
+        "?",
+        "f"
+      ],
+      "class": "adverb",
+      "gloss": "variegatedly (auto-generated)",
+      "citation_form": "ja?ate"
+    },
+    "ngjv": {
+      "root": [
+        "ng",
+        "j",
+        "v"
+      ],
+      "class": "adverb",
+      "gloss": "vaporously (auto-generated)",
+      "citation_form": "ngajate"
+    },
+    "gych": {
+      "root": [
+        "g",
+        "y",
+        "ch"
+      ],
+      "class": "adverb",
+      "gloss": "vagariously (auto-generated)",
+      "citation_form": "gayate"
+    },
+    "?yk": {
+      "root": [
+        "?",
+        "y",
+        "k"
+      ],
+      "class": "adverb",
+      "gloss": "vampiristically (auto-generated)",
+      "citation_form": "?ayate"
+    },
+    "fjr": {
+      "root": [
+        "f",
+        "j",
+        "r"
+      ],
+      "class": "adverb",
+      "gloss": "valleywards (auto-generated)",
+      "citation_form": "fajate"
+    },
+    "kw?": {
+      "root": [
+        "k",
+        "w",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "vapidly (auto-generated)",
+      "citation_form": "kawate"
+    },
+    "bwm": {
+      "root": [
+        "b",
+        "w",
+        "m"
+      ],
+      "class": "adverb",
+      "gloss": "valuelessly (auto-generated)",
+      "citation_form": "bawate"
+    },
+    "pjj": {
+      "root": [
+        "p",
+        "j",
+        "j"
+      ],
+      "class": "adverb",
+      "gloss": "vampily (auto-generated)",
+      "citation_form": "pajate"
+    },
+    "chbg": {
+      "root": [
+        "ch",
+        "b",
+        "g"
+      ],
+      "class": "adverb",
+      "gloss": "vaporingly (auto-generated)",
+      "citation_form": "chabate"
     }
   },
   "colors": {
