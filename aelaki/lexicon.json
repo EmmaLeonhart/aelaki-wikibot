@@ -135967,6 +135967,160 @@
       "gloss": "wobbulator (auto-generated)",
       "gender": "child",
       "citation_form": "zhajupu"
+    },
+    "htl": {
+      "root": [
+        "h",
+        "t",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "zakuska (auto-generated)",
+      "gender": "male",
+      "citation_form": "hatala"
+    },
+    "htsh": {
+      "root": [
+        "h",
+        "t",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "zakatchi (auto-generated)",
+      "gender": "male",
+      "citation_form": "hatasha"
+    },
+    "sh?t": {
+      "root": [
+        "sh",
+        "?",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "yyyy (auto-generated)",
+      "gender": "female",
+      "citation_form": "sha?oto"
+    },
+    "nzs": {
+      "root": [
+        "n",
+        "z",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "zambomba (auto-generated)",
+      "gender": "male",
+      "citation_form": "nazasa"
+    },
+    "fshw": {
+      "root": [
+        "f",
+        "sh",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "zaisu (auto-generated)",
+      "gender": "female",
+      "citation_form": "fashowo"
+    },
+    "dpm": {
+      "root": [
+        "d",
+        "p",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "zaccagnaite (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "dapïfmïf"
+    },
+    "chms": {
+      "root": [
+        "ch",
+        "m",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "zaltidine (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "chamïfsïf"
+    },
+    "f?v": {
+      "root": [
+        "f",
+        "?",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "zam (auto-generated)",
+      "gender": "child",
+      "citation_form": "fa?uvu"
+    },
+    "bshsh": {
+      "root": [
+        "b",
+        "sh",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "zambuquo (auto-generated)",
+      "gender": "child",
+      "citation_form": "bashushu"
+    },
+    "ngf?": {
+      "root": [
+        "ng",
+        "f",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "zalospirone (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "ngafïf?ïf"
+    },
+    "hrz": {
+      "root": [
+        "h",
+        "r",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "zack (auto-generated)",
+      "gender": "male",
+      "citation_form": "haraza"
+    },
+    "fjd": {
+      "root": [
+        "f",
+        "j",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "zamak (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "fajïfdïf"
+    },
+    "vshy": {
+      "root": [
+        "v",
+        "sh",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "zacopride (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "vashïfyïf"
+    },
+    "thkl": {
+      "root": [
+        "th",
+        "k",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "zabiciprilat (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "thakïflïf"
     }
   },
   "adjectives": {
@@ -153777,6 +153931,106 @@
       "class": "adjective",
       "gloss": "zygomaticoauricular (auto-generated)",
       "citation_form": "forathaka"
+    },
+    "ngzf": {
+      "root": [
+        "ng",
+        "z",
+        "f"
+      ],
+      "class": "adjective",
+      "gloss": "eseptate (auto-generated)",
+      "citation_form": "ngozafaka"
+    },
+    "chmm": {
+      "root": [
+        "ch",
+        "m",
+        "m"
+      ],
+      "class": "adjective",
+      "gloss": "escharine (auto-generated)",
+      "citation_form": "chomamaka"
+    },
+    "hdhng": {
+      "root": [
+        "h",
+        "dh",
+        "ng"
+      ],
+      "class": "adjective",
+      "gloss": "eschatological (auto-generated)",
+      "citation_form": "hodhangaka"
+    },
+    "wbzh": {
+      "root": [
+        "w",
+        "b",
+        "zh"
+      ],
+      "class": "adjective",
+      "gloss": "escapable (auto-generated)",
+      "citation_form": "wobazhaka"
+    },
+    "vchp": {
+      "root": [
+        "v",
+        "ch",
+        "p"
+      ],
+      "class": "adjective",
+      "gloss": "escapological (auto-generated)",
+      "citation_form": "vochapaka"
+    },
+    "sg?": {
+      "root": [
+        "s",
+        "g",
+        "?"
+      ],
+      "class": "adjective",
+      "gloss": "escartelly (auto-generated)",
+      "citation_form": "soga?aka"
+    },
+    "dshdh": {
+      "root": [
+        "d",
+        "sh",
+        "dh"
+      ],
+      "class": "adjective",
+      "gloss": "eschariform (auto-generated)",
+      "citation_form": "doshadhaka"
+    },
+    "?vf": {
+      "root": [
+        "?",
+        "v",
+        "f"
+      ],
+      "class": "adjective",
+      "gloss": "escortless (auto-generated)",
+      "citation_form": "?ovafaka"
+    },
+    "sdh": {
+      "root": [
+        "s",
+        "d",
+        "h"
+      ],
+      "class": "adjective",
+      "gloss": "escrowable (auto-generated)",
+      "citation_form": "sodahaka"
+    },
+    "?zk": {
+      "root": [
+        "?",
+        "z",
+        "k"
+      ],
+      "class": "adjective",
+      "gloss": "escapeable (auto-generated)",
+      "citation_form": "?ozakaka"
     }
   },
   "adverbs": {
@@ -170238,6 +170492,106 @@
       "class": "adverb",
       "gloss": "factly (auto-generated)",
       "citation_form": "chathate"
+    },
+    "jsf": {
+      "root": [
+        "j",
+        "s",
+        "f"
+      ],
+      "class": "adverb",
+      "gloss": "lockingly (auto-generated)",
+      "citation_form": "jasate"
+    },
+    "zdg": {
+      "root": [
+        "z",
+        "d",
+        "g"
+      ],
+      "class": "adverb",
+      "gloss": "lobulately (auto-generated)",
+      "citation_form": "zadate"
+    },
+    "dkf": {
+      "root": [
+        "d",
+        "k",
+        "f"
+      ],
+      "class": "adverb",
+      "gloss": "loculicidally (auto-generated)",
+      "citation_form": "dakate"
+    },
+    "zt?": {
+      "root": [
+        "z",
+        "t",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "locally (auto-generated)",
+      "citation_form": "zatate"
+    },
+    "mjd": {
+      "root": [
+        "m",
+        "j",
+        "d"
+      ],
+      "class": "adverb",
+      "gloss": "locoregionally (auto-generated)",
+      "citation_form": "majate"
+    },
+    "fwl": {
+      "root": [
+        "f",
+        "w",
+        "l"
+      ],
+      "class": "adverb",
+      "gloss": "lognormally (auto-generated)",
+      "citation_form": "fawate"
+    },
+    "ggb": {
+      "root": [
+        "g",
+        "g",
+        "b"
+      ],
+      "class": "adverb",
+      "gloss": "locationally (auto-generated)",
+      "citation_form": "gagate"
+    },
+    "lpch": {
+      "root": [
+        "l",
+        "p",
+        "ch"
+      ],
+      "class": "adverb",
+      "gloss": "lockably (auto-generated)",
+      "citation_form": "lapate"
+    },
+    "pvt": {
+      "root": [
+        "p",
+        "v",
+        "t"
+      ],
+      "class": "adverb",
+      "gloss": "logily (auto-generated)",
+      "citation_form": "pavate"
+    },
+    "lchch": {
+      "root": [
+        "l",
+        "ch",
+        "ch"
+      ],
+      "class": "adverb",
+      "gloss": "loathfully (auto-generated)",
+      "citation_form": "lachate"
     }
   },
   "colors": {
