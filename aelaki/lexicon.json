@@ -136107,6 +136107,446 @@
       "gender": "female",
       "citation_form": "thakolo",
       "old_citation_form": "thakïflïf"
+    },
+    "zhvd": {
+      "root": [
+        "zh",
+        "v",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "evenlight (auto-generated)",
+      "gender": "male",
+      "citation_form": "zhavada"
+    },
+    "shrw": {
+      "root": [
+        "sh",
+        "r",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "evenhandedness (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "sharïfwïf"
+    },
+    "dhhn": {
+      "root": [
+        "dh",
+        "h",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "evac (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "dhahïfnïf"
+    },
+    "dhfj": {
+      "root": [
+        "dh",
+        "f",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "evaporation (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "dhafïfjïf"
+    },
+    "?zth": {
+      "root": [
+        "?",
+        "z",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "evangelicalness (auto-generated)",
+      "gender": "female",
+      "citation_form": "?azotho"
+    },
+    "lpp": {
+      "root": [
+        "l",
+        "p",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "evaluator (auto-generated)",
+      "gender": "child",
+      "citation_form": "lapupu"
+    },
+    "zhpm": {
+      "root": [
+        "zh",
+        "p",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "evanescency (auto-generated)",
+      "gender": "male",
+      "citation_form": "zhapama"
+    },
+    "mzhj": {
+      "root": [
+        "m",
+        "zh",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "evangelistary (auto-generated)",
+      "gender": "female",
+      "citation_form": "mazhojo"
+    },
+    "vdhh": {
+      "root": [
+        "v",
+        "dh",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "evangelistarium (auto-generated)",
+      "gender": "male",
+      "citation_form": "vadhaha"
+    },
+    "dhld": {
+      "root": [
+        "dh",
+        "l",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "evenfall (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "dhalïfdïf"
+    },
+    "rdj": {
+      "root": [
+        "r",
+        "d",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "evanishment (auto-generated)",
+      "gender": "child",
+      "citation_form": "raduju"
+    },
+    "chdhf": {
+      "root": [
+        "ch",
+        "dh",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "evaluation (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "chadhïffïf"
+    },
+    "wsw": {
+      "root": [
+        "w",
+        "s",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "evangely (auto-generated)",
+      "gender": "child",
+      "citation_form": "wasuwu"
+    },
+    "chkth": {
+      "root": [
+        "ch",
+        "k",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "evangelizer (auto-generated)",
+      "gender": "female",
+      "citation_form": "chakotho"
+    },
+    "kjg": {
+      "root": [
+        "k",
+        "j",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "evapotranspirometer (auto-generated)",
+      "gender": "female",
+      "citation_form": "kajogo"
+    },
+    "ljng": {
+      "root": [
+        "l",
+        "j",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "evelight (auto-generated)",
+      "gender": "child",
+      "citation_form": "lajungu"
+    },
+    "shdhr": {
+      "root": [
+        "sh",
+        "dh",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "evector (auto-generated)",
+      "gender": "male",
+      "citation_form": "shadhara"
+    },
+    "bgp": {
+      "root": [
+        "b",
+        "g",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "evaluability (auto-generated)",
+      "gender": "child",
+      "citation_form": "bagupu"
+    },
+    "?pn": {
+      "root": [
+        "?",
+        "p",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "evener (auto-generated)",
+      "gender": "male",
+      "citation_form": "?apana"
+    },
+    "dzhm": {
+      "root": [
+        "d",
+        "zh",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "evangelicalization (auto-generated)",
+      "gender": "male",
+      "citation_form": "dazhama"
+    },
+    "szch": {
+      "root": [
+        "s",
+        "z",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "evapoconcentration (auto-generated)",
+      "gender": "female",
+      "citation_form": "sazocho"
+    },
+    "glk": {
+      "root": [
+        "g",
+        "l",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "evanition (auto-generated)",
+      "gender": "child",
+      "citation_form": "galuku"
+    },
+    "ldhch": {
+      "root": [
+        "l",
+        "dh",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "evening (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "ladhïfchïf"
+    },
+    "fmz": {
+      "root": [
+        "f",
+        "m",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "evacuant (auto-generated)",
+      "gender": "female",
+      "citation_form": "famozo"
+    },
+    "mlb": {
+      "root": [
+        "m",
+        "l",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "evaluee (auto-generated)",
+      "gender": "child",
+      "citation_form": "malubu"
+    },
+    "twb": {
+      "root": [
+        "t",
+        "w",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "evanescence (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "tawïfbïf"
+    },
+    "vydh": {
+      "root": [
+        "v",
+        "y",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "evection (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "vayïfdhïf"
+    },
+    "hlng": {
+      "root": [
+        "h",
+        "l",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "evangel (auto-generated)",
+      "gender": "female",
+      "citation_form": "halongo"
+    },
+    "mbch": {
+      "root": [
+        "m",
+        "b",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "evasin (auto-generated)",
+      "gender": "female",
+      "citation_form": "mabocho"
+    },
+    "ry?": {
+      "root": [
+        "r",
+        "y",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "eveningprimrose (auto-generated)",
+      "gender": "female",
+      "citation_form": "rayo?o"
+    },
+    "?zj": {
+      "root": [
+        "?",
+        "z",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "evangelican (auto-generated)",
+      "gender": "male",
+      "citation_form": "?azaja"
+    },
+    "?ssh": {
+      "root": [
+        "?",
+        "s",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "evapotranspiration (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?asïfshïf"
+    },
+    "rdr": {
+      "root": [
+        "r",
+        "d",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "evenizer (auto-generated)",
+      "gender": "child",
+      "citation_form": "raduru"
+    },
+    "ch?n": {
+      "root": [
+        "ch",
+        "?",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "eveningness (auto-generated)",
+      "gender": "male",
+      "citation_form": "cha?ana"
+    },
+    "chjch": {
+      "root": [
+        "ch",
+        "j",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "evangeliary (auto-generated)",
+      "gender": "female",
+      "citation_form": "chajocho"
+    },
+    "ywt": {
+      "root": [
+        "y",
+        "w",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "evatromonoside (auto-generated)",
+      "gender": "female",
+      "citation_form": "yawoto"
+    },
+    "jdl": {
+      "root": [
+        "j",
+        "d",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "evaporography (auto-generated)",
+      "gender": "child",
+      "citation_form": "jadulu"
+    },
+    "ptng": {
+      "root": [
+        "p",
+        "t",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "eveningtime (auto-generated)",
+      "gender": "female",
+      "citation_form": "patongo"
+    },
+    "gwk": {
+      "root": [
+        "g",
+        "w",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "evacetrapib (auto-generated)",
+      "gender": "female",
+      "citation_form": "gawoko"
+    },
+    "r?b": {
+      "root": [
+        "r",
+        "?",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "evapocondensation (auto-generated)",
+      "gender": "female",
+      "citation_form": "ra?obo"
     }
   },
   "adjectives": {
@@ -170578,6 +171018,106 @@
       "class": "adverb",
       "gloss": "loathfully (auto-generated)",
       "citation_form": "lachate"
+    },
+    "r?n": {
+      "root": [
+        "r",
+        "?",
+        "n"
+      ],
+      "class": "adverb",
+      "gloss": "widthway (auto-generated)",
+      "citation_form": "ra?ate"
+    },
+    "nlsh": {
+      "root": [
+        "n",
+        "l",
+        "sh"
+      ],
+      "class": "adverb",
+      "gloss": "windowwise (auto-generated)",
+      "citation_form": "nalate"
+    },
+    "zsm": {
+      "root": [
+        "z",
+        "s",
+        "m"
+      ],
+      "class": "adverb",
+      "gloss": "windowward (auto-generated)",
+      "citation_form": "zasate"
+    },
+    "dd?": {
+      "root": [
+        "d",
+        "d",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "wickedly (auto-generated)",
+      "citation_form": "dadate"
+    },
+    "dns": {
+      "root": [
+        "d",
+        "n",
+        "s"
+      ],
+      "class": "adverb",
+      "gloss": "windedly (auto-generated)",
+      "citation_form": "danate"
+    },
+    "mpg": {
+      "root": [
+        "m",
+        "p",
+        "g"
+      ],
+      "class": "adverb",
+      "gloss": "wiltingly (auto-generated)",
+      "citation_form": "mapate"
+    },
+    "thbm": {
+      "root": [
+        "th",
+        "b",
+        "m"
+      ],
+      "class": "adverb",
+      "gloss": "wimpily (auto-generated)",
+      "citation_form": "thabate"
+    },
+    "bsd": {
+      "root": [
+        "b",
+        "s",
+        "d"
+      ],
+      "class": "adverb",
+      "gloss": "wincingly (auto-generated)",
+      "citation_form": "basate"
+    },
+    "gdl": {
+      "root": [
+        "g",
+        "d",
+        "l"
+      ],
+      "class": "adverb",
+      "gloss": "wild (auto-generated)",
+      "citation_form": "gadate"
+    },
+    "srw": {
+      "root": [
+        "s",
+        "r",
+        "w"
+      ],
+      "class": "adverb",
+      "gloss": "widely (auto-generated)",
+      "citation_form": "sarate"
     }
   },
   "colors": {
