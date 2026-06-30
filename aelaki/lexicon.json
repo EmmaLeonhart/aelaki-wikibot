@@ -137683,6 +137683,237 @@
       "gloss": "eba (auto-generated)",
       "gender": "female",
       "citation_form": "thazofo"
+    },
+    "fkl": {
+      "root": [
+        "f",
+        "k",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "rubine (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "fakïflïf"
+    },
+    "zngp": {
+      "root": [
+        "z",
+        "ng",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "rubidgeine (auto-generated)",
+      "gender": "male",
+      "citation_form": "zangapa"
+    },
+    "gvzh": {
+      "root": [
+        "g",
+        "v",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "rubidus (auto-generated)",
+      "gender": "male",
+      "citation_form": "gavazha"
+    },
+    "lrh": {
+      "root": [
+        "l",
+        "r",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "rubigo (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "larïfhïf"
+    },
+    "jss": {
+      "root": [
+        "j",
+        "s",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "rubicelle (auto-generated)",
+      "gender": "male",
+      "citation_form": "jasasa"
+    },
+    "zhn": {
+      "root": [
+        "z",
+        "h",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "rubification (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zahïfnïf"
+    },
+    "kdhsh": {
+      "root": [
+        "k",
+        "dh",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "rubicundity (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "kadhïfshïf"
+    },
+    "vls": {
+      "root": [
+        "v",
+        "l",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "rubijervine (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "valïfsïf"
+    },
+    "dfg": {
+      "root": [
+        "d",
+        "f",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "rubipodanin (auto-generated)",
+      "gender": "female",
+      "citation_form": "dafogo"
+    },
+    "vchch": {
+      "root": [
+        "v",
+        "ch",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "rubiretin (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "vachïfchïf"
+    },
+    "?vt": {
+      "root": [
+        "?",
+        "v",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "rubinylation (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?avïftïf"
+    },
+    "zzhk": {
+      "root": [
+        "z",
+        "zh",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "rubian (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zazhïfkïf"
+    },
+    "plg": {
+      "root": [
+        "p",
+        "l",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "rubidide (auto-generated)",
+      "gender": "female",
+      "citation_form": "palogo"
+    },
+    "?zhch": {
+      "root": [
+        "?",
+        "zh",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "rubicene (auto-generated)",
+      "gender": "child",
+      "citation_form": "?azhuchu"
+    },
+    "zml": {
+      "root": [
+        "z",
+        "m",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "rubidomycin (auto-generated)",
+      "gender": "female",
+      "citation_form": "zamolo"
+    },
+    "l?ng": {
+      "root": [
+        "l",
+        "?",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "rubidine (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "la?ïfngïf"
+    },
+    "?ng?": {
+      "root": [
+        "?",
+        "ng",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "rubicel (auto-generated)",
+      "gender": "female",
+      "citation_form": "?ango?o"
+    },
+    "?tng": {
+      "root": [
+        "?",
+        "t",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "rubicline (auto-generated)",
+      "gender": "child",
+      "citation_form": "?atungu"
+    },
+    "ngdhb": {
+      "root": [
+        "ng",
+        "dh",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "rubidium (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "ngadhïfbïf"
+    },
+    "zmth": {
+      "root": [
+        "z",
+        "m",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "rubin (auto-generated)",
+      "gender": "female",
+      "citation_form": "zamotho"
+    },
+    "stw": {
+      "root": [
+        "s",
+        "t",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "rubel (auto-generated)",
+      "gender": "male",
+      "citation_form": "satawa"
     }
   },
   "adjectives": {
@@ -155793,6 +156024,106 @@
       "class": "adjective",
       "gloss": "vacatable (auto-generated)",
       "citation_form": "gorataka"
+    },
+    "?ngm": {
+      "root": [
+        "?",
+        "ng",
+        "m"
+      ],
+      "class": "adjective",
+      "gloss": "yumtastic (auto-generated)",
+      "citation_form": "?ongamaka"
+    },
+    "thng?": {
+      "root": [
+        "th",
+        "ng",
+        "?"
+      ],
+      "class": "adjective",
+      "gloss": "yuppyish (auto-generated)",
+      "citation_form": "thonga?aka"
+    },
+    "chpb": {
+      "root": [
+        "ch",
+        "p",
+        "b"
+      ],
+      "class": "adjective",
+      "gloss": "yummylicious (auto-generated)",
+      "citation_form": "chopabaka"
+    },
+    "mv?": {
+      "root": [
+        "m",
+        "v",
+        "?"
+      ],
+      "class": "adjective",
+      "gloss": "yuppieish (auto-generated)",
+      "citation_form": "mova?aka"
+    },
+    "chmzh": {
+      "root": [
+        "ch",
+        "m",
+        "zh"
+      ],
+      "class": "adjective",
+      "gloss": "ythundered (auto-generated)",
+      "citation_form": "chomazhaka"
+    },
+    "bdhm": {
+      "root": [
+        "b",
+        "dh",
+        "m"
+      ],
+      "class": "adjective",
+      "gloss": "yuchy (auto-generated)",
+      "citation_form": "bodhamaka"
+    },
+    "zhjn": {
+      "root": [
+        "zh",
+        "j",
+        "n"
+      ],
+      "class": "adjective",
+      "gloss": "yucko (auto-generated)",
+      "citation_form": "zhojanaka"
+    },
+    "?ngdh": {
+      "root": [
+        "?",
+        "ng",
+        "dh"
+      ],
+      "class": "adjective",
+      "gloss": "ytterbous (auto-generated)",
+      "citation_form": "?ongadhaka"
+    },
+    "ngchzh": {
+      "root": [
+        "ng",
+        "ch",
+        "zh"
+      ],
+      "class": "adjective",
+      "gloss": "yuge (auto-generated)",
+      "citation_form": "ngochazhaka"
+    },
+    "shhp": {
+      "root": [
+        "sh",
+        "h",
+        "p"
+      ],
+      "class": "adjective",
+      "gloss": "yttriferous (auto-generated)",
+      "citation_form": "shohapaka"
     }
   },
   "adverbs": {
@@ -172644,6 +172975,26 @@
       "class": "adverb",
       "gloss": "than (auto-generated)",
       "citation_form": "shajate"
+    },
+    "bchr": {
+      "root": [
+        "b",
+        "ch",
+        "r"
+      ],
+      "class": "adverb",
+      "gloss": "kitschily (auto-generated)",
+      "citation_form": "bachate"
+    },
+    "chy?": {
+      "root": [
+        "ch",
+        "y",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "kiddily (auto-generated)",
+      "citation_form": "chayate"
     }
   },
   "colors": {
