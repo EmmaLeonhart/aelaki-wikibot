@@ -60277,6 +60277,144 @@
       "class": "verb_stative",
       "gloss": "gif (auto-generated)",
       "citation_form": "zathaza"
+    },
+    "ngrhv": {
+      "root": [
+        "ng",
+        "r",
+        "h",
+        "v"
+      ],
+      "class": "verb_transitive",
+      "gloss": "uralitize (auto-generated)",
+      "citation_form": "kangarhevoko"
+    },
+    "bssh": {
+      "root": [
+        "b",
+        "s",
+        "sh"
+      ],
+      "class": "verb_stative",
+      "gloss": "usurp (auto-generated)",
+      "citation_form": "basasha"
+    },
+    "dh?zdh": {
+      "root": [
+        "dh",
+        "?",
+        "z",
+        "dh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "urbanize (auto-generated)",
+      "citation_form": "kadha?zedhoko"
+    },
+    "fshnt": {
+      "root": [
+        "f",
+        "sh",
+        "n",
+        "t"
+      ],
+      "class": "verb_transitive",
+      "gloss": "utz (auto-generated)",
+      "citation_form": "kafashnetoko"
+    },
+    "bthng": {
+      "root": [
+        "b",
+        "th",
+        "ng"
+      ],
+      "class": "verb_stative",
+      "gloss": "utopianize (auto-generated)",
+      "citation_form": "bathanga"
+    },
+    "jhdhl": {
+      "root": [
+        "j",
+        "h",
+        "dh",
+        "l"
+      ],
+      "class": "verb_transitive",
+      "gloss": "utilitarianise (auto-generated)",
+      "citation_form": "kajahdheloko"
+    },
+    "krb": {
+      "root": [
+        "k",
+        "r",
+        "b"
+      ],
+      "class": "verb_stative",
+      "gloss": "urticate (auto-generated)",
+      "citation_form": "karaba"
+    },
+    "pmshch": {
+      "root": [
+        "p",
+        "m",
+        "sh",
+        "ch"
+      ],
+      "class": "verb_transitive",
+      "gloss": "usher (auto-generated)",
+      "citation_form": "kapamshechoko"
+    },
+    "drh": {
+      "root": [
+        "d",
+        "r",
+        "h"
+      ],
+      "class": "verb_active",
+      "gloss": "utilize (auto-generated)",
+      "citation_form": "kadarah"
+    },
+    "tjwf": {
+      "root": [
+        "t",
+        "j",
+        "w",
+        "f"
+      ],
+      "class": "verb_transitive",
+      "gloss": "urine (auto-generated)",
+      "citation_form": "katajwefoko"
+    },
+    "hwd": {
+      "root": [
+        "h",
+        "w",
+        "d"
+      ],
+      "class": "verb_active",
+      "gloss": "utilise (auto-generated)",
+      "citation_form": "kahawad"
+    },
+    "d?jy": {
+      "root": [
+        "d",
+        "?",
+        "j",
+        "y"
+      ],
+      "class": "verb_transitive",
+      "gloss": "utopianise (auto-generated)",
+      "citation_form": "kada?jeyoko"
+    },
+    "gdhrf": {
+      "root": [
+        "g",
+        "dh",
+        "r",
+        "f"
+      ],
+      "class": "verb_transitive",
+      "gloss": "usure (auto-generated)",
+      "citation_form": "kagadhrefoko"
     }
   },
   "nouns": {
@@ -139228,6 +139366,446 @@
       "gloss": "wealthmaker (auto-generated)",
       "gender": "female",
       "citation_form": "vadhovo"
+    },
+    "shsn": {
+      "root": [
+        "sh",
+        "s",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "geekhood (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "shasïfnïf"
+    },
+    "ngbr": {
+      "root": [
+        "ng",
+        "b",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "geekdom (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "ngabïfrïf"
+    },
+    "hrb": {
+      "root": [
+        "h",
+        "r",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "geckotian (auto-generated)",
+      "gender": "male",
+      "citation_form": "haraba"
+    },
+    "s?n": {
+      "root": [
+        "s",
+        "?",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "gearmotor (auto-generated)",
+      "gender": "female",
+      "citation_form": "sa?ono"
+    },
+    "yw?": {
+      "root": [
+        "y",
+        "w",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "geekitude (auto-generated)",
+      "gender": "female",
+      "citation_form": "yawo?o"
+    },
+    "g?l": {
+      "root": [
+        "g",
+        "?",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "gefarnate (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "ga?ïflïf"
+    },
+    "hgs": {
+      "root": [
+        "h",
+        "g",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "geezerbird (auto-generated)",
+      "gender": "male",
+      "citation_form": "hagasa"
+    },
+    "dhw?": {
+      "root": [
+        "dh",
+        "w",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "geartrain (auto-generated)",
+      "gender": "child",
+      "citation_form": "dhawu?u"
+    },
+    "dhthn": {
+      "root": [
+        "dh",
+        "th",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "geeksta (auto-generated)",
+      "gender": "female",
+      "citation_form": "dhathono"
+    },
+    "bngzh": {
+      "root": [
+        "b",
+        "ng",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "geekhead (auto-generated)",
+      "gender": "female",
+      "citation_form": "bangozho"
+    },
+    "nyth": {
+      "root": [
+        "n",
+        "y",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "geekgasm (auto-generated)",
+      "gender": "child",
+      "citation_form": "nayuthu"
+    },
+    "zhshd": {
+      "root": [
+        "zh",
+        "sh",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "geekishness (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zhashïfdïf"
+    },
+    "hmj": {
+      "root": [
+        "h",
+        "m",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "geelbek (auto-generated)",
+      "gender": "female",
+      "citation_form": "hamojo"
+    },
+    "svl": {
+      "root": [
+        "s",
+        "v",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "geekery (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "savïflïf"
+    },
+    "zhrt": {
+      "root": [
+        "zh",
+        "r",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "gdna (auto-generated)",
+      "gender": "female",
+      "citation_form": "zharoto"
+    },
+    "v?f": {
+      "root": [
+        "v",
+        "?",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "geez (auto-generated)",
+      "gender": "female",
+      "citation_form": "va?ofo"
+    },
+    "k?m": {
+      "root": [
+        "k",
+        "?",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "geddock (auto-generated)",
+      "gender": "female",
+      "citation_form": "ka?omo"
+    },
+    "p?d": {
+      "root": [
+        "p",
+        "?",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "gearchange (auto-generated)",
+      "gender": "female",
+      "citation_form": "pa?odo"
+    },
+    "sh?": {
+      "root": [
+        "s",
+        "h",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "gedunk (auto-generated)",
+      "gender": "male",
+      "citation_form": "saha?a"
+    },
+    "rzhb": {
+      "root": [
+        "r",
+        "zh",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "gearwork (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "razhïfbïf"
+    },
+    "dzw": {
+      "root": [
+        "d",
+        "z",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "geare (auto-generated)",
+      "gender": "child",
+      "citation_form": "dazuwu"
+    },
+    "gp?": {
+      "root": [
+        "g",
+        "p",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "geekazoid (auto-generated)",
+      "gender": "male",
+      "citation_form": "gapa?a"
+    },
+    "m?l": {
+      "root": [
+        "m",
+        "?",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "geekerati (auto-generated)",
+      "gender": "male",
+      "citation_form": "ma?ala"
+    },
+    "blz": {
+      "root": [
+        "b",
+        "l",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "geepound (auto-generated)",
+      "gender": "male",
+      "citation_form": "balaza"
+    },
+    "wgng": {
+      "root": [
+        "w",
+        "g",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "gearman (auto-generated)",
+      "gender": "male",
+      "citation_form": "waganga"
+    },
+    "djb": {
+      "root": [
+        "d",
+        "j",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "gds (auto-generated)",
+      "gender": "child",
+      "citation_form": "dajubu"
+    },
+    "tjsh": {
+      "root": [
+        "t",
+        "j",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "gearhead (auto-generated)",
+      "gender": "male",
+      "citation_form": "tajasha"
+    },
+    "p?ng": {
+      "root": [
+        "p",
+        "?",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "geekling (auto-generated)",
+      "gender": "child",
+      "citation_form": "pa?ungu"
+    },
+    "tvn": {
+      "root": [
+        "t",
+        "v",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "gdn (auto-generated)",
+      "gender": "female",
+      "citation_form": "tavono"
+    },
+    "chlp": {
+      "root": [
+        "ch",
+        "l",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "gedocarnil (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "chalïfpïf"
+    },
+    "vkv": {
+      "root": [
+        "v",
+        "k",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "geegaw (auto-generated)",
+      "gender": "child",
+      "citation_form": "vakuvu"
+    },
+    "syth": {
+      "root": [
+        "s",
+        "y",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "geeker (auto-generated)",
+      "gender": "child",
+      "citation_form": "sayuthu"
+    },
+    "shtn": {
+      "root": [
+        "sh",
+        "t",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "geckolet (auto-generated)",
+      "gender": "male",
+      "citation_form": "shatana"
+    },
+    "zhfy": {
+      "root": [
+        "zh",
+        "f",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "geedunk (auto-generated)",
+      "gender": "female",
+      "citation_form": "zhafoyo"
+    },
+    "?fv": {
+      "root": [
+        "?",
+        "f",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "gecarcinian (auto-generated)",
+      "gender": "child",
+      "citation_form": "?afuvu"
+    },
+    "tmz": {
+      "root": [
+        "t",
+        "m",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "gebhardite (auto-generated)",
+      "gender": "male",
+      "citation_form": "tamaza"
+    },
+    "hzhy": {
+      "root": [
+        "h",
+        "zh",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "gebur (auto-generated)",
+      "gender": "child",
+      "citation_form": "hazhuyu"
+    },
+    "?ngz": {
+      "root": [
+        "?",
+        "ng",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "geeldikkop (auto-generated)",
+      "gender": "male",
+      "citation_form": "?angaza"
+    },
+    "gwl": {
+      "root": [
+        "g",
+        "w",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "gearcase (auto-generated)",
+      "gender": "female",
+      "citation_form": "gawolo"
+    },
+    "yzh?": {
+      "root": [
+        "y",
+        "zh",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "gebang (auto-generated)",
+      "gender": "female",
+      "citation_form": "yazho?o"
     }
   },
   "adjectives": {
@@ -157638,6 +158216,106 @@
       "class": "adjective",
       "gloss": "geanticlinal (auto-generated)",
       "citation_form": "shoshavaka"
+    },
+    "fvv": {
+      "root": [
+        "f",
+        "v",
+        "v"
+      ],
+      "class": "adjective",
+      "gloss": "italick (auto-generated)",
+      "citation_form": "fovavaka"
+    },
+    "hpg": {
+      "root": [
+        "h",
+        "p",
+        "g"
+      ],
+      "class": "adjective",
+      "gloss": "iterative (auto-generated)",
+      "citation_form": "hopagaka"
+    },
+    "chfr": {
+      "root": [
+        "ch",
+        "f",
+        "r"
+      ],
+      "class": "adjective",
+      "gloss": "iteroparitive (auto-generated)",
+      "citation_form": "chofaraka"
+    },
+    "gbdh": {
+      "root": [
+        "g",
+        "b",
+        "dh"
+      ],
+      "class": "adjective",
+      "gloss": "itemed (auto-generated)",
+      "citation_form": "gobadhaka"
+    },
+    "shwth": {
+      "root": [
+        "sh",
+        "w",
+        "th"
+      ],
+      "class": "adjective",
+      "gloss": "itatartaric (auto-generated)",
+      "citation_form": "showathaka"
+    },
+    "ngj?": {
+      "root": [
+        "ng",
+        "j",
+        "?"
+      ],
+      "class": "adjective",
+      "gloss": "ital (auto-generated)",
+      "citation_form": "ngoja?aka"
+    },
+    "ngngg": {
+      "root": [
+        "ng",
+        "ng",
+        "g"
+      ],
+      "class": "adjective",
+      "gloss": "itacistic (auto-generated)",
+      "citation_form": "ngongagaka"
+    },
+    "wgt": {
+      "root": [
+        "w",
+        "g",
+        "t"
+      ],
+      "class": "adjective",
+      "gloss": "ith (auto-generated)",
+      "citation_form": "wogataka"
+    },
+    "jsdh": {
+      "root": [
+        "j",
+        "s",
+        "dh"
+      ],
+      "class": "adjective",
+      "gloss": "itemizable (auto-generated)",
+      "citation_form": "josadhaka"
+    },
+    "dvf": {
+      "root": [
+        "d",
+        "v",
+        "f"
+      ],
+      "class": "adjective",
+      "gloss": "ithand (auto-generated)",
+      "citation_form": "dovafaka"
     }
   },
   "adverbs": {
@@ -174709,6 +175387,106 @@
       "class": "adverb",
       "gloss": "chairside (auto-generated)",
       "citation_form": "?adhate"
+    },
+    "ychv": {
+      "root": [
+        "y",
+        "ch",
+        "v"
+      ],
+      "class": "adverb",
+      "gloss": "blightedly (auto-generated)",
+      "citation_form": "yachate"
+    },
+    "?ll": {
+      "root": [
+        "?",
+        "l",
+        "l"
+      ],
+      "class": "adverb",
+      "gloss": "blamelessly (auto-generated)",
+      "citation_form": "?alate"
+    },
+    "dhwd": {
+      "root": [
+        "dh",
+        "w",
+        "d"
+      ],
+      "class": "adverb",
+      "gloss": "blightingly (auto-generated)",
+      "citation_form": "dhawate"
+    },
+    "thzhl": {
+      "root": [
+        "th",
+        "zh",
+        "l"
+      ],
+      "class": "adverb",
+      "gloss": "bleakly (auto-generated)",
+      "citation_form": "thazhate"
+    },
+    "lzsh": {
+      "root": [
+        "l",
+        "z",
+        "sh"
+      ],
+      "class": "adverb",
+      "gloss": "blamably (auto-generated)",
+      "citation_form": "lazate"
+    },
+    "thbd": {
+      "root": [
+        "th",
+        "b",
+        "d"
+      ],
+      "class": "adverb",
+      "gloss": "blasted (auto-generated)",
+      "citation_form": "thabate"
+    },
+    "szhw": {
+      "root": [
+        "s",
+        "zh",
+        "w"
+      ],
+      "class": "adverb",
+      "gloss": "blanchingly (auto-generated)",
+      "citation_form": "sazhate"
+    },
+    "nwt": {
+      "root": [
+        "n",
+        "w",
+        "t"
+      ],
+      "class": "adverb",
+      "gloss": "blindfoldly (auto-generated)",
+      "citation_form": "nawate"
+    },
+    "tvk": {
+      "root": [
+        "t",
+        "v",
+        "k"
+      ],
+      "class": "adverb",
+      "gloss": "blandiloquently (auto-generated)",
+      "citation_form": "tavate"
+    },
+    "lfj": {
+      "root": [
+        "l",
+        "f",
+        "j"
+      ],
+      "class": "adverb",
+      "gloss": "bleedingly (auto-generated)",
+      "citation_form": "lafate"
     }
   },
   "colors": {
