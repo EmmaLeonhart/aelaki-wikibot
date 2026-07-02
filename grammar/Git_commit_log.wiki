@@ -2322,6 +2322,20 @@ Short hashes are used in [[Category:Word pages|word page]] version categories (e
 | 2026-07-01 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/66639bc5547c528f78f9e8aea7a5bdd2d6478f87 66639bc5] || [[:Category:Words 66639bc5|Words 66639bc5]] || [[:Category:Non-lemma forms 66639bc5|Non-lemma 66639bc5]] || chore(state): post-grammar-sync [skip ci]
 |-
 | 2026-07-01 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/1981f0807a0fba13438f6af1dca0c06a6d086b0c 1981f080] || [[:Category:Words 1981f080|Words 1981f080]] || [[:Category:Non-lemma forms 1981f080|Non-lemma 1981f080]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-07-01 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/8983431be6e4b70d3ae58bc715b010f091edec1f 8983431b] || [[:Category:Words 8983431b|Words 8983431b]] || [[:Category:Non-lemma forms 8983431b|Non-lemma 8983431b]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-07-01 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/cec13d0b8704dad71947bf667464bc6fb0d70f19 cec13d0b] || [[:Category:Words cec13d0b|Words cec13d0b]] || [[:Category:Non-lemma forms cec13d0b|Non-lemma cec13d0b]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-07-01 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/f005cecd823f3cda9bae234087bf5bac2c796105 f005cecd] || [[:Category:Words f005cecd|Words f005cecd]] || [[:Category:Non-lemma forms f005cecd|Non-lemma f005cecd]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-07-01 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/030931645b5ff94877f9e9141d707a1608c00430 03093164] || [[:Category:Words 03093164|Words 03093164]] || [[:Category:Non-lemma forms 03093164|Non-lemma 03093164]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-07-01 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/03d56b2f065da286afc70948fa73525e794da337 03d56b2f] || [[:Category:Words 03d56b2f|Words 03d56b2f]] || [[:Category:Non-lemma forms 03d56b2f|Non-lemma 03d56b2f]] || chore: not-done taxonomy migration + strict-order CLAUDE.md note (1pm rollout step 2)
+|-
+| 2026-07-01 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/45717a4d5db3449ec8911900d13e39d10a2b692d 45717a4d] || [[:Category:Words 45717a4d|Words 45717a4d]] || [[:Category:Non-lemma forms 45717a4d|Non-lemma 45717a4d]] || chore(state): post-grammar-sync [skip ci]
+|-
+| 2026-07-01 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/11e81a8687fe14721c96a2d2232bd734e9c2ff32 11e81a86] || [[:Category:Words 11e81a86|Words 11e81a86]] || [[:Category:Non-lemma forms 11e81a86|Non-lemma 11e81a86]] || chore(state): rebuild version history from git log [skip ci]
 |}
 
 [[Category:git synced pages]]
