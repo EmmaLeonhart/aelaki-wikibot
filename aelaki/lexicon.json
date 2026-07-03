@@ -60415,6 +60415,433 @@
       "class": "verb_transitive",
       "gloss": "usure (auto-generated)",
       "citation_form": "kagadhrefoko"
+    },
+    "hkgs": {
+      "root": [
+        "h",
+        "k",
+        "g",
+        "s"
+      ],
+      "class": "verb_transitive",
+      "gloss": "graunch (auto-generated)",
+      "citation_form": "kahakgesoko"
+    },
+    "pzjch": {
+      "root": [
+        "p",
+        "z",
+        "j",
+        "ch"
+      ],
+      "class": "verb_transitive",
+      "gloss": "grayen (auto-generated)",
+      "citation_form": "kapazjechoko"
+    },
+    "ylsh": {
+      "root": [
+        "y",
+        "l",
+        "sh"
+      ],
+      "class": "verb_stative",
+      "gloss": "gravedance (auto-generated)",
+      "citation_form": "yalasha"
+    },
+    "djng": {
+      "root": [
+        "d",
+        "j",
+        "ng"
+      ],
+      "class": "verb_stative",
+      "gloss": "gree (auto-generated)",
+      "citation_form": "dajanga"
+    },
+    "sdhz": {
+      "root": [
+        "s",
+        "dh",
+        "z"
+      ],
+      "class": "verb_stative",
+      "gloss": "greeble (auto-generated)",
+      "citation_form": "sadhaza"
+    },
+    "drdy": {
+      "root": [
+        "d",
+        "r",
+        "d",
+        "y"
+      ],
+      "class": "verb_transitive",
+      "gloss": "greenen (auto-generated)",
+      "citation_form": "kadardeyoko"
+    },
+    "zhbszh": {
+      "root": [
+        "zh",
+        "b",
+        "s",
+        "zh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "graverob (auto-generated)",
+      "citation_form": "kazhabsezhoko"
+    },
+    "krshp": {
+      "root": [
+        "k",
+        "r",
+        "sh",
+        "p"
+      ],
+      "class": "verb_transitive",
+      "gloss": "greenmail (auto-generated)",
+      "citation_form": "kakarshepoko"
+    },
+    "jyz": {
+      "root": [
+        "j",
+        "y",
+        "z"
+      ],
+      "class": "verb_active",
+      "gloss": "grecize (auto-generated)",
+      "citation_form": "kajayaz"
+    },
+    "mchzhr": {
+      "root": [
+        "m",
+        "ch",
+        "zh",
+        "r"
+      ],
+      "class": "verb_transitive",
+      "gloss": "grecicize (auto-generated)",
+      "citation_form": "kamachzheroko"
+    },
+    "schsj": {
+      "root": [
+        "s",
+        "ch",
+        "s",
+        "j"
+      ],
+      "class": "verb_transitive",
+      "gloss": "graecise (auto-generated)",
+      "citation_form": "kasachsejoko"
+    },
+    "ddhdhsh": {
+      "root": [
+        "d",
+        "dh",
+        "dh",
+        "sh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "gratinee (auto-generated)",
+      "citation_form": "kadadheshoko"
+    },
+    "ysrr": {
+      "root": [
+        "y",
+        "s",
+        "r",
+        "r"
+      ],
+      "class": "verb_transitive",
+      "gloss": "grasscycle (auto-generated)",
+      "citation_form": "kayasreroko"
+    },
+    "zhht": {
+      "root": [
+        "zh",
+        "h",
+        "t"
+      ],
+      "class": "verb_stative",
+      "gloss": "grandfather (auto-generated)",
+      "citation_form": "zhahata"
+    },
+    "ygv": {
+      "root": [
+        "y",
+        "g",
+        "v"
+      ],
+      "class": "verb_stative",
+      "gloss": "greyhound (auto-generated)",
+      "citation_form": "yagava"
+    },
+    "mmmz": {
+      "root": [
+        "m",
+        "m",
+        "m",
+        "z"
+      ],
+      "class": "verb_transitive",
+      "gloss": "grammaticalize (auto-generated)",
+      "citation_form": "kamamezoko"
+    },
+    "gwpb": {
+      "root": [
+        "g",
+        "w",
+        "p",
+        "b"
+      ],
+      "class": "verb_transitive",
+      "gloss": "greaze (auto-generated)",
+      "citation_form": "kagawpeboko"
+    },
+    "gyy": {
+      "root": [
+        "g",
+        "y",
+        "y"
+      ],
+      "class": "verb_stative",
+      "gloss": "grep (auto-generated)",
+      "citation_form": "gayaya"
+    },
+    "thzhy": {
+      "root": [
+        "th",
+        "zh",
+        "y"
+      ],
+      "class": "verb_active",
+      "gloss": "grandiloquise (auto-generated)",
+      "citation_form": "kathazhay"
+    },
+    "zhbjt": {
+      "root": [
+        "zh",
+        "b",
+        "j",
+        "t"
+      ],
+      "class": "verb_transitive",
+      "gloss": "gratify (auto-generated)",
+      "citation_form": "kazhabjetoko"
+    },
+    "ksz": {
+      "root": [
+        "k",
+        "s",
+        "z"
+      ],
+      "class": "verb_stative",
+      "gloss": "greete (auto-generated)",
+      "citation_form": "kasaza"
+    },
+    "ddhvs": {
+      "root": [
+        "d",
+        "dh",
+        "v",
+        "s"
+      ],
+      "class": "verb_transitive",
+      "gloss": "graff (auto-generated)",
+      "citation_form": "kadadhvesoko"
+    },
+    "gsvj": {
+      "root": [
+        "g",
+        "s",
+        "v",
+        "j"
+      ],
+      "class": "verb_transitive",
+      "gloss": "graffiti (auto-generated)",
+      "citation_form": "kagasvejoko"
+    },
+    "njvz": {
+      "root": [
+        "n",
+        "j",
+        "v",
+        "z"
+      ],
+      "class": "verb_transitive",
+      "gloss": "granulate (auto-generated)",
+      "citation_form": "kanajvezoko"
+    },
+    "ydcht": {
+      "root": [
+        "y",
+        "d",
+        "ch",
+        "t"
+      ],
+      "class": "verb_transitive",
+      "gloss": "greisenise (auto-generated)",
+      "citation_form": "kayadchetoko"
+    },
+    "dhnzw": {
+      "root": [
+        "dh",
+        "n",
+        "z",
+        "w"
+      ],
+      "class": "verb_transitive",
+      "gloss": "granitise (auto-generated)",
+      "citation_form": "kadhanzewoko"
+    },
+    "dsth": {
+      "root": [
+        "d",
+        "s",
+        "th"
+      ],
+      "class": "verb_active",
+      "gloss": "gravistimulate (auto-generated)",
+      "citation_form": "kadasath"
+    },
+    "chdmng": {
+      "root": [
+        "ch",
+        "d",
+        "m",
+        "ng"
+      ],
+      "class": "verb_transitive",
+      "gloss": "grangerize (auto-generated)",
+      "citation_form": "kachadmengoko"
+    },
+    "mthshk": {
+      "root": [
+        "m",
+        "th",
+        "sh",
+        "k"
+      ],
+      "class": "verb_transitive",
+      "gloss": "graft (auto-generated)",
+      "citation_form": "kamathshekoko"
+    },
+    "?hjr": {
+      "root": [
+        "?",
+        "h",
+        "j",
+        "r"
+      ],
+      "class": "verb_transitive",
+      "gloss": "grandstand (auto-generated)",
+      "citation_form": "ka?ahjeroko"
+    },
+    "jzpf": {
+      "root": [
+        "j",
+        "z",
+        "p",
+        "f"
+      ],
+      "class": "verb_transitive",
+      "gloss": "greasen (auto-generated)",
+      "citation_form": "kajazpefoko"
+    },
+    "ngchpl": {
+      "root": [
+        "ng",
+        "ch",
+        "p",
+        "l"
+      ],
+      "class": "verb_transitive",
+      "gloss": "gracilize (auto-generated)",
+      "citation_form": "kangachpeloko"
+    },
+    "wfw": {
+      "root": [
+        "w",
+        "f",
+        "w"
+      ],
+      "class": "verb_active",
+      "gloss": "greisenize (auto-generated)",
+      "citation_form": "kawafaw"
+    },
+    "zhlrch": {
+      "root": [
+        "zh",
+        "l",
+        "r",
+        "ch"
+      ],
+      "class": "verb_transitive",
+      "gloss": "grandiloquize (auto-generated)",
+      "citation_form": "kazhalrechoko"
+    },
+    "ljnd": {
+      "root": [
+        "l",
+        "j",
+        "n",
+        "d"
+      ],
+      "class": "verb_transitive",
+      "gloss": "gracilise (auto-generated)",
+      "citation_form": "kalajnedoko"
+    },
+    "chrfn": {
+      "root": [
+        "ch",
+        "r",
+        "f",
+        "n"
+      ],
+      "class": "verb_transitive",
+      "gloss": "grame (auto-generated)",
+      "citation_form": "kacharfenoko"
+    },
+    "vdzh": {
+      "root": [
+        "v",
+        "d",
+        "zh"
+      ],
+      "class": "verb_active",
+      "gloss": "grape (auto-generated)",
+      "citation_form": "kavadazh"
+    },
+    "gzthth": {
+      "root": [
+        "g",
+        "z",
+        "th",
+        "th"
+      ],
+      "class": "verb_transitive",
+      "gloss": "grammatise (auto-generated)",
+      "citation_form": "kagazthethoko"
+    },
+    "ngzr": {
+      "root": [
+        "ng",
+        "z",
+        "r"
+      ],
+      "class": "verb_stative",
+      "gloss": "grecianize (auto-generated)",
+      "citation_form": "ngazara"
+    },
+    "?ffm": {
+      "root": [
+        "?",
+        "f",
+        "f",
+        "m"
+      ],
+      "class": "verb_transitive",
+      "gloss": "grammar (auto-generated)",
+      "citation_form": "ka?afemoko"
     }
   },
   "nouns": {
@@ -139798,6 +140225,446 @@
       "gloss": "gebang (auto-generated)",
       "gender": "female",
       "citation_form": "yazho?o"
+    },
+    "nmp": {
+      "root": [
+        "n",
+        "m",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "peacemongering (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "namïfpïf"
+    },
+    "jlb": {
+      "root": [
+        "j",
+        "l",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "peachbush (auto-generated)",
+      "gender": "child",
+      "citation_form": "jalubu"
+    },
+    "ngrw": {
+      "root": [
+        "ng",
+        "r",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "peaceableness (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "ngarïfwïf"
+    },
+    "mrj": {
+      "root": [
+        "m",
+        "r",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "peakiness (auto-generated)",
+      "gender": "child",
+      "citation_form": "maruju"
+    },
+    "wwr": {
+      "root": [
+        "w",
+        "w",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "peakbagging (auto-generated)",
+      "gender": "female",
+      "citation_form": "waworo"
+    },
+    "msj": {
+      "root": [
+        "m",
+        "s",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "peakishness (auto-generated)",
+      "gender": "female",
+      "citation_form": "masojo"
+    },
+    "vmt": {
+      "root": [
+        "v",
+        "m",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "peacetime (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "vamïftïf"
+    },
+    "jchdh": {
+      "root": [
+        "j",
+        "ch",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "peacher (auto-generated)",
+      "gender": "male",
+      "citation_form": "jachadha"
+    },
+    "kzp": {
+      "root": [
+        "k",
+        "z",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "peaceful (auto-generated)",
+      "gender": "male",
+      "citation_form": "kazapa"
+    },
+    "zhf?": {
+      "root": [
+        "zh",
+        "f",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "peacebreaking (auto-generated)",
+      "gender": "child",
+      "citation_form": "zhafu?u"
+    },
+    "gdhz": {
+      "root": [
+        "g",
+        "dh",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "peachiness (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "gadhïfzïf"
+    },
+    "zhyr": {
+      "root": [
+        "zh",
+        "y",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "peaking (auto-generated)",
+      "gender": "female",
+      "citation_form": "zhayoro"
+    },
+    "jngz": {
+      "root": [
+        "j",
+        "ng",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "peachlet (auto-generated)",
+      "gender": "female",
+      "citation_form": "jangozo"
+    },
+    "l?z": {
+      "root": [
+        "l",
+        "?",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "peakism (auto-generated)",
+      "gender": "female",
+      "citation_form": "la?ozo"
+    },
+    "thzp": {
+      "root": [
+        "th",
+        "z",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "peakist (auto-generated)",
+      "gender": "male",
+      "citation_form": "thazapa"
+    },
+    "shhh": {
+      "root": [
+        "sh",
+        "h",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "peachblossom (auto-generated)",
+      "gender": "male",
+      "citation_form": "shahaha"
+    },
+    "sw?": {
+      "root": [
+        "s",
+        "w",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "peaberry (auto-generated)",
+      "gender": "female",
+      "citation_form": "sawo?o"
+    },
+    "sh?d": {
+      "root": [
+        "sh",
+        "?",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "peacocking (auto-generated)",
+      "gender": "male",
+      "citation_form": "sha?ada"
+    },
+    "htz": {
+      "root": [
+        "h",
+        "t",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "peacotum (auto-generated)",
+      "gender": "male",
+      "citation_form": "hataza"
+    },
+    "dhtn": {
+      "root": [
+        "dh",
+        "t",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "peaker (auto-generated)",
+      "gender": "male",
+      "citation_form": "dhatana"
+    },
+    "bzb": {
+      "root": [
+        "b",
+        "z",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "peacoat (auto-generated)",
+      "gender": "female",
+      "citation_form": "bazobo"
+    },
+    "bdzh": {
+      "root": [
+        "b",
+        "d",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "peacebuilder (auto-generated)",
+      "gender": "male",
+      "citation_form": "badazha"
+    },
+    "vjv": {
+      "root": [
+        "v",
+        "j",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "peacod (auto-generated)",
+      "gender": "female",
+      "citation_form": "vajovo"
+    },
+    "hjl": {
+      "root": [
+        "h",
+        "j",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "peacenik (auto-generated)",
+      "gender": "male",
+      "citation_form": "hajala"
+    },
+    "shlt": {
+      "root": [
+        "sh",
+        "l",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "peacefulness (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "shalïftïf"
+    },
+    "thyg": {
+      "root": [
+        "th",
+        "y",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "peacockishness (auto-generated)",
+      "gender": "female",
+      "citation_form": "thayogo"
+    },
+    "nthj": {
+      "root": [
+        "n",
+        "th",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "peacebreaker (auto-generated)",
+      "gender": "female",
+      "citation_form": "nathojo"
+    },
+    "wdth": {
+      "root": [
+        "w",
+        "d",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "peacake (auto-generated)",
+      "gender": "female",
+      "citation_form": "wadotho"
+    },
+    "zrp": {
+      "root": [
+        "z",
+        "r",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "peachtree (auto-generated)",
+      "gender": "child",
+      "citation_form": "zarupu"
+    },
+    "fthng": {
+      "root": [
+        "f",
+        "th",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "peachery (auto-generated)",
+      "gender": "child",
+      "citation_form": "fathungu"
+    },
+    "wrk": {
+      "root": [
+        "w",
+        "r",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "peachtini (auto-generated)",
+      "gender": "child",
+      "citation_form": "waruku"
+    },
+    "gfp": {
+      "root": [
+        "g",
+        "f",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "peachwood (auto-generated)",
+      "gender": "male",
+      "citation_form": "gafapa"
+    },
+    "yyr": {
+      "root": [
+        "y",
+        "y",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "peai (auto-generated)",
+      "gender": "male",
+      "citation_form": "yayara"
+    },
+    "chmy": {
+      "root": [
+        "ch",
+        "m",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "peacharita (auto-generated)",
+      "gender": "male",
+      "citation_form": "chamaya"
+    },
+    "wzh": {
+      "root": [
+        "w",
+        "z",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "peacharino (auto-generated)",
+      "gender": "male",
+      "citation_form": "wazaha"
+    },
+    "y?f": {
+      "root": [
+        "y",
+        "?",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "pea (auto-generated)",
+      "gender": "male",
+      "citation_form": "ya?afa"
+    },
+    "zmsh": {
+      "root": [
+        "z",
+        "m",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "peacockism (auto-generated)",
+      "gender": "child",
+      "citation_form": "zamushu"
+    },
+    "m??": {
+      "root": [
+        "m",
+        "?",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "peacherino (auto-generated)",
+      "gender": "child",
+      "citation_form": "ma?u?u"
+    },
+    "mkp": {
+      "root": [
+        "m",
+        "k",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "peacock (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "makïfpïf"
+    },
+    "wss": {
+      "root": [
+        "w",
+        "s",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "peagrit (auto-generated)",
+      "gender": "male",
+      "citation_form": "wasasa"
     }
   },
   "adjectives": {
@@ -158308,6 +159175,16 @@
       "class": "adjective",
       "gloss": "ithand (auto-generated)",
       "citation_form": "dovafaka"
+    },
+    "thngw": {
+      "root": [
+        "th",
+        "ng",
+        "w"
+      ],
+      "class": "adjective",
+      "gloss": "kvetchy (auto-generated)",
+      "citation_form": "thongawaka"
     }
   },
   "adverbs": {
@@ -175479,6 +176356,76 @@
       "class": "adverb",
       "gloss": "bleedingly (auto-generated)",
       "citation_form": "lafate"
+    },
+    "jzn": {
+      "root": [
+        "j",
+        "z",
+        "n"
+      ],
+      "class": "adverb",
+      "gloss": "youthward (auto-generated)",
+      "citation_form": "jazate"
+    },
+    "fzhv": {
+      "root": [
+        "f",
+        "zh",
+        "v"
+      ],
+      "class": "adverb",
+      "gloss": "yobbishly (auto-generated)",
+      "citation_form": "fazhate"
+    },
+    "thshd": {
+      "root": [
+        "th",
+        "sh",
+        "d"
+      ],
+      "class": "adverb",
+      "gloss": "yowlingly (auto-generated)",
+      "citation_form": "thashate"
+    },
+    "dhmk": {
+      "root": [
+        "dh",
+        "m",
+        "k"
+      ],
+      "class": "adverb",
+      "gloss": "yont (auto-generated)",
+      "citation_form": "dhamate"
+    },
+    "wch?": {
+      "root": [
+        "w",
+        "ch",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "yon (auto-generated)",
+      "citation_form": "wachate"
+    },
+    "fhv": {
+      "root": [
+        "f",
+        "h",
+        "v"
+      ],
+      "class": "adverb",
+      "gloss": "yonders (auto-generated)",
+      "citation_form": "fahate"
+    },
+    "fngf": {
+      "root": [
+        "f",
+        "ng",
+        "f"
+      ],
+      "class": "adverb",
+      "gloss": "yond (auto-generated)",
+      "citation_form": "fangate"
     }
   },
   "colors": {
