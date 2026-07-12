@@ -63306,6 +63306,28 @@
       "class": "verb_transitive",
       "gloss": "squink (auto-generated)",
       "citation_form": "kagatnetoko"
+    },
+    "fzpl": {
+      "root": [
+        "f",
+        "z",
+        "p",
+        "l"
+      ],
+      "class": "verb_transitive",
+      "gloss": "ventilate (auto-generated)",
+      "citation_form": "kafazpeloko"
+    },
+    "thdmd": {
+      "root": [
+        "th",
+        "d",
+        "m",
+        "d"
+      ],
+      "class": "verb_transitive",
+      "gloss": "vendicate (auto-generated)",
+      "citation_form": "kathadmedoko"
     }
   },
   "nouns": {
@@ -146517,6 +146539,336 @@
       "gloss": "ghira (auto-generated)",
       "gender": "male",
       "citation_form": "jajana"
+    },
+    "thmv": {
+      "root": [
+        "th",
+        "m",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "hdwe (auto-generated)",
+      "gender": "female",
+      "citation_form": "thamovo"
+    },
+    "ndsh": {
+      "root": [
+        "n",
+        "d",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "headbutt (auto-generated)",
+      "gender": "female",
+      "citation_form": "nadosho"
+    },
+    "rchh": {
+      "root": [
+        "r",
+        "ch",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "headborrow (auto-generated)",
+      "gender": "child",
+      "citation_form": "rachuhu"
+    },
+    "chjr": {
+      "root": [
+        "ch",
+        "j",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "headbox (auto-generated)",
+      "gender": "male",
+      "citation_form": "chajara"
+    },
+    "?hs": {
+      "root": [
+        "?",
+        "h",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "headake (auto-generated)",
+      "gender": "male",
+      "citation_form": "?ahasa"
+    },
+    "zhtth": {
+      "root": [
+        "zh",
+        "t",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "headcoil (auto-generated)",
+      "gender": "female",
+      "citation_form": "zhatotho"
+    },
+    "v?ng": {
+      "root": [
+        "v",
+        "?",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "headage (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "va?ïfngïf"
+    },
+    "wln": {
+      "root": [
+        "w",
+        "l",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "hblank (auto-generated)",
+      "gender": "child",
+      "citation_form": "walunu"
+    },
+    "zysh": {
+      "root": [
+        "z",
+        "y",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "headache (auto-generated)",
+      "gender": "male",
+      "citation_form": "zayasha"
+    },
+    "j?th": {
+      "root": [
+        "j",
+        "?",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "headcannon (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "ja?ïfthïf"
+    },
+    "kvf": {
+      "root": [
+        "k",
+        "v",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "headchopper (auto-generated)",
+      "gender": "female",
+      "citation_form": "kavofo"
+    },
+    "?mn": {
+      "root": [
+        "?",
+        "m",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "headcam (auto-generated)",
+      "gender": "child",
+      "citation_form": "?amunu"
+    },
+    "wgzh": {
+      "root": [
+        "w",
+        "g",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "headblock (auto-generated)",
+      "gender": "female",
+      "citation_form": "wagozho"
+    },
+    "shl?": {
+      "root": [
+        "sh",
+        "l",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "headcode (auto-generated)",
+      "gender": "child",
+      "citation_form": "shalu?u"
+    },
+    "chd?": {
+      "root": [
+        "ch",
+        "d",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "headach (auto-generated)",
+      "gender": "child",
+      "citation_form": "chadu?u"
+    },
+    "jfz": {
+      "root": [
+        "j",
+        "f",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "headbanging (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "jafïfzïf"
+    },
+    "ggd": {
+      "root": [
+        "g",
+        "g",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "hdqrs (auto-generated)",
+      "gender": "male",
+      "citation_form": "gagada"
+    },
+    "b?w": {
+      "root": [
+        "b",
+        "?",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "headass (auto-generated)",
+      "gender": "female",
+      "citation_form": "ba?owo"
+    },
+    "g?t": {
+      "root": [
+        "g",
+        "?",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "headboard (auto-generated)",
+      "gender": "male",
+      "citation_form": "ga?ata"
+    },
+    "?shy": {
+      "root": [
+        "?",
+        "sh",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "headbander (auto-generated)",
+      "gender": "male",
+      "citation_form": "?ashaya"
+    },
+    "lgh": {
+      "root": [
+        "l",
+        "g",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "headborough (auto-generated)",
+      "gender": "female",
+      "citation_form": "lagoho"
+    },
+    "?fk": {
+      "root": [
+        "?",
+        "f",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "hdc (auto-generated)",
+      "gender": "child",
+      "citation_form": "?afuku"
+    },
+    "yfr": {
+      "root": [
+        "y",
+        "f",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "headcover (auto-generated)",
+      "gender": "child",
+      "citation_form": "yafuru"
+    },
+    "mzp": {
+      "root": [
+        "m",
+        "z",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "headchute (auto-generated)",
+      "gender": "child",
+      "citation_form": "mazupu"
+    },
+    "nyb": {
+      "root": [
+        "n",
+        "y",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "headcollar (auto-generated)",
+      "gender": "male",
+      "citation_form": "nayaba"
+    },
+    "gpm": {
+      "root": [
+        "g",
+        "p",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "headbutting (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "gapïfmïf"
+    },
+    "mchm": {
+      "root": [
+        "m",
+        "ch",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "hdkf (auto-generated)",
+      "gender": "male",
+      "citation_form": "machama"
+    },
+    "syz": {
+      "root": [
+        "s",
+        "y",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "hbar (auto-generated)",
+      "gender": "child",
+      "citation_form": "sayuzu"
+    },
+    "ljj": {
+      "root": [
+        "l",
+        "j",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "hct (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "lajïfjïf"
+    },
+    "chbth": {
+      "root": [
+        "ch",
+        "b",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "hdlg (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "chabïfthïf"
     }
   },
   "adjectives": {
@@ -165627,6 +165979,106 @@
       "class": "adjective",
       "gloss": "deacylated (auto-generated)",
       "citation_form": "do?ahaka"
+    },
+    "?thb": {
+      "root": [
+        "?",
+        "th",
+        "b"
+      ],
+      "class": "adjective",
+      "gloss": "huggy (auto-generated)",
+      "citation_form": "?othabaka"
+    },
+    "shfs": {
+      "root": [
+        "sh",
+        "f",
+        "s"
+      ],
+      "class": "adjective",
+      "gloss": "huggly (auto-generated)",
+      "citation_form": "shofasaka"
+    },
+    "gtk": {
+      "root": [
+        "g",
+        "t",
+        "k"
+      ],
+      "class": "adjective",
+      "gloss": "huffy (auto-generated)",
+      "citation_form": "gotakaka"
+    },
+    "gkk": {
+      "root": [
+        "g",
+        "k",
+        "k"
+      ],
+      "class": "adjective",
+      "gloss": "huffish (auto-generated)",
+      "citation_form": "gokakaka"
+    },
+    "zhsk": {
+      "root": [
+        "zh",
+        "s",
+        "k"
+      ],
+      "class": "adjective",
+      "gloss": "huffing (auto-generated)",
+      "citation_form": "zhosakaka"
+    },
+    "l?v": {
+      "root": [
+        "l",
+        "?",
+        "v"
+      ],
+      "class": "adjective",
+      "gloss": "hubless (auto-generated)",
+      "citation_form": "lo?avaka"
+    },
+    "lrr": {
+      "root": [
+        "l",
+        "r",
+        "r"
+      ],
+      "class": "adjective",
+      "gloss": "huddlesome (auto-generated)",
+      "citation_form": "loraraka"
+    },
+    "gs?": {
+      "root": [
+        "g",
+        "s",
+        "?"
+      ],
+      "class": "adjective",
+      "gloss": "hugless (auto-generated)",
+      "citation_form": "gosa?aka"
+    },
+    "vzhl": {
+      "root": [
+        "v",
+        "zh",
+        "l"
+      ],
+      "class": "adjective",
+      "gloss": "hubrid (auto-generated)",
+      "citation_form": "vozhalaka"
+    },
+    "ng?sh": {
+      "root": [
+        "ng",
+        "?",
+        "sh"
+      ],
+      "class": "adjective",
+      "gloss": "hugable (auto-generated)",
+      "citation_form": "ngo?ashaka"
     }
   },
   "adverbs": {
@@ -183528,6 +183980,106 @@
       "class": "adverb",
       "gloss": "wrenchingly (auto-generated)",
       "citation_form": "sazhate"
+    },
+    "th?p": {
+      "root": [
+        "th",
+        "?",
+        "p"
+      ],
+      "class": "adverb",
+      "gloss": "blasely (auto-generated)",
+      "citation_form": "tha?ate"
+    },
+    "lyz": {
+      "root": [
+        "l",
+        "y",
+        "z"
+      ],
+      "class": "adverb",
+      "gloss": "bladewise (auto-generated)",
+      "citation_form": "layate"
+    },
+    "thjng": {
+      "root": [
+        "th",
+        "j",
+        "ng"
+      ],
+      "class": "adverb",
+      "gloss": "blimming (auto-generated)",
+      "citation_form": "thajate"
+    },
+    "lngg": {
+      "root": [
+        "l",
+        "ng",
+        "g"
+      ],
+      "class": "adverb",
+      "gloss": "blindedly (auto-generated)",
+      "citation_form": "langate"
+    },
+    "rngh": {
+      "root": [
+        "r",
+        "ng",
+        "h"
+      ],
+      "class": "adverb",
+      "gloss": "blessedly (auto-generated)",
+      "citation_form": "rangate"
+    },
+    "zhtht": {
+      "root": [
+        "zh",
+        "th",
+        "t"
+      ],
+      "class": "adverb",
+      "gloss": "blindfoldedly (auto-generated)",
+      "citation_form": "zhathate"
+    },
+    "gyn": {
+      "root": [
+        "g",
+        "y",
+        "n"
+      ],
+      "class": "adverb",
+      "gloss": "blindly (auto-generated)",
+      "citation_form": "gayate"
+    },
+    "zbk": {
+      "root": [
+        "z",
+        "b",
+        "k"
+      ],
+      "class": "adverb",
+      "gloss": "blasphemingly (auto-generated)",
+      "citation_form": "zabate"
+    },
+    "szhr": {
+      "root": [
+        "s",
+        "zh",
+        "r"
+      ],
+      "class": "adverb",
+      "gloss": "blankly (auto-generated)",
+      "citation_form": "sazhate"
+    },
+    "tgt": {
+      "root": [
+        "t",
+        "g",
+        "t"
+      ],
+      "class": "adverb",
+      "gloss": "blendingly (auto-generated)",
+      "citation_form": "tagate"
     }
   },
   "colors": {
