@@ -146845,6 +146845,446 @@
       "gender": "female",
       "citation_form": "chabotho",
       "old_citation_form": "chabïfthïf"
+    },
+    "dhnsh": {
+      "root": [
+        "dh",
+        "n",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "cyanuret (auto-generated)",
+      "gender": "child",
+      "citation_form": "dhanushu"
+    },
+    "zcht": {
+      "root": [
+        "z",
+        "ch",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "cyanocarboxylate (auto-generated)",
+      "gender": "child",
+      "citation_form": "zachutu"
+    },
+    "j?r": {
+      "root": [
+        "j",
+        "?",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "cyanoborohydride (auto-generated)",
+      "gender": "child",
+      "citation_form": "ja?uru"
+    },
+    "vtz": {
+      "root": [
+        "v",
+        "t",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "cyanocarbon (auto-generated)",
+      "gender": "male",
+      "citation_form": "vataza"
+    },
+    "zshp": {
+      "root": [
+        "z",
+        "sh",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "cyanoacrylamide (auto-generated)",
+      "gender": "male",
+      "citation_form": "zashapa"
+    },
+    "dhjf": {
+      "root": [
+        "dh",
+        "j",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "cyanophile (auto-generated)",
+      "gender": "child",
+      "citation_form": "dhajufu"
+    },
+    "llv": {
+      "root": [
+        "l",
+        "l",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "cyanotyping (auto-generated)",
+      "gender": "female",
+      "citation_form": "lalovo"
+    },
+    "?db": {
+      "root": [
+        "?",
+        "d",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "cyanobiphenyl (auto-generated)",
+      "gender": "male",
+      "citation_form": "?adaba"
+    },
+    "?rth": {
+      "root": [
+        "?",
+        "r",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "cyanoglycoside (auto-generated)",
+      "gender": "child",
+      "citation_form": "?aruthu"
+    },
+    "schsh": {
+      "root": [
+        "s",
+        "ch",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "cyazofamid (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "sachïfshïf"
+    },
+    "whv": {
+      "root": [
+        "w",
+        "h",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "cyaniding (auto-generated)",
+      "gender": "female",
+      "citation_form": "wahovo"
+    },
+    "chj?": {
+      "root": [
+        "ch",
+        "j",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "cyanidin (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "chajïf?ïf"
+    },
+    "npd": {
+      "root": [
+        "n",
+        "p",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "cyanopodovirus (auto-generated)",
+      "gender": "male",
+      "citation_form": "napada"
+    },
+    "hkb": {
+      "root": [
+        "h",
+        "k",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "cyanosis (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "hakïfbïf"
+    },
+    "zhmth": {
+      "root": [
+        "zh",
+        "m",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "cyanophosphorylation (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zhamïfthïf"
+    },
+    "fngv": {
+      "root": [
+        "f",
+        "ng",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "cyanophobia (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "fangïfvïf"
+    },
+    "zvzh": {
+      "root": [
+        "z",
+        "v",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "cyamella (auto-generated)",
+      "gender": "female",
+      "citation_form": "zavozho"
+    },
+    "zthb": {
+      "root": [
+        "z",
+        "th",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "cyanosponge (auto-generated)",
+      "gender": "child",
+      "citation_form": "zathubu"
+    },
+    "jrw": {
+      "root": [
+        "j",
+        "r",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "cyanoform (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "jarïfwïf"
+    },
+    "bpj": {
+      "root": [
+        "b",
+        "p",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "cyanomorph (auto-generated)",
+      "gender": "child",
+      "citation_form": "bapuju"
+    },
+    "wzhw": {
+      "root": [
+        "w",
+        "zh",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "cyanaurate (auto-generated)",
+      "gender": "child",
+      "citation_form": "wazhuwu"
+    },
+    "ylch": {
+      "root": [
+        "y",
+        "l",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "cyamid (auto-generated)",
+      "gender": "male",
+      "citation_form": "yalacha"
+    },
+    "zh?l": {
+      "root": [
+        "zh",
+        "?",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "cyanidation (auto-generated)",
+      "gender": "female",
+      "citation_form": "zha?olo"
+    },
+    "psw": {
+      "root": [
+        "p",
+        "s",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "cyano (auto-generated)",
+      "gender": "male",
+      "citation_form": "pasawa"
+    },
+    "fkj": {
+      "root": [
+        "f",
+        "k",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "cyathus (auto-generated)",
+      "gender": "child",
+      "citation_form": "fakuju"
+    },
+    "ngmg": {
+      "root": [
+        "ng",
+        "m",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "cyanoformate (auto-generated)",
+      "gender": "female",
+      "citation_form": "ngamogo"
+    },
+    "szhdh": {
+      "root": [
+        "s",
+        "zh",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "cyanoethoxy (auto-generated)",
+      "gender": "child",
+      "citation_form": "sazhudhu"
+    },
+    "dpy": {
+      "root": [
+        "d",
+        "p",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "cyanopolyyne (auto-generated)",
+      "gender": "female",
+      "citation_form": "dapoyo"
+    },
+    "srj": {
+      "root": [
+        "s",
+        "r",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "cyanoketone (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "sarïfjïf"
+    },
+    "dhfn": {
+      "root": [
+        "dh",
+        "f",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "cyanomethane (auto-generated)",
+      "gender": "female",
+      "citation_form": "dhafono"
+    },
+    "jhth": {
+      "root": [
+        "j",
+        "h",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "cyanophage (auto-generated)",
+      "gender": "child",
+      "citation_form": "jahuthu"
+    },
+    "dngy": {
+      "root": [
+        "d",
+        "ng",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "cyanid (auto-generated)",
+      "gender": "child",
+      "citation_form": "danguyu"
+    },
+    "h?t": {
+      "root": [
+        "h",
+        "?",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "cyathophyll (auto-generated)",
+      "gender": "male",
+      "citation_form": "ha?ata"
+    },
+    "bhm": {
+      "root": [
+        "b",
+        "h",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "cyanine (auto-generated)",
+      "gender": "male",
+      "citation_form": "bahama"
+    },
+    "vhs": {
+      "root": [
+        "v",
+        "h",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "cyberact (auto-generated)",
+      "gender": "child",
+      "citation_form": "vahusu"
+    },
+    "zzy": {
+      "root": [
+        "z",
+        "z",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "cyanohydrazone (auto-generated)",
+      "gender": "male",
+      "citation_form": "zazaya"
+    },
+    "f?p": {
+      "root": [
+        "f",
+        "?",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "cyathophylloid (auto-generated)",
+      "gender": "male",
+      "citation_form": "fa?apa"
+    },
+    "?nzh": {
+      "root": [
+        "?",
+        "n",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "cyanophil (auto-generated)",
+      "gender": "female",
+      "citation_form": "?anozho"
+    },
+    "shfp": {
+      "root": [
+        "sh",
+        "f",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "cyanopramine (auto-generated)",
+      "gender": "female",
+      "citation_form": "shafopo"
+    },
+    "nvp": {
+      "root": [
+        "n",
+        "v",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "cyanophyte (auto-generated)",
+      "gender": "male",
+      "citation_form": "navapa"
     }
   },
   "adjectives": {
@@ -166055,6 +166495,106 @@
       "class": "adjective",
       "gloss": "hugable (auto-generated)",
       "citation_form": "ngo?ashaka"
+    },
+    "kpn": {
+      "root": [
+        "k",
+        "p",
+        "n"
+      ],
+      "class": "adjective",
+      "gloss": "phagedaenous (auto-generated)",
+      "citation_form": "kopanaka"
+    },
+    "hzth": {
+      "root": [
+        "h",
+        "z",
+        "th"
+      ],
+      "class": "adjective",
+      "gloss": "phaeochrome (auto-generated)",
+      "citation_form": "hozathaka"
+    },
+    "?gr": {
+      "root": [
+        "?",
+        "g",
+        "r"
+      ],
+      "class": "adjective",
+      "gloss": "phagedaenic (auto-generated)",
+      "citation_form": "?ogaraka"
+    },
+    "r?d": {
+      "root": [
+        "r",
+        "?",
+        "d"
+      ],
+      "class": "adjective",
+      "gloss": "phaeosphaeriaceous (auto-generated)",
+      "citation_form": "ro?adaka"
+    },
+    "mfw": {
+      "root": [
+        "m",
+        "f",
+        "w"
+      ],
+      "class": "adjective",
+      "gloss": "phacomorphic (auto-generated)",
+      "citation_form": "mofawaka"
+    },
+    "fsr": {
+      "root": [
+        "f",
+        "s",
+        "r"
+      ],
+      "class": "adjective",
+      "gloss": "phaenogamous (auto-generated)",
+      "citation_form": "fosaraka"
+    },
+    "tshv": {
+      "root": [
+        "t",
+        "sh",
+        "v"
+      ],
+      "class": "adjective",
+      "gloss": "phaeoviral (auto-generated)",
+      "citation_form": "toshavaka"
+    },
+    "jbf": {
+      "root": [
+        "j",
+        "b",
+        "f"
+      ],
+      "class": "adjective",
+      "gloss": "phacochoerine (auto-generated)",
+      "citation_form": "jobafaka"
+    },
+    "zzf": {
+      "root": [
+        "z",
+        "z",
+        "f"
+      ],
+      "class": "adjective",
+      "gloss": "phagedenic (auto-generated)",
+      "citation_form": "zozafaka"
+    },
+    "mk?": {
+      "root": [
+        "m",
+        "k",
+        "?"
+      ],
+      "class": "adjective",
+      "gloss": "phaenomenal (auto-generated)",
+      "citation_form": "moka?aka"
     }
   },
   "adverbs": {
@@ -184056,6 +184596,106 @@
       "class": "adverb",
       "gloss": "blendingly (auto-generated)",
       "citation_form": "tagate"
+    },
+    "pft": {
+      "root": [
+        "p",
+        "f",
+        "t"
+      ],
+      "class": "adverb",
+      "gloss": "numinously (auto-generated)",
+      "citation_form": "pafate"
+    },
+    "bwch": {
+      "root": [
+        "b",
+        "w",
+        "ch"
+      ],
+      "class": "adverb",
+      "gloss": "nudely (auto-generated)",
+      "citation_form": "bawate"
+    },
+    "pzh": {
+      "root": [
+        "p",
+        "z",
+        "h"
+      ],
+      "class": "adverb",
+      "gloss": "nutritionally (auto-generated)",
+      "citation_form": "pazate"
+    },
+    "shthz": {
+      "root": [
+        "sh",
+        "th",
+        "z"
+      ],
+      "class": "adverb",
+      "gloss": "nuancedly (auto-generated)",
+      "citation_form": "shathate"
+    },
+    "zhgzh": {
+      "root": [
+        "zh",
+        "g",
+        "zh"
+      ],
+      "class": "adverb",
+      "gloss": "nuff (auto-generated)",
+      "citation_form": "zhagate"
+    },
+    "?png": {
+      "root": [
+        "?",
+        "p",
+        "ng"
+      ],
+      "class": "adverb",
+      "gloss": "nucleosynthetically (auto-generated)",
+      "citation_form": "?apate"
+    },
+    "zgdh": {
+      "root": [
+        "z",
+        "g",
+        "dh"
+      ],
+      "class": "adverb",
+      "gloss": "numerically (auto-generated)",
+      "citation_form": "zagate"
+    },
+    "pngl": {
+      "root": [
+        "p",
+        "ng",
+        "l"
+      ],
+      "class": "adverb",
+      "gloss": "nutritionwise (auto-generated)",
+      "citation_form": "pangate"
+    },
+    "knn": {
+      "root": [
+        "k",
+        "n",
+        "n"
+      ],
+      "class": "adverb",
+      "gloss": "nymphomaniacally (auto-generated)",
+      "citation_form": "kanate"
+    },
+    "kwb": {
+      "root": [
+        "k",
+        "w",
+        "b"
+      ],
+      "class": "adverb",
+      "gloss": "nutraceutically (auto-generated)",
+      "citation_form": "kawate"
     }
   },
   "colors": {
