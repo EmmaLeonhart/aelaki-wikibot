@@ -147316,6 +147316,446 @@
       "gloss": "cyanophyte (auto-generated)",
       "gender": "male",
       "citation_form": "navapa"
+    },
+    "pbw": {
+      "root": [
+        "p",
+        "b",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "gibberbird (auto-generated)",
+      "gender": "female",
+      "citation_form": "pabowo"
+    },
+    "gdj": {
+      "root": [
+        "g",
+        "d",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "gibbering (auto-generated)",
+      "gender": "male",
+      "citation_form": "gadaja"
+    },
+    "yml": {
+      "root": [
+        "y",
+        "m",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "gibberish (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "yamïflïf"
+    },
+    "sh?h": {
+      "root": [
+        "sh",
+        "?",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "gibbousness (auto-generated)",
+      "gender": "female",
+      "citation_form": "sha?oho"
+    },
+    "thkth": {
+      "root": [
+        "th",
+        "k",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "gibelite (auto-generated)",
+      "gender": "female",
+      "citation_form": "thakotho"
+    },
+    "nmng": {
+      "root": [
+        "n",
+        "m",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "gianellaite (auto-generated)",
+      "gender": "male",
+      "citation_form": "namanga"
+    },
+    "rfd": {
+      "root": [
+        "r",
+        "f",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "giboia (auto-generated)",
+      "gender": "child",
+      "citation_form": "rafudu"
+    },
+    "wpb": {
+      "root": [
+        "w",
+        "p",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "giblets (auto-generated)",
+      "gender": "female",
+      "citation_form": "wapobo"
+    },
+    "mmf": {
+      "root": [
+        "m",
+        "m",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "gibberer (auto-generated)",
+      "gender": "child",
+      "citation_form": "mamufu"
+    },
+    "?yth": {
+      "root": [
+        "?",
+        "y",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "giantship (auto-generated)",
+      "gender": "male",
+      "citation_form": "?ayatha"
+    },
+    "v?th": {
+      "root": [
+        "v",
+        "?",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "gibberichthyid (auto-generated)",
+      "gender": "male",
+      "citation_form": "va?atha"
+    },
+    "z??": {
+      "root": [
+        "z",
+        "?",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "giantness (auto-generated)",
+      "gender": "child",
+      "citation_form": "za?u?u"
+    },
+    "htng": {
+      "root": [
+        "h",
+        "t",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "gibs (auto-generated)",
+      "gender": "female",
+      "citation_form": "hatongo"
+    },
+    "zhthch": {
+      "root": [
+        "zh",
+        "th",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "giantdom (auto-generated)",
+      "gender": "male",
+      "citation_form": "zhathacha"
+    },
+    "nggg": {
+      "root": [
+        "ng",
+        "g",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "gianchetti (auto-generated)",
+      "gender": "female",
+      "citation_form": "ngagogo"
+    },
+    "fys": {
+      "root": [
+        "f",
+        "y",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "gibbosity (auto-generated)",
+      "gender": "female",
+      "citation_form": "fayoso"
+    },
+    "dld": {
+      "root": [
+        "d",
+        "l",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "gibing (auto-generated)",
+      "gender": "male",
+      "citation_form": "dalada"
+    },
+    "l?n": {
+      "root": [
+        "l",
+        "?",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "gibli (auto-generated)",
+      "gender": "child",
+      "citation_form": "la?unu"
+    },
+    "hms": {
+      "root": [
+        "h",
+        "m",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "gianduia (auto-generated)",
+      "gender": "child",
+      "citation_form": "hamusu"
+    },
+    "png": {
+      "root": [
+        "p",
+        "n",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "gibbsite (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "panïfgïf"
+    },
+    "thtt": {
+      "root": [
+        "th",
+        "t",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "giantism (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "thatïftïf"
+    },
+    "ljp": {
+      "root": [
+        "l",
+        "j",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "giantess (auto-generated)",
+      "gender": "male",
+      "citation_form": "lajapa"
+    },
+    "kngr": {
+      "root": [
+        "k",
+        "ng",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "giantesse (auto-generated)",
+      "gender": "male",
+      "citation_form": "kangara"
+    },
+    "thzhp": {
+      "root": [
+        "th",
+        "zh",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "gibship (auto-generated)",
+      "gender": "female",
+      "citation_form": "thazhopo"
+    },
+    "?t?": {
+      "root": [
+        "?",
+        "t",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "gibibyte (auto-generated)",
+      "gender": "child",
+      "citation_form": "?atu?u"
+    },
+    "shnm": {
+      "root": [
+        "sh",
+        "n",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "giber (auto-generated)",
+      "gender": "child",
+      "citation_form": "shanumu"
+    },
+    "rlw": {
+      "root": [
+        "r",
+        "l",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "giantkind (auto-generated)",
+      "gender": "child",
+      "citation_form": "raluwu"
+    },
+    "zhdth": {
+      "root": [
+        "zh",
+        "d",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "giantin (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zhadïfthïf"
+    },
+    "ysf": {
+      "root": [
+        "y",
+        "s",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "gibbon (auto-generated)",
+      "gender": "child",
+      "citation_form": "yasufu"
+    },
+    "ndl": {
+      "root": [
+        "n",
+        "d",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "giant (auto-generated)",
+      "gender": "female",
+      "citation_form": "nadolo"
+    },
+    "thtth": {
+      "root": [
+        "th",
+        "t",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "gibbetting (auto-generated)",
+      "gender": "male",
+      "citation_form": "thatatha"
+    },
+    "?rsh": {
+      "root": [
+        "?",
+        "r",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "giardiasis (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?arïfshïf"
+    },
+    "byg": {
+      "root": [
+        "b",
+        "y",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "gibelotte (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "bayïfgïf"
+    },
+    "hgz": {
+      "root": [
+        "h",
+        "g",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "gibe (auto-generated)",
+      "gender": "male",
+      "citation_form": "hagaza"
+    },
+    "kdm": {
+      "root": [
+        "k",
+        "d",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "giardiniera (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "kadïfmïf"
+    },
+    "zh?th": {
+      "root": [
+        "zh",
+        "?",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "gibberellin (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zha?ïfthïf"
+    },
+    "vmm": {
+      "root": [
+        "v",
+        "m",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "giboya (auto-generated)",
+      "gender": "male",
+      "citation_form": "vamama"
+    },
+    "?lm": {
+      "root": [
+        "?",
+        "l",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "gibberosity (auto-generated)",
+      "gender": "child",
+      "citation_form": "?alumu"
+    },
+    "y?j": {
+      "root": [
+        "y",
+        "?",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "giallo (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "ya?ïfjïf"
+    },
+    "bzhm": {
+      "root": [
+        "b",
+        "zh",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "gianthood (auto-generated)",
+      "gender": "male",
+      "citation_form": "bazhama"
     }
   },
   "adjectives": {
@@ -166626,6 +167066,106 @@
       "class": "adjective",
       "gloss": "phaenomenal (auto-generated)",
       "citation_form": "moka?aka"
+    },
+    "ngssh": {
+      "root": [
+        "ng",
+        "s",
+        "sh"
+      ],
+      "class": "adjective",
+      "gloss": "zoisitized (auto-generated)",
+      "citation_form": "ngosashaka"
+    },
+    "hhz": {
+      "root": [
+        "h",
+        "h",
+        "z"
+      ],
+      "class": "adjective",
+      "gloss": "zonar (auto-generated)",
+      "citation_form": "hohazaka"
+    },
+    "pldh": {
+      "root": [
+        "p",
+        "l",
+        "dh"
+      ],
+      "class": "adjective",
+      "gloss": "zograscopic (auto-generated)",
+      "citation_form": "poladhaka"
+    },
+    "hzhr": {
+      "root": [
+        "h",
+        "zh",
+        "r"
+      ],
+      "class": "adjective",
+      "gloss": "zoftig (auto-generated)",
+      "citation_form": "hozharaka"
+    },
+    "hwf": {
+      "root": [
+        "h",
+        "w",
+        "f"
+      ],
+      "class": "adjective",
+      "gloss": "zombic (auto-generated)",
+      "citation_form": "howafaka"
+    },
+    "wchng": {
+      "root": [
+        "w",
+        "ch",
+        "ng"
+      ],
+      "class": "adjective",
+      "gloss": "zoistic (auto-generated)",
+      "citation_form": "wochangaka"
+    },
+    "ngthdh": {
+      "root": [
+        "ng",
+        "th",
+        "dh"
+      ],
+      "class": "adjective",
+      "gloss": "zodiacal (auto-generated)",
+      "citation_form": "ngothadhaka"
+    },
+    "vsth": {
+      "root": [
+        "v",
+        "s",
+        "th"
+      ],
+      "class": "adjective",
+      "gloss": "zoetic (auto-generated)",
+      "citation_form": "vosathaka"
+    },
+    "shjw": {
+      "root": [
+        "sh",
+        "j",
+        "w"
+      ],
+      "class": "adjective",
+      "gloss": "zoetropic (auto-generated)",
+      "citation_form": "shojawaka"
+    },
+    "shsch": {
+      "root": [
+        "sh",
+        "s",
+        "ch"
+      ],
+      "class": "adjective",
+      "gloss": "zombielike (auto-generated)",
+      "citation_form": "shosachaka"
     }
   },
   "adverbs": {
@@ -184727,6 +185267,106 @@
       "class": "adverb",
       "gloss": "nutraceutically (auto-generated)",
       "citation_form": "kawate"
+    },
+    "?gs": {
+      "root": [
+        "?",
+        "g",
+        "s"
+      ],
+      "class": "adverb",
+      "gloss": "burdensomely (auto-generated)",
+      "citation_form": "?agate"
+    },
+    "jtt": {
+      "root": [
+        "j",
+        "t",
+        "t"
+      ],
+      "class": "adverb",
+      "gloss": "bumptiously (auto-generated)",
+      "citation_form": "jatate"
+    },
+    "zhkch": {
+      "root": [
+        "zh",
+        "k",
+        "ch"
+      ],
+      "class": "adverb",
+      "gloss": "bubblingly (auto-generated)",
+      "citation_form": "zhakate"
+    },
+    "ftth": {
+      "root": [
+        "f",
+        "t",
+        "th"
+      ],
+      "class": "adverb",
+      "gloss": "bulgily (auto-generated)",
+      "citation_form": "fatate"
+    },
+    "nfj": {
+      "root": [
+        "n",
+        "f",
+        "j"
+      ],
+      "class": "adverb",
+      "gloss": "buggery (auto-generated)",
+      "citation_form": "nafate"
+    },
+    "chnp": {
+      "root": [
+        "ch",
+        "n",
+        "p"
+      ],
+      "class": "adverb",
+      "gloss": "bullishly (auto-generated)",
+      "citation_form": "chanate"
+    },
+    "bpng": {
+      "root": [
+        "b",
+        "p",
+        "ng"
+      ],
+      "class": "adverb",
+      "gloss": "buffly (auto-generated)",
+      "citation_form": "bapate"
+    },
+    "vch?": {
+      "root": [
+        "v",
+        "ch",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "burstingly (auto-generated)",
+      "citation_form": "vachate"
+    },
+    "fthth": {
+      "root": [
+        "f",
+        "th",
+        "th"
+      ],
+      "class": "adverb",
+      "gloss": "bulldoggishly (auto-generated)",
+      "citation_form": "fathate"
+    },
+    "?sw": {
+      "root": [
+        "?",
+        "s",
+        "w"
+      ],
+      "class": "adverb",
+      "gloss": "buckishly (auto-generated)",
+      "citation_form": "?asate"
     }
   },
   "colors": {
