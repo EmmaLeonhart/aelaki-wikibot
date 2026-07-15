@@ -147784,6 +147784,446 @@
       "gloss": "gianthood (auto-generated)",
       "gender": "male",
       "citation_form": "bazhama"
+    },
+    "ngdth": {
+      "root": [
+        "ng",
+        "d",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "byform (auto-generated)",
+      "gender": "child",
+      "citation_form": "ngaduthu"
+    },
+    "dhgh": {
+      "root": [
+        "dh",
+        "g",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "bythograeid (auto-generated)",
+      "gender": "child",
+      "citation_form": "dhaguhu"
+    },
+    "zsh": {
+      "root": [
+        "z",
+        "s",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "bystanderism (auto-generated)",
+      "gender": "male",
+      "citation_form": "zasaha"
+    },
+    "rzhg": {
+      "root": [
+        "r",
+        "zh",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "byewash (auto-generated)",
+      "gender": "child",
+      "citation_form": "razhugu"
+    },
+    "vnf": {
+      "root": [
+        "v",
+        "n",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "byakangelicin (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "vanïffïf"
+    },
+    "bdl": {
+      "root": [
+        "b",
+        "d",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "bygan (auto-generated)",
+      "gender": "male",
+      "citation_form": "badala"
+    },
+    "l?j": {
+      "root": [
+        "l",
+        "?",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "byplace (auto-generated)",
+      "gender": "male",
+      "citation_form": "la?aja"
+    },
+    "zchk": {
+      "root": [
+        "z",
+        "ch",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "bytecode (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zachïfkïf"
+    },
+    "lwb": {
+      "root": [
+        "l",
+        "w",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "bybook (auto-generated)",
+      "gender": "female",
+      "citation_form": "lawobo"
+    },
+    "y?n": {
+      "root": [
+        "y",
+        "?",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "byrnie (auto-generated)",
+      "gender": "female",
+      "citation_form": "ya?ono"
+    },
+    "jrj": {
+      "root": [
+        "j",
+        "r",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "byfellow (auto-generated)",
+      "gender": "male",
+      "citation_form": "jaraja"
+    },
+    "?lng": {
+      "root": [
+        "?",
+        "l",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "bythitid (auto-generated)",
+      "gender": "child",
+      "citation_form": "?alungu"
+    },
+    "shlk": {
+      "root": [
+        "sh",
+        "l",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "bytestring (auto-generated)",
+      "gender": "child",
+      "citation_form": "shaluku"
+    },
+    "glth": {
+      "root": [
+        "g",
+        "l",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "bylyna (auto-generated)",
+      "gender": "female",
+      "citation_form": "galotho"
+    },
+    "mvf": {
+      "root": [
+        "m",
+        "v",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "bylee (auto-generated)",
+      "gender": "child",
+      "citation_form": "mavufu"
+    },
+    "bfr": {
+      "root": [
+        "b",
+        "f",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "byreman (auto-generated)",
+      "gender": "child",
+      "citation_form": "bafuru"
+    },
+    "mtsh": {
+      "root": [
+        "m",
+        "t",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "byelaw (auto-generated)",
+      "gender": "male",
+      "citation_form": "matasha"
+    },
+    "rzhl": {
+      "root": [
+        "r",
+        "zh",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "byssinosis (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "razhïflïf"
+    },
+    "kbf": {
+      "root": [
+        "k",
+        "b",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "byrewoman (auto-generated)",
+      "gender": "female",
+      "citation_form": "kabofo"
+    },
+    "tnng": {
+      "root": [
+        "t",
+        "n",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "byliner (auto-generated)",
+      "gender": "female",
+      "citation_form": "tanongo"
+    },
+    "kchm": {
+      "root": [
+        "k",
+        "ch",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "byproduct (auto-generated)",
+      "gender": "female",
+      "citation_form": "kachomo"
+    },
+    "nthsh": {
+      "root": [
+        "n",
+        "th",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "byke (auto-generated)",
+      "gender": "female",
+      "citation_form": "nathosho"
+    },
+    "?ldh": {
+      "root": [
+        "?",
+        "l",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "bysmalith (auto-generated)",
+      "gender": "male",
+      "citation_form": "?aladha"
+    },
+    "gkch": {
+      "root": [
+        "g",
+        "k",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "bywalk (auto-generated)",
+      "gender": "female",
+      "citation_form": "gakocho"
+    },
+    "fzs": {
+      "root": [
+        "f",
+        "z",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "byturid (auto-generated)",
+      "gender": "male",
+      "citation_form": "fazasa"
+    },
+    "wrng": {
+      "root": [
+        "w",
+        "r",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "bysitter (auto-generated)",
+      "gender": "female",
+      "citation_form": "warongo"
+    },
+    "dchv": {
+      "root": [
+        "d",
+        "ch",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "byrampaut (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "dachïfvïf"
+    },
+    "thrd": {
+      "root": [
+        "th",
+        "r",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "byobu (auto-generated)",
+      "gender": "female",
+      "citation_form": "tharodo"
+    },
+    "gb?": {
+      "root": [
+        "g",
+        "b",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "bydlo (auto-generated)",
+      "gender": "child",
+      "citation_form": "gabu?u"
+    },
+    "gtl": {
+      "root": [
+        "g",
+        "t",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "byzaanchy (auto-generated)",
+      "gender": "female",
+      "citation_form": "gatolo"
+    },
+    "gngn": {
+      "root": [
+        "g",
+        "ng",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "byhearting (auto-generated)",
+      "gender": "female",
+      "citation_form": "gangono"
+    },
+    "vst": {
+      "root": [
+        "v",
+        "s",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "bymatter (auto-generated)",
+      "gender": "child",
+      "citation_form": "vasutu"
+    },
+    "swr": {
+      "root": [
+        "s",
+        "w",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "bynedestin (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "sawïfrïf"
+    },
+    "lgl": {
+      "root": [
+        "l",
+        "g",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "bylander (auto-generated)",
+      "gender": "child",
+      "citation_form": "lagulu"
+    },
+    "rsch": {
+      "root": [
+        "r",
+        "s",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "bygones (auto-generated)",
+      "gender": "female",
+      "citation_form": "rasocho"
+    },
+    "r?t": {
+      "root": [
+        "r",
+        "?",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "byepath (auto-generated)",
+      "gender": "female",
+      "citation_form": "ra?oto"
+    },
+    "kthz": {
+      "root": [
+        "k",
+        "th",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "byestreet (auto-generated)",
+      "gender": "child",
+      "citation_form": "kathuzu"
+    },
+    "?rl": {
+      "root": [
+        "?",
+        "r",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "byrlaw (auto-generated)",
+      "gender": "child",
+      "citation_form": "?arulu"
+    },
+    "lbg": {
+      "root": [
+        "l",
+        "b",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "bystreet (auto-generated)",
+      "gender": "male",
+      "citation_form": "labaga"
+    },
+    "mshp": {
+      "root": [
+        "m",
+        "sh",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "byflow (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "mashïfpïf"
     }
   },
   "adjectives": {
@@ -167194,6 +167634,106 @@
       "class": "adjective",
       "gloss": "zombielike (auto-generated)",
       "citation_form": "shosachaka"
+    },
+    "dhhsh": {
+      "root": [
+        "dh",
+        "h",
+        "sh"
+      ],
+      "class": "adjective",
+      "gloss": "uffish (auto-generated)",
+      "citation_form": "dhohashaka"
+    },
+    "dss": {
+      "root": [
+        "d",
+        "s",
+        "s"
+      ],
+      "class": "adjective",
+      "gloss": "uglysome (auto-generated)",
+      "citation_form": "dosasaka"
+    },
+    "chnl": {
+      "root": [
+        "ch",
+        "n",
+        "l"
+      ],
+      "class": "adjective",
+      "gloss": "ufological (auto-generated)",
+      "citation_form": "chonalaka"
+    },
+    "dh?j": {
+      "root": [
+        "dh",
+        "?",
+        "j"
+      ],
+      "class": "adjective",
+      "gloss": "udderlike (auto-generated)",
+      "citation_form": "dho?ajaka"
+    },
+    "dhdhch": {
+      "root": [
+        "dh",
+        "dh",
+        "ch"
+      ],
+      "class": "adjective",
+      "gloss": "uglyish (auto-generated)",
+      "citation_form": "dhodhachaka"
+    },
+    "shsl": {
+      "root": [
+        "sh",
+        "s",
+        "l"
+      ],
+      "class": "adjective",
+      "gloss": "ugglesome (auto-generated)",
+      "citation_form": "shosalaka"
+    },
+    "wbg": {
+      "root": [
+        "w",
+        "b",
+        "g"
+      ],
+      "class": "adjective",
+      "gloss": "uglesome (auto-generated)",
+      "citation_form": "wobagaka"
+    },
+    "mzj": {
+      "root": [
+        "m",
+        "z",
+        "j"
+      ],
+      "class": "adjective",
+      "gloss": "udometric (auto-generated)",
+      "citation_form": "mozajaka"
+    },
+    "shngzh": {
+      "root": [
+        "sh",
+        "ng",
+        "zh"
+      ],
+      "class": "adjective",
+      "gloss": "ugsome (auto-generated)",
+      "citation_form": "shongazhaka"
+    },
+    "zdhdh": {
+      "root": [
+        "z",
+        "dh",
+        "dh"
+      ],
+      "class": "adjective",
+      "gloss": "udoteaceous (auto-generated)",
+      "citation_form": "zodhadhaka"
     }
   },
   "adverbs": {
@@ -185395,6 +185935,106 @@
       "class": "adverb",
       "gloss": "buckishly (auto-generated)",
       "citation_form": "?asate"
+    },
+    "tny": {
+      "root": [
+        "t",
+        "n",
+        "y"
+      ],
+      "class": "adverb",
+      "gloss": "mystorically (auto-generated)",
+      "citation_form": "tanate"
+    },
+    "bdhn": {
+      "root": [
+        "b",
+        "dh",
+        "n"
+      ],
+      "class": "adverb",
+      "gloss": "mycotoxicologically (auto-generated)",
+      "citation_form": "badhate"
+    },
+    "chnz": {
+      "root": [
+        "ch",
+        "n",
+        "z"
+      ],
+      "class": "adverb",
+      "gloss": "myriadfold (auto-generated)",
+      "citation_form": "chanate"
+    },
+    "wchr": {
+      "root": [
+        "w",
+        "ch",
+        "r"
+      ],
+      "class": "adverb",
+      "gloss": "nakedly (auto-generated)",
+      "citation_form": "wachate"
+    },
+    "ynj": {
+      "root": [
+        "y",
+        "n",
+        "j"
+      ],
+      "class": "adverb",
+      "gloss": "mycobacteriologically (auto-generated)",
+      "citation_form": "yanate"
+    },
+    "jngn": {
+      "root": [
+        "j",
+        "ng",
+        "n"
+      ],
+      "class": "adverb",
+      "gloss": "myriadly (auto-generated)",
+      "citation_form": "jangate"
+    },
+    "ndhm": {
+      "root": [
+        "n",
+        "dh",
+        "m"
+      ],
+      "class": "adverb",
+      "gloss": "mystagogically (auto-generated)",
+      "citation_form": "nadhate"
+    },
+    "mpf": {
+      "root": [
+        "m",
+        "p",
+        "f"
+      ],
+      "class": "adverb",
+      "gloss": "mythographically (auto-generated)",
+      "citation_form": "mapate"
+    },
+    "wwb": {
+      "root": [
+        "w",
+        "w",
+        "b"
+      ],
+      "class": "adverb",
+      "gloss": "nameably (auto-generated)",
+      "citation_form": "wawate"
+    },
+    "jchp": {
+      "root": [
+        "j",
+        "ch",
+        "p"
+      ],
+      "class": "adverb",
+      "gloss": "namelessly (auto-generated)",
+      "citation_form": "jachate"
     }
   },
   "colors": {
