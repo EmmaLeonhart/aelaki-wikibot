@@ -148255,6 +148255,17 @@
       "gender": "female",
       "citation_form": "mashopo",
       "old_citation_form": "mashïfpïf"
+    },
+    "dbdh": {
+      "root": [
+        "d",
+        "b",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "crackowe (auto-generated)",
+      "gender": "female",
+      "citation_form": "dabodho"
     }
   },
   "adjectives": {
@@ -167765,6 +167776,106 @@
       "class": "adjective",
       "gloss": "udoteaceous (auto-generated)",
       "citation_form": "zodhadhaka"
+    },
+    "shwr": {
+      "root": [
+        "sh",
+        "w",
+        "r"
+      ],
+      "class": "adjective",
+      "gloss": "searchable (auto-generated)",
+      "citation_form": "showaraka"
+    },
+    "chsz": {
+      "root": [
+        "ch",
+        "s",
+        "z"
+      ],
+      "class": "adjective",
+      "gloss": "seagoing (auto-generated)",
+      "citation_form": "chosazaka"
+    },
+    "knch": {
+      "root": [
+        "k",
+        "n",
+        "ch"
+      ],
+      "class": "adjective",
+      "gloss": "seamy (auto-generated)",
+      "citation_form": "konachaka"
+    },
+    "shlm": {
+      "root": [
+        "sh",
+        "l",
+        "m"
+      ],
+      "class": "adjective",
+      "gloss": "sealable (auto-generated)",
+      "citation_form": "sholamaka"
+    },
+    "gfz": {
+      "root": [
+        "g",
+        "f",
+        "z"
+      ],
+      "class": "adjective",
+      "gloss": "seallike (auto-generated)",
+      "citation_form": "gofazaka"
+    },
+    "?gp": {
+      "root": [
+        "?",
+        "g",
+        "p"
+      ],
+      "class": "adjective",
+      "gloss": "seagulled (auto-generated)",
+      "citation_form": "?ogapaka"
+    },
+    "gjh": {
+      "root": [
+        "g",
+        "j",
+        "h"
+      ],
+      "class": "adjective",
+      "gloss": "searchlighted (auto-generated)",
+      "citation_form": "gojahaka"
+    },
+    "yjd": {
+      "root": [
+        "y",
+        "j",
+        "d"
+      ],
+      "class": "adjective",
+      "gloss": "seamost (auto-generated)",
+      "citation_form": "yojadaka"
+    },
+    "dbzh": {
+      "root": [
+        "d",
+        "b",
+        "zh"
+      ],
+      "class": "adjective",
+      "gloss": "searchy (auto-generated)",
+      "citation_form": "dobazhaka"
+    },
+    "bmng": {
+      "root": [
+        "b",
+        "m",
+        "ng"
+      ],
+      "class": "adjective",
+      "gloss": "sealike (auto-generated)",
+      "citation_form": "bomangaka"
     }
   },
   "adverbs": {
@@ -186066,6 +186177,106 @@
       "class": "adverb",
       "gloss": "namelessly (auto-generated)",
       "citation_form": "jachate"
+    },
+    "thbl": {
+      "root": [
+        "th",
+        "b",
+        "l"
+      ],
+      "class": "adverb",
+      "gloss": "woodsily (auto-generated)",
+      "citation_form": "thabate"
+    },
+    "kchy": {
+      "root": [
+        "k",
+        "ch",
+        "y"
+      ],
+      "class": "adverb",
+      "gloss": "womanwise (auto-generated)",
+      "citation_form": "kachate"
+    },
+    "krm": {
+      "root": [
+        "k",
+        "r",
+        "m"
+      ],
+      "class": "adverb",
+      "gloss": "wonderful (auto-generated)",
+      "citation_form": "karate"
+    },
+    "ng?d": {
+      "root": [
+        "ng",
+        "?",
+        "d"
+      ],
+      "class": "adverb",
+      "gloss": "wooingly (auto-generated)",
+      "citation_form": "nga?ate"
+    },
+    "?s?": {
+      "root": [
+        "?",
+        "s",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "womanfully (auto-generated)",
+      "citation_form": "?asate"
+    },
+    "shlth": {
+      "root": [
+        "sh",
+        "l",
+        "th"
+      ],
+      "class": "adverb",
+      "gloss": "wonce (auto-generated)",
+      "citation_form": "shalate"
+    },
+    "nbg": {
+      "root": [
+        "n",
+        "b",
+        "g"
+      ],
+      "class": "adverb",
+      "gloss": "woegeously (auto-generated)",
+      "citation_form": "nabate"
+    },
+    "zhnb": {
+      "root": [
+        "zh",
+        "n",
+        "b"
+      ],
+      "class": "adverb",
+      "gloss": "wonderly (auto-generated)",
+      "citation_form": "zhanate"
+    },
+    "dzg": {
+      "root": [
+        "d",
+        "z",
+        "g"
+      ],
+      "class": "adverb",
+      "gloss": "wofully (auto-generated)",
+      "citation_form": "dazate"
+    },
+    "svv": {
+      "root": [
+        "s",
+        "v",
+        "v"
+      ],
+      "class": "adverb",
+      "gloss": "wontedly (auto-generated)",
+      "citation_form": "savate"
     }
   },
   "colors": {
