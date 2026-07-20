@@ -63945,6 +63945,60 @@
       "class": "verb_transitive",
       "gloss": "shapechange (auto-generated)",
       "citation_form": "kahazhegoko"
+    },
+    "zhnsf": {
+      "root": [
+        "zh",
+        "n",
+        "s",
+        "f"
+      ],
+      "class": "verb_transitive",
+      "gloss": "rink (auto-generated)",
+      "citation_form": "kazhansefoko"
+    },
+    "zhhch": {
+      "root": [
+        "zh",
+        "h",
+        "ch"
+      ],
+      "class": "verb_stative",
+      "gloss": "ride (auto-generated)",
+      "citation_form": "zhahacha"
+    },
+    "ydf?": {
+      "root": [
+        "y",
+        "d",
+        "f",
+        "?"
+      ],
+      "class": "verb_transitive",
+      "gloss": "rigidise (auto-generated)",
+      "citation_form": "kayadfe?oko"
+    },
+    "chvtl": {
+      "root": [
+        "ch",
+        "v",
+        "t",
+        "l"
+      ],
+      "class": "verb_transitive",
+      "gloss": "rig (auto-generated)",
+      "citation_form": "kachavteloko"
+    },
+    "wkny": {
+      "root": [
+        "w",
+        "k",
+        "n",
+        "y"
+      ],
+      "class": "verb_transitive",
+      "gloss": "rice (auto-generated)",
+      "citation_form": "kawakneyoko"
     }
   },
   "nouns": {
@@ -149548,6 +149602,237 @@
       "gloss": "wff (auto-generated)",
       "gender": "child",
       "citation_form": "fa?uchu"
+    },
+    "f?l": {
+      "root": [
+        "f",
+        "?",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "vachana (auto-generated)",
+      "gender": "female",
+      "citation_form": "fa?olo"
+    },
+    "drw": {
+      "root": [
+        "d",
+        "r",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "vaagmaer (auto-generated)",
+      "gender": "male",
+      "citation_form": "darawa"
+    },
+    "rrz": {
+      "root": [
+        "r",
+        "r",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "vacc (auto-generated)",
+      "gender": "male",
+      "citation_form": "raraza"
+    },
+    "?fn": {
+      "root": [
+        "?",
+        "f",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "vacillator (auto-generated)",
+      "gender": "female",
+      "citation_form": "?afono"
+    },
+    "ngdhw": {
+      "root": [
+        "ng",
+        "dh",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "uxoriousness (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "ngadhïfwïf"
+    },
+    "vych": {
+      "root": [
+        "v",
+        "y",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "vackeel (auto-generated)",
+      "gender": "female",
+      "citation_form": "vayocho"
+    },
+    "dtt": {
+      "root": [
+        "d",
+        "t",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "vacillating (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "datïftïf"
+    },
+    "szhb": {
+      "root": [
+        "s",
+        "zh",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "uxoricide (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "sazhïfbïf"
+    },
+    "ysh": {
+      "root": [
+        "y",
+        "s",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "uxter (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "yasïfhïf"
+    },
+    "fdhth": {
+      "root": [
+        "f",
+        "dh",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "vaccenate (auto-generated)",
+      "gender": "child",
+      "citation_form": "fadhuthu"
+    },
+    "tsy": {
+      "root": [
+        "t",
+        "s",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "vaccinostyle (auto-generated)",
+      "gender": "child",
+      "citation_form": "tasuyu"
+    },
+    "ngzht": {
+      "root": [
+        "ng",
+        "zh",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "vaccinogen (auto-generated)",
+      "gender": "child",
+      "citation_form": "ngazhutu"
+    },
+    "ssn": {
+      "root": [
+        "s",
+        "s",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "vaagmer (auto-generated)",
+      "gender": "child",
+      "citation_form": "sasunu"
+    },
+    "hyw": {
+      "root": [
+        "h",
+        "y",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "vaccinosis (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "hayïfwïf"
+    },
+    "chs?": {
+      "root": [
+        "ch",
+        "s",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "vacillation (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "chasïf?ïf"
+    },
+    "shbm": {
+      "root": [
+        "sh",
+        "b",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "vachette (auto-generated)",
+      "gender": "child",
+      "citation_form": "shabumu"
+    },
+    "nmsh": {
+      "root": [
+        "n",
+        "m",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "vaccenyl (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "namïfshïf"
+    },
+    "fndh": {
+      "root": [
+        "f",
+        "n",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "uxoriality (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "fanïfdhïf"
+    },
+    "chngr": {
+      "root": [
+        "ch",
+        "ng",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "uyezd (auto-generated)",
+      "gender": "child",
+      "citation_form": "changuru"
+    },
+    "rthk": {
+      "root": [
+        "r",
+        "th",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "uxory (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "rathïfkïf"
+    },
+    "lv?": {
+      "root": [
+        "l",
+        "v",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "vacreation (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "lavïf?ïf"
     }
   },
   "adjectives": {
@@ -169358,6 +169643,76 @@
       "class": "adjective",
       "gloss": "ecderonic (auto-generated)",
       "citation_form": "pogawaka"
+    },
+    "zwk": {
+      "root": [
+        "z",
+        "w",
+        "k"
+      ],
+      "class": "adjective",
+      "gloss": "nearline (auto-generated)",
+      "citation_form": "zowakaka"
+    },
+    "chjk": {
+      "root": [
+        "ch",
+        "j",
+        "k"
+      ],
+      "class": "adjective",
+      "gloss": "nearfield (auto-generated)",
+      "citation_form": "chojakaka"
+    },
+    "stz": {
+      "root": [
+        "s",
+        "t",
+        "z"
+      ],
+      "class": "adjective",
+      "gloss": "neapolitan (auto-generated)",
+      "citation_form": "sotazaka"
+    },
+    "chzhh": {
+      "root": [
+        "ch",
+        "zh",
+        "h"
+      ],
+      "class": "adjective",
+      "gloss": "neanthropic (auto-generated)",
+      "citation_form": "chozhahaka"
+    },
+    "l?m": {
+      "root": [
+        "l",
+        "?",
+        "m"
+      ],
+      "class": "adjective",
+      "gloss": "neanic (auto-generated)",
+      "citation_form": "lo?amaka"
+    },
+    "yfz": {
+      "root": [
+        "y",
+        "f",
+        "z"
+      ],
+      "class": "adjective",
+      "gloss": "nearnative (auto-generated)",
+      "citation_form": "yofazaka"
+    },
+    "?jzh": {
+      "root": [
+        "?",
+        "j",
+        "zh"
+      ],
+      "class": "adjective",
+      "gloss": "neanderthal (auto-generated)",
+      "citation_form": "?ojazhaka"
     }
   },
   "adverbs": {
@@ -187959,6 +188314,16 @@
       "class": "adverb",
       "gloss": "burpingly (auto-generated)",
       "citation_form": "kadhate"
+    },
+    "shgt": {
+      "root": [
+        "sh",
+        "g",
+        "t"
+      ],
+      "class": "adverb",
+      "gloss": "yaoifully (auto-generated)",
+      "citation_form": "shagate"
     }
   },
   "colors": {
