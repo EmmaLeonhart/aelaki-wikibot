@@ -66321,6 +66321,440 @@
       "class": "verb_transitive",
       "gloss": "dieselise (auto-generated)",
       "citation_form": "kadhathdhethoko"
+    },
+    "chszht": {
+      "root": [
+        "ch",
+        "s",
+        "zh",
+        "t"
+      ],
+      "class": "verb_transitive",
+      "gloss": "oblivionate (auto-generated)",
+      "citation_form": "kachaszhetoko"
+    },
+    "?vch": {
+      "root": [
+        "?",
+        "v",
+        "ch"
+      ],
+      "class": "verb_active",
+      "gloss": "oblectate (auto-generated)",
+      "citation_form": "ka?avach"
+    },
+    "ngbssh": {
+      "root": [
+        "ng",
+        "b",
+        "s",
+        "sh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obelisk (auto-generated)",
+      "citation_form": "kangabseshoko"
+    },
+    "shkp": {
+      "root": [
+        "sh",
+        "k",
+        "p"
+      ],
+      "class": "verb_active",
+      "gloss": "obviate (auto-generated)",
+      "citation_form": "kashakap"
+    },
+    "nfchzh": {
+      "root": [
+        "n",
+        "f",
+        "ch",
+        "zh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obscure (auto-generated)",
+      "citation_form": "kanafchezhoko"
+    },
+    "hkvsh": {
+      "root": [
+        "h",
+        "k",
+        "v",
+        "sh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obolize (auto-generated)",
+      "citation_form": "kahakveshoko"
+    },
+    "thngtg": {
+      "root": [
+        "th",
+        "ng",
+        "t",
+        "g"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obleege (auto-generated)",
+      "citation_form": "kathangtegoko"
+    },
+    "fthjk": {
+      "root": [
+        "f",
+        "th",
+        "j",
+        "k"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obsolete (auto-generated)",
+      "citation_form": "kafathjekoko"
+    },
+    "pvchh": {
+      "root": [
+        "p",
+        "v",
+        "ch",
+        "h"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obtein (auto-generated)",
+      "citation_form": "kapavchehoko"
+    },
+    "ngdp": {
+      "root": [
+        "ng",
+        "d",
+        "p"
+      ],
+      "class": "verb_stative",
+      "gloss": "obvallate (auto-generated)",
+      "citation_form": "ngadapa"
+    },
+    "jkvk": {
+      "root": [
+        "j",
+        "k",
+        "v",
+        "k"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obligate (auto-generated)",
+      "citation_form": "kajakvekoko"
+    },
+    "zhchpt": {
+      "root": [
+        "zh",
+        "ch",
+        "p",
+        "t"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obtain (auto-generated)",
+      "citation_form": "kazhachpetoko"
+    },
+    "h?jf": {
+      "root": [
+        "h",
+        "?",
+        "j",
+        "f"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obrogate (auto-generated)",
+      "citation_form": "kaha?jefoko"
+    },
+    "dshjl": {
+      "root": [
+        "d",
+        "sh",
+        "j",
+        "l"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obstaculate (auto-generated)",
+      "citation_form": "kadashjeloko"
+    },
+    "fbvth": {
+      "root": [
+        "f",
+        "b",
+        "v",
+        "th"
+      ],
+      "class": "verb_transitive",
+      "gloss": "oblongate (auto-generated)",
+      "citation_form": "kafabvethoko"
+    },
+    "tht?sh": {
+      "root": [
+        "th",
+        "t",
+        "?",
+        "sh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obituarize (auto-generated)",
+      "citation_form": "kathat?eshoko"
+    },
+    "tsmm": {
+      "root": [
+        "t",
+        "s",
+        "m",
+        "m"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obsess (auto-generated)",
+      "citation_form": "katasmemoko"
+    },
+    "nyfd": {
+      "root": [
+        "n",
+        "y",
+        "f",
+        "d"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obscurate (auto-generated)",
+      "citation_form": "kanayfedoko"
+    },
+    "thbrb": {
+      "root": [
+        "th",
+        "b",
+        "r",
+        "b"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obtestate (auto-generated)",
+      "citation_form": "kathabreboko"
+    },
+    "thvth?": {
+      "root": [
+        "th",
+        "v",
+        "th",
+        "?"
+      ],
+      "class": "verb_transitive",
+      "gloss": "observate (auto-generated)",
+      "citation_form": "kathavthe?oko"
+    },
+    "bwzz": {
+      "root": [
+        "b",
+        "w",
+        "z",
+        "z"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obbo (auto-generated)",
+      "citation_form": "kabawzezoko"
+    },
+    "wh?y": {
+      "root": [
+        "w",
+        "h",
+        "?",
+        "y"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obserue (auto-generated)",
+      "citation_form": "kawah?eyoko"
+    },
+    "dgdzh": {
+      "root": [
+        "d",
+        "g",
+        "d",
+        "zh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obscene (auto-generated)",
+      "citation_form": "kadagdezhoko"
+    },
+    "?vyl": {
+      "root": [
+        "?",
+        "v",
+        "y",
+        "l"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obelise (auto-generated)",
+      "citation_form": "ka?avyeloko"
+    },
+    "nwd?": {
+      "root": [
+        "n",
+        "w",
+        "d",
+        "?"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obsignate (auto-generated)",
+      "citation_form": "kanawde?oko"
+    },
+    "fhn?": {
+      "root": [
+        "f",
+        "h",
+        "n",
+        "?"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obliterate (auto-generated)",
+      "citation_form": "kafahne?oko"
+    },
+    "fndk": {
+      "root": [
+        "f",
+        "n",
+        "d",
+        "k"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obstreperate (auto-generated)",
+      "citation_form": "kafandekoko"
+    },
+    "?zn?": {
+      "root": [
+        "?",
+        "z",
+        "n",
+        "?"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obumber (auto-generated)",
+      "citation_form": "ka?azne?oko"
+    },
+    "ngvd": {
+      "root": [
+        "ng",
+        "v",
+        "d"
+      ],
+      "class": "verb_stative",
+      "gloss": "obsolesce (auto-generated)",
+      "citation_form": "ngavada"
+    },
+    "njr": {
+      "root": [
+        "n",
+        "j",
+        "r"
+      ],
+      "class": "verb_active",
+      "gloss": "oblige (auto-generated)",
+      "citation_form": "kanajar"
+    },
+    "dhvgth": {
+      "root": [
+        "dh",
+        "v",
+        "g",
+        "th"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obligatorize (auto-generated)",
+      "citation_form": "kadhavgethoko"
+    },
+    "dmhf": {
+      "root": [
+        "d",
+        "m",
+        "h",
+        "f"
+      ],
+      "class": "verb_transitive",
+      "gloss": "oblivion (auto-generated)",
+      "citation_form": "kadamhefoko"
+    },
+    "thlgb": {
+      "root": [
+        "th",
+        "l",
+        "g",
+        "b"
+      ],
+      "class": "verb_transitive",
+      "gloss": "objectivate (auto-generated)",
+      "citation_form": "kathalgeboko"
+    },
+    "nzhj": {
+      "root": [
+        "n",
+        "zh",
+        "j"
+      ],
+      "class": "verb_active",
+      "gloss": "obumbrate (auto-generated)",
+      "citation_form": "kanazhaj"
+    },
+    "kypd": {
+      "root": [
+        "k",
+        "y",
+        "p",
+        "d"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obtuse (auto-generated)",
+      "citation_form": "kakaypedoko"
+    },
+    "fdvzh": {
+      "root": [
+        "f",
+        "d",
+        "v",
+        "zh"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obambulate (auto-generated)",
+      "citation_form": "kafadvezhoko"
+    },
+    "dhngyl": {
+      "root": [
+        "dh",
+        "ng",
+        "y",
+        "l"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obstruct (auto-generated)",
+      "citation_form": "kadhangyeloko"
+    },
+    "rmngt": {
+      "root": [
+        "r",
+        "m",
+        "ng",
+        "t"
+      ],
+      "class": "verb_transitive",
+      "gloss": "objure (auto-generated)",
+      "citation_form": "karamngetoko"
+    },
+    "jbthf": {
+      "root": [
+        "j",
+        "b",
+        "th",
+        "f"
+      ],
+      "class": "verb_transitive",
+      "gloss": "obsequiate (auto-generated)",
+      "citation_form": "kajabthefoko"
+    },
+    "tlsk": {
+      "root": [
+        "t",
+        "l",
+        "s",
+        "k"
+      ],
+      "class": "verb_transitive",
+      "gloss": "objurgate (auto-generated)",
+      "citation_form": "katalsekoko"
     }
   },
   "nouns": {
@@ -155562,6 +155996,292 @@
       "gloss": "stache (auto-generated)",
       "gender": "female",
       "citation_form": "ta?ojo"
+    },
+    "zpr": {
+      "root": [
+        "z",
+        "p",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "qene (auto-generated)",
+      "gender": "male",
+      "citation_form": "zapara"
+    },
+    "shshy": {
+      "root": [
+        "sh",
+        "sh",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "qing (auto-generated)",
+      "gender": "female",
+      "citation_form": "shashoyo"
+    },
+    "sdr": {
+      "root": [
+        "s",
+        "d",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "qiyas (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "sadïfrïf"
+    },
+    "lbv": {
+      "root": [
+        "l",
+        "b",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "qhaswa (auto-generated)",
+      "gender": "male",
+      "citation_form": "labava"
+    },
+    "ldhdh": {
+      "root": [
+        "l",
+        "dh",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "qenet (auto-generated)",
+      "gender": "male",
+      "citation_form": "ladhadha"
+    },
+    "pbp": {
+      "root": [
+        "p",
+        "b",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "qepik (auto-generated)",
+      "gender": "female",
+      "citation_form": "pabopo"
+    },
+    "?pch": {
+      "root": [
+        "?",
+        "p",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "qitianlingite (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?apïfchïf"
+    },
+    "shbj": {
+      "root": [
+        "sh",
+        "b",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "qipao (auto-generated)",
+      "gender": "child",
+      "citation_form": "shabuju"
+    },
+    "pml": {
+      "root": [
+        "p",
+        "m",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "qiblah (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "pamïflïf"
+    },
+    "?mt": {
+      "root": [
+        "?",
+        "m",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "qere (auto-generated)",
+      "gender": "female",
+      "citation_form": "?amoto"
+    },
+    "fdhl": {
+      "root": [
+        "f",
+        "dh",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "qism (auto-generated)",
+      "gender": "child",
+      "citation_form": "fadhulu"
+    },
+    "dmm": {
+      "root": [
+        "d",
+        "m",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "qhat (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "damïfmïf"
+    },
+    "nrt": {
+      "root": [
+        "n",
+        "r",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "qewwal (auto-generated)",
+      "gender": "female",
+      "citation_form": "naroto"
+    },
+    "tl?": {
+      "root": [
+        "t",
+        "l",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "qero (auto-generated)",
+      "gender": "child",
+      "citation_form": "talu?u"
+    },
+    "wzr": {
+      "root": [
+        "w",
+        "z",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "qedoshim (auto-generated)",
+      "gender": "child",
+      "citation_form": "wazuru"
+    },
+    "l?s": {
+      "root": [
+        "l",
+        "?",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "qiviut (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "la?ïfsïf"
+    },
+    "thhp": {
+      "root": [
+        "th",
+        "h",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "qeri (auto-generated)",
+      "gender": "child",
+      "citation_form": "thahupu"
+    },
+    "?mb": {
+      "root": [
+        "?",
+        "m",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "qeej (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?amïfbïf"
+    },
+    "mjb": {
+      "root": [
+        "m",
+        "j",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "qewl (auto-generated)",
+      "gender": "child",
+      "citation_form": "majubu"
+    },
+    "tpk": {
+      "root": [
+        "t",
+        "p",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "qingtuan (auto-generated)",
+      "gender": "child",
+      "citation_form": "tapuku"
+    },
+    "zshch": {
+      "root": [
+        "z",
+        "sh",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "qeleshe (auto-generated)",
+      "gender": "child",
+      "citation_form": "zashuchu"
+    },
+    "sd?": {
+      "root": [
+        "s",
+        "d",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "qoryak (auto-generated)",
+      "gender": "female",
+      "citation_form": "sado?o"
+    },
+    "ngwm": {
+      "root": [
+        "ng",
+        "w",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "qoppa (auto-generated)",
+      "gender": "child",
+      "citation_form": "ngawumu"
+    },
+    "zjm": {
+      "root": [
+        "z",
+        "j",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "qeema (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zajïfmïf"
+    },
+    "pdz": {
+      "root": [
+        "p",
+        "d",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "qeltite (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "padïfzïf"
+    },
+    "tnb": {
+      "root": [
+        "t",
+        "n",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "qintarka (auto-generated)",
+      "gender": "female",
+      "citation_form": "tanobo"
     }
   },
   "adjectives": {
