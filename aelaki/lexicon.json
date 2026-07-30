@@ -66755,6 +66755,17 @@
       "class": "verb_transitive",
       "gloss": "objurgate (auto-generated)",
       "citation_form": "katalsekoko"
+    },
+    "tsmb": {
+      "root": [
+        "t",
+        "s",
+        "m",
+        "b"
+      ],
+      "class": "verb_transitive",
+      "gloss": "wallup (auto-generated)",
+      "citation_form": "katasmeboko"
     }
   },
   "nouns": {
@@ -156184,6 +156195,248 @@
       "gloss": "qintarka (auto-generated)",
       "gender": "female",
       "citation_form": "tanobo"
+    },
+    "kwdh": {
+      "root": [
+        "k",
+        "w",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "dwarrow (auto-generated)",
+      "gender": "male",
+      "citation_form": "kawadha"
+    },
+    "nshr": {
+      "root": [
+        "n",
+        "sh",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "dwang (auto-generated)",
+      "gender": "female",
+      "citation_form": "nashoro"
+    },
+    "shfw": {
+      "root": [
+        "sh",
+        "f",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "dweomercraft (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "shafïfwïf"
+    },
+    "shtf": {
+      "root": [
+        "sh",
+        "t",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "dwarfism (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "shatïffïf"
+    },
+    "lshl": {
+      "root": [
+        "l",
+        "sh",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "dyapre (auto-generated)",
+      "gender": "male",
+      "citation_form": "lashala"
+    },
+    "zhjl": {
+      "root": [
+        "zh",
+        "j",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "dweebling (auto-generated)",
+      "gender": "child",
+      "citation_form": "zhajulu"
+    },
+    "yft": {
+      "root": [
+        "y",
+        "f",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "dwobbit (auto-generated)",
+      "gender": "female",
+      "citation_form": "yafoto"
+    },
+    "nchw": {
+      "root": [
+        "n",
+        "ch",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "dweeb (auto-generated)",
+      "gender": "male",
+      "citation_form": "nachawa"
+    },
+    "zh??": {
+      "root": [
+        "zh",
+        "?",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "dwile (auto-generated)",
+      "gender": "male",
+      "citation_form": "zha?a?a"
+    },
+    "thkm": {
+      "root": [
+        "th",
+        "k",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "dwarfsploitation (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "thakïfmïf"
+    },
+    "vk?": {
+      "root": [
+        "v",
+        "k",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "dworse (auto-generated)",
+      "gender": "male",
+      "citation_form": "vaka?a"
+    },
+    "shdy": {
+      "root": [
+        "sh",
+        "d",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "dwarfing (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "shadïfyïf"
+    },
+    "dhjp": {
+      "root": [
+        "dh",
+        "j",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "dweeblet (auto-generated)",
+      "gender": "child",
+      "citation_form": "dhajupu"
+    },
+    "chthz": {
+      "root": [
+        "ch",
+        "th",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "dwarrowdam (auto-generated)",
+      "gender": "male",
+      "citation_form": "chathaza"
+    },
+    "wnn": {
+      "root": [
+        "w",
+        "n",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "dweebery (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "wanïfnïf"
+    },
+    "ypd": {
+      "root": [
+        "y",
+        "p",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "dyepot (auto-generated)",
+      "gender": "female",
+      "citation_form": "yapodo"
+    },
+    "dy?": {
+      "root": [
+        "d",
+        "y",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "dyad (auto-generated)",
+      "gender": "child",
+      "citation_form": "dayu?u"
+    },
+    "bn?": {
+      "root": [
+        "b",
+        "n",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "dwaggy (auto-generated)",
+      "gender": "female",
+      "citation_form": "bano?o"
+    },
+    "dhdzh": {
+      "root": [
+        "dh",
+        "d",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "dweomer (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "dhadïfzhïf"
+    },
+    "zhn?": {
+      "root": [
+        "zh",
+        "n",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "dyaper (auto-generated)",
+      "gender": "female",
+      "citation_form": "zhano?o"
+    },
+    "fshzh": {
+      "root": [
+        "f",
+        "sh",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "dwimmercraft (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "fashïfzhïf"
+    },
+    "thsj": {
+      "root": [
+        "th",
+        "s",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "dyakisdodecahedron (auto-generated)",
+      "gender": "male",
+      "citation_form": "thasaja"
     }
   },
   "adjectives": {
@@ -176664,6 +176917,106 @@
       "class": "adjective",
       "gloss": "vociferative (auto-generated)",
       "citation_form": "mokangaka"
+    },
+    "zjzh": {
+      "root": [
+        "z",
+        "j",
+        "zh"
+      ],
+      "class": "adjective",
+      "gloss": "cablelaid (auto-generated)",
+      "citation_form": "zojazhaka"
+    },
+    "pdh": {
+      "root": [
+        "p",
+        "d",
+        "h"
+      ],
+      "class": "adjective",
+      "gloss": "cabalistical (auto-generated)",
+      "citation_form": "podahaka"
+    },
+    "ngnl": {
+      "root": [
+        "ng",
+        "n",
+        "l"
+      ],
+      "class": "adjective",
+      "gloss": "cabbagy (auto-generated)",
+      "citation_form": "ngonalaka"
+    },
+    "plf": {
+      "root": [
+        "p",
+        "l",
+        "f"
+      ],
+      "class": "adjective",
+      "gloss": "cabbageless (auto-generated)",
+      "citation_form": "polafaka"
+    },
+    "rngzh": {
+      "root": [
+        "r",
+        "ng",
+        "zh"
+      ],
+      "class": "adjective",
+      "gloss": "cabinetlike (auto-generated)",
+      "citation_form": "rongazhaka"
+    },
+    "dmf": {
+      "root": [
+        "d",
+        "m",
+        "f"
+      ],
+      "class": "adjective",
+      "gloss": "cabinesque (auto-generated)",
+      "citation_form": "domafaka"
+    },
+    "dhvng": {
+      "root": [
+        "dh",
+        "v",
+        "ng"
+      ],
+      "class": "adjective",
+      "gloss": "cabinless (auto-generated)",
+      "citation_form": "dhovangaka"
+    },
+    "rdv": {
+      "root": [
+        "r",
+        "d",
+        "v"
+      ],
+      "class": "adjective",
+      "gloss": "cabbalistical (auto-generated)",
+      "citation_form": "rodavaka"
+    },
+    "zhmf": {
+      "root": [
+        "zh",
+        "m",
+        "f"
+      ],
+      "class": "adjective",
+      "gloss": "cabobbed (auto-generated)",
+      "citation_form": "zhomafaka"
+    },
+    "pgf": {
+      "root": [
+        "p",
+        "g",
+        "f"
+      ],
+      "class": "adjective",
+      "gloss": "cabineted (auto-generated)",
+      "citation_form": "pogafaka"
     }
   },
   "adverbs": {
@@ -196075,6 +196428,106 @@
       "class": "adverb",
       "gloss": "irreciprocally (auto-generated)",
       "citation_form": "thachate"
+    },
+    "?lj": {
+      "root": [
+        "?",
+        "l",
+        "j"
+      ],
+      "class": "adverb",
+      "gloss": "beggarly (auto-generated)",
+      "citation_form": "?alate"
+    },
+    "dhsn": {
+      "root": [
+        "dh",
+        "s",
+        "n"
+      ],
+      "class": "adverb",
+      "gloss": "becos (auto-generated)",
+      "citation_form": "dhasate"
+    },
+    "zpp": {
+      "root": [
+        "z",
+        "p",
+        "p"
+      ],
+      "class": "adverb",
+      "gloss": "beastfully (auto-generated)",
+      "citation_form": "zapate"
+    },
+    "hzch": {
+      "root": [
+        "h",
+        "z",
+        "ch"
+      ],
+      "class": "adverb",
+      "gloss": "bearishly (auto-generated)",
+      "citation_form": "hazate"
+    },
+    "ysng": {
+      "root": [
+        "y",
+        "s",
+        "ng"
+      ],
+      "class": "adverb",
+      "gloss": "beadily (auto-generated)",
+      "citation_form": "yasate"
+    },
+    "chdhch": {
+      "root": [
+        "ch",
+        "dh",
+        "ch"
+      ],
+      "class": "adverb",
+      "gloss": "bedazzlingly (auto-generated)",
+      "citation_form": "chadhate"
+    },
+    "chrr": {
+      "root": [
+        "ch",
+        "r",
+        "r"
+      ],
+      "class": "adverb",
+      "gloss": "beggarwise (auto-generated)",
+      "citation_form": "charate"
+    },
+    "hdz": {
+      "root": [
+        "h",
+        "d",
+        "z"
+      ],
+      "class": "adverb",
+      "gloss": "beerily (auto-generated)",
+      "citation_form": "hadate"
+    },
+    "hzh?": {
+      "root": [
+        "h",
+        "zh",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "bearably (auto-generated)",
+      "citation_form": "hazhate"
+    },
+    "shbh": {
+      "root": [
+        "sh",
+        "b",
+        "h"
+      ],
+      "class": "adverb",
+      "gloss": "beastlily (auto-generated)",
+      "citation_form": "shabate"
     }
   },
   "colors": {
