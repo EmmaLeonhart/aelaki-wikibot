@@ -2756,6 +2756,18 @@ Short hashes are used in [[Category:Word pages|word page]] version categories (e
 | 2026-08-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a675c99b4807dba7d48a968bbbc162b1f635911d a675c99b] || [[:Category:Words a675c99b|Words a675c99b]] || [[:Category:Non-lemma forms a675c99b|Non-lemma a675c99b]] || chore(state): post-grammar-sync [skip ci]
 |-
 | 2026-08-05 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/502876a05e30fa5d88ccf808fb4f7b0c15138ec4 502876a0] || [[:Category:Words 502876a0|Words 502876a0]] || [[:Category:Non-lemma forms 502876a0|Non-lemma 502876a0]] || chore(state): rebuild version history from git log [skip ci]
+|-
+| 2026-08-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/0ba995e3485d44f931888049c61d217fe3703728 0ba995e3] || [[:Category:Words 0ba995e3|Words 0ba995e3]] || [[:Category:Non-lemma forms 0ba995e3|Non-lemma 0ba995e3]] || chore(state): post-normalize lexicon [skip ci]
+|-
+| 2026-08-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/f60e1b6a1442c581289a18ef37026935868aaec5 f60e1b6a] || [[:Category:Words f60e1b6a|Words f60e1b6a]] || [[:Category:Non-lemma forms f60e1b6a|Non-lemma f60e1b6a]] || chore(state): post-lemma state [skip ci]
+|-
+| 2026-08-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/0a41f971cafbecc36a19150e30287711f40f364b 0a41f971] || [[:Category:Words 0a41f971|Words 0a41f971]] || [[:Category:Non-lemma forms 0a41f971|Non-lemma 0a41f971]] || chore(state): post-generate lexicon [skip ci]
+|-
+| 2026-08-06 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/9b052768942c45d8043f9e4534d7b1da6484cbb8 9b052768] || [[:Category:Words 9b052768|Words 9b052768]] || [[:Category:Non-lemma forms 9b052768|Non-lemma 9b052768]] || chore(state): post-nonlemma state [skip ci]
+|-
+| 2026-08-07 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/a076fbb5fd23a3308d1aba6c16869fce79203a6e a076fbb5] || [[:Category:Words a076fbb5|Words a076fbb5]] || [[:Category:Non-lemma forms a076fbb5|Non-lemma a076fbb5]] || chore(state): post-grammar-sync [skip ci]
+|-
+| 2026-08-07 || [https://github.com/EmmaLeonhart/aelaki-wikibot/commit/3e505cdc7096ac23e2adfb5742d66db6068791ce 3e505cdc] || [[:Category:Words 3e505cdc|Words 3e505cdc]] || [[:Category:Non-lemma forms 3e505cdc|Non-lemma 3e505cdc]] || chore(state): rebuild version history from git log [skip ci]
 |}
 
 [[Category:git synced pages]]
