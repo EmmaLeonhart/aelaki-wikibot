@@ -166499,6 +166499,446 @@
       "gloss": "escorting (auto-generated)",
       "gender": "male",
       "citation_form": "vada?a"
+    },
+    "ddhw": {
+      "root": [
+        "d",
+        "dh",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "frag (auto-generated)",
+      "gender": "male",
+      "citation_form": "dadhawa"
+    },
+    "shwl": {
+      "root": [
+        "sh",
+        "w",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "fractioning (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "shawïflïf"
+    },
+    "yps": {
+      "root": [
+        "y",
+        "p",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "fraisier (auto-generated)",
+      "gender": "female",
+      "citation_form": "yaposo"
+    },
+    "sjb": {
+      "root": [
+        "s",
+        "j",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "fradafiban (auto-generated)",
+      "gender": "male",
+      "citation_form": "sajaba"
+    },
+    "t?p": {
+      "root": [
+        "t",
+        "?",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "fracktivist (auto-generated)",
+      "gender": "female",
+      "citation_form": "ta?opo"
+    },
+    "?hv": {
+      "root": [
+        "?",
+        "h",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "fragmenting (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?ahïfvïf"
+    },
+    "hhy": {
+      "root": [
+        "h",
+        "h",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "fragility (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "hahïfyïf"
+    },
+    "ngt?": {
+      "root": [
+        "ng",
+        "t",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "fragmentist (auto-generated)",
+      "gender": "child",
+      "citation_form": "ngatu?u"
+    },
+    "mjsh": {
+      "root": [
+        "m",
+        "j",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "fraipontite (auto-generated)",
+      "gender": "female",
+      "citation_form": "majosho"
+    },
+    "j?k": {
+      "root": [
+        "j",
+        "?",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "fra (auto-generated)",
+      "gender": "male",
+      "citation_form": "ja?aka"
+    },
+    "rnt": {
+      "root": [
+        "r",
+        "n",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "framedragging (auto-generated)",
+      "gender": "male",
+      "citation_form": "ranata"
+    },
+    "h?sh": {
+      "root": [
+        "h",
+        "?",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "fractalisation (auto-generated)",
+      "gender": "female",
+      "citation_form": "ha?osho"
+    },
+    "vb?": {
+      "root": [
+        "v",
+        "b",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "frailness (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "vabïf?ïf"
+    },
+    "chzhdh": {
+      "root": [
+        "ch",
+        "zh",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "frambesia (auto-generated)",
+      "gender": "child",
+      "citation_form": "chazhudhu"
+    },
+    "dhdhb": {
+      "root": [
+        "dh",
+        "dh",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "fractus (auto-generated)",
+      "gender": "male",
+      "citation_form": "dhadhaba"
+    },
+    "hshth": {
+      "root": [
+        "h",
+        "sh",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "fragrantness (auto-generated)",
+      "gender": "child",
+      "citation_form": "hashuthu"
+    },
+    "gwz": {
+      "root": [
+        "g",
+        "w",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "fracing (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "gawïfzïf"
+    },
+    "lzhch": {
+      "root": [
+        "l",
+        "zh",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "fragmentizer (auto-generated)",
+      "gender": "child",
+      "citation_form": "lazhuchu"
+    },
+    "chgt": {
+      "root": [
+        "ch",
+        "g",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "fragmentomics (auto-generated)",
+      "gender": "male",
+      "citation_form": "chagata"
+    },
+    "th?zh": {
+      "root": [
+        "th",
+        "?",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "frame (auto-generated)",
+      "gender": "female",
+      "citation_form": "tha?ozho"
+    },
+    "dpn": {
+      "root": [
+        "d",
+        "p",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "fragilysin (auto-generated)",
+      "gender": "male",
+      "citation_form": "dapana"
+    },
+    "?py": {
+      "root": [
+        "?",
+        "p",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "fragmentogram (auto-generated)",
+      "gender": "female",
+      "citation_form": "?apoyo"
+    },
+    "mchh": {
+      "root": [
+        "m",
+        "ch",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "framecel (auto-generated)",
+      "gender": "female",
+      "citation_form": "machoho"
+    },
+    "shzh?": {
+      "root": [
+        "sh",
+        "zh",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "fractal (auto-generated)",
+      "gender": "child",
+      "citation_form": "shazhu?u"
+    },
+    "sjm": {
+      "root": [
+        "s",
+        "j",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "fragmentocyte (auto-generated)",
+      "gender": "child",
+      "citation_form": "sajumu"
+    },
+    "dhyz": {
+      "root": [
+        "dh",
+        "y",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "fragipan (auto-generated)",
+      "gender": "child",
+      "citation_form": "dhayuzu"
+    },
+    "w?v": {
+      "root": [
+        "w",
+        "?",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "fractoluminescence (auto-generated)",
+      "gender": "female",
+      "citation_form": "wa?ovo"
+    },
+    "syw": {
+      "root": [
+        "s",
+        "y",
+        "w"
+      ],
+      "class": "noun",
+      "gloss": "fractionalism (auto-generated)",
+      "gender": "female",
+      "citation_form": "sayowo"
+    },
+    "?lch": {
+      "root": [
+        "?",
+        "l",
+        "ch"
+      ],
+      "class": "noun",
+      "gloss": "frambaesia (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?alïfchïf"
+    },
+    "dhjt": {
+      "root": [
+        "dh",
+        "j",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "framehon (auto-generated)",
+      "gender": "male",
+      "citation_form": "dhajata"
+    },
+    "?sn": {
+      "root": [
+        "?",
+        "s",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "frameful (auto-generated)",
+      "gender": "child",
+      "citation_form": "?asunu"
+    },
+    "wrs": {
+      "root": [
+        "w",
+        "r",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "fractiousness (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "warïfsïf"
+    },
+    "ddhz": {
+      "root": [
+        "d",
+        "dh",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "fractile (auto-generated)",
+      "gender": "female",
+      "citation_form": "dadhozo"
+    },
+    "spd": {
+      "root": [
+        "s",
+        "p",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "fragmental (auto-generated)",
+      "gender": "female",
+      "citation_form": "sapodo"
+    },
+    "dh?z": {
+      "root": [
+        "dh",
+        "?",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "framebuffer (auto-generated)",
+      "gender": "female",
+      "citation_form": "dha?ozo"
+    },
+    "ddhv": {
+      "root": [
+        "d",
+        "dh",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "framea (auto-generated)",
+      "gender": "male",
+      "citation_form": "dadhava"
+    },
+    "zhlk": {
+      "root": [
+        "zh",
+        "l",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "fragmentism (auto-generated)",
+      "gender": "male",
+      "citation_form": "zhalaka"
+    },
+    "dgf": {
+      "root": [
+        "d",
+        "g",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "framee (auto-generated)",
+      "gender": "child",
+      "citation_form": "dagufu"
+    },
+    "shb": {
+      "root": [
+        "s",
+        "h",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "fraccing (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "sahïfbïf"
+    },
+    "nghth": {
+      "root": [
+        "ng",
+        "h",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "fraccent (auto-generated)",
+      "gender": "female",
+      "citation_form": "ngahotho"
     }
   },
   "adjectives": {
@@ -188399,6 +188839,106 @@
       "class": "adjective",
       "gloss": "iridoconstrictor (auto-generated)",
       "citation_form": "fofakaka"
+    },
+    "fjf": {
+      "root": [
+        "f",
+        "j",
+        "f"
+      ],
+      "class": "adjective",
+      "gloss": "eightish (auto-generated)",
+      "citation_form": "fojafaka"
+    },
+    "bvl": {
+      "root": [
+        "b",
+        "v",
+        "l"
+      ],
+      "class": "adjective",
+      "gloss": "eidological (auto-generated)",
+      "citation_form": "bovalaka"
+    },
+    "g?r": {
+      "root": [
+        "g",
+        "?",
+        "r"
+      ],
+      "class": "adjective",
+      "gloss": "eightpenny (auto-generated)",
+      "citation_form": "go?araka"
+    },
+    "fbt": {
+      "root": [
+        "f",
+        "b",
+        "t"
+      ],
+      "class": "adjective",
+      "gloss": "eighties (auto-generated)",
+      "citation_form": "fobataka"
+    },
+    "ng?j": {
+      "root": [
+        "ng",
+        "?",
+        "j"
+      ],
+      "class": "adjective",
+      "gloss": "eigenmodal (auto-generated)",
+      "citation_form": "ngo?ajaka"
+    },
+    "sgl": {
+      "root": [
+        "s",
+        "g",
+        "l"
+      ],
+      "class": "adjective",
+      "gloss": "eicosapentaenoic (auto-generated)",
+      "citation_form": "sogalaka"
+    },
+    "phd": {
+      "root": [
+        "p",
+        "h",
+        "d"
+      ],
+      "class": "adjective",
+      "gloss": "eicosanoic (auto-generated)",
+      "citation_form": "pohadaka"
+    },
+    "?bch": {
+      "root": [
+        "?",
+        "b",
+        "ch"
+      ],
+      "class": "adjective",
+      "gloss": "eightpetal (auto-generated)",
+      "citation_form": "?obachaka"
+    },
+    "p?n": {
+      "root": [
+        "p",
+        "?",
+        "n"
+      ],
+      "class": "adjective",
+      "gloss": "eicosameric (auto-generated)",
+      "citation_form": "po?anaka"
+    },
+    "thpw": {
+      "root": [
+        "th",
+        "p",
+        "w"
+      ],
+      "class": "adjective",
+      "gloss": "eigenfunctional (auto-generated)",
+      "citation_form": "thopawaka"
     }
   },
   "adverbs": {
@@ -209120,6 +209660,106 @@
       "class": "adverb",
       "gloss": "vainly (auto-generated)",
       "citation_form": "dajate"
+    },
+    "mgng": {
+      "root": [
+        "m",
+        "g",
+        "ng"
+      ],
+      "class": "adverb",
+      "gloss": "frankly (auto-generated)",
+      "citation_form": "magate"
+    },
+    "tzhm": {
+      "root": [
+        "t",
+        "zh",
+        "m"
+      ],
+      "class": "adverb",
+      "gloss": "fraternally (auto-generated)",
+      "citation_form": "tazhate"
+    },
+    "?tzh": {
+      "root": [
+        "?",
+        "t",
+        "zh"
+      ],
+      "class": "adverb",
+      "gloss": "freezingly (auto-generated)",
+      "citation_form": "?atate"
+    },
+    "?tk": {
+      "root": [
+        "?",
+        "t",
+        "k"
+      ],
+      "class": "adverb",
+      "gloss": "frantically (auto-generated)",
+      "citation_form": "?atate"
+    },
+    "nthk": {
+      "root": [
+        "n",
+        "th",
+        "k"
+      ],
+      "class": "adverb",
+      "gloss": "fraudulently (auto-generated)",
+      "citation_form": "nathate"
+    },
+    "chzhch": {
+      "root": [
+        "ch",
+        "zh",
+        "ch"
+      ],
+      "class": "adverb",
+      "gloss": "fractally (auto-generated)",
+      "citation_form": "chazhate"
+    },
+    "pkj": {
+      "root": [
+        "p",
+        "k",
+        "j"
+      ],
+      "class": "adverb",
+      "gloss": "fragrantly (auto-generated)",
+      "citation_form": "pakate"
+    },
+    "zshl": {
+      "root": [
+        "z",
+        "sh",
+        "l"
+      ],
+      "class": "adverb",
+      "gloss": "freeheartedly (auto-generated)",
+      "citation_form": "zashate"
+    },
+    "chgch": {
+      "root": [
+        "ch",
+        "g",
+        "ch"
+      ],
+      "class": "adverb",
+      "gloss": "fragmentarily (auto-generated)",
+      "citation_form": "chagate"
+    },
+    "chsn": {
+      "root": [
+        "ch",
+        "s",
+        "n"
+      ],
+      "class": "adverb",
+      "gloss": "frabjously (auto-generated)",
+      "citation_form": "chasate"
     }
   },
   "colors": {
