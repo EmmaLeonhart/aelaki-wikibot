@@ -166887,6 +166887,17 @@
       "gloss": "fraccent (auto-generated)",
       "gender": "female",
       "citation_form": "ngahotho"
+    },
+    "pmt": {
+      "root": [
+        "p",
+        "m",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "quaalude (auto-generated)",
+      "gender": "male",
+      "citation_form": "pamata"
     }
   },
   "adjectives": {
@@ -188887,6 +188898,106 @@
       "class": "adjective",
       "gloss": "eigenfunctional (auto-generated)",
       "citation_form": "thopawaka"
+    },
+    "btd": {
+      "root": [
+        "b",
+        "t",
+        "d"
+      ],
+      "class": "adjective",
+      "gloss": "oncoinflammatory (auto-generated)",
+      "citation_form": "botadaka"
+    },
+    "znm": {
+      "root": [
+        "z",
+        "n",
+        "m"
+      ],
+      "class": "adjective",
+      "gloss": "onchocercal (auto-generated)",
+      "citation_form": "zonamaka"
+    },
+    "thyv": {
+      "root": [
+        "th",
+        "y",
+        "v"
+      ],
+      "class": "adjective",
+      "gloss": "oncogenetic (auto-generated)",
+      "citation_form": "thoyavaka"
+    },
+    "dhngd": {
+      "root": [
+        "dh",
+        "ng",
+        "d"
+      ],
+      "class": "adjective",
+      "gloss": "oncolitic (auto-generated)",
+      "citation_form": "dhongadaka"
+    },
+    "ykd": {
+      "root": [
+        "y",
+        "k",
+        "d"
+      ],
+      "class": "adjective",
+      "gloss": "oncohaematological (auto-generated)",
+      "citation_form": "yokadaka"
+    },
+    "gshth": {
+      "root": [
+        "g",
+        "sh",
+        "th"
+      ],
+      "class": "adjective",
+      "gloss": "onbringing (auto-generated)",
+      "citation_form": "goshathaka"
+    },
+    "kvb": {
+      "root": [
+        "k",
+        "v",
+        "b"
+      ],
+      "class": "adjective",
+      "gloss": "oncohematological (auto-generated)",
+      "citation_form": "kovabaka"
+    },
+    "lzh": {
+      "root": [
+        "l",
+        "z",
+        "h"
+      ],
+      "class": "adjective",
+      "gloss": "oncofetal (auto-generated)",
+      "citation_form": "lozahaka"
+    },
+    "?jng": {
+      "root": [
+        "?",
+        "j",
+        "ng"
+      ],
+      "class": "adjective",
+      "gloss": "oncologic (auto-generated)",
+      "citation_form": "?ojangaka"
+    },
+    "dlf": {
+      "root": [
+        "d",
+        "l",
+        "f"
+      ],
+      "class": "adjective",
+      "gloss": "onanistic (auto-generated)",
+      "citation_form": "dolafaka"
     }
   },
   "adverbs": {
@@ -209708,6 +209819,106 @@
       "class": "adverb",
       "gloss": "frabjously (auto-generated)",
       "citation_form": "chasate"
+    },
+    "hch?": {
+      "root": [
+        "h",
+        "ch",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "fictitiously (auto-generated)",
+      "citation_form": "hachate"
+    },
+    "ypdh": {
+      "root": [
+        "y",
+        "p",
+        "dh"
+      ],
+      "class": "adverb",
+      "gloss": "fidgetily (auto-generated)",
+      "citation_form": "yapate"
+    },
+    "zhthsh": {
+      "root": [
+        "zh",
+        "th",
+        "sh"
+      ],
+      "class": "adverb",
+      "gloss": "fiberoptically (auto-generated)",
+      "citation_form": "zhathate"
+    },
+    "bthy": {
+      "root": [
+        "b",
+        "th",
+        "y"
+      ],
+      "class": "adverb",
+      "gloss": "filmwise (auto-generated)",
+      "citation_form": "bathate"
+    },
+    "dshf": {
+      "root": [
+        "d",
+        "sh",
+        "f"
+      ],
+      "class": "adverb",
+      "gloss": "fibrinolytically (auto-generated)",
+      "citation_form": "dashate"
+    },
+    "chdhs": {
+      "root": [
+        "ch",
+        "dh",
+        "s"
+      ],
+      "class": "adverb",
+      "gloss": "figurately (auto-generated)",
+      "citation_form": "chadhate"
+    },
+    "vvz": {
+      "root": [
+        "v",
+        "v",
+        "z"
+      ],
+      "class": "adverb",
+      "gloss": "filthily (auto-generated)",
+      "citation_form": "vavate"
+    },
+    "mdhh": {
+      "root": [
+        "m",
+        "dh",
+        "h"
+      ],
+      "class": "adverb",
+      "gloss": "fictiously (auto-generated)",
+      "citation_form": "madhate"
+    },
+    "gkr": {
+      "root": [
+        "g",
+        "k",
+        "r"
+      ],
+      "class": "adverb",
+      "gloss": "fibrillosely (auto-generated)",
+      "citation_form": "gakate"
+    },
+    "chshch": {
+      "root": [
+        "ch",
+        "sh",
+        "ch"
+      ],
+      "class": "adverb",
+      "gloss": "fifteenfold (auto-generated)",
+      "citation_form": "chashate"
     }
   },
   "colors": {
