@@ -167831,6 +167831,237 @@
       "gender": "male",
       "citation_form": "dhadanga",
       "old_citation_form": "dhadïfngïf"
+    },
+    "?dhz": {
+      "root": [
+        "?",
+        "dh",
+        "z"
+      ],
+      "class": "noun",
+      "gloss": "nobiletin (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?adhïfzïf"
+    },
+    "dshr": {
+      "root": [
+        "d",
+        "sh",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "nobilization (auto-generated)",
+      "gender": "male",
+      "citation_form": "dashara"
+    },
+    "s?y": {
+      "root": [
+        "s",
+        "?",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "nociception (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "sa?ïfyïf"
+    },
+    "zhlzh": {
+      "root": [
+        "zh",
+        "l",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "nobrainer (auto-generated)",
+      "gender": "child",
+      "citation_form": "zhaluzhu"
+    },
+    "chng?": {
+      "root": [
+        "ch",
+        "ng",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "nocticolid (auto-generated)",
+      "gender": "child",
+      "citation_form": "changu?u"
+    },
+    "rlf": {
+      "root": [
+        "r",
+        "l",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "nobody (auto-generated)",
+      "gender": "child",
+      "citation_form": "ralufu"
+    },
+    "zh?f": {
+      "root": [
+        "zh",
+        "?",
+        "f"
+      ],
+      "class": "noun",
+      "gloss": "noctambulism (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zha?ïffïf"
+    },
+    "vgp": {
+      "root": [
+        "v",
+        "g",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "nociperception (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "vagïfpïf"
+    },
+    "kdhj": {
+      "root": [
+        "k",
+        "dh",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "nocobactin (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "kadhïfjïf"
+    },
+    "s?m": {
+      "root": [
+        "s",
+        "?",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "nobodaddy (auto-generated)",
+      "gender": "female",
+      "citation_form": "sa?omo"
+    },
+    "bvn": {
+      "root": [
+        "b",
+        "v",
+        "n"
+      ],
+      "class": "noun",
+      "gloss": "nocireception (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "bavïfnïf"
+    },
+    "shngd": {
+      "root": [
+        "sh",
+        "ng",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "noctambulation (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "shangïfdïf"
+    },
+    "bfj": {
+      "root": [
+        "b",
+        "f",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "nmole (auto-generated)",
+      "gender": "female",
+      "citation_form": "bafojo"
+    },
+    "rwy": {
+      "root": [
+        "r",
+        "w",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "nocardiasis (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "rawïfyïf"
+    },
+    "wchd": {
+      "root": [
+        "w",
+        "ch",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "nociceptin (auto-generated)",
+      "gender": "child",
+      "citation_form": "wachudu"
+    },
+    "gpb": {
+      "root": [
+        "g",
+        "p",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "nobelium (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "gapïfbïf"
+    },
+    "zhg?": {
+      "root": [
+        "zh",
+        "g",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "noctilionoid (auto-generated)",
+      "gender": "male",
+      "citation_form": "zhaga?a"
+    },
+    "dhchsh": {
+      "root": [
+        "dh",
+        "ch",
+        "sh"
+      ],
+      "class": "noun",
+      "gloss": "nobleperson (auto-generated)",
+      "gender": "child",
+      "citation_form": "dhachushu"
+    },
+    "vjd": {
+      "root": [
+        "v",
+        "j",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "nobhead (auto-generated)",
+      "gender": "male",
+      "citation_form": "vajada"
+    },
+    "zbl": {
+      "root": [
+        "z",
+        "b",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "noctambule (auto-generated)",
+      "gender": "female",
+      "citation_form": "zabolo"
+    },
+    "thsv": {
+      "root": [
+        "th",
+        "s",
+        "v"
+      ],
+      "class": "noun",
+      "gloss": "nociceptor (auto-generated)",
+      "gender": "female",
+      "citation_form": "thasovo"
     }
   },
   "adjectives": {
@@ -190031,6 +190262,106 @@
       "class": "adjective",
       "gloss": "lycosiform (auto-generated)",
       "citation_form": "fofalaka"
+    },
+    "sshch": {
+      "root": [
+        "s",
+        "sh",
+        "ch"
+      ],
+      "class": "adjective",
+      "gloss": "thalassophilous (auto-generated)",
+      "citation_form": "soshachaka"
+    },
+    "nyl": {
+      "root": [
+        "n",
+        "y",
+        "l"
+      ],
+      "class": "adjective",
+      "gloss": "thalassochorous (auto-generated)",
+      "citation_form": "noyalaka"
+    },
+    "kkj": {
+      "root": [
+        "k",
+        "k",
+        "j"
+      ],
+      "class": "adjective",
+      "gloss": "thalassogenic (auto-generated)",
+      "citation_form": "kokajaka"
+    },
+    "kzhv": {
+      "root": [
+        "k",
+        "zh",
+        "v"
+      ],
+      "class": "adjective",
+      "gloss": "thalassoid (auto-generated)",
+      "citation_form": "kozhavaka"
+    },
+    "jjg": {
+      "root": [
+        "j",
+        "j",
+        "g"
+      ],
+      "class": "adjective",
+      "gloss": "thallian (auto-generated)",
+      "citation_form": "jojagaka"
+    },
+    "l?r": {
+      "root": [
+        "l",
+        "?",
+        "r"
+      ],
+      "class": "adjective",
+      "gloss": "thalian (auto-generated)",
+      "citation_form": "lo?araka"
+    },
+    "ms?": {
+      "root": [
+        "m",
+        "s",
+        "?"
+      ],
+      "class": "adjective",
+      "gloss": "thalassemic (auto-generated)",
+      "citation_form": "mosa?aka"
+    },
+    "fngn": {
+      "root": [
+        "f",
+        "ng",
+        "n"
+      ],
+      "class": "adjective",
+      "gloss": "thalassocratic (auto-generated)",
+      "citation_form": "fonganaka"
+    },
+    "gnm": {
+      "root": [
+        "g",
+        "n",
+        "m"
+      ],
+      "class": "adjective",
+      "gloss": "thalassal (auto-generated)",
+      "citation_form": "gonamaka"
+    },
+    "smb": {
+      "root": [
+        "s",
+        "m",
+        "b"
+      ],
+      "class": "adjective",
+      "gloss": "thalliferous (auto-generated)",
+      "citation_form": "somabaka"
     }
   },
   "adverbs": {
@@ -211052,6 +211383,106 @@
       "class": "adverb",
       "gloss": "psychoeducationally (auto-generated)",
       "citation_form": "pahate"
+    },
+    "?y?": {
+      "root": [
+        "?",
+        "y",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "laddishly (auto-generated)",
+      "citation_form": "?ayate"
+    },
+    "?zhs": {
+      "root": [
+        "?",
+        "zh",
+        "s"
+      ],
+      "class": "adverb",
+      "gloss": "labyrinthically (auto-generated)",
+      "citation_form": "?azhate"
+    },
+    "mthy": {
+      "root": [
+        "m",
+        "th",
+        "y"
+      ],
+      "class": "adverb",
+      "gloss": "lacrimoso (auto-generated)",
+      "citation_form": "mathate"
+    },
+    "jsn": {
+      "root": [
+        "j",
+        "s",
+        "n"
+      ],
+      "class": "adverb",
+      "gloss": "lacteally (auto-generated)",
+      "citation_form": "jasate"
+    },
+    "shpl": {
+      "root": [
+        "sh",
+        "p",
+        "l"
+      ],
+      "class": "adverb",
+      "gloss": "labouriously (auto-generated)",
+      "citation_form": "shapate"
+    },
+    "tpg": {
+      "root": [
+        "t",
+        "p",
+        "g"
+      ],
+      "class": "adverb",
+      "gloss": "ladyly (auto-generated)",
+      "citation_form": "tapate"
+    },
+    "chyng": {
+      "root": [
+        "ch",
+        "y",
+        "ng"
+      ],
+      "class": "adverb",
+      "gloss": "lactationally (auto-generated)",
+      "citation_form": "chayate"
+    },
+    "nghv": {
+      "root": [
+        "ng",
+        "h",
+        "v"
+      ],
+      "class": "adverb",
+      "gloss": "laciniately (auto-generated)",
+      "citation_form": "ngahate"
+    },
+    "?k?": {
+      "root": [
+        "?",
+        "k",
+        "?"
+      ],
+      "class": "adverb",
+      "gloss": "laeotropically (auto-generated)",
+      "citation_form": "?akate"
+    },
+    "hgt": {
+      "root": [
+        "h",
+        "g",
+        "t"
+      ],
+      "class": "adverb",
+      "gloss": "ladily (auto-generated)",
+      "citation_form": "hagate"
     }
   },
   "colors": {
