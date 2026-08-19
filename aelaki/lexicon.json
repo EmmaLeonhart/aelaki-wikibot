@@ -168458,6 +168458,446 @@
       "gloss": "jif (auto-generated)",
       "gender": "female",
       "citation_form": "?anodho"
+    },
+    "l?l": {
+      "root": [
+        "l",
+        "?",
+        "l"
+      ],
+      "class": "noun",
+      "gloss": "nzimbu (auto-generated)",
+      "gender": "male",
+      "citation_form": "la?ala"
+    },
+    "ng?y": {
+      "root": [
+        "ng",
+        "?",
+        "y"
+      ],
+      "class": "noun",
+      "gloss": "nystatin (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "nga?ïfyïf"
+    },
+    "hdhth": {
+      "root": [
+        "h",
+        "dh",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "nyaope (auto-generated)",
+      "gender": "female",
+      "citation_form": "hadhotho"
+    },
+    "kzs": {
+      "root": [
+        "k",
+        "z",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "nymphomania (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "kazïfsïf"
+    },
+    "tmth": {
+      "root": [
+        "t",
+        "m",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "nycteroleterid (auto-generated)",
+      "gender": "child",
+      "citation_form": "tamuthu"
+    },
+    "ljzh": {
+      "root": [
+        "l",
+        "j",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "nyerereite (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "lajïfzhïf"
+    },
+    "pshs": {
+      "root": [
+        "p",
+        "sh",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "nyctibiid (auto-generated)",
+      "gender": "female",
+      "citation_form": "pashoso"
+    },
+    "ngwg": {
+      "root": [
+        "ng",
+        "w",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "nyctography (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "ngawïfgïf"
+    },
+    "gnb": {
+      "root": [
+        "g",
+        "n",
+        "b"
+      ],
+      "class": "noun",
+      "gloss": "nymphonid (auto-generated)",
+      "gender": "child",
+      "citation_form": "ganubu"
+    },
+    "klt": {
+      "root": [
+        "k",
+        "l",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "nyas (auto-generated)",
+      "gender": "child",
+      "citation_form": "kalutu"
+    },
+    "?tdh": {
+      "root": [
+        "?",
+        "t",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "nymphing (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?atïfdhïf"
+    },
+    "dhnj": {
+      "root": [
+        "dh",
+        "n",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "nyctitropism (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "dhanïfjïf"
+    },
+    "?kj": {
+      "root": [
+        "?",
+        "k",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "nyctiphruretid (auto-generated)",
+      "gender": "child",
+      "citation_form": "?akuju"
+    },
+    "nnk": {
+      "root": [
+        "n",
+        "n",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "nyatoh (auto-generated)",
+      "gender": "female",
+      "citation_form": "nanoko"
+    },
+    "m?dh": {
+      "root": [
+        "m",
+        "?",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "nybl (auto-generated)",
+      "gender": "male",
+      "citation_form": "ma?adha"
+    },
+    "sbt": {
+      "root": [
+        "s",
+        "b",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "nyctophile (auto-generated)",
+      "gender": "male",
+      "citation_form": "sabata"
+    },
+    "nyg": {
+      "root": [
+        "n",
+        "y",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "nycterid (auto-generated)",
+      "gender": "male",
+      "citation_form": "nayaga"
+    },
+    "ssd": {
+      "root": [
+        "s",
+        "s",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "nyctalope (auto-generated)",
+      "gender": "child",
+      "citation_form": "sasudu"
+    },
+    "vkng": {
+      "root": [
+        "v",
+        "k",
+        "ng"
+      ],
+      "class": "noun",
+      "gloss": "nymphid (auto-generated)",
+      "gender": "male",
+      "citation_form": "vakanga"
+    },
+    "pwh": {
+      "root": [
+        "p",
+        "w",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "nyctophobia (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "pawïfhïf"
+    },
+    "?kth": {
+      "root": [
+        "?",
+        "k",
+        "th"
+      ],
+      "class": "noun",
+      "gloss": "nylidrin (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "?akïfthïf"
+    },
+    "sbzh": {
+      "root": [
+        "s",
+        "b",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "nymphoid (auto-generated)",
+      "gender": "female",
+      "citation_form": "sabozho"
+    },
+    "mzhk": {
+      "root": [
+        "m",
+        "zh",
+        "k"
+      ],
+      "class": "noun",
+      "gloss": "nyamivirus (auto-generated)",
+      "gender": "male",
+      "citation_form": "mazhaka"
+    },
+    "zgzh": {
+      "root": [
+        "z",
+        "g",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "nymphotomy (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "zagïfzhïf"
+    },
+    "?yp": {
+      "root": [
+        "?",
+        "y",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "nyash (auto-generated)",
+      "gender": "male",
+      "citation_form": "?ayapa"
+    },
+    "kws": {
+      "root": [
+        "k",
+        "w",
+        "s"
+      ],
+      "class": "noun",
+      "gloss": "nympho (auto-generated)",
+      "gender": "child",
+      "citation_form": "kawusu"
+    },
+    "vsm": {
+      "root": [
+        "v",
+        "s",
+        "m"
+      ],
+      "class": "noun",
+      "gloss": "nymphophilia (auto-generated)",
+      "gender": "male",
+      "citation_form": "vasama"
+    },
+    "dh?zh": {
+      "root": [
+        "dh",
+        "?",
+        "zh"
+      ],
+      "class": "noun",
+      "gloss": "nymphuline (auto-generated)",
+      "gender": "male",
+      "citation_form": "dha?azha"
+    },
+    "mtj": {
+      "root": [
+        "m",
+        "t",
+        "j"
+      ],
+      "class": "noun",
+      "gloss": "nymphetry (auto-generated)",
+      "gender": "inanimate",
+      "citation_form": "matïfjïf"
+    },
+    "tmh": {
+      "root": [
+        "t",
+        "m",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "nylghai (auto-generated)",
+      "gender": "female",
+      "citation_form": "tamoho"
+    },
+    "bgd": {
+      "root": [
+        "b",
+        "g",
+        "d"
+      ],
+      "class": "noun",
+      "gloss": "nympholept (auto-generated)",
+      "gender": "child",
+      "citation_form": "bagudu"
+    },
+    "jdt": {
+      "root": [
+        "j",
+        "d",
+        "t"
+      ],
+      "class": "noun",
+      "gloss": "nyatsi (auto-generated)",
+      "gender": "male",
+      "citation_form": "jadata"
+    },
+    "lwh": {
+      "root": [
+        "l",
+        "w",
+        "h"
+      ],
+      "class": "noun",
+      "gloss": "nym (auto-generated)",
+      "gender": "female",
+      "citation_form": "lawoho"
+    },
+    "gk?": {
+      "root": [
+        "g",
+        "k",
+        "?"
+      ],
+      "class": "noun",
+      "gloss": "oakenshaw (auto-generated)",
+      "gender": "male",
+      "citation_form": "gaka?a"
+    },
+    "shfg": {
+      "root": [
+        "sh",
+        "f",
+        "g"
+      ],
+      "class": "noun",
+      "gloss": "nyssa (auto-generated)",
+      "gender": "male",
+      "citation_form": "shafaga"
+    },
+    "?zr": {
+      "root": [
+        "?",
+        "z",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "nyctosaurid (auto-generated)",
+      "gender": "child",
+      "citation_form": "?azuru"
+    },
+    "tnr": {
+      "root": [
+        "t",
+        "n",
+        "r"
+      ],
+      "class": "noun",
+      "gloss": "nynanthean (auto-generated)",
+      "gender": "female",
+      "citation_form": "tanoro"
+    },
+    "ngddh": {
+      "root": [
+        "ng",
+        "d",
+        "dh"
+      ],
+      "class": "noun",
+      "gloss": "nygma (auto-generated)",
+      "gender": "female",
+      "citation_form": "ngadodho"
+    },
+    "?dp": {
+      "root": [
+        "?",
+        "d",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "nymphologist (auto-generated)",
+      "gender": "female",
+      "citation_form": "?adopo"
+    },
+    "hvp": {
+      "root": [
+        "h",
+        "v",
+        "p"
+      ],
+      "class": "noun",
+      "gloss": "nycthemeron (auto-generated)",
+      "gender": "male",
+      "citation_form": "havapa"
     }
   },
   "adjectives": {
@@ -190858,6 +191298,106 @@
       "class": "adjective",
       "gloss": "imaginal (auto-generated)",
       "citation_form": "roparaka"
+    },
+    "thchs": {
+      "root": [
+        "th",
+        "ch",
+        "s"
+      ],
+      "class": "adjective",
+      "gloss": "embittered (auto-generated)",
+      "citation_form": "thochasaka"
+    },
+    "chk?": {
+      "root": [
+        "ch",
+        "k",
+        "?"
+      ],
+      "class": "adjective",
+      "gloss": "emberlike (auto-generated)",
+      "citation_form": "choka?aka"
+    },
+    "vtt": {
+      "root": [
+        "v",
+        "t",
+        "t"
+      ],
+      "class": "adjective",
+      "gloss": "embayed (auto-generated)",
+      "citation_form": "votataka"
+    },
+    "r?th": {
+      "root": [
+        "r",
+        "?",
+        "th"
+      ],
+      "class": "adjective",
+      "gloss": "emailable (auto-generated)",
+      "citation_form": "ro?athaka"
+    },
+    "zhgsh": {
+      "root": [
+        "zh",
+        "g",
+        "sh"
+      ],
+      "class": "adjective",
+      "gloss": "emarginated (auto-generated)",
+      "citation_form": "zhogashaka"
+    },
+    "ftch": {
+      "root": [
+        "f",
+        "t",
+        "ch"
+      ],
+      "class": "adjective",
+      "gloss": "embellished (auto-generated)",
+      "citation_form": "fotachaka"
+    },
+    "lwth": {
+      "root": [
+        "l",
+        "w",
+        "th"
+      ],
+      "class": "adjective",
+      "gloss": "emanational (auto-generated)",
+      "citation_form": "lowathaka"
+    },
+    "dhshb": {
+      "root": [
+        "dh",
+        "sh",
+        "b"
+      ],
+      "class": "adjective",
+      "gloss": "emanant (auto-generated)",
+      "citation_form": "dhoshabaka"
+    },
+    "shngth": {
+      "root": [
+        "sh",
+        "ng",
+        "th"
+      ],
+      "class": "adjective",
+      "gloss": "ember (auto-generated)",
+      "citation_form": "shongathaka"
+    },
+    "dhtm": {
+      "root": [
+        "dh",
+        "t",
+        "m"
+      ],
+      "class": "adjective",
+      "gloss": "emasculatory (auto-generated)",
+      "citation_form": "dhotamaka"
     }
   },
   "adverbs": {
