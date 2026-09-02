@@ -73129,8 +73129,9 @@
       ],
       "class": "noun",
       "gloss": "yola (auto-generated)",
-      "gender": "child",
-      "citation_form": "tadhuthu"
+      "gender": "inanimate",
+      "citation_form": "tadhïfthïf",
+      "old_citation_form": "tadhuthu"
     },
     "tmdh": {
       "root": [
@@ -73778,9 +73779,9 @@
       ],
       "class": "noun",
       "gloss": "draftproofing (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "ngakïfhïf",
-      "old_citation_form": "ngakuhu"
+      "gender": "child",
+      "citation_form": "ngakuhu",
+      "old_citation_form": "ngakïfhïf"
     },
     "dmth": {
       "root": [
@@ -73856,9 +73857,9 @@
       ],
       "class": "noun",
       "gloss": "drabbet (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "lasïfnïf",
-      "old_citation_form": "lasana"
+      "gender": "male",
+      "citation_form": "lasana",
+      "old_citation_form": "lasïfnïf"
     },
     "wsh": {
       "root": [
@@ -73934,8 +73935,9 @@
       ],
       "class": "noun",
       "gloss": "drafting (auto-generated)",
-      "gender": "male",
-      "citation_form": "lamaja"
+      "gender": "inanimate",
+      "citation_form": "lamïfjïf",
+      "old_citation_form": "lamaja"
     },
     "jhy": {
       "root": [
@@ -74583,9 +74585,9 @@
       ],
       "class": "noun",
       "gloss": "whacking (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "zhazhïfrïf",
-      "old_citation_form": "zhazhoro"
+      "gender": "female",
+      "citation_form": "zhazhoro",
+      "old_citation_form": "zhazhïfrïf"
     },
     "mlch": {
       "root": [
@@ -74672,8 +74674,9 @@
       ],
       "class": "noun",
       "gloss": "whateverness (auto-generated)",
-      "gender": "child",
-      "citation_form": "zhafupu"
+      "gender": "inanimate",
+      "citation_form": "zhafïfpïf",
+      "old_citation_form": "zhafupu"
     },
     "ngmr": {
       "root": [
@@ -74684,8 +74687,7 @@
       "class": "noun",
       "gloss": "whalewatching (auto-generated)",
       "gender": "female",
-      "citation_form": "ngamoro",
-      "old_citation_form": "ngamïfrïf"
+      "citation_form": "ngamoro"
     },
     "vyj": {
       "root": [
@@ -75289,8 +75291,9 @@
       ],
       "class": "noun",
       "gloss": "olaparib (auto-generated)",
-      "gender": "female",
-      "citation_form": "chanomo"
+      "gender": "inanimate",
+      "citation_form": "chanïfmïf",
+      "old_citation_form": "chanomo"
     },
     "ltdh": {
       "root": [
@@ -75587,8 +75590,7 @@
       "class": "noun",
       "gloss": "zakat (auto-generated)",
       "gender": "male",
-      "citation_form": "mawafa",
-      "old_citation_form": "mawïffïf"
+      "citation_form": "mawafa"
     },
     "gpth": {
       "root": [
@@ -76753,8 +76755,9 @@
       ],
       "class": "noun",
       "gloss": "mycetismus (auto-generated)",
-      "gender": "male",
-      "citation_form": "damata"
+      "gender": "inanimate",
+      "citation_form": "damïftïf",
+      "old_citation_form": "damata"
     },
     "nmz": {
       "root": [
@@ -76929,9 +76932,9 @@
       ],
       "class": "noun",
       "gloss": "mycoplankton (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "nasïfthïf",
-      "old_citation_form": "nasatha"
+      "gender": "male",
+      "citation_form": "nasatha",
+      "old_citation_form": "nasïfthïf"
     },
     "rml": {
       "root": [
@@ -77084,8 +77087,9 @@
       ],
       "class": "noun",
       "gloss": "mycobacteriostasis (auto-generated)",
-      "gender": "male",
-      "citation_form": "ngapazha"
+      "gender": "inanimate",
+      "citation_form": "ngapïfzhïf",
+      "old_citation_form": "ngapazha"
     },
     "jsht": {
       "root": [
@@ -77458,9 +77462,9 @@
       ],
       "class": "noun",
       "gloss": "yachtsmanship (auto-generated)",
-      "gender": "male",
-      "citation_form": "yafaba",
-      "old_citation_form": "yafïfbïf"
+      "gender": "inanimate",
+      "citation_form": "yafïfbïf",
+      "old_citation_form": "yafaba"
     },
     "nsng": {
       "root": [
@@ -78647,9 +78651,9 @@
       ],
       "class": "noun",
       "gloss": "dye (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "sashïfmïf",
-      "old_citation_form": "sashama"
+      "gender": "male",
+      "citation_form": "sashama",
+      "old_citation_form": "sashïfmïf"
     },
     "lby": {
       "root": [
@@ -78923,8 +78927,9 @@
       ],
       "class": "noun",
       "gloss": "dyking (auto-generated)",
-      "gender": "female",
-      "citation_form": "chadofo"
+      "gender": "inanimate",
+      "citation_form": "chadïffïf",
+      "old_citation_form": "chadofo"
     },
     "mrh": {
       "root": [
@@ -79484,9 +79489,9 @@
       ],
       "class": "noun",
       "gloss": "headcase (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "banïfngïf",
-      "old_citation_form": "banungu"
+      "gender": "child",
+      "citation_form": "banungu",
+      "old_citation_form": "banïfngïf"
     },
     "nlv": {
       "root": [
@@ -79640,8 +79645,7 @@
       "class": "noun",
       "gloss": "headiness (auto-generated)",
       "gender": "female",
-      "citation_form": "bashoyo",
-      "old_citation_form": "bashïfyïf"
+      "citation_form": "bashoyo"
     },
     "tvl": {
       "root": [
@@ -79707,8 +79711,7 @@
       "class": "noun",
       "gloss": "headcanon (auto-generated)",
       "gender": "male",
-      "citation_form": "sachapa",
-      "old_citation_form": "sachïfpïf"
+      "citation_form": "sachapa"
     },
     "bzw": {
       "root": [
@@ -80345,8 +80348,9 @@
       ],
       "class": "noun",
       "gloss": "coachwhipping (auto-generated)",
-      "gender": "female",
-      "citation_form": "shangomo"
+      "gender": "inanimate",
+      "citation_form": "shangïfmïf",
+      "old_citation_form": "shangomo"
     },
     "pngth": {
       "root": [
@@ -81753,9 +81757,9 @@
       ],
       "class": "noun",
       "gloss": "zedoary (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "vathïfthïf",
-      "old_citation_form": "vathuthu"
+      "gender": "child",
+      "citation_form": "vathuthu",
+      "old_citation_form": "vathïfthïf"
     },
     "shmzh": {
       "root": [
@@ -82008,8 +82012,7 @@
       "class": "noun",
       "gloss": "zebrawood (auto-generated)",
       "gender": "male",
-      "citation_form": "dakaka",
-      "old_citation_form": "dakïfkïf"
+      "citation_form": "dakaka"
     },
     "plp": {
       "root": [
@@ -82063,9 +82066,9 @@
       ],
       "class": "noun",
       "gloss": "feastware (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "lalïfwïf",
-      "old_citation_form": "lalowo"
+      "gender": "female",
+      "citation_form": "lalowo",
+      "old_citation_form": "lalïfwïf"
     },
     "wjk": {
       "root": [
@@ -82317,8 +82320,9 @@
       ],
       "class": "noun",
       "gloss": "feare (auto-generated)",
-      "gender": "female",
-      "citation_form": "kasoto"
+      "gender": "inanimate",
+      "citation_form": "kasïftïf",
+      "old_citation_form": "kasoto"
     },
     "njs": {
       "root": [
@@ -82746,8 +82750,9 @@
       ],
       "class": "noun",
       "gloss": "tabascheer (auto-generated)",
-      "gender": "male",
-      "citation_form": "lalaza"
+      "gender": "inanimate",
+      "citation_form": "lalïfzïf",
+      "old_citation_form": "lalaza"
     },
     "ngshsh": {
       "root": [
@@ -82867,9 +82872,9 @@
       ],
       "class": "noun",
       "gloss": "tablature (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "ngahïfzhïf",
-      "old_citation_form": "ngahuzhu"
+      "gender": "child",
+      "citation_form": "ngahuzhu",
+      "old_citation_form": "ngahïfzhïf"
     },
     "tvg": {
       "root": [
@@ -83165,9 +83170,9 @@
       ],
       "class": "noun",
       "gloss": "pseudoatrophy (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "zajïfchïf",
-      "old_citation_form": "zajacha"
+      "gender": "male",
+      "citation_form": "zajacha",
+      "old_citation_form": "zajïfchïf"
     },
     "gngs": {
       "root": [
@@ -83519,8 +83524,7 @@
       "class": "noun",
       "gloss": "myasthenia (auto-generated)",
       "gender": "female",
-      "citation_form": "zhachoyo",
-      "old_citation_form": "zhachïfyïf"
+      "citation_form": "zhachoyo"
     },
     "thjw": {
       "root": [
@@ -83849,9 +83853,9 @@
       ],
       "class": "noun",
       "gloss": "kaatialaite (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "zhafïfchïf",
-      "old_citation_form": "zhafuchu"
+      "gender": "child",
+      "citation_form": "zhafuchu",
+      "old_citation_form": "zhafïfchïf"
     },
     "rfy": {
       "root": [
@@ -84269,8 +84273,7 @@
       "class": "noun",
       "gloss": "encampment (auto-generated)",
       "gender": "child",
-      "citation_form": "kagusu",
-      "old_citation_form": "kagïfsïf"
+      "citation_form": "kagusu"
     },
     "vthv": {
       "root": [
@@ -84391,8 +84394,7 @@
       "class": "noun",
       "gloss": "enantiotropism (auto-generated)",
       "gender": "female",
-      "citation_form": "darotho",
-      "old_citation_form": "darïfthïf"
+      "citation_form": "darotho"
     },
     "syg": {
       "root": [
@@ -84854,8 +84856,7 @@
       "class": "noun",
       "gloss": "jocosity (auto-generated)",
       "gender": "female",
-      "citation_form": "samozho",
-      "old_citation_form": "samïfzhïf"
+      "citation_form": "samozho"
     },
     "tyw": {
       "root": [
@@ -84865,9 +84866,9 @@
       ],
       "class": "noun",
       "gloss": "jobation (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "tayïfwïf",
-      "old_citation_form": "tayuwu"
+      "gender": "child",
+      "citation_form": "tayuwu",
+      "old_citation_form": "tayïfwïf"
     },
     "ftv": {
       "root": [
@@ -84965,9 +84966,9 @@
       ],
       "class": "noun",
       "gloss": "jocularity (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "bamïfzhïf",
-      "old_citation_form": "bamozho"
+      "gender": "female",
+      "citation_form": "bamozho",
+      "old_citation_form": "bamïfzhïf"
     },
     "dhwh": {
       "root": [
@@ -85099,8 +85100,7 @@
       "class": "noun",
       "gloss": "jockeyship (auto-generated)",
       "gender": "male",
-      "citation_form": "tafata",
-      "old_citation_form": "tafïftïf"
+      "citation_form": "tafata"
     },
     "ththj": {
       "root": [
@@ -85748,9 +85748,9 @@
       ],
       "class": "noun",
       "gloss": "mica (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "magïffïf",
-      "old_citation_form": "magafa"
+      "gender": "male",
+      "citation_form": "magafa",
+      "old_citation_form": "magïffïf"
     },
     "thdf": {
       "root": [
@@ -86366,8 +86366,7 @@
       "class": "noun",
       "gloss": "ignition (auto-generated)",
       "gender": "child",
-      "citation_form": "zhaburu",
-      "old_citation_form": "zhabïfrïf"
+      "citation_form": "zhaburu"
     },
     "jsy": {
       "root": [
@@ -86399,8 +86398,9 @@
       ],
       "class": "noun",
       "gloss": "ifoxetine (auto-generated)",
-      "gender": "child",
-      "citation_form": "rarusu"
+      "gender": "inanimate",
+      "citation_form": "rarïfsïf",
+      "old_citation_form": "rarusu"
     },
     "wzzh": {
       "root": [
@@ -86499,8 +86499,7 @@
       "class": "noun",
       "gloss": "iffiness (auto-generated)",
       "gender": "male",
-      "citation_form": "zhadhata",
-      "old_citation_form": "zhadhïftïf"
+      "citation_form": "zhadhata"
     },
     "jshl": {
       "root": [
@@ -87203,9 +87202,9 @@
       ],
       "class": "noun",
       "gloss": "encapsidation (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "jayïfbïf",
-      "old_citation_form": "jayaba"
+      "gender": "male",
+      "citation_form": "jayaba",
+      "old_citation_form": "jayïfbïf"
     },
     "jvs": {
       "root": [
@@ -87282,8 +87281,7 @@
       "class": "noun",
       "gloss": "encebollado (auto-generated)",
       "gender": "male",
-      "citation_form": "labadha",
-      "old_citation_form": "labïfdhïf"
+      "citation_form": "labadha"
     },
     "mwsh": {
       "root": [
@@ -87316,8 +87314,7 @@
       "class": "noun",
       "gloss": "encapsulation (auto-generated)",
       "gender": "male",
-      "citation_form": "dharaga",
-      "old_citation_form": "dharïfgïf"
+      "citation_form": "dharaga"
     },
     "hzhs": {
       "root": [
@@ -87624,8 +87621,9 @@
       ],
       "class": "noun",
       "gloss": "ngana (auto-generated)",
-      "gender": "child",
-      "citation_form": "thahuyu"
+      "gender": "inanimate",
+      "citation_form": "thahïfyïf",
+      "old_citation_form": "thahuyu"
     },
     "nbl": {
       "root": [
@@ -87834,8 +87832,7 @@
       "class": "noun",
       "gloss": "niceverine (auto-generated)",
       "gender": "child",
-      "citation_form": "makushu",
-      "old_citation_form": "makïfshïf"
+      "citation_form": "makushu"
     },
     "kgsh": {
       "root": [
@@ -87944,8 +87941,9 @@
       ],
       "class": "noun",
       "gloss": "swainship (auto-generated)",
-      "gender": "male",
-      "citation_form": "bashaza"
+      "gender": "inanimate",
+      "citation_form": "bashïfzïf",
+      "old_citation_form": "bashaza"
     },
     "btb": {
       "root": [
@@ -88340,8 +88338,9 @@
       ],
       "class": "noun",
       "gloss": "chaeototaxy (auto-generated)",
-      "gender": "male",
-      "citation_form": "shafaja"
+      "gender": "inanimate",
+      "citation_form": "shafïfjïf",
+      "old_citation_form": "shafaja"
     },
     "mtch": {
       "root": [
@@ -90089,8 +90088,9 @@
       ],
       "class": "noun",
       "gloss": "jhum (auto-generated)",
-      "gender": "female",
-      "citation_form": "favozho"
+      "gender": "inanimate",
+      "citation_form": "favïfzhïf",
+      "old_citation_form": "favozho"
     },
     "swp": {
       "root": [
@@ -90122,9 +90122,9 @@
       ],
       "class": "noun",
       "gloss": "jhow (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "nganïfdhïf",
-      "old_citation_form": "nganadha"
+      "gender": "male",
+      "citation_form": "nganadha",
+      "old_citation_form": "nganïfdhïf"
     },
     "snng": {
       "root": [
@@ -90310,8 +90310,9 @@
       ],
       "class": "noun",
       "gloss": "zeaxanthin (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "yahïfjïf"
+      "gender": "child",
+      "citation_form": "yahuju",
+      "old_citation_form": "yahïfjïf"
     },
     "jks": {
       "root": [
@@ -91256,9 +91257,9 @@
       ],
       "class": "noun",
       "gloss": "cyanthropy (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "hachïfthïf",
-      "old_citation_form": "hachuthu"
+      "gender": "child",
+      "citation_form": "hachuthu",
+      "old_citation_form": "hachïfthïf"
     },
     "sshng": {
       "root": [
@@ -91400,9 +91401,9 @@
       ],
       "class": "noun",
       "gloss": "cyberactivism (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "nadhïfdhïf",
-      "old_citation_form": "nadhadha"
+      "gender": "male",
+      "citation_form": "nadhadha",
+      "old_citation_form": "nadhïfdhïf"
     },
     "dhgzh": {
       "root": [
@@ -91522,8 +91523,9 @@
       ],
       "class": "noun",
       "gloss": "cyanolichen (auto-generated)",
-      "gender": "male",
-      "citation_form": "changapa"
+      "gender": "inanimate",
+      "citation_form": "changïfpïf",
+      "old_citation_form": "changapa"
     },
     "rzhd": {
       "root": [
@@ -92061,8 +92063,9 @@
       ],
       "class": "noun",
       "gloss": "dock (auto-generated)",
-      "gender": "female",
-      "citation_form": "yatobo"
+      "gender": "inanimate",
+      "citation_form": "yatïfbïf",
+      "old_citation_form": "yatobo"
     },
     "shshp": {
       "root": [
@@ -92094,8 +92097,9 @@
       ],
       "class": "noun",
       "gloss": "doconazole (auto-generated)",
-      "gender": "female",
-      "citation_form": "vakoto"
+      "gender": "inanimate",
+      "citation_form": "vakïftïf",
+      "old_citation_form": "vakoto"
     },
     "zhjsh": {
       "root": [
@@ -92194,8 +92198,7 @@
       "class": "noun",
       "gloss": "docetaxel (auto-generated)",
       "gender": "female",
-      "citation_form": "kaloyo",
-      "old_citation_form": "kalïfyïf"
+      "citation_form": "kaloyo"
     },
     "ngjdh": {
       "root": [
@@ -92337,8 +92340,9 @@
       ],
       "class": "noun",
       "gloss": "docarpamine (auto-generated)",
-      "gender": "female",
-      "citation_form": "savongo"
+      "gender": "inanimate",
+      "citation_form": "savïfngïf",
+      "old_citation_form": "savongo"
     },
     "dvg": {
       "root": [
@@ -92535,9 +92539,9 @@
       ],
       "class": "noun",
       "gloss": "hucking (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "yabïffïf",
-      "old_citation_form": "yabofo"
+      "gender": "female",
+      "citation_form": "yabofo",
+      "old_citation_form": "yabïffïf"
     },
     "mjz": {
       "root": [
@@ -92547,8 +92551,9 @@
       ],
       "class": "noun",
       "gloss": "huayno (auto-generated)",
-      "gender": "male",
-      "citation_form": "majaza"
+      "gender": "inanimate",
+      "citation_form": "majïfzïf",
+      "old_citation_form": "majaza"
     },
     "dthsh": {
       "root": [
@@ -93065,8 +93070,7 @@
       "class": "noun",
       "gloss": "ibacitabin (auto-generated)",
       "gender": "inanimate",
-      "citation_form": "zazhïfmïf",
-      "old_citation_form": "zazhomo"
+      "citation_form": "zazhïfmïf"
     },
     "dhvj": {
       "root": [
@@ -93087,8 +93091,9 @@
       ],
       "class": "noun",
       "gloss": "iatromathematics (auto-generated)",
-      "gender": "female",
-      "citation_form": "sayofo"
+      "gender": "inanimate",
+      "citation_form": "sayïffïf",
+      "old_citation_form": "sayofo"
     },
     "vngd": {
       "root": [
@@ -93803,8 +93808,7 @@
       "class": "noun",
       "gloss": "kykeon (auto-generated)",
       "gender": "male",
-      "citation_form": "sadadha",
-      "old_citation_form": "sadïfdhïf"
+      "citation_form": "sadadha"
     },
     "pzhk": {
       "root": [
@@ -93847,9 +93851,9 @@
       ],
       "class": "noun",
       "gloss": "cecitis (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "zakïfthïf",
-      "old_citation_form": "zakatha"
+      "gender": "male",
+      "citation_form": "zakatha",
+      "old_citation_form": "zakïfthïf"
     },
     "nzm": {
       "root": [
@@ -94244,9 +94248,9 @@
       ],
       "class": "noun",
       "gloss": "cebiche (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "tashïfhïf",
-      "old_citation_form": "tashoho"
+      "gender": "female",
+      "citation_form": "tashoho",
+      "old_citation_form": "tashïfhïf"
     },
     "hnt": {
       "root": [
@@ -94333,8 +94337,9 @@
       ],
       "class": "noun",
       "gloss": "beachwear (auto-generated)",
-      "gender": "male",
-      "citation_form": "chalaya"
+      "gender": "inanimate",
+      "citation_form": "chalïfyïf",
+      "old_citation_form": "chalaya"
     },
     "hry": {
       "root": [
@@ -94388,9 +94393,9 @@
       ],
       "class": "noun",
       "gloss": "beaconing (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "ngapïfvïf",
-      "old_citation_form": "ngapava"
+      "gender": "male",
+      "citation_form": "ngapava",
+      "old_citation_form": "ngapïfvïf"
     },
     "wpz": {
       "root": [
@@ -94826,9 +94831,9 @@
       ],
       "class": "noun",
       "gloss": "mbio (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "lahïftïf",
-      "old_citation_form": "lahoto"
+      "gender": "female",
+      "citation_form": "lahoto",
+      "old_citation_form": "lahïftïf"
     },
     "rngs": {
       "root": [
@@ -94894,8 +94899,7 @@
       "class": "noun",
       "gloss": "mbaqanga (auto-generated)",
       "gender": "child",
-      "citation_form": "zasusu",
-      "old_citation_form": "zasïfsïf"
+      "citation_form": "zasusu"
     },
     "vchw": {
       "root": [
@@ -95093,8 +95097,7 @@
       "class": "noun",
       "gloss": "mbalax (auto-generated)",
       "gender": "child",
-      "citation_form": "dashutu",
-      "old_citation_form": "dashïftïf"
+      "citation_form": "dashutu"
     },
     "mvdh": {
       "root": [
@@ -95148,8 +95151,7 @@
       "class": "noun",
       "gloss": "dobby (auto-generated)",
       "gender": "child",
-      "citation_form": "thangushu",
-      "old_citation_form": "thangïfshïf"
+      "citation_form": "thangushu"
     },
     "ngjth": {
       "root": [
@@ -95324,8 +95326,9 @@
       ],
       "class": "noun",
       "gloss": "dobupride (auto-generated)",
-      "gender": "female",
-      "citation_form": "fazoto"
+      "gender": "inanimate",
+      "citation_form": "fazïftïf",
+      "old_citation_form": "fazoto"
     },
     "kbj": {
       "root": [
@@ -95335,9 +95338,9 @@
       ],
       "class": "noun",
       "gloss": "dobutamine (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "kabïfjïf",
-      "old_citation_form": "kabuju"
+      "gender": "child",
+      "citation_form": "kabuju",
+      "old_citation_form": "kabïfjïf"
     },
     "zhthj": {
       "root": [
@@ -95545,9 +95548,9 @@
       ],
       "class": "noun",
       "gloss": "leachability (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "shazhïfdïf",
-      "old_citation_form": "shazhudu"
+      "gender": "child",
+      "citation_form": "shazhudu",
+      "old_citation_form": "shazhïfdïf"
     },
     "pvy": {
       "root": [
@@ -96020,8 +96023,7 @@
       "class": "noun",
       "gloss": "ugliness (auto-generated)",
       "gender": "child",
-      "citation_form": "zalubu",
-      "old_citation_form": "zalïfbïf"
+      "citation_form": "zalubu"
     },
     "bbl": {
       "root": [
@@ -96141,9 +96143,9 @@
       ],
       "class": "noun",
       "gloss": "uglification (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "ganïflïf",
-      "old_citation_form": "ganala"
+      "gender": "male",
+      "citation_form": "ganala",
+      "old_citation_form": "ganïflïf"
     },
     "ngth": {
       "root": [
@@ -96186,9 +96188,9 @@
       ],
       "class": "noun",
       "gloss": "uintaite (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "pangïfzhïf",
-      "old_citation_form": "pangazha"
+      "gender": "male",
+      "citation_form": "pangazha",
+      "old_citation_form": "pangïfzhïf"
     },
     "zdv": {
       "root": [
@@ -96682,9 +96684,9 @@
       ],
       "class": "noun",
       "gloss": "nobleness (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "ramïffïf",
-      "old_citation_form": "ramofo"
+      "gender": "female",
+      "citation_form": "ramofo",
+      "old_citation_form": "ramïffïf"
     },
     "fwch": {
       "root": [
@@ -96903,8 +96905,9 @@
       ],
       "class": "noun",
       "gloss": "deadheartedness (auto-generated)",
-      "gender": "child",
-      "citation_form": "yakulu"
+      "gender": "inanimate",
+      "citation_form": "yakïflïf",
+      "old_citation_form": "yakulu"
     },
     "ngthy": {
       "root": [
@@ -97289,8 +97292,7 @@
       "class": "noun",
       "gloss": "fogeyism (auto-generated)",
       "gender": "female",
-      "citation_form": "nathodo",
-      "old_citation_form": "nathïfdïf"
+      "citation_form": "nathodo"
     },
     "zhmzh": {
       "root": [
@@ -97333,9 +97335,9 @@
       ],
       "class": "noun",
       "gloss": "focalisation (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "warïfdhïf",
-      "old_citation_form": "warudhu"
+      "gender": "child",
+      "citation_form": "warudhu",
+      "old_citation_form": "warïfdhïf"
     },
     "dzhdh": {
       "root": [
@@ -97555,8 +97557,7 @@
       "class": "noun",
       "gloss": "foeship (auto-generated)",
       "gender": "female",
-      "citation_form": "mapomo",
-      "old_citation_form": "mapïfmïf"
+      "citation_form": "mapomo"
     },
     "mfb": {
       "root": [
@@ -98018,8 +98019,7 @@
       "class": "noun",
       "gloss": "podagra (auto-generated)",
       "gender": "child",
-      "citation_form": "wafuyu",
-      "old_citation_form": "wafïfyïf"
+      "citation_form": "wafuyu"
     },
     "trm": {
       "root": [
@@ -98646,8 +98646,7 @@
       "class": "noun",
       "gloss": "iatraliptics (auto-generated)",
       "gender": "male",
-      "citation_form": "sajadha",
-      "old_citation_form": "sajïfdhïf"
+      "citation_form": "sajadha"
     },
     "ngdk": {
       "root": [
@@ -98789,8 +98788,9 @@
       ],
       "class": "noun",
       "gloss": "ibuproxam (auto-generated)",
-      "gender": "female",
-      "citation_form": "jagolo"
+      "gender": "inanimate",
+      "citation_form": "jagïflïf",
+      "old_citation_form": "jagolo"
     },
     "pvb": {
       "root": [
@@ -99779,8 +99779,9 @@
       ],
       "class": "noun",
       "gloss": "reach (auto-generated)",
-      "gender": "female",
-      "citation_form": "tatoro"
+      "gender": "inanimate",
+      "citation_form": "tatïfrïf",
+      "old_citation_form": "tatoro"
     },
     "dfd": {
       "root": [
@@ -99933,9 +99934,9 @@
       ],
       "class": "noun",
       "gloss": "sabermetrics (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "nachïfhïf",
-      "old_citation_form": "nachuhu"
+      "gender": "child",
+      "citation_form": "nachuhu",
+      "old_citation_form": "nachïfhïf"
     },
     "zhkd": {
       "root": [
@@ -101178,8 +101179,7 @@
       "class": "noun",
       "gloss": "seacoal (auto-generated)",
       "gender": "male",
-      "citation_form": "rashawa",
-      "old_citation_form": "rashïfwïf"
+      "citation_form": "rashawa"
     },
     "zwh": {
       "root": [
@@ -101673,8 +101673,9 @@
       ],
       "class": "noun",
       "gloss": "mnt (auto-generated)",
-      "gender": "male",
-      "citation_form": "wafala"
+      "gender": "inanimate",
+      "citation_form": "wafïflïf",
+      "old_citation_form": "wafala"
     },
     "tngd": {
       "root": [
@@ -101739,8 +101740,9 @@
       ],
       "class": "noun",
       "gloss": "mnemotechny (auto-generated)",
-      "gender": "female",
-      "citation_form": "pakolo"
+      "gender": "inanimate",
+      "citation_form": "pakïflïf",
+      "old_citation_form": "pakolo"
     },
     "mngr": {
       "root": [
@@ -102081,8 +102083,7 @@
       "class": "noun",
       "gloss": "uzara (auto-generated)",
       "gender": "female",
-      "citation_form": "yakotho",
-      "old_citation_form": "yakïfthïf"
+      "citation_form": "yakotho"
     },
     "nglh": {
       "root": [
@@ -102235,9 +102236,9 @@
       ],
       "class": "noun",
       "gloss": "vaccinomics (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "zashïfzïf",
-      "old_citation_form": "zashozo"
+      "gender": "female",
+      "citation_form": "zashozo",
+      "old_citation_form": "zashïfzïf"
     },
     "chdhg": {
       "root": [
@@ -102731,8 +102732,9 @@
       ],
       "class": "noun",
       "gloss": "xiangjiangite (auto-generated)",
-      "gender": "female",
-      "citation_form": "badhosho"
+      "gender": "inanimate",
+      "citation_form": "badhïfshïf",
+      "old_citation_form": "badhosho"
     },
     "shkd": {
       "root": [
@@ -103083,8 +103085,9 @@
       ],
       "class": "noun",
       "gloss": "pneumaturia (auto-generated)",
-      "gender": "child",
-      "citation_form": "zhadhuzhu"
+      "gender": "inanimate",
+      "citation_form": "zhadhïfzhïf",
+      "old_citation_form": "zhadhuzhu"
     },
     "ljz": {
       "root": [
@@ -104019,8 +104022,7 @@
       "class": "noun",
       "gloss": "wadsleyite (auto-generated)",
       "gender": "child",
-      "citation_form": "ngatusu",
-      "old_citation_form": "ngatïfsïf"
+      "citation_form": "ngatusu"
     },
     "shmt": {
       "root": [
@@ -104042,8 +104044,7 @@
       "class": "noun",
       "gloss": "wadmol (auto-generated)",
       "gender": "child",
-      "citation_form": "fachuyu",
-      "old_citation_form": "fachïfyïf"
+      "citation_form": "fachuyu"
     },
     "fnz": {
       "root": [
@@ -104790,8 +104791,9 @@
       ],
       "class": "noun",
       "gloss": "febarbamate (auto-generated)",
-      "gender": "male",
-      "citation_form": "nagaka"
+      "gender": "inanimate",
+      "citation_form": "nagïfkïf",
+      "old_citation_form": "nagaka"
     },
     "gzw": {
       "root": [
@@ -104801,9 +104803,9 @@
       ],
       "class": "noun",
       "gloss": "fearfulness (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "gazïfwïf",
-      "old_citation_form": "gazawa"
+      "gender": "male",
+      "citation_form": "gazawa",
+      "old_citation_form": "gazïfwïf"
     },
     "lngv": {
       "root": [
@@ -105583,8 +105585,9 @@
       ],
       "class": "noun",
       "gloss": "zaldaride (auto-generated)",
-      "gender": "child",
-      "citation_form": "zayubu"
+      "gender": "inanimate",
+      "citation_form": "zayïfbïf",
+      "old_citation_form": "zayubu"
     },
     "jdk": {
       "root": [
@@ -105594,8 +105597,9 @@
       ],
       "class": "noun",
       "gloss": "zabiha (auto-generated)",
-      "gender": "female",
-      "citation_form": "jadoko"
+      "gender": "inanimate",
+      "citation_form": "jadïfkïf",
+      "old_citation_form": "jadoko"
     },
     "tngg": {
       "root": [
@@ -105748,9 +105752,9 @@
       ],
       "class": "noun",
       "gloss": "zaalouk (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "wafïfhïf",
-      "old_citation_form": "wafaha"
+      "gender": "male",
+      "citation_form": "wafaha",
+      "old_citation_form": "wafïfhïf"
     },
     "rhch": {
       "root": [
@@ -106805,8 +106809,9 @@
       ],
       "class": "noun",
       "gloss": "focusability (auto-generated)",
-      "gender": "female",
-      "citation_form": "dhasoso"
+      "gender": "inanimate",
+      "citation_form": "dhasïfsïf",
+      "old_citation_form": "dhasoso"
     },
     "dnl": {
       "root": [
@@ -107685,9 +107690,9 @@
       ],
       "class": "noun",
       "gloss": "wurtzite (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "zasïfgïf",
-      "old_citation_form": "zasaga"
+      "gender": "male",
+      "citation_form": "zasaga",
+      "old_citation_form": "zasïfgïf"
     },
     "ytth": {
       "root": [
@@ -107907,8 +107912,7 @@
       "class": "noun",
       "gloss": "wudu (auto-generated)",
       "gender": "child",
-      "citation_form": "nganguzhu",
-      "old_citation_form": "ngangïfzhïf"
+      "citation_form": "nganguzhu"
     },
     "wchl": {
       "root": [
@@ -108028,9 +108032,9 @@
       ],
       "class": "noun",
       "gloss": "cabernet (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "vadïftïf",
-      "old_citation_form": "vadoto"
+      "gender": "female",
+      "citation_form": "vadoto",
+      "old_citation_form": "vadïftïf"
     },
     "zkch": {
       "root": [
@@ -108327,8 +108331,7 @@
       "class": "noun",
       "gloss": "caballing (auto-generated)",
       "gender": "female",
-      "citation_form": "lazoko",
-      "old_citation_form": "lazïfkïf"
+      "citation_form": "lazoko"
     },
     "hlp": {
       "root": [
@@ -108547,9 +108550,9 @@
       ],
       "class": "noun",
       "gloss": "graduality (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "jalïfngïf",
-      "old_citation_form": "jalungu"
+      "gender": "child",
+      "citation_form": "jalungu",
+      "old_citation_form": "jalïfngïf"
     },
     "thjdh": {
       "root": [
@@ -108747,8 +108750,7 @@
       "class": "noun",
       "gloss": "gradation (auto-generated)",
       "gender": "female",
-      "citation_form": "pahofo",
-      "old_citation_form": "pahïffïf"
+      "citation_form": "pahofo"
     },
     "ngchsh": {
       "root": [
@@ -110034,9 +110036,9 @@
       ],
       "class": "noun",
       "gloss": "hiddenite (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "ngazïfhïf",
-      "old_citation_form": "ngazoho"
+      "gender": "female",
+      "citation_form": "ngazoho",
+      "old_citation_form": "ngazïfhïf"
     },
     "fmv": {
       "root": [
@@ -110530,9 +110532,9 @@
       ],
       "class": "noun",
       "gloss": "meagreness (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "gapïfnïf",
-      "old_citation_form": "gapono"
+      "gender": "female",
+      "citation_form": "gapono",
+      "old_citation_form": "gapïfnïf"
     },
     "rchsh": {
       "root": [
@@ -111456,8 +111458,7 @@
       "class": "noun",
       "gloss": "wuzu (auto-generated)",
       "gender": "inanimate",
-      "citation_form": "mahïfkïf",
-      "old_citation_form": "mahoko"
+      "citation_form": "mahïfkïf"
     },
     "ngdn": {
       "root": [
@@ -111577,8 +111578,9 @@
       ],
       "class": "noun",
       "gloss": "yodeling (auto-generated)",
-      "gender": "male",
-      "citation_form": "hazava"
+      "gender": "inanimate",
+      "citation_form": "hazïfvïf",
+      "old_citation_form": "hazava"
     },
     "ysm": {
       "root": [
@@ -112183,8 +112185,7 @@
       "class": "noun",
       "gloss": "eyeliner (auto-generated)",
       "gender": "male",
-      "citation_form": "zhachava",
-      "old_citation_form": "zhachïfvïf"
+      "citation_form": "zhachava"
     },
     "thvw": {
       "root": [
@@ -112447,9 +112448,9 @@
       ],
       "class": "noun",
       "gloss": "nyotaimori (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "wasïfngïf",
-      "old_citation_form": "wasongo"
+      "gender": "female",
+      "citation_form": "wasongo",
+      "old_citation_form": "wasïfngïf"
     },
     "dzhd": {
       "root": [
@@ -112833,9 +112834,9 @@
       ],
       "class": "noun",
       "gloss": "nystatinolide (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "thangïfnïf",
-      "old_citation_form": "thangunu"
+      "gender": "child",
+      "citation_form": "thangunu",
+      "old_citation_form": "thangïfnïf"
     },
     "zhbg": {
       "root": [
@@ -112890,8 +112891,7 @@
       "class": "noun",
       "gloss": "ydromancy (auto-generated)",
       "gender": "inanimate",
-      "citation_form": "nashïfnïf",
-      "old_citation_form": "nashono"
+      "citation_form": "nashïfnïf"
     },
     "zhrp": {
       "root": [
@@ -113110,9 +113110,9 @@
       ],
       "class": "noun",
       "gloss": "yearning (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "chahïfzïf",
-      "old_citation_form": "chahozo"
+      "gender": "female",
+      "citation_form": "chahozo",
+      "old_citation_form": "chahïfzïf"
     },
     "yfdh": {
       "root": [
@@ -113321,8 +113321,7 @@
       "class": "noun",
       "gloss": "dubiosity (auto-generated)",
       "gender": "female",
-      "citation_form": "pangono",
-      "old_citation_form": "pangïfnïf"
+      "citation_form": "pangono"
     },
     "wgl": {
       "root": [
@@ -113432,8 +113431,7 @@
       "class": "noun",
       "gloss": "dubiousness (auto-generated)",
       "gender": "female",
-      "citation_form": "hatobo",
-      "old_citation_form": "hatïfbïf"
+      "citation_form": "hatobo"
     },
     "mshk": {
       "root": [
@@ -113674,8 +113672,9 @@
       ],
       "class": "noun",
       "gloss": "ducana (auto-generated)",
-      "gender": "female",
-      "citation_form": "thajosho"
+      "gender": "inanimate",
+      "citation_form": "thajïfshïf",
+      "old_citation_form": "thajosho"
     },
     "fshch": {
       "root": [
@@ -113708,8 +113707,7 @@
       "class": "noun",
       "gloss": "dubstep (auto-generated)",
       "gender": "male",
-      "citation_form": "fangasha",
-      "old_citation_form": "fangïfshïf"
+      "citation_form": "fangasha"
     },
     "ngzhs": {
       "root": [
@@ -114808,8 +114806,9 @@
       ],
       "class": "noun",
       "gloss": "yufka (auto-generated)",
-      "gender": "child",
-      "citation_form": "ngabuhu"
+      "gender": "inanimate",
+      "citation_form": "ngabïfhïf",
+      "old_citation_form": "ngabuhu"
     },
     "fkp": {
       "root": [
@@ -114974,8 +114973,7 @@
       "class": "noun",
       "gloss": "yttrium (auto-generated)",
       "gender": "male",
-      "citation_form": "wakaza",
-      "old_citation_form": "wakïfzïf"
+      "citation_form": "wakaza"
     },
     "tdhr": {
       "root": [
@@ -115228,8 +115226,7 @@
       "class": "noun",
       "gloss": "azacytidine (auto-generated)",
       "gender": "female",
-      "citation_form": "lafotho",
-      "old_citation_form": "lafïfthïf"
+      "citation_form": "lafotho"
     },
     "ngch": {
       "root": [
@@ -115724,8 +115721,7 @@
       "class": "noun",
       "gloss": "yachting (auto-generated)",
       "gender": "female",
-      "citation_form": "zhazotho",
-      "old_citation_form": "zhazïfthïf"
+      "citation_form": "zhazotho"
     },
     "dh?n": {
       "root": [
@@ -115846,8 +115842,7 @@
       "class": "noun",
       "gloss": "yagna (auto-generated)",
       "gender": "female",
-      "citation_form": "balojo",
-      "old_citation_form": "balïfjïf"
+      "citation_form": "balojo"
     },
     "bsh?": {
       "root": [
@@ -116000,9 +115995,9 @@
       ],
       "class": "noun",
       "gloss": "weakiness (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "dayïfzïf",
-      "old_citation_form": "dayuzu"
+      "gender": "child",
+      "citation_form": "dayuzu",
+      "old_citation_form": "dayïfzïf"
     },
     "vfch": {
       "root": [
@@ -116321,8 +116316,7 @@
       "class": "noun",
       "gloss": "weatherboarding (auto-generated)",
       "gender": "child",
-      "citation_form": "fahuchu",
-      "old_citation_form": "fahïfchïf"
+      "citation_form": "fahuchu"
     },
     "jbn": {
       "root": [
@@ -116629,9 +116623,9 @@
       ],
       "class": "noun",
       "gloss": "efficacity (auto-generated)",
-      "gender": "female",
-      "citation_form": "zharoso",
-      "old_citation_form": "zharïfsïf"
+      "gender": "inanimate",
+      "citation_form": "zharïfsïf",
+      "old_citation_form": "zharoso"
     },
     "thz?": {
       "root": [
@@ -116696,8 +116690,9 @@
       ],
       "class": "noun",
       "gloss": "efegatran (auto-generated)",
-      "gender": "child",
-      "citation_form": "wavu?u"
+      "gender": "inanimate",
+      "citation_form": "wavïf?ïf",
+      "old_citation_form": "wavu?u"
     },
     "g?d": {
       "root": [
@@ -116983,8 +116978,7 @@
       "class": "noun",
       "gloss": "jubilate (auto-generated)",
       "gender": "child",
-      "citation_form": "dhagungu",
-      "old_citation_form": "dhagïfngïf"
+      "citation_form": "dhagungu"
     },
     "bwth": {
       "root": [
@@ -117005,8 +116999,9 @@
       ],
       "class": "noun",
       "gloss": "judeophobia (auto-generated)",
-      "gender": "child",
-      "citation_form": "na?ubu"
+      "gender": "inanimate",
+      "citation_form": "na?ïfbïf",
+      "old_citation_form": "na?ubu"
     },
     "?chz": {
       "root": [
@@ -117621,9 +117616,9 @@
       ],
       "class": "noun",
       "gloss": "rubefacience (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "tashïfdïf",
-      "old_citation_form": "tashudu"
+      "gender": "child",
+      "citation_form": "tashudu",
+      "old_citation_form": "tashïfdïf"
     },
     "fdht": {
       "root": [
@@ -117644,9 +117639,9 @@
       ],
       "class": "noun",
       "gloss": "rubefaction (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "kazïfdhïf",
-      "old_citation_form": "kazodho"
+      "gender": "female",
+      "citation_form": "kazodho",
+      "old_citation_form": "kazïfdhïf"
     },
     "kthh": {
       "root": [
@@ -118107,9 +118102,9 @@
       ],
       "class": "noun",
       "gloss": "thanatomania (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "?afïftïf",
-      "old_citation_form": "?afata"
+      "gender": "male",
+      "citation_form": "?afata",
+      "old_citation_form": "?afïftïf"
     },
     "dhchng": {
       "root": [
@@ -118724,9 +118719,9 @@
       ],
       "class": "noun",
       "gloss": "eomesodermin (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "jasïfgïf",
-      "old_citation_form": "jasogo"
+      "gender": "female",
+      "citation_form": "jasogo",
+      "old_citation_form": "jasïfgïf"
     },
     "mgch": {
       "root": [
@@ -118879,8 +118874,9 @@
       ],
       "class": "noun",
       "gloss": "eosine (auto-generated)",
-      "gender": "child",
-      "citation_form": "bamuku"
+      "gender": "inanimate",
+      "citation_form": "bamïfkïf",
+      "old_citation_form": "bamuku"
     },
     "dzhn": {
       "root": [
@@ -119022,9 +119018,9 @@
       ],
       "class": "noun",
       "gloss": "epanadiplosis (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "nachïfpïf",
-      "old_citation_form": "nachopo"
+      "gender": "female",
+      "citation_form": "nachopo",
+      "old_citation_form": "nachïfpïf"
     },
     "tzch": {
       "root": [
@@ -119067,8 +119063,9 @@
       ],
       "class": "noun",
       "gloss": "plagium (auto-generated)",
-      "gender": "child",
-      "citation_form": "magushu"
+      "gender": "inanimate",
+      "citation_form": "magïfshïf",
+      "old_citation_form": "magushu"
     },
     "vdm": {
       "root": [
@@ -119287,9 +119284,9 @@
       ],
       "class": "noun",
       "gloss": "plagiogravitropism (auto-generated)",
-      "gender": "female",
-      "citation_form": "nangoho",
-      "old_citation_form": "nangïfhïf"
+      "gender": "inanimate",
+      "citation_form": "nangïfhïf",
+      "old_citation_form": "nangoho"
     },
     "bngf": {
       "root": [
@@ -119586,8 +119583,7 @@
       "class": "noun",
       "gloss": "effectivization (auto-generated)",
       "gender": "male",
-      "citation_form": "mamasha",
-      "old_citation_form": "mamïfshïf"
+      "citation_form": "mamasha"
     },
     "?rf": {
       "root": [
@@ -119685,8 +119681,9 @@
       ],
       "class": "noun",
       "gloss": "eeriness (auto-generated)",
-      "gender": "male",
-      "citation_form": "shadhana"
+      "gender": "inanimate",
+      "citation_form": "shadhïfnïf",
+      "old_citation_form": "shadhana"
     },
     "shrb": {
       "root": [
@@ -120873,8 +120870,9 @@
       ],
       "class": "noun",
       "gloss": "iodisation (auto-generated)",
-      "gender": "male",
-      "citation_form": "radhaba"
+      "gender": "inanimate",
+      "citation_form": "radhïfbïf",
+      "old_citation_form": "radhaba"
     },
     "bkj": {
       "root": [
@@ -121192,8 +121190,9 @@
       ],
       "class": "noun",
       "gloss": "iodoquinol (auto-generated)",
-      "gender": "female",
-      "citation_form": "?anotho"
+      "gender": "inanimate",
+      "citation_form": "?anïfthïf",
+      "old_citation_form": "?anotho"
     },
     "chkk": {
       "root": [
@@ -121214,9 +121213,9 @@
       ],
       "class": "noun",
       "gloss": "iodonitrotetrazolium (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "gamïfzhïf",
-      "old_citation_form": "gamazha"
+      "gender": "male",
+      "citation_form": "gamazha",
+      "old_citation_form": "gamïfzhïf"
     },
     "mjj": {
       "root": [
@@ -121590,8 +121589,7 @@
       "class": "noun",
       "gloss": "ovalling (auto-generated)",
       "gender": "child",
-      "citation_form": "jadhugu",
-      "old_citation_form": "jadhïfgïf"
+      "citation_form": "jadhugu"
     },
     "vjk": {
       "root": [
@@ -122118,9 +122116,9 @@
       ],
       "class": "noun",
       "gloss": "fiber (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "hapïfrïf",
-      "old_citation_form": "hapara"
+      "gender": "male",
+      "citation_form": "hapara",
+      "old_citation_form": "hapïfrïf"
     },
     "yth?": {
       "root": [
@@ -122141,9 +122139,9 @@
       ],
       "class": "noun",
       "gloss": "fibrofog (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "ramïfrïf",
-      "old_citation_form": "ramara"
+      "gender": "male",
+      "citation_form": "ramara",
+      "old_citation_form": "ramïfrïf"
     },
     "dshsh": {
       "root": [
@@ -122857,8 +122855,9 @@
       ],
       "class": "noun",
       "gloss": "ayvar (auto-generated)",
-      "gender": "female",
-      "citation_form": "?ayofo"
+      "gender": "inanimate",
+      "citation_form": "?ayïffïf",
+      "old_citation_form": "?ayofo"
     },
     "wyn": {
       "root": [
@@ -123055,8 +123054,9 @@
       ],
       "class": "noun",
       "gloss": "ayran (auto-generated)",
-      "gender": "female",
-      "citation_form": "?alofo"
+      "gender": "inanimate",
+      "citation_form": "?alïffïf",
+      "old_citation_form": "?alofo"
     },
     "fchp": {
       "root": [
@@ -123110,9 +123110,9 @@
       ],
       "class": "noun",
       "gloss": "yupon (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "thavïfthïf",
-      "old_citation_form": "thavotho"
+      "gender": "female",
+      "citation_form": "thavotho",
+      "old_citation_form": "thavïfthïf"
     },
     "sbm": {
       "root": [
@@ -123992,8 +123992,7 @@
       "class": "noun",
       "gloss": "kyphosis (auto-generated)",
       "gender": "child",
-      "citation_form": "wazhuvu",
-      "old_citation_form": "wazhïfvïf"
+      "citation_form": "wazhuvu"
     },
     "trz": {
       "root": [
@@ -124003,8 +124002,9 @@
       ],
       "class": "noun",
       "gloss": "kynophobia (auto-generated)",
-      "gender": "female",
-      "citation_form": "tarozo"
+      "gender": "inanimate",
+      "citation_form": "tarïfzïf",
+      "old_citation_form": "tarozo"
     },
     "zhyv": {
       "root": [
@@ -124168,8 +124168,9 @@
       ],
       "class": "noun",
       "gloss": "kwaito (auto-generated)",
-      "gender": "child",
-      "citation_form": "machudhu"
+      "gender": "inanimate",
+      "citation_form": "machïfdhïf",
+      "old_citation_form": "machudhu"
     },
     "hmg": {
       "root": [
@@ -124564,8 +124565,9 @@
       ],
       "class": "noun",
       "gloss": "oralization (auto-generated)",
-      "gender": "male",
-      "citation_form": "lathala"
+      "gender": "inanimate",
+      "citation_form": "lathïflïf",
+      "old_citation_form": "lathala"
     },
     "jthg": {
       "root": [
@@ -125202,9 +125204,9 @@
       ],
       "class": "noun",
       "gloss": "ergocalciferol (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "la?ïftïf",
-      "old_citation_form": "la?ata"
+      "gender": "male",
+      "citation_form": "la?ata",
+      "old_citation_form": "la?ïftïf"
     },
     "shbs": {
       "root": [
@@ -125665,8 +125667,9 @@
       ],
       "class": "noun",
       "gloss": "judgment (auto-generated)",
-      "gender": "male",
-      "citation_form": "wawacha"
+      "gender": "inanimate",
+      "citation_form": "wawïfchïf",
+      "old_citation_form": "wawacha"
     },
     "mvz": {
       "root": [
@@ -125886,8 +125889,7 @@
       "class": "noun",
       "gloss": "judicare (auto-generated)",
       "gender": "male",
-      "citation_form": "gavama",
-      "old_citation_form": "gavïfmïf"
+      "citation_form": "gavama"
     },
     "bpch": {
       "root": [
@@ -125941,9 +125943,9 @@
       ],
       "class": "noun",
       "gloss": "lobelin (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "?ashïfvïf",
-      "old_citation_form": "?ashuvu"
+      "gender": "child",
+      "citation_form": "?ashuvu",
+      "old_citation_form": "?ashïfvïf"
     },
     "fpk": {
       "root": [
@@ -126394,8 +126396,7 @@
       "class": "noun",
       "gloss": "placentogenesis (auto-generated)",
       "gender": "male",
-      "citation_form": "ngabaza",
-      "old_citation_form": "ngabïfzïf"
+      "citation_form": "ngabaza"
     },
     "ynb": {
       "root": [
@@ -126780,8 +126781,7 @@
       "class": "noun",
       "gloss": "placement (auto-generated)",
       "gender": "male",
-      "citation_form": "shataja",
-      "old_citation_form": "shatïfjïf"
+      "citation_form": "shataja"
     },
     "twzh": {
       "root": [
@@ -126913,8 +126913,7 @@
       "class": "noun",
       "gloss": "escamotage (auto-generated)",
       "gender": "child",
-      "citation_form": "warudu",
-      "old_citation_form": "warïfdïf"
+      "citation_form": "warudu"
     },
     "gmb": {
       "root": [
@@ -127045,8 +127044,9 @@
       ],
       "class": "noun",
       "gloss": "esaprazole (auto-generated)",
-      "gender": "male",
-      "citation_form": "chanara"
+      "gender": "inanimate",
+      "citation_form": "chanïfrïf",
+      "old_citation_form": "chanara"
     },
     "lbh": {
       "root": [
@@ -128387,9 +128387,9 @@
       ],
       "class": "noun",
       "gloss": "sycophantry (auto-generated)",
-      "gender": "male",
-      "citation_form": "wadafa",
-      "old_citation_form": "wadïffïf"
+      "gender": "inanimate",
+      "citation_form": "wadïffïf",
+      "old_citation_form": "wadafa"
     },
     "chgm": {
       "root": [
@@ -128729,9 +128729,9 @@
       ],
       "class": "noun",
       "gloss": "syllabub (auto-generated)",
-      "gender": "female",
-      "citation_form": "zhayoho",
-      "old_citation_form": "zhayïfhïf"
+      "gender": "inanimate",
+      "citation_form": "zhayïfhïf",
+      "old_citation_form": "zhayoho"
     },
     "zhdh?": {
       "root": [
@@ -128995,8 +128995,7 @@
       "class": "noun",
       "gloss": "yakimono (auto-generated)",
       "gender": "male",
-      "citation_form": "radawa",
-      "old_citation_form": "radïfwïf"
+      "citation_form": "radawa"
     },
     "ksth": {
       "root": [
@@ -129524,8 +129523,7 @@
       "class": "noun",
       "gloss": "guano (auto-generated)",
       "gender": "child",
-      "citation_form": "machuzu",
-      "old_citation_form": "machïfzïf"
+      "citation_form": "machuzu"
     },
     "pdhw": {
       "root": [
@@ -129590,8 +129588,9 @@
       ],
       "class": "noun",
       "gloss": "guaisteine (auto-generated)",
-      "gender": "child",
-      "citation_form": "januchu"
+      "gender": "inanimate",
+      "citation_form": "janïfchïf",
+      "old_citation_form": "januchu"
     },
     "jvk": {
       "root": [
@@ -129711,9 +129710,9 @@
       ],
       "class": "noun",
       "gloss": "guanciale (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "ngamïfngïf",
-      "old_citation_form": "ngamungu"
+      "gender": "child",
+      "citation_form": "ngamungu",
+      "old_citation_form": "ngamïfngïf"
     },
     "fdhsh": {
       "root": [
@@ -129746,8 +129745,7 @@
       "class": "noun",
       "gloss": "guanite (auto-generated)",
       "gender": "male",
-      "citation_form": "tafa?a",
-      "old_citation_form": "tafïf?ïf"
+      "citation_form": "tafa?a"
     },
     "thpzh": {
       "root": [
@@ -130066,8 +130064,7 @@
       "class": "noun",
       "gloss": "ssamjang (auto-generated)",
       "gender": "male",
-      "citation_form": "nganawa",
-      "old_citation_form": "nganïfwïf"
+      "citation_form": "nganawa"
     },
     "rths": {
       "root": [
@@ -131056,8 +131053,9 @@
       ],
       "class": "noun",
       "gloss": "goalscoring (auto-generated)",
-      "gender": "child",
-      "citation_form": "tazhu?u"
+      "gender": "inanimate",
+      "citation_form": "tazhïf?ïf",
+      "old_citation_form": "tazhu?u"
     },
     "s?d": {
       "root": [
@@ -131221,9 +131219,9 @@
       ],
       "class": "noun",
       "gloss": "bibliome (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "hachïfmïf",
-      "old_citation_form": "hachumu"
+      "gender": "child",
+      "citation_form": "hachumu",
+      "old_citation_form": "hachïfmïf"
     },
     "rrg": {
       "root": [
@@ -131684,9 +131682,9 @@
       ],
       "class": "noun",
       "gloss": "illicitness (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "sahïfzïf",
-      "old_citation_form": "sahozo"
+      "gender": "female",
+      "citation_form": "sahozo",
+      "old_citation_form": "sahïfzïf"
     },
     "krn": {
       "root": [
@@ -131708,8 +131706,7 @@
       "class": "noun",
       "gloss": "illbeing (auto-generated)",
       "gender": "male",
-      "citation_form": "?ajana",
-      "old_citation_form": "?ajïfnïf"
+      "citation_form": "?ajana"
     },
     "vwg": {
       "root": [
@@ -131906,8 +131903,9 @@
       ],
       "class": "noun",
       "gloss": "illbient (auto-generated)",
-      "gender": "child",
-      "citation_form": "?agugu"
+      "gender": "inanimate",
+      "citation_form": "?agïfgïf",
+      "old_citation_form": "?agugu"
     },
     "?sp": {
       "root": [
@@ -131917,8 +131915,9 @@
       ],
       "class": "noun",
       "gloss": "illegitimateness (auto-generated)",
-      "gender": "male",
-      "citation_form": "?asapa"
+      "gender": "inanimate",
+      "citation_form": "?asïfpïf",
+      "old_citation_form": "?asapa"
     },
     "vm?": {
       "root": [
@@ -132666,8 +132665,7 @@
       "class": "noun",
       "gloss": "illation (auto-generated)",
       "gender": "child",
-      "citation_form": "shalubu",
-      "old_citation_form": "shalïfbïf"
+      "citation_form": "shalubu"
     },
     "?zy": {
       "root": [
@@ -133601,9 +133599,9 @@
       ],
       "class": "noun",
       "gloss": "hoariness (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "jahïfhïf",
-      "old_citation_form": "jahoho"
+      "gender": "female",
+      "citation_form": "jahoho",
+      "old_citation_form": "jahïfhïf"
     },
     "hny": {
       "root": [
@@ -134537,9 +134535,9 @@
       ],
       "class": "noun",
       "gloss": "effraction (auto-generated)",
-      "gender": "child",
-      "citation_form": "zathuyu",
-      "old_citation_form": "zathïfyïf"
+      "gender": "inanimate",
+      "citation_form": "zathïfyïf",
+      "old_citation_form": "zathuyu"
     },
     "ldch": {
       "root": [
@@ -135034,8 +135032,7 @@
       "class": "noun",
       "gloss": "xylobalsamum (auto-generated)",
       "gender": "female",
-      "citation_form": "thatojo",
-      "old_citation_form": "thatïfjïf"
+      "citation_form": "thatojo"
     },
     "gr?": {
       "root": [
@@ -135189,8 +135186,7 @@
       "class": "noun",
       "gloss": "xylitol (auto-generated)",
       "gender": "child",
-      "citation_form": "?adusu",
-      "old_citation_form": "?adïfsïf"
+      "citation_form": "?adusu"
     },
     "jzt": {
       "root": [
@@ -135398,8 +135394,9 @@
       ],
       "class": "noun",
       "gloss": "vocalization (auto-generated)",
-      "gender": "female",
-      "citation_form": "zavocho"
+      "gender": "inanimate",
+      "citation_form": "zavïfchïf",
+      "old_citation_form": "zavocho"
     },
     "wrw": {
       "root": [
@@ -136070,8 +136067,7 @@
       "class": "noun",
       "gloss": "ominousness (auto-generated)",
       "gender": "child",
-      "citation_form": "hafuwu",
-      "old_citation_form": "hafïfwïf"
+      "citation_form": "hafuwu"
     },
     "wky": {
       "root": [
@@ -137302,8 +137298,9 @@
       ],
       "class": "noun",
       "gloss": "zabicipril (auto-generated)",
-      "gender": "male",
-      "citation_form": "nasa?a"
+      "gender": "inanimate",
+      "citation_form": "nasïf?ïf",
+      "old_citation_form": "nasa?a"
     },
     "?shw": {
       "root": [
@@ -137402,8 +137399,7 @@
       "class": "noun",
       "gloss": "zacate (auto-generated)",
       "gender": "child",
-      "citation_form": "namuvu",
-      "old_citation_form": "namïfvïf"
+      "citation_form": "namuvu"
     },
     "nvf": {
       "root": [
@@ -137501,8 +137497,9 @@
       ],
       "class": "noun",
       "gloss": "zabaione (auto-generated)",
-      "gender": "male",
-      "citation_form": "?adhaya"
+      "gender": "inanimate",
+      "citation_form": "?adhïfyïf",
+      "old_citation_form": "?adhaya"
     },
     "smth": {
       "root": [
@@ -137854,8 +137851,7 @@
       "class": "noun",
       "gloss": "bub (auto-generated)",
       "gender": "female",
-      "citation_form": "shadogo",
-      "old_citation_form": "shadïfgïf"
+      "citation_form": "shadogo"
     },
     "chjng": {
       "root": [
@@ -138680,8 +138676,7 @@
       "class": "noun",
       "gloss": "fibrination (auto-generated)",
       "gender": "male",
-      "citation_form": "kamava",
-      "old_citation_form": "kamïfvïf"
+      "citation_form": "kamava"
     },
     "chngg": {
       "root": [
@@ -138735,8 +138730,9 @@
       ],
       "class": "noun",
       "gloss": "fibrillinogenesis (auto-generated)",
-      "gender": "male",
-      "citation_form": "chawawa"
+      "gender": "inanimate",
+      "citation_form": "chawïfwïf",
+      "old_citation_form": "chawawa"
     },
     "chysh": {
       "root": [
@@ -138757,8 +138753,9 @@
       ],
       "class": "noun",
       "gloss": "fibrillogenesis (auto-generated)",
-      "gender": "female",
-      "citation_form": "mafolo"
+      "gender": "inanimate",
+      "citation_form": "mafïflïf",
+      "old_citation_form": "mafolo"
     },
     "fwsh": {
       "root": [
@@ -139219,8 +139216,9 @@
       ],
       "class": "noun",
       "gloss": "affability (auto-generated)",
-      "gender": "male",
-      "citation_form": "pachawa"
+      "gender": "inanimate",
+      "citation_form": "pachïfwïf",
+      "old_citation_form": "pachawa"
     },
     "fdth": {
       "root": [
@@ -139659,8 +139657,9 @@
       ],
       "class": "noun",
       "gloss": "chacrona (auto-generated)",
-      "gender": "child",
-      "citation_form": "danguhu"
+      "gender": "inanimate",
+      "citation_form": "dangïfhïf",
+      "old_citation_form": "danguhu"
     },
     "grl": {
       "root": [
@@ -139758,9 +139757,9 @@
       ],
       "class": "noun",
       "gloss": "chadlock (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "bakïf?ïf",
-      "old_citation_form": "baku?u"
+      "gender": "child",
+      "citation_form": "baku?u",
+      "old_citation_form": "bakïf?ïf"
     },
     "?thch": {
       "root": [
@@ -140166,9 +140165,9 @@
       ],
       "class": "noun",
       "gloss": "toast (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "padhïfdhïf",
-      "old_citation_form": "padhudhu"
+      "gender": "child",
+      "citation_form": "padhudhu",
+      "old_citation_form": "padhïfdhïf"
     },
     "chdy": {
       "root": [
@@ -140244,8 +140243,9 @@
       ],
       "class": "noun",
       "gloss": "toadflax (auto-generated)",
-      "gender": "female",
-      "citation_form": "thatolo"
+      "gender": "inanimate",
+      "citation_form": "thatïflïf",
+      "old_citation_form": "thatolo"
     },
     "mdy": {
       "root": [
@@ -140739,9 +140739,9 @@
       ],
       "class": "noun",
       "gloss": "ethenone (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "dachïfmïf",
-      "old_citation_form": "dachomo"
+      "gender": "female",
+      "citation_form": "dachomo",
+      "old_citation_form": "dachïfmïf"
     },
     "mpng": {
       "root": [
@@ -140895,8 +140895,7 @@
       "class": "noun",
       "gloss": "eternalness (auto-generated)",
       "gender": "child",
-      "citation_form": "dhathuwu",
-      "old_citation_form": "dhathïfwïf"
+      "citation_form": "dhathuwu"
     },
     "?zv": {
       "root": [
@@ -141093,8 +141092,9 @@
       ],
       "class": "noun",
       "gloss": "ethanoate (auto-generated)",
-      "gender": "female",
-      "citation_form": "bamoso"
+      "gender": "inanimate",
+      "citation_form": "bamïfsïf",
+      "old_citation_form": "bamoso"
     },
     "dyzh": {
       "root": [
@@ -141104,9 +141104,9 @@
       ],
       "class": "noun",
       "gloss": "ethanium (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "dayïfzhïf",
-      "old_citation_form": "dayuzhu"
+      "gender": "child",
+      "citation_form": "dayuzhu",
+      "old_citation_form": "dayïfzhïf"
     },
     "mchy": {
       "root": [
@@ -141117,8 +141117,7 @@
       "class": "noun",
       "gloss": "etazolate (auto-generated)",
       "gender": "female",
-      "citation_form": "machoyo",
-      "old_citation_form": "machïfyïf"
+      "citation_form": "machoyo"
     },
     "jngd": {
       "root": [
@@ -141129,8 +141128,7 @@
       "class": "noun",
       "gloss": "etaracizumab (auto-generated)",
       "gender": "child",
-      "citation_form": "jangudu",
-      "old_citation_form": "jangïfdïf"
+      "citation_form": "jangudu"
     },
     "gdng": {
       "root": [
@@ -141240,8 +141238,7 @@
       "class": "noun",
       "gloss": "crabbing (auto-generated)",
       "gender": "male",
-      "citation_form": "ravata",
-      "old_citation_form": "ravïftïf"
+      "citation_form": "ravata"
     },
     "chgg": {
       "root": [
@@ -141933,9 +141930,9 @@
       ],
       "class": "noun",
       "gloss": "geeksploitation (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "namïf?ïf",
-      "old_citation_form": "nama?a"
+      "gender": "male",
+      "citation_form": "nama?a",
+      "old_citation_form": "namïf?ïf"
     },
     "lgdh": {
       "root": [
@@ -142231,9 +142228,9 @@
       ],
       "class": "noun",
       "gloss": "geekwear (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "thajïfmïf",
-      "old_citation_form": "thajumu"
+      "gender": "child",
+      "citation_form": "thajumu",
+      "old_citation_form": "thajïfmïf"
     },
     "w??": {
       "root": [
@@ -142760,9 +142757,9 @@
       ],
       "class": "noun",
       "gloss": "vulcanisation (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "mabïfvïf",
-      "old_citation_form": "mabovo"
+      "gender": "female",
+      "citation_form": "mabovo",
+      "old_citation_form": "mabïfvïf"
     },
     "rnp": {
       "root": [
@@ -142871,8 +142868,9 @@
       ],
       "class": "noun",
       "gloss": "kodomo (auto-generated)",
-      "gender": "female",
-      "citation_form": "?asozho"
+      "gender": "inanimate",
+      "citation_form": "?asïfzhïf",
+      "old_citation_form": "?asozho"
     },
     "vng": {
       "root": [
@@ -143003,9 +143001,9 @@
       ],
       "class": "noun",
       "gloss": "kohl (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "?akïfkïf",
-      "old_citation_form": "?akaka"
+      "gender": "male",
+      "citation_form": "?akaka",
+      "old_citation_form": "?akïfkïf"
     },
     "thlzh": {
       "root": [
@@ -143576,8 +143574,9 @@
       ],
       "class": "noun",
       "gloss": "earcockle (auto-generated)",
-      "gender": "child",
-      "citation_form": "pamusu"
+      "gender": "inanimate",
+      "citation_form": "pamïfsïf",
+      "old_citation_form": "pamusu"
     },
     "tw?": {
       "root": [
@@ -143961,8 +143960,9 @@
       ],
       "class": "noun",
       "gloss": "lucency (auto-generated)",
-      "gender": "child",
-      "citation_form": "thawuyu"
+      "gender": "inanimate",
+      "citation_form": "thawïfyïf",
+      "old_citation_form": "thawuyu"
     },
     "wldh": {
       "root": [
@@ -144082,8 +144082,9 @@
       ],
       "class": "noun",
       "gloss": "lubricity (auto-generated)",
-      "gender": "male",
-      "citation_form": "zha?asa"
+      "gender": "inanimate",
+      "citation_form": "zha?ïfsïf",
+      "old_citation_form": "zha?asa"
     },
     "ntzh": {
       "root": [
@@ -144138,8 +144139,7 @@
       "class": "noun",
       "gloss": "lucidness (auto-generated)",
       "gender": "female",
-      "citation_form": "shasozo",
-      "old_citation_form": "shasïfzïf"
+      "citation_form": "shasozo"
     },
     "thfb": {
       "root": [
@@ -144303,9 +144303,9 @@
       ],
       "class": "noun",
       "gloss": "lucidol (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "ha?ïfnïf",
-      "old_citation_form": "ha?ono"
+      "gender": "female",
+      "citation_form": "ha?ono",
+      "old_citation_form": "ha?ïfnïf"
     },
     "jtht": {
       "root": [
@@ -144899,8 +144899,7 @@
       "class": "noun",
       "gloss": "crackling (auto-generated)",
       "gender": "female",
-      "citation_form": "shangozo",
-      "old_citation_form": "shangïfzïf"
+      "citation_form": "shangozo"
     },
     "shyth": {
       "root": [
@@ -145031,9 +145030,9 @@
       ],
       "class": "noun",
       "gloss": "crackdown (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "balïfkïf",
-      "old_citation_form": "balaka"
+      "gender": "male",
+      "citation_form": "balaka",
+      "old_citation_form": "balïfkïf"
     },
     "frf": {
       "root": [
@@ -145176,8 +145175,7 @@
       "class": "noun",
       "gloss": "noctilucin (auto-generated)",
       "gender": "male",
-      "citation_form": "vahanga",
-      "old_citation_form": "vahïfngïf"
+      "citation_form": "vahanga"
     },
     "r?ng": {
       "root": [
@@ -146254,9 +146252,9 @@
       ],
       "class": "noun",
       "gloss": "jocularness (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "ngazïfgïf",
-      "old_citation_form": "ngazugu"
+      "gender": "child",
+      "citation_form": "ngazugu",
+      "old_citation_form": "ngazïfgïf"
     },
     "pfy": {
       "root": [
@@ -147565,8 +147563,7 @@
       "class": "noun",
       "gloss": "krama (auto-generated)",
       "gender": "female",
-      "citation_form": "fafogo",
-      "old_citation_form": "fafïfgïf"
+      "citation_form": "fafogo"
     },
     "nl?": {
       "root": [
@@ -147840,9 +147837,9 @@
       ],
       "class": "noun",
       "gloss": "ourari (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "dagïfyïf",
-      "old_citation_form": "daguyu"
+      "gender": "child",
+      "citation_form": "daguyu",
+      "old_citation_form": "dagïfyïf"
     },
     "schng": {
       "root": [
@@ -148281,9 +148278,9 @@
       ],
       "class": "noun",
       "gloss": "woad (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "fangïfgïf",
-      "old_citation_form": "fangogo"
+      "gender": "female",
+      "citation_form": "fangogo",
+      "old_citation_form": "fangïfgïf"
     },
     "ryh": {
       "root": [
@@ -148403,9 +148400,9 @@
       ],
       "class": "noun",
       "gloss": "woebegoneness (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "hawïfjïf",
-      "old_citation_form": "hawaja"
+      "gender": "male",
+      "citation_form": "hawaja",
+      "old_citation_form": "hawïfjïf"
     },
     "rsz": {
       "root": [
@@ -148679,9 +148676,9 @@
       ],
       "class": "noun",
       "gloss": "evaporation (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "dhafïfjïf",
-      "old_citation_form": "dhafaja"
+      "gender": "male",
+      "citation_form": "dhafaja",
+      "old_citation_form": "dhafïfjïf"
     },
     "?zth": {
       "root": [
@@ -148769,8 +148766,7 @@
       "class": "noun",
       "gloss": "evaluation (auto-generated)",
       "gender": "female",
-      "citation_form": "chadhofo",
-      "old_citation_form": "chadhïffïf"
+      "citation_form": "chadhofo"
     },
     "wsw": {
       "root": [
@@ -148934,9 +148930,9 @@
       ],
       "class": "noun",
       "gloss": "evection (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "vayïfdhïf",
-      "old_citation_form": "vayadha"
+      "gender": "male",
+      "citation_form": "vayadha",
+      "old_citation_form": "vayïfdhïf"
     },
     "hlng": {
       "root": [
@@ -149045,8 +149041,9 @@
       ],
       "class": "noun",
       "gloss": "evaporography (auto-generated)",
-      "gender": "child",
-      "citation_form": "jadulu"
+      "gender": "inanimate",
+      "citation_form": "jadïflïf",
+      "old_citation_form": "jadulu"
     },
     "ptng": {
       "root": [
@@ -149441,8 +149438,9 @@
       ],
       "class": "noun",
       "gloss": "kabana (auto-generated)",
-      "gender": "male",
-      "citation_form": "najafa"
+      "gender": "inanimate",
+      "citation_form": "najïffïf",
+      "old_citation_form": "najafa"
     },
     "grf": {
       "root": [
@@ -149606,9 +149604,9 @@
       ],
       "class": "noun",
       "gloss": "ecash (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "ga?ïfbïf",
-      "old_citation_form": "ga?ubu"
+      "gender": "child",
+      "citation_form": "ga?ubu",
+      "old_citation_form": "ga?ïfbïf"
     },
     "wkr": {
       "root": [
@@ -149662,8 +149660,9 @@
       ],
       "class": "noun",
       "gloss": "ebru (auto-generated)",
-      "gender": "child",
-      "citation_form": "ta?uwu"
+      "gender": "inanimate",
+      "citation_form": "ta?ïfwïf",
+      "old_citation_form": "ta?uwu"
     },
     "dts": {
       "root": [
@@ -149959,8 +149958,9 @@
       ],
       "class": "noun",
       "gloss": "eba (auto-generated)",
-      "gender": "female",
-      "citation_form": "thazofo"
+      "gender": "inanimate",
+      "citation_form": "thazïffïf",
+      "old_citation_form": "thazofo"
     },
     "fkl": {
       "root": [
@@ -150201,8 +150201,9 @@
       ],
       "class": "noun",
       "gloss": "zlatogorite (auto-generated)",
-      "gender": "child",
-      "citation_form": "kaju?u"
+      "gender": "inanimate",
+      "citation_form": "kajïf?ïf",
+      "old_citation_form": "kaju?u"
     },
     "dh?m": {
       "root": [
@@ -150399,9 +150400,9 @@
       ],
       "class": "noun",
       "gloss": "zolpidem (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "ra?ïfzhïf",
-      "old_citation_form": "ra?uzhu"
+      "gender": "child",
+      "citation_form": "ra?uzhu",
+      "old_citation_form": "ra?ïfzhïf"
     },
     "jtng": {
       "root": [
@@ -150522,8 +150523,7 @@
       "class": "noun",
       "gloss": "zolmitriptan (auto-generated)",
       "gender": "male",
-      "citation_form": "lathaha",
-      "old_citation_form": "lathïfhïf"
+      "citation_form": "lathaha"
     },
     "frj": {
       "root": [
@@ -151226,8 +151226,9 @@
       ],
       "class": "noun",
       "gloss": "geekery (auto-generated)",
-      "gender": "female",
-      "citation_form": "savolo"
+      "gender": "inanimate",
+      "citation_form": "savïflïf",
+      "old_citation_form": "savolo"
     },
     "zhrt": {
       "root": [
@@ -151402,9 +151403,9 @@
       ],
       "class": "noun",
       "gloss": "gedocarnil (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "chalïfpïf",
-      "old_citation_form": "chalupu"
+      "gender": "child",
+      "citation_form": "chalupu",
+      "old_citation_form": "chalïfpïf"
     },
     "vkv": {
       "root": [
@@ -151964,9 +151965,9 @@
       ],
       "class": "noun",
       "gloss": "picaridin (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "?akïfnïf",
-      "old_citation_form": "?akunu"
+      "gender": "child",
+      "citation_form": "?akunu",
+      "old_citation_form": "?akïfnïf"
     },
     "jngr": {
       "root": [
@@ -152405,9 +152406,9 @@
       ],
       "class": "noun",
       "gloss": "dyingness (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "ralïfngïf",
-      "old_citation_form": "ralanga"
+      "gender": "male",
+      "citation_form": "ralanga",
+      "old_citation_form": "ralïfngïf"
     },
     "dnv": {
       "root": [
@@ -152923,9 +152924,9 @@
       ],
       "class": "noun",
       "gloss": "nucleocosmochronology (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "pa?ïffïf",
-      "old_citation_form": "pa?afa"
+      "gender": "male",
+      "citation_form": "pa?afa",
+      "old_citation_form": "pa?ïffïf"
     },
     "pdhh": {
       "root": [
@@ -153001,9 +153002,9 @@
       ],
       "class": "noun",
       "gloss": "nucleokinesis (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "mabïftïf",
-      "old_citation_form": "mabata"
+      "gender": "male",
+      "citation_form": "mabata",
+      "old_citation_form": "mabïftïf"
     },
     "ypt": {
       "root": [
@@ -153091,8 +153092,7 @@
       "class": "noun",
       "gloss": "nuclearism (auto-generated)",
       "gender": "male",
-      "citation_form": "bavafa",
-      "old_citation_form": "bavïffïf"
+      "citation_form": "bavafa"
     },
     "fngzh": {
       "root": [
@@ -153191,8 +153191,7 @@
       "class": "noun",
       "gloss": "nucleogenesis (auto-generated)",
       "gender": "male",
-      "citation_form": "lawapa",
-      "old_citation_form": "lawïfpïf"
+      "citation_form": "lawapa"
     },
     "zyj": {
       "root": [
@@ -153312,9 +153311,9 @@
       ],
       "class": "noun",
       "gloss": "epanodos (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "?alïfthïf",
-      "old_citation_form": "?alotho"
+      "gender": "female",
+      "citation_form": "?alotho",
+      "old_citation_form": "?alïfthïf"
     },
     "chchd": {
       "root": [
@@ -153687,9 +153686,9 @@
       ],
       "class": "noun",
       "gloss": "eolotropy (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "dhachïfdhïf",
-      "old_citation_form": "dhachudhu"
+      "gender": "child",
+      "citation_form": "dhachudhu",
+      "old_citation_form": "dhachïfdhïf"
     },
     "ppd": {
       "root": [
@@ -154239,8 +154238,7 @@
       "class": "noun",
       "gloss": "beachside (auto-generated)",
       "gender": "child",
-      "citation_form": "jamuvu",
-      "old_citation_form": "jamïfvïf"
+      "citation_form": "jamuvu"
     },
     "dhly": {
       "root": [
@@ -154460,8 +154458,7 @@
       "class": "noun",
       "gloss": "beading (auto-generated)",
       "gender": "male",
-      "citation_form": "nga?afa",
-      "old_citation_form": "nga?ïffïf"
+      "citation_form": "nga?afa"
     },
     "dhf?": {
       "root": [
@@ -154570,8 +154567,9 @@
       ],
       "class": "noun",
       "gloss": "beachiness (auto-generated)",
-      "gender": "male",
-      "citation_form": "ngapaka"
+      "gender": "inanimate",
+      "citation_form": "ngapïfkïf",
+      "old_citation_form": "ngapaka"
     },
     "chkz": {
       "root": [
@@ -155329,9 +155327,9 @@
       ],
       "class": "noun",
       "gloss": "headage (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "va?ïfngïf",
-      "old_citation_form": "va?ongo"
+      "gender": "female",
+      "citation_form": "va?ongo",
+      "old_citation_form": "va?ïfngïf"
     },
     "wln": {
       "root": [
@@ -155715,8 +155713,9 @@
       ],
       "class": "noun",
       "gloss": "cyanidin (auto-generated)",
-      "gender": "child",
-      "citation_form": "chaju?u"
+      "gender": "inanimate",
+      "citation_form": "chajïf?ïf",
+      "old_citation_form": "chaju?u"
     },
     "npd": {
       "root": [
@@ -156453,8 +156452,7 @@
       "class": "noun",
       "gloss": "giallo (auto-generated)",
       "gender": "female",
-      "citation_form": "ya?ojo",
-      "old_citation_form": "ya?ïfjïf"
+      "citation_form": "ya?ojo"
     },
     "bzhm": {
       "root": [
@@ -157147,8 +157145,7 @@
       "class": "noun",
       "gloss": "whateverism (auto-generated)",
       "gender": "child",
-      "citation_form": "sa?uzhu",
-      "old_citation_form": "sa?ïfzhïf"
+      "citation_form": "sa?uzhu"
     },
     "dhfk": {
       "root": [
@@ -157730,8 +157727,9 @@
       ],
       "class": "noun",
       "gloss": "whangai (auto-generated)",
-      "gender": "female",
-      "citation_form": "zhamoro"
+      "gender": "inanimate",
+      "citation_form": "zhamïfrïf",
+      "old_citation_form": "zhamoro"
     },
     "f?ch": {
       "root": [
@@ -157830,8 +157828,7 @@
       "class": "noun",
       "gloss": "uxoricide (auto-generated)",
       "gender": "child",
-      "citation_form": "sazhubu",
-      "old_citation_form": "sazhïfbïf"
+      "citation_form": "sazhubu"
     },
     "ysh": {
       "root": [
@@ -158238,8 +158235,7 @@
       "class": "noun",
       "gloss": "zolimomab (auto-generated)",
       "gender": "male",
-      "citation_form": "ka?acha",
-      "old_citation_form": "ka?ïfchïf"
+      "citation_form": "ka?acha"
     },
     "mthg": {
       "root": [
@@ -158326,9 +158322,9 @@
       ],
       "class": "noun",
       "gloss": "wodginite (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "mahïfzhïf",
-      "old_citation_form": "mahozho"
+      "gender": "female",
+      "citation_form": "mahozho",
+      "old_citation_form": "mahïfzhïf"
     },
     "?rk": {
       "root": [
@@ -158427,8 +158423,7 @@
       "class": "noun",
       "gloss": "woefare (auto-generated)",
       "gender": "female",
-      "citation_form": "pakosho",
-      "old_citation_form": "pakïfshïf"
+      "citation_form": "pakosho"
     },
     "bdy": {
       "root": [
@@ -159087,9 +159082,9 @@
       ],
       "class": "noun",
       "gloss": "erasure (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "marïfshïf",
-      "old_citation_form": "marosho"
+      "gender": "female",
+      "citation_form": "marosho",
+      "old_citation_form": "marïfshïf"
     },
     "sdy": {
       "root": [
@@ -159616,8 +159611,9 @@
       ],
       "class": "noun",
       "gloss": "apepsia (auto-generated)",
-      "gender": "male",
-      "citation_form": "hakada"
+      "gender": "inanimate",
+      "citation_form": "hakïfdïf",
+      "old_citation_form": "hakada"
     },
     "zhchz": {
       "root": [
@@ -159759,8 +159755,9 @@
       ],
       "class": "noun",
       "gloss": "aparigraha (auto-generated)",
-      "gender": "male",
-      "citation_form": "yazhapa"
+      "gender": "inanimate",
+      "citation_form": "yazhïfpïf",
+      "old_citation_form": "yazhapa"
     },
     "dsj": {
       "root": [
@@ -159814,9 +159811,9 @@
       ],
       "class": "noun",
       "gloss": "apetalousness (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "ngadhïfnïf",
-      "old_citation_form": "ngadhono"
+      "gender": "female",
+      "citation_form": "ngadhono",
+      "old_citation_form": "ngadhïfnïf"
     },
     "ypzh": {
       "root": [
@@ -159859,9 +159856,9 @@
       ],
       "class": "noun",
       "gloss": "apaxifylline (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "cha?ïfchïf",
-      "old_citation_form": "cha?ocho"
+      "gender": "female",
+      "citation_form": "cha?ocho",
+      "old_citation_form": "cha?ïfchïf"
     },
     "zzng": {
       "root": [
@@ -159948,9 +159945,9 @@
       ],
       "class": "noun",
       "gloss": "aperiodicity (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "vajïfshïf",
-      "old_citation_form": "vajasha"
+      "gender": "male",
+      "citation_form": "vajasha",
+      "old_citation_form": "vajïfshïf"
     },
     "ndhch": {
       "root": [
@@ -160214,8 +160211,7 @@
       "class": "noun",
       "gloss": "xanthinol (auto-generated)",
       "gender": "male",
-      "citation_form": "danga?a",
-      "old_citation_form": "dangïf?ïf"
+      "citation_form": "danga?a"
     },
     "nglp": {
       "root": [
@@ -160280,8 +160276,9 @@
       ],
       "class": "noun",
       "gloss": "xacutti (auto-generated)",
-      "gender": "female",
-      "citation_form": "raroho"
+      "gender": "inanimate",
+      "citation_form": "rarïfhïf",
+      "old_citation_form": "raroho"
     },
     "fssh": {
       "root": [
@@ -160292,8 +160289,7 @@
       "class": "noun",
       "gloss": "xanthitane (auto-generated)",
       "gender": "male",
-      "citation_form": "fasasha",
-      "old_citation_form": "fasïfshïf"
+      "citation_form": "fasasha"
     },
     "hzs": {
       "root": [
@@ -160611,8 +160607,9 @@
       ],
       "class": "noun",
       "gloss": "dwimmer (auto-generated)",
-      "gender": "child",
-      "citation_form": "kawuzhu"
+      "gender": "inanimate",
+      "citation_form": "kawïfzhïf",
+      "old_citation_form": "kawuzhu"
     },
     "kll": {
       "root": [
@@ -161371,8 +161368,7 @@
       "class": "noun",
       "gloss": "qitianlingite (auto-generated)",
       "gender": "child",
-      "citation_form": "?apuchu",
-      "old_citation_form": "?apïfchïf"
+      "citation_form": "?apuchu"
     },
     "shbj": {
       "root": [
@@ -161624,9 +161620,9 @@
       ],
       "class": "noun",
       "gloss": "dwarfism (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "shatïffïf",
-      "old_citation_form": "shatofo"
+      "gender": "female",
+      "citation_form": "shatofo",
+      "old_citation_form": "shatïffïf"
     },
     "lshl": {
       "root": [
@@ -161878,9 +161874,9 @@
       ],
       "class": "noun",
       "gloss": "giardia (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "tafïfngïf",
-      "old_citation_form": "tafongo"
+      "gender": "female",
+      "citation_form": "tafongo",
+      "old_citation_form": "tafïfngïf"
     },
     "?yn": {
       "root": [
@@ -162287,8 +162283,7 @@
       "class": "noun",
       "gloss": "nystagmus (auto-generated)",
       "gender": "female",
-      "citation_form": "dhafozho",
-      "old_citation_form": "dhafïfzhïf"
+      "citation_form": "dhafozho"
     },
     "zrdh": {
       "root": [
@@ -162431,8 +162426,7 @@
       "class": "noun",
       "gloss": "oafishness (auto-generated)",
       "gender": "male",
-      "citation_form": "shatatha",
-      "old_citation_form": "shatïfthïf"
+      "citation_form": "shatatha"
     },
     "chdhw": {
       "root": [
@@ -163873,8 +163867,7 @@
       "class": "noun",
       "gloss": "praeternature (auto-generated)",
       "gender": "female",
-      "citation_form": "kalotho",
-      "old_citation_form": "kalïfthïf"
+      "citation_form": "kalotho"
     },
     "chzhk": {
       "root": [
@@ -163994,8 +163987,9 @@
       ],
       "class": "noun",
       "gloss": "praeteritio (auto-generated)",
-      "gender": "male",
-      "citation_form": "vamaga"
+      "gender": "inanimate",
+      "citation_form": "vamïfgïf",
+      "old_citation_form": "vamaga"
     },
     "?nh": {
       "root": [
@@ -164248,8 +164242,7 @@
       "class": "noun",
       "gloss": "hoarding (auto-generated)",
       "gender": "male",
-      "citation_form": "ra?acha",
-      "old_citation_form": "ra?ïfchïf"
+      "citation_form": "ra?acha"
     },
     "kyw": {
       "root": [
@@ -164270,9 +164263,9 @@
       ],
       "class": "noun",
       "gloss": "hobbledehoyhood (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "pajïfzïf",
-      "old_citation_form": "pajaza"
+      "gender": "male",
+      "citation_form": "pajaza",
+      "old_citation_form": "pajïfzïf"
     },
     "kfth": {
       "root": [
@@ -165350,8 +165343,7 @@
       "class": "noun",
       "gloss": "flabbergastation (auto-generated)",
       "gender": "inanimate",
-      "citation_form": "navïfchïf",
-      "old_citation_form": "navuchu"
+      "citation_form": "navïfchïf"
     },
     "gzhn": {
       "root": [
@@ -165505,8 +165497,7 @@
       "class": "noun",
       "gloss": "wolfbane (auto-generated)",
       "gender": "child",
-      "citation_form": "dadunu",
-      "old_citation_form": "dadïfnïf"
+      "citation_form": "dadunu"
     },
     "pzp": {
       "root": [
@@ -165736,9 +165727,9 @@
       ],
       "class": "noun",
       "gloss": "wolfdom (auto-generated)",
-      "gender": "female",
-      "citation_form": "yarofo",
-      "old_citation_form": "yarïffïf"
+      "gender": "inanimate",
+      "citation_form": "yarïffïf",
+      "old_citation_form": "yarofo"
     },
     "shvzh": {
       "root": [
@@ -165869,8 +165860,9 @@
       ],
       "class": "noun",
       "gloss": "italicization (auto-generated)",
-      "gender": "female",
-      "citation_form": "sarotho"
+      "gender": "inanimate",
+      "citation_form": "sarïfthïf",
+      "old_citation_form": "sarotho"
     },
     "pchp": {
       "root": [
@@ -166507,8 +166499,9 @@
       ],
       "class": "noun",
       "gloss": "bucetin (auto-generated)",
-      "gender": "child",
-      "citation_form": "dashuku"
+      "gender": "inanimate",
+      "citation_form": "dashïfkïf",
+      "old_citation_form": "dashuku"
     },
     "gfn": {
       "root": [
@@ -166639,8 +166632,9 @@
       ],
       "class": "noun",
       "gloss": "bucindolol (auto-generated)",
-      "gender": "female",
-      "citation_form": "ka?ogo"
+      "gender": "inanimate",
+      "citation_form": "ka?ïfgïf",
+      "old_citation_form": "ka?ogo"
     },
     "wtng": {
       "root": [
@@ -166871,8 +166865,7 @@
       "class": "noun",
       "gloss": "vodoun (auto-generated)",
       "gender": "male",
-      "citation_form": "vazhatha",
-      "old_citation_form": "vazhïfthïf"
+      "citation_form": "vazhatha"
     },
     "nyk": {
       "root": [
@@ -167565,8 +167558,7 @@
       "class": "noun",
       "gloss": "fractioning (auto-generated)",
       "gender": "male",
-      "citation_form": "shawala",
-      "old_citation_form": "shawïflïf"
+      "citation_form": "shawala"
     },
     "yps": {
       "root": [
@@ -167587,9 +167579,9 @@
       ],
       "class": "noun",
       "gloss": "fradafiban (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "sajïfbïf",
-      "old_citation_form": "sajubu"
+      "gender": "child",
+      "citation_form": "sajubu",
+      "old_citation_form": "sajïfbïf"
     },
     "t?p": {
       "root": [
@@ -167610,8 +167602,9 @@
       ],
       "class": "noun",
       "gloss": "fragmenting (auto-generated)",
-      "gender": "female",
-      "citation_form": "?ahovo"
+      "gender": "inanimate",
+      "citation_form": "?ahïfvïf",
+      "old_citation_form": "?ahovo"
     },
     "hhy": {
       "root": [
@@ -167974,8 +167967,7 @@
       "class": "noun",
       "gloss": "fraccing (auto-generated)",
       "gender": "child",
-      "citation_form": "sahubu",
-      "old_citation_form": "sahïfbïf"
+      "citation_form": "sahubu"
     },
     "nghth": {
       "root": [
@@ -168194,9 +168186,9 @@
       ],
       "class": "noun",
       "gloss": "swallow (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "ngazïfchïf",
-      "old_citation_form": "ngazuchu"
+      "gender": "child",
+      "citation_form": "ngazuchu",
+      "old_citation_form": "ngazïfchïf"
     },
     "fhj": {
       "root": [
@@ -168426,9 +168418,9 @@
       ],
       "class": "noun",
       "gloss": "swack (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "wangïfchïf",
-      "old_citation_form": "wanguchu"
+      "gender": "child",
+      "citation_form": "wanguchu",
+      "old_citation_form": "wangïfchïf"
     },
     "dhdng": {
       "root": [
@@ -168449,8 +168441,9 @@
       ],
       "class": "noun",
       "gloss": "nobiletin (auto-generated)",
-      "gender": "male",
-      "citation_form": "?adhaza"
+      "gender": "inanimate",
+      "citation_form": "?adhïfzïf",
+      "old_citation_form": "?adhaza"
     },
     "dshr": {
       "root": [
@@ -168570,8 +168563,9 @@
       ],
       "class": "noun",
       "gloss": "noctambulation (auto-generated)",
-      "gender": "female",
-      "citation_form": "shangodo"
+      "gender": "inanimate",
+      "citation_form": "shangïfdïf",
+      "old_citation_form": "shangodo"
     },
     "bfj": {
       "root": [
@@ -169022,8 +169016,7 @@
       "class": "noun",
       "gloss": "jigajig (auto-generated)",
       "gender": "child",
-      "citation_form": "fazhuju",
-      "old_citation_form": "fazhïfjïf"
+      "citation_form": "fazhuju"
     },
     "chngv": {
       "root": [
@@ -169803,9 +169796,9 @@
       ],
       "class": "noun",
       "gloss": "jibbing (auto-generated)",
-      "gender": "inanimate",
-      "citation_form": "vafïfzïf",
-      "old_citation_form": "vafuzu"
+      "gender": "child",
+      "citation_form": "vafuzu",
+      "old_citation_form": "vafïfzïf"
     },
     "tlng": {
       "root": [
@@ -169958,8 +169951,9 @@
       ],
       "class": "noun",
       "gloss": "jianzhi (auto-generated)",
-      "gender": "female",
-      "citation_form": "zhahoko"
+      "gender": "inanimate",
+      "citation_form": "zhahïfkïf",
+      "old_citation_form": "zhahoko"
     },
     "?ky": {
       "root": [
